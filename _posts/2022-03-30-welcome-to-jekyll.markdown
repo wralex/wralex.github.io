@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Welcome to WRAJ!"
 date:   2022-03-30 15:16:04 -0400
-categories: jekyll update
+categories: Bill Alexander Web Site
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Hello and thank you for visiting
 
 Jekyll requires blog post files to be named according to the following format:
 
