@@ -29,7 +29,7 @@ twitter_username: wralex
 github_username:  wralex
 
 # Build settings
-theme: minima
+theme: Hacker
 plugins:
   - jekyll-feed
 
