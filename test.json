@@ -1,0 +1,398 @@
+{
+    "type": "AdaptiveCard",
+    "hideOriginalBody": true,
+    "body": [
+        {
+            "type": "Container",
+            "id": "headingArea",
+            "style": "emphasis",
+            "items": [
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "items": [
+                                {
+                                    "type": "Image",
+                                    "url": "${heading.cmaLogo}"
+                                }
+                            ],
+                            "width": "auto"
+                        },
+                        {
+                            "type": "Column",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "${heading.title}",
+                                    "horizontalAlignment": "Center",
+                                    "size": "ExtraLarge",
+                                    "wrap": true,
+                                    "weight": "Bolder"
+                                }
+                            ],
+                            "width": "stretch"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "AssessmentInfo",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "Assessment #",
+                    "id": "assessNumberLabel",
+                    "size": "ExtraLarge",
+                    "weight": "Bolder",
+                    "color": "Accent",
+                    "spacing": "None"
+                },
+                {
+                    "type": "TextBlock",
+                    "text": "[${assessment.Name}](${environmentBaseUrl}/lightning/r/BMCServiceDesk__Change_Assessment__c/${assessment.Id}/view)",
+                    "id": "assessNumberValue",
+                    "size": "Medium",
+                    "weight": "Bolder",
+                    "spacing": "None"
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "dcrHeading",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "Change Request Information",
+                    "id": "changeRequestLabel",
+                    "size": "ExtraLarge",
+                    "weight": "Bolder",
+                    "color": "Accent",
+                    "separator": true
+                },
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "items": [
+                                {
+                                    "type": "FactSet",
+                                    "facts": [
+                                        {
+                                            "title": "**DCR #:**",
+                                            "value": "[${dcr.Name}](${environmentBaseUrl}/apex/BMCServiceDesk__RemedyforceConsole?record_id=${dcr.Id}&objectName=Change_Request__c)"
+                                        },
+                                        {
+                                            "title": "**Project:**",
+                                            "value": "${dcr.MISCNY_Project_Text__c}"
+                                        },
+                                        {
+                                            "title": "**Creator:**",
+                                            "value": "${creator.Name}"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "width": "stretch"
+                        },
+                        {
+                            "type": "Column",
+                            "items": [
+                                {
+                                    "type": "FactSet",
+                                    "facts": [
+                                        {
+                                            "title": "**Queue:**",
+                                            "value": "${dcr.BMCServiceDesk__queueName__c}"
+                                        },
+                                        {
+                                            "title": "**Staff:**",
+                                            "value": "${staff.Name}"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "width": "stretch"
+                        }
+                    ],
+                    "spacing": "Small"
+                },
+                {
+                    "type": "TextBlock",
+                    "text": "Change Description",
+                    "spacing": "Small",
+                    "size": "Medium",
+                    "weight": "Bolder",
+                    "color": "Accent"
+                },
+                {
+                    "type": "TextBlock",
+                    "text": "${dcr.BMCServiceDesk__shortDescription__c}",
+                    "spacing": "None"
+                }
+            ],
+            "separator": true
+        },
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": "10px",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "\\*",
+                                    "size": "Small",
+                                    "weight": "Bolder",
+                                    "color": "Attention",
+                                    "horizontalAlignment": "Right",
+                                    "fontType": "monospace"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Column",
+                            "width": "stretch",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "Assessment Status:",
+                                    "size": "Medium",
+                                    "weight": "Bolder",
+                                    "color": "Warning",
+                                    "horizontalAlignment": "Left"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Input.ChoiceSet",
+                    "choices": "${assessmentChoice.selections}",
+                    "placeholder": "${assessmentChoice.placeholder}",
+                    "id": "assessmentSelection",
+                    "isRequired": true,
+                    "errorMessage": "a choice is required",
+                    "spacing": "None"
+                },
+                {
+                    "type": "TextBlock",
+                    "text": "Comments:",
+                    "id": "commentsLabel",
+                    "spacing": "Small",
+                    "size": "Medium",
+                    "weight": "Bolder",
+                    "color": "Warning"
+                },
+                {
+                    "type": "Input.Text",
+                    "placeholder": "${assessmentChoice.commentsPlaceholder}",
+                    "isMultiline": true,
+                    "id": "commentsValue",
+                    "spacing": "None"
+                }
+            ],
+            "separator": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "_(**\\* - denotes required field(s)**; comments are required if there is work to be performed by your team)_",
+            "spacing": "Small",
+            "horizontalAlignment": "Left",
+            "height": "stretch",
+            "wrap": true,
+            "size": "Small",
+            "weight": "Default",
+            "color": "Default"
+        }
+    ],
+    "actions": [
+        {
+            "type": "Action.Http",
+            "title": "Submit",
+            "method": "POST",
+            "url": "https://prod-109.westus.logic.azure.com:443/workflows/ab7f1313848e4c73a5a8c6223056acd7/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=dM4IJIl6qKhGy5NmhSNixqrodcBc8dmmrgJMf4Bwt64",
+            "body": "{\"state\": \"${requestState}\", \"assessmentId\": \"${assessment.Id}\", \"assessment\":\"{{assessmentSelection.value}}\", \"comment\": \"{{commentsValue.value}}\"}",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Authorization"
+                }
+            ]
+        },
+        {
+            "type": "Action.ShowCard",
+            "title": "Show More",
+            "card": {
+                "type": "AdaptiveCard",
+                "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+                "version": "1.0",
+                "body": [
+                    {
+                        "type": "TextBlock",
+                        "text": "Additional Deployment Change Request Information",
+                        "horizontalAlignment": "Center",
+                        "wrap": true,
+                        "size": "Large",
+                        "weight": "Bolder",
+                        "color": "Accent"
+                    },
+                    {
+                        "type": "ColumnSet",
+                        "columns": [
+                            {
+                                "type": "Column",
+                                "items": [
+                                    {
+                                        "type": "FactSet",
+                                        "facts": [
+                                            {
+                                                "title": "**Begin**",
+                                                "value": "${dcr.BMCServiceDesk__Scheduled_Start_Date__c}"
+                                            },
+                                            {
+                                                "title": "**End**",
+                                                "value": "${dcr.BMCServiceDesk__Scheduled_End_Date__c}"
+                                            },
+                                            {
+                                                "title": "**Outage Req.**",
+                                                "value": "${dcr.MISCNY_Outage_Required__c}"
+                                            },
+                                            {
+                                                "title": "**Comm. Req.**",
+                                                "value": "${dcr.MISCNY_Communication_Required__c}"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "width": "stretch"
+                            },
+                            {
+                                "type": "Column",
+                                "items": [
+                                    {
+                                        "type": "FactSet",
+                                        "facts": [
+                                            {
+                                                "title": "**Initiator**",
+                                                "value": "${dcr.BMCServiceDesk__Initiator_First_Name__c} ${dcr.BMCServiceDesk__Initiator_Last_Name__c}"
+                                            },
+                                            {
+                                                "title": "**Approval**",
+                                                "value": "${dcr.Approval_Status_Label__c}"
+                                            },
+                                            {
+                                                "title": "**Status**",
+                                                "value": "${dcr.BMCServiceDesk__Status__c}"
+                                            },
+                                            {
+                                                "title": "**Category**",
+                                                "value": "${dcr.BMCServiceDesk__Change_Category__c}"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "width": "stretch"
+                            }
+                        ],
+                        "spacing": "Small"
+                    },
+                    {
+                        "type": "ColumnSet",
+                        "columns": [
+                            {
+                                "type": "Column",
+                                "items": [
+                                    {
+                                        "type": "FactSet",
+                                        "facts": [
+                                            {
+                                                "title": "**CR/EP**",
+                                                "value": "${dcr.EP_Tracking_Number__c}"
+                                            },
+                                            {
+                                                "title": "**Incidents**",
+                                                "value": "${dcr.Incidents}"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "width": "stretch"
+                            },
+                            {
+                                "type": "Column",
+                                "items": [
+                                    {
+                                        "type": "FactSet",
+                                        "facts": [
+                                            {
+                                                "title": "**Redmine**",
+                                                "value": "${dcr.MISCNY_Redmine_Tracking_Number_s__c}"
+                                            },
+                                            {
+                                                "title": "**Jira**",
+                                                "value": "${dcr.MISCNY_JIRA_Tracking_Number_s__c}"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "width": "stretch"
+                            }
+                        ],
+                        "spacing": "Small"
+                    },
+                    {
+                        "type": "TextBlock",
+                        "text": "Roll Out Plan",
+                        "size": "Medium",
+                        "weight": "Bolder",
+                        "color": "Good"
+                    },
+                    {
+                        "type": "TextBlock",
+                        "text": "${dcr.BMCServiceDesk__Roll_Out_Plan_Details__c}",
+                        "spacing": "None"
+                    },
+                    {
+                        "type": "TextBlock",
+                        "text": "Back Out Plan",
+                        "size": "Medium",
+                        "weight": "Bolder",
+                        "color": "Good"
+                    },
+                    {
+                        "type": "TextBlock",
+                        "text": "${dcr.BMCServiceDesk__Back_out_Plan_Details__c}",
+                        "spacing": "None"
+                    },
+                    {
+                        "type": "TextBlock",
+                        "text": "Validation Plan",
+                        "size": "Medium",
+                        "weight": "Bolder",
+                        "color": "Good"
+                    },
+                    {
+                        "type": "TextBlock",
+                        "text": "${dcr.Validation_Plan__c}",
+                        "spacing": "None"
+                    }
+                ]
+            }
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.0"
+  }
