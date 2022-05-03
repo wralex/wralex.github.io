@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "AZ400 Videos"
+date:   2022-05-03 18:41:04 -0400
+categories: Bill Alexander Web Site
+---
+
 # Videos
 
 1. [Designing and Implementing an Agile Work Management Approach](https://web.microsoftstream.com/embed/video/414405c1-ef4d-4b75-8fc5-19bea4e9e226?st=0)
