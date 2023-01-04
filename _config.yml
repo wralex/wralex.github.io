@@ -28,6 +28,9 @@ url: "https://wralex.github.io/" # the base hostname & protocol for your site, e
 github_username:  wralex
 markdown: kramdown
 
+theme: minima
+plugins:
+  - jekyll-feed
 # Build settings
 
 # Exclude from processing.
