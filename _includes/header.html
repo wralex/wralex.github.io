@@ -1,6 +1,11 @@
 <header class="site-header" role="banner">
-    <div class="wrapper">
-      <a class="site-title" rel="author" href="/">WRAJ GitHub Pages</a>
+
+  <div class="wrapper">
+    {%- assign default_paths = site.pages | map: "path" -%}
+    {%- assign page_paths = site.header_pages | default: default_paths -%}
+    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+
+    {%- if page_paths -%}
       <nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
         <label for="nav-trigger">
@@ -10,12 +15,11 @@
             </svg>
           </span>
         </label>
+
         <div class="trigger">
           <a class="page-link" href="/AZ400/">AZ400: Designing and Implementing Microsoft DevOps Solutions</a>
         </div>
       </nav>
-    </div>
-  </header>
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js" integrity="sha512-3j3VU6WC5rPQB4Ld1jnLV7Kd5xr+cq9avvhwqzbH/taCRNURoeEpoPBK9pDyeukwSxwRPJ8fDgvYXd6SkaZ2TA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="/ChkBoxScripts.js"></script>
+    {%- endif -%}
+  </div>
+</header>
