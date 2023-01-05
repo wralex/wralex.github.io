@@ -1,0 +1,173 @@
+- title: Introduction to deployment patterns
+  description: This module introduces deployment patterns and explains microservices architecture to help improve the deployment cycle and examine classical and modern deployment patterns.
+  chkbxid: az400mod5-deployment
+  url: https://learn.microsoft.com/en-us/training/modules/introduction-to-deployment-patterns
+  mods:
+  - title: Introduction
+    chkbxid: az400mod5-deployment-01
+    url: https://learn.microsoft.com/en-us/training/modules/introduction-to-deployment-patterns/1-introduction
+  - title: Explore microservices architecture
+    chkbxid: az400mod5-deployment-02
+    url: https://learn.microsoft.com/en-us/training/modules/introduction-to-deployment-patterns/2-explore-microservices-architecture
+  - title: Examine classical deployment patterns
+    chkbxid: az400mod5-deployment-03
+    url: https://learn.microsoft.com/en-us/training/modules/introduction-to-deployment-patterns/3-examine-classical-deployment-patterns
+  - title: Understand modern deployment patterns
+    chkbxid: az400mod5-deployment-04
+    url: https://learn.microsoft.com/en-us/training/modules/introduction-to-deployment-patterns/4-understand-modern-deployment-patterns
+  - title: Knowledge check
+    chkbxid: az400mod5-deployment-05
+    url: https://learn.microsoft.com/en-us/training/modules/introduction-to-deployment-patterns/5-knowledge-check
+  - title: Summary
+    chkbxid: az400mod5-deployment-06
+    url: https://learn.microsoft.com/en-us/training/modules/introduction-to-deployment-patterns/6-summary
+
+- title: Implement blue-green deployment and feature toggles
+  description: This module describes the blue-green deployment process and introduces feature toggle techniques to implement in the development process.
+  chkbxid: az400mod5-bluegreen
+  url: https://learn.microsoft.com/en-us/training/modules/implement-blue-green-deployment-feature-toggles
+  mods:
+  - title: Introduction
+    chkbxid: az400mod5-bluegreen-01
+    url: https://learn.microsoft.com/en-us/training/modules/implement-blue-green-deployment-feature-toggles/1-introduction
+  - title: What is blue-green deployment?
+    chkbxid: az400mod5-bluegreen-02
+    url: https://learn.microsoft.com/en-us/training/modules/implement-blue-green-deployment-feature-toggles/2-what-blue-green-deployment
+  - title: Explore deployment slots
+    chkbxid: az400mod5-bluegreen-03
+    url: https://learn.microsoft.com/en-us/training/modules/implement-blue-green-deployment-feature-toggles/3-explore-deployment-slots
+  - title: Exercise - set up a blue-green deployment
+    chkbxid: az400mod5-bluegreen-04
+    url: https://learn.microsoft.com/en-us/training/modules/implement-blue-green-deployment-feature-toggles/4-exercise-set-up-blue-green-deployment
+  - title: Introduction to feature toggles
+    chkbxid: az400mod5-bluegreen-05
+    url: https://learn.microsoft.com/en-us/training/modules/implement-blue-green-deployment-feature-toggles/5-introduction-feature-toggles
+  - title: Describe feature toggle maintenance
+    chkbxid: az400mod5-bluegreen-06
+    url: https://learn.microsoft.com/en-us/training/modules/implement-blue-green-deployment-feature-toggles/6-describe-feature-toggle-maintenance
+  - title: Knowledge check
+    chkbxid: az400mod5-bluegreen-07
+    url: https://learn.microsoft.com/en-us/training/modules/implement-blue-green-deployment-feature-toggles/7-knowledge-check
+  - title: Summary
+    chkbxid: az400mod5-bluegreen-08
+    url: https://learn.microsoft.com/en-us/training/modules/implement-blue-green-deployment-feature-toggles/8-summary
+
+- title: Implement canary releases and dark launching
+  description: This module describes deployment strategies around canary releases and dark launching and examines traffic managers.
+  chkbxid: az400mod5-canary
+  url: https://learn.microsoft.com/en-us/training/modules/implement-canary-releases-dark-launching
+  mods:
+  - title: Introduction
+    chkbxid: az400mod5-canary-01
+    url: https://learn.microsoft.com/en-us/training/modules/implement-canary-releases-dark-launching/1-introduction
+  - title: Explore canary releases
+    chkbxid: az400mod5-canary-02
+    url: https://learn.microsoft.com/en-us/training/modules/implement-canary-releases-dark-launching/2-explore-canary-releases
+  - title: Examine Traffic Manager
+    chkbxid: az400mod5-canary-03
+    url: https://learn.microsoft.com/en-us/training/modules/implement-canary-releases-dark-launching/3-examine-traffic-manager
+  - title: Understand dark launching
+    chkbxid: az400mod5-canary-04
+    url: https://learn.microsoft.com/en-us/training/modules/implement-canary-releases-dark-launching/4-understand-dark-launching
+  - title: Knowledge check
+    chkbxid: az400mod5-canary-05
+    url: https://learn.microsoft.com/en-us/training/modules/implement-canary-releases-dark-launching/5-knowledge-check
+  - title: Summary
+    chkbxid: az400mod5-canary-06
+    url: https://learn.microsoft.com/en-us/training/modules/implement-canary-releases-dark-launching/6-summary
+
+- title: Implement A/B testing and progressive exposure deployment
+  description: This module introduces A/B test and progressive exposure deployment concepts and explores CI/CD with deployment rings -- ring-based deployment.
+  chkbxid: az400mod5-ab
+  url: https://learn.microsoft.com/en-us/training/modules/implement-test-progressive-exposure-deployment
+  mods:
+  - title: Introduction
+    chkbxid: az400mod5-ab-01
+    url: https://learn.microsoft.com/en-us/training/modules/implement-test-progressive-exposure-deployment/1-introduction
+  - title: What is A/B testing?
+    chkbxid: az400mod5-ab-02
+    url: https://learn.microsoft.com/en-us/training/modules/implement-test-progressive-exposure-deployment/2-what-a-b-testing
+  - title: Explore CI-CD with deployment rings
+    chkbxid: az400mod5-ab-03
+    url: https://learn.microsoft.com/en-us/training/modules/implement-test-progressive-exposure-deployment/3-explore-ci-cd-deployment-rings
+  - title: Exercise - Ring-based deployment
+    chkbxid: az400mod5-ab-04
+    url: https://learn.microsoft.com/en-us/training/modules/implement-test-progressive-exposure-deployment/4-exercise-ring-based-deployment
+  - title: Knowledge check
+    chkbxid: az400mod5-ab-05
+    url: https://learn.microsoft.com/en-us/training/modules/implement-test-progressive-exposure-deployment/5-knowledge-check
+  - title: Summary
+    chkbxid: az400mod5-ab-06
+    url: https://learn.microsoft.com/en-us/training/modules/implement-test-progressive-exposure-deployment/6-summary
+
+- title: Integrate with identity management systems
+  description: This module describes the integration with GitHub and single sign-on (SSO) for authentication, service principals, and managed service identities.
+  chkbxid: az400mod5-identity
+  url: https://learn.microsoft.com/en-us/training/modules/integrate-identity-management-systems
+  mods:
+  - title: Introduction
+    chkbxid: az400mod5-identity-01
+    url: https://learn.microsoft.com/en-us/training/modules/integrate-identity-management-systems/1-introduction
+  - title: Integrate GitHub with single sign-on (SSO)
+    chkbxid: az400mod5-identity-02
+    url: https://learn.microsoft.com/en-us/training/modules/integrate-identity-management-systems/2-integrate-github-single-sign-sso
+  - title: Explore service principals
+    chkbxid: az400mod5-identity-03
+    url: https://learn.microsoft.com/en-us/training/modules/integrate-identity-management-systems/3-explore-service-principals
+  - title: Explore Managed Identity
+    chkbxid: az400mod5-identity-04
+    url: https://learn.microsoft.com/en-us/training/modules/integrate-identity-management-systems/4-explore-managed-identity
+  - title: Knowledge check
+    chkbxid: az400mod5-identity-05
+    url: https://learn.microsoft.com/en-us/training/modules/integrate-identity-management-systems/5-knowledge-check
+  - title: Summary
+    chkbxid: az400mod5-identity-06
+    url: https://learn.microsoft.com/en-us/training/modules/integrate-identity-management-systems/6-summary
+
+- title: Manage application configuration data
+  description: This module explores ways to rethink application configuration data and the separation of concerns method. It helps you understand configuration patterns and how to integrate Azure Key Vault with Azure Pipelines. Also, describes Azure App Configuration and details Key-value pairs and App Configuration feature management.
+  chkbxid: az400mod5-config
+  url: https://learn.microsoft.com/en-us/training/modules/manage-application-configuration-data
+  mods:
+  - title: Introduction
+    chkbxid: az400mod5-config-01
+    url: https://learn.microsoft.com/en-us/training/modules/manage-application-configuration-data/1-introduction
+  - title: Rethink application configuration data
+    chkbxid: az400mod5-config-02
+    url: https://learn.microsoft.com/en-us/training/modules/manage-application-configuration-data/2-rethink-application-configuration-data
+  - title: Explore separation of concerns
+    chkbxid: az400mod5-config-03
+    url: https://learn.microsoft.com/en-us/training/modules/manage-application-configuration-data/3-explore-separation-of-concerns
+  - title: Understand external configuration store patterns
+    chkbxid: az400mod5-config-04
+    url: https://learn.microsoft.com/en-us/training/modules/manage-application-configuration-data/4-understand-external-configuration-store-patterns
+  - title: Introduction to Azure App Configuration
+    chkbxid: az400mod5-config-05
+    url: https://learn.microsoft.com/en-us/training/modules/manage-application-configuration-data/5-introduction-to-azure-app-configuration
+  - title: Examine Key-value pairs
+    chkbxid: az400mod5-config-06
+    url: https://learn.microsoft.com/en-us/training/modules/manage-application-configuration-data/6-examine-key-value-pairs
+  - title: Examine App configuration feature management
+    chkbxid: az400mod5-config-07
+    url: https://learn.microsoft.com/en-us/training/modules/manage-application-configuration-data/7-examine-app-configuration-feature-management
+  - title: Integrate Azure Key Vault with Azure Pipelines
+    chkbxid: az400mod5-config-08
+    url: https://learn.microsoft.com/en-us/training/modules/manage-application-configuration-data/8-integrate-azure-key-vault-azure-pipelines
+  - title: Manage secrets, tokens and certificates
+    chkbxid: az400mod5-config-09
+    url: https://learn.microsoft.com/en-us/training/modules/manage-application-configuration-data/9-manage-secrets-tokens-certificates
+  - title: Examine DevOps inner and outer loop
+    chkbxid: az400mod5-config-10
+    url: https://learn.microsoft.com/en-us/training/modules/manage-application-configuration-data/10-examine-devops-inner-outer-loop
+  - title: Integrate Azure Key Vault with Azure DevOps
+    chkbxid: az400mod5-config-11
+    url: https://learn.microsoft.com/en-us/training/modules/manage-application-configuration-data/11-integrate-azure-key-vault-with-azure-devops
+  - title: Enable Dynamic Configuration Feature Flags
+    chkbxid: az400mod5-config-12
+    url: https://learn.microsoft.com/en-us/training/modules/manage-application-configuration-data/12-enable-dynamic-configuration-feature-flags
+  - title: Knowledge check
+    chkbxid: az400mod5-config-13
+    url: https://learn.microsoft.com/en-us/training/modules/manage-application-configuration-data/13-knowledge-check
+  - title: Summary
+    chkbxid: az400mod5-config-14
+    url: https://learn.microsoft.com/en-us/training/modules/manage-application-configuration-data/14-summary

@@ -1,0 +1,182 @@
+- title: Structure your Git Repo
+  description: This module examines Git repositories structure, explains the differences between mono versus multiple repos, and helps you create a changelog.
+  url: https://learn.microsoft.com/en-us/training/modules/structure-your-git-repo
+  chkbxid: az400mod2-git
+  mods:
+  - title: Introduction
+    url: https://learn.microsoft.com/en-us/training/modules/structure-your-git-repo/1-introduction
+    chkbxid: az400mod2-git-01
+  - title: Explore monorepo versus multiple repos
+    url: https://learn.microsoft.com/en-us/training/modules/structure-your-git-repo/2-explore-monorepo-versus-multiple-repos
+    chkbxid: az400mod2-git-02
+  - title: Implement a change log
+    url: https://learn.microsoft.com/en-us/training/modules/structure-your-git-repo/3-implement-change-log
+    chkbxid: az400mod2-git-03
+  - title: Knowledge check
+    url: https://learn.microsoft.com/en-us/training/modules/structure-your-git-repo/4-knowledge-check
+    chkbxid: az400mod2-git-04
+  - title: Summary
+    url: https://learn.microsoft.com/en-us/training/modules/structure-your-git-repo/5-summary
+    chkbxid: az400mod2-git-05
+
+- title: Manage Git branches and workflows
+  description: This module explores Git branching types, concepts, and models for the continuous delivery process. It helps companies defining their branching strategy and organization.
+  url: https://learn.microsoft.com/en-us/training/modules/manage-git-branches-workflows
+  chkbxid: az400mod2-branch
+  mods:
+  - title: Introduction
+    url: https://learn.microsoft.com/en-us/training/modules/manage-git-branches-workflows/1-introduction
+    chkbxid: az400mod2-branch-01
+  - title: Explore branch workflow types
+    url: https://learn.microsoft.com/en-us/training/modules/manage-git-branches-workflows/2-explore-branch-workflow-types
+    chkbxid: az400mod2-branch-02
+  - title: Explore feature branch workflow
+    url: https://learn.microsoft.com/en-us/training/modules/manage-git-branches-workflows/3-explore-feature-branch-workflow
+    chkbxid: az400mod2-branch-03
+  - title: Explore Git branch model for continuous delivery
+    url: https://learn.microsoft.com/en-us/training/modules/manage-git-branches-workflows/4-explore-git-branch-model-for-continuous-delivery
+    chkbxid: az400mod2-branch-04
+  - title: Explore GitHub flow
+    url: https://learn.microsoft.com/en-us/training/modules/manage-git-branches-workflows/5-explore-github-flow
+    chkbxid: az400mod2-branch-05
+  - title: Explore fork workflow
+    url: https://learn.microsoft.com/en-us/training/modules/manage-git-branches-workflows/6-explore-fork-workflow
+    chkbxid: az400mod2-branch-06
+  - title: Version control with Git in Azure repos
+    url: https://learn.microsoft.com/en-us/training/modules/manage-git-branches-workflows/7-version-control-git-azure-repos
+    chkbxid: az400mod2-branch-07
+  - title: Knowledge check
+    url: https://learn.microsoft.com/en-us/training/modules/manage-git-branches-workflows/8-knowledge-check
+    chkbxid: az400mod2-branch-08
+  - title: Summary
+    url: https://learn.microsoft.com/en-us/training/modules/manage-git-branches-workflows/9-summary
+    chkbxid: az400mod2-branch-09
+
+- title: Collaborate with pull requests in Azure Repos
+  description: This module presents pull requests for collaboration and code reviews using Azure DevOps and GitHub mobile for pull request approvals. It helps understanding how pull requests works and how to configure them.
+  url: https://learn.microsoft.com/en-us/training/modules/collaborate-pull-requests-azure-repos
+  chkbxid: az400mod2-pull
+  mods:
+  - title: Introduction
+    url: https://learn.microsoft.com/en-us/training/modules/collaborate-pull-requests-azure-repos/1-introduction
+    chkbxid: az400mod2-pull-01
+  - title: Collaborate with pull requests
+    url: https://learn.microsoft.com/en-us/training/modules/collaborate-pull-requests-azure-repos/2-collaborate-pull-requests
+    chkbxid: az400mod2-pull-02
+  - title: Exercise - Azure Repos collaborating with pull requests
+    url: https://learn.microsoft.com/en-us/training/modules/collaborate-pull-requests-azure-repos/3-exercise-collaborate-pull-requests
+    chkbxid: az400mod2-pull-03
+  - title: Examine GitHub mobile for pull request approvals
+    url: https://learn.microsoft.com/en-us/training/modules/collaborate-pull-requests-azure-repos/4-examine-github-mobile-for-pull-request-approvals
+    chkbxid: az400mod2-pull-04
+  - title: Knowledge check
+    url: https://learn.microsoft.com/en-us/training/modules/collaborate-pull-requests-azure-repos/5-knowledge-check
+    chkbxid: az400mod2-pull-05
+  - title: Summary
+    url: https://learn.microsoft.com/en-us/training/modules/collaborate-pull-requests-azure-repos/6-summary
+    chkbxid: az400mod2-pull-06
+
+- title: Identify technical debt
+  description: This module examines technical debt, complexity, quality metrics, and plans for effective code reviews and code quality validation.
+  url: https://learn.microsoft.com/en-us/training/modules/identify-technical-debt
+  chkbxid: az400mod2-debt
+  mods:
+  - title: Introduction
+    url: https://learn.microsoft.com/en-us/training/modules/identify-technical-debt/1-introduction
+    chkbxid: az400mod2-debt-01
+  - title: Examine code quality
+    url: https://learn.microsoft.com/en-us/training/modules/identify-technical-debt/2-examine-code-quality
+    chkbxid: az400mod2-debt-02
+  - title: Examine complexity and quality metrics
+    url: https://learn.microsoft.com/en-us/training/modules/identify-technical-debt/3-examine-complexity-quality-metrics
+    chkbxid: az400mod2-debt-03
+  - title: Introduction to technical debt
+    url: https://learn.microsoft.com/en-us/training/modules/identify-technical-debt/4-introduction-technical-debt
+    chkbxid: az400mod2-debt-04
+  - title: Measure and manage technical debt
+    url: https://learn.microsoft.com/en-us/training/modules/identify-technical-debt/5-measure-manage-technical-debt
+    chkbxid: az400mod2-debt-05
+  - title: Integrate other code quality tools
+    url: https://learn.microsoft.com/en-us/training/modules/identify-technical-debt/6-integrate-other-code-quality-tools
+    chkbxid: az400mod2-debt-06
+  - title: Plan effective code reviews
+    url: https://learn.microsoft.com/en-us/training/modules/identify-technical-debt/7-plan-effective-code-reviews
+    chkbxid: az400mod2-debt-07
+  - title: Knowledge check
+    url: https://learn.microsoft.com/en-us/training/modules/identify-technical-debt/8-knowledge-check
+    chkbxid: az400mod2-debt-08
+  - title: Summary
+    url: https://learn.microsoft.com/en-us/training/modules/identify-technical-debt/9-summary
+    chkbxid: az400mod2-debt-09
+
+- title: Explore Git hooks
+  description: This module describes Git hooks and their usage during the development process, implementation, and behavior.
+  url: https://learn.microsoft.com/en-us/training/modules/explore-git-hooks
+  chkbxid: az400mod2-hooks
+  mods:
+  - title: Introduction
+    url: https://learn.microsoft.com/en-us/training/modules/explore-git-hooks/1-introduction
+    chkbxid: az400mod2-hooks-01
+  - title: Introduction to Git hooks
+    url: https://learn.microsoft.com/en-us/training/modules/explore-git-hooks/2-introduction-to
+    chkbxid: az400mod2-hooks-02
+  - title: Implement Git hooks
+    url: https://learn.microsoft.com/en-us/training/modules/explore-git-hooks/3-implement
+    chkbxid: az400mod2-hooks-03
+  - title: Knowledge check
+    url: https://learn.microsoft.com/en-us/training/modules/explore-git-hooks/4-knowledge-check
+    chkbxid: az400mod2-hooks-04
+  - title: Summary
+    url: https://learn.microsoft.com/en-us/training/modules/explore-git-hooks/5-summary
+    chkbxid: az400mod2-hooks-05
+
+- title: Plan foster inner source
+  description: This module explains how to use Git to foster inner sources across the organization, implement Fork and its workflows.
+  url: https://learn.microsoft.com/en-us/training/modules/plan-fostering-inner-source
+  chkbxid: az400mod2-inner
+  mods:
+  - title: Introduction
+    url: https://learn.microsoft.com/en-us/training/modules/plan-fostering-inner-source/1-introduction
+    chkbxid: az400mod2-inner-01
+  - title: Explore foster inner source
+    url: https://learn.microsoft.com/en-us/training/modules/plan-fostering-inner-source/2-explore-foster-inner-source
+    chkbxid: az400mod2-inner-02
+  - title: Implement the fork workflow
+    url: https://learn.microsoft.com/en-us/training/modules/plan-fostering-inner-source/3-implement-fork-workflow
+    chkbxid: az400mod2-inner-03
+  - title: Describe inner source with forks
+    url: https://learn.microsoft.com/en-us/training/modules/plan-fostering-inner-source/4-describe-forks
+    chkbxid: az400mod2-inner-04
+  - title: Knowledge check
+    url: https://learn.microsoft.com/en-us/training/modules/plan-fostering-inner-source/5-knowledge-check
+    chkbxid: az400mod2-inner-05
+  - title: Summary
+    url: https://learn.microsoft.com/en-us/training/modules/plan-fostering-inner-source/6-summary
+    chkbxid: az400mod2-inner-06
+
+- title: Manage Git repositories
+  description: This module explores how to work with large repositories, purge repository data and manage and automate release notes using GitHub.
+  url: https://learn.microsoft.com/en-us/training/modules/manage-git-repositories
+  chkbxid: az400mod2-repos
+  mods:
+  - title: Introduction
+    url: https://learn.microsoft.com/en-us/training/modules/manage-git-repositories/1-introduction
+    chkbxid: az400mod2-repos-01
+  - title: Work with large repositories
+    url: https://learn.microsoft.com/en-us/training/modules/manage-git-repositories/2-work-large-repositories
+    chkbxid: az400mod2-repos-02
+  - title: Purge repository data
+    url: https://learn.microsoft.com/en-us/training/modules/manage-git-repositories/3-purge-repository-data
+    chkbxid: az400mod2-repos-03
+  - title: Manage releases with GitHub Repos
+    url: https://learn.microsoft.com/en-us/training/modules/manage-git-repositories/4-manage-releases-github-repos
+    chkbxid: az400mod2-repos-04
+  - title: Automate release notes with GitHub
+    url: https://learn.microsoft.com/en-us/training/modules/manage-git-repositories/5-automate-release-notes-github
+    chkbxid: az400mod2-repos-05
+  - title: Knowledge check
+    url: https://learn.microsoft.com/en-us/training/modules/manage-git-repositories/6-knowledge-check
+    chkbxid: az400mod2-repos-06
+  - title: Summary
+    url: https://learn.microsoft.com/en-us/training/modules/manage-git-repositories/7-summary
+    chkbxid: az400mod2-repos-07

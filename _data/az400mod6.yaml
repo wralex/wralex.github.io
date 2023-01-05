@@ -1,0 +1,200 @@
+- title: Explore infrastructure as code and configuration management
+  description: This module describes key concepts of infrastructure as code and environment deployment creation and configuration. Also, understand the imperative, declarative, and idempotent configuration and how it applies to your company.
+  chkbxid: az400mod6-iac
+  url: https://learn.microsoft.com/en-us/training/modules/explore-infrastructure-code-configuration-management
+  mods:
+  - title: Introduction
+    chkbxid: az400mod6-iac-01
+    url: https://learn.microsoft.com/en-us/training/modules/explore-infrastructure-code-configuration-management/1-introduction
+  - title: Explore environment deployment
+    chkbxid: az400mod6-iac-02
+    url: https://learn.microsoft.com/en-us/training/modules/explore-infrastructure-code-configuration-management/2-explore-environment-deployment
+  - title: Examine environment configuration
+    chkbxid: az400mod6-iac-03
+    url: https://learn.microsoft.com/en-us/training/modules/explore-infrastructure-code-configuration-management/3-examine-environment-configuration
+  - title: Understand imperative versus declarative configuration
+    chkbxid: az400mod6-iac-04
+    url: https://learn.microsoft.com/en-us/training/modules/explore-infrastructure-code-configuration-management/4-understand-imperative-versus-declarative-configuration
+  - title: Understand idempotent configuration
+    chkbxid: az400mod6-iac-05
+    url: https://learn.microsoft.com/en-us/training/modules/explore-infrastructure-code-configuration-management/5-understand-idempotent-configuration
+  - title: Knowledge check
+    chkbxid: az400mod6-iac-06
+    url: https://learn.microsoft.com/en-us/training/modules/explore-infrastructure-code-configuration-management/6-knowledge-check
+  - title: Summary
+    chkbxid: az400mod6-iac-07
+    url: https://learn.microsoft.com/en-us/training/modules/explore-infrastructure-code-configuration-management/7-summary
+
+- title: Create Azure resources using Azure Resource Manager templates
+  description: This module explores Azure Resource Manager templates and their components and details dependencies and modularized templates with secrets.
+  chkbxid: az400mod6-arm
+  url: https://learn.microsoft.com/en-us/training/modules/create-azure-resources-using-azure-resource-manager-templates
+  mods:
+  - title: Introduction
+    chkbxid: az400mod6-arm-01
+    url: https://learn.microsoft.com/en-us/training/modules/create-azure-resources-using-azure-resource-manager-templates/1-introduction
+  - title: Why use Azure Resource Manager templates?
+    chkbxid: az400mod6-arm-02
+    url: https://learn.microsoft.com/en-us/training/modules/create-azure-resources-using-azure-resource-manager-templates/2-why-use-azure-resource-manager-templates
+  - title: Explore template components
+    chkbxid: az400mod6-arm-03
+    url: https://learn.microsoft.com/en-us/training/modules/create-azure-resources-using-azure-resource-manager-templates/3-explore-template-components
+  - title: Manage dependencies
+    chkbxid: az400mod6-arm-04
+    url: https://learn.microsoft.com/en-us/training/modules/create-azure-resources-using-azure-resource-manager-templates/4-manage-dependencies
+  - title: Modularize templates
+    chkbxid: az400mod6-arm-05
+    url: https://learn.microsoft.com/en-us/training/modules/create-azure-resources-using-azure-resource-manager-templates/5-modularize-templates
+  - title: Manage secrets in templates
+    chkbxid: az400mod6-arm-06
+    url: https://learn.microsoft.com/en-us/training/modules/create-azure-resources-using-azure-resource-manager-templates/6-manage-secrets-templates
+  - title: Azure deployments using Resource Manager templates
+    chkbxid: az400mod6-arm-07
+    url: https://learn.microsoft.com/en-us/training/modules/create-azure-resources-using-azure-resource-manager-templates/7-azure-deployment-using-resource-manager-templates
+  - title: Knowledge check
+    chkbxid: az400mod6-arm-08
+    url: https://learn.microsoft.com/en-us/training/modules/create-azure-resources-using-azure-resource-manager-templates/8-knowledge-check
+  - title: Summary
+    chkbxid: az400mod6-arm-09
+    url: https://learn.microsoft.com/en-us/training/modules/create-azure-resources-using-azure-resource-manager-templates/9-summary
+
+- title: Create Azure resources by using Azure CLI
+  description: This module explains Azure CLI to create Azure resources, run templates, and detail Azure CLI commands.
+  chkbxid: az400mod6-azcli
+  url: https://learn.microsoft.com/en-us/training/modules/create-azure-resources-by-using-azure-cli
+  mods:
+  - title: Introduction
+    chkbxid: az400mod6-azcli-01
+    url: https://learn.microsoft.com/en-us/training/modules/create-azure-resources-by-using-azure-cli/1-introduction
+  - title: What is Azure CLI?
+    chkbxid: az400mod6-azcli-02
+    url: https://learn.microsoft.com/en-us/training/modules/create-azure-resources-by-using-azure-cli/2-what-azure-cli
+  - title: Work with Azure CLI
+    chkbxid: az400mod6-azcli-03
+    url: https://learn.microsoft.com/en-us/training/modules/create-azure-resources-by-using-azure-cli/3-work-azure-cli
+  - title: Exercise - Run templates using Azure CLI
+    chkbxid: az400mod6-azcli-04
+    url: https://learn.microsoft.com/en-us/training/modules/create-azure-resources-by-using-azure-cli/4-exercise-run-templates-using-azure-cli
+  - title: Knowledge check
+    chkbxid: az400mod6-azcli-05
+    url: https://learn.microsoft.com/en-us/training/modules/create-azure-resources-by-using-azure-cli/5-knowledge-check
+  - title: Summary
+    chkbxid: az400mod6-azcli-06
+    url: https://learn.microsoft.com/en-us/training/modules/create-azure-resources-by-using-azure-cli/6-summary
+
+- title: Explore Azure Automation with DevOps
+  description: This module describes Azure Automation with Azure DevOps, using runbooks, webhooks, and PowerShell workflows. You'll learn how to create and manage automation for your environment.
+  chkbxid: az400mod6-azauto
+  url: https://learn.microsoft.com/en-us/training/modules/explore-azure-automation-devops
+  mods:
+  - title: Introduction
+    chkbxid: az400mod6-azauto-01
+    url: https://learn.microsoft.com/en-us/training/modules/explore-azure-automation-devops/1-introduction
+  - title: Create automation accounts
+    chkbxid: az400mod6-azauto-02
+    url: https://learn.microsoft.com/en-us/training/modules/explore-azure-automation-devops/2-create-automation-accounts
+  - title: What is a runbook?
+    chkbxid: az400mod6-azauto-03
+    url: https://learn.microsoft.com/en-us/training/modules/explore-azure-automation-devops/3-what-runbook
+  - title: Understand automation shared resources
+    chkbxid: az400mod6-azauto-04
+    url: https://learn.microsoft.com/en-us/training/modules/explore-azure-automation-devops/4-understand-automation-shared-resources
+  - title: Explore runbook gallery
+    chkbxid: az400mod6-azauto-05
+    url: https://learn.microsoft.com/en-us/training/modules/explore-azure-automation-devops/5-explore-runbook-gallery
+  - title: Examine webhooks
+    chkbxid: az400mod6-azauto-06
+    url: https://learn.microsoft.com/en-us/training/modules/explore-azure-automation-devops/6-examine-webhooks
+  - title: Explore source control integration
+    chkbxid: az400mod6-azauto-07
+    url: https://learn.microsoft.com/en-us/training/modules/explore-azure-automation-devops/7-explore-source-control-integration
+  - title: Explore PowerShell workflows
+    chkbxid: az400mod6-azauto-08
+    url: https://learn.microsoft.com/en-us/training/modules/explore-azure-automation-devops/8-explore-powershell-workflows
+  - title: Create a workflow
+    chkbxid: az400mod6-azauto-09
+    url: https://learn.microsoft.com/en-us/training/modules/explore-azure-automation-devops/9-create-workflow
+  - title: Exercise - Create and run a workflow runbook
+    chkbxid: az400mod6-azauto-10
+    url: https://learn.microsoft.com/en-us/training/modules/explore-azure-automation-devops/10-exercise-create-run-workflow-runbook
+  - title: Examine checkpoint and parallel processing
+    chkbxid: az400mod6-azauto-11
+    url: https://learn.microsoft.com/en-us/training/modules/explore-azure-automation-devops/11-examine-checkpoint-parallel-processing
+  - title: Knowledge check
+    chkbxid: az400mod6-azauto-12
+    url: https://learn.microsoft.com/en-us/training/modules/explore-azure-automation-devops/12-knowledge-check
+  - title: Summary
+    chkbxid: az400mod6-azauto-13
+    url: https://learn.microsoft.com/en-us/training/modules/explore-azure-automation-devops/13-summary
+
+- title: Implement Desired State Configuration (DSC)
+  description: This module describes Desired State Configuration (DSC) and its components for implementation. You can exercise how to import, compile and automate your environment creation, and use DSC for Linux automation on Azure.
+  chkbxid: az400mod6-dsc
+  url: https://learn.microsoft.com/en-us/training/modules/implement-desired-state-configuration-dsc
+  mods:
+  - title: Introduction
+    chkbxid: az400mod6-dsc-01
+    url: https://learn.microsoft.com/en-us/training/modules/implement-desired-state-configuration-dsc/1-introduction
+  - title: Understand configuration drift
+    chkbxid: az400mod6-dsc-02
+    url: https://learn.microsoft.com/en-us/training/modules/implement-desired-state-configuration-dsc/2-understand-configuration-drift
+  - title: Explore Desired State Configuration (DSC)
+    chkbxid: az400mod6-dsc-03
+    url: https://learn.microsoft.com/en-us/training/modules/implement-desired-state-configuration-dsc/3-explore-desired-state-configuration-dsc
+  - title: Explore Azure Automation State configuration (DSC)
+    chkbxid: az400mod6-dsc-04
+    url: https://learn.microsoft.com/en-us/training/modules/implement-desired-state-configuration-dsc/4-explore-azure-automation
+  - title: Examine DSC configuration file
+    chkbxid: az400mod6-dsc-05
+    url: https://learn.microsoft.com/en-us/training/modules/implement-desired-state-configuration-dsc/5-examine-dsc-configuration-file
+  - title: Exercise - Import and compile
+    chkbxid: az400mod6-dsc-06
+    url: https://learn.microsoft.com/en-us/training/modules/implement-desired-state-configuration-dsc/6-exercise-import-compile
+  - title: Exercise - Onboard machines for management
+    chkbxid: az400mod6-dsc-07
+    url: https://learn.microsoft.com/en-us/training/modules/implement-desired-state-configuration-dsc/7-exercise-onboard-machines-for-management
+  - title: Explore hybrid management
+    chkbxid: az400mod6-dsc-08
+    url: https://learn.microsoft.com/en-us/training/modules/implement-desired-state-configuration-dsc/8-explore-hybrid-management
+  - title: Implement DSC and Linux Automation on Azure
+    chkbxid: az400mod6-dsc-09
+    url: https://learn.microsoft.com/en-us/training/modules/implement-desired-state-configuration-dsc/9-implement-dsc-linux-automation-azure
+  - title: Knowledge check
+    chkbxid: az400mod6-dsc-10
+    url: https://learn.microsoft.com/en-us/training/modules/implement-desired-state-configuration-dsc/10-knowledge-check
+  - title: Summary
+    chkbxid: az400mod6-dsc-11
+    url: https://learn.microsoft.com/en-us/training/modules/implement-desired-state-configuration-dsc/11-summary
+
+- title: Implement Bicep
+  description: This module explains Bicep and how it integrates with different tools such as Azure CLI and Visual Studio Code for environment deployment configuration.
+  chkbxid: az400mod6-bicep
+  url: https://learn.microsoft.com/en-us/training/modules/implement-bicep
+  mods:
+  - title: Introduction
+    chkbxid: az400mod6-bicep-01
+    url: https://learn.microsoft.com/en-us/training/modules/implement-bicep/1-introduction
+  - title: What is Bicep?
+    chkbxid: az400mod6-bicep-02
+    url: https://learn.microsoft.com/en-us/training/modules/implement-bicep/2-what-bicep
+  - title: Install Bicep
+    chkbxid: az400mod6-bicep-03
+    url: https://learn.microsoft.com/en-us/training/modules/implement-bicep/3-install-bicep
+  - title: Exercise - Create Bicep templates
+    chkbxid: az400mod6-bicep-04
+    url: https://learn.microsoft.com/en-us/training/modules/implement-bicep/4-exercise-create-bicep-templates
+  - title: Understand Bicep file structure and syntax
+    chkbxid: az400mod6-bicep-05
+    url: https://learn.microsoft.com/en-us/training/modules/implement-bicep/5-understand-bicep-file-structure-syntax
+  - title: Exercise - Deploy a Bicep file from Azure Pipelines
+    chkbxid: az400mod6-bicep-06
+    url: https://learn.microsoft.com/en-us/training/modules/implement-bicep/6-exercise-deploy-bicep-file-azure-pipelines
+  - title: Exercise - Deploy a Bicep file from GitHub workflows
+    chkbxid: az400mod6-bicep-07
+    url: https://learn.microsoft.com/en-us/training/modules/implement-bicep/7-exercise-deploy-bicep-file-github-workflows
+  - title: Knowledge check
+    chkbxid: az400mod6-bicep-08
+    url: https://learn.microsoft.com/en-us/training/modules/implement-bicep/8-knowledge-check
+  - title: Summary
+    chkbxid: az400mod6-bicep-09
+    url: https://learn.microsoft.com/en-us/training/modules/implement-bicep/9-summary
