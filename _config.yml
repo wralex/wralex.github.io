@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   This site will be used for communicating projects that I have been working on
   and any education that I can share with the community.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://wralex.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://wralex.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  wralex
 markdown: kramdown
 
