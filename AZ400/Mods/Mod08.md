@@ -18,5 +18,4 @@ This learning path introduces the continuous feedback concept and describes how 
 </details>
 {% endfor %}
 
-<small>_referenced from_<br />
-<https://learn.microsoft.com/en-us/training/paths/az-400-implement-continuous-feedback/></small>
+[**Next (<small>_Module 09: Implement security and validate code bases for compliance_</small>) >**](Mod09)

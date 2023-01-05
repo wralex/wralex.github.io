@@ -18,5 +18,4 @@ This learning path examines the key Git features that organizations must plan fo
 </details>
 {% endfor %}
 
-<small>_referenced from_<br />
-<https://learn.microsoft.com/en-us/training/paths/az-400-work-git-for-enterprise-devops/></small>
+[**Next (<small>_Module 03: Implement CI with Azure Pipelines and GitHub Actions_</small>) >**](Mod03)

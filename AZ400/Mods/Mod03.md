@@ -18,5 +18,4 @@ This learning path introduces the continuous integration concept using Azure Pip
 </details>
 {% endfor %}
 
-<small>_referenced from_<br />
-<https://learn.microsoft.com/en-us/training/paths/az-400-implement-ci-azure-pipelines-github-actions/></small>
+[**Next (<small>_Module 04: Design and implement a release strategy_</small>) >**](Mod04)

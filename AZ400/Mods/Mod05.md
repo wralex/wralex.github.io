@@ -18,5 +18,4 @@ This learning path helps you understand automated release gates, secrets, and se
 </details>
 {% endfor %}
 
-<small>_referenced from_<br />
-<https://learn.microsoft.com/en-us/training/paths/az-400-implement-secure-continuous-deployment/></small>
+[**Next (<small>_Module 06: Manage infrastructure as code using Azure and DSC_</small>) >**](Mod06)

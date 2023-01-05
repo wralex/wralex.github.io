@@ -18,5 +18,4 @@ This learning path explains the concepts of continuous delivery and releases str
 </details>
 {% endfor %}
 
-<small>_referenced from_<br />
-<https://learn.microsoft.com/en-us/training/paths/az-400-design-implement-release-strategy/></small>
+[**Next (<small>_Module 05: Implement a secure continuous deployment using Azure Pipelines_</small>) >**](Mod05)

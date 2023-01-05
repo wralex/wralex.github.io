@@ -18,5 +18,4 @@ This learning path helps you understand **what DevOps is** and how to **plan for
 </details>
 {% endfor %}
 
-<small>_referenced from_<br />
-<https://learn.microsoft.com/en-us/training/paths/az-400-get-started-devops-transformation-journey/></small>
+[**Next (<small>_Module 02: Development for enterprise DevOps_</small>) >**](Mod02)

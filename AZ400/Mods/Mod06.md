@@ -18,5 +18,4 @@ This learning path explores the “Infrastructure as Code” (IaC) concept and h
 </details>
 {% endfor %}
 
-<small>_referenced from_<br />
-<https://learn.microsoft.com/en-us/training/paths/az-400-manage-infrastructure-as-code-using-azure/></small>
+[**Next (<small>_Module 07: Design and implement a dependency management strategy_</small>) >**](Mod07)

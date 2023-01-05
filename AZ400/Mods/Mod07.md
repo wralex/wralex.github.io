@@ -18,5 +18,4 @@ This learning path examines dependency management in software development, how t
 </details>
 {% endfor %}
 
-<small>_referenced from_<br />
-<https://learn.microsoft.com/en-us/training/paths/az-400-design-implement-dependency-management-strategy/></small>
+[**Next (<small>_Module 08: Implement continuous feedback_</small>) >**](Mod08)
