@@ -46,7 +46,7 @@ In this exercise, you will set up the prerequisites for the lab, which consist o
 
 In this task, you will create an **eShopOnWeb** Azure DevOps project to be used by several labs.
 
-1. <input type="checkbox" class="box" id="az400-lab02-exer0-task1-01" name="az400-lab02-exer0-task1-01" /> On your lab computer, in a browser window open your Azure DevOps organization. Click on **New Project**. Give your project the name <span id="eshoponweb">**eShopOnWeb**</span><sup><button style="font-size:7px;" onclick="posttoclip('eshoponweb')">Copy</button></sup> and choose **Scrum** on the **Work Item process** dropdown. Click on **Create**.
+1. <input type="checkbox" class="box" id="az400-lab02-exer0-task1-01" name="az400-lab02-exer0-task1-01" /> On your lab computer, in a browser window open your Azure DevOps organization. Click on **New Project**. Give your project the name <span id="eshoponweb">**eShopOnWeb**</span> <i title="Copy Text" class="fas fa-clipboard" onclick="posttoclip('eshoponweb')"></i> and choose **Scrum** on the **Work Item process** dropdown. Click on **Create**.
 
     ![Create Project](images/create-project.png)
 
@@ -54,7 +54,7 @@ In this task, you will create an **eShopOnWeb** Azure DevOps project to be used 
 
 In this task you will import the eShopOnWeb Git repository that will be used by several labs.
 
-1. <input type="checkbox" class="box" id="az400-lab02-exer0-task2-01" name="az400-lab02-exer0-task2-01" />  On your lab computer, in a browser window open your Azure DevOps organization and the previously created **eShopOnWeb** project. Click on **Repos>Files** , **Import**. On the **Import a Git Repository** window, paste the following URL <span id="mslearneshoponweb">`https://github.com/MicrosoftLearning/eShopOnWeb.git`</span><sup><button style="font-size:7px;" onclick="posttoclip('mslearneshoponweb')">Copy</button></sup> and click on **Import**:
+1. <input type="checkbox" class="box" id="az400-lab02-exer0-task2-01" name="az400-lab02-exer0-task2-01" />  On your lab computer, in a browser window open your Azure DevOps organization and the previously created **eShopOnWeb** project. Click on **Repos>Files** , **Import**. On the **Import a Git Repository** window, paste the following URL <span id="mslearneshoponweb">`https://github.com/MicrosoftLearning/eShopOnWeb.git`</span>  <i title="Copy Text" class="fas fa-clipboard" onclick="posttoclip('mslearneshoponweb')"></i> and click on **Import**:
 
     ![Import Repository](images/import-repo.png)
 
@@ -79,12 +79,12 @@ In this task, you will install and configure Git and Visual Studio Code, includi
 
    <div class="language-git highlighter-rouge" style="margin-bottom:20px;">
    <code id="az400-lab02-exer0-task3-04-code">git config --global credential.helper wincred</code>
-   <sup><button style="font-size:7px;" onclick="posttoclip('az400-lab02-exer0-task3-04-code')">Copy</button></sup></div>
+   <i title="Copy Text" class="fas fa-clipboard" onclick="posttoclip('az400-lab02-exer0-task3-04-code')"></i></div>
 
 5. <input type="checkbox" class="box" id="az400-lab02-exer0-task3-05" name="az400-lab02-exer0-task3-05" /> In the **TERMINAL** pane, run the following commands to configure a user name and email for Git commits (replace the placeholders in braces with your preferred user name and email eliminating the < and > symbols):
 
    <div class="language-git highlighter-rouge">
-   <sup style="float:right"><button style="font-size:7px;" onclick="posttoclip('az400-lab02-exer0-task3-05-code')">Copy</button></sup>
+   <i style="float:right;" title="Copy Text" class="fas fa-clipboard" onclick="posttoclip('az400-lab02-exer0-task3-05-code')"></i>
    <pre><code id="az400-lab02-exer0-task3-05-code">git config --global user.name "<var>&lt;John Doe&gt;</var>"
    git config --global user.email <var>&lt;johndoe@example.com&gt;</var></code></pre>
    </div>
@@ -150,7 +150,7 @@ In this task, you will use Visual Studio Code to commit changes.
 
    <div class="language-csharp highlighter-rouge" style="margin-bottom:20px;">
    <code id="az400-lab02-exer2-task1-02-code">// My first change</code>
-   <sup><button style="font-size:7px;" onclick="posttoclip('az400-lab02-exer2-task1-02-code')">Copy</button></sup></div>
+   <i title="Copy Text" class="fas fa-clipboard" onclick="posttoclip('az400-lab02-exer2-task1-02-code')"></i></div>
 
    > **Note**: It doesn't really matter what the comment is since the goal is just to make a change.
 
@@ -185,14 +185,14 @@ In this task, you will explore the use of staging changes by using Visual Studio
 
    <div class="language-csharp highlighter-rouge" style="margin-bottom:20px;">
    <code id="az400-lab02-exer2-task3-02-code">// My second change</code>
-   <sup><button style="font-size:7px;" onclick="posttoclip('az400-lab02-exer2-task3-02-code')">Copy</button></sup></div>
+   <i title="Copy Text" class="fas fa-clipboard" onclick="posttoclip('az400-lab02-exer2-task3-02-code')"></i></div>
 
 3. <input type="checkbox" class="box" id="az400-lab02-exer2-task3-03" name="az400-lab02-exer2-task3-03" /> In the Visual Studio Code window, switch back the **EXPLORER** tab, navigate to the **/eShopOnWeb/src/Web/Constants.cs** file and select it. This will automatically display its content in the details pane.
 4. <input type="checkbox" class="box" id="az400-lab02-exer2-task3-04" name="az400-lab02-exer2-task3-04" /> Add to the **Constants.cs** file a comment on the first line and save the file.
 
    <div class="language-csharp highlighter-rouge" style="margin-bottom:20px;">
    <code id="az400-lab02-exer2-task3-04-code">// My third change</code>
-   <sup><button style="font-size:7px;" onclick="posttoclip('az400-lab02-exer2-task3-04-code')">Copy</button></sup></div>
+   <i title="Copy Text" class="fas fa-clipboard" onclick="posttoclip('az400-lab02-exer2-task3-04-code')"></i></div>
 
 5. <input type="checkbox" class="box" id="az400-lab02-exer2-task3-05" name="az400-lab02-exer2-task3-05" /> In the Visual Studio Code window, switch to the **SOURCE CONTROL** tab, hover the mouse pointer over the **Program.cs** entry, and click the plus sign on the right side of that entry.
 
@@ -337,7 +337,7 @@ In this task, you will use the Azure DevOps portal to test the policy and create
 
    <div class="language-csharp highlighter-rouge" style="margin-bottom:20px;">
    <code id="az400-lab02-exer4-task5-03-code">// Testing main branch policy</code>
-   <sup><button style="font-size:7px;" onclick="posttoclip('az400-lab02-exer4-task5-03-code')">Copy</button></sup></div>
+   <i title="Copy Text" class="fas fa-clipboard" onclick="posttoclip('az400-lab02-exer4-task5-03-code')"></i></div>
 
 4. <input type="checkbox" class="box" id="az400-lab02-exer4-task5-04" name="az400-lab02-exer4-task5-04" /> Click on **Commit > Commit**. You will see a warning: changes to the main branch can only be done using a Pull Request.
 
@@ -356,7 +356,7 @@ In this task, you will use the Azure DevOps portal to create a Pull Request, usi
 
    <div class="language-csharp highlighter-rouge" style="margin-bottom:20px;">
    <code id="az400-lab02-exer4-task6-04-code">// Testing my first PR</code>
-   <sup><button style="font-size:7px;" onclick="posttoclip('az400-lab02-exer4-task6-04-code')">Copy</button></sup></div>
+   <i title="Copy Text" class="fas fa-clipboard" onclick="posttoclip('az400-lab02-exer4-task6-04-code')"></i></div>
 
 5. <input type="checkbox" class="box" id="az400-lab02-exer4-task6-05" name="az400-lab02-exer4-task6-05" /> Click on **Commit > Commit** (leave default commit message). This time the commit works, **dev** branch has no policies.
 6. <input type="checkbox" class="box" id="az400-lab02-exer4-task6-06" name="az400-lab02-exer4-task6-06" /> A message will pop-up, proposing to create a Pull Request (as you **dev** branch is now ahead in changes, compared to **main**). Click on **Create a Pull Request**.

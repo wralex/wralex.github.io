@@ -45,7 +45,7 @@ In this task, you will use Azure DevOps Demo Generator to generate a new project
     ![Azure DevOps Generator website. Clik on "Sign In" option](images/m1/demo_signin_v1.png)
 
 3. <input type="checkbox" class="box" id="az400-lab01-exer0-task1-03" name="az400-lab01-exer0-task1-03" /> If required, on the **Azure DevOps Demo Generator** page, click **Accept** to accept the permission requests for accessing your Azure DevOps subscription.
-4. <input type="checkbox" class="box" id="az400-lab01-exer0-task1-04" name="az400-lab01-exer0-task1-04" /> On the **Create New Project** page, in the **New Project Name** textbox, type <span id="agileplanning">**Agile Planning and Portfolio Management with Azure Boards**</span><sup><button style="font-size:7px;" onclick="posttoclip('agileplanning')">Copy</button></sup>, in the **Select organization** dropdown list, select your Azure DevOps organization, and then click **Choose template**.
+4. <input type="checkbox" class="box" id="az400-lab01-exer0-task1-04" name="az400-lab01-exer0-task1-04" /> On the **Create New Project** page, in the **New Project Name** textbox, type <span id="agileplanning">**Agile Planning and Portfolio Management with Azure Boards**</span> <i title="Copy Text" class="fas fa-clipboard" onclick="posttoclip('agileplanning')"></i>, in the **Select organization** dropdown list, select your Azure DevOps organization, and then click **Choose template**.
 5. <input type="checkbox" class="box" id="az400-lab01-exer0-task1-05" name="az400-lab01-exer0-task1-05" /> In the list of templates, locate the **PartsUnlimited** template and click **Select Template**.
 
     ![Azure DevOps Generator website. On the choose template window, select "PartsUnlimited"](images/m1/pu_template_v1.png)
@@ -83,7 +83,7 @@ Each new project is configured with a default team, which name matches the proje
 
     ![In project settings window, "Teams" tab, click on "New Team"](images/m1/new_team_v1.png)
 
-4. <input type="checkbox" class="box" id="az400-lab01-exer1-task1-04" name="az400-lab01-exer1-task1-04" /> On the **Create a new team** pane, in the **Team name** textbox, type <span id="pulweb">**PUL-Web**</span><sup><button style="font-size:7px;" onclick="posttoclip('pulweb')">Copy</button></sup>, leave other settings with their default values, and click **Create**.
+4. <input type="checkbox" class="box" id="az400-lab01-exer1-task1-04" name="az400-lab01-exer1-task1-04" /> On the **Create a new team** pane, in the **Team name** textbox, type <span id="pulweb">**PUL-Web**</span> <i title="Copy Text" class="fas fa-clipboard" onclick="posttoclip('pulweb')"></i>, leave other settings with their default values, and click **Create**.
 
     ![In "create a new team" window, call your new team "PUL-Web" and click "Create"](images/m1/pulweb_v1.png)
 
@@ -130,7 +130,7 @@ Work items play a prominent role in Azure DevOps. Whether describing work to be 
 
     ![In the "Boards">"Work Items" window, click on "New work item" >Epic](images/m1/create_epic_v1.png)
 
-3. <input type="checkbox" class="box" id="az400-lab01-exer1-task2-03" name="az400-lab01-exer1-task2-03" /> In the **Enter title** textbox, type <span id="producttraining">**Product training**</span><sup><button style="font-size:7px;" onclick="posttoclip('producttraining')">Copy</button></sup>.
+3. <input type="checkbox" class="box" id="az400-lab01-exer1-task2-03" name="az400-lab01-exer1-task2-03" /> In the **Enter title** textbox, type <span id="producttraining">**Product training**</span> <i title="Copy Text" class="fas fa-clipboard" onclick="posttoclip('producttraining')"></i>.
 4. <input type="checkbox" class="box" id="az400-lab01-exer1-task2-04" name="az400-lab01-exer1-task2-04" /> In the upper left corner, select the **Unassigned** entry and, in the dropdown list, select your user account in order to assign the new work item to yourself.
 5. <input type="checkbox" class="box" id="az400-lab01-exer1-task2-05" name="az400-lab01-exer1-task2-05" /> Next to the **Area** entry, select the **Agile Planning and Portfolio Management with Azure Boards** entry and, in the dropdown list, select **PUL-Web**. This will set the **Area** to **Agile Planning and Portfolio Management with Azure Boards\PUL-Web**.
 6. <input type="checkbox" class="box" id="az400-lab01-exer1-task2-06" name="az400-lab01-exer1-task2-06" /> Next to the **Iteration** entry, select the **Agile Planning and Portfolio Management with Azure Boards** entry and, in the dropdown list, select **Sprint 2**. This will set the **Iteration** to **Agile Planning and Portfolio Management with Azure Boards\Sprint 2**.
@@ -143,7 +143,7 @@ Work items play a prominent role in Azure DevOps. Whether describing work to be 
     > **Note**: The work item form includes all of the relevant work item settings. This includes details about who it's assigned to, its status across many parameters, and all the associated information and history for how it has been handled since creation. One of the key areas to focus on is the **Related Work**. We will explore one of the ways to add a feature to this epic.
 
 8. <input type="checkbox" class="box" id="az400-lab01-exer1-task2-08" name="az400-lab01-exer1-task2-08" /> In the **Related work** section on the lower right-side, select the **Add link** entry and, in the dropdown list, select **New item**.
-9. <input type="checkbox" class="box" id="az400-lab01-exer1-task2-09" name="az400-lab01-exer1-task2-09" /> On the **Add link** panel, in the **Work item type** dropdown list, select **Feature**, in the **Title** textbox, type <span id="trainingdashboard">**Training dashboard**</span><sup><button style="font-size:7px;" onclick="posttoclip('trainingdashboard')">Copy</button></sup> and click **OK**.
+9. <input type="checkbox" class="box" id="az400-lab01-exer1-task2-09" name="az400-lab01-exer1-task2-09" /> On the **Add link** panel, in the **Work item type** dropdown list, select **Feature**, in the **Title** textbox, type <span id="trainingdashboard">**Training dashboard**</span> <i title="Copy Text" class="fas fa-clipboard" onclick="posttoclip('trainingdashboard')"></i> and click **OK**.
 
     ![Include Title "Training Dashboard" and click "OK"](images/m1/child_feature_v1.png)
 
@@ -167,11 +167,11 @@ Work items play a prominent role in Azure DevOps. Whether describing work to be 
 
     ![Click on the ellipis for "Training dashboard" feature and click "Add Product Backlog Item"](images/m1/add_pb_v1.png)
 
-16. <input type="checkbox" class="box" id="az400-lab01-exer1-task2-16" name="az400-lab01-exer1-task2-16" /> In the textbox of the new product backlog item, type <span id="viewnewtutorial">**As a customer, I want to view new tutorials**</span><sup><button style="font-size:7px;" onclick="posttoclip('viewnewtutorial')">Copy</button></sup> and press the **Enter** key to save the entry.
+16. <input type="checkbox" class="box" id="az400-lab01-exer1-task2-16" name="az400-lab01-exer1-task2-16" /> In the textbox of the new product backlog item, type <span id="viewnewtutorial">**As a customer, I want to view new tutorials**</span> <i title="Copy Text" class="fas fa-clipboard" onclick="posttoclip('viewnewtutorial')"></i> and press the **Enter** key to save the entry.
 
     > **Note**: This creates a new product backlog item (PBI) work item that is a child of the feature and shares its area and iteration.
 
-17. <input type="checkbox" class="box" id="az400-lab01-exer1-task2-17" name="az400-lab01-exer1-task2-17" /> Repeat the previous step to add two more PBIs designed to enable the customer to see their recently viewed tutorials and to request new tutorials named, respectively, <span id="asacustomer">**As a customer, I want to see tutorials I recently viewed**</span><sup><button style="font-size:7px;" onclick="posttoclip('asacustomer')">Copy</button></sup> and <span id="requestnewtutorial">**As a customer, I want to request new tutorials**</span><sup><button style="font-size:7px;" onclick="posttoclip('requestnewtutorial')">Copy</button></sup>.
+17. <input type="checkbox" class="box" id="az400-lab01-exer1-task2-17" name="az400-lab01-exer1-task2-17" /> Repeat the previous step to add two more PBIs designed to enable the customer to see their recently viewed tutorials and to request new tutorials named, respectively, <span id="asacustomer">**As a customer, I want to see tutorials I recently viewed**</span> <i title="Copy Text" class="fas fa-clipboard" onclick="posttoclip('asacustomer')"></i> and <span id="requestnewtutorial">**As a customer, I want to request new tutorials**</span> <i title="Copy Text" class="fas fa-clipboard" onclick="posttoclip('requestnewtutorial')"></i>.
 
     ![Repeat by clicking on "Add Product Backlog" ](images/m1/pbis_v1.png)
 
@@ -206,14 +206,14 @@ Work items play a prominent role in Azure DevOps. Whether describing work to be 
 
     ![Click on "+" to create Task](images/m1/new_task_v1.png)
 
-26. <input type="checkbox" class="box" id="az400-lab01-exer1-task2-26" name="az400-lab01-exer1-task2-26" /> At the top of the **NEW TASK** panel, in the **Enter title** textbox, type <span id="addpagetutorial">**Add page for most recent tutorials**</span><sup><button style="font-size:7px;" onclick="posttoclip('addpagetutorial')">Copy</button></sup>.
-27. <input type="checkbox" class="box" id="az400-lab01-exer1-task2-27" name="az400-lab01-exer1-task2-27" /> On the **NEW TASK** panel, in the **Remaining Work** textbox, type <span id="five">**5**</span><sup><button style="font-size:7px;" onclick="posttoclip('five')">Copy</button></sup>.
+26. <input type="checkbox" class="box" id="az400-lab01-exer1-task2-26" name="az400-lab01-exer1-task2-26" /> At the top of the **NEW TASK** panel, in the **Enter title** textbox, type <span id="addpagetutorial">**Add page for most recent tutorials**</span> <i title="Copy Text" class="fas fa-clipboard" onclick="posttoclip('addpagetutorial')"></i>.
+27. <input type="checkbox" class="box" id="az400-lab01-exer1-task2-27" name="az400-lab01-exer1-task2-27" /> On the **NEW TASK** panel, in the **Remaining Work** textbox, type <span id="five">**5**</span> <i title="Copy Text" class="fas fa-clipboard" onclick="posttoclip('five')"></i>.
 28. <input type="checkbox" class="box" id="az400-lab01-exer1-task2-28" name="az400-lab01-exer1-task2-28" /> On the **NEW TASK** panel, in the **Activity** dropdown list, select **Development**.
 29. <input type="checkbox" class="box" id="az400-lab01-exer1-task2-29" name="az400-lab01-exer1-task2-29" /> On the **NEW TASK** panel, click **Save & Close**.
 
     ![Fill in "New task" fields and click "Save and Close"](images/m1/save_task_v1.png)
 
-30. <input type="checkbox" class="box" id="az400-lab01-exer1-task2-30" name="az400-lab01-exer1-task2-30" /> Repeat the last five steps to add another task named <span id="optimizedataquery">**Optimize data query for most recent tutorials**</span><sup><button style="font-size:7px;" onclick="posttoclip('optimizedataquery')">Copy</button></sup>. Set its **Remaining Work** to <span id="three">**3**</span><sup><button style="font-size:7px;" onclick="posttoclip('three')">Copy</button></sup> and its **Activity** to **Design**. Click **Save & Close** once completed.
+30. <input type="checkbox" class="box" id="az400-lab01-exer1-task2-30" name="az400-lab01-exer1-task2-30" /> Repeat the last five steps to add another task named <span id="optimizedataquery">**Optimize data query for most recent tutorials**</span> <i title="Copy Text" class="fas fa-clipboard" onclick="posttoclip('optimizedataquery')"></i>. Set its **Remaining Work** to <span id="three">**3**</span> <i title="Copy Text" class="fas fa-clipboard" onclick="posttoclip('three')"></i> and its **Activity** to **Design**. Click **Save & Close** once completed.
 
 #### Task 3: Manage sprints and capacity
 
@@ -241,7 +241,7 @@ The sprint backlog should contain all the information the team needs to successf
 
     > **Note**: This view enables you to define what activities a user can take on and at what level of capacity.
 
-6. <input type="checkbox" class="box" id="az400-lab01-exer1-task3-06" name="az400-lab01-exer1-task3-06" /> On the **Capacity** tab of the **Sprints** view, directly under the **Activity** label, in the **Unassigned** dropdown list, select **Development** and, in the **Capacity per day** textbox, type **1**.
+6. <input type="checkbox" class="box" id="az400-lab01-exer1-task3-06" name="az400-lab01-exer1-task3-06" /> On the **Capacity** tab of the **Sprints** view, directly under the **Activity** label, in the **Unassigned** dropdown list, select **Development** and, in the **Capacity per day** textbox, type <span id="one">**1**</span> <i title="Copy Text" class="fas fa-clipboard" onclick="posttoclip('one')"></i>.
 
     > **Note**: This represents 1 hour of development work per day. Note that you can add additional activities per user in the case they do more than just development.
     >
@@ -278,7 +278,7 @@ The sprint backlog should contain all the information the team needs to successf
     > **Note**: There is also a lot of customization available.
 
 13. <input type="checkbox" class="box" id="az400-lab01-exer1-task3-13" name="az400-lab01-exer1-task3-13" /> Click the **Configure team settings** cogwheel icon (directly to the right of the funnel icon).
-14. <input type="checkbox" class="box" id="az400-lab01-exer1-task3-14" name="az400-lab01-exer1-task3-14" /> On the **Settings** panel, select the **Styles** tab, click **+ Styling rule**, under the **Rule name** label, in the **Name** textbox, type <span id="development">**Development**</span><sup><button style="font-size:7px;" onclick="posttoclip('development')">Copy</button></sup>, and, in the **Card color** dropdown list, select the green rectangle.
+14. <input type="checkbox" class="box" id="az400-lab01-exer1-task3-14" name="az400-lab01-exer1-task3-14" /> On the **Settings** panel, select the **Styles** tab, click **+ Styling rule**, under the **Rule name** label, in the **Name** textbox, type <span id="development">**Development**</span> <i title="Copy Text" class="fas fa-clipboard" onclick="posttoclip('development')"></i>, and, in the **Card color** dropdown list, select the green rectangle.
 
     > **Note**: This will color all cards green if they meet the rule criteria set directly below, in the **Rule criteria** section.
 
@@ -332,8 +332,8 @@ To maximize a team's ability to consistently deliver high quality software, Kanb
 6. <input type="checkbox" class="box" id="az400-lab01-exer1-task4-06" name="az400-lab01-exer1-task4-06" /> On the **Settings** panel, click **Save and close** to save the styling rule.
 7. <input type="checkbox" class="box" id="az400-lab01-exer1-task4-07" name="az400-lab01-exer1-task4-07" /> On the **Board** tab of the **PUL-Web** panel, right-click the rectangle representing the **As a customer, I want to view new tutorials** backlog item and select **Open**.
 8. <input type="checkbox" class="box" id="az400-lab01-exer1-task4-08" name="az400-lab01-exer1-task4-08" /> On the **As a customer, I want to view new tutorials** panel, at the top of the panel, to the right of the **0 comments** entry, click **Add tag**.
-9. <input type="checkbox" class="box" id="az400-lab01-exer1-task4-09" name="az400-lab01-exer1-task4-09" /> In the resulting textbox, type <span id="data">**data**</span><sup><button style="font-size:7px;" onclick="posttoclip('data')">Copy</button></sup> and press the **Enter** key.
-10. <input type="checkbox" class="box" id="az400-lab01-exer1-task4-10" name="az400-lab01-exer1-task4-10" /> Repeat the previous step to add the <span id="ux">**ux**</span><sup><button style="font-size:7px;" onclick="posttoclip('ux')">Copy</button></sup> tag.
+9. <input type="checkbox" class="box" id="az400-lab01-exer1-task4-09" name="az400-lab01-exer1-task4-09" /> In the resulting textbox, type <span id="data">**data**</span> <i title="Copy Text" class="fas fa-clipboard" onclick="posttoclip('data')"></i> and press the **Enter** key.
+10. <input type="checkbox" class="box" id="az400-lab01-exer1-task4-10" name="az400-lab01-exer1-task4-10" /> Repeat the previous step to add the <span id="ux">**ux**</span> <i title="Copy Text" class="fas fa-clipboard" onclick="posttoclip('ux')"></i> tag.
 11. <input type="checkbox" class="box" id="az400-lab01-exer1-task4-11" name="az400-lab01-exer1-task4-11" /> On the **As a customer, I want to view new tutorials** panel, click **Save & Close**.
 
     ![On the ""As a customer, I want to view new tutorials" panel, click "Save & Close"](images/m1/tags_v1.png)
@@ -345,7 +345,7 @@ To maximize a team's ability to consistently deliver high quality software, Kanb
 
     > **Note**: This section allows you to add new stages to the workflow.
 
-14. <input type="checkbox" class="box" id="az400-lab01-exer1-task4-14" name="az400-lab01-exer1-task4-14" /> Click **+ Column**, under the **Column name** label, in the **Name** textbox, type <span id="qaapproved">**QA Approved**</span><sup><button style="font-size:7px;" onclick="posttoclip('qaapproved')">Copy</button></sup> and, in the **WIP limit** textbox, type <span id="one">**1**</span><sup><button style="font-size:7px;" onclick="posttoclip('one')">Copy</button></sup>
+14. <input type="checkbox" class="box" id="az400-lab01-exer1-task4-14" name="az400-lab01-exer1-task4-14" /> Click **+ Column**, under the **Column name** label, in the **Name** textbox, type <span id="qaapproved">**QA Approved**</span> <i title="Copy Text" class="fas fa-clipboard" onclick="posttoclip('qaapproved')"></i> and, in the **WIP limit** textbox, type <span id="one">**1**</span> <i title="Copy Text" class="fas fa-clipboard" onclick="posttoclip('one')"></i>
 
     > **Note**: The Work in progress limit of 1 indicates that only one work item should be in this stage at a time. You would ordinarily set this higher, but there are only two work items to demonstrate the feature.
 
@@ -373,7 +373,7 @@ To maximize a team's ability to consistently deliver high quality software, Kanb
 
     > **Note**: As your team updates the status of work as it progresses from one stage to the next, it helps that they agree on what **done** means. By specifying the **Definition of done** criteria for each Kanban column, you help share the essential tasks to complete before moving an item into a downstream stage.
 
-23. <input type="checkbox" class="box" id="az400-lab01-exer1-task4-23" name="az400-lab01-exer1-task4-23" /> On the **QA Approved** tab, at the bottom of the panel, in the **Definition of done** textbox, type <span id="passestests">**Passes \*\*all\*\* tests**</span><sup><button style="font-size:7px;" onclick="posttoclip('passestests')">Copy</button></sup>.
+23. <input type="checkbox" class="box" id="az400-lab01-exer1-task4-23" name="az400-lab01-exer1-task4-23" /> On the **QA Approved** tab, at the bottom of the panel, in the **Definition of done** textbox, type <span id="passestests">**Passes \*\*all\*\* tests**</span> <i title="Copy Text" class="fas fa-clipboard" onclick="posttoclip('passestests')"></i>.
 24. <input type="checkbox" class="box" id="az400-lab01-exer1-task4-24" name="az400-lab01-exer1-task4-24" /> On the **Settings** panel, click **Save and close**.
 
     ![On the "Settings" panel, review information and click "Save and close"](images/m1/dd_v1.png)
@@ -385,7 +385,7 @@ To maximize a team's ability to consistently deliver high quality software, Kanb
     > **Note**: Your Kanban board supports your ability to visualize the flow of work as it moves from new to done. When you add **swimlanes**, you can also visualize the status of work that supports different service-level classes. You can create a swimlane to represent any other dimension that supports your tracking needs.
 
 26. <input type="checkbox" class="box" id="az400-lab01-exer1-task4-26" name="az400-lab01-exer1-task4-26" /> On the **Settings** panel, select the **Swimlanes** tab.
-27. <input type="checkbox" class="box" id="az400-lab01-exer1-task4-27" name="az400-lab01-exer1-task4-27" /> On the **Swimlanes** tab, click **+ Swimlane**, directly under the **Swimlane name** label, in the **Name** textbox, type <span id="expedite">**Expedite**</span><sup><button style="font-size:7px;" onclick="posttoclip('expedite')">Copy</button></sup>.
+27. <input type="checkbox" class="box" id="az400-lab01-exer1-task4-27" name="az400-lab01-exer1-task4-27" /> On the **Swimlanes** tab, click **+ Swimlane**, directly under the **Swimlane name** label, in the **Name** textbox, type <span id="expedite">**Expedite**</span> <i title="Copy Text" class="fas fa-clipboard" onclick="posttoclip('expedite')"></i>.
 28. <input type="checkbox" class="box" id="az400-lab01-exer1-task4-28" name="az400-lab01-exer1-task4-28" /> On the **Settings** panel, click **Save and close**.
 
     ![On the "Settings" panel, review information and click "Save and close"](images/m1/swimlane_v1.png)
@@ -422,12 +422,12 @@ All processes are shared within the same organization. That is, one or more team
     ![On the "All processes > Customized Scrum" pane, select "Product Backlog Item"](images/m1/pbi_field_name_v1.png)
 
 8. <input type="checkbox" class="box" id="az400-lab01-exer1-task5-08" name="az400-lab01-exer1-task5-08" /> On the **All processes > Customized Scrum > Product Backlog Item** pane, click **New field**.
-9. <input type="checkbox" class="box" id="az400-lab01-exer1-task5-09" name="az400-lab01-exer1-task5-09" /> On the **Add a field to Product Backlog Item** panel, on the **Definition** tab, in the **Create a field** section, in the **Name** textbox, type <span id="pulticketid">**PUL Ticket ID**</span><sup><button style="font-size:7px;" onclick="posttoclip('pulticketid')">Copy</button></sup>.
+9. <input type="checkbox" class="box" id="az400-lab01-exer1-task5-09" name="az400-lab01-exer1-task5-09" /> On the **Add a field to Product Backlog Item** panel, on the **Definition** tab, in the **Create a field** section, in the **Name** textbox, type <span id="pulticketid">**PUL Ticket ID**</span> <i title="Copy Text" class="fas fa-clipboard" onclick="posttoclip('pulticketid')"></i>.
 
     ![On the "Add a field to Product Backlog Item" panel, on the "Definition" tab, in the "Create a field" section, in the "Name" textbox, type "PUL Ticket ID"](images/m1/pbi_v1.png)
 
 10. <input type="checkbox" class="box" id="az400-lab01-exer1-task5-10" name="az400-lab01-exer1-task5-10" /> On the **Add a field to Product Backlog Item** panel, click **Layout**.
-11. <input type="checkbox" class="box" id="az400-lab01-exer1-task5-11" name="az400-lab01-exer1-task5-11" /> On the **Add a field to Product Backlog Item** panel, on the **Layout** tab, in the **Label** textbox, type <span id="ticketid">**Ticket ID**</span><sup><button style="font-size:7px;" onclick="posttoclip('ticketid')">Copy</button></sup>, select the **Create a new group** option, in the **Group** textbox, type <span id="partsunlimited">**PartsUnlimited**</span><sup><button style="font-size:7px;" onclick="posttoclip('partsunlimited')">Copy</button></sup>, and click **Add field**.
+11. <input type="checkbox" class="box" id="az400-lab01-exer1-task5-11" name="az400-lab01-exer1-task5-11" /> On the **Add a field to Product Backlog Item** panel, on the **Layout** tab, in the **Label** textbox, type <span id="ticketid">**Ticket ID**</span> <i title="Copy Text" class="fas fa-clipboard" onclick="posttoclip('ticketid')"></i>, select the **Create a new group** option, in the **Group** textbox, type <span id="partsunlimited">**PartsUnlimited**</span> <i title="Copy Text" class="fas fa-clipboard" onclick="posttoclip('partsunlimited')"></i>, and click **Add field**.
 
     ![On the "Add a field to Product Backlog Item" panel, on the "Layout" tab make sure the information has been included and click "Add Field"](images/m1/pbi_field_layout_v1.png)
 
@@ -476,13 +476,13 @@ Dashboards allow teams to visualize status and monitor progress across the proje
     ![On the "Create a dashboard" pane, in the "Name" textbox, type "Product training", in the "Team" dropdown list, select the "PUL-Web" team, and click "Create"](images/m1/create_dash_v1.png)
 
 5. <input type="checkbox" class="box" id="az400-lab01-exer2-task1-05" name="az400-lab01-exer2-task1-05" /> On the new dashboard pane, click **Add a widget**.
-6. <input type="checkbox" class="box" id="az400-lab01-exer2-task1-06" name="az400-lab01-exer2-task1-06" /> On the **Add Widget** panel, in the **Search** textbox, type <span id="sprint">**sprint**</span><sup><button style="font-size:7px;" onclick="posttoclip('sprint')">Copy</button></sup> to find existing widgets that focus on sprints. In the list of results, select **Sprint Overview** and click **Add**.
+6. <input type="checkbox" class="box" id="az400-lab01-exer2-task1-06" name="az400-lab01-exer2-task1-06" /> On the **Add Widget** panel, in the **Search** textbox, type <span id="sprint">**sprint**</span> <i title="Copy Text" class="fas fa-clipboard" onclick="posttoclip('sprint')"></i> to find existing widgets that focus on sprints. In the list of results, select **Sprint Overview** and click **Add**.
 7. <input type="checkbox" class="box" id="az400-lab01-exer2-task1-07" name="az400-lab01-exer2-task1-07" /> In the rectangle representing the newly added widget, click the **Settings** cogwheel icon and review the **Configuration** pane.
 
     > **Note**: The customization level will vary by widget.
 
 8. <input type="checkbox" class="box" id="az400-lab01-exer2-task1-08" name="az400-lab01-exer2-task1-08" /> On the **Configuration** pane, click **Close** without making any changes.
-9. <input type="checkbox" class="box" id="az400-lab01-exer2-task1-09" name="az400-lab01-exer2-task1-09" /> Back on the **Add Widget** pane, in the **Search** textbox, type **sprint**<sup><button style="font-size:7px;" onclick="posttoclip('sprint')">Copy</button></sup> again to find existing widgets that focus on sprints. In the list of results, select **Sprint Capacity** and click **Add**.
+9. <input type="checkbox" class="box" id="az400-lab01-exer2-task1-09" name="az400-lab01-exer2-task1-09" /> Back on the **Add Widget** pane, in the **Search** textbox, type **sprint** <i title="Copy Text" class="fas fa-clipboard" onclick="posttoclip('sprint')"></i> again to find existing widgets that focus on sprints. In the list of results, select **Sprint Capacity** and click **Add**.
 10. <input type="checkbox" class="box" id="az400-lab01-exer2-task1-10" name="az400-lab01-exer2-task1-10" /> In the **Dashboard** view, at the top of the pane, click **Done Editing**.
 
     ![Review finished dashboard should include both widgets](images/m1/finished_dashboard_v1.png)
@@ -501,7 +501,7 @@ Dashboards allow teams to visualize status and monitor progress across the proje
 
 16. <input type="checkbox" class="box" id="az400-lab01-exer2-task1-16" name="az400-lab01-exer2-task1-16" /> In the **New query** panel, in the **Enter name** textbox, type **Web tasks**, in the **Folder** dropdown list, select **Shared Queries**, and click **OK**.
 17. <input type="checkbox" class="box" id="az400-lab01-exer2-task1-17" name="az400-lab01-exer2-task1-17" /> Select the **Charts** tab and click **+ New chart**.
-18. <input type="checkbox" class="box" id="az400-lab01-exer2-task1-18" name="az400-lab01-exer2-task1-18" /> On the **Configure Chart** panel, in the **Name** textbox, type <span id="webtasks">**Web tasks - By assignment**</span><sup><button style="font-size:7px;" onclick="posttoclip('webtasks')">Copy</button></sup>, in the **Group by** dropdown list, select **Assigned To**, and click **OK** to save the changes.
+18. <input type="checkbox" class="box" id="az400-lab01-exer2-task1-18" name="az400-lab01-exer2-task1-18" /> On the **Configure Chart** panel, in the **Name** textbox, type <span id="webtasks">**Web tasks - By assignment**</span> <i title="Copy Text" class="fas fa-clipboard" onclick="posttoclip('webtasks')"></i>, in the **Group by** dropdown list, select **Assigned To**, and click **OK** to save the changes.
 
     ![On the "Configure Chart" panel, in the "Name" textbox, type "Web tasks - By assignment", in the "Group by" dropdown list, select "Assigned To", and click "OK" to save the changes](images/m1/chart_v1.png)
 
