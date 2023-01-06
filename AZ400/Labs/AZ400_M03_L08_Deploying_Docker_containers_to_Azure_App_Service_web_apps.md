@@ -1,8 +1,8 @@
 ---
 layout: page
 title:  "Lab 08: Deploying Docker containers to Azure App Service web apps"
+chkbx-pre-ids: az400-lab08
 ---
-# Student lab manual
 
 ## Lab requirements
 
@@ -38,15 +38,15 @@ In this exercise, you will set up the prerequisites for the lab, which consist o
 
 In this task, you will create an **eShopOnWeb** Azure DevOps project to be used by several labs.
 
-1. <input type="checkbox" />  On your lab computer, in a browser window open your Azure DevOps organization. Click on **New Project**. Give your project the name **eShopOnWeb** and choose **Scrum** on the **Work Item process** dropdown. Click on **Create**.
+1. <input type="checkbox" id="{{ page.chkbx-pre-ids }}-exer" name="{{ page.chkbx-pre-ids }}-exer" />  On your lab computer, in a browser window open your Azure DevOps organization. Click on **New Project**. Give your project the name **eShopOnWeb** and choose **Scrum** on the **Work Item process** dropdown. Click on **Create**.
 
 #### Task 2: (skip if done) Import eShopOnWeb Git Repository
 
 In this task you will import the eShopOnWeb Git repository that will be used by several labs.
 
-1. <input type="checkbox" />  On your lab computer, in a browser window open your Azure DevOps organization and the previoulsy created **eShopOnWeb** project. Click on **Repos>Files** , **Import**. On the **Import a Git Repository** window, paste the following URL https://github.com/MicrosoftLearning/eShopOnWeb.git  and click on **Import**: 
+1. <input type="checkbox" id="{{ page.chkbx-pre-ids }}-exer" name="{{ page.chkbx-pre-ids }}-exer" />  On your lab computer, in a browser window open your Azure DevOps organization and the previoulsy created **eShopOnWeb** project. Click on **Repos>Files** , **Import**. On the **Import a Git Repository** window, paste the following URL https://github.com/MicrosoftLearning/eShopOnWeb.git  and click on **Import**: 
 
-1. <input type="checkbox" />  The repository is organized the following way:
+1. <input type="checkbox" id="{{ page.chkbx-pre-ids }}-exer" name="{{ page.chkbx-pre-ids }}-exer" />  The repository is organized the following way:
     - **.ado** folder contains Azure DevOps YAML pipelines
     - **.devcontainer** folder container setup to develop using containers (either locally in VS Code or GitHub Codespaces)
     - **.azure** folder contains Bicep&ARM infrastructure as code templates used in some lab scenarios.
@@ -55,9 +55,9 @@ In this task you will import the eShopOnWeb Git repository that will be used by 
 
 #### Task 3: (skip if done) Set main branch as default branch
 
-1. <input type="checkbox" /> Go to **Repos>Branches**
-1. <input type="checkbox" /> Hover on the **main** branch then click the ellipsis on the right of the column
-1. <input type="checkbox" /> Click on **Set as default branch**
+1. <input type="checkbox" id="{{ page.chkbx-pre-ids }}-exer" name="{{ page.chkbx-pre-ids }}-exer" /> Go to **Repos>Branches**
+1. <input type="checkbox" id="{{ page.chkbx-pre-ids }}-exer" name="{{ page.chkbx-pre-ids }}-exer" /> Hover on the **main** branch then click the ellipsis on the right of the column
+1. <input type="checkbox" id="{{ page.chkbx-pre-ids }}-exer" name="{{ page.chkbx-pre-ids }}-exer" /> Click on **Set as default branch**
 
 ### Exercise 1: Manage the service connection
 
@@ -78,13 +78,13 @@ You will need a service principal to deploy  Azure resources from Azure Pipeline
 
 A service principal is automatically created by Azure Pipeline when you connect to an Azure subscription from inside a pipeline definition or when you create a new service connection from the project settings page (automatic option). You can also manually create the service principal from the portal or using Azure CLI and re-use it across projects. 
 
-1. <input type="checkbox" />  From the lab computer, start a web browser, navigate to the [**Azure Portal**](https://portal.azure.com), and sign in with the user account that has the Owner role in the Azure subscription you will be using in this lab and has the role of the Global Administrator in the Azure AD tenant associated with this subscription.
-1. <input type="checkbox" />  In the Azure portal, click on the **Cloud Shell** icon, located directly to the right of the search textbox at the top of the page. 
-1. <input type="checkbox" />  If prompted to select either **Bash** or **PowerShell**, select **Bash**. 
+1. <input type="checkbox" id="{{ page.chkbx-pre-ids }}-exer" name="{{ page.chkbx-pre-ids }}-exer" />  From the lab computer, start a web browser, navigate to the [**Azure Portal**](https://portal.azure.com), and sign in with the user account that has the Owner role in the Azure subscription you will be using in this lab and has the role of the Global Administrator in the Azure AD tenant associated with this subscription.
+1. <input type="checkbox" id="{{ page.chkbx-pre-ids }}-exer" name="{{ page.chkbx-pre-ids }}-exer" />  In the Azure portal, click on the **Cloud Shell** icon, located directly to the right of the search textbox at the top of the page. 
+1. <input type="checkbox" id="{{ page.chkbx-pre-ids }}-exer" name="{{ page.chkbx-pre-ids }}-exer" />  If prompted to select either **Bash** or **PowerShell**, select **Bash**. 
 
    >**Note**: If this is the first time you are starting **Cloud Shell** and you are presented with the **You have no storage mounted** message, select the subscription you are using in this lab, and select **Create storage**. 
 
-1. <input type="checkbox" />  From the **Bash** prompt, in the **Cloud Shell** pane, run the following commands to retrieve the values of the Azure subscription ID attribute: 
+1. <input type="checkbox" id="{{ page.chkbx-pre-ids }}-exer" name="{{ page.chkbx-pre-ids }}-exer" />  From the **Bash** prompt, in the **Cloud Shell** pane, run the following commands to retrieve the values of the Azure subscription ID attribute: 
 
     ```
     subscriptionName=$(az account show --query name --output tsv)
@@ -95,7 +95,7 @@ A service principal is automatically created by Azure Pipeline when you connect 
 
     > **Note**: Copy both values to a text file. You will need them later in this lab.
 
-1. <input type="checkbox" />  From the **Bash** prompt, in the **Cloud Shell** pane, run the following command to create a service principal:
+1. <input type="checkbox" id="{{ page.chkbx-pre-ids }}-exer" name="{{ page.chkbx-pre-ids }}-exer" />  From the **Bash** prompt, in the **Cloud Shell** pane, run the following command to create a service principal:
 
     ```
     az ad sp create-for-rbac --name sp-az400-azdo --role contributor --scopes /subscriptions/$subscriptionId
@@ -103,18 +103,18 @@ A service principal is automatically created by Azure Pipeline when you connect 
 
     > **Note**: The command will generate a JSON output. Copy the output to text file. You will need it later in this lab.
 
-1. <input type="checkbox" /> Next, from the lab computer, start a web browser, navigate to the Azure DevOps **eShopOnWeb** project. Click on **Project Settings>Service Connections (under Pipelines)** and **New Service Connection**.
+1. <input type="checkbox" id="{{ page.chkbx-pre-ids }}-exer" name="{{ page.chkbx-pre-ids }}-exer" /> Next, from the lab computer, start a web browser, navigate to the Azure DevOps **eShopOnWeb** project. Click on **Project Settings>Service Connections (under Pipelines)** and **New Service Connection**.
 
-1. <input type="checkbox" /> On the **New service connection** blade, select **Azure Resource Manager** and **Next** (may need to scroll down).
+1. <input type="checkbox" id="{{ page.chkbx-pre-ids }}-exer" name="{{ page.chkbx-pre-ids }}-exer" /> On the **New service connection** blade, select **Azure Resource Manager** and **Next** (may need to scroll down).
 
-1. <input type="checkbox" /> The choose **Service principal (manual)** and click on **Next**.
+1. <input type="checkbox" id="{{ page.chkbx-pre-ids }}-exer" name="{{ page.chkbx-pre-ids }}-exer" /> The choose **Service principal (manual)** and click on **Next**.
 
-1. <input type="checkbox" /> Fill in the empty fields using the information gathered during previous steps:
+1. <input type="checkbox" id="{{ page.chkbx-pre-ids }}-exer" name="{{ page.chkbx-pre-ids }}-exer" /> Fill in the empty fields using the information gathered during previous steps:
     - Subscription Id and Name
     - Service Principal Id (or clientId), Key (or Password) and TenantId.
     - In **Service connection name** type **azure-connection**. This name will be referenced in YAML pipelines when needing an Azure DevOps Service Connection to communicate with your Azure subscription.
 
-1. <input type="checkbox" /> Click on **Verify and Save**.
+1. <input type="checkbox" id="{{ page.chkbx-pre-ids }}-exer" name="{{ page.chkbx-pre-ids }}-exer" /> Click on **Verify and Save**.
 
 ### Exercise 2: Import and run the CI pipeline
 
@@ -122,23 +122,23 @@ In this exercise, you will import and run the CI pipeline.
 
 #### Task 1: Import and run the CI pipeline
 
-1. <input type="checkbox" /> Go to **Pipelines>Pipelines**
+1. <input type="checkbox" id="{{ page.chkbx-pre-ids }}-exer" name="{{ page.chkbx-pre-ids }}-exer" /> Go to **Pipelines>Pipelines**
 
-1. <input type="checkbox" /> Click on **New pipeline** button
+1. <input type="checkbox" id="{{ page.chkbx-pre-ids }}-exer" name="{{ page.chkbx-pre-ids }}-exer" /> Click on **New pipeline** button
 
-1. <input type="checkbox" /> Select **Azure Repos Git (Yaml)**
+1. <input type="checkbox" id="{{ page.chkbx-pre-ids }}-exer" name="{{ page.chkbx-pre-ids }}-exer" /> Select **Azure Repos Git (Yaml)**
 
-1. <input type="checkbox" /> Select the **eShopOnWeb** repository
+1. <input type="checkbox" id="{{ page.chkbx-pre-ids }}-exer" name="{{ page.chkbx-pre-ids }}-exer" /> Select the **eShopOnWeb** repository
 
-1. <input type="checkbox" /> Select **Existing Azure Pipelines YAML File**
+1. <input type="checkbox" id="{{ page.chkbx-pre-ids }}-exer" name="{{ page.chkbx-pre-ids }}-exer" /> Select **Existing Azure Pipelines YAML File**
 
-1. <input type="checkbox" /> Select the **/.ado/eshoponweb-ci-docker.yml** file then click on **Continue**
+1. <input type="checkbox" id="{{ page.chkbx-pre-ids }}-exer" name="{{ page.chkbx-pre-ids }}-exer" /> Select the **/.ado/eshoponweb-ci-docker.yml** file then click on **Continue**
 
-1. <input type="checkbox" /> In the YAML pipeline definition, customize:
+1. <input type="checkbox" id="{{ page.chkbx-pre-ids }}-exer" name="{{ page.chkbx-pre-ids }}-exer" /> In the YAML pipeline definition, customize:
 - **YOUR-SUBSCRIPTION-ID** with your Azure subscription id.
 - **rg-az400-container-NAME** with the resource group name defined before in the lab.
 
-1. <input type="checkbox" /> Click on **Save and Run** and wait for the pipeline to execute succesfully.
+1. <input type="checkbox" id="{{ page.chkbx-pre-ids }}-exer" name="{{ page.chkbx-pre-ids }}-exer" /> Click on **Save and Run** and wait for the pipeline to execute succesfully.
 
     > **Note**: The deployment may take a few minutes to complete.
 
@@ -149,9 +149,9 @@ In this exercise, you will import and run the CI pipeline.
     - [**Docker**](https://learn.microsoft.com/azure/devops/pipelines/tasks/reference/docker-v0?view=azure-pipelines) **- Build**: Build the docker image and create two tags (Latest and current BuildID)
     - **Docker - Push**: Push the images to Azure Container Registry
 
-1. <input type="checkbox" /> Your pipeline will take a name based on the project name. Let's **rename** it for identifying the pipeline better. Go to **Pipelines>Pipelines** and click on the recently created pipeline. Click on the ellipsis and **Rename/Remove** option. Name it **eshoponweb-ci-docker** and click on **Save**.
+1. <input type="checkbox" id="{{ page.chkbx-pre-ids }}-exer" name="{{ page.chkbx-pre-ids }}-exer" /> Your pipeline will take a name based on the project name. Let's **rename** it for identifying the pipeline better. Go to **Pipelines>Pipelines** and click on the recently created pipeline. Click on the ellipsis and **Rename/Remove** option. Name it **eshoponweb-ci-docker** and click on **Save**.
 
-1. <input type="checkbox" /> Navigate to the [**Azure Portal**](https://portal.azure.com), search for the Azure Container Registry in the recently created Resource Group (it should be named **rg-az400-container-NAME**). Make sure that the **eshoponweb/web** was created and contains two tags (one of them is **Latest**).
+1. <input type="checkbox" id="{{ page.chkbx-pre-ids }}-exer" name="{{ page.chkbx-pre-ids }}-exer" /> Navigate to the [**Azure Portal**](https://portal.azure.com), search for the Azure Container Registry in the recently created Resource Group (it should be named **rg-az400-container-NAME**). Make sure that the **eshoponweb/web** was created and contains two tags (one of them is **Latest**).
 
 ### Exercise 3: Import and run the CD pipeline
 
@@ -161,11 +161,11 @@ In this exercise, you will configure the service connection with your Azure Subs
 
 In this task, you will add a new role assignment to allow Azure App Service pull the docker image from Azure Container Registry.
 
-1. <input type="checkbox" /> Navigate to the [**Azure Portal**](https://portal.azure.com).
-1. <input type="checkbox" /> In the Azure portal, click on the **Cloud Shell** icon, located directly to the right of the search textbox at the top of the page. 
-1. <input type="checkbox" /> If prompted to select either **Bash** or **PowerShell**, select **Bash**. 
+1. <input type="checkbox" id="{{ page.chkbx-pre-ids }}-exer" name="{{ page.chkbx-pre-ids }}-exer" /> Navigate to the [**Azure Portal**](https://portal.azure.com).
+1. <input type="checkbox" id="{{ page.chkbx-pre-ids }}-exer" name="{{ page.chkbx-pre-ids }}-exer" /> In the Azure portal, click on the **Cloud Shell** icon, located directly to the right of the search textbox at the top of the page. 
+1. <input type="checkbox" id="{{ page.chkbx-pre-ids }}-exer" name="{{ page.chkbx-pre-ids }}-exer" /> If prompted to select either **Bash** or **PowerShell**, select **Bash**. 
 
-1. <input type="checkbox" /> From the **Bash** prompt, in the **Cloud Shell** pane, run the following commands to retrieve the values of the Azure subscription ID attribute: 
+1. <input type="checkbox" id="{{ page.chkbx-pre-ids }}-exer" name="{{ page.chkbx-pre-ids }}-exer" /> From the **Bash** prompt, in the **Cloud Shell** pane, run the following commands to retrieve the values of the Azure subscription ID attribute: 
 
     ```sh
     spId=$(az ad sp list --display-name sp-az400-azdo --query "[].id" --output tsv)
@@ -174,7 +174,7 @@ In this task, you will add a new role assignment to allow Azure App Service pull
     echo $roleName
     ```
 
-1. <input type="checkbox" /> After getting the service principal ID and the role name, let's create the role assignment by running this command (replace **rg-az400-container-NAME** with your resource group name)
+1. <input type="checkbox" id="{{ page.chkbx-pre-ids }}-exer" name="{{ page.chkbx-pre-ids }}-exer" /> After getting the service principal ID and the role name, let's create the role assignment by running this command (replace **rg-az400-container-NAME** with your resource group name)
 
     ```sh
     az role assignment create --assignee $spId --role $roleName --resource-group "rg-az400-container-NAME"
@@ -186,23 +186,23 @@ You should now see the JSON output which confirms the success of the command run
 
 In this task, you will import and run the CI pipeline.
 
-1. <input type="checkbox" /> Go to **Pipelines>Pipelines**
+1. <input type="checkbox" id="{{ page.chkbx-pre-ids }}-exer" name="{{ page.chkbx-pre-ids }}-exer" /> Go to **Pipelines>Pipelines**
 
-1. <input type="checkbox" /> Click on **New pipeline** button
+1. <input type="checkbox" id="{{ page.chkbx-pre-ids }}-exer" name="{{ page.chkbx-pre-ids }}-exer" /> Click on **New pipeline** button
 
-1. <input type="checkbox" /> Select **Azure Repos Git (Yaml)**
+1. <input type="checkbox" id="{{ page.chkbx-pre-ids }}-exer" name="{{ page.chkbx-pre-ids }}-exer" /> Select **Azure Repos Git (Yaml)**
 
-1. <input type="checkbox" /> Select the **eShopOnWeb** repository
+1. <input type="checkbox" id="{{ page.chkbx-pre-ids }}-exer" name="{{ page.chkbx-pre-ids }}-exer" /> Select the **eShopOnWeb** repository
 
-1. <input type="checkbox" /> Select **Existing Azure Pipelines YAML File**
+1. <input type="checkbox" id="{{ page.chkbx-pre-ids }}-exer" name="{{ page.chkbx-pre-ids }}-exer" /> Select **Existing Azure Pipelines YAML File**
 
-1. <input type="checkbox" /> Select the **/.ado/eshoponweb-cd-webapp-docker.yml** file then click on **Continue**
+1. <input type="checkbox" id="{{ page.chkbx-pre-ids }}-exer" name="{{ page.chkbx-pre-ids }}-exer" /> Select the **/.ado/eshoponweb-cd-webapp-docker.yml** file then click on **Continue**
 
-1. <input type="checkbox" /> In the YAML pipeline definition, customize:
+1. <input type="checkbox" id="{{ page.chkbx-pre-ids }}-exer" name="{{ page.chkbx-pre-ids }}-exer" /> In the YAML pipeline definition, customize:
 - **YOUR-SUBSCRIPTION-ID** with your Azure subscription id.
 - **rg-az400-container-NAME** with the resource group name defined before in the lab.
 
-1. <input type="checkbox" /> Click on **Save and Run** and wait for the pipeline to execute succesfully.
+1. <input type="checkbox" id="{{ page.chkbx-pre-ids }}-exer" name="{{ page.chkbx-pre-ids }}-exer" /> Click on **Save and Run** and wait for the pipeline to execute succesfully.
 
     > **Note**: The deployment may take a few minutes to complete.
 
@@ -211,7 +211,7 @@ In this task, you will import and run the CI pipeline.
     - **AzureResourceManagerTemplateDeployment**: Deploys the Azure App Service using bicep template.
     - **AzureResourceManagerTemplateDeployment**: Add role assignment using Bicep
 
-1. <input type="checkbox" /> Your pipeline will take a name based on the project name. Let's **rename** it for identifying the pipeline better. Go to **Pipelines>Pipelines** and click on the recently created pipeline. Click on the ellipsis and **Rename/Remove** option. Name it **eshoponweb-cd-webapp-docker** and click on **Save**.
+1. <input type="checkbox" id="{{ page.chkbx-pre-ids }}-exer" name="{{ page.chkbx-pre-ids }}-exer" /> Your pipeline will take a name based on the project name. Let's **rename** it for identifying the pipeline better. Go to **Pipelines>Pipelines** and click on the recently created pipeline. Click on the ellipsis and **Rename/Remove** option. Name it **eshoponweb-cd-webapp-docker** and click on **Save**.
 
     > **Note 1**: The use of the **/.azure/bicep/webapp-docker.bicep** template creates an app service plan, a web app with system assigned managed identity enabled, and references the docker image pushed previously: **${acr.properties.loginServer}/eshoponweb/web:latest**.
 
@@ -221,9 +221,9 @@ In this task, you will import and run the CI pipeline.
 
 #### Task 3: Test the solution
 
-1. <input type="checkbox" /> In the Azure Portal, navigate to the recently created Resource Group, you should now see three resources (Ap Service, App Service Plan and Container Registry).
+1. <input type="checkbox" id="{{ page.chkbx-pre-ids }}-exer" name="{{ page.chkbx-pre-ids }}-exer" /> In the Azure Portal, navigate to the recently created Resource Group, you should now see three resources (Ap Service, App Service Plan and Container Registry).
 
-1. <input type="checkbox" /> Navigate to the App Service, then click **Browse**, this will take you to the website.
+1. <input type="checkbox" id="{{ page.chkbx-pre-ids }}-exer" name="{{ page.chkbx-pre-ids }}-exer" /> Navigate to the App Service, then click **Browse**, this will take you to the website.
 
 Congratulations! In this exercise, you deployed a website using custom docker image.
 
@@ -237,14 +237,14 @@ In this exercise, you will remove the Azure resources provisioned in this lab to
 
 In this task, you will use Azure Cloud Shell to remove the Azure resources provisioned in this lab to eliminate unnecessary charges.
 
-1. <input type="checkbox" /> In the Azure portal, open the **Bash** shell session within the **Cloud Shell** pane.
-1. <input type="checkbox" /> List all resource groups created throughout the labs of this module by running the following command:
+1. <input type="checkbox" id="{{ page.chkbx-pre-ids }}-exer" name="{{ page.chkbx-pre-ids }}-exer" /> In the Azure portal, open the **Bash** shell session within the **Cloud Shell** pane.
+1. <input type="checkbox" id="{{ page.chkbx-pre-ids }}-exer" name="{{ page.chkbx-pre-ids }}-exer" /> List all resource groups created throughout the labs of this module by running the following command:
 
     ```sh
     az group list --query "[?starts_with(name,'rg-az400-container-')].name" --output tsv
     ```
 
-1. <input type="checkbox" /> Delete all resource groups you created throughout the labs of this module by running the following command:
+1. <input type="checkbox" id="{{ page.chkbx-pre-ids }}-exer" name="{{ page.chkbx-pre-ids }}-exer" /> Delete all resource groups you created throughout the labs of this module by running the following command:
 
     ```sh
     az group list --query "[?starts_with(name,'rg-az400-container-')].[name]" --output tsv | xargs -L1 bash -c 'az group delete --name $0 --no-wait --yes'

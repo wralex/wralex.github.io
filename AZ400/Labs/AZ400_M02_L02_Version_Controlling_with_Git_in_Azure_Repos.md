@@ -1,6 +1,7 @@
 ---
 layout: page
 title:  "Lab 02: Version Controlling with Git in Azure Repos"
+chkbx-pre-ids: az400-lab02
 ---
 
 ## Lab requirements

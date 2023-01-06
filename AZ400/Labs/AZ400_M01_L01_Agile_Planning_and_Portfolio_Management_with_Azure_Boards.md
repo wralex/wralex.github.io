@@ -1,6 +1,7 @@
 ---
 layout: page
 title:  "Lab 01: Agile Planning and Portfolio Management with Azure Boards"
+chkbx-pre-ids: az400-lab01
 ---
 
 ## Lab requirements

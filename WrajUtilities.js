@@ -7,3 +7,11 @@ function posttoclip(elem) {
         alert('Unable to copy.');
     }
 }
+function texttoclip(data){
+    try {
+        navigator.clipboard.writeText(data);
+    }
+    catch(err) {
+        alert('Unable to copy.');
+    }
+}

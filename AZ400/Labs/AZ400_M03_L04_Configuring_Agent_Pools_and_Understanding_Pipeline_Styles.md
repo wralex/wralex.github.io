@@ -1,6 +1,7 @@
 ---
 layout: page
 title:  "Lab 04: Configuring Agent Pools and Understanding Pipeline Styles"
+chkbx-pre-ids: az400-lab04
 ---
 
 ## Lab requirements
