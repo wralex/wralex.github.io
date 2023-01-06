@@ -46,7 +46,7 @@ In this task, you will use Azure DevOps Demo Generator to generate a new project
 
 2. <input type="checkbox" class="box" id="az400-lab04-exer0-task1-02" name="az400-lab04-exer0-task1-02" /> Click **Sign in** and sign in using the Microsoft account associated with your Azure DevOps subscription.
 3. <input type="checkbox" class="box" id="az400-lab04-exer0-task1-03" name="az400-lab04-exer0-task1-03" /> If required, on the **Azure DevOps Demo Generator** page, click **Accept** to accept the permission requests for accessing your Azure DevOps subscription.
-4. <input type="checkbox" class="box" id="az400-lab04-exer0-task1-04" name="az400-lab04-exer0-task1-04" /> On the **Create New Project** page, in the **New Project Name** textbox, type **Configuring Agent Pools and Understanding Pipeline Styles**, in the **Select organization** dropdown list, select your Azure DevOps organization, and then click **Choose template**.
+4. <input type="checkbox" class="box" id="az400-lab04-exer0-task1-04" name="az400-lab04-exer0-task1-04" /> On the **Create New Project** page, in the **New Project Name** textbox, type <span id="configureagentpools">**Configuring Agent Pools and Understanding Pipeline Styles**</span> <i title="Copy Text" class="fas fa-clipboard" onclick="posttoclip('configureagentpools')"></i>, in the **Select organization** dropdown list, select your Azure DevOps organization, and then click **Choose template**.
 5. <input type="checkbox" class="box" id="az400-lab04-exer0-task1-05" name="az400-lab04-exer0-task1-05" /> On the **Choose a template** page, click the **PartsUnlimited** template, and then click **Select Template**.
 6. <input type="checkbox" class="box" id="az400-lab04-exer0-task1-06" name="az400-lab04-exer0-task1-06" /> Click **Create Project**
 
@@ -94,7 +94,7 @@ In this task, you will configure the LOD VM as an Azure DevOps self-hosting agen
 6. <input type="checkbox" class="box" id="az400-lab04-exer2-task1-06" name="az400-lab04-exer2-task1-06" /> On the **Personal Access Token** pane of the Azure DevOps portal, click **Azure DevOps** symbol in the upper left corner and then click **Organization settings** label in the lower left corner.
 7. <input type="checkbox" class="box" id="az400-lab04-exer2-task1-07" name="az400-lab04-exer2-task1-07" /> To the left side of the **Overview** pane, in the vertical menu, in the **Pipelines** section, click **Agent pools**.
 8. <input type="checkbox" class="box" id="az400-lab04-exer2-task1-08" name="az400-lab04-exer2-task1-08" /> On the **Agent pools** pane, in the upper right corner, click **Add pool**.
-9. <input type="checkbox" class="box" id="az400-lab04-exer2-task1-09" name="az400-lab04-exer2-task1-09" /> On the **Add agent pool** pane, in the **Pool type** dropdown list, select **Self-hosted**, in the **Name** text box, type **az400m05l05a-pool** and then click **Create**.
+9. <input type="checkbox" class="box" id="az400-lab04-exer2-task1-09" name="az400-lab04-exer2-task1-09" /> On the **Add agent pool** pane, in the **Pool type** dropdown list, select **Self-hosted**, in the **Name** text box, type <span id="az400m05l05a-pool">**az400m05l05a-pool**</span> <i title="Copy Text" class="fas fa-clipboard" onclick="posttoclip('az400m05l05a-pool')"></i> and then click **Create**.
 10. <input type="checkbox" class="box" id="az400-lab04-exer2-task1-10" name="az400-lab04-exer2-task1-10" /> Back on the **Agent pools** pane, click the entry representing the newly created **az400m05l05a-pool**.
 11. <input type="checkbox" class="box" id="az400-lab04-exer2-task1-11" name="az400-lab04-exer2-task1-11" /> On the **Jobs** tab of the **az400m05l05a-pool** pane, click the **New agent** button.
 12. <input type="checkbox" class="box" id="az400-lab04-exer2-task1-12" name="az400-lab04-exer2-task1-12" /> On the **Get the agent** pane, ensure that the **Windows** and **x64** tabs are selected, and click **Download** to download the zip archive containing the agent binaries to download it into the local **Downloads** folder within your user profile.
@@ -103,19 +103,18 @@ In this task, you will configure the LOD VM as an Azure DevOps self-hosting agen
 
 13. <input type="checkbox" class="box" id="az400-lab04-exer2-task1-13" name="az400-lab04-exer2-task1-13" /> Start Windows PowerShell as administrator and in the **Administrator: Windows PowerShell** console run the following lines to create the **C:\\agent** directory and extract the content of the downloaded archive into it.
 
-    ```powershell
-    cd \
-    mkdir agent ; cd agent
-    $TARGET = Get-ChildItem "$Home\Downloads\vsts-agent-win-x64-*.zip"
-    Add-Type -AssemblyName System.IO.Compression.FileSystem
-    [System.IO.Compression.ZipFile]::ExtractToDirectory($TARGET, "$PWD")
-    ```
+    <i title="Copy Text" style="float:right;" class="fas fa-clipboard" onclick="posttoclip('az400-lab04-exer2-task1-13-code')"></i>
+    <div class="language-powershell highlighter-rouge"><div class="highlight"><pre class="highlight">
+    <code id="az400-lab04-exer2-task1-13-code"><span class="n">cd</span><span class="w"> </span><span class="nx">\</span><span class="w">
+    </span><span class="n">mkdir</span><span class="w"> </span><span class="nx">agent</span><span class="w"> </span><span class="p">;</span><span class="w"> </span><span class="n">cd</span><span class="w"> </span><span class="nx">agent</span><span class="w">
+    </span><span class="nv">$TARGET</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Get-ChildItem</span><span class="w"> </span><span class="s2">"</span><span class="nv">$Home</span><span class="s2">\Downloads\vsts-agent-win-x64-*.zip"</span><span class="w">
+    </span><span class="n">Add-Type</span><span class="w"> </span><span class="nt">-AssemblyName</span><span class="w"> </span><span class="nx">System.IO.Compression.FileSystem</span><span class="w">
+    </span><span class="p">[</span><span class="n">System.IO.Compression.ZipFile</span><span class="p">]::</span><span class="n">ExtractToDirectory</span><span class="p">(</span><span class="nv">$TARGET</span><span class="p">,</span><span class="w"> </span><span class="s2">"</span><span class="bp">$PWD</span><span class="s2">"</span><span class="p">)</span><span class="w"></span></code></pre></div></div>
 
 14. <input type="checkbox" class="box" id="az400-lab04-exer2-task1-14" name="az400-lab04-exer2-task1-14" /> In the same **Administrator: Windows PowerShell** console, run the following to configure the agent:
 
-    ```powershell
-    .\config.cmd
-    ```
+    <i title="Copy Text" style="float:right;" class="fas fa-clipboard" onclick="posttoclip('az400-lab04-exer2-task1-14-code')"></i>
+    <div class="language-powershell highlighter-rouge"><div class="highlight"><pre class="highlight"><code id="az400-lab04-exer2-task1-14-code"><span class="o">.</span><span class="n">\config.cmd</span><span class="w"></span></code></pre></div></div>
 
 15. <input type="checkbox" class="box" id="az400-lab04-exer2-task1-15" name="az400-lab04-exer2-task1-15" /> When prompted, specify the values of the following settings:
 
@@ -143,11 +142,10 @@ In this task, you will configure the LOD VM as an Azure DevOps self-hosting agen
 21. <input type="checkbox" class="box" id="az400-lab04-exer2-task1-21" name="az400-lab04-exer2-task1-21" /> On the **Recent** tab of the **Pipelines** pane, select **PartsUnlimited** and, on the **PartsUnlimited** pane, select **Edit**.
 22. <input type="checkbox" class="box" id="az400-lab04-exer2-task1-22" name="az400-lab04-exer2-task1-22" /> On the **PartsUnlimited** edit pane, in the existing YAML-based pipeline, replace line  `vmImage: windows-2019` designating the target agent pool the following content, designating the newly created self-hosted agent pool:
 
-    ```yaml
-    name: az400m05l05a-pool
-    demands:
-    - agent.name -equals az400m05-vm0
-    ```
+    <i title="Copy Text" style="float:right;" class="fas fa-clipboard" onclick="posttoclip('az400-lab04-exer2-task1-22-code')"></i>
+    <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code id="az400-lab04-exer2-task1-22-code"><span class="na">name</span><span class="pi">:</span> <span class="s">az400m05l05a-pool</span>
+    <span class="na">demands</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="s">agent.name -equals az400m05-vm0</span></code></pre></div></div>
 
 23. <input type="checkbox" class="box" id="az400-lab04-exer2-task1-23" name="az400-lab04-exer2-task1-23" /> For `Task: NugetToolInstaller@0`, click on **Settings (link that is displaying above the task in grey colour)**, modify **Version of NuGet.exe to install** > **4.0.0**  and click on **Add**.
 24. <input type="checkbox" class="box" id="az400-lab04-exer2-task1-24" name="az400-lab04-exer2-task1-24" />  On the **PartsUnlimited** edit pane, in the upper right corner of the pane, click **Save** and, on the **Save** pane, click **Save** again. This will automatically trigger the build based on this pipeline.
