@@ -1,0 +1,2 @@
+Start the Jekyll Server with livereload
+bundle exec jekyll serve --livereload
