@@ -182,9 +182,9 @@ In this exercise, you will configure the service connection with your Azure Subs
 In this task, you will add a new role assignment to allow Azure App Service pull the docker image from Azure Container Registry.
 
 1. <input type="checkbox" class="box" id="{{ page.chkbx-pre-ids }}-exer3-task1-01" name="{{ page.chkbx-pre-ids }}-exer3-task1-01" /> Navigate to the [**Azure Portal**](https://portal.azure.com){:target="_blank"}.
-2. <input type="checkbox" class="box" id="{{ page.chkbx-pre-ids }}-exer3-task1-02" name="{{ page.chkbx-pre-ids }}-exer3-task1-02" /> In the Azure portal, click on the **Cloud Shell** icon, located directly to the right of the search textbox at the top of the page. 
+2. <input type="checkbox" class="box" id="{{ page.chkbx-pre-ids }}-exer3-task1-02" name="{{ page.chkbx-pre-ids }}-exer3-task1-02" /> In the Azure portal, click on the **Cloud Shell** icon, located directly to the right of the search textbox at the top of the page.
 3. <input type="checkbox" class="box" id="{{ page.chkbx-pre-ids }}-exer3-task1-03" name="{{ page.chkbx-pre-ids }}-exer3-task1-03" /> If prompted to select either **Bash** or **PowerShell**, select **Bash**.
-4. <input type="checkbox" class="box" id="{{ page.chkbx-pre-ids }}-exer3-task1-04" name="{{ page.chkbx-pre-ids }}-exer3-task1-04" /> From the **Bash** prompt, in the **Cloud Shell** pane, run the following commands to retrieve the values of the Azure subscription ID attribute: 
+4. <input type="checkbox" class="box" id="{{ page.chkbx-pre-ids }}-exer3-task1-04" name="{{ page.chkbx-pre-ids }}-exer3-task1-04" /> From the **Bash** prompt, in the **Cloud Shell** pane, run the following commands to retrieve the values of the Azure subscription ID attribute:
 
    <i title="Copy Text" style="float:right" class="fas fa-clipboard" onclick="posttoclip('exer3-task1-04-code')"></i>
    <div class="language-bash highlighter-rouge"><div class="highlight">
