@@ -116,14 +116,14 @@ In this task, you will step through the process of cloning a Git repository by u
 
     > **Note**: The Command Palette provides an easy and convenient way to access a wide variety of tasks, including those implemented as 3rd party extensions. You can use the keyboard shortcut **Ctrl+Shift+P** or **F1** to open it.
 
-8. <input type="checkbox" class="box" id="az400-lab02-exer1-task1-08" name="az400-lab02-exer1-task1-08" /> At the Command Palette prompt, run the **Git: Clone** command.
+8. <input type="checkbox" class="box" id="az400-lab02-exer1-task1-08" name="az400-lab02-exer1-task1-08" /> At the Command Palette prompt, run the <span id="gitclone">**Git: Clone**</span> <i title="Copy Text" class="fas fa-clipboard" onclick="posttoclip('gitclone')"></i> command.
 
     ![VS Code command palette](images/vscode-command.png)
 
     > **Note**: To see all relevant commands, you can start by typing **Git**.
 
 9. <input type="checkbox" class="box" id="az400-lab02-exer1-task1-09" name="az400-lab02-exer1-task1-09" /> In the **Provide repository URL or pick a repository source** text box, paste the repo clone URL you copied earlier in this task and press the **Enter** key.
-10. <input type="checkbox" class="box" id="az400-lab02-exer1-task1-10" name="az400-lab02-exer1-task1-10" /> Within the **Select Folder** dialog box, navigate to the C: drive, create a new folder named **Git**, select it, and then click **Select Repository Location**.
+10. <input type="checkbox" class="box" id="az400-lab02-exer1-task1-10" name="az400-lab02-exer1-task1-10" /> Within the **Select Folder** dialog box, navigate to the C: drive, create a new folder named <span id="git">**Git**</span> <i title="Copy Text" class="fas fa-clipboard" onclick="posttoclip('git')"></i>, select it, and then click **Select Repository Location**.
 11. <input type="checkbox" class="box" id="az400-lab02-exer1-task1-11" name="az400-lab02-exer1-task1-11" /> When prompted, log in to your Azure DevOps account.
 12. <input type="checkbox" class="box" id="az400-lab02-exer1-task1-12" name="az400-lab02-exer1-task1-12" /> After the cloning process completes, once prompted, in the Visual Studio Code, click **Open** to open the cloned repository.
 
@@ -198,7 +198,7 @@ In this task, you will explore the use of staging changes by using Visual Studio
 
     > **Note**: This stages the change to the **Program.cs** file only, preparing it for commit without **Constants.cs**.
 
-6. <input type="checkbox" class="box" id="az400-lab02-exer2-task3-06" name="az400-lab02-exer2-task3-06" /> With the **SOURCE CONTROL** tab selected, at the top of the pane, in the textbox, type **Added comments** as the commit message.
+6. <input type="checkbox" class="box" id="az400-lab02-exer2-task3-06" name="az400-lab02-exer2-task3-06" /> With the **SOURCE CONTROL** tab selected, at the top of the pane, in the textbox, type <span id="addedcomments">**Added comments**</span> <i title="Copy Text" class="fas fa-clipboard" onclick="posttoclip('addedcomments')"></i> as the commit message.
 
     ![Staged changes](images/staged-changes.png)
 
@@ -251,7 +251,7 @@ In this task, you will create a branch by using Visual Studio Code.
 
     ![Create branch](images/create-branch.png)
 
-4. <input type="checkbox" class="box" id="az400-lab02-exer4-task1-04" name="az400-lab02-exer4-task1-04" /> In the **Branch name** textbox, type **dev** to specify the new branch and press **Enter**.
+4. <input type="checkbox" class="box" id="az400-lab02-exer4-task1-04" name="az400-lab02-exer4-task1-04" /> In the **Branch name** textbox, type <span id="dev">**dev**</span> <i title="Copy Text" class="fas fa-clipboard" onclick="posttoclip('dev')"></i> to specify the new branch and press **Enter**.
 5. <input type="checkbox" class="box" id="az400-lab02-exer4-task1-05" name="az400-lab02-exer4-task1-05" /> In the **Select a ref to create the 'dev' branch from** textbox, select **main** as the reference branch.
 
     > **Note**: At this point, you are automatically switched to the **dev** branch.
@@ -277,12 +277,12 @@ Git keeps track of which branch you are working on and makes sure that, when you
 
 8. <input type="checkbox" class="box" id="az400-lab02-exer4-task2-08" name="az400-lab02-exer4-task2-08" /> In the list of branches select the **main** branch to check it out.
 9. <input type="checkbox" class="box" id="az400-lab02-exer4-task2-09" name="az400-lab02-exer4-task2-09" /> Press **Ctrl+Shift+P** to open the **Command Palette**.
-10. <input type="checkbox" class="box" id="az400-lab02-exer4-task2-10" name="az400-lab02-exer4-task2-10" /> At the **Command Palette** prompt, start typing **Git: Delete** and select **Git: Delete Branch** when it becomes visible.
+10. <input type="checkbox" class="box" id="az400-lab02-exer4-task2-10" name="az400-lab02-exer4-task2-10" /> At the **Command Palette** prompt, start typing <span id="gitdelete">**Git: Delete**</span> <i title="Copy Text" class="fas fa-clipboard" onclick="posttoclip('gitdelete')"></i> and select **Git: Delete Branch** when it becomes visible.
 11. <input type="checkbox" class="box" id="az400-lab02-exer4-task2-11" name="az400-lab02-exer4-task2-11" /> Select the **dev** entry in the list of branches to delete.
 12. <input type="checkbox" class="box" id="az400-lab02-exer4-task2-12" name="az400-lab02-exer4-task2-12" /> In the lower left corner of the Visual Studio Code window, click the **main** entry again. This will display the existing branches in the upper portion of the Visual Studio Code window.
 13. <input type="checkbox" class="box" id="az400-lab02-exer4-task2-13" name="az400-lab02-exer4-task2-13" /> Verify that the local **dev** branch no longer appears in the list, but the remote **origin/dev** is still there.
 14. <input type="checkbox" class="box" id="az400-lab02-exer4-task2-14" name="az400-lab02-exer4-task2-14" /> Press **Ctrl+Shift+P** to open the **Command Palette**.
-15. <input type="checkbox" class="box" id="az400-lab02-exer4-task2-15" name="az400-lab02-exer4-task2-15" /> At the **Command Palette** prompt, start typing **Git: Fetch** and select **Git: Fetch (Prune)** when it becomes visible.
+15. <input type="checkbox" class="box" id="az400-lab02-exer4-task2-15" name="az400-lab02-exer4-task2-15" /> At the **Command Palette** prompt, start typing <span id="gitfetch">**Git: Fetch**</span> <i title="Copy Text" class="fas fa-clipboard" onclick="posttoclip('gitfetch')"></i> and select **Git: Fetch (Prune)** when it becomes visible.
 
     > **Note**: This command will update the origin branches in the local
     > snapshot and delete those that are no longer there.
@@ -350,7 +350,7 @@ In this task, you will use the Azure DevOps portal to test the policy and create
 In this task, you will use the Azure DevOps portal to create a Pull Request, using the **dev** branch to merge a change into the protected **main** branch. An Azure DevOps work item with be linked to the changes to be able to trace pending work with code activity.
 
 1. <input type="checkbox" class="box" id="az400-lab02-exer4-task6-01" name="az400-lab02-exer4-task6-01" /> In the vertical navigational pane of the of the Azure DevOps portal, in the **Boards** section, select **Work Items**.
-2. <input type="checkbox" class="box" id="az400-lab02-exer4-task6-02" name="az400-lab02-exer4-task6-02" /> Click on **+ New Work Item > Product Backlog Item**. In title field, write **Testing my first PR** and click on **Save**.
+2. <input type="checkbox" class="box" id="az400-lab02-exer4-task6-02" name="az400-lab02-exer4-task6-02" /> Click on **+ New Work Item > Product Backlog Item**. In title field, write <span id="testingfirstpr">**Testing my first PR**</span> <i title="Copy Text" class="fas fa-clipboard" onclick="posttoclip('testingfirstpr')"></i> and click on **Save**.
 3. <input type="checkbox" class="box" id="az400-lab02-exer4-task6-03" name="az400-lab02-exer4-task6-03" /> Now go back to the vertical navigational pane of the of the Azure DevOps portal, in the **Repos>Files**, make sure the **dev** branch is selected.
 4. <input type="checkbox" class="box" id="az400-lab02-exer4-task6-04" name="az400-lab02-exer4-task6-04" /> Navigate to the **/eShopOnWeb/src/Web/Program.cs** file and make the following change on the first line:
 
@@ -387,7 +387,7 @@ The product team has decided that the current version of the site should be rele
 
 1. <input type="checkbox" class="box" id="az400-lab02-exer4-task7-01" name="az400-lab02-exer4-task7-01" /> In the vertical navigational pane of the of the Azure DevOps portal, in the **Repos** section, select **Tags**.
 2. <input type="checkbox" class="box" id="az400-lab02-exer4-task7-02" name="az400-lab02-exer4-task7-02" /> In the **Tags** pane, click **New tag**.
-3. <input type="checkbox" class="box" id="az400-lab02-exer4-task7-03" name="az400-lab02-exer4-task7-03" /> In the **Create a tag** panel, in the **Name** text box, type **v1.1.0-beta**, in the **Based on** drop-down list leave the **main** entry selected, in the **Description** text box, type **Beta release v1.1.0** and click **Create**.
+3. <input type="checkbox" class="box" id="az400-lab02-exer4-task7-03" name="az400-lab02-exer4-task7-03" /> In the **Create a tag** panel, in the **Name** text box, type <span id="v110beta">**v1.1.0-beta**</span> <i title="Copy Text" class="fas fa-clipboard" onclick="posttoclip('v110beta')"></i>, in the **Based on** drop-down list leave the **main** entry selected, in the **Description** text box, type <span id="v110betarelease">**Beta release v1.1.0**</span> <i title="Copy Text" class="fas fa-clipboard" onclick="posttoclip('v110betarelease')"></i> and click **Create**.
 
     > **Note**: You have now tagged the repository at this release (the latest commit gets linked to the tag). You could tag commits for a variety of reasons and Azure DevOps offers the flexibility to edit and delete them, as well as manage their permissions.
 
