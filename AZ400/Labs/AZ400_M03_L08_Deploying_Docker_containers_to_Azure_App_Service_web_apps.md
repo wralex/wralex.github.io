@@ -22,6 +22,7 @@ Container Registry, and deploy it as a container to Azure App Service.
 ## Objectives
 
 After you complete this lab, you will be able to:
+
 - Build a custom Docker image by using a Microsoft hosted Linux agent.
 - Push an image to Azure Container Registry.
 - Deploy a Docker image as a container to Azure App Service by using Azure DevOps.
