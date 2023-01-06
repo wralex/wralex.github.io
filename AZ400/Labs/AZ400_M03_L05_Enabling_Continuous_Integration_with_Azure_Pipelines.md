@@ -2,7 +2,6 @@
 layout: page
 title:  "Lab 05: Enabling Continuous Integration with Azure Pipelines"
 ---
-# Student lab manual
 
 ## Lab requirements
 
@@ -40,7 +39,7 @@ In this task, you will use Azure DevOps Demo Generator to generate a new project
 
 1. <input type="checkbox" /> Click **Sign in** and sign in using the Microsoft account associated with your Azure DevOps subscription.
 1. <input type="checkbox" /> If required, on the **Azure DevOps Demo Generator** page, click **Accept** to accept the permission requests for accessing your Azure DevOps subscription.
-1. <input type="checkbox" /> On the **Create New Project** page, in the **New Project Name** textbox, type **Enabling Continuous Integration with Azure Pipelines**, in the **Select organization** dropdown list, select your Azure DevOps organization, and then click **Choose template**.
+1. <input type="checkbox" /> On the **Create New Project** page, in the **New Project Name** textbox, type <span id="labtitle">**Enabling Continuous Integration with Azure Pipelines**</span> <i title="Copy Text" class="fas fa-clipboard" onclick="posttoclip('labtitle')"></i>, in the **Select organization** dropdown list, select your Azure DevOps organization, and then click **Choose template**.
 1. <input type="checkbox" /> In the list of templates, locate the **PartsUnlimited** template and click **Select Template**.
 1. <input type="checkbox" /> Back on the **Create New Project** page, click **Create Project**
 
@@ -76,7 +75,7 @@ In this task, you will create and configure a build pipeline by using a predefin
     > **Note**: You need to start by configuring the source repository. Every major platform is available, but the default options are all we need here. This build will use the **master** branch of the **PartsUnlimited** repo.
 
 1. <input type="checkbox" /> Ensure that the **Azure Repos Git** option with the **PartsUnlimited** repository and **master** branch entries are selected, and click **Continue**.
-1. <input type="checkbox" /> On the **Choose a template** pane, in the **Search** text box, type **ASP.NET**, in the list of results, select the **ASP.NET** template and click **Apply** to apply this template to the build definition.
+1. <input type="checkbox" /> On the **Choose a template** pane, in the **Search** text box, type <span id="aspnet">**ASP.NET**</span> <i title="Copy Text" class="fas fa-clipboard" onclick="posttoclip('aspnet')"></i>, in the list of results, select the **ASP.NET** template and click **Apply** to apply this template to the build definition.
 
     > **Note**: Note that there are many options that should cover all of our mainstream scenarios. For our purposes here, we'll just build the project using the baseline ASP.NET template. The process for this build pipeline is easy to follow. After getting the source, Azure DevOps will use NuGet to restore any dependent packages. Then, the project will be built and tested. The results will then be published to the configured target.
 
@@ -126,7 +125,7 @@ In this task, you will trigger a continuous integration build.
 1. <input type="checkbox" /> In the web browser window displaying your project settings in the Azure DevOps portal, in the vertical navigational pane, select the **Repos** section and ensure that the **Files** view is displayed.
 1. <input type="checkbox" /> In the middle pane, navigate to the file **PartsUnlimited-aspnet45/src/PartsUnlimitedWebsite/Views/Home/Index.cshtml** and select it.
 1. <input type="checkbox" /> On the **Index.cshtml** pane, click **Edit**.
-1. <input type="checkbox" /> On the **Index.cshtml** pane, make a minor update by changing the line `ViewBag.Title = "Home Page";` to `ViewBag.Title = "Lab Project Home Page";` and click **Commit**.
+1. <input type="checkbox" /> On the **Index.cshtml** pane, make a minor update by changing the line `ViewBag.Title = "Home Page";` to <span id="viewbag">`ViewBag.Title = "Lab Project Home Page";`</span> <i title="Copy Text" class="fas fa-clipboard" onclick="posttoclip('viewbag')"></i> and click **Commit**.
 1. <input type="checkbox" /> On the **Commit** pane, accept the default commit details and click **Commit**.
 
     > **Note**: This will automatically trigger a build.
