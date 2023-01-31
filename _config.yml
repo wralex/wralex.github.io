@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -21,17 +21,15 @@
 title: WRAJ GitHub Pages
 email: wralex@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This site will be used for communicating projects that I have been working on
-  and any education that I can share with the community.
+  This site will be used for multiple purposes. Mainly for IT education.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://wralex.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  wralex
-markdown: kramdown
 
+# Build settings
 theme: minima
 plugins:
   - jekyll-feed
-# Build settings
 
 # Exclude from processing.
 # The following items will not be processed, by default.
