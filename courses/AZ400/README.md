@@ -1,6 +1,7 @@
 ---
 layout: page
 title:  "AZ400: Designing and Implementing Microsoft DevOps Solutions"
+permalink: /courses/AZ400/
 ---
 
 | Modules                                                                                                                  | Labs |
