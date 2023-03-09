@@ -180,10 +180,10 @@ so that I may share with future readers.
    1. <input type="checkbox" />Open File Explorer on your desktop and go to a folder on your workstation
       of where you would like to place a new project. At that location create a
       new folder and rename it to a name you choose. In this example we will use
-      the name `testdoc`<i title="Copy Text"  style="float:right;" class="fas fa-clipboard" clip-text='testdoc'></i>.
+      the name `testdoc`<i title="Copy Text" class="fas fa-clipboard" clip-text='testdoc'></i>.
 
       ![testdoc](/images/new_testdoc_folder.png)
-   1. <input type="checkbox" />Open the folder and create a new folder called `original`<i title="Copy Text"  style="float:right;" class="fas fa-clipboard" clip-text='original'></i>.
+   1. <input type="checkbox" />Open the folder and create a new folder called `original`<i title="Copy Text" class="fas fa-clipboard" clip-text='original'></i>.
    1. <input type="checkbox" />Get a Word document _(or other, but in this_
       _example we will use a Microsoft Word file)_ that you would like to
       convert into **Markdown** and place it into the subfolder `original`. Here
@@ -249,4 +249,3 @@ so that I may share with future readers.
 [markdownlint]: https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint
 [VS Code PowerShell]: https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell
 [Remote Repositories]: https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-repositories
-
