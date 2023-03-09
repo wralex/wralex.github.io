@@ -90,8 +90,7 @@ so that I may share with future readers.
    viewable in VS Code's MD previews. I also use this for easy macros and
    RegEdit features that VS Code and other editors don't provide [i.e. block selections with the `Alt` key])_</small>
 
-5. <input type="checkbox" /> For Windows users download and [install latest Powershell]. _(Powershell is also available
-   for Linux platform)_
+5. <input type="checkbox" />Download and [install Powershell].
 
 ### Optional Advanced Tools
 
@@ -143,5 +142,5 @@ so that I may share with future readers.
 [Install Pandoc]: https://pandoc.org/installing.html "Download and install Pandoc"
 [Install Notepad++]: https://notepad-plus-plus.org/downloads "Notepad++ Downloads"
 [PowerShell]: https://learn.microsoft.com/en-us/powershell/scripting/overview
-[Install latest Powershell]: https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows "Installing PowerShell on Windows"
+[Install Powershell]: https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows "Installing PowerShell on Windows"
 [<span style="color:red">z</span>otero]: https://www.zotero.org "zotero, Your personal research assistant"
