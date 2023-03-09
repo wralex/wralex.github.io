@@ -78,29 +78,33 @@ so that I may share with future readers.
    - <input type="checkbox" />[Tips and Tricks](https://code.visualstudio.com/docs/getstarted/tips-and-tricks.md)
      \- Lets you jump right in and learn how to be productive with VS Code.
 
-3. <input type="checkbox" /> [Install Pandoc] on your system
+3. <input type="checkbox" />Download and [Install Pandoc] on your system
 
 ### Optional Tools
 
-4. <input type="checkbox" /> [Install Notepad++] to have an additional editor/viewer of
+4. <input type="checkbox" />Download and [Install Notepad++] to have an additional editor/viewer of
    Markdown documents.  
    <small>_(**explanation**: I use this tool for previewing
    Markdown components, such as Grid Matrix tables, that are not currently
    viewable in VS Code's MD previews. I also use this for easy macros and
    RegEdit features that VS Code and other editors don't provide [i.e. block selections with the `Alt` key])_</small>
 
-5. <input type="checkbox" /> For Windows users [install latest Powershell]. _(Powershell is also available
+5. <input type="checkbox" /> For Windows users download and [install latest Powershell]. _(Powershell is also available
    for Linux platform)_
 
 ### Optional Advanced Tools
 
-6. <input type="checkbox" /> Install <span style="color:red">Z</span>otero if
+6. <input type="checkbox" />Download and install <span style="color:red">Z</span>otero if
    you would like to track reference links, documents, journals, etc., within
    the resulting documentation.  
    > **Note**: Personally I found this tool useful since there are so many links
    to track in large documents and this has the ability to produce useful
    export files that Pandoc uses for generating bibliography links within the
    outputs _(Word, HTML, etc.)_.
+   >
+   > **Note**: I also recomend to setting up an online account so that you can
+   syncronize references and collections online with other members in a group
+   sharing the referenced libraries with those members.
 
 ## Setup
 
@@ -128,7 +132,7 @@ so that I may share with future readers.
 
    1. Open up VS Code on your desktop. It may go through some checks and updates
       so you may want to give it a few minutes.
-   1. 
+
 
 [GIT]: https://git-scm.com/about "git --local-branching-on-the-cheap"
 [GIT Downloads]: https://git-scm.com/downloads "git --fast-version-control"
