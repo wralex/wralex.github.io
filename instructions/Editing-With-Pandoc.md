@@ -136,43 +136,46 @@ so that I may share with future readers.
       _unfamiliar with how to install extions please go to_
       _[VS Code: **Extension Marketplace**] to learn how to install extensions)_
 
-      - <input type="checkbox" />[<img src="https://bierner.gallerycdn.vsassets.
-        io/extensions/bierner/github-markdown-preview/0.3.0/1651533762167/Micros
-        oft.VisualStudio.Services.Icons.Default" height="15" />GitHub Markdown
-        Preview][GitHub Markdown Preview]<i title="Copy Test" class="fas fa-clipboard"
-        onclick="texttoclip('GitHub Markdown Preview')"></i>
-      - <input type="checkbox" />[<img src="https://ms-vsliveshare.gallerycdn.vs
-        assets.io/extensions/ms-vsliveshare/vsliveshare/1.0.5834/1678124842214/M
-        icrosoft.VisualStudio.Services.Icons.Default" height="15" />Live
-        Share][Live Share]<i title="Copy Test" class="fas fa-clipboard"
-        onclick="texttoclip('Live Share')"></i>
-      - <input type="checkbox" />[<img src="https://bierner.gallerycdn.vsassets.io/extensions/bierner/mar
-        kdown-checkbox/0.4.0/1667513871796/Microsoft.VisualStudio.Services.Icons
-        .Default" height="15" />Markdown Checkboxes][Markdown Checkboxes]<i title="Copy Test" class="fas fa-clipboard"
-        onclick="texttoclip('Markdown Checkboxes')"></i>
-      - <input type="checkbox" />[<img src="https://bierner.gallerycdn.vsassets.io/extensions/bierner/mar
-        kdown-emoji/0.3.0/1657843376933/Microsoft.VisualStudio.Services.Icons.De
-        fault" height="15" />Markdown Emoji][Markdown Emoji]<i title="Copy Test" class="fas fa-clipboard"
-        onclick="texttoclip('Markdown Emoji')"></i>
-      - <input type="checkbox" />[<img src="https://bierner.gallerycdn.vsassets.io/extensions/bierner/mar
-        kdown-footnotes/0.1.1/1668806677422/Microsoft.VisualStudio.Services.Icon
-        s.Default" height="15" />Markdown Footnotes][Markdown Footnotes]<i title="Copy Test" class="fas fa-clipboard"
-        onclick="texttoclip('Markdown Footnotes')"></i>
-      - <input type="checkbox" />[<img src="" height="15" />]Markdown Preview Github Styling
-      - <input type="checkbox" />[<img src="" height="15" />]Markdown Preview Mermaid Support
-      - <input type="checkbox" />[<img src="" height="15" />]Markdown yaml Preamble
-      - <input type="checkbox" />[<img src="" height="15" />]Mermaid Markdown Syntax Highlighting
-      - <input type="checkbox" />[<img src="" height="15" />]Pretier - Code formatter
-      - <input type="checkbox" />[<img src="" height="15" />]Azure Repos
-      - <input type="checkbox" />[<img src="" height="15" />]Github Theme
-      - <input type="checkbox" />[<img src="" height="15" />]Intellicode
-      - <input type="checkbox" />[<img src="" height="15" />]learn-markdown
-      - <input type="checkbox" />[<img src="" height="15" />]Markdown All in One
-      - <input type="checkbox" />[<img src="" height="15" />]Markdown Image Size
-      - <input type="checkbox" />[<img src="" height="15" />]Markdown Theme Kit
-      - <input type="checkbox" />[<img src="" height="15" />]markdownlint
-      - <input type="checkbox" />[<img src="" height="15" />]PowerShell
-      - <input type="checkbox" />[<img src="" height="15" />]Remote Repositories
+      - <input type="checkbox" />[<img src="https://bierner.gallerycdn.vsassets.io/extensions/bierner/github-markdown-preview/0.3.0/1651533762167/Microsoft.VisualStudio.Services.Icons.Default" height="15" />GitHub Markdown Preview][GitHub Markdown Preview]
+        <i title="Copy Text" class="fas fa-clipboard" clip-text="GitHub Markdown Preview"></i>
+      - <input type="checkbox" />[<img src="https://ms-vsliveshare.gallerycdn.vsassets.io/extensions/ms-vsliveshare/vsliveshare/1.0.5834/1678124842214/Microsoft.VisualStudio.Services.Icons.Default" height="15" />Live Share][Live Share]
+        <i title="Copy Text" class="fas fa-clipboard" clip-text="Live Share"></i>
+      - <input type="checkbox" />[<img src="https://bierner.gallerycdn.vsassets.io/extensions/bierner/markdown-checkbox/0.4.0/1667513871796/Microsoft.VisualStudio.Services.Icons.Default" height="15" />Markdown Checkboxes][Markdown Checkboxes]
+        <i title="Copy Text" class="fas fa-clipboard" clip-text="Markdown Checkboxes"></i>
+      - <input type="checkbox" />[<img src="https://bierner.gallerycdn.vsassets.io/extensions/bierner/markdown-emoji/0.3.0/1657843376933/Microsoft.VisualStudio.Services.Icons.Default" height="15" />Markdown Emoji][Markdown Emoji]
+        <i title="Copy Text" class="fas fa-clipboard" clip-text="Markdown Emoji"></i>
+      - <input type="checkbox" />[<img src="https://bierner.gallerycdn.vsassets.io/extensions/bierner/markdown-footnotes/0.1.1/1668806677422/Microsoft.VisualStudio.Services.Icons.Default" height="15" />Markdown Footnotes][Markdown Footnotes]
+        <i title="Copy Text" class="fas fa-clipboard" clip-text="Markdown Footnotes"></i>
+      - <input type="checkbox" />[<img src="https://bierner.gallerycdn.vsassets.io/extensions/bierner/markdown-preview-github-styles/1.0.1/1642545629948/Microsoft.VisualStudio.Services.Icons.Default" height="15" />Markdown Preview Github Styling][Markdown Preview Github Styling]
+        <i title="Copy Text" class="fas fa-clipboard" clip-text="Markdown Preview Github Styling"></i>
+      - <input type="checkbox" />[<img src="https://bierner.gallerycdn.vsassets.io/extensions/bierner/markdown-mermaid/1.17.7/1678235901215/Microsoft.VisualStudio.Services.Icons.Default" height="15" />Markdown Preview Mermaid Support][Markdown Preview Mermaid Support]
+        <i title="Copy Text" class="fas fa-clipboard" clip-text="Markdown Preview Mermaid Support"></i>
+      - <input type="checkbox" />[<img src="https://bierner.gallerycdn.vsassets.io/extensions/bierner/markdown-yaml-preamble/0.1.0/1631131915840/Microsoft.VisualStudio.Services.Icons.Default" height="15" />Markdown yaml Preamble][Markdown yaml Preamble]
+        <i title="Copy Text" class="fas fa-clipboard" clip-text="Markdown yaml Preamble"></i>
+      - <input type="checkbox" />[<img src="https://bpruitt-goddard.gallerycdn.vsassets.io/extensions/bpruitt-goddard/mermaid-markdown-syntax-highlighting/1.5.1/1676597143386/Microsoft.VisualStudio.Services.Icons.Default" height="15" />Mermaid Markdown Syntax Highlighting][Mermaid Markdown Syntax Highlighting]
+        <i title="Copy Text" class="fas fa-clipboard" clip-text="Mermaid Markdown Syntax Highlighting"></i>
+      - <input type="checkbox" />[<img src="https://esbenp.gallerycdn.vsassets.io/extensions/esbenp/prettier-vscode/9.10.4/1673460374911/Microsoft.VisualStudio.Services.Icons.Default" height="15" />Pretier - Code formatter][Pretier - Code formatter]
+        <i title="Copy Text" class="fas fa-clipboard" clip-text="Pretier - Code formatter"></i>
+      - <input type="checkbox" />[<img src="https://ms-vscode.gallerycdn.vsassets.io/extensions/ms-vscode/azure-repos/0.29.2023030801/1678268706093/Microsoft.VisualStudio.Services.Icons.Default" height="15" />Azure Repos][Azure Repos]
+        <i title="Copy Text" class="fas fa-clipboard" clip-text="Azure Repos"></i>
+      - <input type="checkbox" />[<img src="https://github.gallerycdn.vsassets.io/extensions/github/github-vscode-theme/6.3.3/1673918670432/Microsoft.VisualStudio.Services.Icons.Default" height="15" />Github Theme][Github Theme]
+        <i title="Copy Text" class="fas fa-clipboard" clip-text="Github Theme"></i>
+      - <input type="checkbox" />[<img src="https://visualstudioexptteam.gallerycdn.vsassets.io/extensions/visualstudioexptteam/vscodeintellicode/1.2.30/1673034060126/Microsoft.VisualStudio.Services.Icons.Default" height="15" />Intellicode][Intellicode]
+        <i title="Copy Text" class="fas fa-clipboard" clip-text="Intellicode"></i>
+      - <input type="checkbox" />[<img src="https://docsmsft.gallerycdn.vsassets.io/extensions/docsmsft/docs-markdown/0.2.117/1670976096682/Microsoft.VisualStudio.Services.Icons.Default" height="15" />learn-markdown][learn-markdown]
+        <i title="Copy Text" class="fas fa-clipboard" clip-text="learn-markdown"></i>
+      - <input type="checkbox" />[<img src="https://yzhang.gallerycdn.vsassets.io/extensions/yzhang/markdown-all-in-one/3.5.0/1668948176406/Microsoft.VisualStudio.Services.Icons.Default" height="15" />Markdown All in One][Markdown All in One]
+        <i title="Copy Text" class="fas fa-clipboard" clip-text="Markdown All in One"></i>
+      - <input type="checkbox" />[<img src="https://bierner.gallerycdn.vsassets.io/extensions/bierner/markdown-image-size/0.0.4/1556842265146/Microsoft.VisualStudio.Services.Icons.Default" height="15" />Markdown Image Size][Markdown Image Size]
+        <i title="Copy Text" class="fas fa-clipboard" clip-text="Markdown Image Size"></i>
+      - <input type="checkbox" />[<img src="https://ms-vscode.gallerycdn.vsassets.io/extensions/ms-vscode/theme-markdownkit/0.1.4/1499504007109/Microsoft.VisualStudio.Services.Icons.Default" height="15" />Markdown Theme Kit][Markdown Theme Kit]
+        <i title="Copy Text" class="fas fa-clipboard" clip-text="Markdown Theme Kit"></i>
+      - <input type="checkbox" />[<img src="https://davidanson.gallerycdn.vsassets.io/extensions/davidanson/vscode-markdownlint/0.49.0/1673500187272/Microsoft.VisualStudio.Services.Icons.Default" height="15" />markdownlint][markdownlint]
+        <i title="Copy Text" class="fas fa-clipboard" clip-text="markdownlint"></i>
+      - <input type="checkbox" />[<img src="https://ms-vscode.gallerycdn.vsassets.io/extensions/ms-vscode/powershell/2023.2.1/1677183697434/Microsoft.VisualStudio.Services.Icons.Default" height="15" />PowerShell][VS Code PowerShell]
+        <i title="Copy Text" class="fas fa-clipboard" clip-text="PowerShell"></i>
+      - <input type="checkbox" />[<img src="https://ms-vscode.gallerycdn.vsassets.io/extensions/ms-vscode/remote-repositories/0.31.2023030901/1678353498718/Microsoft.VisualStudio.Services.Icons.Default" height="15" />Remote Repositories][Remote Repositories]
+        <i title="Copy Text" class="fas fa-clipboard" clip-text="Remote Repositories"></i>
 
 [GIT]: https://git-scm.com/about "git --local-branching-on-the-cheap"
 [GIT Downloads]: https://git-scm.com/downloads "git --fast-version-control"
@@ -190,19 +193,19 @@ so that I may share with future readers.
 [Markdown Checkboxes]: https://marketplace.visualstudio.com/items?itemName=bierner.markdown-checkbox
 [Markdown Emoji]: https://marketplace.visualstudio.com/items?itemName=bierner.markdown-emoji
 [Markdown Footnotes]: https://marketplace.visualstudio.com/items?itemName=bierner.markdown-footnotes
-[Markdown Preview Github Styling]: 
-[Markdown Preview Mermaid Support]: 
-[Markdown yaml Preamble]: 
-[Mermaid Markdown Syntax Highlighting]: 
-[Pretier - Code formatter]: 
-[Azure Repos]: 
-[Github Theme]: 
-[Intellicode]: 
-[learn-markdown]: 
-[Markdown All in One]: 
-[Markdown Image Size]: 
-[Markdown Theme Kit]: 
-[markdownlint]: 
-[PowerShell]: 
-[Remote Repositories]: 
+[Markdown Preview Github Styling]: https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles
+[Markdown Preview Mermaid Support]: https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid
+[Markdown yaml Preamble]: https://marketplace.visualstudio.com/items?itemName=bierner.markdown-yaml-preamble
+[Mermaid Markdown Syntax Highlighting]: https://marketplace.visualstudio.com/items?itemName=bpruitt-goddard.mermaid-markdown-syntax-highlighting
+[Pretier - Code formatter]: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+[Azure Repos]: https://marketplace.visualstudio.com/items?itemName=ms-vscode.azure-repos
+[Github Theme]: https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme
+[Intellicode]: https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode
+[learn-markdown]: https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-markdown
+[Markdown All in One]: https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one
+[Markdown Image Size]: https://marketplace.visualstudio.com/items?itemName=bierner.markdown-image-size
+[Markdown Theme Kit]: https://marketplace.visualstudio.com/items?itemName=ms-vscode.Theme-MarkdownKit
+[markdownlint]: https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint
+[VS Code PowerShell]: https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell
+[Remote Repositories]: https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-repositories
 
