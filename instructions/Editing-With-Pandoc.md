@@ -122,11 +122,15 @@ so that I may share with future readers.
    git config --global user.name "[Your Name]"
    ```
 
+   <i title="Copy Text"  style="float:right;" class="fas fa-clipboard" clip-text='git config --global user.name "[Your Name]"'></i>
+
    <input type="checkbox" style="float:left;" />
 
    ```powershell
    git config --global user.email "[Your Email]"
    ```
+
+   <i title="Copy Text"  style="float:right;" class="fas fa-clipboard" clip-text='git config --global user.email "[Your Email]"'></i>
 
 1. **Configuring VS Code**
 
