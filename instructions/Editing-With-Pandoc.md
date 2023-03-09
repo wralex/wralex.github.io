@@ -10,7 +10,9 @@ within the document(s). In this page I make use of Markdown since it's become a
 standard for many technical writers today. I also use the following tools to
 work with the documents, Markdown files, and a source management system to check
 in my edited files. For this page I'm using the following tools, but you may use
-others:
+others. In addition, I also use **Microsoft's Azure DevOps** for publishing to a
+repository but you may use an alternative source management service where that
+will go beyond the scope of this page.
 
 1. [<img src="https://git-scm.com/images/logo@2x.png" height="15"/>][GIT]
    <span style="color: grey;">version control</span>
@@ -41,7 +43,7 @@ others:
    gICAQUAAAAAAAAAAAAAAQIAAxExQRASEyEi/9oACAECAQE/AKaRYGJJAEFNZGQ5joFG5SQlOTzC30
    W1niM2Z5fSjt1C+eOn/8QAHhEBAAICAQUAAAAAAAAAAAAAAQACAxExEBITISL/2gAIAQMBAT8AyZO
    xAOY5bjpCVssyDfJCvyHMCeP2u+YV10//2Q==" height="15"/>PowerShell][PowerShell]
-   _(for Windows users, but Linux, macOs, version is also available)_
+   _(for Windows users, but Linux & macOs versions are also available)_
 
    **<u>Advanced Tools</u>**
 
@@ -54,13 +56,12 @@ so that I may share with future readers.
 
 ## Download and Install
 
-1. <input type="checkbox" />Download and install [GIT] on your workstation. You
-   can find find a variation that suites the environment of your system with
-   this site - [GIT Downloads]
-2. <input type="checkbox" />Download and install a development tool
-   _(i.e. [Visual Studio Code] or [Notepad++])_ to make changes to Markdown files.
+1. <input type="checkbox" />Download and install [GIT][GIT Downloads]
+2. <input type="checkbox" />Download and install [VS Code][Visual Studio Code],
+   or an alternate development tool _(but you'll need to understand how to_
+   _check in your added/modified files into the Repo)_.
 
-   **_For this page I suggest VS Code_**
+   **VS Code**
 
    1. <input type="checkbox" />Download the [Visual Studio Code installer](https://go.microsoft.com/fwlink/?LinkID=534107) for Windows.
    1. <input type="checkbox" />Once it is downloaded, run the installer (VSCodeUserSetup-{version}.exe). This will only take a minute.
