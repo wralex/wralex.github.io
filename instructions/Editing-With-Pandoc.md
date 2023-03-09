@@ -17,47 +17,14 @@ will go beyond the scope of this page.
 1. [<img src="https://git-scm.com/images/logo@2x.png" height="15"/>][GIT]
    <span style="color: grey;">version control</span>
    _(btw, full name is **Global information Tracker**)_
-1. [Visual Studio Code] _(a.k.a. **VS Code**)_
 1. [Pandoc] <span style="color: grey;">a universal document converter</span>
-
-   **<u>Optional Tools</u>**
-
-1. [<img
-   src="https://notepad-plus-plus.org/images/logo.svg"
-   height="15" />Notepad++][Notepad++] _(also an alternate development tool)_
-1. [<img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAYGBgYHBgc
-   ICAcKCwoLCg8ODAwODxYQERAREBYiFRkVFRkVIh4kHhweJB42KiYmKjY+NDI0PkxERExfWl98fKcB
-   BgYGBgcGBwgIBwoLCgsKDw4MDA4PFhAREBEQFiIVGRUVGRUiHiQeHB4kHjYqJiYqNj40MjQ+TERET
-   F9aX3x8p//CABEIAC4ALgMBIgACEQEDEQH/xAAdAAABAwUBAAAAAAAAAAAAAAAIAAYHAQIDBAUJ/9
-   oACAEBAAAAACl5eK23eyg0/YZ5pQyOHUuNWGj1YcQTKPLC9Nxe5DPfrWNqqSov/8QAFgEBAQEAAAA
-   AAAAAAAAAAAAAAgME/9oACgICEAMQAAAAvJGb0xjSVGQgv//EADcQAAEDAwMABgcGBwAAAAAAAAMB
-   AgQABQYHERITMTJBUWEWM0JVcZTSCBUhMFOiVmJygpWz4v/aAAgBAQABPwCjXyxxzPCe7wBEYuz2P
-   kDa5q+aKtekeOe/bb80L6q9Jca9/Wz5oX1V6UYx/EFr+bF9VQrra7ihFg3CLK4bc+gMwvHfq5cFXa
-   p0tkGDLmP7EcBDO+A2q6oboUm6xXXQxGRiymumFZ+L0Y5271StRNPGWIA7vZ1WRaCtYqry6RQ8up3
-   LvG6ivTwSivTwSvs7W5RWi/3XvkSxx2fADP8AutUrgkHCLl3PkuHGZ/e7d37Uoj60qzmVHnCxiZGJ
-   OgTOTBjRnSqDn2t0/RX2q1XwYeJXOOWGTeBO5rHYvbErO0zzbRi1pPavuvT3HhL2zAWU/wCMh3Otd
-   bnxFYra13WpZL0/YysSwa/ZdJVsNnQQ2O2NOI3cbfJie2+pF6xTTcJLLjNufdb8X1yMapibs7zqP/
-   W2sjHqBf5xZ90tV4MXbrdEKjGM8GJx2a2oMU1yuMOCH1kk4ws/qI5GpUeOKLHDHE3YYRtGxPBrE4p
-   WrtsyW55kd0ay3A8cMYAglEB5GOTbn1t83ULI9VYeKxseg47cowQsViSQwjIdR9fGsbZqRi12W52v
-   Grp06heJyFgGe1zH07U/XLuxQ3+KPWlOC5ObPrZPudkmx48UrpRSyAPCnNvY7f8AP+R//8QAHxEAA
-   gICAQUAAAAAAAAAAAAAAQIAAxExQRASEyEi/9oACAECAQE/AKaRYGJJAEFNZGQ5joFG5SQlOTzC30
-   W1niM2Z5fSjt1C+eOn/8QAHhEBAAICAQUAAAAAAAAAAAAAAQACAxExEBITISL/2gAIAQMBAT8AyZO
-   xAOY5bjpCVssyDfJCvyHMCeP2u+YV10//2Q==" height="15"/>PowerShell][PowerShell]
-   _(for Windows users, but Linux & macOs versions are also available)_
-
-   **<u>Advanced Tools</u>**
-
-1. [<span style="color:red">Z</span>otero] _(useful to keep track of
-   bibliography links, documents, etc. for output results)_
-
-Below are steps that I've outlines that may help you, and if you
-find other steps that may assist others please contact me at <wralex@gmail.com>
-so that I may share with future readers.
+1. [Visual Studio Code] _(a.k.a. **VS Code**)_
 
 ## Download and Install
 
 1. <input type="checkbox" />Download and install [GIT][GIT Downloads]
-2. <input type="checkbox" />Download and install [VS Code][Visual Studio Code],
+2. <input type="checkbox" />Download and [Install Pandoc] on your system
+3. <input type="checkbox" />Download and install [VS Code][Visual Studio Code],
    or an alternate development tool _(but you'll need to understand how to_
    _check in your added/modified files into the Repo)_.
 
@@ -78,33 +45,6 @@ so that I may share with future readers.
      \- Learn how to configure VS Code to your preferences through settings.
    - <input type="checkbox" />[Tips and Tricks](https://code.visualstudio.com/docs/getstarted/tips-and-tricks)
      \- Lets you jump right in and learn how to be productive with VS Code.
-
-3. <input type="checkbox" />Download and [Install Pandoc] on your system
-
-### Optional Tools
-
-4. <input type="checkbox" />Download and [Install Notepad++] to have an additional editor/viewer of
-   Markdown documents.  
-   <small>_(**explanation**: I use this tool for previewing
-   Markdown components, such as Grid Matrix tables, that are not currently
-   viewable in VS Code's MD previews. I also use this for easy macros and
-   RegEdit features that VS Code and other editors don't provide [i.e. block selections with the `Alt` key])_</small>
-
-5. <input type="checkbox" />Download and [install Powershell].
-
-### Optional Advanced Tools
-
-6. <input type="checkbox" />Download and install <span style="color:red">Z</span>otero if
-   you would like to track reference links, documents, journals, etc., within
-   the resulting documentation.  
-   > **Note**: Personally I found this tool useful since there are so many links
-   to track in large documents and this has the ability to produce useful
-   export files that Pandoc uses for generating bibliography links within the
-   outputs _(Word, HTML, etc.)_.
-   >
-   > **Note**: I also recomend to setting up an online account so that you can
-   syncronize references and collections online with other members in a group
-   sharing the referenced libraries with those members.
 
 ## Setup
 
@@ -222,6 +162,64 @@ so that I may share with future readers.
    ![New Location](/images/new_location.png)
 
 1. You can now close the File Explorer and PowerShell window.
+
+## Optional Tools
+
+1. [<img
+   src="https://notepad-plus-plus.org/images/logo.svg"
+   height="15" />Notepad++][Notepad++] _(also an alternate development tool)_
+1. [<img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAYGBgYHBgc
+   ICAcKCwoLCg8ODAwODxYQERAREBYiFRkVFRkVIh4kHhweJB42KiYmKjY+NDI0PkxERExfWl98fKcB
+   BgYGBgcGBwgIBwoLCgsKDw4MDA4PFhAREBEQFiIVGRUVGRUiHiQeHB4kHjYqJiYqNj40MjQ+TERET
+   F9aX3x8p//CABEIAC4ALgMBIgACEQEDEQH/xAAdAAABAwUBAAAAAAAAAAAAAAAIAAYHAQIDBAUJ/9
+   oACAEBAAAAACl5eK23eyg0/YZ5pQyOHUuNWGj1YcQTKPLC9Nxe5DPfrWNqqSov/8QAFgEBAQEAAAA
+   AAAAAAAAAAAAAAgME/9oACgICEAMQAAAAvJGb0xjSVGQgv//EADcQAAEDAwMABgcGBwAAAAAAAAMB
+   AgQABQYHERITMTJBUWEWM0JVcZTSCBUhMFOiVmJygpWz4v/aAAgBAQABPwCjXyxxzPCe7wBEYuz2P
+   kDa5q+aKtekeOe/bb80L6q9Jca9/Wz5oX1V6UYx/EFr+bF9VQrra7ihFg3CLK4bc+gMwvHfq5cFXa
+   p0tkGDLmP7EcBDO+A2q6oboUm6xXXQxGRiymumFZ+L0Y5271StRNPGWIA7vZ1WRaCtYqry6RQ8up3
+   LvG6ivTwSivTwSvs7W5RWi/3XvkSxx2fADP8AutUrgkHCLl3PkuHGZ/e7d37Uoj60qzmVHnCxiZGJ
+   OgTOTBjRnSqDn2t0/RX2q1XwYeJXOOWGTeBO5rHYvbErO0zzbRi1pPavuvT3HhL2zAWU/wCMh3Otd
+   bnxFYra13WpZL0/YysSwa/ZdJVsNnQQ2O2NOI3cbfJie2+pF6xTTcJLLjNufdb8X1yMapibs7zqP/
+   W2sjHqBf5xZ90tV4MXbrdEKjGM8GJx2a2oMU1yuMOCH1kk4ws/qI5GpUeOKLHDHE3YYRtGxPBrE4p
+   WrtsyW55kd0ay3A8cMYAglEB5GOTbn1t83ULI9VYeKxseg47cowQsViSQwjIdR9fGsbZqRi12W52v
+   Grp06heJyFgGe1zH07U/XLuxQ3+KPWlOC5ObPrZPudkmx48UrpRSyAPCnNvY7f8AP+R//8QAHxEAA
+   gICAQUAAAAAAAAAAAAAAQIAAxExQRASEyEi/9oACAECAQE/AKaRYGJJAEFNZGQ5joFG5SQlOTzC30
+   W1niM2Z5fSjt1C+eOn/8QAHhEBAAICAQUAAAAAAAAAAAAAAQACAxExEBITISL/2gAIAQMBAT8AyZO
+   xAOY5bjpCVssyDfJCvyHMCeP2u+YV10//2Q==" height="15"/>PowerShell][PowerShell]
+   _(for Windows users, but Linux & macOs versions are also available)_
+
+
+Below are steps that I've outlines that may help you, and if you
+find other steps that may assist others please contact me at <wralex@gmail.com>
+so that I may share with future readers.
+
+### Optional Tools
+
+1. <input type="checkbox" />Download and [Install Notepad++] to have an additional editor/viewer of
+   Markdown documents.  
+   <small>_(**explanation**: I use this tool for previewing
+   Markdown components, such as Grid Matrix tables, that are not currently
+   viewable in VS Code's MD previews. I also use this for easy macros and
+   RegEdit features that VS Code and other editors don't provide [i.e. block selections with the `Alt` key])_</small>
+
+## Advanced Optional Tools
+
+1. [<span style="color:red">Z</span>otero] _(useful to keep track of
+   bibliography links, documents, etc. for output results)_
+
+1. <input type="checkbox" />Download and install <span style="color:red">Z</span>otero if
+   you would like to track reference links, documents, journals, etc., within
+   the resulting documentation.  
+   > **Note**: Personally I found this tool useful since there are so many links
+   to track in large documents and this has the ability to produce useful
+   export files that Pandoc uses for generating bibliography links within the
+   outputs _(Word, HTML, etc.)_.
+   >
+   > **Note**: I also recomend to setting up an online account so that you can
+   syncronize references and collections online with other members in a group
+   sharing the referenced libraries with those members.
+
+
 
 [GIT]: https://git-scm.com/about "git --local-branching-on-the-cheap"
 [GIT Downloads]: https://git-scm.com/downloads "git --fast-version-control"
