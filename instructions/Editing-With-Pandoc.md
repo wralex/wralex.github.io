@@ -130,9 +130,49 @@ so that I may share with future readers.
 
 1. **Configuring VS Code**
 
-   1. Open up VS Code on your desktop. It may go through some checks and updates
+   1. <input type="checkbox" />Open up VS Code on your desktop. It may go through some checks and updates
       so you may want to give it a few minutes.
+   1. <input type="checkbox" />Add the following extensions _(if you're_
+      _unfamiliar with how to install extions please go to_
+      _[VS Code: **Extension Marketplace**] to learn how to install extensions)_
 
+      - <input type="checkbox" />[<img src="https://bierner.gallerycdn.vsassets.
+        io/extensions/bierner/github-markdown-preview/0.3.0/1651533762167/Micros
+        oft.VisualStudio.Services.Icons.Default" height="15" />GitHub Markdown
+        Preview][GitHub Markdown Preview]<i title="Copy Test" class="fas fa-clipboard"
+        onclick="texttoclip('GitHub Markdown Preview')"></i>
+      - <input type="checkbox" />[<img src="https://ms-vsliveshare.gallerycdn.vs
+        assets.io/extensions/ms-vsliveshare/vsliveshare/1.0.5834/1678124842214/M
+        icrosoft.VisualStudio.Services.Icons.Default" height="15" />Live
+        Share][Live Share]<i title="Copy Test" class="fas fa-clipboard"
+        onclick="texttoclip('Live Share')"></i>
+      - <input type="checkbox" />[<img src="https://bierner.gallerycdn.vsassets.io/extensions/bierner/mar
+        kdown-checkbox/0.4.0/1667513871796/Microsoft.VisualStudio.Services.Icons
+        .Default" height="15" />Markdown Checkboxes][Markdown Checkboxes]<i title="Copy Test" class="fas fa-clipboard"
+        onclick="texttoclip('Markdown Checkboxes')"></i>
+      - <input type="checkbox" />[<img src="https://bierner.gallerycdn.vsassets.io/extensions/bierner/mar
+        kdown-emoji/0.3.0/1657843376933/Microsoft.VisualStudio.Services.Icons.De
+        fault" height="15" />Markdown Emoji][Markdown Emoji]<i title="Copy Test" class="fas fa-clipboard"
+        onclick="texttoclip('Markdown Emoji')"></i>
+      - <input type="checkbox" />[<img src="https://bierner.gallerycdn.vsassets.io/extensions/bierner/mar
+        kdown-footnotes/0.1.1/1668806677422/Microsoft.VisualStudio.Services.Icon
+        s.Default" height="15" />Markdown Footnotes][Markdown Footnotes]<i title="Copy Test" class="fas fa-clipboard"
+        onclick="texttoclip('Markdown Footnotes')"></i>
+      - <input type="checkbox" />[<img src="" height="15" />]Markdown Preview Github Styling
+      - <input type="checkbox" />[<img src="" height="15" />]Markdown Preview Mermaid Support
+      - <input type="checkbox" />[<img src="" height="15" />]Markdown yaml Preamble
+      - <input type="checkbox" />[<img src="" height="15" />]Mermaid Markdown Syntax Highlighting
+      - <input type="checkbox" />[<img src="" height="15" />]Pretier - Code formatter
+      - <input type="checkbox" />[<img src="" height="15" />]Azure Repos
+      - <input type="checkbox" />[<img src="" height="15" />]Github Theme
+      - <input type="checkbox" />[<img src="" height="15" />]Intellicode
+      - <input type="checkbox" />[<img src="" height="15" />]learn-markdown
+      - <input type="checkbox" />[<img src="" height="15" />]Markdown All in One
+      - <input type="checkbox" />[<img src="" height="15" />]Markdown Image Size
+      - <input type="checkbox" />[<img src="" height="15" />]Markdown Theme Kit
+      - <input type="checkbox" />[<img src="" height="15" />]markdownlint
+      - <input type="checkbox" />[<img src="" height="15" />]PowerShell
+      - <input type="checkbox" />[<img src="" height="15" />]Remote Repositories
 
 [GIT]: https://git-scm.com/about "git --local-branching-on-the-cheap"
 [GIT Downloads]: https://git-scm.com/downloads "git --fast-version-control"
@@ -144,3 +184,25 @@ so that I may share with future readers.
 [PowerShell]: https://learn.microsoft.com/en-us/powershell/scripting/overview
 [Install Powershell]: https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows "Installing PowerShell on Windows"
 [<span style="color:red">z</span>otero]: https://www.zotero.org "zotero, Your personal research assistant"
+[VS Code: **Extension Marketplace**]: https://code.visualstudio.com/docs/editor/extension-marketplace
+[GitHub Markdown Preview]: https://marketplace.visualstudio.com/items?itemName=bierner.github-markdown-preview
+[Live Share]: https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare
+[Markdown Checkboxes]: https://marketplace.visualstudio.com/items?itemName=bierner.markdown-checkbox
+[Markdown Emoji]: https://marketplace.visualstudio.com/items?itemName=bierner.markdown-emoji
+[Markdown Footnotes]: https://marketplace.visualstudio.com/items?itemName=bierner.markdown-footnotes
+[Markdown Preview Github Styling]: 
+[Markdown Preview Mermaid Support]: 
+[Markdown yaml Preamble]: 
+[Mermaid Markdown Syntax Highlighting]: 
+[Pretier - Code formatter]: 
+[Azure Repos]: 
+[Github Theme]: 
+[Intellicode]: 
+[learn-markdown]: 
+[Markdown All in One]: 
+[Markdown Image Size]: 
+[Markdown Theme Kit]: 
+[markdownlint]: 
+[PowerShell]: 
+[Remote Repositories]: 
+
