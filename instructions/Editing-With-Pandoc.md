@@ -4,9 +4,9 @@ layout: page
 ---
 ## Description
 
-This is a series of steps to use tools available to download online allowing for
-you to edit documents, in just about any format, and make trackable changes
-within the document(s). In this page I make use of Markdown since it's become a
+This is a series of steps to use tools available to download online for
+editing documents, in just about any format, and make trackable changes
+within those document(s). In this page I make use of Markdown since it's become a
 standard for many technical writers today. I also use the following tools to
 work with the documents, Markdown files, and a source management system to check
 in my edited files. For this page I'm using the following tools, but you may use
