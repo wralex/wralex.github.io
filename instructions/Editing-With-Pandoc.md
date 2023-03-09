@@ -137,7 +137,6 @@ so that I may share with future readers.
    1. <input type="checkbox" />Add the following extensions _(if you're_
       _unfamiliar with how to install extions please go to_
       _[VS Code: **Extension Marketplace**] to learn how to install extensions)_
-
       - <input type="checkbox" />[<img src="https://bierner.gallerycdn.vsassets.io/extensions/bierner/github-markdown-preview/0.3.0/1651533762167/Microsoft.VisualStudio.Services.Icons.Default" height="15" />GitHub Markdown Preview][GitHub Markdown Preview]
         <i title="Copy Text" class="fas fa-clipboard" clip-text="GitHub Markdown Preview"></i>
       - <input type="checkbox" />[<img src="https://ms-vsliveshare.gallerycdn.vsassets.io/extensions/ms-vsliveshare/vsliveshare/1.0.5834/1678124842214/Microsoft.VisualStudio.Services.Icons.Default" height="15" />Live Share][Live Share]
@@ -178,6 +177,46 @@ so that I may share with future readers.
         <i title="Copy Text" class="fas fa-clipboard" clip-text="PowerShell"></i>
       - <input type="checkbox" />[<img src="https://ms-vscode.gallerycdn.vsassets.io/extensions/ms-vscode/remote-repositories/0.31.2023030901/1678353498718/Microsoft.VisualStudio.Services.Icons.Default" height="15" />Remote Repositories][Remote Repositories]
         <i title="Copy Text" class="fas fa-clipboard" clip-text="Remote Repositories"></i>
+   1. <input type="checkbox" />Open File Explorer on your desktop and go to a folder on your workstation
+      of where you would like to place a new project. At that location create a
+      new folder and rename it to a name you choose. In this example we will use
+      the name `testdoc`<i title="Copy Text"  style="float:right;" class="fas fa-clipboard" clip-text='testdoc'></i>.
+
+      ![testdoc](images/new_testdoc_folder.png)
+   1. <input type="checkbox" />Open the folder and create a new folder called `original`<i title="Copy Text"  style="float:right;" class="fas fa-clipboard" clip-text='original'></i>.
+   1. <input type="checkbox" />Get a Word document _(or other, but in this_
+      _example we will use a Microsoft Word file)_ that you would like to
+      convert into **Markdown** and place it into the subfolder `original`. Here
+      is a document that you can use for this exercise:
+      **[public.docx](samples/public.docx)**.
+   1. <input type="checkbox" />Open the folder where the document is in File
+      Explorer and right click anywhere in the white area of the screen that is
+      displaying your Word document and click the Open in Terminal selection.
+      If that option isn't available you can also click in the address area and
+      type `powershell` and click enter. Either option should open a new window
+      where a cursor is showing you the full directory where that Word document
+      is stored.
+
+      ![Select Terminal](images/Select_terminal.png)
+
+   1. <input type="checkbox" />At the command prompt type the following _(if the_
+      _file name is different than the example, just replace `public` [Both_
+      _spots] with the appropriate name)_. This will create a new Markdown file
+      and any embded images will be placed in a new directory below.
+
+      ```powershell
+      pandoc -s "public.docx" -t markdown_mmd --extract-media=images -o "public.md"
+      ```
+
+      ![New Markdown](images/new_markdown.png)
+
+   1. <input type="checkbox" />Move the new Markdown file and the images
+      into the parent directory leaving just the original Word document in the
+      original sub-folder.
+
+      ![New Location](images/new_location.png)
+
+   1. You can now close the File Explorer and PowerShell window.
 
 [GIT]: https://git-scm.com/about "git --local-branching-on-the-cheap"
 [GIT Downloads]: https://git-scm.com/downloads "git --fast-version-control"
