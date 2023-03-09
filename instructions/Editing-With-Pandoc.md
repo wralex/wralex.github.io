@@ -15,9 +15,7 @@ others:
 1. [<img src="https://git-scm.com/images/logo@2x.png" height="15"/>][GIT]
    <span style="color: grey;">version control</span>
    _(btw, full name is **Global information Tracker**)_
-1. [<img src="https://yt3.googleusercontent.com/_q52i8bUAEvcb7JR4e-eNTv23y2A_wg5
-   sCz0NC0GrGtcw1CRMWJSOPVHUDh_bngD0q4gMvVeoA=s88-c-k-c0x00ffffff-no-rj"
-   height="15" />Visual Studio Code][Visual Studio Code] _(a.k.a. **VS Code**)_
+1. [Visual Studio Code] _(a.k.a. **VS Code**)_
 1. [Pandoc] <span style="color: grey;">a universal document converter</span>
 
    **<u>Optional Tools</u>**
@@ -117,13 +115,13 @@ so that I may share with future readers.
    <input type="checkbox" style="float:left;" />
 
    ```powershell
-   > git config --global user.name "[Your Name]"
+   git config --global user.name "[Your Name]"
    ```
 
    <input type="checkbox" style="float:left;" />
 
    ```powershell
-   > git config --global user.email "[Your Email]"
+   git config --global user.email "[Your Email]"
    ```
 
 1. **Configuring VS Code**
