@@ -70,13 +70,13 @@ so that I may share with future readers.
    Once you have installed VS Code, these topics will help you learn more about VS Code:  
    _(these are optional)_
 
-   - <input type="checkbox" />[Additional Components](https://code.visualstudio.com/docs/setup/additional-components.md)
+   - <input type="checkbox" />[Additional Components](https://code.visualstudio.com/docs/setup/additional-components)
      \- Learn how to install Git, Node.js, TypeScript, and tools like Yeoman.
-   - <input type="checkbox" />[User Interface](https://code.visualstudio.com/docs/getstarted/userinterface.md)
+   - <input type="checkbox" />[User Interface](https://code.visualstudio.com/docs/getstarted/userinterface)
      \- A quick orientation to VS Code.
-   - <input type="checkbox" />[User/Workspace Settings](https://code.visualstudio.com/docs/getstarted/settings.md)
+   - <input type="checkbox" />[User/Workspace Settings](https://code.visualstudio.com/docs/getstarted/settings)
      \- Learn how to configure VS Code to your preferences through settings.
-   - <input type="checkbox" />[Tips and Tricks](https://code.visualstudio.com/docs/getstarted/tips-and-tricks.md)
+   - <input type="checkbox" />[Tips and Tricks](https://code.visualstudio.com/docs/getstarted/tips-and-tricks)
      \- Lets you jump right in and learn how to be productive with VS Code.
 
 3. <input type="checkbox" />Download and [Install Pandoc] on your system
