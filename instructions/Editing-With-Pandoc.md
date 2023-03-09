@@ -4,9 +4,9 @@ layout: page
 ---
 ## Description
 
-This is a series of steps to use tools available online that will allow for you
-to edit documents, in just about any format, and make trackable changes within
-the document(s). In this page I make use of Markdown since it's become a
+This is a series of steps to use tools available to download online allowing for
+you to edit documents, in just about any format, and make trackable changes
+within the document(s). In this page I make use of Markdown since it's become a
 standard for many technical writers today. I also use the following tools to
 work with the documents, Markdown files, and a source management system to check
 in my edited files. For this page I'm using the following tools, but you may use
@@ -56,22 +56,29 @@ so that I may share with future readers.
 
 ## Download and Install
 
-1. <input type="checkbox" /> Download and install [GIT] on your workstation. You
+1. <input type="checkbox" />Download and install [GIT] on your workstation. You
    can find find a variation that suites the environment of your system with
    this site - [GIT Downloads]
-2. <input type="checkbox" /> Download and install a development tool
+2. <input type="checkbox" />Download and install a development tool
    _(i.e. [Visual Studio Code] or [Notepad++])_ to make changes to Markdown files.
 
-   1. Download the [Visual Studio Code installer](https://go.microsoft.com/fwlink/?LinkID=534107) for Windows.
-   1. Once it is downloaded, run the installer (VSCodeUserSetup-{version}.exe). This will only take a minute.
+   **_For this page I suggest VS Code_**
+
+   1. <input type="checkbox" />Download the [Visual Studio Code installer](https://go.microsoft.com/fwlink/?LinkID=534107) for Windows.
+   1. <input type="checkbox" />Once it is downloaded, run the installer (VSCodeUserSetup-{version}.exe). This will only take a minute.
    1. By default, VS Code is installed under `C:\Users\{Username}\AppData\Local\Programs\Microsoft VS Code`.
 
-   Once you have installed VS Code, these topics will help you learn more about VS Code:
+   Once you have installed VS Code, these topics will help you learn more about VS Code:  
+   _(these are optional)_
 
-   - [Additional Components](/docs/setup/additional-components.md) - Learn how to install Git, Node.js, TypeScript, and tools like Yeoman.
-   - [User Interface](/docs/getstarted/userinterface.md) - A quick orientation to VS Code.
-   - [User/Workspace Settings](/docs/getstarted/settings.md) - Learn how to configure VS Code to your preferences through settings.
-   - [Tips and Tricks](/docs/getstarted/tips-and-tricks.md) - Lets you jump right in and learn how to be productive with VS Code.
+   - <input type="checkbox" />[Additional Components](https://code.visualstudio.com/docs/setup/additional-components.md)
+     \- Learn how to install Git, Node.js, TypeScript, and tools like Yeoman.
+   - <input type="checkbox" />[User Interface](https://code.visualstudio.com/docs/getstarted/userinterface.md)
+     \- A quick orientation to VS Code.
+   - <input type="checkbox" />[User/Workspace Settings](https://code.visualstudio.com/docs/getstarted/settings.md)
+     \- Learn how to configure VS Code to your preferences through settings.
+   - <input type="checkbox" />[Tips and Tricks](https://code.visualstudio.com/docs/getstarted/tips-and-tricks.md)
+     \- Lets you jump right in and learn how to be productive with VS Code.
 
 3. <input type="checkbox" /> [Install Pandoc] on your system
 
