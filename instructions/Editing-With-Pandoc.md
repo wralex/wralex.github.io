@@ -182,13 +182,13 @@ so that I may share with future readers.
       new folder and rename it to a name you choose. In this example we will use
       the name `testdoc`<i title="Copy Text"  style="float:right;" class="fas fa-clipboard" clip-text='testdoc'></i>.
 
-      ![testdoc](images/new_testdoc_folder.png)
+      ![testdoc](/images/new_testdoc_folder.png)
    1. <input type="checkbox" />Open the folder and create a new folder called `original`<i title="Copy Text"  style="float:right;" class="fas fa-clipboard" clip-text='original'></i>.
    1. <input type="checkbox" />Get a Word document _(or other, but in this_
       _example we will use a Microsoft Word file)_ that you would like to
       convert into **Markdown** and place it into the subfolder `original`. Here
       is a document that you can use for this exercise:
-      **[public.docx](samples/public.docx)**.
+      **[public.docx](/samples/public.docx)**.
    1. <input type="checkbox" />Open the folder where the document is in File
       Explorer and right click anywhere in the white area of the screen that is
       displaying your Word document and click the Open in Terminal selection.
@@ -197,7 +197,7 @@ so that I may share with future readers.
       where a cursor is showing you the full directory where that Word document
       is stored.
 
-      ![Select Terminal](images/Select_terminal.png)
+      ![Select Terminal](/images/Select_terminal.png)
 
    1. <input type="checkbox" />At the command prompt type the following _(if the_
       _file name is different than the example, just replace `public` [Both_
@@ -208,13 +208,13 @@ so that I may share with future readers.
       pandoc -s "public.docx" -t markdown_mmd --extract-media=images -o "public.md"
       ```
 
-      ![New Markdown](images/new_markdown.png)
+      ![New Markdown](/images/new_markdown.png)
 
    1. <input type="checkbox" />Move the new Markdown file and the images
       into the parent directory leaving just the original Word document in the
       original sub-folder.
 
-      ![New Location](images/new_location.png)
+      ![New Location](/images/new_location.png)
 
    1. You can now close the File Explorer and PowerShell window.
 
