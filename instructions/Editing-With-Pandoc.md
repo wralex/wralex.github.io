@@ -204,6 +204,8 @@ so that I may share with future readers.
       _spots] with the appropriate name)_. This will create a new Markdown file
       and any embded images will be placed in a new directory below.
 
+      <i title="Copy Text"  style="float:right;" class="fas fa-clipboard" clip-text='pandoc -s "public.docx" -t markdown_mmd --extract-media=images -o "public.md"'></i>
+
       ```powershell
       pandoc -s "public.docx" -t markdown_mmd --extract-media=images -o "public.md"
       ```
