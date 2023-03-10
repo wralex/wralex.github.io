@@ -1,4 +1,4 @@
----zxy]
+---
 title: Editing with Pandoc
 layout: page
 ---
@@ -41,15 +41,15 @@ as a repository storage and building platform to create artifacts.
       the following steps:  
       1. <input type="checkbox" />Press and hold both the **`Windows Key`⊞**
          along with **`R`** on your keyboard.
-         
+
          This will open a **`Run`** dialog box requesting you to type a command
          into a textbox.
-      1. <input type="checkbox" />Type **`cmd`**<i title="Copy Text"
+      2. <input type="checkbox" />Type **`cmd`**<i title="Copy Text"
          class="fas fa-clipboard" clip-text='cmd'></i> in the textbox and press
          the `Enter` key.
-         
+
          This will open a new command window with a prompt.
-      1. <input type="checkbox" />Type **`git --version`**<i title="Copy Text"
+      3. <input type="checkbox" />Type **`git --version`**<i title="Copy Text"
          class="fas fa-clipboard" clip-text='git --version'></i> at the prompt
          and press the `Enter` key.
 
@@ -57,18 +57,18 @@ as a repository storage and building platform to create artifacts.
          workstation. If you did not get a version, or you received an
          error message, please install/re-install the GIT application and
          complete the above steps.
-      1. **Keep the command window open for the next task.**
-   1. In the command window type in the below commands **_(replace
+      4. **Keep the command window open for the next task.**
+   2. In the command window type in the below commands **_(replace
       `[Your Name]` and `[Your Email]` with your information)_**.
 
       _If you have closed the command window please do the steps in the_
       _previous task to re-open the command window._
 
       1. <input type="checkbox" />Set **User Name**
-      
+
          Type the following text  _(replace **`[Your Name]`**)_ and press the
          `Enter` key.
-         
+
          <i title="Copy Text" style="float:right;" class="fas fa-clipboard"
          clip-text='git config --global user.name "[Your Name]"'></i>
 
@@ -76,21 +76,21 @@ as a repository storage and building platform to create artifacts.
          git config --global user.name "[Your Name]"
          ```
 
-      1. <input type="checkbox" />Set **User Email Address**
-      
+      2. <input type="checkbox" />Set **User Email Address**
+
          Type the following text _(replace **`[Your Email]`**)_ and press the
          `Enter` key.
-      
+
          <i title="Copy Text" style="float:right;" class="fas fa-clipboard"
          clip-text='git config --global user.email "[Your Email]"'></i>
-      
+
          ```powershell
          git config --global user.email "[Your Email]"
          ```
 
-   1. Close the command window.
+   3. Close the command window.
 
-1. **VS Code**
+2. **VS Code**
 
    VS Code does contain basic **Markdown** editing capabilities without the
    following extension pack, but these additional features will assist in many
@@ -101,22 +101,33 @@ as a repository storage and building platform to create artifacts.
       following button.
 
         <button onclick=
-          "window.open('https://marketplace.visualstudio.com/items?itemName=bat67.markdown-extension-pack', '_blank');">
-          Markdown Extensions Pack
-        </button>
+          "window.open('https://marketplace.visualstudio.com/items?itemName=bat67.markdown-extension-pack', '_blank');"
+          >Markdown Extensions Pack</button>
 
-   1. <input type="checkbox" />On the new browser page click the **`INSTALL`**
+   2. <input type="checkbox" />On the new browser page click the **`Install`**
       button.
-   1. <input type="checkbox" />
+
+      VS Code should open up with the same web page displayed in a tab of the
+      main window.
+
+   3. <input type="checkbox" />Click the **`Install`** button again on the page.
+
+      This should now show that it's instaling the additional Markdown editing
+      features. In a couple of minutes you can open the Extension Viewer to see
+      the new features. Within the extensions view you may click each feature
+      and read more details about each which may also provide how best to use
+      each.
+
+   4. <input type="checkbox" />Also install the
+      **Github Markdown Preview** E\extension pack by clicking the button below
+      and follow the previous steps to add the additional features.
+
+        <button onclick=
+          "window.open('https://marketplace.visualstudio.com/items?itemName=bierner.github-markdown-preview', '_blank');"
+          >GitHub Markdown Preview</button>
 
 [GIT]: https://git-scm.com/about "git --local-branching-on-the-cheap"
 [GIT Downloads]: https://git-scm.com/downloads "git --fast-version-control"
 [Visual Studio Code]: https://code.visualstudio.com "Microsoft's Visual Studio Code"
 [Pandoc]: https://pandoc.org "Pandoc, a universal document converter"
-[Notepad++]: https://notepad-plus-plus.org "Notepad++, a free source code editor and Notepad replacement"
 [Install Pandoc]: https://pandoc.org/installing.html "Download and install Pandoc"
-[Install Notepad++]: https://notepad-plus-plus.org/downloads "Notepad++ Downloads"
-[PowerShell]: https://learn.microsoft.com/en-us/powershell/scripting/overview
-[Install Powershell]: https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows "Installing PowerShell on Windows"
-[<span style="color:red">z</span>otero]: https://www.zotero.org "zotero, Your personal research assistant"
-
