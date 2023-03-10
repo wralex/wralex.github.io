@@ -26,14 +26,14 @@ as a repository storage and building platform to create artifacts.
 
 1. <input type="checkbox" />[GIT][GIT Downloads]
 2. <input type="checkbox" />[Pandoc][Install Pandoc]
-3. <input type="checkbox" />[Visual Studio Code],
+3. <input type="checkbox" />[Visual Studio Code]
 
 ### Configure the Tools
 
 1. **GIT**
 
    After installation of the GIT Client on your workstation, there are global
-   parameters that required to be set. These parameters are used for tracking 
+   parameters that required to be set. These parameters are used for tracking
    work you've contributed upon posting changes to a repository
    _(a.k.a. **repo**)_. Without these paramters set, you will experience errors.
 
