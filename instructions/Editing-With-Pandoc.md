@@ -1,4 +1,4 @@
----
+---zxy]
 title: Editing with Pandoc
 layout: page
 ---
@@ -107,3 +107,15 @@ as a repository storage and building platform to create artifacts.
 
    1. <input type="checkbox" />When on the page click the Install button to
       install the extensions in VS Code.
+
+[GIT]: https://git-scm.com/about "git --local-branching-on-the-cheap"
+[GIT Downloads]: https://git-scm.com/downloads "git --fast-version-control"
+[Visual Studio Code]: https://code.visualstudio.com "Microsoft's Visual Studio Code"
+[Pandoc]: https://pandoc.org "Pandoc, a universal document converter"
+[Notepad++]: https://notepad-plus-plus.org "Notepad++, a free source code editor and Notepad replacement"
+[Install Pandoc]: https://pandoc.org/installing.html "Download and install Pandoc"
+[Install Notepad++]: https://notepad-plus-plus.org/downloads "Notepad++ Downloads"
+[PowerShell]: https://learn.microsoft.com/en-us/powershell/scripting/overview
+[Install Powershell]: https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows "Installing PowerShell on Windows"
+[<span style="color:red">z</span>otero]: https://www.zotero.org "zotero, Your personal research assistant"
+
