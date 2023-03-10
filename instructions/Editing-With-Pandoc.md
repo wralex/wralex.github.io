@@ -40,26 +40,30 @@ as a repository storage and building platform to create artifacts.
       1. <input type="checkbox" />Press and hold both the **`Windows Key`⊞**
          along with **`R`** on your keyboard.
 
-         This will open a **`Run`** dialog box requesting you to type a command
-         into a textbox.
+         📓 _This will open a **`Run`** dialog box requesting you to type a_
+         _command into a textbox._
+
       2. <input type="checkbox" />Type **`cmd`**<i title="Copy Text"
          class="fas fa-clipboard" clip-text='cmd'></i> in the textbox and press
          the `Enter` key.
 
-         This will open a new command window with a prompt.
+         📓 _This will open a new command window with a prompt._
+
       3. <input type="checkbox" />Type **`git --version`**<i title="Copy Text"
          class="fas fa-clipboard" clip-text='git --version'></i> at the prompt
          and press the `Enter` key.
 
-         You should get a response showing the GIT version installed on your
-         workstation. If you did not get a version, or you received an
-         error message, please install/re-install the GIT application and
-         complete the above steps.
+         📓 _You should get a response showing the GIT version installed on_
+         _your workstation. If you did not get a version, or you received an_
+         _error message, please install/re-install the GIT application and_
+         _complete the above steps._
+
       4. **Keep the command window open for the next task.**
+
    2. In the command window type in the below commands **_(replace
       `[Your Name]` and `[Your Email]` with your information)_**.
 
-      _If you have closed the command window please do the steps in the_
+      ❗ _If you have closed the command window please do the steps in the_
       _previous task to re-open the command window._
 
       1. <input type="checkbox" />Set **User Name**
