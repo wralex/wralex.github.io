@@ -33,10 +33,9 @@ as a repository storage and building platform to create artifacts.
 1. **GIT**
 
    After installation of the GIT Client on your workstation, there are global
-   parameters that need to be set. These parameters are used to track the work
-   you've contributed while posting the changes to a repository
-   _(a.k.a. **repo**)_. Without these paramters set, you will experience errors
-   when attempting to publish changes out to a repo.
+   parameters that required to be set. These parameters are used for tracking 
+   work you've contributed upon posting changes to a repository
+   _(a.k.a. **repo**)_. Without these paramters set, you will experience errors.
 
    1. Verify that you have installed **GIT** on your workstation by completing
       the following steps:  
@@ -46,14 +45,13 @@ as a repository storage and building platform to create artifacts.
          This will open a **`Run`** dialog box requesting you to type a command
          into a textbox.
       1. <input type="checkbox" />Type **`cmd`**<i title="Copy Text"
-         style="float:right;" class="fas fa-clipboard"
-         clip-text='cmd'></i> in the textbox and press the `Enter` key.
+         class="fas fa-clipboard" clip-text='cmd'></i> in the textbox and press
+         the `Enter` key.
          
          This will open a new command window with a prompt.
       1. <input type="checkbox" />Type **`git --version`**<i title="Copy Text"
-         style="float:right;" class="fas fa-clipboard"
-         clip-text='git --version'></i> at the prompt and press
-         the `Enter` key.
+         class="fas fa-clipboard" clip-text='git --version'></i> at the prompt
+         and press the `Enter` key.
 
          You should get a response showing the GIT version installed on your
          workstation. If you did not get a version, or you received an
@@ -66,9 +64,10 @@ as a repository storage and building platform to create artifacts.
       _If you have closed the command window please do the steps in the_
       _previous task to re-open the command window._
 
-      1. <input type="checkbox" />Set the **User Name** by typing the following
-        text at the prompt _(replace **`[Your Name]`**)_ and press the `Enter`
-        key.
+      1. <input type="checkbox" />Set **User Name**
+      
+         Type the following text  _(replace **`[Your Name]`**)_ and press the
+         `Enter` key.
          
          <i title="Copy Text" style="float:right;" class="fas fa-clipboard"
          clip-text='git config --global user.name "[Your Name]"'></i>
@@ -77,12 +76,13 @@ as a repository storage and building platform to create artifacts.
          git config --global user.name "[Your Name]"
          ```
 
-      1. <input type="checkbox" />Set the **User Email Address** by typing the
-         following text at the prompt _(replace **`[Your Email]`**)_ and press
-         the `Enter` key.
+      1. <input type="checkbox" />Set **User Email Address**
+      
+         Type the following text _(replace **`[Your Email]`**)_ and press the
+         `Enter` key.
       
          <i title="Copy Text" style="float:right;" class="fas fa-clipboard"
-         clip-text='git config --global user.email "[Your Email]"'></i>
+Updates         clip-text='git config --global user.email "[Your Email]"'></i>
       
          ```powershell
          git config --global user.email "[Your Email]"
