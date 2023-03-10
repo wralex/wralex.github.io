@@ -105,8 +105,9 @@ as a repository storage and building platform to create artifacts.
           Markdown Extensions Pack
         </button>
 
-   1. <input type="checkbox" />When on the page click the Install button to
-      install the extensions in VS Code.
+   1. <input type="checkbox" />On the new browser page click the **`INSTALL`**
+      button.
+   1. <input type="checkbox" />
 
 [GIT]: https://git-scm.com/about "git --local-branching-on-the-cheap"
 [GIT Downloads]: https://git-scm.com/downloads "git --fast-version-control"
