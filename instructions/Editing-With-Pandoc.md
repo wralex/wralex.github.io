@@ -100,9 +100,9 @@ as a repository storage and building platform to create artifacts.
    1. <input type="checkbox" />Open a browser window by clicking on the
       following button.
 
-        <button onclick=
-          "window.open('https://marketplace.visualstudio.com/items?itemName=bat67.markdown-extension-pack', '_blank');"
-          >Markdown Extensions Pack</button>
+        <button onclick="window.open('https://marketplace.visualstudio.com/items?itemName=bat67.markdown-extension-pack', '_blank');">
+          <img height="15" src="https://bat67.gallerycdn.vsassets.io/extensions/bat67/markdown-extension-pack/0.7.0/1614239921497/Microsoft.VisualStudio.Services.Icons.Default" />
+          Markdown Extensions Pack</button>
 
    2. <input type="checkbox" />On the new browser page click the **`Install`**
       button.
@@ -122,7 +122,8 @@ as a repository storage and building platform to create artifacts.
       clicking the buttons below and follow the methods as in the previous steps.
 
       <button onclick="window.open('https://marketplace.visualstudio.com/items?itemName=bierner.github-markdown-preview', '_blank');">
-      GitHub Markdown Preview</button>
+        <img height="15" src="https://bierner.gallerycdn.vsassets.io/extensions/bierner/github-markdown-preview/0.3.0/1651533762167/Microsoft.VisualStudio.Services.Icons.Default" />
+        GitHub Markdown Preview</button>
 
 [GIT]: https://git-scm.com/about "git --local-branching-on-the-cheap"
 [GIT Downloads]: https://git-scm.com/downloads "git --fast-version-control"
