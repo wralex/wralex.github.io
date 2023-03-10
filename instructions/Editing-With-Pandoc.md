@@ -37,7 +37,7 @@ as a repository storage and building platform to create artifacts.
 
    1. Verify that you have installed **GIT** on your workstation by completing
       the following steps:  
-      1. <input type="checkbox" />Press and hold both the **`Windows Key`⊞**
+      1. <input type="checkbox" />Press and hold both the **`Windows Key`🪟**
          along with **`R`** on your keyboard.
 
          📓 _This will open a **`Run`** dialog box requesting you to type a_
@@ -140,7 +140,7 @@ as a repository storage and building platform to create artifacts.
    There really aren't any configuration settings for Pandoc. Just verify that
    the tool has been installed by executing the following steps.
 
-   1. <input type="checkbox" />Press and hold both the **`Windows Key`⊞**
+   1. <input type="checkbox" />Press and hold both the **`Windows Key`🪟**
       along with **`R`** on your keyboard.
 
       📓 _This will open a **`Run`** dialog box requesting you to type a_
