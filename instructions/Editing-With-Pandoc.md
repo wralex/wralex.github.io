@@ -135,6 +135,37 @@ as a repository storage and building platform to create artifacts.
           Prettier</button></li>
       </ul>
 
+3. **Pandoc**
+
+   There really aren't any configuration settings for Pandoc. Just verify that
+   the tool has been installed by executing the following steps.
+
+   1. <input type="checkbox" />Press and hold both the **`Windows Key`⊞**
+      along with **`R`** on your keyboard.
+
+      📓 _This will open a **`Run`** dialog box requesting you to type a_
+      _command into a textbox._
+
+   2. <input type="checkbox" />Type **`cmd`**<i title="Copy Text"
+      class="fas fa-clipboard" clip-text='cmd'></i> in the textbox and press
+      the `Enter` key.
+
+      📓 _This will open a new command window with a prompt._
+
+   3. <input type="checkbox" />Type **`pandoc --version`**<i title="Copy Text"
+      class="fas fa-clipboard" clip-text='pandoc --version'></i> at the prompt
+      and press the `Enter` key.
+
+      📓 _You should get a response showing the version of Pandoc installed on_
+      _your workstation. If you did not get a version, or you received an_
+      _error message, please install/re-install Pandoc and_
+      _complete the above steps._
+
+   4. <input type="checkbox" />Close the command window.
+
+## Attain a DevOps Repository
+
+
 [GIT]: https://git-scm.com/about "git --local-branching-on-the-cheap"
 [GIT Downloads]: https://git-scm.com/downloads "git --fast-version-control"
 [Visual Studio Code]: https://code.visualstudio.com "Microsoft's Visual Studio Code"
