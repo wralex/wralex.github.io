@@ -82,7 +82,7 @@ as a repository storage and building platform to create artifacts.
          `Enter` key.
       
          <i title="Copy Text" style="float:right;" class="fas fa-clipboard"
-Updates         clip-text='git config --global user.email "[Your Email]"'></i>
+         clip-text='git config --global user.email "[Your Email]"'></i>
       
          ```powershell
          git config --global user.email "[Your Email]"
