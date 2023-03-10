@@ -118,13 +118,11 @@ as a repository storage and building platform to create artifacts.
       and read more details about each which may also provide how best to use
       each.
 
-   4. <input type="checkbox" />Also install the
-      **Github Markdown Preview** E\extension pack by clicking the button below
-      and follow the previous steps to add the additional features.
+   4. <input type="checkbox" />Also install the following extension packs by
+      clicking the buttons below and follow the methods as in the previous steps.
 
-        <button onclick=
-          "window.open('https://marketplace.visualstudio.com/items?itemName=bierner.github-markdown-preview', '_blank');"
-          >GitHub Markdown Preview</button>
+      <button onclick="window.open('https://marketplace.visualstudio.com/items?itemName=bierner.github-markdown-preview', '_blank');">
+      GitHub Markdown Preview</button>
 
 [GIT]: https://git-scm.com/about "git --local-branching-on-the-cheap"
 [GIT Downloads]: https://git-scm.com/downloads "git --fast-version-control"
