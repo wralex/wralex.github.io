@@ -163,8 +163,108 @@ as a repository storage and building platform to create artifacts.
 
    4. <input type="checkbox" />Close the command window.
 
-## Attain a DevOps Repository
+## Create a New Repo and Populate
 
+If this is a new Repository that will be used please start here, otherwise skip
+this section and begin with [Modifying a Document](#modifying-a-document)
+below.
+
+1. <input type="checkbox" />Have a DevOps Project Administrator create a new
+   Repository for the document.
+
+   ![New Repo](images/new_repo.png)
+
+2. <input type="checkbox" />Open the link to the Repository created and click
+   the `Clone in VS Code` button.
+
+   📓 _If the `Clone in VS Code` is not shown by default when this screen is
+   opened, click the dropdown icon on the right of the button and select it
+   from the selections._
+
+   ![Clone in VS Code](images/clone_repo.png)
+
+3. <input type="checkbox" />VS Code will open automatically and you will be
+   to provide credentials. Sign in with your account so that the repository is
+   cloned locally to your workstation.
+
+   ![DevOps Sign-in](images/devops_signin.png)
+
+4. <input type="checkbox" />Once the project opens up in VS Code move the mouse
+   over the **Folder+** Icon _(to the right of the name of the Repo)_ and click
+   the mouse button to create a folder named `original` _(or whatever you
+   prefer to use as a name, but for this tutorial we will be using `original`)_.
+   This will be where the orignal document is to be stored in the project and
+   okaced into the repo when commited and published later.
+
+   ![New Folder](images/new_folder.png)
+
+5. <input type="checkbox" />Open a File Explorer Window and open to where the
+   document currently is placed, then click and hold down the mouse button
+   and use drag to place a copy into the `original` folder in VS Code.
+
+   📓 _If you would like to use a sample document for this tutorial you can
+   download a sample file **[public.docx](../samples/public.docx)**)._
+
+   ![Click and Drag](images/click_drag.png)
+
+   📓 _Verify that the file is under the folder by collapsing the `original`
+   folder and seeing if the file isn't displayed. If it is still visible then
+   the file is placed in the root of the project and will need to move. If it
+   does require to be moved you can also click and drag the file within the VS
+   Code file tree view. It will ask you to confirm it to be moved, if so please
+   approve it._
+
+6. <input type="checkbox" />While in VS Code window press and hold **`Ctrl`**
+   and **<code>&grave;</code>** _(the key to the left of the 1 key)_ for the
+   **Terminal** section to open up at the bottom.
+
+   📓 _You can also open this up by using the app's menu navigation **View**_
+   _➡️ **Terminal**_
+
+7. <input type="checkbox" />Within the Terminal windows make sure you're at the
+   root directory of the project and type the following command _(replace_
+   _**[Word Filename]** with the actual file name of the document in both_
+   _locations)_ and press the **Enter** key:
+
+   <i title="Copy Text" style="float:right;" class="fas fa-clipboard" clip-text=
+   'pandoc -s "original/[Word Filename].docx" -t markdown_mmd --extract-media=images -o "[Word Filename].md"'></i>
+
+   ```powershell
+   pandoc -s "original/[Word Filename].docx" -t markdown_mmd --extract-media=images -o "[Word Filename].md"
+   ```
+
+   📓 _If you are in a sub-directory, like `...\orginal`, just type **`cd ..`**_
+   _and press the **Enter** key to go up a directory level and type the above_
+   _command._
+
+   📓 This will generate the new Markdown file _(**[Word Filename].md**)_ along
+   with any embeded images that it could pull out of the document and place
+   them into a new directory called images.
+
+   ![To Markdown](images/to_markdown.png)
+
+   ![Converted to MD](images/convert_to_md.png)
+
+8. <input type="checkbox" />Go to the **Source Control** icon on the left side
+   and in the textbox, above the **:heavy_check_mark: Commit** button, enter
+   a statement such as `Initial with Converted` and then click on the
+   **:heavy_check_mark: Commit** button to commit the initial files _(this_
+   _doesn't push it to the repo yet, that's the next step)_.
+
+   ![Begin Commit](images/begin_commit.png)
+
+9. <input type="checkbox" />The **:heavy_check_mark: Commit** should have
+    changed to a **Sync Changes 1 ⬆️** button that you will click and this will
+    publish your changes to the repository.
+
+    📓 Once the publishing of the changes are complete you may go back to DevOps
+    and see all of the files you've placed in the project are now also stored in
+    the repository including the original document, markdown file, and any
+    images.
+
+    ![Up To DevOps](images/to_devops.png)
+
+# Modifying a Document
 
 [GIT]: https://git-scm.com/about "git --local-branching-on-the-cheap"
 [GIT Downloads]: https://git-scm.com/downloads "git --fast-version-control"
