@@ -264,6 +264,9 @@ below.
 
     ![Up To DevOps](images/to_devops.png)
 
+That is it for initating the conversion of the original document into a Markdown
+document and posting it into a repository.
+
 # Modifying a Document
 
 [GIT]: https://git-scm.com/about "git --local-branching-on-the-cheap"
