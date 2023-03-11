@@ -198,30 +198,38 @@ below.
 
    ![New Folder](images/new_folder.png)
 
-5. <input type="checkbox" />Open a File Explorer Window and open to where the
-   document currently is placed, then click and hold down the mouse button
-   and use drag to place a copy into the `original` folder in VS Code.
+5. <input type="checkbox" />For this tutorial download a sample Word Document
+   file by clicking the following link:
 
-   📓 _If you would like to use a sample document for this tutorial you can
-   download a sample file **[public.docx](../samples/public.docx)**)._
+   **Sample Word Document**
+
+   **[public.docx](../samples/public.docx)**
+
+   📓**NOTE: <mark>Please keep the
+   location of where you place the file on you're workstation. It is needed for
+   the next step.</mark>**
+
+6. <input type="checkbox" />Open File Explorer Window to where the
+   document was downloaded, then click and hold down the mouse button
+   and drag the file into the **`original`** folder within VS Code.
 
    ![Click and Drag](images/click_drag.png)
 
    📓 _Verify that the file is under the folder by collapsing the `original`
    folder and seeing if the file isn't displayed. If it is still visible then
    the file is placed in the root of the project and will need to move. If it
-   does require to be moved you can also click and drag the file within the VS
-   Code file tree view. It will ask you to confirm it to be moved, if so please
-   approve it._
+   does require to be moved, you can also drag the file within the VS
+   Code file tree view. It will ask you to confirm it to be moved, please
+   do so._
 
-6. <input type="checkbox" />While in VS Code window press and hold **`Ctrl`**
+7. <input type="checkbox" />While in VS Code window press and hold **`Ctrl`**
    and **<code>&grave;</code>** _(the key to the left of the 1 key)_ for the
    **Terminal** section to open up at the bottom.
 
    📓 _You can also open this up by using the app's menu navigation **View**_
-   _➡️ **Terminal**_
+   ➡️ _**Terminal**_
 
-7. <input type="checkbox" />Within the Terminal windows make sure you're at the
+8. <input type="checkbox" />Within the Terminal windows make sure you're at the
    root directory of the project and type the following command _(replace_
    _**[Word Filename]** with the actual file name of the document in both_
    _locations)_ and press the **Enter** key:
@@ -245,7 +253,7 @@ below.
 
    ![Converted to MD](images/convert_to_md.png)
 
-8. <input type="checkbox" />Go to the **Source Control** icon on the left side
+9.  <input type="checkbox" />Go to the **Source Control** icon on the left side
    and in the textbox, above the **✔️ Commit** button, enter
    a statement such as `Initial with Converted` and then click on the
    **✔️ Commit** button to commit the initial files _(this doesn't push it to_
@@ -253,7 +261,7 @@ below.
 
    ![Begin Commit](images/begin_commit.png)
 
-9. <input type="checkbox" />The **✔️ Commit** should have
+10. <input type="checkbox" />The **✔️ Commit** should have
     changed to a **Sync Changes 1 ⬆️** button that you will click and this will
     publish your changes to the repository.
 
@@ -267,7 +275,97 @@ below.
 That is it for initating the conversion of the original document into a Markdown
 document and posting it into a repository.
 
-# Modifying a Document
+## Modifying a Document
+
+### Markdown
+
+I won't go into too much detail about what **Markdown** files are. There are
+many online sites that can provide you with more of an explanation but it is
+basically a stripped down HTML **text** file. Ther are also  **"flavors"** of
+Markdown providing the output of those text files with minor differences. They
+also have addititional extensions that support these flavors to enhance the
+output such as support for emojis, grid matrix tables, element attributes, etc.
+
+If you would like to get more detail about Markdown here are a couple of links
+you can find more information.
+
+- [Markdown Guide](https://www.markdownguide.org) _(In depth explanation and_
+  _covers a lot material relating to Markdown... Highly recomend this site 💯 **%**)_
+- [Daring Fireball: Markdown](https://daringfireball.net/projects/markdown) 
+  _(this is **John Gruber**, the creator of Markdown, with an introduction_
+  _of what Markdown is)_
+- [Markdown Tutorial](https://www.markdowntutorial.com)
+
+### Introduction of Editing Tools
+
+VS Code is a **Source Code "Editor"** but not just for Markdown files. It's an
+Open Source and free to use application and supports many code formats _(i.e._
+_C#, Java, C++, HTML, Markdown, etc.)_ so it's versatile and powerful and has
+many uses. However, this means that the application is not going to be an
+out-of-box document editing tool that has all the "bells and whistles" that
+document editing applications such as Word or Google Docs where text styles, drag-and-drop of items, image tools, and other integrated services are built in.
+
+With that explaination I will try and guide you to how VS Code will assist in
+your development of Markdown files.
+
+1. <input type="checkbox" />Open the ".md" file you have converted from the
+   previous tasks.
+
+   ![Open Markdown](images/open_markdown.png)
+
+2. <input type="checkbox" />Near the top right area of VS Code are a series of
+   icons, click the first icon, it's to **Preview** the opened file.
+
+   ![Quick Icons](images/quick_icons.png)
+
+   By clicking the icon you will have split sections _(known as panes)_ of what
+   is currently being edited. The left pane is the actual file, then there's a
+   mapping section in the middle, then a vertical scroll bar that controlls the
+   view of the Markdown Code file and finally the **"Preview"** pane to the
+   right that also has a vertical scroll bar.
+
+   ![Editing View](images/editing_view.png)
+
+   📓Please also note that the Icons have also moved to the left pane.
+   This is because they are used for editing the Markdown text file, not
+   the Preview pane.
+
+   The second, third, fourth, and fifth icons are:
+
+   - **B**old
+   - _**I**talic_
+   - <b>~~S~~</b>trike-through
+   - and Bullet List
+  
+   Each of these icons will work for an area of text you've selected in the
+   editing pane.
+
+   The last 2 icons are standard with VS Code editing that will **Split** the editing pane or **Show More actions...**. You can move your mouse pointer
+   over each icon and it will pop up with what they represent.
+
+3. <input type="checkbox" />Scroll down the left pane _(edit section)_ and view
+   the contents.
+
+   **Note** how there are unerderlined areas under various text the editor
+   detects something not quite right with the format. Move your mouse pointer
+   to one of these text spots and it will give you detail indicating what it
+   detects. These are called **Linting** _(the process of using static code_
+   _analysis tool identify stylistic errors in code)_ "rules". This doesn't
+   indicate a true error, just a formating rule that has become a standard.
+   During the conversion of the document using Pandoc the converter doesn't
+   always use the same rules that the Markdown Lint is using. This service
+   can be useful if you would like to keep a standard.
+
+   In addition to the text indicating that there's a rule issue you should also
+   see that it's indicated on the mapping area _(the region between the code_
+   _and the vertical scroll bar on the left pane)_. This mapping section is
+   useful to show regions of the document at a quick glance. You can also click
+   your mouse button in this region to move to that spot of the document in
+   case it's a very long document. **BTW**, the vertical scroll bar also moves
+   you through the document quickly and it also has colored indicators that show
+   you where you are and if it also detects any issues.
+
+4. <input type="checkbox" />
 
 [GIT]: https://git-scm.com/about "git --local-branching-on-the-cheap"
 [GIT Downloads]: https://git-scm.com/downloads "git --fast-version-control"
