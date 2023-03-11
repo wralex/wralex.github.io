@@ -246,14 +246,14 @@ below.
    ![Converted to MD](images/convert_to_md.png)
 
 8. <input type="checkbox" />Go to the **Source Control** icon on the left side
-   and in the textbox, above the **:heavy_check_mark: Commit** button, enter
+   and in the textbox, above the **✔️ Commit** button, enter
    a statement such as `Initial with Converted` and then click on the
    **:heavy_check_mark: Commit** button to commit the initial files _(this_
    _doesn't push it to the repo yet, that's the next step)_.
 
    ![Begin Commit](images/begin_commit.png)
 
-9. <input type="checkbox" />The **:heavy_check_mark: Commit** should have
+9. <input type="checkbox" />The **✔️ Commit** should have
     changed to a **Sync Changes 1 ⬆️** button that you will click and this will
     publish your changes to the repository.
 
