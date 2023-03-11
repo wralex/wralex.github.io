@@ -392,7 +392,7 @@ your development of Markdown files.
    _real name)_:
 
    <i title="Copy Text" style="float:right;" class="fas fa-clipboard"
-   clip-text="---\ntitle: 'Sample Markdown File to be converted to Word'\nauthor:\n  -[Your Name]\n---"></i>
+   clip-elem="front-matter"></i>
 
    ```yaml
    ---
@@ -401,6 +401,7 @@ your development of Markdown files.
      - [Your Name]
    ---
    ```
+   {:id="front-matter"}
 
    This is what they call Front Matter in Markdown. Not all Markdown Converters
    use this but it's useful for Pandoc and DevOps to display Metadata of the
