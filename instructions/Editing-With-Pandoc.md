@@ -408,9 +408,9 @@ your development of Markdown files.
    _YAML right now)_ and the 2 Meta tags that are being put into this example.  
    They are:
    - **Title** - The Markdown Document's Title
-   - **Author** - A list of Authors of the document. There can be 1 or more
-     names by just placing a carriage retun after the prior on, 2 spaces, a
-     hyphen followed by space and then a Name.
+   - **Author** - A list of Authors of the document.  
+     There can be 1 or more names by just placing a carriage return after each,
+     then 2 spaces, a hyphen, then space and a Name.
 
 [GIT]: https://git-scm.com/about "git --local-branching-on-the-cheap"
 [GIT Downloads]: https://git-scm.com/downloads "git --fast-version-control"
