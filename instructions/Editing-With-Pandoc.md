@@ -253,7 +253,7 @@ below.
 
    ![Converted to MD](images/convert_to_md.png)
 
-9.  <input type="checkbox" />Go to the **Source Control** icon on the left side
+9. <input type="checkbox" />Go to the **Source Control** icon on the left side
    and in the textbox, above the **✔️ Commit** button, enter
    a statement such as `Initial with Converted` and then click on the
    **✔️ Commit** button to commit the initial files _(this doesn't push it to_
@@ -365,7 +365,52 @@ your development of Markdown files.
    you through the document quickly and it also has colored indicators that show
    you where you are and if it also detects any issues.
 
-4. <input type="checkbox" />
+4. <input type="checkbox" />Scroll to line 51 _(the numbers are to the left of_
+   _the editing text)_ and change line 51 & 52 with
+
+   <i title="Copy Text" style="float:right;" class="fas fa-clipboard"
+   clip-text='![Kitten](images/media/image1.jpg)'></i>
+
+   ```markdown
+   ![Kitten](images/media/image1.jpg)
+   ```
+
+   **Before**
+
+   ![Before change](images/image_before.png)
+
+   **After**
+
+   ![After Change](images/image_after.png)
+
+   📓 _With Pandoc when you convert from Markdown to other formats, Images_
+   _that use the HTML Element don't convert back. Try to change any images that_
+   _use the `<img...>` element to the format shown above._
+
+5. <input type="checkbox" />Scroll to the very top _**(line 1)**_ of the
+   document and insert the following text _(Replace **[Your Name]** with your_
+   _real name)_:
+
+   <i title="Copy Text" style="float:right;" class="fas fa-clipboard"
+   clip-text="---\ntitle: 'Sample Markdown File to be converted to Word'\nauthor:\n  -[Your Name]\n---"></i>
+
+   ```yaml
+   ---
+   title: 'Sample Markdown File to be converted to Word'
+   author:
+     - [Your Name]
+   ---
+   ```
+
+   This is what they call Front Matter in Markdown. Not all Markdown Converters
+   use this but it's useful for Pandoc and DevOps to display Metadata of the
+   document. This is commonly in a YAML format _(No real need to understand_
+   _YAML right now)_ and the 2 Meta tags that are being put into this example.  
+   They are:
+   - **Title** - The Markdown Document's Title
+   - **Author** - A list of Authors of the document. There can be 1 or more
+     names by just placing a carriage retun after the prior on, 2 spaces, a
+     hyphen followed by space and then a Name.
 
 [GIT]: https://git-scm.com/about "git --local-branching-on-the-cheap"
 [GIT Downloads]: https://git-scm.com/downloads "git --fast-version-control"
