@@ -234,12 +234,13 @@ below.
    _**[Word Filename]** with the actual file name of the document in both_
    _locations)_ and press the **Enter** key:
 
-   <i title="Copy Text" style="float:right;" class="fas fa-clipboard" clip-text=
-   'pandoc -s "original/[Word Filename].docx" -t markdown_mmd --extract-media=images -o "[Word Filename].md"'></i>
+   <i title="Copy Text" style="float:right;" class="fas fa-clipboard"
+   clip-elem="convert-to-md"></i>
 
    ```powershell
    pandoc -s "original/[Word Filename].docx" -t markdown_mmd --extract-media=images -o "[Word Filename].md"
    ```
+   {:id="convert-to-md"}
 
    📓 _If you are in a sub-directory, like `...\orginal`, just type **`cd ..`**_
    _and press the **Enter** key to go up a directory level and type the above_
@@ -412,6 +413,113 @@ your development of Markdown files.
    - **Author** - A list of Authors of the document.  
      There can be 1 or more names by just placing a carriage return after each,
      then 2 spaces, a hyphen, then space and a Name.
+
+6. <input type="checkbox" />Go through the rest of the document and make any
+   changes or additions to it and when finished commit and publish the changes
+   to the repository as you completed in the conversion task above.
+
+   1. <input type="checkbox" />Go to the **Source Control** icon on the left side
+   and in the textbox, above the **✔️ Commit** button, enter
+   a statement such as `Updated Markdown document` and then click on the
+   **✔️ Commit** button to commit the initial files.
+
+   2. <input type="checkbox" />The **✔️ Commit** should have
+    changed to a **Sync Changes 1 ⬆️** button, click the button to complete
+    your changes to the repository.
+
+That concludes the document modificationtask of this tutorial. Please take some
+time to get familiar with VS Code and/or Markdown. also visit some of the
+recomended links above to get familiar with the Markdown "language/code". After
+a while you may see why Markdown has become a great way to create and publish
+documents.
+
+## Create Publications
+
+Now that you have become familiar with Markdown and you are ready to create a
+Document, or Web page, or PDF, or all the above, then we can proceed with the
+next couple of steps to generate those results. In this section we will use
+Pandoc which is a free software product available and has the capability of
+converting documents to and from various formats. We will be using the Markdown
+file in VS Code from the tasks above and will generate a Word Document and also
+as a Web Page.
+
+1. <input type="checkbox" />Open VS Code with the same project that you were
+   working on from the previous exercise.
+2. <input type="checkbox" />Download the following YAML file:
+
+   <a href="resources/default-public.yaml" download>
+   default-public.yaml</a>
+
+   📓**NOTE: <mark>Please keep the
+   location of where you place the file on you're workstation. It is needed for
+   the next step.</mark>**
+
+3. <input type="checkbox" />Click and drag the **default-public.yaml** from the
+   downloaded location into the root of the VS Code Project just like you did
+   with the **public.docx** file in the previous task, except this file should
+   be placed in the root of the project, not a sub-folder _(it may help if you_
+   _collapse all of the directories in the tree view in VS Code)_.
+
+   ![Copy Defaults](images/copy_defaults.png)
+
+4. <input type="checkbox" />If not already open, click on the new YAML file so
+   that you can view the contents in the edit pane.
+
+   The contents of the file are parameters that will be used during the
+   Pandoc conversion.
+
+   - **Input-Files**
+
+     The first parameter is **`input-files`**. This can be 1 or more Markdown
+     files. If you have more than 1 file it "stiches" the files together into 1
+     result. It also puts them in order that the files are placed in the list.
+
+   - **From**
+
+     The **`from`** parameter is describing the format of the orginating document.
+     This is all in 1 string sent to the writer portion of Pandoc. In this version 
+     we will be using **`markdown`** with the following additional extensions
+     _(more extensions can be added by looking them up at_
+     _[Pandoc's User Guide](https://pandoc.org/MANUAL.html#pandocs-markdown) and_
+     _using the plus sign (`+`) in front of the new extension)_:
+     - **`raw_html`** - allows HTML elements which are not representable in pandoc’s
+     AST to be parsed as raw HTML. By default, this is disabled for HTML input.
+     - **`table_captions`** - A caption may optionally be provided with all 4
+       kinds of tables. A caption is a paragraph beginning with the string `Table:` (or
+       `table:` or just `:`), which will be stripped off. It may appear either before
+       or after the table.
+     - **`grid_tables`** - The cells of grid tables may contain arbitrary block
+       elements (multiple paragraphs, code blocks, lists, etc.).
+     - **`link_attributes`** - For HTML and EPUB, all known HTML5 attributes
+       except width and height (but including srcset and sizes) are passed through as is.
+       Unknown attributes are passed through as custom attributes, with data-
+       prepended. The other writers ignore attributes that are not specifically
+       supported by their output format.
+     - **`footnotes`** - Pandoc’s Markdown allows footnotes, using the following
+       syntax:
+
+       ```markdown
+       Here is a footnote reference,[^1] and another.[^longnote]
+
+       [^1]: Here is the footnote.
+
+       [^longnote]: Here's one with multiple blocks.
+       ```
+     - **`emoji`** - Parses textual emojis like `:smile:` (:smile:) as Unicode
+       emoticons.
+
+       If you want to find out more information you can view
+       [Pandoc's User Guide relating to Markdown](https://pandoc.org/MANUAL.html#pandocs-markdown)
+
+   - **TOC (Table of Contents)**
+
+     The last section of parameters relates to generating a Table of Contents. 
+     This will be placed after the title of the document
+     _(and sub-title and/or author if these are in the front-matter of the_
+     _document)_ and before the body of the document. In the
+     sample YAML file we are asking that the TOC is included (`true`) and in the
+     metadata section we are specifying the heading name to use for the Table of
+     Contents.
 
 [GIT]: https://git-scm.com/about "git --local-branching-on-the-cheap"
 [GIT Downloads]: https://git-scm.com/downloads "git --fast-version-control"
