@@ -33,7 +33,7 @@ as a repository storage and building platform to create artifacts.
    After installation of the GIT Client on your workstation, there are global
    parameters that required to be set. These parameters are used for tracking
    work you've contributed upon posting changes to a repository
-   _(a.k.a. **repo**)_. Without these paramters set, you will experience errors.
+   _(a.k.a. **repo**)_. Without these parameters set, you will experience errors.
 
    1. Verify that you have installed **GIT** on your workstation by completing
       the following steps:  
@@ -41,7 +41,7 @@ as a repository storage and building platform to create artifacts.
          along with **`R`** on your keyboard.
 
          📓 _This will open a **`Run`** dialog box requesting you to type a_
-         _command into a textbox._
+         _command into a text box._
 
       2. <input type="checkbox" />Type **`cmd`**<i title="Copy Text"
          class="fas fa-clipboard" clip-text='cmd'></i> in the textbox and press
@@ -68,7 +68,7 @@ as a repository storage and building platform to create artifacts.
 
       1. <input type="checkbox" />Set **User Name**
 
-         Type the following text  _(replace **`[Your Name]`**)_ and press the
+         Type the following text _(replace **`[Your Name]`**)_ and press the
          `Enter` key.
 
          <i title="Copy Text" style="float:right;" class="fas fa-clipboard"
@@ -114,7 +114,7 @@ as a repository storage and building platform to create artifacts.
 
    3. <input type="checkbox" />Click the **`Install`** button again on the page.
 
-      This should now show that it's instaling the additional Markdown editing
+      This should now show that it's installing the additional Markdown editing
       features. In a couple of minutes you can open the Extension Viewer to see
       the new features. Within the extensions view you may click each feature
       and read more details about each which may also provide how best to use
@@ -127,6 +127,8 @@ as a repository storage and building platform to create artifacts.
         <li><button style="width:200px;text-align:left;" onclick="window.open('https://marketplace.visualstudio.com/items?itemName=bierner.github-markdown-preview', '_blank');">
           <img height="15" src="https://bierner.gallerycdn.vsassets.io/extensions/bierner/github-markdown-preview/0.3.0/1651533762167/Microsoft.VisualStudio.Services.Icons.Default" />
           GitHub Markdown Preview</button></li>
+        <li><button style="width:200px;text-align:left;" onclick="window.open('https://marketplace.visualstudio.com/items?itemName=valentjn.vscode-ltex', '_blank');">
+          <img height="15" src="https://znck.gallerycdn.vsassets.io/extensions/znck/grammarly/0.23.12/1675361647811/Microsoft.VisualStudio.Services.Icons.Default" />LTeX–Grammar & Spell Checking</button></li>
         <li><button style="width:200px;text-align:left;" onclick="window.open('https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-node-azure-pack', '_blank');">
           <img height="15" src="https://ms-vscode.gallerycdn.vsassets.io/extensions/ms-vscode/vscode-node-azure-pack/1.1.1/1667846329462/Microsoft.VisualStudio.Services.Icons.Default" />
           Azure Tools</button></li>
@@ -140,21 +142,21 @@ as a repository storage and building platform to create artifacts.
    There really aren't any configuration settings for Pandoc. Just verify that
    the tool has been installed by executing the following steps.
 
-   1. <input type="checkbox" />Press and hold both the **`Windows Key`🪟**
-      along with **`R`** on your keyboard.
+   1. <input type="checkbox" />Press and hold both the
+      **`Windows Key`🪟** along with **`R`** on your keyboard.
 
       📓 _This will open a **`Run`** dialog box requesting you to type a_
-      _command into a textbox._
+      _command into a text box._
 
-   2. <input type="checkbox" />Type **`cmd`**<i title="Copy Text"
-      class="fas fa-clipboard" clip-text='cmd'></i> in the textbox and press
-      the `Enter` key.
+   2. <input type="checkbox" />Type
+      **`cmd`**<i title='Copy Text' class='fas fa-clipboard' clip-text='cmd'></i>
+      in the text box and press the `Enter` key.
 
       📓 _This will open a new command window with a prompt._
 
-   3. <input type="checkbox" />Type **`pandoc --version`**<i title="Copy Text"
-      class="fas fa-clipboard" clip-text='pandoc --version'></i> at the prompt
-      and press the `Enter` key.
+   3. <input type="checkbox" />Type
+      **`pandoc --version`**<i title='Copy Text' class='fas fa-clipboard' clip-text='pandoc --version'></i>
+      at the prompt and press the `Enter` key.
 
       📓 _You should get a response showing the version of Pandoc installed on_
       _your workstation. If you did not get a version, or you received an_
@@ -183,7 +185,7 @@ below.
 
    ![Clone in VS Code](images/clone_repo.png)
 
-3. <input type="checkbox" />VS Code will open automatically and you will be
+3. <input type="checkbox" />VS Code will open automatically, and you will be
    to provide credentials. Sign in with your account so that the repository is
    cloned locally to your workstation.
 
@@ -193,8 +195,8 @@ below.
    over the **Folder+** Icon _(to the right of the name of the Repo)_ and click
    the mouse button to create a folder named `original` _(or whatever you
    prefer to use as a name, but for this tutorial we will be using `original`)_.
-   This will be where the orignal document is to be stored in the project and
-   okaced into the repo when commited and published later.
+   This will be where the original document is to be stored in the project and
+   placed into the repo when committed and published later.
 
    ![New Folder](images/new_folder.png)
 
@@ -203,10 +205,18 @@ below.
 
    **Sample Word Document**
 
-   **[public.docx](../samples/public.docx)**
+   <div style="float:left;">
+
+   ➡️
+   </div>
+
+   <a href="../samples/public.docx" download>
+   <b>public.docx</b></a>⬅️
+
+   <div style="clear:left;"></div>
 
    📓**NOTE: <mark>Please keep the
-   location of where you place the file on you're workstation. It is needed for
+   location of where you place the file on your workstation. It is needed for
    the next step.</mark>**
 
 6. <input type="checkbox" />Open File Explorer Window to where the
@@ -242,12 +252,12 @@ below.
    ```
    {:id="convert-to-md"}
 
-   📓 _If you are in a sub-directory, like `...\orginal`, just type **`cd ..`**_
+   📓 _If you are in a subdirectory, like `...\orginal`, just type **`cd ..`**_
    _and press the **Enter** key to go up a directory level and type the above_
    _command._
 
    📓 This will generate the new Markdown file _(**[Word Filename].md**)_ along
-   with any embeded images that it could pull out of the document and place
+   with any embedded images that it could pull out of the document and place
    them into a new directory called images.
 
    ![To Markdown](images/to_markdown.png)
@@ -255,10 +265,10 @@ below.
    ![Converted to MD](images/convert_to_md.png)
 
 9. <input type="checkbox" />Go to the **Source Control** icon on the left side
-   and in the textbox, above the **✔️ Commit** button, enter
+   and in the text box, above the **✔️ Commit** button, enter
    a statement such as `Initial with Converted` and then click on the
    **✔️ Commit** button to commit the initial files _(this doesn't push it to_
-   _the repo yet, that's the next step )_😃.
+   _the repo yet, that's the next step)_😃.
 
    ![Begin Commit](images/begin_commit.png)
 
@@ -267,13 +277,13 @@ below.
     publish your changes to the repository.
 
     📓 Once the publishing of the changes are complete you may go back to DevOps
-    and see all of the files you've placed in the project are now also stored in
+    and see all the files you've placed in the project are now also stored in
     the repository including the original document, markdown file, and any
     images.
 
     ![Up To DevOps](images/to_devops.png)
 
-That is it for initating the conversion of the original document into a Markdown
+That is it for initiating the conversion of the original document into a Markdown
 document and posting it into a repository.
 
 ## Modifying a Document
@@ -281,18 +291,19 @@ document and posting it into a repository.
 ### Markdown
 
 I won't go into too much detail about what **Markdown** files are. There are
-many online sites that can provide you with more of an explanation but it is
-basically a stripped down HTML **text** file. Ther are also  **"flavors"** of
+many online sites that can provide you with more of an explanation, but it is
+basically a stripped down HTML **text** file. There are also **"flavors"** of
 Markdown providing the output of those text files with minor differences. They
-also have addititional extensions that support these flavors to enhance the
+also have additional extensions that support these flavors to enhance the
 output such as support for emojis, grid matrix tables, element attributes, etc.
 
 If you would like to get more detail about Markdown here are a couple of links
 you can find more information.
 
 - [Markdown Guide](https://www.markdownguide.org) _(In depth explanation and_
-  _covers a lot material relating to Markdown... Highly recomend this site 💯 **%**)_
-- [Daring Fireball: Markdown](https://daringfireball.net/projects/markdown) 
+  _covers a lot of material relating to Markdown... Highly recommend this site_
+  _💯 **%**)_
+- [Daring Fireball: Markdown](https://daringfireball.net/projects/markdown)
   _(this is **John Gruber**, the creator of Markdown, with an introduction_
   _of what Markdown is)_
 - [Markdown Tutorial](https://www.markdowntutorial.com)
@@ -304,9 +315,10 @@ Open Source and free to use application and supports many code formats _(i.e._
 _C#, Java, C++, HTML, Markdown, etc.)_ so it's versatile and powerful and has
 many uses. However, this means that the application is not going to be an
 out-of-box document editing tool that has all the "bells and whistles" that
-document editing applications such as Word or Google Docs where text styles, drag-and-drop of items, image tools, and other integrated services are built in.
+document editing applications such as Word or Google Docs where text styles,
+drag-and-drop of items, image tools, and other integrated services are built in.
 
-With that explaination I will try and guide you to how VS Code will assist in
+With that explanation I will try and guide you to how VS Code will assist in
 your development of Markdown files.
 
 1. <input type="checkbox" />Open the ".md" file you have converted from the
@@ -321,7 +333,7 @@ your development of Markdown files.
 
    By clicking the icon you will have split sections _(known as panes)_ of what
    is currently being edited. The left pane is the actual file, then there's a
-   mapping section in the middle, then a vertical scroll bar that controlls the
+   mapping section in the middle, then a vertical scroll bar that controls the
    view of the Markdown Code file and finally the **"Preview"** pane to the
    right that also has a vertical scroll bar.
 
@@ -341,18 +353,19 @@ your development of Markdown files.
    Each of these icons will work for an area of text you've selected in the
    editing pane.
 
-   The last 2 icons are standard with VS Code editing that will **Split** the editing pane or **Show More actions...**. You can move your mouse pointer
-   over each icon and it will pop up with what they represent.
+   The last 2 icons are standard with VS Code editing that will **Split** the
+   editing pane or **Show More actions...**. You can move your mouse pointer
+   over each icon, and it will pop up with what they represent.
 
 3. <input type="checkbox" />Scroll down the left pane _(edit section)_ and view
    the contents.
 
-   **Note** how there are unerderlined areas under various text the editor
+   **Note** how there are underlined areas under various text the editor
    detects something not quite right with the format. Move your mouse pointer
-   to one of these text spots and it will give you detail indicating what it
+   to one of these text spots, and it will give you detail indicating what it
    detects. These are called **Linting** _(the process of using static code_
    _analysis tool identify stylistic errors in code)_ "rules". This doesn't
-   indicate a true error, just a formating rule that has become a standard.
+   indicate a true error, just a formatting rule that has become a standard.
    During the conversion of the document using Pandoc the converter doesn't
    always use the same rules that the Markdown Lint is using. This service
    can be useful if you would like to keep a standard.
@@ -363,8 +376,8 @@ your development of Markdown files.
    useful to show regions of the document at a quick glance. You can also click
    your mouse button in this region to move to that spot of the document in
    case it's a very long document. **BTW**, the vertical scroll bar also moves
-   you through the document quickly and it also has colored indicators that show
-   you where you are and if it also detects any issues.
+   you through the document quickly, and it also has colored indicators that
+   show you where you are and if it also detects any issues.
 
 4. <input type="checkbox" />Scroll to line 51 _(the numbers are to the left of_
    _the editing text)_ and change line 51 & 52 with
@@ -405,7 +418,7 @@ your development of Markdown files.
    {:id="front-matter"}
 
    This is what they call Front Matter in Markdown. Not all Markdown Converters
-   use this but it's useful for Pandoc and DevOps to display Metadata of the
+   use this, but it's useful for Pandoc and DevOps to display Metadata of the
    document. This is commonly in a YAML format _(No real need to understand_
    _YAML right now)_ and the 2 Meta tags that are being put into this example.  
    They are:
@@ -419,7 +432,7 @@ your development of Markdown files.
    to the repository as you completed in the conversion task above.
 
    1. <input type="checkbox" />Go to the **Source Control** icon on the left side
-   and in the textbox, above the **✔️ Commit** button, enter
+   and in the text box, above the **✔️ Commit** button, enter
    a statement such as `Updated Markdown document` and then click on the
    **✔️ Commit** button to commit the initial files.
 
@@ -427,11 +440,11 @@ your development of Markdown files.
     changed to a **Sync Changes 1 ⬆️** button, click the button to complete
     your changes to the repository.
 
-That concludes the document modificationtask of this tutorial. Please take some
-time to get familiar with VS Code and/or Markdown. also visit some of the
-recomended links above to get familiar with the Markdown "language/code". After
-a while you may see why Markdown has become a great way to create and publish
-documents.
+That concludes the document modification task of this tutorial. Please take some
+time to get familiar with VS Code and/or Markdown. Also visit some
+recommended links mentioned above to get familiar with the Markdown language.
+After a while you may see why Markdown has become a great way to create and
+publish documents.
 
 ## Create Publications
 
@@ -447,54 +460,83 @@ as a Web Page.
    working on from the previous exercise.
 2. <input type="checkbox" />Download the following YAML file:
 
+   **Public Default Writer File**
+
+   <div style="float:left;">
+
+   ➡️
+   </div>
+
    <a href="resources/default-public.yaml" download>
-   default-public.yaml</a>
+   <b>default-public.yaml</b></a>⬅️
+
+   <div style="clear:left;"></div>
+   <u>File contents:</u>
+
+   ```yaml
+   input-files:
+     - public.md
+   from: markdown+raw_html+table_captions+grid_tables+link_attributes+footnotes+emoji
+   toc: true
+   metadata:
+     toc-title: 'Table Of Contents'
+   ```
 
    📓**NOTE: <mark>Please keep the
-   location of where you place the file on you're workstation. It is needed for
+   location of where you place the file on your workstation. It is needed for
    the next step.</mark>**
 
 3. <input type="checkbox" />Click and drag the **default-public.yaml** from the
    downloaded location into the root of the VS Code Project just like you did
    with the **public.docx** file in the previous task, except this file should
    be placed in the root of the project, not a sub-folder _(it may help if you_
-   _collapse all of the directories in the tree view in VS Code)_.
+   _collapse all the directories in the tree view in VS Code)_.
 
    ![Copy Defaults](images/copy_defaults.png)
 
 4. <input type="checkbox" />If not already open, click on the new YAML file so
-   that you can view the contents in the edit pane.
+   that you can view the contents.
 
-   The contents of the file are parameters that will be used during the
-   Pandoc conversion.
+   ```yaml
+   input-files:
+     - public.md
+   from: markdown+raw_html+table_captions+grid_tables+link_attributes+footnotes+emoji
+   toc: true
+   metadata:
+     toc-title: 'Table Of Contents'
+   ```
+
+   The content file contains parameters that will be used during the Pandoc conversion
+   for generating both a Word Document and a Web Page.
 
    - **Input-Files**
 
      The first parameter is **`input-files`**. This can be 1 or more Markdown
-     files. If you have more than 1 file it "stiches" the files together into 1
-     result. It also puts them in order that the files are placed in the list.
+     files. If you have more than 1 file it "stitches" the files together into 1
+     result. It also puts them in order that the files shown in the listing.
 
    - **From**
 
-     The **`from`** parameter is describing the format of the orginating document.
-     This is all in 1 string sent to the writer portion of Pandoc. In this version 
-     we will be using **`markdown`** with the following additional extensions
-     _(more extensions can be added by looking them up at_
+     The **`from`** parameter is describing the format of the originating
+     document. This is all in 1 string sent to the writer portion of Pandoc. In
+     this version we will be using **`markdown`** with the following additional
+     extensions _(more extensions can be added by looking them up at_
      _[Pandoc's User Guide](https://pandoc.org/MANUAL.html#pandocs-markdown) and_
      _using the plus sign (`+`) in front of the new extension)_:
-     - **`raw_html`** - allows HTML elements which are not representable in pandoc’s
-     AST to be parsed as raw HTML. By default, this is disabled for HTML input.
+     - **`raw_html`** - allows HTML elements which are not representable in
+       Pandoc’s AST to be parsed as raw HTML. By default, this is disabled for
+       HTML input.
      - **`table_captions`** - A caption may optionally be provided with all 4
-       kinds of tables. A caption is a paragraph beginning with the string `Table:` (or
-       `table:` or just `:`), which will be stripped off. It may appear either before
-       or after the table.
+       kinds of tables. A caption is a paragraph beginning with the string
+       `Table:` (or `table:` or just `:`), which will be stripped off. It may
+       appear either before or after the table.
      - **`grid_tables`** - The cells of grid tables may contain arbitrary block
        elements (multiple paragraphs, code blocks, lists, etc.).
      - **`link_attributes`** - For HTML and EPUB, all known HTML5 attributes
-       except width and height (but including srcset and sizes) are passed through as is.
-       Unknown attributes are passed through as custom attributes, with data-
-       prepended. The other writers ignore attributes that are not specifically
-       supported by their output format.
+       except `width` and `height` (but including `srcset` and `sizes`) are
+       passed through as is. Unknown attributes are passed through as custom
+       attributes, with data-prepended. The other writers ignore attributes that
+       are not specifically supported by their output format.
      - **`footnotes`** - Pandoc’s Markdown allows footnotes, using the following
        syntax:
 
@@ -514,21 +556,23 @@ as a Web Page.
           line.  In this way, multi-paragraph footnotes work like
           multi-paragraph list items.
        ```
-     - **`emoji`** - Parses textual emojis like `:smile:` (:smile:) as Unicode
-       emoticons.
+     - **`emoji`** - Parses textual emojis like `:smile:` (:smile:) as
+       Unicode emoticons.
 
        If you want to find out more information you can view
        [Pandoc's User Guide relating to Markdown](https://pandoc.org/MANUAL.html#pandocs-markdown)
 
    - **TOC (Table of Contents)**
 
-     The last section of parameters relates to generating a Table of Contents. 
+     The last section of parameters relates to generating a Table of Contents.
      This will be placed after the title of the document
-     _(and sub-title and/or author if these are in the front-matter of the_
+     _(and subtitle and/or author if these are in the front-matter of the_
      _document)_ and before the body of the document. In the
      sample YAML file we are asking that the TOC is included (`true`) and in the
      metadata section we are specifying the heading name to use for the Table of
      Contents.
+
+5. <input type="checkbox" />
 
 [GIT]: https://git-scm.com/about "git --local-branching-on-the-cheap"
 [GIT Downloads]: https://git-scm.com/downloads "git --fast-version-control"

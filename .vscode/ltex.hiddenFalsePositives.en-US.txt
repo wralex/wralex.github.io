@@ -1,0 +1,1 @@
+{"rule":"SOME_OF_THE","sentence":"^\\QAlso visit some of the recomended links above to get familiar with the Markdown \"language/code\".\\E$"}
