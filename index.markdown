@@ -8,7 +8,7 @@ layout: home
 
 I would like to welcome you to my GitHub Pages site. I will post items of
 interest and try to assist visitors to some of my knowledge, even if it's not
-💯 % correct. Not only that, but I can share with you some IT skills and even
+💯% correct. Not only that, but I can share with you some IT skills and even
 attempt to create tutorials that I hope you will find useful. Furthermore, I am
 always taking feedback from others and would like to hear from you.
 
@@ -24,3 +24,10 @@ experiences:
    it generating other formats, such as a Web Page. I also use Azure DevOps to
    store the files in a GIT repository to show how this may be used to future
    modifications.
+
+
+## Conclusion
+
+I do thank you for visiting and if you do have any feedback, please email me at <wralex@gmail.com>
+
+Thanks Again 😃❗
