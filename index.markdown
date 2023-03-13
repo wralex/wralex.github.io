@@ -4,8 +4,6 @@
 
 layout: home
 ---
-# Introduction
-
 I would like to welcome you to my GitHub Pages site. I will post items of
 interest and try to assist visitors to some of my knowledge, even if it's not
 💯% correct. Not only that, but I can share with you some IT skills and even
