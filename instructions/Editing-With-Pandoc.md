@@ -11,10 +11,11 @@ technical writers today. I will also use a source management system to check
 in my edited files. For this page I use **Microsoft's Azure DevOps** for
 as a repository storage and building platform to create artifacts.
 
-1. [<img src="https://git-scm.com/images/logo@2x.png" height="15"/>][GIT]<span
-   style="color: grey;"> version control _(btw, full name is **Global information Tracker**)_</span>
-2. [<img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAYGBgYHBgcICAcKCwoLCg8ODAwODxYQERAREBYiFRkVFRkVIh4kHhweJB42KiYmKjY+NDI0PkxERExfWl98fKcBBgYGBgcGBwgIBwoLCgsKDw4MDA4PFhAREBEQFiIVGRUVGRUiHiQeHB4kHjYqJiYqNj40MjQ+TERETF9aX3x8p//CABEIAC4ALgMBIgACEQEDEQH/xAAaAAACAwEBAAAAAAAAAAAAAAAGBwAFCAME/9oACAEBAAAAANRyLAOZdMwVOqDSF6p56EDhDn4Khy1wa5DEBz7derT0gYrHP//EABgBAQADAQAAAAAAAAAAAAAAAAUCAwQG/9oACgICEAMQAAAA05UjFxIzpuTL4bv2gmwf/8QAMxAAAgEDAgMECAYDAAAAAAAAAQIDAAQFBhIRMVETIUFCByIjMlJhYsEQICRxdKElcoH/2gAIAQEAAT8A/HV2uhbdpYYqUGbvWa5Hk6rH9XU1p7NZKzg3w3L98jcQx3Kf3BrHa0tJQVvYzC4HvLxZD9xV16SbaPJdnBadrZKeDS8pG+pBVhkLPI2qXNpOskTeYeBHMMDyIrWWvVlEmOxEvs+U90vn6rH9PU0m+R44oo2eR2CoiDczE+AAoYq+xKR214qrMyCUoDu2B+QJ61urWWiQEuMnjFVQoMlxByHAc3T7io7u5ihuIYriVI502yqjEB16GsZh8llb+Oys41eRwTuZtqKo5s1aY0djcBH2i+3vGXhJcsP6QeVa1uf86f48dbq1nrqfOu9pbExY9W93k0xHmf7CsDpTUOWsZru3tv06LxiLna0x6RUk09tOrozxTRP3EcVdGX+wRWlfSHDc7LPLusc3JLnkj/7/AAmtdnhnj/GirdV7oHTV9mBk57Ql+O54QeEMj/E60AAAAAAAAAO4ACtY6KhzKPeWgWO/A/ZZgPB/n0NXEU9tPLBPE0csbFXRxwKkeBqyuZprWPtZWfZ6ibiTtReSj5Ct4/Jq3RtnqCDtE2w3yLwim8GHwSdRWkdIXmVilDXUUMUUpDkAu/8AwEAViNM4fFKewtw0hXg00nrua//EACYRAAIBAwMCBwEAAAAAAAAAAAECAwAEEQUhMSJBEiQyUWFz4cH/2gAIAQIBAT8AmtLiBUaSMqG4NWOncSzD5Cn+09ha3USsV3I2deas3eK1UXjrjYDxdvYGtWtrsx5hOY8dSjn9Faevkbb6xTyyOFDuSFGBk8VperGErDOSY+Fbuv5V5qtrZ9GC0mPSNq//xAAlEQACAgICAAUFAAAAAAAAAAABAgMEABEFMRIhMkHhQlFhc8H/2gAIAQMBAT8Agu1p3dI5QxXsZf5PuKBvwXH8xOQt1JWUMdA+aN1l1I5rTNSRtgEnw+/3Izh7VNZdTjUv0sevg5yLavWf2HEiijLFEVSx2dDvOW4dZw08AAk7Zeg3zlPiLd0l9hI9+snef//Z" height="15" /> Visual Studio Code][Visual Studio Code] <span style="color: grey;">_(a.k.a. **VS Code**)_ for editing the documents</span>
-3. [Pandoc] <span style="color: grey;">a universal document converter</span>
+1. [<img src="https://git-scm.com/images/logo@2x.png" height="15"/>]
+   <span style="color: grey;">Version control _(BTW, full name is **Global information Tracker**)_</span>
+2. [<img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAYGBgYHBgcICAcKCwoLCg8ODAwODxYQERAREBYiFRkVFRkVIh4kHhweJB42KiYmKjY+NDI0PkxERExfWl98fKcBBgYGBgcGBwgIBwoLCgsKDw4MDA4PFhAREBEQFiIVGRUVGRUiHiQeHB4kHjYqJiYqNj40MjQ+TERETF9aX3x8p//CABEIAC4ALgMBIgACEQEDEQH/xAAaAAACAwEBAAAAAAAAAAAAAAAGBwAFCAME/9oACAEBAAAAANRyLAOZdMwVOqDSF6p56EDhDn4Khy1wa5DEBz7derT0gYrHP//EABgBAQADAQAAAAAAAAAAAAAAAAUCAwQG/9oACgICEAMQAAAA05UjFxIzpuTL4bv2gmwf/8QAMxAAAgEDAgMECAYDAAAAAAAAAQIDAAQFBhIRMVETIUFCByIjMlJhYsEQICRxdKElcoH/2gAIAQEAAT8A/HV2uhbdpYYqUGbvWa5Hk6rH9XU1p7NZKzg3w3L98jcQx3Kf3BrHa0tJQVvYzC4HvLxZD9xV16SbaPJdnBadrZKeDS8pG+pBVhkLPI2qXNpOskTeYeBHMMDyIrWWvVlEmOxEvs+U90vn6rH9PU0m+R44oo2eR2CoiDczE+AAoYq+xKR214qrMyCUoDu2B+QJ61urWWiQEuMnjFVQoMlxByHAc3T7io7u5ihuIYriVI502yqjEB16GsZh8llb+Oys41eRwTuZtqKo5s1aY0djcBH2i+3vGXhJcsP6QeVa1uf86f48dbq1nrqfOu9pbExY9W93k0xHmf7CsDpTUOWsZru3tv06LxiLna0x6RUk09tOrozxTRP3EcVdGX+wRWlfSHDc7LPLusc3JLnkj/7/AAmtdnhnj/GirdV7oHTV9mBk57Ql+O54QeEMj/E60AAAAAAAAAO4ACtY6KhzKPeWgWO/A/ZZgPB/n0NXEU9tPLBPE0csbFXRxwKkeBqyuZprWPtZWfZ6ibiTtReSj5Ct4/Jq3RtnqCDtE2w3yLwim8GHwSdRWkdIXmVilDXUUMUUpDkAu/8AwEAViNM4fFKewtw0hXg00nrua//EACYRAAIBAwMCBwEAAAAAAAAAAAECAwAEEQUhMSJBEiQyUWFz4cH/2gAIAQIBAT8AmtLiBUaSMqG4NWOncSzD5Cn+09ha3USsV3I2deas3eK1UXjrjYDxdvYGtWtrsx5hOY8dSjn9Faevkbb6xTyyOFDuSFGBk8VperGErDOSY+Fbuv5V5qtrZ9GC0mPSNq//xAAlEQACAgICAAUFAAAAAAAAAAABAgMEABEFMRIhMkHhQlFhc8H/2gAIAQMBAT8Agu1p3dI5QxXsZf5PuKBvwXH8xOQt1JWUMdA+aN1l1I5rTNSRtgEnw+/3Izh7VNZdTjUv0sevg5yLavWf2HEiijLFEVSx2dDvOW4dZw08AAk7Zeg3zlPiLd0l9hI9+snef//Z" height="15" /> Visual Studio Code]
+   <span style="color: grey;">_(a.k.a. **VS Code**)_ for editing the documents</span>
+3. [Pandoc]<span style="color: grey;"> a universal document converter</span>
 
 ## Basic Tools
 
@@ -22,9 +23,9 @@ as a repository storage and building platform to create artifacts.
 
    Download and install these 3 tools onto your desktop.
 
-1. <input type="checkbox" />[GIT][GIT Downloads]
-2. <input type="checkbox" />[Pandoc][Install Pandoc]
-3. <input type="checkbox" />[Visual Studio Code]
+1. <input type="checkbox" />[GIT][GIT Downloads]{:target="_blank"}
+2. <input type="checkbox" />[Pandoc][Install Pandoc]{:target="_blank"}
+3. <input type="checkbox" />[Visual Studio Code]{:target="_blank"}
 
 ### Configure the Tools
 
@@ -37,36 +38,37 @@ as a repository storage and building platform to create artifacts.
 
    1. Verify that you have installed **GIT** on your workstation by completing
       the following steps:  
-      1. <input type="checkbox" />Press and hold both the **`Windows Key`🪟**
-         along with **`R`** on your keyboard.
+      1. <input type="checkbox" />Press and hold both the
+         **`Windows Key`🪟** along with **`R`** on your keyboard.
 
          📓 _This will open a **`Run`** dialog box requesting you to type a_
          _command into a text box._
 
-      2. <input type="checkbox" />Type **`cmd`**<i title="Copy Text"
-         class="fas fa-clipboard" clip-text='cmd'></i> in the textbox and press
-         the `Enter` key.
+      2. <input type="checkbox" />Type
+         **`cmd`**<i title="Copy Text" class="fas fa-clipboard" clip-text='cmd'></i>
+         in the text box and press the `Enter` key.
 
          📓 _This will open a new command window with a prompt._
 
-      3. <input type="checkbox" />Type **`git --version`**<i title="Copy Text"
-         class="fas fa-clipboard" clip-text='git --version'></i> at the prompt
-         and press the `Enter` key.
+      3. <input type="checkbox" />Type
+         **`git --version`**<i title="Copy Text" class="fas fa-clipboard" clip-text='git --version'></i>
+         at the prompt and press the `Enter` key.
 
          📓 _You should get a response showing the GIT version installed on_
          _your workstation. If you did not get a version, or you received an_
          _error message, please install/re-install the GIT application and_
          _complete the above steps._
 
-      4. **Keep the command window open for the next task.**
+      4. **<mark>Keep the command window open for the next task.</mark>**
 
-   2. In the command window type in the below commands **_(replace
-      `[Your Name]` and `[Your Email]` with your information)_**.
+   2. In the command window type in the below commands
+      **_(replace `[Your Name]` and `[Your Email]` with your information)_**.
 
       ❗ _If you have closed the command window please do the steps in the_
       _previous task to re-open the command window._
 
-      1. <input type="checkbox" />Set **User Name**
+      1. <input type="checkbox" />Set
+         **Username**
 
          Type the following text _(replace **`[Your Name]`**)_ and press the
          `Enter` key.
@@ -283,8 +285,8 @@ below.
 
     ![Up To DevOps](images/to_devops.png)
 
-That is it for initiating the conversion of the original document into a Markdown
-document and posting it into a repository.
+That is it for initiating the conversion of the original document into a
+Markdown document and posting it into a repository.
 
 ## Modifying a Document
 
@@ -300,13 +302,13 @@ output such as support for emojis, grid matrix tables, element attributes, etc.
 If you would like to get more detail about Markdown here are a couple of links
 you can find more information.
 
-- [Markdown Guide](https://www.markdownguide.org) _(In depth explanation and_
-  _covers a lot of material relating to Markdown... Highly recommend this site_
-  _💯 **%**)_
-- [Daring Fireball: Markdown](https://daringfireball.net/projects/markdown)
+- [Markdown Guide](https://www.markdownguide.org){:target="_blank"}
+  _(In depth explanation and covers a lot of material relating to Markdown..._
+  _Highly recommend this site 💯**%**)_
+- [Daring Fireball: Markdown](https://daringfireball.net/projects/markdown){:target="_blank"}
   _(this is **John Gruber**, the creator of Markdown, with an introduction_
   _of what Markdown is)_
-- [Markdown Tutorial](https://www.markdowntutorial.com)
+- [Markdown Tutorial](https://www.markdowntutorial.com){:target="_blank"}
 
 ### Introduction of Editing Tools
 
@@ -431,8 +433,8 @@ your development of Markdown files.
    changes or additions to it and when finished commit and publish the changes
    to the repository as you completed in the conversion task above.
 
-   1. <input type="checkbox" />Go to the **Source Control** icon on the left side
-   and in the text box, above the **✔️ Commit** button, enter
+   1. <input type="checkbox" />Go to the **Source Control** icon on the left
+      side and in the text box, above the **✔️ Commit** button, enter
    a statement such as `Updated Markdown document` and then click on the
    **✔️ Commit** button to commit the initial files.
 
@@ -506,8 +508,8 @@ as a Web Page.
      toc-title: 'Table Of Contents'
    ```
 
-   The content file contains parameters that will be used during the Pandoc conversion
-   for generating both a Word Document and a Web Page.
+   The content file contains parameters that will be used during the Pandoc
+   conversion for generating both a Word Document and a Web Page.
 
    - **Input-Files**
 
@@ -521,8 +523,8 @@ as a Web Page.
      document. This is all in 1 string sent to the writer portion of Pandoc. In
      this version we will be using **`markdown`** with the following additional
      extensions _(more extensions can be added by looking them up at_
-     _[Pandoc's User Guide](https://pandoc.org/MANUAL.html#pandocs-markdown) and_
-     _using the plus sign (`+`) in front of the new extension)_:
+     _[Pandoc's User Guide](https://pandoc.org/MANUAL.html#pandocs-markdown)_
+     _and using the plus sign (`+`) in front of the new extension)_:
      - **`raw_html`** - allows HTML elements which are not representable in
        Pandoc’s AST to be parsed as raw HTML. By default, this is disabled for
        HTML input.
@@ -556,11 +558,11 @@ as a Web Page.
           line.  In this way, multi-paragraph footnotes work like
           multi-paragraph list items.
        ```
-     - **`emoji`** - Parses textual emojis like `:smile:` (:smile:) as
+     - **`emoji`** - Parses textual emojis like `:smile:` (😄) as
        Unicode emoticons.
 
        If you want to find out more information you can view
-       [Pandoc's User Guide relating to Markdown](https://pandoc.org/MANUAL.html#pandocs-markdown)
+       [Pandoc's User Guide relating to Markdown]
 
    - **TOC (Table of Contents)**
 
@@ -574,8 +576,9 @@ as a Web Page.
 
 5. <input type="checkbox" />
 
-[GIT]: https://git-scm.com/about "git --local-branching-on-the-cheap"
+[<img src="https://git-scm.com/images/logo@2x.png" height="15"/>]: https://git-scm.com/about "git --local-branching-on-the-cheap"
 [GIT Downloads]: https://git-scm.com/downloads "git --fast-version-control"
-[Visual Studio Code]: https://code.visualstudio.com "Microsoft's Visual Studio Code"
+[<img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAYGBgYHBgcICAcKCwoLCg8ODAwODxYQERAREBYiFRkVFRkVIh4kHhweJB42KiYmKjY+NDI0PkxERExfWl98fKcBBgYGBgcGBwgIBwoLCgsKDw4MDA4PFhAREBEQFiIVGRUVGRUiHiQeHB4kHjYqJiYqNj40MjQ+TERETF9aX3x8p//CABEIAC4ALgMBIgACEQEDEQH/xAAaAAACAwEBAAAAAAAAAAAAAAAGBwAFCAME/9oACAEBAAAAANRyLAOZdMwVOqDSF6p56EDhDn4Khy1wa5DEBz7derT0gYrHP//EABgBAQADAQAAAAAAAAAAAAAAAAUCAwQG/9oACgICEAMQAAAA05UjFxIzpuTL4bv2gmwf/8QAMxAAAgEDAgMECAYDAAAAAAAAAQIDAAQFBhIRMVETIUFCByIjMlJhYsEQICRxdKElcoH/2gAIAQEAAT8A/HV2uhbdpYYqUGbvWa5Hk6rH9XU1p7NZKzg3w3L98jcQx3Kf3BrHa0tJQVvYzC4HvLxZD9xV16SbaPJdnBadrZKeDS8pG+pBVhkLPI2qXNpOskTeYeBHMMDyIrWWvVlEmOxEvs+U90vn6rH9PU0m+R44oo2eR2CoiDczE+AAoYq+xKR214qrMyCUoDu2B+QJ61urWWiQEuMnjFVQoMlxByHAc3T7io7u5ihuIYriVI502yqjEB16GsZh8llb+Oys41eRwTuZtqKo5s1aY0djcBH2i+3vGXhJcsP6QeVa1uf86f48dbq1nrqfOu9pbExY9W93k0xHmf7CsDpTUOWsZru3tv06LxiLna0x6RUk09tOrozxTRP3EcVdGX+wRWlfSHDc7LPLusc3JLnkj/7/AAmtdnhnj/GirdV7oHTV9mBk57Ql+O54QeEMj/E60AAAAAAAAAO4ACtY6KhzKPeWgWO/A/ZZgPB/n0NXEU9tPLBPE0csbFXRxwKkeBqyuZprWPtZWfZ6ibiTtReSj5Ct4/Jq3RtnqCDtE2w3yLwim8GHwSdRWkdIXmVilDXUUMUUpDkAu/8AwEAViNM4fFKewtw0hXg00nrua//EACYRAAIBAwMCBwEAAAAAAAAAAAECAwAEEQUhMSJBEiQyUWFz4cH/2gAIAQIBAT8AmtLiBUaSMqG4NWOncSzD5Cn+09ha3USsV3I2deas3eK1UXjrjYDxdvYGtWtrsx5hOY8dSjn9Faevkbb6xTyyOFDuSFGBk8VperGErDOSY+Fbuv5V5qtrZ9GC0mPSNq//xAAlEQACAgICAAUFAAAAAAAAAAABAgMEABEFMRIhMkHhQlFhc8H/2gAIAQMBAT8Agu1p3dI5QxXsZf5PuKBvwXH8xOQt1JWUMdA+aN1l1I5rTNSRtgEnw+/3Izh7VNZdTjUv0sevg5yLavWf2HEiijLFEVSx2dDvOW4dZw08AAk7Zeg3zlPiLd0l9hI9+snef//Z" height="15" /> Visual Studio Code]: https://code.visualstudio.com "Microsoft's Visual Studio Code"
 [Pandoc]: https://pandoc.org "Pandoc, a universal document converter"
 [Install Pandoc]: https://pandoc.org/installing.html "Download and install Pandoc"
+[Pandoc's User Guide relating to Markdown]: https://pandoc.org/MANUAL.html#pandocs-markdown
