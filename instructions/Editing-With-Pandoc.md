@@ -21,38 +21,42 @@ as a repository storage and building platform to create artifacts.
 
 ### Get the Tools
 
-   Download and install these 3 tools onto your desktop.
+   Download and install each of these 3 tools onto your workstation.
 
-1. <input type="checkbox" />[GIT][GIT Downloads]{:target="_blank"}
-2. <input type="checkbox" />[Pandoc][Install Pandoc]{:target="_blank"}
-3. <input type="checkbox" />[Visual Studio Code]{:target="_blank"}
+1. <input type="checkbox" />[<img src="https://git-scm.com/images/logo@2x.png" height="15"/>][GIT Downloads]{:target="_blank"}
+2. <input type="checkbox" />[<img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAYGBgYHBgcICAcKCwoLCg8ODAwODxYQERAREBYiFRkVFRkVIh4kHhweJB42KiYmKjY+NDI0PkxERExfWl98fKcBBgYGBgcGBwgIBwoLCgsKDw4MDA4PFhAREBEQFiIVGRUVGRUiHiQeHB4kHjYqJiYqNj40MjQ+TERETF9aX3x8p//CABEIAC4ALgMBIgACEQEDEQH/xAAaAAACAwEBAAAAAAAAAAAAAAAGBwAFCAME/9oACAEBAAAAANRyLAOZdMwVOqDSF6p56EDhDn4Khy1wa5DEBz7derT0gYrHP//EABgBAQADAQAAAAAAAAAAAAAAAAUCAwQG/9oACgICEAMQAAAA05UjFxIzpuTL4bv2gmwf/8QAMxAAAgEDAgMECAYDAAAAAAAAAQIDAAQFBhIRMVETIUFCByIjMlJhYsEQICRxdKElcoH/2gAIAQEAAT8A/HV2uhbdpYYqUGbvWa5Hk6rH9XU1p7NZKzg3w3L98jcQx3Kf3BrHa0tJQVvYzC4HvLxZD9xV16SbaPJdnBadrZKeDS8pG+pBVhkLPI2qXNpOskTeYeBHMMDyIrWWvVlEmOxEvs+U90vn6rH9PU0m+R44oo2eR2CoiDczE+AAoYq+xKR214qrMyCUoDu2B+QJ61urWWiQEuMnjFVQoMlxByHAc3T7io7u5ihuIYriVI502yqjEB16GsZh8llb+Oys41eRwTuZtqKo5s1aY0djcBH2i+3vGXhJcsP6QeVa1uf86f48dbq1nrqfOu9pbExY9W93k0xHmf7CsDpTUOWsZru3tv06LxiLna0x6RUk09tOrozxTRP3EcVdGX+wRWlfSHDc7LPLusc3JLnkj/7/AAmtdnhnj/GirdV7oHTV9mBk57Ql+O54QeEMj/E60AAAAAAAAAO4ACtY6KhzKPeWgWO/A/ZZgPB/n0NXEU9tPLBPE0csbFXRxwKkeBqyuZprWPtZWfZ6ibiTtReSj5Ct4/Jq3RtnqCDtE2w3yLwim8GHwSdRWkdIXmVilDXUUMUUpDkAu/8AwEAViNM4fFKewtw0hXg00nrua//EACYRAAIBAwMCBwEAAAAAAAAAAAECAwAEEQUhMSJBEiQyUWFz4cH/2gAIAQIBAT8AmtLiBUaSMqG4NWOncSzD5Cn+09ha3USsV3I2deas3eK1UXjrjYDxdvYGtWtrsx5hOY8dSjn9Faevkbb6xTyyOFDuSFGBk8VperGErDOSY+Fbuv5V5qtrZ9GC0mPSNq//xAAlEQACAgICAAUFAAAAAAAAAAABAgMEABEFMRIhMkHhQlFhc8H/2gAIAQMBAT8Agu1p3dI5QxXsZf5PuKBvwXH8xOQt1JWUMdA+aN1l1I5rTNSRtgEnw+/3Izh7VNZdTjUv0sevg5yLavWf2HEiijLFEVSx2dDvOW4dZw08AAk7Zeg3zlPiLd0l9hI9+snef//Z" height="15" /> Visual Studio Code]{:target="_blank"}
+3. <input type="checkbox" />[Pandoc][Install Pandoc]{:target="_blank"}
 
 ### Configure the Tools
 
-1. **GIT**
+After you've completed the installation of the 3 applications above, please
+proceed with these next steps to configure/confirm each service for the rest of
+the tutorial.
 
-   After installation of the GIT Client on your workstation, there are global
-   parameters that required to be set. These parameters are used for tracking
-   work you've contributed upon posting changes to a repository
-   _(a.k.a. **repo**)_. Without these parameters set, you will experience errors.
+1. **<u>GIT</u>**
+
+   The GIT client on your workstation requires global parameters to be set.
+   These parameters are used for tracking work you've contributed when posting
+   changes to a repository _(a.k.a. **repo**)_. Without these parameters set,
+   you will experience errors when publishing the changes.
 
    1. Verify that you have installed **GIT** on your workstation by completing
       the following steps:  
       1. <input type="checkbox" />Press and hold both the
-         **`Windows Key`🪟** along with **`R`** on your keyboard.
+         **`Windows Key(🪟)`** along with **`R`** on your keyboard.
 
          <small>📓_This will open a **`Run`** dialog box requesting you to_
          _type a command into a text box._</small>
 
       2. <input type="checkbox" />Type
          **`cmd`**<i title="Copy Text" class="fas fa-clipboard" clip-text='cmd'></i>
-         in the text box and press the `Enter` key.
+         in the text box and press the **Enter** key.
 
          <small>📓_This will open a new command window with a prompt._</small>
 
       3. <input type="checkbox" />Type
          **`git --version`**<i title="Copy Text" class="fas fa-clipboard" clip-text='git --version'></i>
-         at the prompt and press the `Enter` key.
+         at the prompt and press the **Enter** key.
 
          <small>📓_You should get a response showing the GIT version installed_
          _on your workstation. If you did not get a version, or you received an_
@@ -61,17 +65,14 @@ as a repository storage and building platform to create artifacts.
 
       4. **<mark>Keep the command window open for the next task.</mark>**
 
-   2. In the command window type in the below commands
-      **_(replace `[Your Name]` and `[Your Email]` with your information)_**.
+   2. **Copy** _(you can use the icons [<i class="fas fa-clipboard"></i>] to the_
+      _right of each)_ and **paste** each command shown below insideUpdates the command
+      window:
 
-      ❗_If you have closed the command window please do the steps in the_
-      _previous task to re-open the command window._
+      <small>❗_If you have closed the command window please do the steps in_
+      _the previous task._</small>
 
-      1. <input type="checkbox" />Set
-         **Username**
-
-         Type the following text _(replace **`[Your Name]`**)_ and press the
-         `Enter` key.
+      1. <input type="checkbox" />Set **Username**
 
          <i title="Copy Text" style="float:right;" class="fas fa-clipboard"
          clip-text='git config --global user.name "[Your Name]"'></i>
@@ -80,10 +81,9 @@ as a repository storage and building platform to create artifacts.
          git config --global user.name "[Your Name]"
          ```
 
-      2. <input type="checkbox" />Set **User Email Address**
+         <small>❗_Replace **`[Your Name]`** and press the **Enter** key_</small>
 
-         Type the following text _(replace **`[Your Email]`**)_ and press the
-         `Enter` key.
+      2. <input type="checkbox" />Set **User Email Address**
 
          <i title="Copy Text" style="float:right;" class="fas fa-clipboard"
          clip-text='git config --global user.email "[Your Email]"'></i>
@@ -92,9 +92,9 @@ as a repository storage and building platform to create artifacts.
          git config --global user.email "[Your Email]"
          ```
 
-   3. Close the command window.
+         <small>❗_Replace **`[Your Email]`** and press the **Enter** key_</small>
 
-2. **VS Code**
+2. **<u>VS Code</u>**
 
    VS Code does contain basic **Markdown** editing capabilities without the
    following extension pack, but these additional features will assist in many
@@ -108,19 +108,20 @@ as a repository storage and building platform to create artifacts.
           <img height="15" src="https://bat67.gallerycdn.vsassets.io/extensions/bat67/markdown-extension-pack/0.7.0/1614239921497/Microsoft.VisualStudio.Services.Icons.Default" />
           Markdown Extensions Pack</button>
 
-   2. <input type="checkbox" />On the new browser page click the **`Install`**
-      button.
+   2. <input type="checkbox" />On the new web browser page, click the
+      **`Install`** button.
 
-      VS Code should open up with the same web page displayed in a tab of the
-      main window.
+      <small>📓_VS Code should open up with the same web page displayed in a_
+      _tab of the main window._</small>
 
-   3. <input type="checkbox" />Click the **`Install`** button again on the page.
+   3. <input type="checkbox" />Click the
+      **`Install`** button again on the page that is now displayed in VS Code.
 
-      This should now show that it's installing the additional Markdown editing
-      features. In a couple of minutes you can open the Extension Viewer to see
-      the new features. Within the extensions view you may click each feature
-      and read more details about each which may also provide how best to use
-      each.
+      <small>📓_This should now show that it's installing the additional_
+      _Markdown editing features. In a couple of minutes you can open the_
+      _Extension Viewer to see the new features. Within the extensions view you_
+      _may click each feature and read more details about each which may also_
+      _provide how best to use each._</small>
 
    4. <input type="checkbox" />Install the following VS Code features by
       clicking the buttons below and follow the methods as in the previous steps.
@@ -139,13 +140,15 @@ as a repository storage and building platform to create artifacts.
           Prettier</button></li>
       </ul>
 
-3. **Pandoc**
+3. **<u>Pandoc</u>**
 
    There really aren't any configuration settings for Pandoc. Just verify that
-   the tool has been installed by executing the following steps.
+   the tool has been installed by executing the following steps. _If you've_
+   _kept the command window up from the **<u>GIT</u>** configuration, then you_
+   _can use the same command window and skip to step #3 below._
 
    1. <input type="checkbox" />Press and hold both the
-      **`Windows Key`🪟** along with **`R`** on your keyboard.
+      **`Windows Key(🪟)`** along with **`R`** on your keyboard.
 
       <small>📓_This will open a **`Run`** dialog box requesting you to type a_
       _command into a text box._</small>
@@ -165,7 +168,7 @@ as a repository storage and building platform to create artifacts.
       _error message, please install/re-install Pandoc and_
       _complete the above steps._</small>
 
-   4. <input type="checkbox" />Close the command window.
+   4. <input type="checkbox" />You may now close the command window.
 
 ## Create a New Repo and Populate
 
