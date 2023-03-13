@@ -678,8 +678,10 @@ as a Web Page.
    session. If PowerShell _(pwsh)_ isn't displayed then click on the down arrow
    right of the `+` button and select **PowerShell**.</small>
 
+### Generate Word
+
 9. <input type="checkbox" />Type the following command into the terminal
-    window and then press **Enter**:
+   window and then press **Enter**:
 
    <i title="Copy Text" style="float:right;" class="fas fa-clipboard"
    clip-elem="create-word"></i>
@@ -720,27 +722,33 @@ as a Web Page.
    that the contents are almost identical except that in the new document it
    used the metadata to creates a **Title**, **Author**, and a generated
    **Table Of Contents** due to the parameters within the
-   **default-public.yaml** file. You can experiment with other options and
+   **default-public.yaml** file.
+
+   ![Compare Docs](images/word_compare.png)
+
+   You can experiment with other options and
    re-run the same PowerShell Script _(just ignore any errors that may come up
    because those subdirectories were already created)_.
 
-   You can also generate the HTML version of this document by executing
+### Generate HTML
 
-   <i title="Copy Text" style="float:right;" class="fas fa-clipboard"
-   clip-elem="create-html"></i>
+You can also generate the HTML version of this document by executing
 
-   ```powershell
-   .\Create-HTML.ps1
-   ```
-   {:id="create-html"}
+<i title="Copy Text" style="float:right;" class="fas fa-clipboard"
+clip-elem="create-html"></i>
 
-   ![Create HTML](images/create-html.png)
+```powershell
+.\Create-HTML.ps1
+```
+{:id="create-html"}
 
-   Ignore any warnings or errors that may come up on the screen. Again
-   you can navigate to the folder with your File Explorer and open up the HTML
-   document to see that the contents are now in an HTML format.
+![Create HTML](images/create-html.png)
 
-   ![Web View](images/web_view.png){:height = "400px"}
+Ignore any warnings or errors that may come up on the screen. Again
+you can navigate to the folder with your File Explorer and open up the HTML
+document to see that the contents are now in an HTML format.
+
+![Web View](images/web_view.png){:height = "400px"}
 
 You may now commit and publish the project back to your repository and view the
 files within the repo to confirm that the main contents have been checked in.
