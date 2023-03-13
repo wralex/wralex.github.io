@@ -571,12 +571,60 @@ as a Web Page.
      included (`true`) and in the metadata section we are specifying the heading
      name to use will be **Table Of Contents**.
 
-5. <input type="checkbox" />Open a **Terminal** window in VS Code by holding down
+5. <input type="checkbox" />Download the files below.
+
+   <ul>
+     <li>
+      <div style="float:left;">
+
+      ➡️
+      </div>
+
+      <a href="resources/.gitignore" download>
+      <b>.gitignore</b></a>⬅️
+
+      <div style="clear:left;"></div>
+     </li>
+     <li>
+      <div style="float:left;">
+
+      ➡️
+      </div>
+
+      <a href="resources/Create-HTML.ps1" download>
+      <b>Create-HTML.ps1</b></a>⬅️
+
+      <div style="clear:left;"></div>
+     </li>
+     <li>
+      <div style="float:left;">
+
+      ➡️
+      </div>
+
+      <a href="resources/Create-Word.ps1" download>
+      <b>Create-Word.ps1</b></a>⬅️
+
+      <div style="clear:left;"></div>
+     </li>
+   </ul>
+
+   <small>❗**_<mark>Please note where these files are placed since they will
+   be used in the next couple of steps</mark>_**</small>
+
+6. <input type="checkbox" />Open a **Terminal** window in VS Code by holding down
    the **`Windows(🪟)`** and **<code>&grave;</code>** _(the key to the left of the_
    _1 key)_.
 
-   <small>📓_You can also open this up by using the app's menu navigation_
+   <small>📓_You can also open this up by using the VS Code's menu navigation_
    **_View_** ➡️ **_Terminal_**</small>
+
+7. <input type="checkbox" />Make sure your'e at the root folder of your project
+   and type the following at the prompt:
+
+   ```powershell
+
+   ```
 
 [<img src="https://git-scm.com/images/logo@2x.png" height="15"/>]: https://git-scm.com/about "git --local-branching-on-the-cheap"
 [GIT Downloads]: https://git-scm.com/downloads "git --fast-version-control"
