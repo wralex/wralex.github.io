@@ -41,30 +41,30 @@ as a repository storage and building platform to create artifacts.
       1. <input type="checkbox" />Press and hold both the
          **`Windows Key`🪟** along with **`R`** on your keyboard.
 
-         📓 _This will open a **`Run`** dialog box requesting you to type a_
-         _command into a text box._
+         <small>📓_This will open a **`Run`** dialog box requesting you to_
+         _type a command into a text box._</small>
 
       2. <input type="checkbox" />Type
          **`cmd`**<i title="Copy Text" class="fas fa-clipboard" clip-text='cmd'></i>
          in the text box and press the `Enter` key.
 
-         📓 _This will open a new command window with a prompt._
+         <small>📓_This will open a new command window with a prompt._</small>
 
       3. <input type="checkbox" />Type
          **`git --version`**<i title="Copy Text" class="fas fa-clipboard" clip-text='git --version'></i>
          at the prompt and press the `Enter` key.
 
-         📓 _You should get a response showing the GIT version installed on_
-         _your workstation. If you did not get a version, or you received an_
+         <small>📓_You should get a response showing the GIT version installed_
+         _on your workstation. If you did not get a version, or you received an_
          _error message, please install/re-install the GIT application and_
-         _complete the above steps._
+         _complete the above steps._</small>
 
       4. **<mark>Keep the command window open for the next task.</mark>**
 
    2. In the command window type in the below commands
       **_(replace `[Your Name]` and `[Your Email]` with your information)_**.
 
-      ❗ _If you have closed the command window please do the steps in the_
+      ❗_If you have closed the command window please do the steps in the_
       _previous task to re-open the command window._
 
       1. <input type="checkbox" />Set
@@ -147,23 +147,23 @@ as a repository storage and building platform to create artifacts.
    1. <input type="checkbox" />Press and hold both the
       **`Windows Key`🪟** along with **`R`** on your keyboard.
 
-      📓 _This will open a **`Run`** dialog box requesting you to type a_
-      _command into a text box._
+      <small>📓_This will open a **`Run`** dialog box requesting you to type a_
+      _command into a text box._</small>
 
    2. <input type="checkbox" />Type
       **`cmd`**<i title='Copy Text' class='fas fa-clipboard' clip-text='cmd'></i>
       in the text box and press the `Enter` key.
 
-      📓 _This will open a new command window with a prompt._
+      <small>📓_This will open a new command window with a prompt._</small>
 
    3. <input type="checkbox" />Type
       **`pandoc --version`**<i title='Copy Text' class='fas fa-clipboard' clip-text='pandoc --version'></i>
       at the prompt and press the `Enter` key.
 
-      📓 _You should get a response showing the version of Pandoc installed on_
+      <small>📓_You should get a response showing the version of Pandoc installed on_
       _your workstation. If you did not get a version, or you received an_
       _error message, please install/re-install Pandoc and_
-      _complete the above steps._
+      _complete the above steps._</small>
 
    4. <input type="checkbox" />Close the command window.
 
@@ -181,9 +181,9 @@ below.
 2. <input type="checkbox" />Open the link to the Repository created and click
    the `Clone in VS Code` button.
 
-   📓 _If the `Clone in VS Code` is not shown by default when this screen is
-   opened, click the dropdown icon on the right of the button and select it
-   from the selections._
+   <small>📓_If the `Clone in VS Code` is not shown by default when this_
+   _screen is opened, click the dropdown icon on the right of the button and_
+   _select it from the options._</small>
 
    ![Clone in VS Code](images/clone_repo.png)
 
@@ -238,8 +238,8 @@ below.
    and **<code>&grave;</code>** _(the key to the left of the 1 key)_ for the
    **Terminal** section to open up at the bottom.
 
-   📓 _You can also open this up by using the app's menu navigation **View**_
-   ➡️ _**Terminal**_
+   <small>📓_You can also open this up by using the app's menu navigation_
+   **_View_** ➡️ **_Terminal_**</small>
 
 8. <input type="checkbox" />Within the Terminal windows make sure you're at the
    root directory of the project and type the following command _(replace_
@@ -473,16 +473,6 @@ as a Web Page.
    <b>default-public.yaml</b></a>⬅️
 
    <div style="clear:left;"></div>
-   <u>File contents:</u>
-
-   ```yaml
-   input-files:
-     - public.md
-   from: markdown+raw_html+table_captions+grid_tables+link_attributes+footnotes+emoji
-   toc: true
-   metadata:
-     toc-title: 'Table Of Contents'
-   ```
 
    📓**NOTE: <mark>Please keep the
    location of where you place the file on your workstation. It is needed for
@@ -496,8 +486,15 @@ as a Web Page.
 
    ![Copy Defaults](images/copy_defaults.png)
 
+   ![With Default](images/vscode_with_default.png)
+
 4. <input type="checkbox" />If not already open, click on the new YAML file so
    that you can view the contents.
+
+   The content file contains parameters that will be used during the Pandoc
+   conversion for generating both a Word Document and a Web Page.
+
+   <u>File contents:</u>
 
    ```yaml
    input-files:
@@ -508,10 +505,7 @@ as a Web Page.
      toc-title: 'Table Of Contents'
    ```
 
-   The content file contains parameters that will be used during the Pandoc
-   conversion for generating both a Word Document and a Web Page.
-
-   - **Input-Files**
+   - **Input Files**
 
      The first parameter is **`input-files`**. This can be 1 or more Markdown
      files. If you have more than 1 file it "stitches" the files together into 1
@@ -570,11 +564,16 @@ as a Web Page.
      This will be placed after the title of the document
      _(and subtitle and/or author if these are in the front-matter of the_
      _document)_ and before the body of the document. In the
-     sample YAML file we are asking that the TOC is included (`true`) and in the
-     metadata section we are specifying the heading name to use for the Table of
-     Contents.
+     sample YAML file we are asking that the `toc` _(table of contents)_ is
+     included (`true`) and in the metadata section we are specifying the heading
+     name to use will be **Table Of Contents**.
 
-5. <input type="checkbox" />
+5. <input type="checkbox" />Open a **Terminal** window in VS Code by holding down
+   the **`Windows(🪟)`** and **<code>&grave;</code>** _(the key to the left of the_
+   _1 key)_.
+
+   <small>📓_You can also open this up by using the app's menu navigation_
+   **_View_** ➡️ **_Terminal_**</small>
 
 [<img src="https://git-scm.com/images/logo@2x.png" height="15"/>]: https://git-scm.com/about "git --local-branching-on-the-cheap"
 [GIT Downloads]: https://git-scm.com/downloads "git --fast-version-control"
