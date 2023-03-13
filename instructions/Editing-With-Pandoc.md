@@ -18,7 +18,12 @@ Bitbucket, or other but the tools below are still recommended.
    <span style="color: grey;">_(a.k.a. **VS Code**)_ for editing the documents</span>
 3. [Pandoc]<span style="color: grey;"> a universal document converter</span>
 
-## Basic Tools
+<small>📓
+_Within this document I created icons (<i class="fas fa-clipboard"></i>) on_
+_the right side of text areas that will allow you to place the text into your_
+_workstation clipboard. Please feel free to use them._</small>
+
+## Tools
 
 ### Get the Tools
 
@@ -69,8 +74,7 @@ the tutorial.
 
       4. **<mark>Keep the command window open for the next task.</mark>**
 
-   2. **Copy** _(you can use the icons [<i class="fas fa-clipboard"></i>] to the_
-      _right of each)_ and **paste** each command shown below inside the command
+   2. **Copy** and **paste** each command shown below inside the command
       window:
 
       <small>❗
