@@ -70,7 +70,7 @@ the tutorial.
       4. **<mark>Keep the command window open for the next task.</mark>**
 
    2. **Copy** _(you can use the icons [<i class="fas fa-clipboard"></i>] to the_
-      _right of each)_ and **paste** each command shown below insideUpdates the command
+      _right of each)_ and **paste** each command shown below inside the command
       window:
 
       <small>❗
@@ -298,7 +298,7 @@ below.
     changed to a **Sync Changes 1 ⬆️** button that you will click and this will
     publish your changes to the repository.
 
-    📓 
+    📓
     Once the publishing of the changes are complete you may go back to DevOps
     and see all the files you've placed in the project are now also stored in
     the repository including the original document, markdown file, and any
@@ -680,55 +680,54 @@ as a Web Page.
 
 ### Generate Word
 
-9. <input type="checkbox" />Type the following command into the terminal
-   window and then press **Enter**:
+Type the following command into the terminal window and then press **Enter**:
 
-   <i title="Copy Text" style="float:right;" class="fas fa-clipboard"
-   clip-elem="create-word"></i>
+<i title="Copy Text" style="float:right;" class="fas fa-clipboard"
+clip-elem="create-word"></i>
 
-    ```powershell
-    .\Create-Word.ps1
-    ```
-    {:id="create-word"}
+```powershell
+.\Create-Word.ps1
+```
+{:id="create-word"}
 
-    ![Create Word](images/new_word.png)
+![Create Word](images/new_word.png)
 
-    If you open the `Create-Word.ps1` file in the editor you can see what is
-    occurring.
+If you open the `Create-Word.ps1` file in the editor you can see what is
+occurring.
 
-    1. Creates a subdirectory **output** at the root of the project
-       _(`mkdir output`)_.
-    2. Moves into that subdirectory _(`cd output`)_.
-    3. Creates another subdirectory **Word** that will be used to place the
-       Microsoft Word resultant file within _(`mkdir Word`).
-    4. Goes back out to the root folder _(`cd..`)_.
-    5. Finally, runs a **pandoc** command line with arguments that will use
-       the **default-public.yaml** file parameters along with additional
-       parameters specific to generating a Word Document that will be placed in
-       the newly created subdirectories from the commands above  
-       _(`pandoc -d "default-public.yaml" -t docx -o "output/Word/Public.docx"`)_.
+1. Creates a subdirectory **output** at the root of the project
+   _(`mkdir output`)_.
+2. Moves into that subdirectory _(`cd output`)_.
+3. Creates another subdirectory **Word** that will be used to place the
+   Microsoft Word resultant file within _(`mkdir Word`).
+4. Goes back out to the root folder _(`cd..`)_.
+5. Finally, runs a **pandoc** command line with arguments that will use
+   the **default-public.yaml** file parameters along with additional
+   parameters specific to generating a Word Document that will be placed in
+   the newly created subdirectories from the commands above  
+   _(`pandoc -d "default-public.yaml" -t docx -o "output/Word/Public.docx"`)_.
 
-       <small>📓
-       _Notice that the file names are surrounded by double quotes._
-       _This is to make sure that the argument `-d` and `-o` being sent to the_
-       _pandoc engine as its associated values contained within those quotes._
-       _This is especially useful in case the subdirectories or file names_
-       _contain spaces and without those quotes the values being sent won't be_
-       _valid and the command would error._</small>
+   <small>📓
+   _Notice that the file names are surrounded by double quotes._
+   _This is to make sure that the argument `-d` and `-o` being sent to the_
+   _pandoc engine as its associated values contained within those quotes._
+   _This is especially useful in case the subdirectories or file names_
+   _contain spaces and without those quotes the values being sent won't be_
+   _valid and the command would error._</small>
 
-   You may open a File Explorer and navigate to the directory where the new
-   document was generated and open it from there. If you compare it to the
-   original document _(under the **original** directory)_ you should see
-   that the contents are almost identical except that in the new document it
-   used the metadata to creates a **Title**, **Author**, and a generated
-   **Table Of Contents** due to the parameters within the
-   **default-public.yaml** file.
+You may open a File Explorer and navigate to the directory where the new
+document was generated and open it from there. If you compare it to the
+original document _(under the **original** directory)_ you should see
+that the contents are almost identical except that in the new document it
+used the metadata to creates a **Title**, **Author**, and a generated
+**Table Of Contents** due to the parameters within the
+**default-public.yaml** file.
 
-   ![Compare Docs](images/word_compare.png)
+![Compare Docs](images/word_compare.png)
 
-   You can experiment with other options and
-   re-run the same PowerShell Script _(just ignore any errors that may come up
-   because those subdirectories were already created)_.
+You can experiment with other options and
+re-run the same PowerShell Script _(just ignore any errors that may come up
+because those subdirectories were already created)_.
 
 ### Generate HTML
 
