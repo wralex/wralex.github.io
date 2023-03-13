@@ -702,7 +702,7 @@ as a Web Page.
     3. Creates another subdirectory **Word** that will be used to place the
        Microsoft Word resultant file within _(`mkdir Word`).
     4. Goes back out to the root folder _(`cd..`)_.
-    5. Finally runs a **pandoc** command line with arguments that will use
+    5. Finally, runs a **pandoc** command line with arguments that will use
        the **default-public.yaml** file parameters along with additional
        parameters specific to generating a Word Document that will be placed in
        the newly created subdirectories from the commands above  
