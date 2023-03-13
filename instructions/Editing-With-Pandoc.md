@@ -679,11 +679,17 @@ as a Web Page.
    right of the `+` button and select **PowerShell**.</small>
 
 9. <input type="checkbox" />Type the following command into the terminal
-    window:
+    window and then press **Enter**:
+
+   <i title="Copy Text" style="float:right;" class="fas fa-clipboard"
+   clip-elem="create-word"></i>
 
     ```powershell
     .\Create-Word.ps1
     ```
+    {:id="create-word"}
+
+    ![Create Word](images/new_word.png)
 
     If you open the `Create-Word.ps1` file in the editor you can see what is
     occurring.
@@ -708,9 +714,42 @@ as a Web Page.
        _contain spaces and without those quotes the values being sent won't be_
        _valid and the command would error._</small>
 
-       You may open a File Explorer and navigate to the directory where the new
-       document was created and open it from there. If you compare it to the
-       original document you should see that the contents are almost identical.
+   You may open a File Explorer and navigate to the directory where the new
+   document was generated and open it from there. If you compare it to the
+   original document _(under the **original** directory)_ you should see
+   that the contents are almost identical except that in the new document it
+   used the metadata to creates a **Title**, **Author**, and a generated
+   **Table Of Contents** due to the parameters within the
+   **default-public.yaml** file. You can experiment with other options and
+   re-run the same PowerShell Script _(just ignore any errors that may come up
+   because those subdirectories were already created)_.
+
+   You can also generate the HTML version of this document by executing
+
+   <i title="Copy Text" style="float:right;" class="fas fa-clipboard"
+   clip-elem="create-html"></i>
+
+   ```powershell
+   .\Create-HTML.ps1
+   ```
+   {:id="create-html"}
+
+   ![Create HTML](images/create-html.png)
+
+   Ignore any warnings or errors that may come up on the screen. Again
+   you can navigate to the folder with your File Explorer and open up the HTML
+   document to see that the contents are now in an HTML format.
+
+   ![Web View](images/web_view.png){:height = "400px"}
+
+You may now commit and publish the project back to your repository and view the
+files within the repo to confirm that the main contents have been checked in.
+
+This should conclude the section to create the publication. You may edit and
+work with these files to get a better understanding of the conversion efforts.
+
+Thank You for visiting this tutorial and I hope you have success in editing
+in the future.
 
 [<img src="https://git-scm.com/images/logo@2x.png" height="15"/>]: https://git-scm.com/about "git --local-branching-on-the-cheap"
 [GIT Downloads]: https://git-scm.com/downloads "git --fast-version-control"
