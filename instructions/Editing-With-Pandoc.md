@@ -9,7 +9,8 @@ in just about any format, and make trackable changes within those document(s).
 In this page I make use of Markdown since it's become a standard for many
 technical writers today. I will also use a source management system to check
 in my edited files. For this page I use **Microsoft's Azure DevOps** for
-as a repository storage and building platform to create artifacts.
+as a repository storage, you may use other services such as GitHub, GitLab,
+Bitbucket, or other but the tools below are still recommended.
 
 1. [<img src="https://git-scm.com/images/logo@2x.png" height="15"/>]
    <span style="color: grey;">Version control _(BTW, full name is **Global information Tracker**)_</span>
@@ -45,20 +46,23 @@ the tutorial.
       1. <input type="checkbox" />Press and hold both the
          **`Windows Key(🪟)`** along with **`R`** on your keyboard.
 
-         <small>📓_This will open a **`Run`** dialog box requesting you to_
+         <small>📓
+         _This will open a **`Run`** dialog box requesting you to_
          _type a command into a text box._</small>
 
       2. <input type="checkbox" />Type
          **`cmd`**<i title="Copy Text" class="fas fa-clipboard" clip-text='cmd'></i>
          in the text box and press the **Enter** key.
 
-         <small>📓_This will open a new command window with a prompt._</small>
+         <small>📓
+         _This will open a new command window with a prompt._</small>
 
       3. <input type="checkbox" />Type
          **`git --version`**<i title="Copy Text" class="fas fa-clipboard" clip-text='git --version'></i>
          at the prompt and press the **Enter** key.
 
-         <small>📓_You should get a response showing the GIT version installed_
+         <small>📓
+         _You should get a response showing the GIT version installed_
          _on your workstation. If you did not get a version, or you received an_
          _error message, please install/re-install the GIT application and_
          _complete the above steps._</small>
@@ -69,7 +73,8 @@ the tutorial.
       _right of each)_ and **paste** each command shown below insideUpdates the command
       window:
 
-      <small>❗_If you have closed the command window please do the steps in_
+      <small>❗
+      _If you have closed the command window please do the steps in_
       _the previous task._</small>
 
       1. <input type="checkbox" />Set **Username**
@@ -81,7 +86,8 @@ the tutorial.
          git config --global user.name "[Your Name]"
          ```
 
-         <small>❗_Replace **`[Your Name]`** and press the **Enter** key_</small>
+         <small>❗
+         _Replace **`[Your Name]`** and press the **Enter** key_</small>
 
       2. <input type="checkbox" />Set **User Email Address**
 
@@ -92,7 +98,8 @@ the tutorial.
          git config --global user.email "[Your Email]"
          ```
 
-         <small>❗_Replace **`[Your Email]`** and press the **Enter** key_</small>
+         <small>❗
+         _Replace **`[Your Email]`** and press the **Enter** key_</small>
 
 2. **<u>VS Code</u>**
 
@@ -111,13 +118,15 @@ the tutorial.
    2. <input type="checkbox" />On the new web browser page, click the
       **`Install`** button.
 
-      <small>📓_VS Code should open up with the same web page displayed in a_
+      <small>📓
+      _VS Code should open up with the same web page displayed in a_
       _tab of the main window._</small>
 
    3. <input type="checkbox" />Click the
       **`Install`** button again on the page that is now displayed in VS Code.
 
-      <small>📓_This should now show that it's installing the additional_
+      <small>📓
+      _This should now show that it's installing the additional_
       _Markdown editing features. In a couple of minutes you can open the_
       _Extension Viewer to see the new features. Within the extensions view you_
       _may click each feature and read more details about each which may also_
@@ -150,20 +159,23 @@ the tutorial.
    1. <input type="checkbox" />Press and hold both the
       **`Windows Key(🪟)`** along with **`R`** on your keyboard.
 
-      <small>📓_This will open a **`Run`** dialog box requesting you to type a_
+      <small>📓
+      _This will open a **`Run`** dialog box requesting you to type a_
       _command into a text box._</small>
 
    2. <input type="checkbox" />Type
       **`cmd`**<i title='Copy Text' class='fas fa-clipboard' clip-text='cmd'></i>
       in the text box and press the `Enter` key.
 
-      <small>📓_This will open a new command window with a prompt._</small>
+      <small>📓
+      _This will open a new command window with a prompt._</small>
 
    3. <input type="checkbox" />Type
       **`pandoc --version`**<i title='Copy Text' class='fas fa-clipboard' clip-text='pandoc --version'></i>
       at the prompt and press the `Enter` key.
 
-      <small>📓_You should get a response showing the version of Pandoc installed on_
+      <small>📓
+      _You should get a response showing the version of Pandoc installed on_
       _your workstation. If you did not get a version, or you received an_
       _error message, please install/re-install Pandoc and_
       _complete the above steps._</small>
@@ -184,7 +196,8 @@ below.
 2. <input type="checkbox" />Open the link to the Repository created and click
    the `Clone in VS Code` button.
 
-   <small>📓_If the `Clone in VS Code` is not shown by default when this_
+   <small>📓
+   _If the `Clone in VS Code` is not shown by default when this_
    _screen is opened, click the dropdown icon on the right of the button and_
    _select it from the options._</small>
 
@@ -220,7 +233,8 @@ below.
 
    <div style="clear:left;"></div>
 
-   📓**NOTE: <mark>Please keep the
+   📓
+   **NOTE: <mark>Please keep the
    location of where you place the file on your workstation. It is needed for
    the next step.</mark>**
 
@@ -230,7 +244,8 @@ below.
 
    ![Click and Drag](images/click_drag.png)
 
-   📓 _Verify that the file is under the folder by collapsing the `original`
+   📓
+   _Verify that the file is under the folder by collapsing the `original`
    folder and seeing if the file isn't displayed. If it is still visible then
    the file is placed in the root of the project and will need to move. If it
    does require to be moved, you can also drag the file within the VS
@@ -257,11 +272,13 @@ below.
    ```
    {:id="convert-to-md"}
 
-   📓 _If you are in a subdirectory, like `...\orginal`, just type **`cd ..`**_
+   📓
+   _If you are in a subdirectory, like `...\orginal`, just type **`cd ..`**_
    _and press the **Enter** key to go up a directory level and type the above_
    _command._
 
-   📓 This will generate the new Markdown file _(**[Word Filename].md**)_ along
+   📓
+   This will generate the new Markdown file _(**[Word Filename].md**)_ along
    with any embedded images that it could pull out of the document and place
    them into a new directory called images.
 
@@ -281,7 +298,8 @@ below.
     changed to a **Sync Changes 1 ⬆️** button that you will click and this will
     publish your changes to the repository.
 
-    📓 Once the publishing of the changes are complete you may go back to DevOps
+    📓 
+    Once the publishing of the changes are complete you may go back to DevOps
     and see all the files you've placed in the project are now also stored in
     the repository including the original document, markdown file, and any
     images.
@@ -344,7 +362,8 @@ your development of Markdown files.
 
    ![Editing View](images/editing_view.png)
 
-   📓Please also note that the Icons have also moved to the left pane.
+   📓
+   Please also note that the Icons have also moved to the left pane.
    This is because they are used for editing the Markdown text file, not
    the Preview pane.
 
@@ -477,7 +496,8 @@ as a Web Page.
 
    <div style="clear:left;"></div>
 
-   📓**NOTE: <mark>Please keep the
+   📓
+   **NOTE: <mark>Please keep the
    location of where you place the file on your workstation. It is needed for
    the next step.</mark>**
 
@@ -609,22 +629,88 @@ as a Web Page.
      </li>
    </ul>
 
-   <small>❗**_<mark>Please note where these files are placed since they will
+   <small>❗
+   **_<mark>Please note where these files are placed since they will
    be used in the next couple of steps</mark>_**</small>
 
-6. <input type="checkbox" />Open a **Terminal** window in VS Code by holding down
+6. <input type="checkbox">Move the 3 files into the VS Code project at the root
+   level _(just like you did with the `default-public.yaml` file above)_.
+
+   ![Copy PS Files](images/copy_ps_files.png)
+
+   ![Copied PS Files](images/copied_ps_files.png)
+
+   The three files are:
+
+   1. **`.gitignore`** - This file is used by the GIT source control that allows
+      for folders and/or files to be ignored for commits and checking into repos.
+      For the purposes of this tutorial there's an output folder that will be
+      created where the resulting files are generated and since these are based
+      on the actual Markdown file there is no need for the resulting outputs to
+      be kept in source management. Normally those would be stored as an
+      artifact during the building and deployment. For our purposes we will be
+      building the outputs locally and will not need to check the results in.
+   2. **`Create-HTML.ps1`** - This is a PowerShell script file that has multiple
+      commands that will generate subfolders and then execute a command to
+      run the Pandoc process to convert the Markdown text file into a single
+      HTML file with images embedded within that HTML file. We'll execute and
+      see this output in a couple of steps below.
+   3. **`Create-Word.ps1`** - Just like the PowerShell script file above this
+      will generate a Microsoft Word document with similar results as the HTML
+      document. This should have a close to original output as the original
+      file used to begin with.
+
+7. <input type="checkbox" />Open a **Terminal** window in VS Code by holding down
    the **`Windows(🪟)`** and **<code>&grave;</code>** _(the key to the left of the_
    _1 key)_.
 
    <small>📓_You can also open this up by using the VS Code's menu navigation_
    **_View_** ➡️ **_Terminal_**</small>
 
-7. <input type="checkbox" />Make sure your'e at the root folder of your project
-   and type the following at the prompt:
+8. <input type="checkbox" />Make sure that the terminal window is using
+   PowerShell as its Terminal window. If you look to the top right section of
+   window it should look like
 
-   ```powershell
+   ![Terminal Options](images/terminal_options.png)
 
-   ```
+   <small>📓
+   Note the highlighted part of the image shows the current terminal
+   session. If PowerShell _(pwsh)_ isn't displayed then click on the down arrow
+   right of the `+` button and select **PowerShell**.</small>
+
+9. <input type="checkbox" />Type the following command into the terminal
+    window:
+
+    ```powershell
+    .\Create-Word.ps1
+    ```
+
+    If you open the `Create-Word.ps1` file in the editor you can see what is
+    occurring.
+
+    1. It creates a subdirectory **output** at the root of the project
+       _(`mkdir output`)_.
+    2. It moves into that subdirectory _(`cd output`)_.
+    3. it creates another subdirectory **Word** that will be used to place the
+       Microsoft Word resultant file within _(`mkdir Word`).
+    4. It goes back out to the root folder _(`cd..`)_.
+    5. It finally runs a **pandoc** command line with arguments that will use
+       the **default-public.yaml** file parameters along with additional
+       parameters specific to generating a Word Document that will be placed in
+       the newly created subdirectories from the commands above  
+       _(`pandoc -d "default-public.yaml" -t docx -o "output/Word/Public.docx"`)_.
+
+       <small>📓
+       _Notice that the file names are surrounded by double quotes._
+       _This is to make sure that the argument `-d` and `-o` being sent to the_
+       _pandoc engine as its associated values contained within those quotes._
+       _This is especially useful in case the subdirectories or file names_
+       _contain spaces and without those quotes the values being sent won't be_
+       _valid and the command would error._</small>
+
+       You may open a File Explorer and navigate to the directory where the new
+       document was created and open it from there. If you compare it to the
+       original document you should see that the contents are almost identical.
 
 [<img src="https://git-scm.com/images/logo@2x.png" height="15"/>]: https://git-scm.com/about "git --local-branching-on-the-cheap"
 [GIT Downloads]: https://git-scm.com/downloads "git --fast-version-control"
