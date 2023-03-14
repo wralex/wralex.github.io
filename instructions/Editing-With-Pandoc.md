@@ -194,7 +194,7 @@ below.
 4. <input type="checkbox" />The **Clone Repository** blade opens. Under the
    **IDE** _(**i**ntegrated **d**evelopment **e**nvironment)_ section is a list
    of applications that you can use to clone the repo locally. One of those
-   options is **VS Code**. Click on that title to begin the process of cloneing
+   options is **VS Code**. Click on that title to begin the process of cloning
    to your local workstation.
 
    ![Repo IDEs](images/clone_repo-Options.png)
@@ -307,8 +307,8 @@ below.
     ![Begin Commit](images/begin_commit.png)
 
 13. <input type="checkbox" />The **✔️ Commit** should have
-    changed to a **Sync Changes 1 ⬆️** button that you will click and this will
-    publish your changes to the repository.
+    changed to a **Sync Changes 1 ⬆️** button. Now click the **Sync Changes**
+    button and this will publish your changes to the repository.
 
     📓
     Once the publishing of the changes are complete you may go back to DevOps
