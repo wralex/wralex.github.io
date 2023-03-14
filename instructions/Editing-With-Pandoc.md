@@ -270,10 +270,11 @@ below.
     **_View_** ➡️ **_Terminal_**</small>
 
 11. <input type="checkbox" />Within the Terminal windows make sure you're at the
-    root directory of the project and type the following command _(the sample_
-    _document name is used in the command line but if you have an alternate_
-    _document name please replace **public** in both locations within the_
-    _command line)_ and press the **Enter** key:
+    root directory of the project and type the following command and press the
+    **Enter** key.  
+    <small>_(The sample document name is used in the command line but if you have an_
+    _alternate document name please replace **public** in both locations within_
+    _the command)._</small>
 
     <i title="Copy Text" style="float:right;" class="fas fa-clipboard"
     clip-elem="convert-to-md"></i>
