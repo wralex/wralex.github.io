@@ -248,7 +248,7 @@ below.
    location of where you place the file on your workstation. It is needed for
    the next step.</mark>**
 
-9.  <input type="checkbox" />Open File Explorer Window to where the
+9. <input type="checkbox" />Open File Explorer Window to where the
    document was downloaded, then click and hold down the mouse button
    and drag the file into the **`original`** folder within VS Code.
 
@@ -263,46 +263,47 @@ below.
    do so._
 
 10. <input type="checkbox" />While in VS Code window press and hold **`Ctrl`**
-   and **<code>&grave;</code>** _(the key to the left of the 1 key)_ for the
-   **Terminal** section to open up at the bottom.
+    and **<code>&grave;</code>** _(the key to the left of the 1 key)_ for the
+    **Terminal** section to open up at the bottom.
 
-   <small>📓_You can also open this up by using the app's menu navigation_
-   **_View_** ➡️ **_Terminal_**</small>
+    <small>📓_You can also open this up by using the app's menu navigation_
+    **_View_** ➡️ **_Terminal_**</small>
 
 11. <input type="checkbox" />Within the Terminal windows make sure you're at the
-   root directory of the project and type the following command _(replace_
-   _**[Word Filename]** with the actual file name of the document in both_
-   _locations)_ and press the **Enter** key:
+    root directory of the project and type the following command _(the sample_
+    _document name is used in the command line but if you have an alternate_
+    _document name please replace **public** in both locations within the_
+    _command line)_ and press the **Enter** key:
 
-   <i title="Copy Text" style="float:right;" class="fas fa-clipboard"
-   clip-elem="convert-to-md"></i>
+    <i title="Copy Text" style="float:right;" class="fas fa-clipboard"
+    clip-elem="convert-to-md"></i>
 
-   ```powershell
-   pandoc -s "original/[Word Filename].docx" -t markdown_mmd --extract-media=images -o "[Word Filename].md"
-   ```
-   {:id="convert-to-md"}
+    ```powershell
+    pandoc -s "original/public.docx" -t markdown_mmd --extract-media=images -o "public.md"
+    ```
+    {:id="convert-to-md"}
 
-   📓
-   _If you are in a subdirectory, like `...\orginal`, just type **`cd ..`**_
-   _and press the **Enter** key to go up a directory level and type the above_
-   _command._
+    📓
+    _If you are in a subdirectory, like `...\orginal`, just type **`cd ..`**_
+    _and press the **Enter** key to go up a directory level and type the above_
+    _command._
 
-   📓
-   This will generate the new Markdown file _(**[Word Filename].md**)_ along
-   with any embedded images that it could pull out of the document and place
-   them into a new directory called images.
+    📓
+    This will generate the new Markdown file _(**[Word Filename].md**)_ along
+    with any embedded images that it could pull out of the document and place
+    them into a new directory called images.
 
-   ![To Markdown](images/to_markdown.png)
+    ![To Markdown](images/to_markdown.png)
 
-   ![Converted to MD](images/convert_to_md.png)
+    ![Converted to MD](images/convert_to_md.png)
 
 12. <input type="checkbox" />Go to the **Source Control** icon on the left side
-   and in the text box, above the **✔️ Commit** button, enter
-   a statement such as `Initial with Converted` and then click on the
-   **✔️ Commit** button to commit the initial files _(this doesn't push it to_
-   _the repo yet, that's the next step)_😃.
+    and in the text box, above the **✔️ Commit** button, enter
+    a statement such as `Initial with Converted` and then click on the
+    **✔️ Commit** button to commit the initial files _(this doesn't push it to_
+    _the repo yet, that's the next step)_😃.
 
-   ![Begin Commit](images/begin_commit.png)
+    ![Begin Commit](images/begin_commit.png)
 
 13. <input type="checkbox" />The **✔️ Commit** should have
     changed to a **Sync Changes 1 ⬆️** button that you will click and this will
