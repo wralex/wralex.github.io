@@ -180,23 +180,46 @@ below.
 
    ![New Repo](images/new_repo.png)
 
-2. <input type="checkbox" />Open the link to the Repository created and click
-   the `Clone in VS Code` button.
+2. <input type="checkbox" />Open the link to the Repository _(not the Project,
+   but the URL that goes **directly to the File Repository**)_ created and open
+   it on your browser. _(the format of the URL should be something like:_  
+   _https://dev.azure.com/[the org]/[project name]/**\_git/[the repo name]**)_
 
-   <small>📓
-   _If the `Clone in VS Code` is not shown by default when this_
-   _screen is opened, click the dropdown icon on the right of the button and_
-   _select it from the options._</small>
+   ![Repo URL](images/repo_url.png)
 
-   ![Clone in VS Code](images/clone_repo.png)
+3. <input type="checkbox" />Click on the **Clone** button at the top right area
 
-3. <input type="checkbox" />VS Code will open automatically, and you will be
+   ![Clone Button](image/../images/clone_btn.png)
+
+4. <input type="checkbox" />The **Clone Repository** blade opens. Under the
+   **IDE** _(**i**ntegrated **d**evelopment **e**nvironment)_ section is a list
+   of applications that you can use to clone the repo locally. One of those
+   options is **VS Code**. Click on that title to begin the process of cloneing
+   to your local workstation.
+
+   ![Repo IDEs](images/clone_repo-Options.png)
+
+5. <input type="checkbox" />A folder dialog box will open on your workstation.
+   Navigate to a local folder on your workstation that you would prefer storing
+   the repo locally. You don't have to create a folder with the Repo name, this
+   will create a subdirectory under the folder you choose with the name of the
+   repo.
+
+   ![Select folder](images/select_directory.png)
+
+6. <input type="checkbox" />VS Code will open automatically, and you will be
    to provide credentials. Sign in with your account so that the repository is
    cloned locally to your workstation.
 
    ![DevOps Sign-in](images/devops_signin.png)
 
-4. <input type="checkbox" />Once the project opens up in VS Code move the mouse
+   In addition, you may also be asked to trust the author's of the file in the
+   folder. You can click the checkbox to **Trust the authors...** and then click
+   the **Yes, I trust the authors** button to start working on the project.
+
+   ![Trust Authors](images/trust_authors.png)
+
+7. <input type="checkbox" />Once the project opens up in VS Code move the mouse
    over the **Folder+** Icon _(to the right of the name of the Repo)_ and click
    the mouse button to create a folder named `original` _(or whatever you
    prefer to use as a name, but for this tutorial we will be using `original`)_.
@@ -205,7 +228,7 @@ below.
 
    ![New Folder](images/new_folder.png)
 
-5. <input type="checkbox" />For this tutorial download a sample Word Document
+8. <input type="checkbox" />For this tutorial download a sample Word Document
    file by clicking the following link:
 
    **Sample Word Document**
@@ -225,7 +248,7 @@ below.
    location of where you place the file on your workstation. It is needed for
    the next step.</mark>**
 
-6. <input type="checkbox" />Open File Explorer Window to where the
+9.  <input type="checkbox" />Open File Explorer Window to where the
    document was downloaded, then click and hold down the mouse button
    and drag the file into the **`original`** folder within VS Code.
 
@@ -239,14 +262,14 @@ below.
    Code file tree view. It will ask you to confirm it to be moved, please
    do so._
 
-7. <input type="checkbox" />While in VS Code window press and hold **`Ctrl`**
+10. <input type="checkbox" />While in VS Code window press and hold **`Ctrl`**
    and **<code>&grave;</code>** _(the key to the left of the 1 key)_ for the
    **Terminal** section to open up at the bottom.
 
    <small>📓_You can also open this up by using the app's menu navigation_
    **_View_** ➡️ **_Terminal_**</small>
 
-8. <input type="checkbox" />Within the Terminal windows make sure you're at the
+11. <input type="checkbox" />Within the Terminal windows make sure you're at the
    root directory of the project and type the following command _(replace_
    _**[Word Filename]** with the actual file name of the document in both_
    _locations)_ and press the **Enter** key:
@@ -273,7 +296,7 @@ below.
 
    ![Converted to MD](images/convert_to_md.png)
 
-9. <input type="checkbox" />Go to the **Source Control** icon on the left side
+12. <input type="checkbox" />Go to the **Source Control** icon on the left side
    and in the text box, above the **✔️ Commit** button, enter
    a statement such as `Initial with Converted` and then click on the
    **✔️ Commit** button to commit the initial files _(this doesn't push it to_
@@ -281,7 +304,7 @@ below.
 
    ![Begin Commit](images/begin_commit.png)
 
-10. <input type="checkbox" />The **✔️ Commit** should have
+13. <input type="checkbox" />The **✔️ Commit** should have
     changed to a **Sync Changes 1 ⬆️** button that you will click and this will
     publish your changes to the repository.
 
