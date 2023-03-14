@@ -12,31 +12,33 @@ in my edited files. For this page I use **Microsoft's Azure DevOps** for
 as a repository storage, you may use other services such as GitHub, GitLab,
 Bitbucket, or other but the tools below are still recommended.
 
-1. [<img src="https://git-scm.com/images/logo@2x.png" height="15"/>]
-   <span style="color: grey;">Version control _(BTW, full name is **Global information Tracker**)_</span>
-2. [<img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAYGBgYHBgcICAcKCwoLCg8ODAwODxYQERAREBYiFRkVFRkVIh4kHhweJB42KiYmKjY+NDI0PkxERExfWl98fKcBBgYGBgcGBwgIBwoLCgsKDw4MDA4PFhAREBEQFiIVGRUVGRUiHiQeHB4kHjYqJiYqNj40MjQ+TERETF9aX3x8p//CABEIAC4ALgMBIgACEQEDEQH/xAAaAAACAwEBAAAAAAAAAAAAAAAGBwAFCAME/9oACAEBAAAAANRyLAOZdMwVOqDSF6p56EDhDn4Khy1wa5DEBz7derT0gYrHP//EABgBAQADAQAAAAAAAAAAAAAAAAUCAwQG/9oACgICEAMQAAAA05UjFxIzpuTL4bv2gmwf/8QAMxAAAgEDAgMECAYDAAAAAAAAAQIDAAQFBhIRMVETIUFCByIjMlJhYsEQICRxdKElcoH/2gAIAQEAAT8A/HV2uhbdpYYqUGbvWa5Hk6rH9XU1p7NZKzg3w3L98jcQx3Kf3BrHa0tJQVvYzC4HvLxZD9xV16SbaPJdnBadrZKeDS8pG+pBVhkLPI2qXNpOskTeYeBHMMDyIrWWvVlEmOxEvs+U90vn6rH9PU0m+R44oo2eR2CoiDczE+AAoYq+xKR214qrMyCUoDu2B+QJ61urWWiQEuMnjFVQoMlxByHAc3T7io7u5ihuIYriVI502yqjEB16GsZh8llb+Oys41eRwTuZtqKo5s1aY0djcBH2i+3vGXhJcsP6QeVa1uf86f48dbq1nrqfOu9pbExY9W93k0xHmf7CsDpTUOWsZru3tv06LxiLna0x6RUk09tOrozxTRP3EcVdGX+wRWlfSHDc7LPLusc3JLnkj/7/AAmtdnhnj/GirdV7oHTV9mBk57Ql+O54QeEMj/E60AAAAAAAAAO4ACtY6KhzKPeWgWO/A/ZZgPB/n0NXEU9tPLBPE0csbFXRxwKkeBqyuZprWPtZWfZ6ibiTtReSj5Ct4/Jq3RtnqCDtE2w3yLwim8GHwSdRWkdIXmVilDXUUMUUpDkAu/8AwEAViNM4fFKewtw0hXg00nrua//EACYRAAIBAwMCBwEAAAAAAAAAAAECAwAEEQUhMSJBEiQyUWFz4cH/2gAIAQIBAT8AmtLiBUaSMqG4NWOncSzD5Cn+09ha3USsV3I2deas3eK1UXjrjYDxdvYGtWtrsx5hOY8dSjn9Faevkbb6xTyyOFDuSFGBk8VperGErDOSY+Fbuv5V5qtrZ9GC0mPSNq//xAAlEQACAgICAAUFAAAAAAAAAAABAgMEABEFMRIhMkHhQlFhc8H/2gAIAQMBAT8Agu1p3dI5QxXsZf5PuKBvwXH8xOQt1JWUMdA+aN1l1I5rTNSRtgEnw+/3Izh7VNZdTjUv0sevg5yLavWf2HEiijLFEVSx2dDvOW4dZw08AAk7Zeg3zlPiLd0l9hI9+snef//Z" height="15" /> Visual Studio Code]
+1. [![GIT Logo]{:height="15"}][GIT]{:target="_blank"}
+   <span style="color: grey;">version control
+   _(BTW, full name is **Global information Tracker**)_</span>
+2. [![VS Code Logo]{:height="15"}Visual Studio Code][VS Code]{:target="_blank"}
    <span style="color: grey;">_(a.k.a. **VS Code**)_ for editing the documents</span>
-3. [Pandoc]<span style="color: grey;"> a universal document converter</span>
+3. [Pandoc]{:target="_blank"}
+   <span style="color: grey;">a universal document converter</span>
 
 <small>📓
 _Within this document I created icons (<i class="fas fa-clipboard"></i>) on_
 _the right side of text areas that will allow you to place the text into your_
-_workstation clipboard. Please feel free to use them._</small>
+_workstation's clipboard. Please feel free to use them._</small>
 
 ## Tools
 
 ### Get the Tools
 
-   Download and install each of these 3 tools onto your workstation.
+Download and install each of these 3 tools onto your workstation.
 
-1. <input type="checkbox" />[<img src="https://git-scm.com/images/logo@2x.png" height="15"/>][GIT Downloads]{:target="_blank"}
-2. <input type="checkbox" />[<img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAYGBgYHBgcICAcKCwoLCg8ODAwODxYQERAREBYiFRkVFRkVIh4kHhweJB42KiYmKjY+NDI0PkxERExfWl98fKcBBgYGBgcGBwgIBwoLCgsKDw4MDA4PFhAREBEQFiIVGRUVGRUiHiQeHB4kHjYqJiYqNj40MjQ+TERETF9aX3x8p//CABEIAC4ALgMBIgACEQEDEQH/xAAaAAACAwEBAAAAAAAAAAAAAAAGBwAFCAME/9oACAEBAAAAANRyLAOZdMwVOqDSF6p56EDhDn4Khy1wa5DEBz7derT0gYrHP//EABgBAQADAQAAAAAAAAAAAAAAAAUCAwQG/9oACgICEAMQAAAA05UjFxIzpuTL4bv2gmwf/8QAMxAAAgEDAgMECAYDAAAAAAAAAQIDAAQFBhIRMVETIUFCByIjMlJhYsEQICRxdKElcoH/2gAIAQEAAT8A/HV2uhbdpYYqUGbvWa5Hk6rH9XU1p7NZKzg3w3L98jcQx3Kf3BrHa0tJQVvYzC4HvLxZD9xV16SbaPJdnBadrZKeDS8pG+pBVhkLPI2qXNpOskTeYeBHMMDyIrWWvVlEmOxEvs+U90vn6rH9PU0m+R44oo2eR2CoiDczE+AAoYq+xKR214qrMyCUoDu2B+QJ61urWWiQEuMnjFVQoMlxByHAc3T7io7u5ihuIYriVI502yqjEB16GsZh8llb+Oys41eRwTuZtqKo5s1aY0djcBH2i+3vGXhJcsP6QeVa1uf86f48dbq1nrqfOu9pbExY9W93k0xHmf7CsDpTUOWsZru3tv06LxiLna0x6RUk09tOrozxTRP3EcVdGX+wRWlfSHDc7LPLusc3JLnkj/7/AAmtdnhnj/GirdV7oHTV9mBk57Ql+O54QeEMj/E60AAAAAAAAAO4ACtY6KhzKPeWgWO/A/ZZgPB/n0NXEU9tPLBPE0csbFXRxwKkeBqyuZprWPtZWfZ6ibiTtReSj5Ct4/Jq3RtnqCDtE2w3yLwim8GHwSdRWkdIXmVilDXUUMUUpDkAu/8AwEAViNM4fFKewtw0hXg00nrua//EACYRAAIBAwMCBwEAAAAAAAAAAAECAwAEEQUhMSJBEiQyUWFz4cH/2gAIAQIBAT8AmtLiBUaSMqG4NWOncSzD5Cn+09ha3USsV3I2deas3eK1UXjrjYDxdvYGtWtrsx5hOY8dSjn9Faevkbb6xTyyOFDuSFGBk8VperGErDOSY+Fbuv5V5qtrZ9GC0mPSNq//xAAlEQACAgICAAUFAAAAAAAAAAABAgMEABEFMRIhMkHhQlFhc8H/2gAIAQMBAT8Agu1p3dI5QxXsZf5PuKBvwXH8xOQt1JWUMdA+aN1l1I5rTNSRtgEnw+/3Izh7VNZdTjUv0sevg5yLavWf2HEiijLFEVSx2dDvOW4dZw08AAk7Zeg3zlPiLd0l9hI9+snef//Z" height="15" /> Visual Studio Code]{:target="_blank"}
-3. <input type="checkbox" />[Pandoc][Install Pandoc]{:target="_blank"}
+1. <input type="checkbox" />[![GIT Logo]{:height="15"}][GIT Downloads]{:class="ui-button ui-widget ui-corner-all"}
+2. <input type="checkbox" />[![VS Code Logo]{:height="15"} Visual Studio Code][VS Code]{:class="ui-button ui-widget ui-corner-all"}
+3. <input type="checkbox" />[Pandoc][Install Pandoc]{:class="ui-button ui-widget ui-corner-all"}
 
 ### Configure the Tools
 
 After you've completed the installation of the 3 applications above, please
-proceed with these next steps to configure/confirm each service for the rest of
+proceed to configure and/or confirm each app for the rest of
 the tutorial.
 
 1. **<u>GIT</u>**
@@ -74,36 +76,28 @@ the tutorial.
 
       4. **<mark>Keep the command window open for the next task.</mark>**
 
-   2. **Copy** and **paste** each command shown below inside the command
-      window:
-
-      <small>❗
-      _If you have closed the command window please do the steps in_
-      _the previous task._</small>
+   2. **Copy** and **paste** the commands shown below and execute them within
+      a command window _(from previous task)_:
 
       1. <input type="checkbox" />Set **Username**
 
-         <i title="Copy Text" style="float:right;" class="fas fa-clipboard"
-         clip-text='git config --global user.name "[Your Name]"'></i>
+         <i title="Copy Text" style="float:right;" class="fas fa-clipboard" clip-text='git config --global user.name "[Your Name]"'></i>
 
          ```powershell
          git config --global user.name "[Your Name]"
          ```
 
-         <small>❗
-         _Replace **`[Your Name]`** and press the **Enter** key_</small>
+         <small>❗_Replace **`[Your Name]`** and press the **Enter** key_</small>
 
       2. <input type="checkbox" />Set **User Email Address**
 
-         <i title="Copy Text" style="float:right;" class="fas fa-clipboard"
-         clip-text='git config --global user.email "[Your Email]"'></i>
+         <i title="Copy Text" style="float:right;" class="fas fa-clipboard" clip-text='git config --global user.email "[Your Email]"'></i>
 
          ```powershell
          git config --global user.email "[Your Email]"
          ```
 
-         <small>❗
-         _Replace **`[Your Email]`** and press the **Enter** key_</small>
+         <small>❗_Replace **`[Your Email]`** and press the **Enter** key_</small>
 
 2. **<u>VS Code</u>**
 
@@ -115,9 +109,7 @@ the tutorial.
    1. <input type="checkbox" />Open a browser window by clicking on the
       following button.
 
-        <button onclick="window.open('https://marketplace.visualstudio.com/items?itemName=bat67.markdown-extension-pack', '_blank');">
-          <img height="15" src="https://bat67.gallerycdn.vsassets.io/extensions/bat67/markdown-extension-pack/0.7.0/1614239921497/Microsoft.VisualStudio.Services.Icons.Default" />
-          Markdown Extensions Pack</button>
+      [![Markdown Extensions Pack Logo]{:height="15"} Markdown Extensions Pack][Markdown Extensions Pack]{:class="ui-button ui-widget ui-corner-all"}
 
    2. <input type="checkbox" />On the new web browser page, click the
       **`Install`** button.
@@ -139,19 +131,10 @@ the tutorial.
    4. <input type="checkbox" />Install the following VS Code features by
       clicking the buttons below and follow the methods as in the previous steps.
 
-      <ul>
-        <li><button style="width:200px;text-align:left;" onclick="window.open('https://marketplace.visualstudio.com/items?itemName=bierner.github-markdown-preview', '_blank');">
-          <img height="15" src="https://bierner.gallerycdn.vsassets.io/extensions/bierner/github-markdown-preview/0.3.0/1651533762167/Microsoft.VisualStudio.Services.Icons.Default" />
-          GitHub Markdown Preview</button></li>
-        <li><button style="width:200px;text-align:left;" onclick="window.open('https://marketplace.visualstudio.com/items?itemName=valentjn.vscode-ltex', '_blank');">
-          <img height="15" src="https://znck.gallerycdn.vsassets.io/extensions/znck/grammarly/0.23.12/1675361647811/Microsoft.VisualStudio.Services.Icons.Default" />LTeX–Grammar & Spell Checking</button></li>
-        <li><button style="width:200px;text-align:left;" onclick="window.open('https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-node-azure-pack', '_blank');">
-          <img height="15" src="https://ms-vscode.gallerycdn.vsassets.io/extensions/ms-vscode/vscode-node-azure-pack/1.1.1/1667846329462/Microsoft.VisualStudio.Services.Icons.Default" />
-          Azure Tools</button></li>
-        <li><button style="width:200px;text-align:left;" onclick="window.open('https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode', '_blank');">
-          <img height="15" src="https://esbenp.gallerycdn.vsassets.io/extensions/esbenp/prettier-vscode/9.10.4/1673460374911/Microsoft.VisualStudio.Services.Icons.Default" />
-          Prettier</button></li>
-      </ul>
+      - [![GitHub Markdown Preview Logo]{:height="15"} GitHub Markdown Preview][GitHub Markdown Preview]{:class="ui-button ui-widget ui-corner-all"}
+      - [![LTeX–Grammar & Spell Checking Logo]{:height="15"} LTeX–Grammar & Spell Checking][LTeX–Grammar & Spell Checking]{:class="ui-button ui-widget ui-corner-all"}
+      - [![Azure Tools Logo]{:height="15"} Azure Tools][Azure Tools]{:class="ui-button ui-widget ui-corner-all"}
+      - [![Prettier Logo]{:height="15"} Prettier][Prettier]{:class="ui-button ui-widget ui-corner-all"}
 
 3. **<u>Pandoc</u>**
 
@@ -762,9 +745,21 @@ work with these files to get a better understanding of the conversion efforts.
 Thank You for visiting this tutorial and I hope you have success in editing
 in the future.
 
-[<img src="https://git-scm.com/images/logo@2x.png" height="15"/>]: https://git-scm.com/about "git --local-branching-on-the-cheap"
+[GIT]: https://git-scm.com/about "git --local-branching-on-the-cheap"
 [GIT Downloads]: https://git-scm.com/downloads "git --fast-version-control"
-[<img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAYGBgYHBgcICAcKCwoLCg8ODAwODxYQERAREBYiFRkVFRkVIh4kHhweJB42KiYmKjY+NDI0PkxERExfWl98fKcBBgYGBgcGBwgIBwoLCgsKDw4MDA4PFhAREBEQFiIVGRUVGRUiHiQeHB4kHjYqJiYqNj40MjQ+TERETF9aX3x8p//CABEIAC4ALgMBIgACEQEDEQH/xAAaAAACAwEBAAAAAAAAAAAAAAAGBwAFCAME/9oACAEBAAAAANRyLAOZdMwVOqDSF6p56EDhDn4Khy1wa5DEBz7derT0gYrHP//EABgBAQADAQAAAAAAAAAAAAAAAAUCAwQG/9oACgICEAMQAAAA05UjFxIzpuTL4bv2gmwf/8QAMxAAAgEDAgMECAYDAAAAAAAAAQIDAAQFBhIRMVETIUFCByIjMlJhYsEQICRxdKElcoH/2gAIAQEAAT8A/HV2uhbdpYYqUGbvWa5Hk6rH9XU1p7NZKzg3w3L98jcQx3Kf3BrHa0tJQVvYzC4HvLxZD9xV16SbaPJdnBadrZKeDS8pG+pBVhkLPI2qXNpOskTeYeBHMMDyIrWWvVlEmOxEvs+U90vn6rH9PU0m+R44oo2eR2CoiDczE+AAoYq+xKR214qrMyCUoDu2B+QJ61urWWiQEuMnjFVQoMlxByHAc3T7io7u5ihuIYriVI502yqjEB16GsZh8llb+Oys41eRwTuZtqKo5s1aY0djcBH2i+3vGXhJcsP6QeVa1uf86f48dbq1nrqfOu9pbExY9W93k0xHmf7CsDpTUOWsZru3tv06LxiLna0x6RUk09tOrozxTRP3EcVdGX+wRWlfSHDc7LPLusc3JLnkj/7/AAmtdnhnj/GirdV7oHTV9mBk57Ql+O54QeEMj/E60AAAAAAAAAO4ACtY6KhzKPeWgWO/A/ZZgPB/n0NXEU9tPLBPE0csbFXRxwKkeBqyuZprWPtZWfZ6ibiTtReSj5Ct4/Jq3RtnqCDtE2w3yLwim8GHwSdRWkdIXmVilDXUUMUUpDkAu/8AwEAViNM4fFKewtw0hXg00nrua//EACYRAAIBAwMCBwEAAAAAAAAAAAECAwAEEQUhMSJBEiQyUWFz4cH/2gAIAQIBAT8AmtLiBUaSMqG4NWOncSzD5Cn+09ha3USsV3I2deas3eK1UXjrjYDxdvYGtWtrsx5hOY8dSjn9Faevkbb6xTyyOFDuSFGBk8VperGErDOSY+Fbuv5V5qtrZ9GC0mPSNq//xAAlEQACAgICAAUFAAAAAAAAAAABAgMEABEFMRIhMkHhQlFhc8H/2gAIAQMBAT8Agu1p3dI5QxXsZf5PuKBvwXH8xOQt1JWUMdA+aN1l1I5rTNSRtgEnw+/3Izh7VNZdTjUv0sevg5yLavWf2HEiijLFEVSx2dDvOW4dZw08AAk7Zeg3zlPiLd0l9hI9+snef//Z" height="15" /> Visual Studio Code]: https://code.visualstudio.com "Microsoft's Visual Studio Code"
+[VS Code]: https://code.visualstudio.com "Microsoft's Visual Studio Code"
 [Pandoc]: https://pandoc.org "Pandoc, a universal document converter"
 [Install Pandoc]: https://pandoc.org/installing.html "Download and install Pandoc"
 [Pandoc's User Guide relating to Markdown]: https://pandoc.org/MANUAL.html#pandocs-markdown
+[GIT Logo]: https://git-scm.com/images/logo@2x.png
+[VS Code Logo]: data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAYGBgYHBgcICAcKCwoLCg8ODAwODxYQERAREBYiFRkVFRkVIh4kHhweJB42KiYmKjY+NDI0PkxERExfWl98fKcBBgYGBgcGBwgIBwoLCgsKDw4MDA4PFhAREBEQFiIVGRUVGRUiHiQeHB4kHjYqJiYqNj40MjQ+TERETF9aX3x8p//CABEIAC4ALgMBIgACEQEDEQH/xAAaAAACAwEBAAAAAAAAAAAAAAAGBwAFCAME/9oACAEBAAAAANRyLAOZdMwVOqDSF6p56EDhDn4Khy1wa5DEBz7derT0gYrHP//EABgBAQADAQAAAAAAAAAAAAAAAAUCAwQG/9oACgICEAMQAAAA05UjFxIzpuTL4bv2gmwf/8QAMxAAAgEDAgMECAYDAAAAAAAAAQIDAAQFBhIRMVETIUFCByIjMlJhYsEQICRxdKElcoH/2gAIAQEAAT8A/HV2uhbdpYYqUGbvWa5Hk6rH9XU1p7NZKzg3w3L98jcQx3Kf3BrHa0tJQVvYzC4HvLxZD9xV16SbaPJdnBadrZKeDS8pG+pBVhkLPI2qXNpOskTeYeBHMMDyIrWWvVlEmOxEvs+U90vn6rH9PU0m+R44oo2eR2CoiDczE+AAoYq+xKR214qrMyCUoDu2B+QJ61urWWiQEuMnjFVQoMlxByHAc3T7io7u5ihuIYriVI502yqjEB16GsZh8llb+Oys41eRwTuZtqKo5s1aY0djcBH2i+3vGXhJcsP6QeVa1uf86f48dbq1nrqfOu9pbExY9W93k0xHmf7CsDpTUOWsZru3tv06LxiLna0x6RUk09tOrozxTRP3EcVdGX+wRWlfSHDc7LPLusc3JLnkj/7/AAmtdnhnj/GirdV7oHTV9mBk57Ql+O54QeEMj/E60AAAAAAAAAO4ACtY6KhzKPeWgWO/A/ZZgPB/n0NXEU9tPLBPE0csbFXRxwKkeBqyuZprWPtZWfZ6ibiTtReSj5Ct4/Jq3RtnqCDtE2w3yLwim8GHwSdRWkdIXmVilDXUUMUUpDkAu/8AwEAViNM4fFKewtw0hXg00nrua//EACYRAAIBAwMCBwEAAAAAAAAAAAECAwAEEQUhMSJBEiQyUWFz4cH/2gAIAQIBAT8AmtLiBUaSMqG4NWOncSzD5Cn+09ha3USsV3I2deas3eK1UXjrjYDxdvYGtWtrsx5hOY8dSjn9Faevkbb6xTyyOFDuSFGBk8VperGErDOSY+Fbuv5V5qtrZ9GC0mPSNq//xAAlEQACAgICAAUFAAAAAAAAAAABAgMEABEFMRIhMkHhQlFhc8H/2gAIAQMBAT8Agu1p3dI5QxXsZf5PuKBvwXH8xOQt1JWUMdA+aN1l1I5rTNSRtgEnw+/3Izh7VNZdTjUv0sevg5yLavWf2HEiijLFEVSx2dDvOW4dZw08AAk7Zeg3zlPiLd0l9hI9+snef//Z
+[Markdown Extensions Pack Logo]: https://bat67.gallerycdn.vsassets.io/extensions/bat67/markdown-extension-pack/0.7.0/1614239921497/Microsoft.VisualStudio.Services.Icons.Default
+[Markdown Extensions Pack]: https://marketplace.visualstudio.com/items?itemName=bat67.markdown-extension-pack
+[GitHub Markdown Preview]: https://marketplace.visualstudio.com/items?itemName=bierner.github-markdown-preview
+[GitHub Markdown Preview Logo]: https://bierner.gallerycdn.vsassets.io/extensions/bierner/github-markdown-preview/0.3.0/1651533762167/Microsoft.VisualStudio.Services.Icons.Default
+[LTeX–Grammar & Spell Checking Logo]: https://znck.gallerycdn.vsassets.io/extensions/znck/grammarly/0.23.12/1675361647811/Microsoft.VisualStudio.Services.Icons.Default
+[LTeX–Grammar & Spell Checking]: https://marketplace.visualstudio.com/items?itemName=valentjn.vscode-ltex
+[Azure Tools Logo]: https://ms-vscode.gallerycdn.vsassets.io/extensions/ms-vscode/vscode-node-azure-pack/1.1.1/1667846329462/Microsoft.VisualStudio.Services.Icons.Default
+[Azure Tools]: https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-node-azure-pack
+[Prettier Logo]: https://esbenp.gallerycdn.vsassets.io/extensions/esbenp/prettier-vscode/9.10.4/1673460374911/Microsoft.VisualStudio.Services.Icons.Default
+[Prettier]: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
