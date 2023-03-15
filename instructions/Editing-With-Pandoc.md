@@ -327,10 +327,10 @@ the tutorial.
     ![Pull and Push Commit](images/pull_and_push_commits.png)
 
     You may also have the following appear where VS Code can try and keep in
-    sync to the remote repository where it will periodically go out and do a
-    fetch call to see if there have been any changes since the last time you've
+    sync to the remote repository where it will periodically will go out and do
+    a fetch call to see if have been changes since the last time you've
     synchronized your local cloned repo to the remote repo. It might help to
-    click the **Yes** button so that your local is kept up to date regularly.
+    click the **Yes** button to keep it up to date.
 
     ![Periodic Fetch](images/periodic_fetch.png)
 
