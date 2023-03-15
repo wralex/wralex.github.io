@@ -15,10 +15,10 @@ Bitbucket, or other but the tools below are still recommended.
 1. [![GIT Logo]{:height="15"}][GIT]{:target="_blank"}
    <span style="color: grey;">version control
    _(BTW, full name is **Global information Tracker**)_</span>
-2. [![VS Code Logo]{:height="15"}Visual Studio Code][VS Code]{:target="_blank"}
-   <span style="color: grey;">_(a.k.a. **VS Code**)_ for editing the documents</span>
-3. [Pandoc]{:target="_blank"}
+2. [Pandoc]{:target="_blank"}
    <span style="color: grey;">a universal document converter</span>
+3. [![VS Code Logo]{:height="15"}Visual Studio Code][VS Code]{:target="_blank"}
+   <span style="color: grey;">_(a.k.a. **VS Code**)_ for editing the documents</span>
 
 <small>📓
 _Within this document I created icons (<i class="fas fa-clipboard"></i>) on_
@@ -171,21 +171,23 @@ the tutorial.
 
 ## Create a New Repo and Populate
 
-If this is a new Repository that will be used please start here, otherwise skip
-this section and begin with [Modifying a Document](#modifying-a-document)
-below.
-
-1. <input type="checkbox" />Have a DevOps Project Administrator create a new
-   Repository for the document.
-
-   ![New Repo](images/new_repo.png)
-
-2. <input type="checkbox" />Open the link to the Repository _(not the Project,
-   but the URL that goes **directly to the File Repository**)_ created and open
-   it on your browser. _(the format of the URL should be something like:_  
-   _https://dev.azure.com/[the org]/[project name]/**\_git/[the repo name]**)_
+1. <input type="checkbox" />Contact a DevOps Project Administrator to create a
+   repository that is to be used for storing your work. Also request
+   that they send you back the **full URL of the repository**, not the Project
+   URL.  
+   The admin should respond back with the URL that looks similar to
+   **`https:/dev.azure.com/.../_git/[a repo name]`**.  
+   <small>_(The `...` represents_
+   _the name of the organization and project, then `/_git/` followed by the_
+   _name of the repo represented as **`[a repo name]`** above)_.</small>
 
    ![Repo URL](images/repo_url.png)
+
+   <sub><small>_**(Example of how the URL should look)**_</small></sub>
+
+2. <input type="checkbox" />Open the link to the repository _(see above)_
+   in your web browser. _(You may need to sign in with your organization_
+   _account)_
 
 3. <input type="checkbox" />Click on the **Clone** button at the top right area
 
@@ -306,9 +308,31 @@ below.
 
     ![Begin Commit](images/begin_commit.png)
 
+    You may receive a request **stage changes to commit**. To make it simpler
+    for this and future requests I recommend clicking the **Always** button to
+    not have this message appear in future commits. Otherwise, you can click the
+    **Yes** button for the changes to be staged and then committed.
+
+    ![Stage Commits](images/stage_all_commits.png)
+
 13. <input type="checkbox" />The **✔️ Commit** should have
-    changed to a **Sync Changes 1 ⬆️** button. Now click the **Sync Changes**
+    changed to a **Sync Changes 1 ⬆️** button. Click the **Sync Changes**
     button and this will publish your changes to the repository.
+
+    You may receive the following dialog box after clicking the Sync button. To
+    remove future dialog boxes from coming up in the future you may want to
+    click the **OK, Don't Show Again** button, otherwise you can click the
+    **OK** button, understanding that this message will pop up at later times.
+
+    ![Pull and Push Commit](images/pull_and_push_commits.png)
+
+    You may also have the following appear where VS Code can try and keep in
+    sync to the remote repository where it will periodically go out and do a
+    fetch call to see if there have been any changes since the last time you've
+    synchronized your local cloned repo to the remote repo. It might help to
+    click the **Yes** button so that your local is kept up to date regularly.
+
+    ![Periodic Fetch](images/periodic_fetch.png)
 
     📓
     Once the publishing of the changes are complete you may go back to DevOps
