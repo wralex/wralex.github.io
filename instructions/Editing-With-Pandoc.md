@@ -1,5 +1,5 @@
 ---
-title: Editing with Pandoc
+title: Editing with VS Code and Pandoc
 layout: page
 ---
 ## Description
