@@ -32,8 +32,8 @@ _workstation's clipboard. Please feel free to use them._</small>
 Download and install each of these 3 tools onto your workstation.
 
 1. <input type="checkbox" />[![GIT Logo]{:height="15"}][GIT Downloads]{:class="ui-button ui-widget ui-corner-all"}
-2. <input type="checkbox" />[![VS Code Logo]{:height="15"} Visual Studio Code][VS Code]{:class="ui-button ui-widget ui-corner-all"}
-3. <input type="checkbox" />[Pandoc][Install Pandoc]{:class="ui-button ui-widget ui-corner-all"}
+2. <input type="checkbox" />[Pandoc][Install Pandoc]{:class="ui-button ui-widget ui-corner-all"}
+3. <input type="checkbox" />[![VS Code Logo]{:height="15"} Visual Studio Code][VS Code]{:class="ui-button ui-widget ui-corner-all"}
 
 ### Configure the Tools
 
