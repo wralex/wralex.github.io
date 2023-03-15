@@ -31,9 +31,9 @@ _workstation's clipboard. Please feel free to use them._</small>
 
 Download and install each of these 3 tools onto your workstation.
 
-1. <input type="checkbox" />[![GIT Logo]{:height="15"}][GIT Downloads]{:class="ui-button ui-widget ui-corner-all"}
-2. <input type="checkbox" />[Pandoc][Install Pandoc]{:class="ui-button ui-widget ui-corner-all"}
-3. <input type="checkbox" />[![VS Code Logo]{:height="15"} Visual Studio Code][VS Code]{:class="ui-button ui-widget ui-corner-all"}
+1. <input type="checkbox" class="box" id="install_git" />[![GIT Logo]{:height="15"}][GIT Downloads]{:class="ui-button ui-widget ui-corner-all"}
+2. <input type="checkbox" class="box" id="install_pandoc" />[Pandoc][Install Pandoc]{:class="ui-button ui-widget ui-corner-all"}
+3. <input type="checkbox" class="box" id="install_vscode" />[![VS Code Logo]{:height="15"} Visual Studio Code][VS Code]{:class="ui-button ui-widget ui-corner-all"}
 
 ### Configure the Tools
 
@@ -50,21 +50,21 @@ the tutorial.
 
    1. Verify that you have installed **GIT** on your workstation by completing
       the following steps:  
-      1. <input type="checkbox" />Press and hold both the
+      1. <input type="checkbox" class="box" id="git_step1" />Press and hold both the
          **`Windows Key(🪟)`** along with **`R`** on your keyboard.
 
          <small>📓
          _This will open a **`Run`** dialog box requesting you to_
          _type a command into a text box._</small>
 
-      2. <input type="checkbox" />Type
+      2. <input type="checkbox" class="box" id="git_step2" />Type
          **`cmd`**<i title="Copy Text" class="fas fa-clipboard" clip-text='cmd'></i>
          in the text box and press the **Enter** key.
 
          <small>📓
          _This will open a new command window with a prompt._</small>
 
-      3. <input type="checkbox" />Type
+      3. <input type="checkbox" class="box" id="git_step3" />Type
          **`git --version`**<i title="Copy Text" class="fas fa-clipboard" clip-text='git --version'></i>
          at the prompt and press the **Enter** key.
 
@@ -79,7 +79,7 @@ the tutorial.
    2. **Copy** and **paste** the commands shown below and execute them within
       a command window _(from previous task)_:
 
-      1. <input type="checkbox" />Set **Username**
+      1. <input type="checkbox" class="box" id="git_step4" />Set **Username**
 
          <i title="Copy Text" style="float:right;" class="fas fa-clipboard" clip-text='git config --global user.name "[Your Name]"'></i>
 
@@ -89,7 +89,7 @@ the tutorial.
 
          <small>❗_Replace **`[Your Name]`** and press the **Enter** key_</small>
 
-      2. <input type="checkbox" />Set **User Email Address**
+      2. <input type="checkbox" class="box" id="git_step5" />Set **User Email Address**
 
          <i title="Copy Text" style="float:right;" class="fas fa-clipboard" clip-text='git config --global user.email "[Your Email]"'></i>
 
@@ -106,21 +106,21 @@ the tutorial.
    _kept the command window up from the **<u>GIT</u>** configuration, then you_
    _can use the same command window and skip to step #3 below._
 
-   1. <input type="checkbox" />Press and hold both the
+   1. <input type="checkbox" class="box" id="pandoc_step1" />Press and hold both the
       **`Windows Key(🪟)`** along with **`R`** on your keyboard.
 
       <small>📓
       _This will open a **`Run`** dialog box requesting you to type a_
       _command into a text box._</small>
 
-   2. <input type="checkbox" />Type
+   2. <input type="checkbox" class="box" id="pandoc_step2" />Type
       **`cmd`**<i title='Copy Text' class='fas fa-clipboard' clip-text='cmd'></i>
       in the text box and press the `Enter` key.
 
       <small>📓
       _This will open a new command window with a prompt._</small>
 
-   3. <input type="checkbox" />Type
+   3. <input type="checkbox" class="box" id="pandoc_step3" />Type
       **`pandoc --version`**<i title='Copy Text' class='fas fa-clipboard' clip-text='pandoc --version'></i>
       at the prompt and press the `Enter` key.
 
@@ -130,7 +130,7 @@ the tutorial.
       _error message, please install/re-install Pandoc and_
       _complete the above steps._</small>
 
-   4. <input type="checkbox" />You may now close the command window.
+   4. <input type="checkbox" class="box" id="pandoc_step4" />You may now close the command window.
 
 3. **<u>VS Code</u>**
 
@@ -139,19 +139,19 @@ the tutorial.
    advanced markdown editing such as support of formulas, images, checkboxes,
    tables, emojis, and more.
 
-   1. <input type="checkbox" />Open a browser window by clicking on the
+   1. <input type="checkbox" class="box" id="vscode_step1" />Open a browser window by clicking on the
       following button.
 
       [![Markdown Extensions Pack Logo]{:height="15"} Markdown Extensions Pack][Markdown Extensions Pack]{:class="ui-button ui-widget ui-corner-all"}
 
-   2. <input type="checkbox" />On the new web browser page, click the
+   2. <input type="checkbox" class="box" id="vscode_step2" />On the new web browser page, click the
       **`Install`** button.
 
       <small>📓
       _VS Code should open up with the same web page displayed in a_
       _tab of the main window._</small>
 
-   3. <input type="checkbox" />Click the
+   3. <input type="checkbox" class="box" id="vscode_step3" />Click the
       **`Install`** button again on the page that is now displayed in VS Code.
 
       <small>📓
@@ -161,7 +161,7 @@ the tutorial.
       _may click each feature and read more details about each which may also_
       _provide how best to use each._</small>
 
-   4. <input type="checkbox" />Install the following VS Code features by
+   4. <input type="checkbox" class="box" id="vscode_step4" />Install the following VS Code features by
       clicking the buttons below and follow the methods as in the previous steps.
 
       - [![GitHub Markdown Preview Logo]{:height="15"} GitHub Markdown Preview][GitHub Markdown Preview]{:class="ui-button ui-widget ui-corner-all"}
@@ -171,7 +171,7 @@ the tutorial.
 
 ## Create a New Repo and Populate
 
-1. <input type="checkbox" />Contact a DevOps Project Administrator to create a
+1. <input type="checkbox" class="box" id="repo_step1" />Contact a DevOps Project Administrator to create a
    repository that is to be used for storing your work. Also request
    that they send you back the **full URL of the repository**, not the Project
    URL.  
@@ -185,15 +185,15 @@ the tutorial.
 
    <sub><small>_**(Example of how the URL should look)**_</small></sub>
 
-2. <input type="checkbox" />Open the link to the repository _(see above)_
+2. <input type="checkbox" class="box" id="repo_step2" />Open the link to the repository _(see above)_
    in your web browser. _(You may need to sign in with your organization_
    _account)_
 
-3. <input type="checkbox" />Click on the **Clone** button at the top right area
+3. <input type="checkbox" class="box" id="repo_step3" />Click on the **Clone** button at the top right area
 
    ![Clone Button](image/../images/clone_btn.png)
 
-4. <input type="checkbox" />The **Clone Repository** blade opens. Under the
+4. <input type="checkbox" class="box" id="repo_step4" />The **Clone Repository** blade opens. Under the
    **IDE** _(**i**ntegrated **d**evelopment **e**nvironment)_ section is a list
    of applications that you can use to clone the repo locally. One of those
    options is **VS Code**. Click on that title to begin the process of cloning
@@ -201,7 +201,7 @@ the tutorial.
 
    ![Repo IDEs](images/clone_repo-Options.png)
 
-5. <input type="checkbox" />A folder dialog box will open on your workstation.
+5. <input type="checkbox" class="box" id="repo_step5" />A folder dialog box will open on your workstation.
    Navigate to a local folder on your workstation that you would prefer storing
    the repo locally. You don't have to create a folder with the Repo name, this
    will create a subdirectory under the folder you choose with the name of the
@@ -209,7 +209,7 @@ the tutorial.
 
    ![Select folder](images/select_directory.png)
 
-6. <input type="checkbox" />VS Code will open automatically, and you will be
+6. <input type="checkbox" class="box" id="repo_step6" />VS Code will open automatically, and you will be
    to provide credentials. Sign in with your account so that the repository is
    cloned locally to your workstation.
 
@@ -221,7 +221,7 @@ the tutorial.
 
    ![Trust Authors](images/trust_authors.png)
 
-7. <input type="checkbox" />Once the project opens up in VS Code move the mouse
+7. <input type="checkbox" class="box" id="repo_step7" />Once the project opens up in VS Code move the mouse
    over the **Folder+** Icon _(to the right of the name of the Repo)_ and click
    the mouse button to create a folder named `original` _(or whatever you
    prefer to use as a name, but for this tutorial we will be using `original`)_.
@@ -230,7 +230,7 @@ the tutorial.
 
    ![New Folder](images/new_folder.png)
 
-8. <input type="checkbox" />For this tutorial download a sample Word Document
+8. <input type="checkbox" class="box" id="repo_step8" />For this tutorial download a sample Word Document
    file by clicking the following link:
 
    **Sample Word Document**
@@ -250,7 +250,7 @@ the tutorial.
    location of where you place the file on your workstation. It is needed for
    the next step.</mark>**
 
-9. <input type="checkbox" />Open File Explorer Window to where the
+9. <input type="checkbox" class="box" id="repo_step9" />Open File Explorer Window to where the
    document was downloaded, then click and hold down the mouse button
    and drag the file into the **`original`** folder within VS Code.
 
@@ -264,14 +264,14 @@ the tutorial.
    Code file tree view. It will ask you to confirm it to be moved, please
    do so._
 
-10. <input type="checkbox" />While in VS Code window press and hold **`Ctrl`**
+10. <input type="checkbox" class="box" id="repo_step10" />While in VS Code window press and hold **`Ctrl`**
     and **<code>&grave;</code>** _(the key to the left of the 1 key)_ for the
     **Terminal** section to open up at the bottom.
 
     <small>📓_You can also open this up by using the app's menu navigation_
     **_View_** ➡️ **_Terminal_**</small>
 
-11. <input type="checkbox" />Within the Terminal windows make sure you're at the
+11. <input type="checkbox" class="box" id="repo_step11" />Within the Terminal windows make sure you're at the
     root directory of the project and type the following command and press the
     **Enter** key.  
     <small>_(The sample document name is used in the command line but if you have an_
@@ -300,7 +300,7 @@ the tutorial.
 
     ![Converted to MD](images/convert_to_md.png)
 
-12. <input type="checkbox" />Go to the **Source Control** icon on the left side
+12. <input type="checkbox" class="box" id="repo_step12" />Go to the **Source Control** icon on the left side
     and in the text box, above the **✔️ Commit** button, enter
     a statement such as `Initial with Converted` and then click on the
     **✔️ Commit** button to commit the initial files _(this doesn't push it to_
@@ -315,7 +315,7 @@ the tutorial.
 
     ![Stage Commits](images/stage_all_commits.png)
 
-13. <input type="checkbox" />The **✔️ Commit** should have
+13. <input type="checkbox" class="box" id="repo_step13" />The **✔️ Commit** should have
     changed to a **Sync Changes 1 ⬆️** button. Click the **Sync Changes**
     button and this will publish your changes to the repository.
 
@@ -380,12 +380,12 @@ drag-and-drop of items, image tools, and other integrated services are built in.
 With that explanation I will try and guide you to how VS Code will assist in
 your development of Markdown files.
 
-1. <input type="checkbox" />Open the ".md" file you have converted from the
+1. <input type="checkbox" class="box" id="mod_step1" />Open the ".md" file you have converted from the
    previous tasks.
 
    ![Open Markdown](images/open_markdown.png)
 
-2. <input type="checkbox" />Near the top right area of VS Code are a series of
+2. <input type="checkbox" class="box" id="mod_step2" />Near the top right area of VS Code are a series of
    icons, click the first icon, it's to **Preview** the opened file.
 
    ![Quick Icons](images/quick_icons.png)
@@ -417,7 +417,7 @@ your development of Markdown files.
    editing pane or **Show More actions...**. You can move your mouse pointer
    over each icon, and it will pop up with what they represent.
 
-3. <input type="checkbox" />Scroll down the left pane _(edit section)_ and view
+3. <input type="checkbox" class="box" id="mod_step3" />Scroll down the left pane _(edit section)_ and view
    the contents.
 
    **Note** how there are underlined areas under various text the editor
@@ -439,7 +439,7 @@ your development of Markdown files.
    you through the document quickly, and it also has colored indicators that
    show you where you are and if it also detects any issues.
 
-4. <input type="checkbox" />Scroll to line 51 _(the numbers are to the left of_
+4. <input type="checkbox" class="box" id="mod_step4" />Scroll to line 51 _(the numbers are to the left of_
    _the editing text)_ and change line 51 & 52 with
 
    <i title="Copy Text" style="float:right;" class="fas fa-clipboard"
@@ -461,7 +461,7 @@ your development of Markdown files.
    _that use the HTML Element don't convert back. Try to change any images that_
    _use the `<img...>` element to the format shown above._
 
-5. <input type="checkbox" />Scroll to the very top _**(line 1)**_ of the
+5. <input type="checkbox" class="box" id="mod_step5" />Scroll to the very top _**(line 1)**_ of the
    document and insert the following text _(Replace **[Your Name]** with your_
    _real name)_:
 
@@ -487,16 +487,16 @@ your development of Markdown files.
      There can be 1 or more names by just placing a carriage return after each,
      then 2 spaces, a hyphen, then space and a Name.
 
-6. <input type="checkbox" />Go through the rest of the document and make any
+6. <input type="checkbox" class="box" id="mod_step6" />Go through the rest of the document and make any
    changes or additions to it and when finished commit and publish the changes
    to the repository as you completed in the conversion task above.
 
-   1. <input type="checkbox" />Go to the **Source Control** icon on the left
+   1. <input type="checkbox" class="box" id="mod_step6_1" />Go to the **Source Control** icon on the left
       side and in the text box, above the **✔️ Commit** button, enter
    a statement such as `Updated Markdown document` and then click on the
    **✔️ Commit** button to commit the initial files.
 
-   2. <input type="checkbox" />The **✔️ Commit** should have
+   2. <input type="checkbox" class="box" id="mod_step6_2" />The **✔️ Commit** should have
     changed to a **Sync Changes 1 ⬆️** button, click the button to complete
     your changes to the repository.
 
@@ -516,9 +516,9 @@ converting documents to and from various formats. We will be using the Markdown
 file in VS Code from the tasks above and will generate a Word Document and also
 as a Web Page.
 
-1. <input type="checkbox" />Open VS Code with the same project that you were
+1. <input type="checkbox" class="box" id="pub_step1" />Open VS Code with the same project that you were
    working on from the previous exercise.
-2. <input type="checkbox" />Download the following YAML file:
+2. <input type="checkbox" class="box" id="pub_step2" />Download the following YAML file:
 
    **Public Default Writer File**
 
@@ -537,7 +537,7 @@ as a Web Page.
    location of where you place the file on your workstation. It is needed for
    the next step.</mark>**
 
-3. <input type="checkbox" />Click and drag the **default-public.yaml** from the
+3. <input type="checkbox" class="box" id="pub_step3" />Click and drag the **default-public.yaml** from the
    downloaded location into the root of the VS Code Project just like you did
    with the **public.docx** file in the previous task, except this file should
    be placed in the root of the project, not a sub-folder _(it may help if you_
@@ -547,7 +547,7 @@ as a Web Page.
 
    ![With Default](images/vscode_with_default.png)
 
-4. <input type="checkbox" />If not already open, click on the new YAML file so
+4. <input type="checkbox" class="box" id="pub_step4" />If not already open, click on the new YAML file so
    that you can view the contents.
 
    The content file contains parameters that will be used during the Pandoc
@@ -627,7 +627,7 @@ as a Web Page.
      included (`true`) and in the metadata section we are specifying the heading
      name to use will be **Table Of Contents**.
 
-5. <input type="checkbox" />Download the files below.
+5. <input type="checkbox" class="box" id="pub_step5" />Download the files below.
 
    <ul>
      <li>
@@ -669,7 +669,7 @@ as a Web Page.
    **_<mark>Please note where these files are placed since they will
    be used in the next couple of steps</mark>_**</small>
 
-6. <input type="checkbox">Move the 3 files into the VS Code project at the root
+6. <input type="checkbox" class="box" id="pub_step6" />Move the 3 files into the VS Code project at the root
    level _(just like you did with the `default-public.yaml` file above)_.
 
    ![Copy PS Files](images/copy_ps_files.png)
@@ -696,14 +696,14 @@ as a Web Page.
       document. This should have a close to original output as the original
       file used to begin with.
 
-7. <input type="checkbox" />Open a **Terminal** window in VS Code by holding down
+7. <input type="checkbox" class="box" id="pub_step7" />Open a **Terminal** window in VS Code by holding down
    the **`Windows(🪟)`** and **<code>&grave;</code>** _(the key to the left of the_
    _1 key)_.
 
    <small>📓_You can also open this up by using the VS Code's menu navigation_
    **_View_** ➡️ **_Terminal_**</small>
 
-8. <input type="checkbox" />Make sure that the terminal window is using
+8. <input type="checkbox" class="box" id="pub_step8" />Make sure that the terminal window is using
    PowerShell as its Terminal window. If you look to the top right section of
    window it should look like
 
@@ -716,7 +716,7 @@ as a Web Page.
 
 ### Generate Word
 
-Type the following command into the terminal window and then press **Enter**:
+<input type="checkbox" class="box" id="gen_word" />Type the following command into the terminal window and then press **Enter**:
 
 <i title="Copy Text" style="float:right;" class="fas fa-clipboard"
 clip-elem="create-word"></i>
@@ -767,7 +767,7 @@ because those subdirectories were already created)_.
 
 ### Generate HTML
 
-You can also generate the HTML version of this document by executing
+<input type="checkbox" class="box" id="gen_html" />You can also generate the HTML version of this document by executing
 
 <i title="Copy Text" style="float:right;" class="fas fa-clipboard"
 clip-elem="create-html"></i>
