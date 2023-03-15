@@ -99,7 +99,40 @@ the tutorial.
 
          <small>❗_Replace **`[Your Email]`** and press the **Enter** key_</small>
 
-2. **<u>VS Code</u>**
+2. **<u>Pandoc</u>**
+
+   There really aren't any configuration settings for Pandoc. Just verify that
+   the tool has been installed by executing the following steps. _If you've_
+   _kept the command window up from the **<u>GIT</u>** configuration, then you_
+   _can use the same command window and skip to step #3 below._
+
+   1. <input type="checkbox" />Press and hold both the
+      **`Windows Key(🪟)`** along with **`R`** on your keyboard.
+
+      <small>📓
+      _This will open a **`Run`** dialog box requesting you to type a_
+      _command into a text box._</small>
+
+   2. <input type="checkbox" />Type
+      **`cmd`**<i title='Copy Text' class='fas fa-clipboard' clip-text='cmd'></i>
+      in the text box and press the `Enter` key.
+
+      <small>📓
+      _This will open a new command window with a prompt._</small>
+
+   3. <input type="checkbox" />Type
+      **`pandoc --version`**<i title='Copy Text' class='fas fa-clipboard' clip-text='pandoc --version'></i>
+      at the prompt and press the `Enter` key.
+
+      <small>📓
+      _You should get a response showing the version of Pandoc installed on_
+      _your workstation. If you did not get a version, or you received an_
+      _error message, please install/re-install Pandoc and_
+      _complete the above steps._</small>
+
+   4. <input type="checkbox" />You may now close the command window.
+
+3. **<u>VS Code</u>**
 
    VS Code does contain basic **Markdown** editing capabilities without the
    following extension pack, but these additional features will assist in many
@@ -135,39 +168,6 @@ the tutorial.
       - [![LTeX–Grammar & Spell Checking Logo]{:height="15"} LTeX–Grammar & Spell Checking][LTeX–Grammar & Spell Checking]{:class="ui-button ui-widget ui-corner-all"}
       - [![Azure Tools Logo]{:height="15"} Azure Tools][Azure Tools]{:class="ui-button ui-widget ui-corner-all"}
       - [![Prettier Logo]{:height="15"} Prettier][Prettier]{:class="ui-button ui-widget ui-corner-all"}
-
-3. **<u>Pandoc</u>**
-
-   There really aren't any configuration settings for Pandoc. Just verify that
-   the tool has been installed by executing the following steps. _If you've_
-   _kept the command window up from the **<u>GIT</u>** configuration, then you_
-   _can use the same command window and skip to step #3 below._
-
-   1. <input type="checkbox" />Press and hold both the
-      **`Windows Key(🪟)`** along with **`R`** on your keyboard.
-
-      <small>📓
-      _This will open a **`Run`** dialog box requesting you to type a_
-      _command into a text box._</small>
-
-   2. <input type="checkbox" />Type
-      **`cmd`**<i title='Copy Text' class='fas fa-clipboard' clip-text='cmd'></i>
-      in the text box and press the `Enter` key.
-
-      <small>📓
-      _This will open a new command window with a prompt._</small>
-
-   3. <input type="checkbox" />Type
-      **`pandoc --version`**<i title='Copy Text' class='fas fa-clipboard' clip-text='pandoc --version'></i>
-      at the prompt and press the `Enter` key.
-
-      <small>📓
-      _You should get a response showing the version of Pandoc installed on_
-      _your workstation. If you did not get a version, or you received an_
-      _error message, please install/re-install Pandoc and_
-      _complete the above steps._</small>
-
-   4. <input type="checkbox" />You may now close the command window.
 
 ## Create a New Repo and Populate
 
