@@ -379,36 +379,66 @@ Learn how to implement authentication and authorization to resources by using
 the Microsoft identity platform, Microsoft Authentication Library, shared
 access signatures, and use Microsoft Graph.
 
-1. <input type="checkbox" class="box" id="az204-m06-s01" />[Explore the Microsoft identity platform][az204-m06-s01]
-   1. <input type="checkbox" class="box" id="az204-m06-s01-01" />[Introduction][az204-m06-s01-01]
-   1. <input type="checkbox" class="box" id="az204-m06-s01-02" />[Explore the Microsoft identity platform][az204-m06-s01-02]
-   1. <input type="checkbox" class="box" id="az204-m06-s01-03" />[Explore service principals][az204-m06-s01-03]
-   1. <input type="checkbox" class="box" id="az204-m06-s01-04" />[Discover permissions and consent][az204-m06-s01-04]
-   1. <input type="checkbox" class="box" id="az204-m06-s01-05" />[Discover conditional access][az204-m06-s01-05]
-   1. <input type="checkbox" class="box" id="az204-m06-s01-06" />[Knowledge check][az204-m06-s01-06]
-   1. <input type="checkbox" class="box" id="az204-m06-s01-07" />[Summary][az204-m06-s01-07]
-1. <input type="checkbox" class="box" id="az204-m06-s02" />[Implement authentication by using the Microsoft Authentication Library][az204-m06-s02]
-   1. <input type="checkbox" class="box" id="az204-m06-s02-01" />[Introduction][az204-m06-s02-01]
-   1. <input type="checkbox" class="box" id="az204-m06-s02-02" />[Explore the Microsoft Authentication Library][az204-m06-s02-02]
-   1. <input type="checkbox" class="box" id="az204-m06-s02-03" />[Initialize client applications][az204-m06-s02-03]
-   1. <input type="checkbox" class="box" id="az204-m06-s02-04" />[Exercise: Implement interactive authentication by using MSAL.NET][az204-m06-s02-04]
-   1. <input type="checkbox" class="box" id="az204-m06-s02-05" />[Knowledge check][az204-m06-s02-05]
-   1. <input type="checkbox" class="box" id="az204-m06-s02-06" />[Summary][az204-m06-s02-06]
-1. <input type="checkbox" class="box" id="az204-m06-s03" />[Implement shared access signatures][az204-m06-s03]
-   1. <input type="checkbox" class="box" id="az204-m06-s03-01" />[Introduction][az204-m06-s03-01]
-   1. <input type="checkbox" class="box" id="az204-m06-s03-02" />[Discover shared access signatures][az204-m06-s03-02]
-   1. <input type="checkbox" class="box" id="az204-m06-s03-03" />[Choose when to use shared access signatures][az204-m06-s03-03]
-   1. <input type="checkbox" class="box" id="az204-m06-s03-04" />[Explore stored access policies][az204-m06-s03-04]
-   1. <input type="checkbox" class="box" id="az204-m06-s03-05" />[Knowledge check][az204-m06-s03-05]
-   1. <input type="checkbox" class="box" id="az204-m06-s03-06" />[Summary][az204-m06-s03-06]
-1. <input type="checkbox" class="box" id="az204-m06-s04" />[Explore Microsoft Graph][az204-m06-s04]
-   1. <input type="checkbox" class="box" id="az204-m06-s04-01" />[Introduction][az204-m06-s04-01]
-   1. <input type="checkbox" class="box" id="az204-m06-s04-02" />[Discover Microsoft Graph][az204-m06-s04-02]
-   1. <input type="checkbox" class="box" id="az204-m06-s04-03" />[Query Microsoft Graph by using REST][az204-m06-s04-03]
-   1. <input type="checkbox" class="box" id="az204-m06-s04-04" />[Query Microsoft Graph by using SDKs][az204-m06-s04-04]
-   1. <input type="checkbox" class="box" id="az204-m06-s04-05" />[Apply best practices to Microsoft Graph][az204-m06-s04-05]
-   1. <input type="checkbox" class="box" id="az204-m06-s04-06" />[Knowledge check][az204-m06-s04-06]
-   1. <input type="checkbox" class="box" id="az204-m06-s04-07" />[Summary][az204-m06-s04-07]
+1. <input type="checkbox" class="box" id="az204-m06-s01" />[Explore the
+   Microsoft identity platform][az204-m06-s01]
+   1. <input type="checkbox" class="box" id="az204-m06-s01-01" />[Introduction
+      ][az204-m06-s01-01]
+   1. <input type="checkbox" class="box" id="az204-m06-s01-02" />[Explore the
+      Microsoft identity platform][az204-m06-s01-02]
+   1. <input type="checkbox" class="box" id="az204-m06-s01-03" />[Explore
+      service principals][az204-m06-s01-03]
+   1. <input type="checkbox" class="box" id="az204-m06-s01-04" />[Discover
+      permissions and consent][az204-m06-s01-04]
+   1. <input type="checkbox" class="box" id="az204-m06-s01-05" />[Discover
+      conditional access][az204-m06-s01-05]
+   1. <input type="checkbox" class="box" id="az204-m06-s01-06" />[Knowledge
+      check][az204-m06-s01-06]
+   1. <input type="checkbox" class="box" id="az204-m06-s01-07" />[Summary
+      ][az204-m06-s01-07]
+1. <input type="checkbox" class="box" id="az204-m06-s02" />[Implement
+   authentication by using the Microsoft Authentication Library][az204-m06-s02]
+   1. <input type="checkbox" class="box" id="az204-m06-s02-01" />[Introduction
+      ][az204-m06-s02-01]
+   1. <input type="checkbox" class="box" id="az204-m06-s02-02" />[Explore the
+      Microsoft Authentication Library][az204-m06-s02-02]
+   1. <input type="checkbox" class="box" id="az204-m06-s02-03" />[Initialize
+      client applications][az204-m06-s02-03]
+   1. <input type="checkbox" class="box" id="az204-m06-s02-04" />[Exercise:
+      Implement interactive authentication by using MSAL.NET][az204-m06-s02-04]
+   1. <input type="checkbox" class="box" id="az204-m06-s02-05" />[Knowledge
+      check][az204-m06-s02-05]
+   1. <input type="checkbox" class="box" id="az204-m06-s02-06" />[Summary
+      ][az204-m06-s02-06]
+1. <input type="checkbox" class="box" id="az204-m06-s03" />[Implement shared
+   access signatures][az204-m06-s03]
+   1. <input type="checkbox" class="box" id="az204-m06-s03-01" />[Introduction
+      ][az204-m06-s03-01]
+   1. <input type="checkbox" class="box" id="az204-m06-s03-02" />[Discover
+      shared access signatures][az204-m06-s03-02]
+   1. <input type="checkbox" class="box" id="az204-m06-s03-03" />[Choose when
+      to use shared access signatures][az204-m06-s03-03]
+   1. <input type="checkbox" class="box" id="az204-m06-s03-04" />[Explore
+      stored access policies][az204-m06-s03-04]
+   1. <input type="checkbox" class="box" id="az204-m06-s03-05" />[Knowledge
+      check][az204-m06-s03-05]
+   1. <input type="checkbox" class="box" id="az204-m06-s03-06" />[Summary
+      ][az204-m06-s03-06]
+1. <input type="checkbox" class="box" id="az204-m06-s04" />[Explore Microsoft
+   Graph][az204-m06-s04]
+   1. <input type="checkbox" class="box" id="az204-m06-s04-01" />[Introduction
+      ][az204-m06-s04-01]
+   1. <input type="checkbox" class="box" id="az204-m06-s04-02" />[Discover
+      Microsoft Graph][az204-m06-s04-02]
+   1. <input type="checkbox" class="box" id="az204-m06-s04-03" />[Query
+      Microsoft Graph by using REST][az204-m06-s04-03]
+   1. <input type="checkbox" class="box" id="az204-m06-s04-04" />[Query
+      Microsoft Graph by using SDKs][az204-m06-s04-04]
+   1. <input type="checkbox" class="box" id="az204-m06-s04-05" />[Apply best
+      practices to Microsoft Graph][az204-m06-s04-05]
+   1. <input type="checkbox" class="box" id="az204-m06-s04-06" />[Knowledge
+      check][az204-m06-s04-06]
+   1. <input type="checkbox" class="box" id="az204-m06-s04-07" />[Summary
+      ][az204-m06-s04-07]
 
 ---
 
@@ -417,30 +447,55 @@ access signatures, and use Microsoft Graph.
 Learn how to more securely deploy apps in Azure by using Azure Key Vault,
 managed identities, and Azure App Configuration.
 
-1. <input type="checkbox" class="box" id="az204-m07-s01" />[Implement Azure Key Vault][az204-m07-s01]
-   1. <input type="checkbox" class="box" id="az204-m07-s01-01" />[Introduction][az204-m07-s01-01]
-   1. <input type="checkbox" class="box" id="az204-m07-s01-02" />[Explore Azure Key Vault][az204-m07-s01-02]
-   1. <input type="checkbox" class="box" id="az204-m07-s01-03" />[Discover Azure Key Vault best practices][az204-m07-s01-03]
-   1. <input type="checkbox" class="box" id="az204-m07-s01-04" />[Authenticate to Azure Key Vault][az204-m07-s01-04]
-   1. <input type="checkbox" class="box" id="az204-m07-s01-05" />[Exercise: Set and retrieve a secret from Azure Key Vault by using Azure CLI][az204-m07-s01-05]
-   1. <input type="checkbox" class="box" id="az204-m07-s01-06" />[Knowledge check][az204-m07-s01-06]
-   1. <input type="checkbox" class="box" id="az204-m07-s01-07" />[Summary][az204-m07-s01-07]
-1. <input type="checkbox" class="box" id="az204-m07-s02" />[Implement managed identities][az204-m07-s02]
-   1. <input type="checkbox" class="box" id="az204-m07-s02-01" />[Introduction][az204-m07-s02-01]
-   1. <input type="checkbox" class="box" id="az204-m07-s02-02" />[Explore managed identities][az204-m07-s02-02]
-   1. <input type="checkbox" class="box" id="az204-m07-s02-03" />[Discover the managed identities authentication flow][az204-m07-s02-03]
-   1. <input type="checkbox" class="box" id="az204-m07-s02-04" />[Configure managed identities][az204-m07-s02-04]
-   1. <input type="checkbox" class="box" id="az204-m07-s02-05" />[Acquire an access token][az204-m07-s02-05]
-   1. <input type="checkbox" class="box" id="az204-m07-s02-06" />[Knowledge check][az204-m07-s02-06]
-   1. <input type="checkbox" class="box" id="az204-m07-s02-07" />[Summary][az204-m07-s02-07]
-1. <input type="checkbox" class="box" id="az204-m07-s03" />[Implement Azure App Configuration][az204-m07-s03]
-   1. <input type="checkbox" class="box" id="az204-m07-s03-01" />[Introduction][az204-m07-s03-01]
-   1. <input type="checkbox" class="box" id="az204-m07-s03-02" />[Explore the Azure App Configuration service][az204-m07-s03-02]
-   1. <input type="checkbox" class="box" id="az204-m07-s03-03" />[Create paired keys and values][az204-m07-s03-03]
-   1. <input type="checkbox" class="box" id="az204-m07-s03-04" />[Manage application features][az204-m07-s03-04]
-   1. <input type="checkbox" class="box" id="az204-m07-s03-05" />[Secure app configuration data][az204-m07-s03-05]
-   1. <input type="checkbox" class="box" id="az204-m07-s03-06" />[Knowledge check][az204-m07-s03-06]
-   1. <input type="checkbox" class="box" id="az204-m07-s03-07" />[Summary][az204-m07-s03-07]
+1. <input type="checkbox" class="box" id="az204-m07-s01" />[Implement Azure Key
+   Vault][az204-m07-s01]
+   1. <input type="checkbox" class="box" id="az204-m07-s01-01" />[Introduction
+      ][az204-m07-s01-01]
+   1. <input type="checkbox" class="box" id="az204-m07-s01-02" />[Explore Azure
+      Key Vault][az204-m07-s01-02]
+   1. <input type="checkbox" class="box" id="az204-m07-s01-03" />[Discover Azure
+      Key Vault best practices][az204-m07-s01-03]
+   1. <input type="checkbox" class="box" id="az204-m07-s01-04" />[Authenticate
+      to Azure Key Vault][az204-m07-s01-04]
+   1. <input type="checkbox" class="box" id="az204-m07-s01-05" />[Exercise: Set
+      and retrieve a secret from Azure Key Vault by using Azure
+      CLI][az204-m07-s01-05]
+   1. <input type="checkbox" class="box" id="az204-m07-s01-06" />[Knowledge
+      check][az204-m07-s01-06]
+   1. <input type="checkbox" class="box" id="az204-m07-s01-07" />[Summary
+      ][az204-m07-s01-07]
+1. <input type="checkbox" class="box" id="az204-m07-s02" />[Implement managed
+   identities][az204-m07-s02]
+   1. <input type="checkbox" class="box" id="az204-m07-s02-01" />[Introduction
+      ][az204-m07-s02-01]
+   1. <input type="checkbox" class="box" id="az204-m07-s02-02" />[Explore
+      managed identities][az204-m07-s02-02]
+   1. <input type="checkbox" class="box" id="az204-m07-s02-03" />[Discover the
+      managed identities authentication flow][az204-m07-s02-03]
+   1. <input type="checkbox" class="box" id="az204-m07-s02-04" />[Configure
+      managed identities][az204-m07-s02-04]
+   1. <input type="checkbox" class="box" id="az204-m07-s02-05" />[Acquire an
+      access token][az204-m07-s02-05]
+   1. <input type="checkbox" class="box" id="az204-m07-s02-06" />[Knowledge
+      check][az204-m07-s02-06]
+   1. <input type="checkbox" class="box" id="az204-m07-s02-07" />[Summary
+      ][az204-m07-s02-07]
+1. <input type="checkbox" class="box" id="az204-m07-s03" />[Implement Azure App
+   Configuration][az204-m07-s03]
+   1. <input type="checkbox" class="box" id="az204-m07-s03-01" />[Introduction
+      ][az204-m07-s03-01]
+   1. <input type="checkbox" class="box" id="az204-m07-s03-02" />[Explore the
+      Azure App Configuration service][az204-m07-s03-02]
+   1. <input type="checkbox" class="box" id="az204-m07-s03-03" />[Create paired
+      keys and values][az204-m07-s03-03]
+   1. <input type="checkbox" class="box" id="az204-m07-s03-04" />[Manage
+      application features][az204-m07-s03-04]
+   1. <input type="checkbox" class="box" id="az204-m07-s03-05" />[Secure app
+      configuration data][az204-m07-s03-05]
+   1. <input type="checkbox" class="box" id="az204-m07-s03-06" />[Knowledge
+      check][az204-m07-s03-06]
+   1. <input type="checkbox" class="box" id="az204-m07-s03-07" />[Summary
+      ][az204-m07-s03-07]
 
 ---
 
@@ -449,17 +504,28 @@ managed identities, and Azure App Configuration.
 Learn how the API Management service functions, how to transform and secure
 APIs, and how to create a backend API.
 
-1. <input type="checkbox" class="box" id="az204-m08-s01" />[Explore API Management][az204-m08-s01]
-   1. <input type="checkbox" class="box" id="az204-m08-s01-01" />[Introduction][az204-m08-s01-01]
-   1. <input type="checkbox" class="box" id="az204-m08-s01-02" />[Discover the API Management service][az204-m08-s01-02]
-   1. <input type="checkbox" class="box" id="az204-m08-s01-03" />[Explore API gateways][az204-m08-s01-03]
-   1. <input type="checkbox" class="box" id="az204-m08-s01-04" />[Explore API Management policies][az204-m08-s01-04]
-   1. <input type="checkbox" class="box" id="az204-m08-s01-05" />[Create advanced policies][az204-m08-s01-05]
-   1. <input type="checkbox" class="box" id="az204-m08-s01-06" />[Secure APIs by using subscriptions][az204-m08-s01-06]
-   1. <input type="checkbox" class="box" id="az204-m08-s01-07" />[Secure APIs by using certificates][az204-m08-s01-07]
-   1. <input type="checkbox" class="box" id="az204-m08-s01-08" />[Exercise: Create a backend API][az204-m08-s01-08]
-   1. <input type="checkbox" class="box" id="az204-m08-s01-09" />[Knowledge check][az204-m08-s01-09]
-   1. <input type="checkbox" class="box" id="az204-m08-s01-10" />[Summary][az204-m08-s01-10]
+1. <input type="checkbox" class="box" id="az204-m08-s01" />[Explore API
+   Management][az204-m08-s01]
+   1. <input type="checkbox" class="box" id="az204-m08-s01-01" />[Introduction
+      ][az204-m08-s01-01]
+   1. <input type="checkbox" class="box" id="az204-m08-s01-02" />[Discover the
+      API Management service][az204-m08-s01-02]
+   1. <input type="checkbox" class="box" id="az204-m08-s01-03" />[Explore API
+      gateways][az204-m08-s01-03]
+   1. <input type="checkbox" class="box" id="az204-m08-s01-04" />[Explore API
+      Management policies][az204-m08-s01-04]
+   1. <input type="checkbox" class="box" id="az204-m08-s01-05" />[Create
+      advanced policies][az204-m08-s01-05]
+   1. <input type="checkbox" class="box" id="az204-m08-s01-06" />[Secure APIs by
+      using subscriptions][az204-m08-s01-06]
+   1. <input type="checkbox" class="box" id="az204-m08-s01-07" />[Secure APIs by
+      using certificates][az204-m08-s01-07]
+   1. <input type="checkbox" class="box" id="az204-m08-s01-08" />[Exercise:
+      Create a backend API][az204-m08-s01-08]
+   1. <input type="checkbox" class="box" id="az204-m08-s01-09" />[Knowledge
+      check][az204-m08-s01-09]
+   1. <input type="checkbox" class="box" id="az204-m08-s01-10" />[Summary
+      ][az204-m08-s01-10]
 
 ---
 
@@ -468,26 +534,46 @@ APIs, and how to create a backend API.
 Learn how to build applications with event-based architectures by integrating
 Azure Event Grid and Azure Event Hubs in to your solution.
 
-1. <input type="checkbox" class="box" id="az204-m09-s01" />[Explore Azure Event Grid][az204-m09-s01]
-   1. <input type="checkbox" class="box" id="az204-m09-s01-01" />[Introduction][az204-m09-s01-01]
-   1. <input type="checkbox" class="box" id="az204-m09-s01-02" />[Explore Azure Event Grid][az204-m09-s01-02]
-   1. <input type="checkbox" class="box" id="az204-m09-s01-03" />[Discover event schemas][az204-m09-s01-03]
-   1. <input type="checkbox" class="box" id="az204-m09-s01-04" />[Explore event delivery durability][az204-m09-s01-04]
-   1. <input type="checkbox" class="box" id="az204-m09-s01-05" />[Control access to events][az204-m09-s01-05]
-   1. <input type="checkbox" class="box" id="az204-m09-s01-06" />[Receive events by using webhooks][az204-m09-s01-06]
-   1. <input type="checkbox" class="box" id="az204-m09-s01-07" />[Filter events][az204-m09-s01-07]
-   1. <input type="checkbox" class="box" id="az204-m09-s01-08" />[Exercise: Route custom events to web endpoint by using Azure CLI][az204-m09-s01-08]
-   1. <input type="checkbox" class="box" id="az204-m09-s01-09" />[Knowledge check][az204-m09-s01-09]
-   1. <input type="checkbox" class="box" id="az204-m09-s01-10" />[Summary][az204-m09-s01-10]
-1. <input type="checkbox" class="box" id="az204-m09-s02" />[Explore Azure Event Hubs][az204-m09-s02]
-   1. <input type="checkbox" class="box" id="az204-m09-s02-01" />[Introduction][az204-m09-s02-01]
-   1. <input type="checkbox" class="box" id="az204-m09-s02-02" />[Discover Azure Event Hubs][az204-m09-s02-02]
-   1. <input type="checkbox" class="box" id="az204-m09-s02-03" />[Explore Event Hubs Capture][az204-m09-s02-03]
-   1. <input type="checkbox" class="box" id="az204-m09-s02-04" />[Scale your processing application][az204-m09-s02-04]
-   1. <input type="checkbox" class="box" id="az204-m09-s02-05" />[Control access to events][az204-m09-s02-05]
-   1. <input type="checkbox" class="box" id="az204-m09-s02-06" />[Perform common operations with the Event Hubs client library][az204-m09-s02-06]
-   1. <input type="checkbox" class="box" id="az204-m09-s02-07" />[Knowledge check][az204-m09-s02-07]
-   1. <input type="checkbox" class="box" id="az204-m09-s02-08" />[Summary][az204-m09-s02-08]
+1. <input type="checkbox" class="box" id="az204-m09-s01" />[Explore Azure Event
+   Grid][az204-m09-s01]
+   1. <input type="checkbox" class="box" id="az204-m09-s01-01" />[Introduction
+      ][az204-m09-s01-01]
+   1. <input type="checkbox" class="box" id="az204-m09-s01-02" />[Explore Azure
+      Event Grid][az204-m09-s01-02]
+   1. <input type="checkbox" class="box" id="az204-m09-s01-03" />[Discover event
+      schemas][az204-m09-s01-03]
+   1. <input type="checkbox" class="box" id="az204-m09-s01-04" />[Explore event
+      delivery durability][az204-m09-s01-04]
+   1. <input type="checkbox" class="box" id="az204-m09-s01-05" />[Control access
+      to events][az204-m09-s01-05]
+   1. <input type="checkbox" class="box" id="az204-m09-s01-06" />[Receive events
+      by using webhooks][az204-m09-s01-06]
+   1. <input type="checkbox" class="box" id="az204-m09-s01-07" />[Filter events
+      ][az204-m09-s01-07]
+   1. <input type="checkbox" class="box" id="az204-m09-s01-08" />[Exercise:
+      Route custom events to web endpoint by using Azure CLI][az204-m09-s01-08]
+   1. <input type="checkbox" class="box" id="az204-m09-s01-09" />[Knowledge
+      check][az204-m09-s01-09]
+   1. <input type="checkbox" class="box" id="az204-m09-s01-10" />[Summary
+      ][az204-m09-s01-10]
+1. <input type="checkbox" class="box" id="az204-m09-s02" />[Explore Azure Event
+   Hubs][az204-m09-s02]
+   1. <input type="checkbox" class="box" id="az204-m09-s02-01" />[Introduction
+      ][az204-m09-s02-01]
+   1. <input type="checkbox" class="box" id="az204-m09-s02-02" />[Discover Azure
+      Event Hubs][az204-m09-s02-02]
+   1. <input type="checkbox" class="box" id="az204-m09-s02-03" />[Explore Event
+      Hubs Capture][az204-m09-s02-03]
+   1. <input type="checkbox" class="box" id="az204-m09-s02-04" />[Scale your
+      processing application][az204-m09-s02-04]
+   1. <input type="checkbox" class="box" id="az204-m09-s02-05" />[Control access
+      to events][az204-m09-s02-05]
+   1. <input type="checkbox" class="box" id="az204-m09-s02-06" />[Perform common
+      operations with the Event Hubs client library][az204-m09-s02-06]
+   1. <input type="checkbox" class="box" id="az204-m09-s02-07" />[Knowledge
+      check][az204-m09-s02-07]
+   1. <input type="checkbox" class="box" id="az204-m09-s02-08" />[Summary
+      ][az204-m09-s02-08]
 
 ---
 
@@ -496,17 +582,29 @@ Azure Event Grid and Azure Event Hubs in to your solution.
 Learn how to build applications with message-based architectures by integrating
 Azure Service Bus and Azure Queue Storage in to your solution.
 
-1. <input type="checkbox" class="box" id="az204-m10-s01" />[Discover Azure message queues][az204-m10-s01]
-   1. <input type="checkbox" class="box" id="az204-m10-s01-01" />[Introduction][az204-m10-s01-01]
-   1. <input type="checkbox" class="box" id="az204-m10-s01-02" />[Choose a message queue solution][az204-m10-s01-02]
-   1. <input type="checkbox" class="box" id="az204-m10-s01-03" />[Explore Azure Service Bus][az204-m10-s01-03]
-   1. <input type="checkbox" class="box" id="az204-m10-s01-04" />[Discover Service Bus queues, topics, and subscriptions][az204-m10-s01-04]
-   1. <input type="checkbox" class="box" id="az204-m10-s01-05" />[Explore Service Bus message payloads and serialization][az204-m10-s01-05]
-   1. <input type="checkbox" class="box" id="az204-m10-s01-06" />[Exercise: Send and receive message from a Service Bus queue by using .NET.][az204-m10-s01-06]
-   1. <input type="checkbox" class="box" id="az204-m10-s01-07" />[Explore Azure Queue Storage][az204-m10-s01-07]
-   1. <input type="checkbox" class="box" id="az204-m10-s01-08" />[Create and manage Azure Queue Storage and messages by using .NET][az204-m10-s01-08]
-   1. <input type="checkbox" class="box" id="az204-m10-s01-09" />[Knowledge check][az204-m10-s01-09]
-   1. <input type="checkbox" class="box" id="az204-m10-s01-10" />[Summary][az204-m10-s01-10]
+1. <input type="checkbox" class="box" id="az204-m10-s01" />[Discover Azure
+   message queues][az204-m10-s01]
+   1. <input type="checkbox" class="box" id="az204-m10-s01-01" />[Introduction
+      ][az204-m10-s01-01]
+   1. <input type="checkbox" class="box" id="az204-m10-s01-02" />[Choose a
+      message queue solution][az204-m10-s01-02]
+   1. <input type="checkbox" class="box" id="az204-m10-s01-03" />[Explore Azure
+      Service Bus][az204-m10-s01-03]
+   1. <input type="checkbox" class="box" id="az204-m10-s01-04" />[Discover
+      Service Bus queues, topics, and subscriptions][az204-m10-s01-04]
+   1. <input type="checkbox" class="box" id="az204-m10-s01-05" />[Explore
+      Service Bus message payloads and serialization][az204-m10-s01-05]
+   1. <input type="checkbox" class="box" id="az204-m10-s01-06" />[Exercise: Send
+      and receive message from a Service Bus queue by using
+      .NET][az204-m10-s01-06]
+   1. <input type="checkbox" class="box" id="az204-m10-s01-07" />[Explore
+      Azure Queue Storage][az204-m10-s01-07]
+   1. <input type="checkbox" class="box" id="az204-m10-s01-08" />[Create and
+      manage Azure Queue Storage and messages by using .NET][az204-m10-s01-08]
+   1. <input type="checkbox" class="box" id="az204-m10-s01-09" />[Knowledge
+      check][az204-m10-s01-09]
+   1. <input type="checkbox" class="box" id="az204-m10-s01-10" />[Summary
+      ][az204-m10-s01-10]
 
 ---
 
@@ -515,16 +613,26 @@ Azure Service Bus and Azure Queue Storage in to your solution.
 Learn how to instrument apps to enable Application Insights to monitor
 performance and help troubleshoot issues.
 
-1. <input type="checkbox" class="box" id="az204-m11-s01" />[Monitor app performance][az204-m11-s01]
-   1. <input type="checkbox" class="box" id="az204-m11-s01-01" />[Introduction][az204-m11-s01-01]
-   1. <input type="checkbox" class="box" id="az204-m11-s01-02" />[Explore Azure Monitor][az204-m11-s01-02]
-   1. <input type="checkbox" class="box" id="az204-m11-s01-03" />[Explore Application Insights][az204-m11-s01-03]
-   1. <input type="checkbox" class="box" id="az204-m11-s01-04" />[Discover log-based metrics][az204-m11-s01-04]
-   1. <input type="checkbox" class="box" id="az204-m11-s01-05" />[Instrument an app for monitoring][az204-m11-s01-05]
-   1. <input type="checkbox" class="box" id="az204-m11-s01-06" />[Select an availability test][az204-m11-s01-06]
-   1. <input type="checkbox" class="box" id="az204-m11-s01-07" />[Troubleshoot app performance by using Application Map][az204-m11-s01-07]
-   1. <input type="checkbox" class="box" id="az204-m11-s01-08" />[Knowledge check][az204-m11-s01-08]
-   1. <input type="checkbox" class="box" id="az204-m11-s01-09" />[Summary][az204-m11-s01-09]
+1. <input type="checkbox" class="box" id="az204-m11-s01" />[Monitor app
+   performance][az204-m11-s01]
+   1. <input type="checkbox" class="box" id="az204-m11-s01-01" />[Introduction
+      ][az204-m11-s01-01]
+   1. <input type="checkbox" class="box" id="az204-m11-s01-02" />[Explore Azure
+      Monitor][az204-m11-s01-02]
+   1. <input type="checkbox" class="box" id="az204-m11-s01-03" />[Explore
+      Application Insights][az204-m11-s01-03]
+   1. <input type="checkbox" class="box" id="az204-m11-s01-04" />[Discover
+      log-based metrics][az204-m11-s01-04]
+   1. <input type="checkbox" class="box" id="az204-m11-s01-05" />[Instrument an
+      app for monitoring][az204-m11-s01-05]
+   1. <input type="checkbox" class="box" id="az204-m11-s01-06" />[Select an
+      availability test][az204-m11-s01-06]
+   1. <input type="checkbox" class="box" id="az204-m11-s01-07" />[Troubleshoot
+      app performance by using Application Map][az204-m11-s01-07]
+   1. <input type="checkbox" class="box" id="az204-m11-s01-08" />[Knowledge
+      check][az204-m11-s01-08]
+   1. <input type="checkbox" class="box" id="az204-m11-s01-09" />[Summary
+      ][az204-m11-s01-09]
 
 ---
 
@@ -534,21 +642,37 @@ Learn how to improve the performance and scalability of your applications by
 integrating Azure Cache for Redis and Azure Content Delivery Network in to your
 solution.
 
-1. <input type="checkbox" class="box" id="az204-m12-s01" />[Develop for Azure Cache for Redis][az204-m12-s01]
-   1. <input type="checkbox" class="box" id="az204-m12-s01-01" />[Introduction][az204-m12-s01-01]
-   1. <input type="checkbox" class="box" id="az204-m12-s01-02" />[Explore Azure Cache for Redis][az204-m12-s01-02]
-   1. <input type="checkbox" class="box" id="az204-m12-s01-03" />[Configure Azure Cache for Redis][az204-m12-s01-03]
-   1. <input type="checkbox" class="box" id="az204-m12-s01-04" />[Interact with Azure Cache for Redis by using .NET][az204-m12-s01-04]
-   1. <input type="checkbox" class="box" id="az204-m12-s01-05" />[Exercise: Connect an app to Azure Cache for Redis by using .NET Core][az204-m12-s01-05]
-   1. <input type="checkbox" class="box" id="az204-m12-s01-06" />[Knowledge check][az204-m12-s01-06]
-   1. <input type="checkbox" class="box" id="az204-m12-s01-07" />[Summary][az204-m12-s01-07]
-1. <input type="checkbox" class="box" id="az204-m12-s02" />[Develop for storage on CDNs][az204-m12-s02]
-   1. <input type="checkbox" class="box" id="az204-m12-s02-01" />[Introduction][az204-m12-s02-01]
-   1. <input type="checkbox" class="box" id="az204-m12-s02-02" />[Explore Azure Content Delivery Networks][az204-m12-s02-02]
-   1. <input type="checkbox" class="box" id="az204-m12-s02-03" />[Control cache behavior on Azure Content Delivery Networks][az204-m12-s02-03]
-   1. <input type="checkbox" class="box" id="az204-m12-s02-04" />[Interact with Azure Content Delivery Networks by using .NET][az204-m12-s02-04]
-   1. <input type="checkbox" class="box" id="az204-m12-s02-05" />[Knowledge check][az204-m12-s02-05]
-   1. <input type="checkbox" class="box" id="az204-m12-s02-06" />[Summary][az204-m12-s02-06]
+1. <input type="checkbox" class="box" id="az204-m12-s01" />[Develop for Azure
+   Cache for Redis][az204-m12-s01]
+   1. <input type="checkbox" class="box" id="az204-m12-s01-01" />[Introduction
+      ][az204-m12-s01-01]
+   1. <input type="checkbox" class="box" id="az204-m12-s01-02" />[Explore Azure
+      Cache for Redis][az204-m12-s01-02]
+   1. <input type="checkbox" class="box" id="az204-m12-s01-03" />[Configure
+      Azure Cache for Redis][az204-m12-s01-03]
+   1. <input type="checkbox" class="box" id="az204-m12-s01-04" />[Interact with
+      Azure Cache for Redis by using .NET][az204-m12-s01-04]
+   1. <input type="checkbox" class="box" id="az204-m12-s01-05" />[Exercise:
+      Connect an app to Azure Cache for Redis by using .NET
+      Core][az204-m12-s01-05]
+   1. <input type="checkbox" class="box" id="az204-m12-s01-06" />[Knowledge
+      check][az204-m12-s01-06]
+   1. <input type="checkbox" class="box" id="az204-m12-s01-07" />[Summary
+      ][az204-m12-s01-07]
+1. <input type="checkbox" class="box" id="az204-m12-s02" />[Develop for storage
+   on CDNs][az204-m12-s02]
+   1. <input type="checkbox" class="box" id="az204-m12-s02-01" />[Introduction
+      ][az204-m12-s02-01]
+   1. <input type="checkbox" class="box" id="az204-m12-s02-02" />[Explore Azure
+      Content Delivery Networks][az204-m12-s02-02]
+   1. <input type="checkbox" class="box" id="az204-m12-s02-03" />[Control cache
+      behavior on Azure Content Delivery Networks][az204-m12-s02-03]
+   1. <input type="checkbox" class="box" id="az204-m12-s02-04" />[Interact with
+      Azure Content Delivery Networks by using .NET][az204-m12-s02-04]
+   1. <input type="checkbox" class="box" id="az204-m12-s02-05" />[Knowledge
+      check][az204-m12-s02-05]
+   1. <input type="checkbox" class="box" id="az204-m12-s02-06" />[Summary
+      ][az204-m12-s02-06]
 
 [azure-app-service-create-web-apps]: https://learn.microsoft.com/en-us/training/achievements/azure-app-service-create-web-apps.svg
 [az-204-implement-azure-functions]: https://learn.microsoft.com/en-us/training/achievements/az-204-implement-azure-functions.svg
