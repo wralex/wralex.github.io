@@ -217,42 +217,42 @@ permalink: /courses/AZ204/
 [Develop message-based solutions]: https://learn.microsoft.com/en-us/training/paths/az-204-develop-message-based-solutions/?ns-enrollment-type=Collection&ns-enrollment-id=ykogsry21q30j7
 [Instrument solutions to support monitoring and logging]: https://learn.microsoft.com/en-us/training/paths/az-204-instrument-solutions-support-monitoring-logging/?ns-enrollment-type=Collection&ns-enrollment-id=ykogsry21q30j7
 [Integrate caching and content delivery within solutions]: https://learn.microsoft.com/en-us/training/paths/az-204-integrate-caching-content-delivery-within-solutions/?ns-enrollment-type=Collection&ns-enrollment-id=ykogsry21q30j7
-[az204-m01-s01]: https://learn.microsoft.com/en-us/training/mules/introduction-to-azure-app-service/ "Learn about the key components of Azure App Service and how App Service can help you create, maintain, and deploy web apps more efficiently."
-[az204-m01-s01-01]: https://learn.microsoft.com/en-us/training/mules/introduction-to-azure-app-service/1-introduction/
-[az204-m01-s01-02]: https://learn.microsoft.com/en-us/training/mules/introduction-to-azure-app-service/2-azure-app-service/
-[az204-m01-s01-03]: https://learn.microsoft.com/en-us/training/mules/introduction-to-azure-app-service/3-azure-app-service-plans/
-[az204-m01-s01-04]: https://learn.microsoft.com/en-us/training/mules/introduction-to-azure-app-service/4-deploy-code-to-app-service/
-[az204-m01-s01-05]: https://learn.microsoft.com/en-us/training/mules/introduction-to-azure-app-service/5-authentication-authorization-app-service/
-[az204-m01-s01-06]: https://learn.microsoft.com/en-us/training/mules/introduction-to-azure-app-service/6-network-features/
-[az204-m01-s01-07]: https://learn.microsoft.com/en-us/training/mules/introduction-to-azure-app-service/7-create-html-web-app/
-[az204-m01-s01-08]: https://learn.microsoft.com/en-us/training/mules/introduction-to-azure-app-service/8-knowledge-check/
-[az204-m01-s01-09]: https://learn.microsoft.com/en-us/training/mules/introduction-to-azure-app-service/9-summary/
-[az204-m01-s02]: https://learn.microsoft.com/en-us/training/mules/configure-web-app-settings/ "Learn how to create and manage application settings, install SSL/TLS certificates to secure web traffic, enable diagnostic logging, create virtual app to directory mappings, and manage app features."
-[az204-m01-s02-01]: https://learn.microsoft.com/en-us/training/mules/configure-web-app-settings/1-introduction/
-[az204-m01-s02-02]: https://learn.microsoft.com/en-us/training/mules/configure-web-app-settings/2-configure-application-settings/
-[az204-m01-s02-03]: https://learn.microsoft.com/en-us/training/mules/configure-web-app-settings/3-configure-general-settings/
-[az204-m01-s02-04]: https://learn.microsoft.com/en-us/training/mules/configure-web-app-settings/4-configure-path-mappings/
-[az204-m01-s02-05]: https://learn.microsoft.com/en-us/training/mules/configure-web-app-settings/5-enable-diagnostic-logging/
-[az204-m01-s02-06]: https://learn.microsoft.com/en-us/training/mules/configure-web-app-settings/6-configure-security-certificates/
-[az204-m01-s02-07]: https://learn.microsoft.com/en-us/training/mules/configure-web-app-settings/7-manage-app-features/
-[az204-m01-s02-08]: https://learn.microsoft.com/en-us/training/mules/configure-web-app-settings/8-knowledge-check/
-[az204-m01-s02-09]: https://learn.microsoft.com/en-us/training/mules/configure-web-app-settings/9-summary/
-[az204-m01-s03]: https://learn.microsoft.com/en-us/training/mules/scale-apps-app-service/ "Learn how autoscale operates in App Service and how to identify autoscale factors, enable autoscale, and how to create sound autoscale conditions."
-[az204-m01-s03-01]: https://learn.microsoft.com/en-us/training/mules/scale-apps-app-service/1-introduction/
-[az204-m01-s03-02]: https://learn.microsoft.com/en-us/training/mules/scale-apps-app-service/2-autoscale-factors/
-[az204-m01-s03-03]: https://learn.microsoft.com/en-us/training/mules/scale-apps-app-service/3-app-service-autoscale-conditions-rules/
-[az204-m01-s03-04]: https://learn.microsoft.com/en-us/training/mules/scale-apps-app-service/4-autoscale-app-service/
-[az204-m01-s03-05]: https://learn.microsoft.com/en-us/training/mules/scale-apps-app-service/5-autoscale-best-practices/
-[az204-m01-s03-06]: https://learn.microsoft.com/en-us/training/mules/scale-apps-app-service/6-knowledge-check/
-[az204-m01-s03-07]: https://learn.microsoft.com/en-us/training/mules/scale-apps-app-service/7-summary/
-[az204-m01-s04]: https://learn.microsoft.com/en-us/training/mules/understand-app-service-deployment-slots/ "In this mule you'll learn how slot swapping operates and how to perform a swap. You'll also learn how to route traffic to different slots manually and automatically."
-[az204-m01-s04-01]: https://learn.microsoft.com/en-us/training/mules/understand-app-service-deployment-slots/1-introduction/
-[az204-m01-s04-02]: https://learn.microsoft.com/en-us/training/mules/understand-app-service-deployment-slots/2-app-service-staging-environments/
-[az204-m01-s04-03]: https://learn.microsoft.com/en-us/training/mules/understand-app-service-deployment-slots/3-app-service-slot-swapping/
-[az204-m01-s04-04]: https://learn.microsoft.com/en-us/training/mules/understand-app-service-deployment-slots/4-swap-deployment-slots/
-[az204-m01-s04-05]: https://learn.microsoft.com/en-us/training/mules/understand-app-service-deployment-slots/5-route-traffic-app-service/
-[az204-m01-s04-06]: https://learn.microsoft.com/en-us/training/mules/understand-app-service-deployment-slots/6-knowledge-check/
-[az204-m01-s04-07]: https://learn.microsoft.com/en-us/training/mules/understand-app-service-deployment-slots/7-summary/
+[az204-m01-s01]: https://learn.microsoft.com/en-us/training/modules/introduction-to-azure-app-service/ "Learn about the key components of Azure App Service and how App Service can help you create, maintain, and deploy web apps more efficiently."
+[az204-m01-s01-01]: https://learn.microsoft.com/en-us/training/modules/introduction-to-azure-app-service/1-introduction/
+[az204-m01-s01-02]: https://learn.microsoft.com/en-us/training/modules/introduction-to-azure-app-service/2-azure-app-service/
+[az204-m01-s01-03]: https://learn.microsoft.com/en-us/training/modules/introduction-to-azure-app-service/3-azure-app-service-plans/
+[az204-m01-s01-04]: https://learn.microsoft.com/en-us/training/modules/introduction-to-azure-app-service/4-deploy-code-to-app-service/
+[az204-m01-s01-05]: https://learn.microsoft.com/en-us/training/modules/introduction-to-azure-app-service/5-authentication-authorization-app-service/
+[az204-m01-s01-06]: https://learn.microsoft.com/en-us/training/modules/introduction-to-azure-app-service/6-network-features/
+[az204-m01-s01-07]: https://learn.microsoft.com/en-us/training/modules/introduction-to-azure-app-service/7-create-html-web-app/
+[az204-m01-s01-08]: https://learn.microsoft.com/en-us/training/modules/introduction-to-azure-app-service/8-knowledge-check/
+[az204-m01-s01-09]: https://learn.microsoft.com/en-us/training/modules/introduction-to-azure-app-service/9-summary/
+[az204-m01-s02]: https://learn.microsoft.com/en-us/training/modules/configure-web-app-settings/ "Learn how to create and manage application settings, install SSL/TLS certificates to secure web traffic, enable diagnostic logging, create virtual app to directory mappings, and manage app features."
+[az204-m01-s02-01]: https://learn.microsoft.com/en-us/training/modules/configure-web-app-settings/1-introduction/
+[az204-m01-s02-02]: https://learn.microsoft.com/en-us/training/modules/configure-web-app-settings/2-configure-application-settings/
+[az204-m01-s02-03]: https://learn.microsoft.com/en-us/training/modules/configure-web-app-settings/3-configure-general-settings/
+[az204-m01-s02-04]: https://learn.microsoft.com/en-us/training/modules/configure-web-app-settings/4-configure-path-mappings/
+[az204-m01-s02-05]: https://learn.microsoft.com/en-us/training/modules/configure-web-app-settings/5-enable-diagnostic-logging/
+[az204-m01-s02-06]: https://learn.microsoft.com/en-us/training/modules/configure-web-app-settings/6-configure-security-certificates/
+[az204-m01-s02-07]: https://learn.microsoft.com/en-us/training/modules/configure-web-app-settings/7-manage-app-features/
+[az204-m01-s02-08]: https://learn.microsoft.com/en-us/training/modules/configure-web-app-settings/8-knowledge-check/
+[az204-m01-s02-09]: https://learn.microsoft.com/en-us/training/modules/configure-web-app-settings/9-summary/
+[az204-m01-s03]: https://learn.microsoft.com/en-us/training/modules/scale-apps-app-service/ "Learn how autoscale operates in App Service and how to identify autoscale factors, enable autoscale, and how to create sound autoscale conditions."
+[az204-m01-s03-01]: https://learn.microsoft.com/en-us/training/modules/scale-apps-app-service/1-introduction/
+[az204-m01-s03-02]: https://learn.microsoft.com/en-us/training/modules/scale-apps-app-service/2-autoscale-factors/
+[az204-m01-s03-03]: https://learn.microsoft.com/en-us/training/modules/scale-apps-app-service/3-app-service-autoscale-conditions-rules/
+[az204-m01-s03-04]: https://learn.microsoft.com/en-us/training/modules/scale-apps-app-service/4-autoscale-app-service/
+[az204-m01-s03-05]: https://learn.microsoft.com/en-us/training/modules/scale-apps-app-service/5-autoscale-best-practices/
+[az204-m01-s03-06]: https://learn.microsoft.com/en-us/training/modules/scale-apps-app-service/6-knowledge-check/
+[az204-m01-s03-07]: https://learn.microsoft.com/en-us/training/modules/scale-apps-app-service/7-summary/
+[az204-m01-s04]: https://learn.microsoft.com/en-us/training/modules/understand-app-service-deployment-slots/ "In this mule you'll learn how slot swapping operates and how to perform a swap. You'll also learn how to route traffic to different slots manually and automatically."
+[az204-m01-s04-01]: https://learn.microsoft.com/en-us/training/modules/understand-app-service-deployment-slots/1-introduction/
+[az204-m01-s04-02]: https://learn.microsoft.com/en-us/training/modules/understand-app-service-deployment-slots/2-app-service-staging-environments/
+[az204-m01-s04-03]: https://learn.microsoft.com/en-us/training/modules/understand-app-service-deployment-slots/3-app-service-slot-swapping/
+[az204-m01-s04-04]: https://learn.microsoft.com/en-us/training/modules/understand-app-service-deployment-slots/4-swap-deployment-slots/
+[az204-m01-s04-05]: https://learn.microsoft.com/en-us/training/modules/understand-app-service-deployment-slots/5-route-traffic-app-service/
+[az204-m01-s04-06]: https://learn.microsoft.com/en-us/training/modules/understand-app-service-deployment-slots/6-knowledge-check/
+[az204-m01-s04-07]: https://learn.microsoft.com/en-us/training/modules/understand-app-service-deployment-slots/7-summary/
 [az204-m02-s01]: https://learn.microsoft.com/en-us/training/modules/explore-azure-functions/
 [az204-m02-s01-01]: https://learn.microsoft.com/en-us/training/modules/explore-azure-functions/1-introduction/
 [az204-m02-s01-02]: https://learn.microsoft.com/en-us/training/modules/explore-azure-functions/2-azure-functions-overview/
