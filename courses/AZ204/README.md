@@ -34,42 +34,80 @@ Learn how Azure App Service functions and how to create and update an app.
 Explore App Service authentication and authorization, configuring app settings,
 scale apps, and how to use deployment slots.
 
-1. <input type="checkbox" class="box" id="az204-m01-s01" />[Explore Azure App Service][az204-m01-s01]{:target="_blank"}
-   1. <input type="checkbox" class="box" id="az204-m01-s01-01" />[Introduction][az204-m01-s01-01]{:target="_blank"}
-   1. <input type="checkbox" class="box" id="az204-m01-s01-02" />[Examine Azure App Service][az204-m01-s01-02]{:target="_blank"}
-   1. <input type="checkbox" class="box" id="az204-m01-s01-03" />[Examine Azure App Service plans][az204-m01-s01-03]{:target="_blank"}
-   1. <input type="checkbox" class="box" id="az204-m01-s01-04" />[Deploy to App Service][az204-m01-s01-04]{:target="_blank"}
-   1. <input type="checkbox" class="box" id="az204-m01-s01-05" />[Explore authentication and authorization in App Service][az204-m01-s01-05]{:target="_blank"}
-   1. <input type="checkbox" class="box" id="az204-m01-s01-06" />[Discover App Service networking features][az204-m01-s01-06]{:target="_blank"}
-   1. <input type="checkbox" class="box" id="az204-m01-s01-07" />[Exercise: Create a static HTML web app by using Azure Cloud Shell][az204-m01-s01-07]{:target="_blank"}
-   1. <input type="checkbox" class="box" id="az204-m01-s01-08" />[Knowledge check][az204-m01-s01-08]{:target="_blank"}
-   1. <input type="checkbox" class="box" id="az204-m01-s01-09" />[Summary][az204-m01-s01-09]{:target="_blank"}
-1. <input type="checkbox" class="box" id="az204-m01-s02" />[Configure web app settings][az204-m01-s02]{:target="_blank"}
-   1. <input type="checkbox" class="box" id="az204-m01-s02-01" />[Introduction][az204-m01-s02-01]{:target="_blank"}
-   1. <input type="checkbox" class="box" id="az204-m01-s02-02" />[Configure application settings][az204-m01-s02-02]{:target="_blank"}
-   1. <input type="checkbox" class="box" id="az204-m01-s02-03" />[Configure general settings][az204-m01-s02-03]{:target="_blank"}
-   1. <input type="checkbox" class="box" id="az204-m01-s02-04" />[Configure path mappings][az204-m01-s02-04]{:target="_blank"}
-   1. <input type="checkbox" class="box" id="az204-m01-s02-05" />[Enable diagnostic logging][az204-m01-s02-05]{:target="_blank"}
-   1. <input type="checkbox" class="box" id="az204-m01-s02-06" />[Configure security certificates][az204-m01-s02-06]{:target="_blank"}
-   1. <input type="checkbox" class="box" id="az204-m01-s02-07" />[Manage app features][az204-m01-s02-07]{:target="_blank"}
-   1. <input type="checkbox" class="box" id="az204-m01-s02-08" />[Knowledge check][az204-m01-s02-08]{:target="_blank"}
-   1. <input type="checkbox" class="box" id="az204-m01-s02-09" />[Summary][az204-m01-s02-09]{:target="_blank"}
-1. <input type="checkbox" class="box" id="az204-m01-s03" />[Scale apps in Azure App Service][az204-m01-s03]{:target="_blank"}
-   1. <input type="checkbox" class="box" id="az204-m01-s03-01" />[Introduction][az204-m01-s03-01]{:target="_blank"}
-   1. <input type="checkbox" class="box" id="az204-m01-s03-02" />[Examine autoscale factors][az204-m01-s03-02]{:target="_blank"}
-   1. <input type="checkbox" class="box" id="az204-m01-s03-03" />[Identify autoscale factors][az204-m01-s03-03]{:target="_blank"}
-   1. <input type="checkbox" class="box" id="az204-m01-s03-04" />[Enable autoscale in App Service][az204-m01-s03-04]{:target="_blank"}
-   1. <input type="checkbox" class="box" id="az204-m01-s03-05" />[Explore autoscale best practices][az204-m01-s03-05]{:target="_blank"}
-   1. <input type="checkbox" class="box" id="az204-m01-s03-06" />[Knowledge check][az204-m01-s03-06]{:target="_blank"}
-   1. <input type="checkbox" class="box" id="az204-m01-s03-07" />[Summary][az204-m01-s03-07]{:target="_blank"}
-1. <input type="checkbox" class="box" id="az204-m01-s04" />[Explore Azure App Service deployment slots][az204-m01-s04]{:target="_blank"}
-   1. <input type="checkbox" class="box" id="az204-m01-s04-01" />[Introduction][az204-m01-s04-01]{:target="_blank"}
-   1. <input type="checkbox" class="box" id="az204-m01-s04-02" />[Explore staging environments][az204-m01-s04-02]{:target="_blank"}
-   1. <input type="checkbox" class="box" id="az204-m01-s04-03" />[Examine slot swapping][az204-m01-s04-03]{:target="_blank"}
-   1. <input type="checkbox" class="box" id="az204-m01-s04-04" />[Swap deployment slots][az204-m01-s04-04]{:target="_blank"}
-   1. <input type="checkbox" class="box" id="az204-m01-s04-05" />[Route traffic in App Service][az204-m01-s04-05]{:target="_blank"}
-   1. <input type="checkbox" class="box" id="az204-m01-s04-06" />[Knowledge check][az204-m01-s04-06]{:target="_blank"}
-   1. <input type="checkbox" class="box" id="az204-m01-s04-07" />[Summary][az204-m01-s04-07]{:target="_blank"}
+1. <input type="checkbox" class="box" id="az204-m01-s01" />[Explore Azure App
+   Service][az204-m01-s01]{:target="_blank"}
+   1. <input type="checkbox" class="box" id="az204-m01-s01-01" />[Introduction
+      ][az204-m01-s01-01]{:target="_blank"}
+   1. <input type="checkbox" class="box" id="az204-m01-s01-02" />[Examine Azure
+      App Service][az204-m01-s01-02]{:target="_blank"}
+   1. <input type="checkbox" class="box" id="az204-m01-s01-03" />[Examine Azure
+      App Service plans][az204-m01-s01-03]{:target="_blank"}
+   1. <input type="checkbox" class="box" id="az204-m01-s01-04" />[Deploy to App
+      Service][az204-m01-s01-04]{:target="_blank"}
+   1. <input type="checkbox" class="box" id="az204-m01-s01-05" />[Explore
+      authentication and authorization in App
+      Service][az204-m01-s01-05]{:target="_blank"}
+   1. <input type="checkbox" class="box" id="az204-m01-s01-06" />[Discover App
+      Service networking features][az204-m01-s01-06]{:target="_blank"}
+   1. <input type="checkbox" class="box" id="az204-m01-s01-07" />[Exercise:
+      Create a static HTML web app by using Azure Cloud
+      Shell][az204-m01-s01-07]{:target="_blank"}
+   1. <input type="checkbox" class="box" id="az204-m01-s01-08" />[Knowledge
+      check][az204-m01-s01-08]{:target="_blank"}
+   1. <input type="checkbox" class="box" id="az204-m01-s01-09" />[Summary
+      ][az204-m01-s01-09]{:target="_blank"}
+1. <input type="checkbox" class="box" id="az204-m01-s02" />[Configure web app
+   settings][az204-m01-s02]{:target="_blank"}
+   1. <input type="checkbox" class="box" id="az204-m01-s02-01" />[Introduction
+      ][az204-m01-s02-01]{:target="_blank"}
+   1. <input type="checkbox" class="box" id="az204-m01-s02-02" />[Configure
+      application settings][az204-m01-s02-02]{:target="_blank"}
+   1. <input type="checkbox" class="box" id="az204-m01-s02-03" />[Configure
+      general settings][az204-m01-s02-03]{:target="_blank"}
+   1. <input type="checkbox" class="box" id="az204-m01-s02-04" />[Configure path
+      mappings][az204-m01-s02-04]{:target="_blank"}
+   1. <input type="checkbox" class="box" id="az204-m01-s02-05" />[Enable
+      diagnostic logging][az204-m01-s02-05]{:target="_blank"}
+   1. <input type="checkbox" class="box" id="az204-m01-s02-06" />[Configure
+      security certificates][az204-m01-s02-06]{:target="_blank"}
+   1. <input type="checkbox" class="box" id="az204-m01-s02-07" />[Manage app
+      features][az204-m01-s02-07]{:target="_blank"}
+   1. <input type="checkbox" class="box" id="az204-m01-s02-08" />[Knowledge
+      check][az204-m01-s02-08]{:target="_blank"}
+   1. <input type="checkbox" class="box" id="az204-m01-s02-09" />[Summary
+      ][az204-m01-s02-09]{:target="_blank"}
+1. <input type="checkbox" class="box" id="az204-m01-s03" />[Scale apps in Azure
+   App Service][az204-m01-s03]{:target="_blank"}
+   1. <input type="checkbox" class="box" id="az204-m01-s03-01" />[Introduction
+      ][az204-m01-s03-01]{:target="_blank"}
+   1. <input type="checkbox" class="box" id="az204-m01-s03-02" />[Examine
+      autoscale factors][az204-m01-s03-02]{:target="_blank"}
+   1. <input type="checkbox" class="box" id="az204-m01-s03-03" />[Identify
+      autoscale factors][az204-m01-s03-03]{:target="_blank"}
+   1. <input type="checkbox" class="box" id="az204-m01-s03-04" />[Enable
+      autoscale in App Service][az204-m01-s03-04]{:target="_blank"}
+   1. <input type="checkbox" class="box" id="az204-m01-s03-05" />[Explore
+      autoscale best practices][az204-m01-s03-05]{:target="_blank"}
+   1. <input type="checkbox" class="box" id="az204-m01-s03-06" />[Knowledge
+      check][az204-m01-s03-06]{:target="_blank"}
+   1. <input type="checkbox" class="box" id="az204-m01-s03-07" />[Summary
+      ][az204-m01-s03-07]{:target="_blank"}
+1. <input type="checkbox" class="box" id="az204-m01-s04" />[Explore Azure App
+   Service deployment slots][az204-m01-s04]{:target="_blank"}
+   1. <input type="checkbox" class="box" id="az204-m01-s04-01" />[Introduction
+      ][az204-m01-s04-01]{:target="_blank"}
+   1. <input type="checkbox" class="box" id="az204-m01-s04-02" />[Explore
+      staging environments][az204-m01-s04-02]{:target="_blank"}
+   1. <input type="checkbox" class="box" id="az204-m01-s04-03" />[Examine slot
+      swapping][az204-m01-s04-03]{:target="_blank"}
+   1. <input type="checkbox" class="box" id="az204-m01-s04-04" />[Swap
+      deployment slots][az204-m01-s04-04]{:target="_blank"}
+   1. <input type="checkbox" class="box" id="az204-m01-s04-05" />[Route traffic
+      in App Service][az204-m01-s04-05]{:target="_blank"}
+   1. <input type="checkbox" class="box" id="az204-m01-s04-06" />[Knowledge
+      check][az204-m01-s04-06]{:target="_blank"}
+   1. <input type="checkbox" class="box" id="az204-m01-s04-07" />[Summary
+      ][az204-m01-s04-07]{:target="_blank"}
 
 ---
 
@@ -79,31 +117,56 @@ Learn how to create and deploy Azure Functions. Explore hosting options,
 bindings, triggers, and how to use Durable Functions to define stateful
 workflows.
 
-1. <input type="checkbox" class="box" id="az204-m02-s01" />[Explore Azure Functions][az204-m02-s01]
-   1. <input type="checkbox" class="box" id="az204-m02-s01-01" />[Introduction][az204-m02-s01-01]
-   1. <input type="checkbox" class="box" id="az204-m02-s01-02" />[Discover Azure Functions][az204-m02-s01-02]
-   1. <input type="checkbox" class="box" id="az204-m02-s01-03" />[Compare Azure Functions hosting options][az204-m02-s01-03]
-   1. <input type="checkbox" class="box" id="az204-m02-s01-04" />[Scale Azure Functions][az204-m02-s01-04]
-   1. <input type="checkbox" class="box" id="az204-m02-s01-05" />[Knowledge check][az204-m02-s01-05]
-   1. <input type="checkbox" class="box" id="az204-m02-s01-06" />[Summary][az204-m02-s01-06]
-1. <input type="checkbox" class="box" id="az204-m02-s02" />[Develop Azure Functions][az204-m02-s02]
-   1. <input type="checkbox" class="box" id="az204-m02-s02-01" />[Introduction][az204-m02-s02-01]
-   1. <input type="checkbox" class="box" id="az204-m02-s02-02" />[Explore Azure Functions development][az204-m02-s02-02]
-   1. <input type="checkbox" class="box" id="az204-m02-s02-03" />[Create triggers and bindings][az204-m02-s02-03]
-   1. <input type="checkbox" class="box" id="az204-m02-s02-04" />[Connect functions to Azure services][az204-m02-s02-04]
-   1. <input type="checkbox" class="box" id="az204-m02-s02-05" />[Exercise: Create an Azure Function by using VS Code][az204-m02-s02-05]
-   1. <input type="checkbox" class="box" id="az204-m02-s02-06" />[Knowledge check][az204-m02-s02-06]
-   1. <input type="checkbox" class="box" id="az204-m02-s02-07" />[Summary][az204-m02-s02-07]
-1. <input type="checkbox" class="box" id="az204-m02-s03" />[Implement Durable Functions][az204-m02-s03]
-   1. <input type="checkbox" class="box" id="az204-m02-s03-01" />[Introduction][az204-m02-s03-01]
-   1. <input type="checkbox" class="box" id="az204-m02-s03-02" />[Explore Durable Functions app patterns][az204-m02-s03-02]
-   1. <input type="checkbox" class="box" id="az204-m02-s03-03" />[Discover the four function types][az204-m02-s03-03]
-   1. <input type="checkbox" class="box" id="az204-m02-s03-04" />[Explore task hubs][az204-m02-s03-04]
-   1. <input type="checkbox" class="box" id="az204-m02-s03-05" />[Explore durable orchestrations][az204-m02-s03-05]
-   1. <input type="checkbox" class="box" id="az204-m02-s03-06" />[Control timing in Durable Functions][az204-m02-s03-06]
-   1. <input type="checkbox" class="box" id="az204-m02-s03-07" />[Send and wait for events][az204-m02-s03-07]
-   1. <input type="checkbox" class="box" id="az204-m02-s03-08" />[Knowledge check][az204-m02-s03-08]
-   1. <input type="checkbox" class="box" id="az204-m02-s03-09" />[Summary][az204-m02-s03-09]
+1. <input type="checkbox" class="box" id="az204-m02-s01" />[Explore Azure
+   Functions][az204-m02-s01]
+   1. <input type="checkbox" class="box" id="az204-m02-s01-01" />[Introduction
+      ][az204-m02-s01-01]
+   1. <input type="checkbox" class="box" id="az204-m02-s01-02" />[Discover Azure
+      Functions][az204-m02-s01-02]
+   1. <input type="checkbox" class="box" id="az204-m02-s01-03" />[Compare Azure
+      Functions hosting options][az204-m02-s01-03]
+   1. <input type="checkbox" class="box" id="az204-m02-s01-04" />[Scale Azure
+      Functions][az204-m02-s01-04]
+   1. <input type="checkbox" class="box" id="az204-m02-s01-05" />[Knowledge
+      check][az204-m02-s01-05]
+   1. <input type="checkbox" class="box" id="az204-m02-s01-06" />[Summary
+      ][az204-m02-s01-06]
+1. <input type="checkbox" class="box" id="az204-m02-s02" />[Develop Azure
+   Functions][az204-m02-s02]
+   1. <input type="checkbox" class="box" id="az204-m02-s02-01" />[Introduction
+      ][az204-m02-s02-01]
+   1. <input type="checkbox" class="box" id="az204-m02-s02-02" />[Explore Azure
+      Functions development][az204-m02-s02-02]
+   1. <input type="checkbox" class="box" id="az204-m02-s02-03" />[Create
+      triggers and bindings][az204-m02-s02-03]
+   1. <input type="checkbox" class="box" id="az204-m02-s02-04" />[Connect
+      functions to Azure services][az204-m02-s02-04]
+   1. <input type="checkbox" class="box" id="az204-m02-s02-05" />[Exercise:
+      Create an Azure Function by using VS Code][az204-m02-s02-05]
+   1. <input type="checkbox" class="box" id="az204-m02-s02-06" />[Knowledge
+      check][az204-m02-s02-06]
+   1. <input type="checkbox" class="box" id="az204-m02-s02-07" />[Summary
+      ][az204-m02-s02-07]
+1. <input type="checkbox" class="box" id="az204-m02-s03" />[Implement Durable
+   Functions][az204-m02-s03]
+   1. <input type="checkbox" class="box" id="az204-m02-s03-01" />[Introduction
+      ][az204-m02-s03-01]
+   1. <input type="checkbox" class="box" id="az204-m02-s03-02" />[Explore
+      Durable Functions app patterns][az204-m02-s03-02]
+   1. <input type="checkbox" class="box" id="az204-m02-s03-03" />[Discover the
+      four function types][az204-m02-s03-03]
+   1. <input type="checkbox" class="box" id="az204-m02-s03-04" />[Explore task
+      hubs][az204-m02-s03-04]
+   1. <input type="checkbox" class="box" id="az204-m02-s03-05" />[Explore
+      durable orchestrations][az204-m02-s03-05]
+   1. <input type="checkbox" class="box" id="az204-m02-s03-06" />[Control
+      timing in Durable Functions][az204-m02-s03-06]
+   1. <input type="checkbox" class="box" id="az204-m02-s03-07" />[Send and wait
+      for events][az204-m02-s03-07]
+   1. <input type="checkbox" class="box" id="az204-m02-s03-08" />[Knowledge
+      check][az204-m02-s03-08]
+   1. <input type="checkbox" class="box" id="az204-m02-s03-09" />[Summary
+      ][az204-m02-s03-09]
 
 ---
 
