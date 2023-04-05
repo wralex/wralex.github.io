@@ -176,31 +176,58 @@ Learn how to create Azure Blob storage resources, manage data through the blob
 storage lifecycle, and work with containers and items by using the Azure Blob
 storage client library V12 for .NET.
 
-1. <input type="checkbox" class="box" id="az204-m03-s01" />[Explore Azure Blob storage][az204-m03-01]
-   1. <input type="checkbox" class="box" id="az204-m03-s01-01" />[Introduction][az204-m03-01-01]
-   1. <input type="checkbox" class="box" id="az204-m03-s01-02" />[Explore Azure Blob storage][az204-m03-01-02]
-   1. <input type="checkbox" class="box" id="az204-m03-s01-03" />[Discover Azure Blob storage resource types][az204-m03-01-03]
-   1. <input type="checkbox" class="box" id="az204-m03-s01-04" />[Explore Azure Storage security features][az204-m03-01-04]
-   1. <input type="checkbox" class="box" id="az204-m03-s01-05" />[Evaluate Azure Storage redundancy options][az204-m03-01-05]
-   1. <input type="checkbox" class="box" id="az204-m03-s01-06" />[Exercise: Create a block blob storage account][az204-m03-01-06]
-   1. <input type="checkbox" class="box" id="az204-m03-s01-07" />[Knowledge check][az204-m03-01-07]
-   1. <input type="checkbox" class="box" id="az204-m03-s01-08" />[Summary][az204-m03-01-08]
-1. <input type="checkbox" class="box" id="az204-m03-s02" />[Manage the Azure Blob storage lifecycle][az204-m03-02]
-   1. <input type="checkbox" class="box" id="az204-m03-s02-01" />[Introduction][az204-m03-02-01]
-   1. <input type="checkbox" class="box" id="az204-m03-s02-02" />[Explore the Azure Blob storage lifecycle][az204-m03-02-02]
-   1. <input type="checkbox" class="box" id="az204-m03-s02-03" />[Discover Blob storage lifecycle policies][az204-m03-02-03]
-   1. <input type="checkbox" class="box" id="az204-m03-s02-04" />[Implement Blob storage lifecycle policies][az204-m03-02-04]
-   1. <input type="checkbox" class="box" id="az204-m03-s02-05" />[Rehydrate blob data from the archive tier][az204-m03-02-05]
-   1. <input type="checkbox" class="box" id="az204-m03-s02-06" />[Knowledge check][az204-m03-02-06]
-   1. <input type="checkbox" class="box" id="az204-m03-s02-07" />[Summary][az204-m03-02-07]
-1. <input type="checkbox" class="box" id="az204-m03-s03" />[Work with Azure Blob storage][az204-m03-03]
-   1. <input type="checkbox" class="box" id="az204-m03-s03-01" />[Introduction][az204-m03-03-01]
-   1. <input type="checkbox" class="box" id="az204-m03-s03-02" />[Explore Azure Blob storage client library][az204-m03-03-02]
-   1. <input type="checkbox" class="box" id="az204-m03-s03-03" />[Exercise: Create Blob storage resources by using the .NET client library][az204-m03-03-03]
-   1. <input type="checkbox" class="box" id="az204-m03-s03-04" />[Manage container properties and metadata by using .NET][az204-m03-03-04]
-   1. <input type="checkbox" class="box" id="az204-m03-s03-05" />[Set and retrieve properties and metadata for blob resources by using REST][az204-m03-03-05]
-   1. <input type="checkbox" class="box" id="az204-m03-s03-06" />[Knowledge check][az204-m03-03-06]
-   1. <input type="checkbox" class="box" id="az204-m03-s03-07" />[Summary][az204-m03-03-07]
+1. <input type="checkbox" class="box" id="az204-m03-s01" />[Explore Azure Blob
+   storage][az204-m03-01]
+   1. <input type="checkbox" class="box" id="az204-m03-s01-01" />[Introduction
+      ][az204-m03-01-01]
+   1. <input type="checkbox" class="box" id="az204-m03-s01-02" />[Explore Azure
+      Blob storage][az204-m03-01-02]
+   1. <input type="checkbox" class="box" id="az204-m03-s01-03" />[Discover
+      Azure Blob storage resource types][az204-m03-01-03]
+   1. <input type="checkbox" class="box" id="az204-m03-s01-04" />[Explore Azure
+      Storage security features][az204-m03-01-04]
+   1. <input type="checkbox" class="box" id="az204-m03-s01-05" />[Evaluate
+      Azure Storage redundancy options][az204-m03-01-05]
+   1. <input type="checkbox" class="box" id="az204-m03-s01-06" />[Exercise:
+      Create a block blob storage account][az204-m03-01-06]
+   1. <input type="checkbox" class="box" id="az204-m03-s01-07" />[Knowledge
+      check][az204-m03-01-07]
+   1. <input type="checkbox" class="box" id="az204-m03-s01-08" />[Summary
+      ][az204-m03-01-08]
+1. <input type="checkbox" class="box" id="az204-m03-s02" />[Manage the Azure
+   Blob storage lifecycle][az204-m03-02]
+   1. <input type="checkbox" class="box" id="az204-m03-s02-01" />[Introduction
+      ][az204-m03-02-01]
+   1. <input type="checkbox" class="box" id="az204-m03-s02-02" />[Explore the
+      Azure Blob storage lifecycle][az204-m03-02-02]
+   1. <input type="checkbox" class="box" id="az204-m03-s02-03" />[Discover Blob
+      storage lifecycle policies][az204-m03-02-03]
+   1. <input type="checkbox" class="box" id="az204-m03-s02-04" />[Implement
+      Blob storage lifecycle policies][az204-m03-02-04]
+   1. <input type="checkbox" class="box" id="az204-m03-s02-05" />[Rehydrate
+      blob data from the archive tier][az204-m03-02-05]
+   1. <input type="checkbox" class="box" id="az204-m03-s02-06" />[Knowledge
+      check][az204-m03-02-06]
+   1. <input type="checkbox" class="box" id="az204-m03-s02-07" />[Summary
+      ][az204-m03-02-07]
+1. <input type="checkbox" class="box" id="az204-m03-s03" />[Work with Azure
+   Blob storage][az204-m03-03]
+   1. <input type="checkbox" class="box" id="az204-m03-s03-01" />[Introduction
+      ][az204-m03-03-01]
+   1. <input type="checkbox" class="box" id="az204-m03-s03-02" />[Explore Azure
+      Blob storage client library][az204-m03-03-02]
+   1. <input type="checkbox" class="box" id="az204-m03-s03-03" />[Exercise:
+      Create Blob storage resources by using the .NET client
+      library][az204-m03-03-03]
+   1. <input type="checkbox" class="box" id="az204-m03-s03-04" />[Manage
+      container properties and metadata by using .NET][az204-m03-03-04]
+   1. <input type="checkbox" class="box" id="az204-m03-s03-05" />[Set and
+      retrieve properties and metadata for blob resources by using
+      REST][az204-m03-03-05]
+   1. <input type="checkbox" class="box" id="az204-m03-s03-06" />[Knowledge
+      check][az204-m03-03-06]
+   1. <input type="checkbox" class="box" id="az204-m03-s03-07" />[Summary
+      ][az204-m03-03-07]
 
 ---
 
@@ -210,32 +237,59 @@ Learn how to create Azure Cosmos DB resources with the appropriate consistency
 levels, choose and create a partition key, and perform data operations by using
 the .NET SDK V3 for Azure Cosmos DB.
 
-1. <input type="checkbox" class="box" id="az204-m04-s01" />[Explore Azure Cosmos DB][az204-m04-s01]
-   1. <input type="checkbox" class="box" id="az204-m04-s01-01" />[Introduction][az204-m04-s01-01]
-   1. <input type="checkbox" class="box" id="az204-m04-s01-02" />[Identify key benefits of Azure Cosmos DB][az204-m04-s01-02]
-   1. <input type="checkbox" class="box" id="az204-m04-s01-03" />[Explore the resource hierarchy][az204-m04-s01-03]
-   1. <input type="checkbox" class="box" id="az204-m04-s01-04" />[Explore consistency levels][az204-m04-s01-04]
-   1. <input type="checkbox" class="box" id="az204-m04-s01-05" />[Choose the right consistency level][az204-m04-s01-05]
-   1. <input type="checkbox" class="box" id="az204-m04-s01-06" />[Explore supported APIs][az204-m04-s01-06]
-   1. <input type="checkbox" class="box" id="az204-m04-s01-07" />[Discover request units][az204-m04-s01-07]
-   1. <input type="checkbox" class="box" id="az204-m04-s01-08" />[Exercise: Create Azure Cosmos DB resources by using the Azure portal][az204-m04-s01-08]
-   1. <input type="checkbox" class="box" id="az204-m04-s01-09" />[Knowledge check][az204-m04-s01-09]
-   1. <input type="checkbox" class="box" id="az204-m04-s01-10" />[Summary][az204-m04-s01-10]
-1. <input type="checkbox" class="box" id="az204-m04-s02" />[Implement partitioning in Azure Cosmos DB][az204-m04-s02]
-   1. <input type="checkbox" class="box" id="az204-m04-s02-01" />[Introduction][az204-m04-s02-01]
-   1. <input type="checkbox" class="box" id="az204-m04-s02-02" />[Explore partitions][az204-m04-s02-02]
-   1. <input type="checkbox" class="box" id="az204-m04-s02-03" />[Choose a partition key][az204-m04-s02-03]
-   1. <input type="checkbox" class="box" id="az204-m04-s02-04" />[Create a synthetic partition key][az204-m04-s02-04]
-   1. <input type="checkbox" class="box" id="az204-m04-s02-05" />[Knowledge check][az204-m04-s02-05]
-   1. <input type="checkbox" class="box" id="az204-m04-s02-06" />[Summary][az204-m04-s02-06]
-1. <input type="checkbox" class="box" id="az204-m04-s03" />[Work with Azure Cosmos DB][az204-m04-s03]
-   1. <input type="checkbox" class="box" id="az204-m04-s03-01" />[Introduction][az204-m04-s03-01]
-   1. <input type="checkbox" class="box" id="az204-m04-s03-02" />[Explore Microsoft .NET SDK v3 for Azure Cosmos DB][az204-m04-s03-02]
-   1. <input type="checkbox" class="box" id="az204-m04-s03-03" />[Exercise: Create resources by using the Microsoft .NET SDK v3][az204-m04-s03-03]
-   1. <input type="checkbox" class="box" id="az204-m04-s03-04" />[Create stored procedures][az204-m04-s03-04]
-   1. <input type="checkbox" class="box" id="az204-m04-s03-05" />[Create triggers and user-defined functions][az204-m04-s03-05]
-   1. <input type="checkbox" class="box" id="az204-m04-s03-06" />[Knowledge check][az204-m04-s03-06]
-   1. <input type="checkbox" class="box" id="az204-m04-s03-07" />[Summary][az204-m04-s03-07]
+1. <input type="checkbox" class="box" id="az204-m04-s01" />[Explore Azure
+   Cosmos DB][az204-m04-s01]
+   1. <input type="checkbox" class="box" id="az204-m04-s01-01" />[Introduction
+      ][az204-m04-s01-01]
+   1. <input type="checkbox" class="box" id="az204-m04-s01-02" />[Identify key
+      benefits of Azure Cosmos DB][az204-m04-s01-02]
+   1. <input type="checkbox" class="box" id="az204-m04-s01-03" />[Explore the
+      resource hierarchy][az204-m04-s01-03]
+   1. <input type="checkbox" class="box" id="az204-m04-s01-04" />[Explore
+      consistency levels][az204-m04-s01-04]
+   1. <input type="checkbox" class="box" id="az204-m04-s01-05" />[Choose the
+      right consistency level][az204-m04-s01-05]
+   1. <input type="checkbox" class="box" id="az204-m04-s01-06" />[Explore
+      supported APIs][az204-m04-s01-06]
+   1. <input type="checkbox" class="box" id="az204-m04-s01-07" />[Discover
+      request units][az204-m04-s01-07]
+   1. <input type="checkbox" class="box" id="az204-m04-s01-08" />[Exercise:
+      Create Azure Cosmos DB resources by using the Azure
+      portal][az204-m04-s01-08]
+   1. <input type="checkbox" class="box" id="az204-m04-s01-09" />[Knowledge
+      check][az204-m04-s01-09]
+   1. <input type="checkbox" class="box" id="az204-m04-s01-10" />[Summary
+      ][az204-m04-s01-10]
+1. <input type="checkbox" class="box" id="az204-m04-s02" />[Implement
+   partitioning in Azure Cosmos DB][az204-m04-s02]
+   1. <input type="checkbox" class="box" id="az204-m04-s02-01" />[Introduction
+      ][az204-m04-s02-01]
+   1. <input type="checkbox" class="box" id="az204-m04-s02-02" />[Explore
+      partitions][az204-m04-s02-02]
+   1. <input type="checkbox" class="box" id="az204-m04-s02-03" />[Choose a
+      partition key][az204-m04-s02-03]
+   1. <input type="checkbox" class="box" id="az204-m04-s02-04" />[Create a
+      synthetic partition key][az204-m04-s02-04]
+   1. <input type="checkbox" class="box" id="az204-m04-s02-05" />[Knowledge
+      check][az204-m04-s02-05]
+   1. <input type="checkbox" class="box" id="az204-m04-s02-06" />[Summary
+      ][az204-m04-s02-06]
+1. <input type="checkbox" class="box" id="az204-m04-s03" />[Work with Azure
+   Cosmos DB][az204-m04-s03]
+   1. <input type="checkbox" class="box" id="az204-m04-s03-01" />[Introduction
+      ][az204-m04-s03-01]
+   1. <input type="checkbox" class="box" id="az204-m04-s03-02" />[Explore
+      Microsoft .NET SDK v3 for Azure Cosmos DB][az204-m04-s03-02]
+   1. <input type="checkbox" class="box" id="az204-m04-s03-03" />[Exercise:
+      Create resources by using the Microsoft .NET SDK v3][az204-m04-s03-03]
+   1. <input type="checkbox" class="box" id="az204-m04-s03-04" />[Create stored
+      procedures][az204-m04-s03-04]
+   1. <input type="checkbox" class="box" id="az204-m04-s03-05" />[Create
+      triggers and user-defined functions][az204-m04-s03-05]
+   1. <input type="checkbox" class="box" id="az204-m04-s03-06" />[Knowledge
+      check][az204-m04-s03-06]
+   1. <input type="checkbox" class="box" id="az204-m04-s03-07" />[Summary
+      ][az204-m04-s03-07]
 
 ---
 
@@ -244,41 +298,78 @@ the .NET SDK V3 for Azure Cosmos DB.
 Learn how to create and deploy virtual machine, deploy resources using Azure
 Resource Manager templates, and manage and deploy containers.
 
-1. <input type="checkbox" class="box" id="az204-m05-S01" />[Provision virtual machines in Azure][az204-m05-S01]
-   1. <input type="checkbox" class="box" id="az204-m05-s01-01" />[Introduction][az204-m05-S01-01]
-   1. <input type="checkbox" class="box" id="az204-m05-s01-02" />[Explore Azure virtual machines][az204-m05-S01-02]
-   1. <input type="checkbox" class="box" id="az204-m05-s01-03" />[Compare virtual machine availability options][az204-m05-S01-03]
-   1. <input type="checkbox" class="box" id="az204-m05-s01-04" />[Determine appropriate virtual machine size][az204-m05-S01-04]
-   1. <input type="checkbox" class="box" id="az204-m05-s01-05" />[Exercise: Create a virtual machine by using the Azure CLI][az204-m05-S01-05]
-   1. <input type="checkbox" class="box" id="az204-m05-s01-06" />[Knowledge check][az204-m05-S01-06]
-   1. <input type="checkbox" class="box" id="az204-m05-s01-07" />[Summary][az204-m05-S01-07]
-1. <input type="checkbox" class="box" id="az204-m05-s02" />[Create and deploy Azure Resource Manager templates][az204-m05-S02]
-   1. <input type="checkbox" class="box" id="az204-m05-s02-01" />[Introduction][az204-m05-S02-01]
-   1. <input type="checkbox" class="box" id="az204-m05-s02-02" />[Explore Azure Resource Manager][az204-m05-S02-02]
-   1. <input type="checkbox" class="box" id="az204-m05-s02-03" />[Deploy multi-tiered solutions][az204-m05-S02-03]
-   1. <input type="checkbox" class="box" id="az204-m05-s02-04" />[Explore conditional deployment][az204-m05-S02-04]
-   1. <input type="checkbox" class="box" id="az204-m05-s02-05" />[Set the correct deployment mode][az204-m05-S02-05]
-   1. <input type="checkbox" class="box" id="az204-m05-s02-06" />[Exercise: Create and deploy Azure Resource Manager templates by using VS Code][az204-m05-S02-06]
-   1. <input type="checkbox" class="box" id="az204-m05-s02-07" />[Knowledge check][az204-m05-S02-07]
-   1. <input type="checkbox" class="box" id="az204-m05-s02-08" />[Summary][az204-m05-S02-08]
-1. <input type="checkbox" class="box" id="az204-m05-s03" />[Manage container images in Azure Container Registry][az204-m05-S03]
-   1. <input type="checkbox" class="box" id="az204-m05-s03-01" />[Introduction][az204-m05-S03-01]
-   1. <input type="checkbox" class="box" id="az204-m05-s03-02" />[Discover the Azure Container Registry][az204-m05-S03-02]
-   1. <input type="checkbox" class="box" id="az204-m05-s03-03" />[Explore storage capabilities][az204-m05-S03-03]
-   1. <input type="checkbox" class="box" id="az204-m05-s03-04" />[Build and manage containers with tasks][az204-m05-S03-04]
-   1. <input type="checkbox" class="box" id="az204-m05-s03-05" />[Explore elements of a Dockerfile][az204-m05-S03-05]
-   1. <input type="checkbox" class="box" id="az204-m05-s03-06" />[Exercise: Build and run a container image by using Azure Container Registry Tasks][az204-m05-S03-06]
-   1. <input type="checkbox" class="box" id="az204-m05-s03-07" />[Knowledge check][az204-m05-S03-07]
-   1. <input type="checkbox" class="box" id="az204-m05-s03-08" />[Summary][az204-m05-S03-08]
-1. <input type="checkbox" class="box" id="az204-m05-s04" />[Run container images in Azure Container Instances][az204-m05-S04]
-   1. <input type="checkbox" class="box" id="az204-m05-s04-01" />[Introduction][az204-m05-S04-01]
-   1. <input type="checkbox" class="box" id="az204-m05-s04-02" />[Explore Azure Container Instances][az204-m05-S04-02]
-   1. <input type="checkbox" class="box" id="az204-m05-s04-03" />[Exercise: Deploy a container instance by using the Azure CLI][az204-m05-S04-03]
-   1. <input type="checkbox" class="box" id="az204-m05-s04-04" />[Run containerized tasks with restart policies][az204-m05-S04-04]
-   1. <input type="checkbox" class="box" id="az204-m05-s04-05" />[Set environment variables in container instances][az204-m05-S04-05]
-   1. <input type="checkbox" class="box" id="az204-m05-s04-06" />[Mount an Azure file share in Azure Container Instances][az204-m05-S04-06]
-   1. <input type="checkbox" class="box" id="az204-m05-s04-07" />[Knowledge check][az204-m05-S04-07]
-   1. <input type="checkbox" class="box" id="az204-m05-s04-08" />[Summary][az204-m05-S04-08]
+1. <input type="checkbox" class="box" id="az204-m05-S01" />[Provision virtual
+   machines in Azure][az204-m05-S01]
+   1. <input type="checkbox" class="box" id="az204-m05-s01-01" />[Introduction
+      ][az204-m05-S01-01]
+   1. <input type="checkbox" class="box" id="az204-m05-s01-02" />[Explore
+      Azure virtual machines][az204-m05-S01-02]
+   1. <input type="checkbox" class="box" id="az204-m05-s01-03" />[Compare
+      virtual machine availability options][az204-m05-S01-03]
+   1. <input type="checkbox" class="box" id="az204-m05-s01-04" />[Determine
+      appropriate virtual machine size][az204-m05-S01-04]
+   1. <input type="checkbox" class="box" id="az204-m05-s01-05" />[Exercise:
+      Create a virtual machine by using the Azure CLI][az204-m05-S01-05]
+   1. <input type="checkbox" class="box" id="az204-m05-s01-06" />[Knowledge
+      check][az204-m05-S01-06]
+   1. <input type="checkbox" class="box" id="az204-m05-s01-07" />[Summary
+      ][az204-m05-S01-07]
+1. <input type="checkbox" class="box" id="az204-m05-s02" />[Create and deploy
+   Azure Resource Manager templates][az204-m05-S02]
+   1. <input type="checkbox" class="box" id="az204-m05-s02-01" />[Introduction
+      ][az204-m05-S02-01]
+   1. <input type="checkbox" class="box" id="az204-m05-s02-02" />[Explore Azure
+      Resource Manager][az204-m05-S02-02]
+   1. <input type="checkbox" class="box" id="az204-m05-s02-03" />[Deploy
+      multi-tiered solutions][az204-m05-S02-03]
+   1. <input type="checkbox" class="box" id="az204-m05-s02-04" />[Explore
+      conditional deployment][az204-m05-S02-04]
+   1. <input type="checkbox" class="box" id="az204-m05-s02-05" />[Set the
+      correct deployment mode][az204-m05-S02-05]
+   1. <input type="checkbox" class="box" id="az204-m05-s02-06" />[Exercise:
+      Create and deploy Azure Resource Manager templates by using VS
+      Code][az204-m05-S02-06]
+   1. <input type="checkbox" class="box" id="az204-m05-s02-07" />[Knowledge
+      check][az204-m05-S02-07]
+   1. <input type="checkbox" class="box" id="az204-m05-s02-08" />[Summary
+      ][az204-m05-S02-08]
+1. <input type="checkbox" class="box" id="az204-m05-s03" />[Manage container
+   images in Azure Container Registry][az204-m05-S03]
+   1. <input type="checkbox" class="box" id="az204-m05-s03-01" />[Introduction
+      ][az204-m05-S03-01]
+   1. <input type="checkbox" class="box" id="az204-m05-s03-02" />[Discover
+      the Azure Container Registry][az204-m05-S03-02]
+   1. <input type="checkbox" class="box" id="az204-m05-s03-03" />[Explore
+      storage capabilities][az204-m05-S03-03]
+   1. <input type="checkbox" class="box" id="az204-m05-s03-04" />[Build and
+      manage containers with tasks][az204-m05-S03-04]
+   1. <input type="checkbox" class="box" id="az204-m05-s03-05" />[Explore
+      elements of a Dockerfile][az204-m05-S03-05]
+   1. <input type="checkbox" class="box" id="az204-m05-s03-06" />[Exercise:
+      Build and run a container image by using Azure Container Registry
+      Tasks][az204-m05-S03-06]
+   1. <input type="checkbox" class="box" id="az204-m05-s03-07" />[Knowledge
+      check][az204-m05-S03-07]
+   1. <input type="checkbox" class="box" id="az204-m05-s03-08" />[Summary
+      ][az204-m05-S03-08]
+1. <input type="checkbox" class="box" id="az204-m05-s04" />[Run container
+   images in Azure Container Instances][az204-m05-S04]
+   1. <input type="checkbox" class="box" id="az204-m05-s04-01" />[Introduction
+      ][az204-m05-S04-01]
+   1. <input type="checkbox" class="box" id="az204-m05-s04-02" />[Explore Azure
+      Container Instances][az204-m05-S04-02]
+   1. <input type="checkbox" class="box" id="az204-m05-s04-03" />[Exercise:
+      Deploy a container instance by using the Azure CLI][az204-m05-S04-03]
+   1. <input type="checkbox" class="box" id="az204-m05-s04-04" />[Run
+      containerized tasks with restart policies][az204-m05-S04-04]
+   1. <input type="checkbox" class="box" id="az204-m05-s04-05" />[Set
+      environment variables in container instances][az204-m05-S04-05]
+   1. <input type="checkbox" class="box" id="az204-m05-s04-06" />[Mount an
+      Azure file share in Azure Container Instances][az204-m05-S04-06]
+   1. <input type="checkbox" class="box" id="az204-m05-s04-07" />[Knowledge
+      check][az204-m05-S04-07]
+   1. <input type="checkbox" class="box" id="az204-m05-s04-08" />[Summary
+      ][az204-m05-S04-08]
 
 ---
 
