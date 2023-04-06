@@ -1,0 +1,223 @@
+- title: Get started on a DevOps transformation journey
+  description: |
+    This learning path helps you understand what DevOps is and how to plan for a DevOps transformation journey.
+  url: https://learn.microsoft.com/en-us/training/paths/az-400-get-started-devops-transformation-journey/
+  img: https://learn.microsoft.com/training/achievements/az-400-get-started-on-a-devops-transformation-journey.svg
+  mods:
+  - title: Introduction to DevOps
+    description: |
+      This module explores the key areas that organizations must apply to start their DevOps transformation Journey,
+      change the team's mindset, and define timelines and goals.
+    url: https://learn.microsoft.com/en-us/training/modules/introduction-to-devops/
+    img: https://learn.microsoft.com/en-us/training/achievements/1-introduction-to-devops.svg
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-to-devops/1-introduction/
+    - title: What is DevOps?
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-to-devops/2-what-is-devops/
+    - title: Explore the DevOps journey
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-to-devops/3-explore-devops-journey/
+    - title: Identify transformation teams
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-to-devops/4-identify-transformation-teams/
+    - title: Explore shared goals and define timelines
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-to-devops/5-explore-shared-goals-define-timelines/
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-to-devops/6-knowledge-check/
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-to-devops/7-summary/
+  - title: Choose the right project
+    description: |
+      This module helps organizations decide the projects to start applying the DevOps process and tools to minimize
+      initial resistance.
+    url: https://learn.microsoft.com/en-us/training/modules/choose-right-project/
+    img: https://learn.microsoft.com/en-us/training/achievements/2-choose-the-right-project.svg
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/choose-right-project/1-introduction/
+    - title: Explore greenfield and brownfield projects
+      url: https://learn.microsoft.com/en-us/training/modules/choose-right-project/2-explore-greenfield-brownfield-projects/
+    - title: Decide when to use greenfield and brownfield projects
+      url: https://learn.microsoft.com/en-us/training/modules/choose-right-project/3-decide-when-to-use-greenfield-brownfield-projects/
+    - title: Decide when to use systems of record versus systems of engagement
+      url: https://learn.microsoft.com/en-us/training/modules/choose-right-project/4-decide-when-to-use-systems-of-record-versus-systems-of-engagement/
+    - title: Identify groups to minimize initial resistance
+      url: https://learn.microsoft.com/en-us/training/modules/choose-right-project/5-identify-groups-to-minimize-initial-resistance/
+    - title: Identify project metrics and key performance indicators (KPIs)
+      url: https://learn.microsoft.com/en-us/training/modules/choose-right-project/6-identify-project-metrics-key-performance-indicators-kpis/
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/choose-right-project/7-knowledge-check/
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/choose-right-project/8-summary/
+  - title: Describe team structures
+    description: |
+      This module explores agile development practices and helps to define and to configure teams and tools for
+      collaboration.
+    url: https://learn.microsoft.com/en-us/training/modules/describe-team-structures/
+    img: https://learn.microsoft.com/en-us/training/achievements/3-describe-team-structures.svg
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/describe-team-structures/1-introduction/
+    - title: Explore agile development practices
+      url: https://learn.microsoft.com/en-us/training/modules/describe-team-structures/2-explore-agile-development-practices/
+    - title: Explore principles of agile development
+      url: https://learn.microsoft.com/en-us/training/modules/describe-team-structures/3-explore-principles-of-agile-development/
+    - title: Define organization structure for agile practices
+      url: https://learn.microsoft.com/en-us/training/modules/describe-team-structures/4-define-organization-structure-for-agile-practices/
+    - title: Explore ideal DevOps team members
+      url: https://learn.microsoft.com/en-us/training/modules/describe-team-structures/5-explore-ideal-devops-team-members/
+    - title: Enable in-team and cross-team collaboration
+      url: https://learn.microsoft.com/en-us/training/modules/describe-team-structures/6-enable-team-cross-team-collaboration/
+    - title: Select tools and processes for agile practices
+      url: https://learn.microsoft.com/en-us/training/modules/describe-team-structures/7-select-tools-processes-for-agile-practices/
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/describe-team-structures/8-knowledge-check/
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/describe-team-structures/9-summary/
+  - title: Choose the DevOps tools
+    description: |
+      This module explores Azure DevOps and GitHub tools and helps organizations define their work management tool and
+      licensing strategy.
+    url: https://learn.microsoft.com/en-us/training/modules/migrate-to-devops/
+    img: https://learn.microsoft.com/en-us/training/achievements/4-migrate-to-devops.svg
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/migrate-to-devops/1-introduction/
+    - title: What is Azure DevOps?
+      url: https://learn.microsoft.com/en-us/training/modules/migrate-to-devops/2-what-is-azure-devops/
+    - title: What is GitHub?
+      url: https://learn.microsoft.com/en-us/training/modules/migrate-to-devops/3-what-is-github/
+    - title: Explore an authorization and access strategy
+      url: https://learn.microsoft.com/en-us/training/modules/migrate-to-devops/4-explore-authorization-access-strategy/
+    - title: Migrate or integrate existing work management tools
+      url: https://learn.microsoft.com/en-us/training/modules/migrate-to-devops/5-migrate-integrate-existing-work-management-tools/
+    - title: Migrate or integrate existing test management tools
+      url: https://learn.microsoft.com/en-us/training/modules/migrate-to-devops/6-migrate-integrate-existing-test-management-tools/
+    - title: Design a license management strategy
+      url: https://learn.microsoft.com/en-us/training/modules/migrate-to-devops/7-design-license-management-strategy/
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/migrate-to-devops/8-knowledge-check/
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/migrate-to-devops/9-summary/
+  - title: Plan Agile with GitHub Projects and Azure Boards
+    description: |
+      This module introduces you to GitHub Projects, GitHub Project Boards and Azure Boards. It explores ways to link
+      Azure Boards and GitHub, configure GitHub Projects and Project views, and manage work with GitHub Projects.
+    url: https://learn.microsoft.com/en-us/training/modules/plan-agile-github-projects-azure-boards/
+    img: https://learn.microsoft.com/en-us/training/achievements/plan-agile-github-projects-azure-boards.svg
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/plan-agile-github-projects-azure-boards/1-introduction/
+    - title: Introduction to GitHub Projects and Project boards
+      url: https://learn.microsoft.com/en-us/training/modules/plan-agile-github-projects-azure-boards/2-introduction-to-project-boards/
+    - title: Introduction to Azure Boards
+      url: https://learn.microsoft.com/en-us/training/modules/plan-agile-github-projects-azure-boards/3-introduction-to-azure-boards/
+    - title: Link GitHub to Azure Boards
+      url: https://learn.microsoft.com/en-us/training/modules/plan-agile-github-projects-azure-boards/4-link-github-to-azure-boards/
+    - title: Configure GitHub Projects
+      url: https://learn.microsoft.com/en-us/training/modules/plan-agile-github-projects-azure-boards/5-configure/
+    - title: Manage work with GitHub Project boards
+      url: https://learn.microsoft.com/en-us/training/modules/plan-agile-github-projects-azure-boards/6-manage-work-github-project-boards/
+    - title: Customize Project views
+      url: https://learn.microsoft.com/en-us/training/modules/plan-agile-github-projects-azure-boards/7-customize-project-views/
+    - title: Collaborate using team discussions
+      url: https://learn.microsoft.com/en-us/training/modules/plan-agile-github-projects-azure-boards/8-collaborate-using-team-discussions/
+    - title: Agile plan and portfolio management with Azure Boards
+      url: https://learn.microsoft.com/en-us/training/modules/plan-agile-github-projects-azure-boards/9-agile-plan-portfolio-management-azure-boards/
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/plan-agile-github-projects-azure-boards/10-knowledge-check/
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/plan-agile-github-projects-azure-boards/11-summary/
+  - title: Introduction to source control
+    description: |
+      This module introduces you to the basics of source control, exploring benefits and best practices.
+    url: https://learn.microsoft.com/en-us/training/modules/introduction-to-source-control/
+    img: https://learn.microsoft.com/en-us/training/achievements/5-introduction-to-source-control.svg
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-to-source-control/1-introduction/
+    - title: Explore DevOps foundational practices
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-to-source-control/2-explore-devops-foundational-practices/
+    - title: What is source control?
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-to-source-control/3-what-source-control/
+    - title: Explore benefits of source control
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-to-source-control/4-explore-benefits-of/
+    - title: Explore best practices for source control
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-to-source-control/5-explore-best-practices-for/
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-to-source-control/6-knowledge-check/
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-to-source-control/7-summary/
+  - title: Describe types of source control systems
+    description: |
+      This module describes different source control systems such Git and TFVC and helps with the initial steps for Git
+      utilization.
+    url: https://learn.microsoft.com/en-us/training/modules/describe-types-of-source-control-systems/
+    img: https://learn.microsoft.com/en-us/training/achievements/6-describe-types-of-source-control-systems.svg
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/describe-types-of-source-control-systems/1-introduction/
+    - title: Understand centralized source control
+      url: https://learn.microsoft.com/en-us/training/modules/describe-types-of-source-control-systems/2-understand-centralized/
+    - title: Understand distributed source control
+      url: https://learn.microsoft.com/en-us/training/modules/describe-types-of-source-control-systems/3-understand-distributed/
+    - title: Explore Git and Team Foundation Version Control
+      url: https://learn.microsoft.com/en-us/training/modules/describe-types-of-source-control-systems/4-explore-git-team-foundation-version-control/
+    - title: Examine and choose Git
+      url: https://learn.microsoft.com/en-us/training/modules/describe-types-of-source-control-systems/5-examine-choose-git/
+    - title: Understand objections to using Git
+      url: https://learn.microsoft.com/en-us/training/modules/describe-types-of-source-control-systems/6-understand-objections-to-using-git/
+    - title: Describe working with Git locally
+      url: https://learn.microsoft.com/en-us/training/modules/describe-types-of-source-control-systems/7-describe-working-git-locally/
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/describe-types-of-source-control-systems/8-knowledge-check/
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/describe-types-of-source-control-systems/9-summary/
+  - title: Work with Azure Repos and GitHub
+    description: |
+      This module introduces you to Azure Repos and GitHub and explores ways to migrate from TFVC to Git, and work with
+      GitHub Codespaces for development.
+    url: https://learn.microsoft.com/en-us/training/modules/work-azure-repos-github/
+    img: https://learn.microsoft.com/en-us/training/achievements/7-work-with-azure-repos-and-github.svg
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/work-azure-repos-github/1-introduction/
+    - title: Introduction to Azure Repos
+      url: https://learn.microsoft.com/en-us/training/modules/work-azure-repos-github/2-introduction-azure-repos/
+    - title: Introduction to GitHub
+      url: https://learn.microsoft.com/en-us/training/modules/work-azure-repos-github/3-introduction-to-github/
+    - title: Migrate from TFVC to Git
+      url: https://learn.microsoft.com/en-us/training/modules/work-azure-repos-github/4-migrate-from-tfvc-to-git/
+    - title: Use GIT-TFS
+      url: https://learn.microsoft.com/en-us/training/modules/work-azure-repos-github/5-use-git-tfs/
+    - title: Develop online with GitHub Codespaces
+      url: https://learn.microsoft.com/en-us/training/modules/work-azure-repos-github/6-develop-online-github-codespaces/
+    - title: Version Control with Git in Azure Repos
+      url: https://learn.microsoft.com/en-us/training/modules/work-azure-repos-github/7-version-control-git-azure-repos/
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/work-azure-repos-github/8-knowledge-check/
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/work-azure-repos-github/9-summary/
+- title: Development for enterprise DevOps
+  url: https://learn.microsoft.com/en-us/training/paths/az-400-work-git-for-enterprise-devops/
+  img: https://learn.microsoft.com/training/achievements/az-400-work-with-git-for-enterprise-devops.svg
+- title: Implement CI with Azure Pipelines and GitHub Actions
+  url: https://learn.microsoft.com/en-us/training/paths/az-400-implement-ci-azure-pipelines-github-actions/
+  img: https://learn.microsoft.com/training/achievements/az-400-implement-ci-with-azure-pipelines-and-github-actions.svg
+- title: Design and implement a release strategy
+  url: https://learn.microsoft.com/en-us/training/paths/az-400-design-implement-release-strategy/
+  img: https://learn.microsoft.com/training/achievements/az-400-design-and-implement-a-release-strategy.svg
+- title: Implement a secure continuous deployment using Azure Pipelines
+  url: https://learn.microsoft.com/en-us/training/paths/az-400-implement-secure-continuous-deployment/
+  img: https://learn.microsoft.com/training/achievements/az-400-implement-a-secure-continuous-deployment-using-azure-pipelines.svg
+- title: Manage infrastructure as code using Azure and DSC
+  url: https://learn.microsoft.com/en-us/training/paths/az-400-manage-infrastructure-as-code-using-azure/
+  img: https://learn.microsoft.com/training/achievements/az-400-manage-infrastructure-as-code-using-azure.svg
+- title: Design and implement a dependency management strategy
+  url: https://learn.microsoft.com/en-us/training/paths/az-400-design-implement-dependency-management-strategy/
+  img: https://learn.microsoft.com/training/achievements/az-400-design-and-implement-a-dependency-management-strategy.svg
+- title: Implement continuous feedback
+  url: https://learn.microsoft.com/en-us/training/paths/az-400-implement-continuous-feedback/
+  img: https://learn.microsoft.com/training/achievements/az-400-implement-continuous-feedback.svg
+- title: Implement security and validate code bases for compliance
+  url: https://learn.microsoft.com/en-us/training/paths/az-400-implement-security-validate-code-bases-compliance/
+  img: https://learn.microsoft.com/training/achievements/implement-security-and-validate-code-bases-for-compliance.svg

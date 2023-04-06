@@ -35,25 +35,25 @@ description: |
 
 {{page.description}}
 
-<div style="background-color:lightyellow;" id="toc"><u>
-<span style="font-size:26pt;">Modules</span></u></div>
+<div style='background-color:lightyellow;' id='toc'><u>
+<span style='font-size:26pt;'>Modules</span></u></div>
 
 - Do not remove this line (it will not be displayed)
-{:toc style="background-color:lightyellow;font-size:16pt;"}
+{:toc style='background-color:lightyellow;font-size:16pt;'}
 
 ---
 
 {% for p in site.data.az204 %}
 
-## <input type="checkbox" class="box" id="{{page.exam}}-p{{forloop.index}}" style="width:30px;height:30px;vertical-align:middle;" />![{{p.title}}]({{p.img}}){:style="width:40px;"}&nbsp;[{{p.title}}]({{p.url}}){:target="_blank"}
+## <input type='checkbox' class='box' id='{{page.exam}}-p{{forloop.index}}' style='width:30px;height:30px;' />{% if p.img > '' %}![{{p.title}}]({{p.img}}){:style='width:40px;'}{% endif %}[{{p.title}}]({{p.url}} '{{p.title}}'){:target='_blank'}
 
 {{p.description}}
 
 **Readings**{% for m in p.mods %}
 
-1. <input type="checkbox" class="box" style="vertical-align:middle;" id="{{page.exam}}-p{{forloop.parentloop.index}}-m{{forloop.index}}" />
-   {% if m.img > "" %}![{{m.title}}]({{m.img}}){:style="width:20px;"}&nbsp;{% endif %}[{{m.title}}]({{m.url}} '{{m.description}}'){:target="_blank"}{% for s in m.sec %}
-   1. <input type="checkbox" class="box" id="{{page.exam}}-p{{forloop.parentloop.parentloop.index}}-m{{forloop.parentloop.index}}-s{{forloop.index}}" />[{{s.title}}]({{s.url}}){:target="_blank"}{% endfor %}{% endfor %}
+1. <input type='checkbox' class='box' id='{{page.exam}}-p{{forloop.parentloop.index}}-m{{forloop.index}}' />{% if m.img > '' %}![{{m.title}}]({{m.img}}){:style='width:20px;'} {% endif %}
+   [{{m.title}}]({{m.url}} '{% if m.description > '' %}{{m.description}}{% else %}{{m.title}}{% endif %}' ){:target='_blank'} {% for s in m.sec %}
+   1. <input type='checkbox' class='box' id='{{page.exam}}-p{{forloop.parentloop.parentloop.index}}-m{{forloop.parentloop.index}}-s{{forloop.index}}' />[{{s.title}}]({{s.url}} '{{s.title}}'){:target='_blank'}{% endfor %}{% endfor %}
 
 ---
 {% endfor %}
