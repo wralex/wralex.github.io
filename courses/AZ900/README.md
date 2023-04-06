@@ -14,7 +14,7 @@ description: |
   - Describe Azure architecture and services (35-40%)
   - Describe Azure management and governance (30-35%)
 ---
-**_[EXAM LINK]_**
+**_[EXAM LINK]({{page.examurl}})_**
 
 {{page.description}}
 
@@ -25,6 +25,7 @@ description: |
 {:toc style="background-color:lightyellow;font-size:16pt;"}
 
 ---
+
 {% for p in site.data.az900 %}
 
 ## <input type="checkbox" class="box" id="{{page.exam}}-p{{forloop.index}}" style="width:30px;height:30px;vertical-align:middle;" />![{{p.title}}]({{p.img}}){:style="width:40px;"}&nbsp;[{{p.title}}]({{p.url}}){:target="_blank"}
@@ -39,5 +40,3 @@ description: |
 
 ---
 {% endfor %}
-
-[EXAM LINK]: {{page.examurl}}

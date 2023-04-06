@@ -1,0 +1,276 @@
+- title: Create Azure App Service web apps
+  img: https://learn.microsoft.com/training/achievements/azure-app-service-create-web-apps.svg
+  url: https://learn.microsoft.com/en-us/training/paths/create-azure-app-service-web-apps/
+  description: |
+    Learn how Azure App Service functions and how to create and update an app.
+    Explore App Service authentication and authorization, configuring app
+    settings, scale apps, and how to use deployment slots.
+  mods:
+  - title: Explore Azure App Service
+    description: |
+      Learn about the key components of Azure App Service and how App Service
+      can help you create, maintain, and deploy web apps more efficiently.
+    url: https://learn.microsoft.com/en-us/training/modules/introduction-to-azure-app-service/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-azure-app-service-web-apps
+    img: https://learn.microsoft.com/en-us/training/achievements/azure-app-introduction.svg
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-to-azure-app-service/1-introduction/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-azure-app-service-web-apps
+    - title: Examine Azure App Service
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-to-azure-app-service/2-azure-app-service/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-azure-app-service-web-apps
+    - title: Examine Azure App Service plans
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-to-azure-app-service/3-azure-app-service-plans/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-azure-app-service-web-apps
+    - title: Deploy to App Service
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-to-azure-app-service/4-deploy-code-to-app-service/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-azure-app-service-web-apps
+    - title: Explore authentication and authorization in App Service
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-to-azure-app-service/5-authentication-authorization-app-service/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-azure-app-service-web-apps
+    - title: Discover App Service networking features
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-to-azure-app-service/6-network-features/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-azure-app-service-web-apps
+    - title: 'Exercise: Create a static HTML web app by using Azure Cloud Shell'
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-to-azure-app-service/7-create-html-web-app/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-azure-app-service-web-apps
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-to-azure-app-service/8-knowledge-check/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-azure-app-service-web-apps
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-to-azure-app-service/9-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-azure-app-service-web-apps
+  - title: Configure web app settings
+    description: |
+      Learn how to create and manage application settings, install SSL/TLS
+      certificates to secure web traffic, enable diagnostic logging, create
+      virtual app to directory mappings, and manage app features.
+    url: https://learn.microsoft.com/en-us/training/modules/configure-web-app-settings/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-azure-app-service-web-apps
+    img: https://learn.microsoft.com/en-us/training/achievements/app-service-configure.svg
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/configure-web-app-settings/1-introduction/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-azure-app-service-web-apps
+    - title: Configure application settings
+      url: https://learn.microsoft.com/en-us/training/modules/configure-web-app-settings/2-configure-application-settings/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-azure-app-service-web-apps
+    - title: Configure general settings
+      url: https://learn.microsoft.com/en-us/training/modules/configure-web-app-settings/3-configure-general-settings/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-azure-app-service-web-apps
+    - title: Configure path mappings
+      url: https://learn.microsoft.com/en-us/training/modules/configure-web-app-settings/4-configure-path-mappings/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-azure-app-service-web-apps
+    - title: Enable diagnostic logging
+      url: https://learn.microsoft.com/en-us/training/modules/configure-web-app-settings/5-enable-diagnostic-logging/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-azure-app-service-web-apps
+    - title: Configure security certificates
+      url: https://learn.microsoft.com/en-us/training/modules/configure-web-app-settings/6-configure-security-certificates/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-azure-app-service-web-apps
+    - title: Manage app features
+      url: https://learn.microsoft.com/en-us/training/modules/configure-web-app-settings/7-manage-app-features/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-azure-app-service-web-apps
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/configure-web-app-settings/8-knowledge-check/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-azure-app-service-web-apps
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/configure-web-app-settings/9-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-azure-app-service-web-apps
+  - title: Scale apps in Azure App Service
+    description: |
+      Learn how autoscale operates in App Service and how to identify autoscale
+      factors, enable autoscale, and how to create sound autoscale conditions.
+    url: https://learn.microsoft.com/en-us/training/modules/scale-apps-app-service/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-azure-app-service-web-apps
+    img: https://learn.microsoft.com/en-us/training/achievements/app-service-scale-apps.svg
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/scale-apps-app-service/1-introduction/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-azure-app-service-web-apps
+    - title: Examine autoscale factors
+      url: https://learn.microsoft.com/en-us/training/modules/scale-apps-app-service/2-autoscale-factors/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-azure-app-service-web-apps
+    - title: Identify autoscale factors
+      url: https://learn.microsoft.com/en-us/training/modules/scale-apps-app-service/3-app-service-autoscale-conditions-rules/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-azure-app-service-web-apps
+    - title: Enable autoscale in App Service
+      url: https://learn.microsoft.com/en-us/training/modules/scale-apps-app-service/4-autoscale-app-service/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-azure-app-service-web-apps
+    - title: Explore autoscale best practices
+      url: https://learn.microsoft.com/en-us/training/modules/scale-apps-app-service/5-autoscale-best-practices/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-azure-app-service-web-apps
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/scale-apps-app-service/6-knowledge-check/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-azure-app-service-web-apps
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/scale-apps-app-service/7-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-azure-app-service-web-apps
+  - title: Explore Azure App Service deployment slots
+    url: https://learn.microsoft.com/en-us/training/modules/understand-app-service-deployment-slots/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-azure-app-service-web-apps
+    img: https://learn.microsoft.com/en-us/training/achievements/app-service-deployment-slots.svg
+    description: |
+      In this module you'll learn how slot swapping operates and how to perform
+      a swap. You'll also learn how to route traffic to different slots manually
+      and automatically.
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/understand-app-service-deployment-slots/1-introduction/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-azure-app-service-web-apps
+    - title: Explore staging environments
+      url: https://learn.microsoft.com/en-us/training/modules/understand-app-service-deployment-slots/2-app-service-staging-environments/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-azure-app-service-web-apps
+    - title: Examine slot swapping
+      url: https://learn.microsoft.com/en-us/training/modules/understand-app-service-deployment-slots/3-app-service-slot-swapping/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-azure-app-service-web-apps
+    - title: Swap deployment slots
+      url: https://learn.microsoft.com/en-us/training/modules/understand-app-service-deployment-slots/4-swap-deployment-slots/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-azure-app-service-web-apps
+    - title: Route traffic in App Service
+      url: https://learn.microsoft.com/en-us/training/modules/understand-app-service-deployment-slots/5-route-traffic-app-service/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-azure-app-service-web-apps
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/understand-app-service-deployment-slots/6-knowledge-check/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-azure-app-service-web-apps
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/understand-app-service-deployment-slots/7-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-azure-app-service-web-apps
+- title: Implement Azure Functions
+  img: https://learn.microsoft.com/training/achievements/az-204-implement-azure-functions.svg
+  url: https://learn.microsoft.com/en-us/training/paths/implement-azure-functions/
+  description: |
+    Learn how to create and deploy Azure Functions. Explore hosting options,
+    bindings, triggers, and how to use Durable Functions to define stateful
+    workflows.
+  mods:
+  - title: Explore Azure Functions
+    description: |
+      Learn how Azure Functions can be a great solution for data processing,
+      systems integration, and building simple APIs and microservices.
+    url: https://learn.microsoft.com/en-us/training/modules/explore-azure-functions/
+    img: https://learn.microsoft.com/en-us/training/achievements/1-explore-azure-functions.svg
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/explore-azure-functions/1-introduction/
+    - title: Discover Azure Functions
+      url: https://learn.microsoft.com/en-us/training/modules/explore-azure-functions/2-azure-functions-overview/
+    - title: Compare Azure Functions hosting options
+      url: https://learn.microsoft.com/en-us/training/modules/explore-azure-functions/3-compare-azure-functions-hosting-options/
+    - title: Scale Azure Functions
+      url: https://learn.microsoft.com/en-us/training/modules/explore-azure-functions/4-scale-azure-functions/
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/explore-azure-functions/5-knowledge-check/
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/explore-azure-functions/6-summary/
+  - title: Develop Azure Functions
+    description: |
+      Learn how to create and deploy Azure Functions.
+    url: https://learn.microsoft.com/en-us/training/modules/develop-azure-functions/
+    img: https://learn.microsoft.com/en-us/training/achievements/2-develop-azure-functions.svg
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/develop-azure-functions/1-introduction/
+    - title: Explore Azure Functions development
+      url: https://learn.microsoft.com/en-us/training/modules/develop-azure-functions/2-azure-function-development-overview/
+    - title: Create triggers and bindings
+      url: https://learn.microsoft.com/en-us/training/modules/develop-azure-functions/3-create-triggers-bindings/
+    - title: Connect functions to Azure services
+      url: https://learn.microsoft.com/en-us/training/modules/develop-azure-functions/4-connect-azure-services/
+    - title: 'Exercise: Create an Azure Function by using Visual Studio Code'
+      url: https://learn.microsoft.com/en-us/training/modules/develop-azure-functions/5-create-function-visual-studio-code/
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/develop-azure-functions/6-knowledge-check/
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/develop-azure-functions/7-summary/
+  - title: Implement Durable Functions
+    description: |
+      Learn how Durable Functions can simplify complex, stateful coordination
+      requirements in serverless applications.
+    url: https://learn.microsoft.com/en-us/training/modules/implement-durable-functions/
+    img: https://learn.microsoft.com/en-us/training/achievements/3-implement-durable-functions.svg
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/implement-durable-functions/1-introduction/
+    - title: Explore Durable Functions app patterns
+      url: https://learn.microsoft.com/en-us/training/modules/implement-durable-functions/2-durable-functions-overview/
+    - title: Discover the four function types
+      url: https://learn.microsoft.com/en-us/training/modules/implement-durable-functions/3-durable-functions-types-features/
+    - title: Explore task hubs
+      url: https://learn.microsoft.com/en-us/training/modules/implement-durable-functions/4-durable-functions-task-hubs/
+    - title: Explore durable orchestrations
+      url: https://learn.microsoft.com/en-us/training/modules/implement-durable-functions/5-durable-orchestrations-overview/
+    - title: Control timing in Durable Functions
+      url: https://learn.microsoft.com/en-us/training/modules/implement-durable-functions/6-timers-durable-functions/
+    - title: Send and wait for events
+      url: https://learn.microsoft.com/en-us/training/modules/implement-durable-functions/7-external-events-durable-functions/
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/implement-durable-functions/8-knowledge-check/
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/implement-durable-functions/9-summary/
+- title: Develop solutions that use Blob storage
+  img: https://learn.microsoft.com/training/achievements/develop-solutions-that-use-blob-storage.svg
+  url: https://learn.microsoft.com/en-us/training/paths/develop-solutions-that-use-blob-storage/
+  mods:
+  - title: Explore Azure Blob storage
+    description: Learn the core features and functionality of Azure Blob storage.
+    url: https://learn.microsoft.com/en-us/training/modules/explore-azure-blob-storage/
+    img: https://learn.microsoft.com/en-us/training/achievements/1-explore-azure-blob-storage.svg
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/explore-azure-blob-storage/1-introduction/
+    - title: Explore Azure Blob storage
+      url: https://learn.microsoft.com/en-us/training/modules/explore-azure-blob-storage/2-blob-storage-overview/
+    - title: Discover Azure Blob storage resource types
+      url: https://learn.microsoft.com/en-us/training/modules/explore-azure-blob-storage/3-blob-storage-resources/
+    - title: Explore Azure Storage security features
+      url: https://learn.microsoft.com/en-us/training/modules/explore-azure-blob-storage/4-blob-storage-security/
+    - title: Evaluate Azure Storage redundancy options
+      url: https://learn.microsoft.com/en-us/training/modules/explore-azure-blob-storage/5-azure-storage-redundancy/
+    - title: 'Exercise: Create a block blob storage account'
+      url: https://learn.microsoft.com/en-us/training/modules/explore-azure-blob-storage/6-create-block-blob-storage-account/
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/explore-azure-blob-storage/7-knowledge-check/
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/explore-azure-blob-storage/8-summary/
+  - title: Manage the Azure Blob storage lifecycle
+    description: |
+      Learn how to manage data availability throughout the Azure Blob storage lifecycle.
+    url: https://learn.microsoft.com/en-us/training/modules/manage-azure-blob-storage-lifecycle/
+    img: https://learn.microsoft.com/en-us/training/achievements/2-manage-the-azure-blob-storage-lifecycle.svg
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/manage-azure-blob-storage-lifecycle/1-introduction/
+    - title: Explore the Azure Blob storage lifecycle
+      url: https://learn.microsoft.com/en-us/training/modules/manage-azure-blob-storage-lifecycle/2-blob-storage-lifecycle/
+    - title: Discover Blob storage lifecycle policies
+      url: https://learn.microsoft.com/en-us/training/modules/manage-azure-blob-storage-lifecycle/3-blob-storage-lifecycle-policies/
+    - title: Implement Blob storage lifecycle policies
+      url: https://learn.microsoft.com/en-us/training/modules/manage-azure-blob-storage-lifecycle/4-add-policy-blob-storage/
+    - title: Rehydrate blob data from the archive tier
+      url: https://learn.microsoft.com/en-us/training/modules/manage-azure-blob-storage-lifecycle/5-rehydrate-blob-data/
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/manage-azure-blob-storage-lifecycle/6-knowledge-check/
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/manage-azure-blob-storage-lifecycle/7-summary/
+  - title: Work with Azure Blob storage
+    url: https://learn.microsoft.com/en-us/training/modules/work-azure-blob-storage/
+    img: https://learn.microsoft.com/en-us/training/achievements/3-work-with-azure-blob-storage.svg
+    description: |
+      Learn how to use the Azure Blob storage client library to create and
+      update Blob storage resources.
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/work-azure-blob-storage/1-introduction/
+    - title: Explore Azure Blob storage client library
+      url: https://learn.microsoft.com/en-us/training/modules/work-azure-blob-storage/2-blob-storage-client-library-overview/
+    - title: 'Exercise: Create Blob storage resources by using the .NET client library'
+      url: https://learn.microsoft.com/en-us/training/modules/work-azure-blob-storage/3-develop-blob-storage-dotnet/
+    - title: Manage container properties and metadata by using .NET
+      url: https://learn.microsoft.com/en-us/training/modules/work-azure-blob-storage/4-manage-container-properties-metadata-dotnet/
+    - title: Set and retrieve properties and metadata for blob resources by using REST
+      url: https://learn.microsoft.com/en-us/training/modules/work-azure-blob-storage/5-set-retrieve-properties-metadata-rest/
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/work-azure-blob-storage/6-knowledge-check/
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/work-azure-blob-storage/7-summary/
+- title: Develop solutions that use Azure Cosmos DB
+  img: https://learn.microsoft.com/training/achievements/az-204-develop-solutions-that-use-azure-cosmos-db.svg
+  url: https://learn.microsoft.com/en-us/training/paths/az-204-develop-solutions-that-use-azure-cosmos-db/
+  mods:
+- title: Implement infrastructure as a service solutions
+  img: https://learn.microsoft.com/training/achievements/iaas-implement-solutions.svg
+  url: https://learn.microsoft.com/en-us/training/paths/az-204-implement-iaas-solutions/
+  mods:
+- title: Implement user authentication and authorization
+  img: https://learn.microsoft.com/training/achievements/authentication-authorization.svg
+  url: https://learn.microsoft.com/en-us/training/paths/az-204-implement-authentication-authorization/
+  mods:
+- title: Implement secure cloud solutions
+  img: https://learn.microsoft.com/training/achievements/cloud-solutions-implement.svg
+  url: https://learn.microsoft.com/en-us/training/paths/az-204-implement-secure-cloud-solutions/
+  mods:
+- title: Implement API Management
+  img: https://learn.microsoft.com/training/achievements/az-204-implement-api-management.svg
+  url: https://learn.microsoft.com/en-us/training/paths/az-204-implement-api-management/
+  mods:
+- title: Develop event-based solutions
+  img: https://learn.microsoft.com/training/achievements/az-204-develop-event-based-solutions.svg
+  url: https://learn.microsoft.com/en-us/training/paths/az-204-develop-event-based-solutions/
+  mods:
+- title: Develop message-based solutions
+  img: https://learn.microsoft.com/training/achievements/message-develop-solutions.svg
+  url: https://learn.microsoft.com/en-us/training/paths/az-204-develop-message-based-solutions/
+  mods:
+- title: Instrument solutions to support monitoring and logging
+  img: https://learn.microsoft.com/training/achievements/monitoring-instrument-solutions.svg
+  url: https://learn.microsoft.com/en-us/training/paths/az-204-instrument-solutions-support-monitoring-logging/
+  mods:
+- title: Integrate caching and content delivery within solutions
+  img: https://learn.microsoft.com/training/achievements/integrate-content-delivery.svg
+  url: https://learn.microsoft.com/en-us/training/paths/az-204-integrate-caching-content-delivery-within-solutions/
+  mods:
