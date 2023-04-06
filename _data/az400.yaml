@@ -198,26 +198,991 @@
     - title: Summary
       url: https://learn.microsoft.com/en-us/training/modules/work-azure-repos-github/9-summary/
 - title: Development for enterprise DevOps
+  description: |
+    This learning path examines the key Git features that organizations must
+    plan for when designing their enterprise DevOps.
   url: https://learn.microsoft.com/en-us/training/paths/az-400-work-git-for-enterprise-devops/
   img: https://learn.microsoft.com/training/achievements/az-400-work-with-git-for-enterprise-devops.svg
+  mods:
+  - title: Structure your Git Repo
+    description: |
+      This module examines Git repositories structure, explains the differences
+      between mono versus multiple repos, and helps you create a changelog.
+    url: https://learn.microsoft.com/en-us/training/modules/structure-your-git-repo/
+    img: https://learn.microsoft.com/en-us/training/achievements/1-structure-your-git-repo.svg
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/structure-your-git-repo/1-introduction/
+    - title: Explore monorepo versus multiple repos
+      url: https://learn.microsoft.com/en-us/training/modules/structure-your-git-repo/2-explore-monorepo-versus-multiple-repos/
+    - title: Implement a change log
+      url: https://learn.microsoft.com/en-us/training/modules/structure-your-git-repo/3-implement-change-log/
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/structure-your-git-repo/4-knowledge-check/
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/structure-your-git-repo/5-summary/
+  - title: Manage Git branches and workflows
+    description: |
+      This module explores Git branching types, concepts, and models for the
+      continuous delivery process. It helps companies defining their branching
+      strategy and organization.
+    url: https://learn.microsoft.com/en-us/training/modules/manage-git-branches-workflows/
+    img: https://learn.microsoft.com/en-us/training/achievements/2-manage-git-branches-and-workflows.svg
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/manage-git-branches-workflows/1-introduction/
+    - title: Explore branch workflow types
+      url: https://learn.microsoft.com/en-us/training/modules/manage-git-branches-workflows/2-explore-branch-workflow-types/
+    - title: Explore feature branch workflow
+      url: https://learn.microsoft.com/en-us/training/modules/manage-git-branches-workflows/3-explore-feature-branch-workflow/
+    - title: Explore Git branch model for continuous delivery
+      url: https://learn.microsoft.com/en-us/training/modules/manage-git-branches-workflows/4-explore-git-branch-model-for-continuous-delivery/
+    - title: Explore GitHub flow
+      url: https://learn.microsoft.com/en-us/training/modules/manage-git-branches-workflows/5-explore-github-flow/
+    - title: Explore fork workflow
+      url: https://learn.microsoft.com/en-us/training/modules/manage-git-branches-workflows/6-explore-fork-workflow/
+    - title: Version control with Git in Azure repos
+      url: https://learn.microsoft.com/en-us/training/modules/manage-git-branches-workflows/7-version-control-git-azure-repos/
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/manage-git-branches-workflows/8-knowledge-check/
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/manage-git-branches-workflows/9-summary/
+  - title: Collaborate with pull requests in Azure Repos
+    description: |
+      This module presents pull requests for collaboration and code reviews
+      using Azure DevOps and GitHub mobile for pull request approvals. It helps
+      understanding how pull requests works and how to configure them.
+    url: https://learn.microsoft.com/en-us/training/modules/collaborate-pull-requests-azure-repos/
+    img: https://learn.microsoft.com/en-us/training/achievements/3-collaborate-with-pull-requests-in-azure-repos.svg
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/collaborate-pull-requests-azure-repos/1-introduction/
+    - title: Collaborate with pull requests
+      url: https://learn.microsoft.com/en-us/training/modules/collaborate-pull-requests-azure-repos/2-collaborate-pull-requests/
+    - title: Exercise - Azure Repos collaborating with pull requests
+      url: https://learn.microsoft.com/en-us/training/modules/collaborate-pull-requests-azure-repos/3-exercise-collaborate-pull-requests/
+    - title: Examine GitHub mobile for pull request approvals
+      url: https://learn.microsoft.com/en-us/training/modules/collaborate-pull-requests-azure-repos/4-examine-github-mobile-for-pull-request-approvals/
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/collaborate-pull-requests-azure-repos/5-knowledge-check/
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/collaborate-pull-requests-azure-repos/6-summary/
+  - title: Identify technical debt
+    description: |
+      This module examines technical debt, complexity, quality metrics, and
+      plans for effective code reviews and code quality validation.
+    url: https://learn.microsoft.com/en-us/training/modules/identify-technical-debt/
+    img: https://learn.microsoft.com/en-us/training/achievements/6-identify-technical-debt.svg
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/identify-technical-debt/1-introduction/
+    - title: Examine code quality
+      url: https://learn.microsoft.com/en-us/training/modules/identify-technical-debt/2-examine-code-quality/
+    - title: Examine complexity and quality metrics
+      url: https://learn.microsoft.com/en-us/training/modules/identify-technical-debt/3-examine-complexity-quality-metrics/
+    - title: Introduction to technical debt
+      url: https://learn.microsoft.com/en-us/training/modules/identify-technical-debt/4-introduction-technical-debt/
+    - title: Measure and manage technical debt
+      url: https://learn.microsoft.com/en-us/training/modules/identify-technical-debt/5-measure-manage-technical-debt/
+    - title: Integrate other code quality tools
+      url: https://learn.microsoft.com/en-us/training/modules/identify-technical-debt/6-integrate-other-code-quality-tools/
+    - title: Plan effective code reviews
+      url: https://learn.microsoft.com/en-us/training/modules/identify-technical-debt/7-plan-effective-code-reviews/
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/identify-technical-debt/8-knowledge-check/
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/identify-technical-debt/9-summary/
+  - title: Explore Git hooks
+    description: |
+      This module describes Git hooks and their usage during the development
+      process, implementation, and behavior.
+    url: https://learn.microsoft.com/en-us/training/modules/explore-git-hooks/
+    img: https://learn.microsoft.com/en-us/training/achievements/4-explore-git-hooks.svg
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/explore-git-hooks/1-introduction/
+    - title: Introduction to Git hooks
+      url: https://learn.microsoft.com/en-us/training/modules/explore-git-hooks/2-introduction-to/
+    - title: Implement Git hooks
+      url: https://learn.microsoft.com/en-us/training/modules/explore-git-hooks/3-implement/
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/explore-git-hooks/4-knowledge-check/
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/explore-git-hooks/5-summary/
+  - title: Plan foster inner source
+    description: |
+      This module explains how to use Git to foster inner sources across the
+      organization, implement Fork and its workflows.
+    url: https://learn.microsoft.com/en-us/training/modules/plan-fostering-inner-source/
+    img: https://learn.microsoft.com/en-us/training/achievements/5-plan-fostering-inner-source.svg
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/plan-fostering-inner-source/1-introduction/
+    - title: Explore foster inner source
+      url: https://learn.microsoft.com/en-us/training/modules/plan-fostering-inner-source/2-explore-foster-inner-source/
+    - title: Implement the fork workflow
+      url: https://learn.microsoft.com/en-us/training/modules/plan-fostering-inner-source/3-implement-fork-workflow/
+    - title: Describe inner source with forks
+      url: https://learn.microsoft.com/en-us/training/modules/plan-fostering-inner-source/4-describe-forks/
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/plan-fostering-inner-source/5-knowledge-check/
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/plan-fostering-inner-source/6-summary/
+  - title: Manage Git repositories
+    description: |
+      This module explores how to work with large repositories, purge
+      repository data and manage and automate release notes using GitHub.
+    url: https://learn.microsoft.com/en-us/training/modules/manage-git-repositories/
+    img: https://learn.microsoft.com/en-us/training/achievements/6-manage-git-repositories.svg
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/manage-git-repositories/1-introduction/
+    - title: Work with large repositories
+      url: https://learn.microsoft.com/en-us/training/modules/manage-git-repositories/2-work-large-repositories/
+    - title: Purge repository data
+      url: https://learn.microsoft.com/en-us/training/modules/manage-git-repositories/3-purge-repository-data/
+    - title: Manage releases with GitHub Repos
+      url: https://learn.microsoft.com/en-us/training/modules/manage-git-repositories/4-manage-releases-github-repos/
+    - title: Automate release notes with GitHub
+      url: https://learn.microsoft.com/en-us/training/modules/manage-git-repositories/5-automate-release-notes-github/
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/manage-git-repositories/6-knowledge-check/
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/manage-git-repositories/7-summary/
 - title: Implement CI with Azure Pipelines and GitHub Actions
   url: https://learn.microsoft.com/en-us/training/paths/az-400-implement-ci-azure-pipelines-github-actions/
   img: https://learn.microsoft.com/training/achievements/az-400-implement-ci-with-azure-pipelines-and-github-actions.svg
+  description: |
+    This learning path introduces the continuous integration concept using Azure
+    Pipelines and GitHub Actions and provides instruction on configuring those
+    services and building applications.
+  mods:
+  - title: Explore Azure Pipelines
+    description: |
+      This module introduces Azure Pipelines concepts and explains key terms and components of the tool, helping you decide your pipeline strategy and responsibilities.
+    url: https://learn.microsoft.com/en-us/training/modules/explore-azure-pipelines/
+    img: https://learn.microsoft.com/en-us/training/achievements/1-explore-azure-pipelines.svg
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/explore-azure-pipelines/1-introduction/
+    - title: Explore the concept of pipelines in DevOps
+      url: https://learn.microsoft.com/en-us/training/modules/explore-azure-pipelines/2-explore-concept-of-pipelines-devops/
+    - title: Describe Azure Pipelines
+      url: https://learn.microsoft.com/en-us/training/modules/explore-azure-pipelines/3-describe-azure-pipelines/
+    - title: Understand Azure Pipelines key terms
+      url: https://learn.microsoft.com/en-us/training/modules/explore-azure-pipelines/4-understand-key-terms/
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/explore-azure-pipelines/5-knowledge-check/
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/explore-azure-pipelines/6-summary/
+  - title: Manage Azure Pipeline agents and pools
+    description: |
+      This module explores differences between Microsoft-hosted and self-hosted agents, detail job types, and introduces agent pools configuration. You will understand typical situations to use agent pools and how to manage its security. Also, it explores communication to deploy using Azure Pipelines to target servers.
+    url: https://learn.microsoft.com/en-us/training/modules/manage-azure-pipeline-agents-pools/
+    img: https://learn.microsoft.com/en-us/training/achievements/2-manage-azure-pipeline-agents-and-pools.svg
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/manage-azure-pipeline-agents-pools/1-introduction/
+    - title: Choose between Microsoft-hosted versus self-hosted agents
+      url: https://learn.microsoft.com/en-us/training/modules/manage-azure-pipeline-agents-pools/2-choose-between-microsoft-hosted-versus-self-hosted-agents/
+    - title: Explore job types
+      url: https://learn.microsoft.com/en-us/training/modules/manage-azure-pipeline-agents-pools/3-explore-job-types/
+    - title: Introduction to agent pools
+      url: https://learn.microsoft.com/en-us/training/modules/manage-azure-pipeline-agents-pools/4-introduction-to-agent-pools/
+    - title: Explore predefined agent pool
+      url: https://learn.microsoft.com/en-us/training/modules/manage-azure-pipeline-agents-pools/5-explore-predefined-agent-pool/
+    - title: Understand typical situations for agent pools
+      url: https://learn.microsoft.com/en-us/training/modules/manage-azure-pipeline-agents-pools/6-understand-typical-situations-for-agent-pools/
+    - title: Communicate with Azure Pipelines
+      url: https://learn.microsoft.com/en-us/training/modules/manage-azure-pipeline-agents-pools/7-communicate-with-azure-pipelines/
+    - title: Communicate to deploy to target servers
+      url: https://learn.microsoft.com/en-us/training/modules/manage-azure-pipeline-agents-pools/8-communicate-to-deploy-to-target-servers/
+    - title: Examine other considerations
+      url: https://learn.microsoft.com/en-us/training/modules/manage-azure-pipeline-agents-pools/9-examine-other-considerations/
+    - title: Describe security of agent pools
+      url: https://learn.microsoft.com/en-us/training/modules/manage-azure-pipeline-agents-pools/10-describe-security-of-agent-pools/
+    - title: Configure agent pools and understanding pipeline styles
+      url: https://learn.microsoft.com/en-us/training/modules/manage-azure-pipeline-agents-pools/11-configure-agent-pools-understand-pipeline-styles/
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/manage-azure-pipeline-agents-pools/12-knowledge-check/
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/manage-azure-pipeline-agents-pools/13-summary/
+  - title: Describe pipelines and concurrency
+    description: |
+      This module describes parallel jobs and how to estimate their usage. Also, it presents Azure Pipelines for open-source projects, explores Visual Designer and YAML pipelines.
+    url: https://learn.microsoft.com/en-us/training/modules/describe-pipelines-concurrency/
+    img: https://learn.microsoft.com/en-us/training/achievements/3-describe-pipelines-and-concurrency.svg
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/describe-pipelines-concurrency/1-introduction/
+    - title: Understand parallel jobs
+      url: https://learn.microsoft.com/en-us/training/modules/describe-pipelines-concurrency/2-understand-parallel-jobs/
+    - title: Estimate parallel jobs
+      url: https://learn.microsoft.com/en-us/training/modules/describe-pipelines-concurrency/3-estimate-parallel-jobs/
+    - title: Describe Azure Pipelines and open-source projects
+      url: https://learn.microsoft.com/en-us/training/modules/describe-pipelines-concurrency/4-describe-azure-pipelines-open-source-projects/
+    - title: Explore Azure Pipelines and Visual Designer
+      url: https://learn.microsoft.com/en-us/training/modules/describe-pipelines-concurrency/5-explore-azure-pipelines-visual-designer/
+    - title: Describe Azure Pipelines and YAML
+      url: https://learn.microsoft.com/en-us/training/modules/describe-pipelines-concurrency/6-describe-azure-pipelines-yaml/
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/describe-pipelines-concurrency/7-knowledge-check/
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/describe-pipelines-concurrency/8-summary/
+  - title: Explore continuous integration
+    description: |
+      This module details continuous integration practice and the pillars for implementing it in the development lifecycle, its benefits, and properties.
+    url: https://learn.microsoft.com/en-us/training/modules/explore-continuous-integration/
+    img: https://learn.microsoft.com/en-us/training/achievements/4-explore-continuous-integration.svg
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/explore-continuous-integration/1-introduction/
+    - title: Introduction to continuous integration
+      url: https://learn.microsoft.com/en-us/training/modules/explore-continuous-integration/2-introduction-continuous-integration/
+    - title: Learn the four pillars of continuous integration
+      url: https://learn.microsoft.com/en-us/training/modules/explore-continuous-integration/3-learn-four-pillars-continuous-integration/
+    - title: Explore benefits of continuous integration
+      url: https://learn.microsoft.com/en-us/training/modules/explore-continuous-integration/4-explore-benefits-continuous-integration/
+    - title: Describe build properties
+      url: https://learn.microsoft.com/en-us/training/modules/explore-continuous-integration/5-describe-build-properties/
+    - title: Enable Continuous Integration with Azure Pipelines
+      url: https://learn.microsoft.com/en-us/training/modules/explore-continuous-integration/6-enable-continuous-integration-azure-pipelines/
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/explore-continuous-integration/7-knowledge-check/
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/explore-continuous-integration/8-summary/
+  - title: Implement a pipeline strategy
+    description: |
+      This module describes pipeline strategies, configuring them, implementing multi-agent builds, and what source controls Azure Pipelines supports.
+    url: https://learn.microsoft.com/en-us/training/modules/implement-pipeline-strategy/
+    img: https://learn.microsoft.com/en-us/training/achievements/5-implement-a-pipeline-strategy.svg
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/implement-pipeline-strategy/1-introduction/
+    - title: Configure agent demands
+      url: https://learn.microsoft.com/en-us/training/modules/implement-pipeline-strategy/2-configure-agent-demands/
+    - title: Implement multi-agent builds
+      url: https://learn.microsoft.com/en-us/training/modules/implement-pipeline-strategy/3-implement-multi-agent-builds/
+    - title: Explore source control types supported by Azure Pipelines
+      url: https://learn.microsoft.com/en-us/training/modules/implement-pipeline-strategy/4-explore-source-control-types-supported-by-azure-pipelines/
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/implement-pipeline-strategy/5-knowledge-check/
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/implement-pipeline-strategy/6-summary/
+  - title: Integrate with Azure Pipelines
+    description: |
+      This module details Azure Pipelines anatomy and structure, templates, YAML resources, and how to use multiple repositories in your pipeline.
+    url: https://learn.microsoft.com/en-us/training/modules/integrate-azure-pipelines/
+    img: https://learn.microsoft.com/en-us/training/achievements/6-integrate-with-azure-pipelines.svg
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/integrate-azure-pipelines/1-introduction/
+    - title: Describe the anatomy of a pipeline
+      url: https://learn.microsoft.com/en-us/training/modules/integrate-azure-pipelines/2-describe-anatomy-of-pipeline/
+    - title: Understand the pipeline structure
+      url: https://learn.microsoft.com/en-us/training/modules/integrate-azure-pipelines/3-understand-pipeline-structure/
+    - title: Detail templates
+      url: https://learn.microsoft.com/en-us/training/modules/integrate-azure-pipelines/4-detail-templates/
+    - title: Explore YAML resources
+      url: https://learn.microsoft.com/en-us/training/modules/integrate-azure-pipelines/5-explore-yaml-resources/
+    - title: Use multiple repositories in your pipeline
+      url: https://learn.microsoft.com/en-us/training/modules/integrate-azure-pipelines/6-use-multiple-repositories-your-pipeline/
+    - title: Integrate external source control with Azure Pipelines
+      url: https://learn.microsoft.com/en-us/training/modules/integrate-azure-pipelines/7-integrate-external-source-control-with-azure-pipelines/
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/integrate-azure-pipelines/8-knowledge-check/
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/integrate-azure-pipelines/9-summary/
+  - title: Introduction to GitHub Actions
+    description: |
+      In this module, you will learn what GitHub Actions, action flow, and its elements are. Understand what events are, explore jobs and runners, and how to read console output from actions.
+    url: https://learn.microsoft.com/en-us/training/modules/introduction-to-github-actions/
+    img: https://learn.microsoft.com/en-us/training/achievements/7-introduction-to-github-actions.svg
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-to-github-actions/1-introduction/
+    - title: What are Actions?
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-to-github-actions/2-what-are-actions/
+    - title: Explore Actions flow
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-to-github-actions/3-explore-actions-flow/
+    - title: Understand workflows
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-to-github-actions/4-understand-workflows/
+    - title: Describe standard workflow syntax elements
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-to-github-actions/5-describe-standard-workflow-syntax-elements/
+    - title: Explore events
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-to-github-actions/6-explore-events/
+    - title: Explore jobs
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-to-github-actions/7-explore-jobs/
+    - title: Explore runners
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-to-github-actions/8-explore-runners/
+    - title: Examine release and test an action
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-to-github-actions/9-examine-release-test-action/
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-to-github-actions/10-knowledge-check/
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-to-github-actions/11-summary/
+  - title: Learn continuous integration with GitHub Actions
+    description: |
+      This module details continuous integration using GitHub Actions and describes environment variables, artifacts, best practices, and how to secure your pipeline using encrypted variables and secrets.
+    url: https://learn.microsoft.com/en-us/training/modules/learn-continuous-integration-github-actions/
+    img: https://learn.microsoft.com/en-us/training/achievements/8-learn-continuous-integration-with-github-actions.svg
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/learn-continuous-integration-github-actions/1-introduction/
+    - title: Describe continuous integration with actions
+      url: https://learn.microsoft.com/en-us/training/modules/learn-continuous-integration-github-actions/2-describe-continuous-integration-with-actions/
+    - title: Examine environment variables
+      url: https://learn.microsoft.com/en-us/training/modules/learn-continuous-integration-github-actions/3-examine-environment-variables/
+    - title: Share artifacts between jobs
+      url: https://learn.microsoft.com/en-us/training/modules/learn-continuous-integration-github-actions/4-share-artifacts-between-jobs/
+    - title: Examine Workflow badges
+      url: https://learn.microsoft.com/en-us/training/modules/learn-continuous-integration-github-actions/5-examine-workflow-badges/
+    - title: Describe best practices for creating actions
+      url: https://learn.microsoft.com/en-us/training/modules/learn-continuous-integration-github-actions/6-describe-best-practices-for-creating-actions/
+    - title: Mark releases with Git tags
+      url: https://learn.microsoft.com/en-us/training/modules/learn-continuous-integration-github-actions/7-mark-releases-git-tags/
+    - title: Create encrypted secrets
+      url: https://learn.microsoft.com/en-us/training/modules/learn-continuous-integration-github-actions/8-create-encrypted-secrets/
+    - title: Use secrets in a workflow
+      url: https://learn.microsoft.com/en-us/training/modules/learn-continuous-integration-github-actions/9-use-secrets-workflow/
+    - title: Implement GitHub Actions For CI/CD
+      url: https://learn.microsoft.com/en-us/training/modules/learn-continuous-integration-github-actions/10-implement-github-actions-for-ci-cd/
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/learn-continuous-integration-github-actions/11-knowledge-check/
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/learn-continuous-integration-github-actions/12-summary/
+  - title: Design a container build strategy
+    description: |
+      This module helps you plan a container build strategy, explains containers and their structure, introduces Docker, microservices, Azure Container Registry, and related services.
+    url: https://learn.microsoft.com/en-us/training/modules/design-container-build-strategy/
+    img: https://learn.microsoft.com/en-us/training/achievements/1-design-a-container-build-strategy.svg
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/design-container-build-strategy/1-introduction/
+    - title: Examine structure of containers
+      url: https://learn.microsoft.com/en-us/training/modules/design-container-build-strategy/2-examine-structure-of-containers/
+    - title: Work with Docker containers
+      url: https://learn.microsoft.com/en-us/training/modules/design-container-build-strategy/3-work-docker-containers/
+    - title: Understand Dockerfile core concepts
+      url: https://learn.microsoft.com/en-us/training/modules/design-container-build-strategy/4-understand-dockerfile-core-concepts/
+    - title: Examine multi-stage Dockerfiles
+      url: https://learn.microsoft.com/en-us/training/modules/design-container-build-strategy/5-examine-multi-stage-dockerfiles/
+    - title: Examine considerations for multiple stage builds
+      url: https://learn.microsoft.com/en-us/training/modules/design-container-build-strategy/6-examine-considerations-multiple-stage-builds/
+    - title: Explore Azure container-related services
+      url: https://learn.microsoft.com/en-us/training/modules/design-container-build-strategy/7-explore-azure-container-related-services/
+    - title: Deploy Docker containers to Azure App Service web apps
+      url: https://learn.microsoft.com/en-us/training/modules/design-container-build-strategy/8-deploy-docker-containers-to-azure-app-service-web-apps/
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/design-container-build-strategy/9-knowledge-check/
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/design-container-build-strategy/10-summary/
 - title: Design and implement a release strategy
   url: https://learn.microsoft.com/en-us/training/paths/az-400-design-implement-release-strategy/
   img: https://learn.microsoft.com/training/achievements/az-400-design-and-implement-a-release-strategy.svg
+  description: |
+    This learning path explains the concepts of continuous delivery and releases
+    strategy considerations for setting up deployment stages and your delivery
+    and deployment cadence, and lastly, setting up your release approvals.
+  mods:
+  - title: Introduction to continuous delivery
+    description: |
+      This module introduces continuous delivery concepts and their implementation in a traditional IT development cycle.
+    url: https://learn.microsoft.com/en-us/training/modules/introduction-to-continuous-delivery/
+    img: https://learn.microsoft.com/en-us/training/achievements/1-introduction-to-continuous-delivery.svg
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-to-continuous-delivery/1-introduction/
+    - title: Explore traditional IT development cycle
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-to-continuous-delivery/2-explore-traditional-it-development-cycle/
+    - title: What is continuous delivery?
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-to-continuous-delivery/3-what-continuous-delivery/
+    - title: Move to continuous delivery
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-to-continuous-delivery/4-move-continuous-delivery/
+    - title: Understand releases and deployments
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-to-continuous-delivery/5-understand-releases-deployments/
+    - title: Understand release process versus release
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-to-continuous-delivery/5-understand-releases-deployments/
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-to-continuous-delivery/7-knowledge-check/
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-to-continuous-delivery/8-summary/
+  - title: Create a release pipeline
+    description: |
+      This module describes Azure Pipelines capabilities, build and release tasks.
+    url: https://learn.microsoft.com/en-us/training/modules/create-release-pipeline-devops/
+    img: https://learn.microsoft.com/en-us/training/achievements/1-create-a-release-pipeline.svg
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/create-release-pipeline-devops/1-introduction/
+    - title: Describe Azure DevOps release pipeline capabilities
+      url: https://learn.microsoft.com/en-us/training/modules/create-release-pipeline-devops/2-describe-azure-devops-capabilities/
+    - title: Explore release pipelines
+      url: https://learn.microsoft.com/en-us/training/modules/create-release-pipeline-devops/3-explore-release-pipelines/
+    - title: Explore artifact sources
+      url: https://learn.microsoft.com/en-us/training/modules/create-release-pipeline-devops/4-explore-artifact-sources/
+    - title: Choose the appropriate artifact source
+      url: https://learn.microsoft.com/en-us/training/modules/create-release-pipeline-devops/5-choose-appropriate-artifact-source/
+    - title: Exercise - Select an artifact source
+      url: https://learn.microsoft.com/en-us/training/modules/create-release-pipeline-devops/6-exercise-select-artifact-source/
+    - title: Examine considerations for deployment to stages
+      url: https://learn.microsoft.com/en-us/training/modules/create-release-pipeline-devops/7-examine-considerations-for-deployment-to-stages/
+    - title: Exercise - Set up stages
+      url: https://learn.microsoft.com/en-us/training/modules/create-release-pipeline-devops/8-exercise-set-up-stages/
+    - title: Explore build and release tasks
+      url: https://learn.microsoft.com/en-us/training/modules/create-release-pipeline-devops/9-explore-build-release-tasks/
+    - title: Explore custom build and release tasks
+      url: https://learn.microsoft.com/en-us/training/modules/create-release-pipeline-devops/10-explore-custom-build-release-tasks/
+    - title: Explore release jobs
+      url: https://learn.microsoft.com/en-us/training/modules/create-release-pipeline-devops/11-explore-release-jobs/
+    - title: Configure Pipelines as Code with YAML
+      url: https://learn.microsoft.com/en-us/training/modules/create-release-pipeline-devops/12-configure-pipelines-code-with-yaml/
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/create-release-pipeline-devops/13-knowledge-check/
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/create-release-pipeline-devops/14-summary/
+  - title: Explore release recommendations
+    description: |
+      This module explores the critical release strategy recommendations that organizations must consider when designing automated deployments and explains how to define components of a release pipeline and artifact sources, create approves, and configure release gates.
+    url: https://learn.microsoft.com/en-us/training/modules/explore-release-strategy-recommendations/
+    img: https://learn.microsoft.com/en-us/training/achievements/2-explore-release-strategy-recommendations.svg
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/explore-release-strategy-recommendations/1-introduction/
+    - title: Understand the delivery cadence and three types of triggers
+      url: https://learn.microsoft.com/en-us/training/modules/explore-release-strategy-recommendations/2-understand-delivery-cadence-three-types-of-triggers/
+    - title: Exercise - Select your delivery and deployment cadence
+      url: https://learn.microsoft.com/en-us/training/modules/explore-release-strategy-recommendations/3-exercise-select-your-delivery-deployment-cadence/
+    - title: Explore release approvals
+      url: https://learn.microsoft.com/en-us/training/modules/explore-release-strategy-recommendations/4-explore-release-approvals/
+    - title: Exercise - Set up manual approvals
+      url: https://learn.microsoft.com/en-us/training/modules/explore-release-strategy-recommendations/5-exercise-set-up-manual-approvals/
+    - title: Explore release gates
+      url: https://learn.microsoft.com/en-us/training/modules/explore-release-strategy-recommendations/6-explore-release-gates/
+    - title: Use release gates to protect quality
+      url: https://learn.microsoft.com/en-us/training/modules/explore-release-strategy-recommendations/7-use-release-gates-to-protect-quality/
+    - title: Control deployments using release gates
+      url: https://learn.microsoft.com/en-us/training/modules/explore-release-strategy-recommendations/8-control-deployments-using-release-gates/
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/explore-release-strategy-recommendations/9-knowledge-check/
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/explore-release-strategy-recommendations/10-summary/
+  - title: Provision and test environments
+    description: |
+      This module details target environment provisioning, service connections creation process, and test infrastructure setup. You will learn how to configure functional test automation and run availability tests.
+    url: https://learn.microsoft.com/en-us/training/modules/configure-provision-environments/
+    img: https://learn.microsoft.com/en-us/training/achievements/2-configure-and-provision-environments.svg
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/configure-provision-environments/1-introduction/
+    - title: Provision and configure target environments
+      url: https://learn.microsoft.com/en-us/training/modules/configure-provision-environments/2-provision-configure-target-environments/
+    - title: Exercise - Set up service connections
+      url: https://learn.microsoft.com/en-us/training/modules/configure-provision-environments/3-exercise-set-up-service-connections/
+    - title: Configure automated integration and functional test automation
+      url: https://learn.microsoft.com/en-us/training/modules/configure-provision-environments/4-configure-automated-integration-functional-test-automation/
+    - title: Understand Shift-left
+      url: https://learn.microsoft.com/en-us/training/modules/configure-provision-environments/5-understand-shift-left/
+    - title: Set up and run availability tests
+      url: https://learn.microsoft.com/en-us/training/modules/configure-provision-environments/6-set-up-run-availability-tests/
+    - title: Explore Azure Load Testing
+      url: https://learn.microsoft.com/en-us/training/modules/configure-provision-environments/7-explore-azure-load-testing/
+    - title: Set up and run functional tests
+      url: https://learn.microsoft.com/en-us/training/modules/configure-provision-environments/8-set-up-run-functional-tests/
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/configure-provision-environments/9-knowledge-check/
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/configure-provision-environments/10-summary/
+  - title: Manage and modularize tasks and templates
+    description: |
+      This module describes the creation of task and variable groups and using release variables and stage variables in your pipeline.
+    url: https://learn.microsoft.com/en-us/training/modules/manage-modularize-tasks-templates/
+    img: https://learn.microsoft.com/en-us/training/achievements/3-manage-and-modularize-tasks-and-templates.svg
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/manage-modularize-tasks-templates/1-introduction/
+    - title: Examine task groups
+      url: https://learn.microsoft.com/en-us/training/modules/manage-modularize-tasks-templates/2-examine-task-groups/
+    - title: Exercise - create and manage task groups
+      url: https://learn.microsoft.com/en-us/training/modules/manage-modularize-tasks-templates/3-exercise-create-manage-task-groups/
+    - title: Explore variables in release pipelines
+      url: https://learn.microsoft.com/en-us/training/modules/manage-modularize-tasks-templates/5-understand-variable-groups/
+    - title: Understand variable groups
+      url: https://learn.microsoft.com/en-us/training/modules/manage-modularize-tasks-templates/5-understand-variable-groups/
+    - title: Exercise - create and manage variable groups
+      url: https://learn.microsoft.com/en-us/training/modules/manage-modularize-tasks-templates/6-exercise-create-manage-variable-groups/
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/manage-modularize-tasks-templates/7-knowledge-check/
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/manage-modularize-tasks-templates/8-summary/
+  - title: Automate inspection of health
+    description: |
+      This module describes how to automate the inspection of health events, configure notifications in Azure DevOps and GitHub, set up service hooks to monitor pipelines, measure the quality of your release process, and detail release gates for quality purposes. You will examine release management tools and details about them.
+    url: https://learn.microsoft.com/en-us/training/modules/automate-inspection-health/
+    img: https://learn.microsoft.com/en-us/training/achievements/4-automate-inspection-of-health.svg
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/automate-inspection-health/1-introduction/
+    - title: Automate inspection of health
+      url: https://learn.microsoft.com/en-us/training/modules/automate-inspection-health/2-automate-inspection-health/
+    - title: Explore events and notifications
+      url: https://learn.microsoft.com/en-us/training/modules/automate-inspection-health/3-explore-events-notifications/
+    - title: Explore service hooks
+      url: https://learn.microsoft.com/en-us/training/modules/automate-inspection-health/4-explore-service-hooks/
+    - title: Exercise - Set up service hooks to monitor the pipeline
+      url: https://learn.microsoft.com/en-us/training/modules/automate-inspection-health/5-exercise-set-up-service-hooks-to-monitor-pipeline/
+    - title: Configure Azure DevOps notifications
+      url: https://learn.microsoft.com/en-us/training/modules/automate-inspection-health/6-configure-azure-devops-notifications/
+    - title: Configure GitHub notifications
+      url: https://learn.microsoft.com/en-us/training/modules/automate-inspection-health/7-configure-github-notifications/
+    - title: Explore how to measure quality of your release process
+      url: https://learn.microsoft.com/en-us/training/modules/automate-inspection-health/8-explore-how-to-measure-quality-of-your-release-process/
+    - title: Examine release notes and documentation
+      url: https://learn.microsoft.com/en-us/training/modules/automate-inspection-health/9-examine-release-notes-documentation/
+    - title: Examine considerations for choosing release management tools
+      url: https://learn.microsoft.com/en-us/training/modules/automate-inspection-health/10-examine-considerations-for-choosing-release-management-tools/
+    - title: Explore common release management tools
+      url: https://learn.microsoft.com/en-us/training/modules/automate-inspection-health/11-explore-common-release-management-tools/
+    - title: Create a release dashboard
+      url: https://learn.microsoft.com/en-us/training/modules/automate-inspection-health/12-create-release-dashboard/
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/automate-inspection-health/13-knowledge-check/
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/automate-inspection-health/14-summary/
 - title: Implement a secure continuous deployment using Azure Pipelines
   url: https://learn.microsoft.com/en-us/training/paths/az-400-implement-secure-continuous-deployment/
   img: https://learn.microsoft.com/training/achievements/az-400-implement-a-secure-continuous-deployment-using-azure-pipelines.svg
+  description: |
+    This learning path helps you understand automated release gates, secrets,
+    and secret management in your pipeline. You will learn how to implement
+    alerting mechanisms, report on your quality, and get notified by using
+    service hooks.
+  mods:
+  - title: Introduction to deployment patterns
+    description: |
+      This module introduces deployment patterns and explains microservices architecture to help improve the deployment cycle and examine classical and modern deployment patterns.
+    url: https://learn.microsoft.com/en-us/training/modules/introduction-to-deployment-patterns/
+    img: https://learn.microsoft.com/en-us/learn/achievements/4-introduction-to-deployment-patterns.svg
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-to-deployment-patterns/1-introduction/-
+    - title: Explore microservices architecture
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-to-deployment-patterns/2-explore-microservices-architecture/-
+    - title: Examine classical deployment patterns
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-to-deployment-patterns/3-examine-classical-deployment-patterns/-
+    - title: Understand modern deployment patterns
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-to-deployment-patterns/4-understand-modern-deployment-patterns/-
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-to-deployment-patterns/5-knowledge-check/-
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-to-deployment-patterns/6-summary/-
+  - title: Implement blue-green deployment and feature toggles
+    description: |
+      This module describes the blue-green deployment process and introduces feature toggle techniques to implement in the development process.
+    url: https://learn.microsoft.com/en-us/training/modules/implement-blue-green-deployment-feature-toggles/
+    img: https://learn.microsoft.com/en-us/training/achievements/5-implement-blue-green-deployment-and-feature-toggles.svg
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/implement-blue-green-deployment-feature-toggles/1-introduction/-
+    - title: What is blue-green deployment?
+      url: https://learn.microsoft.com/en-us/training/modules/implement-blue-green-deployment-feature-toggles/2-what-blue-green-deployment/-
+    - title: Explore deployment slots
+      url: https://learn.microsoft.com/en-us/training/modules/implement-blue-green-deployment-feature-toggles/3-explore-deployment-slots/-
+    - title: Exercise - set up a blue-green deployment
+      url: https://learn.microsoft.com/en-us/training/modules/implement-blue-green-deployment-feature-toggles/4-exercise-set-up-blue-green-deployment/-
+    - title: Introduction to feature toggles
+      url: https://learn.microsoft.com/en-us/training/modules/implement-blue-green-deployment-feature-toggles/5-introduction-feature-toggles/-
+    - title: Describe feature toggle maintenance
+      url: https://learn.microsoft.com/en-us/training/modules/implement-blue-green-deployment-feature-toggles/6-describe-feature-toggle-maintenance/-
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/implement-blue-green-deployment-feature-toggles/7-knowledge-check/-
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/implement-blue-green-deployment-feature-toggles/8-summary/-
+  - title: Implement canary releases and dark launching
+    description: |
+      This module describes deployment strategies around canary releases and dark launching and examines traffic managers.
+    url: https://learn.microsoft.com/en-us/training/modules/implement-canary-releases-dark-launching/
+    img: https://learn.microsoft.com/en-us/training/achievements/6-implement-canary-releases-and-dark-launching.svg
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/implement-canary-releases-dark-launching/1-introduction/-
+    - title: Explore canary releases
+      url: https://learn.microsoft.com/en-us/training/modules/implement-canary-releases-dark-launching/2-explore-canary-releases/-
+    - title: Examine Traffic Manager
+      url: https://learn.microsoft.com/en-us/training/modules/implement-canary-releases-dark-launching/3-examine-traffic-manager/-
+    - title: Understand dark launching
+      url: https://learn.microsoft.com/en-us/training/modules/implement-canary-releases-dark-launching/4-understand-dark-launching/-
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/implement-canary-releases-dark-launching/5-knowledge-check/-
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/implement-canary-releases-dark-launching/6-summary/-
+  - title: Implement A/B testing and progressive exposure deployment
+    description: |
+      This module introduces A/B test and progressive exposure deployment concepts and explores CI/CD with deployment rings -- ring-based deployment.
+    url: https://learn.microsoft.com/en-us/training/modules/implement-test-progressive-exposure-deployment/
+    img: https://learn.microsoft.com/en-us/training/achievements/7-implement-a-b-testing-and-progressive-exposure-deployment.svg
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/implement-test-progressive-exposure-deployment/1-introduction/-
+    - title: What is A/B testing?
+      url: https://learn.microsoft.com/en-us/training/modules/implement-test-progressive-exposure-deployment/2-what-a-b-testing/-
+    - title: Explore CI-CD with deployment rings
+      url: https://learn.microsoft.com/en-us/training/modules/implement-test-progressive-exposure-deployment/3-explore-ci-cd-deployment-rings/-
+    - title: Exercise - Ring-based deployment
+      url: https://learn.microsoft.com/en-us/training/modules/implement-test-progressive-exposure-deployment/4-exercise-ring-based-deployment/-
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/implement-test-progressive-exposure-deployment/5-knowledge-check/-
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/implement-test-progressive-exposure-deployment/6-summary/-
+  - title: Integrate with identity management systems
+    description: |
+      This module describes the integration with GitHub and single sign-on (SSO) for authentication, service principals, and managed service identities.
+    url: https://learn.microsoft.com/en-us/training/modules/integrate-identity-management-systems/
+    img: https://learn.microsoft.com/en-us/training/achievements/7-integrate-identity-management-systems.svg
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/integrate-identity-management-systems/1-introduction/-
+    - title: Integrate GitHub with single sign-on (SSO)
+      url: https://learn.microsoft.com/en-us/training/modules/integrate-identity-management-systems/2-integrate-github-single-sign-sso/-
+    - title: Explore service principals
+      url: https://learn.microsoft.com/en-us/training/modules/integrate-identity-management-systems/3-explore-service-principals/-
+    - title: Explore Managed Identity
+      url: https://learn.microsoft.com/en-us/training/modules/integrate-identity-management-systems/4-explore-managed-identity/-
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/integrate-identity-management-systems/5-knowledge-check/-
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/integrate-identity-management-systems/6-summary/-
+  - title: Manage application configuration data
+    description: |
+      This module explores ways to rethink application configuration data and the separation of concerns method. It helps you understand configuration patterns and how to integrate Azure Key Vault with Azure Pipelines. Also, describes Azure App Configuration and details Key-value pairs and App Configuration feature management.
+    url: https://learn.microsoft.com/en-us/training/modules/manage-application-configuration-data/
+    img: https://learn.microsoft.com/en-us/training/achievements/6-manage-application-configuration-data.svg
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/manage-application-configuration-data/1-introduction/-
+    - title: Rethink application configuration data
+      url: https://learn.microsoft.com/en-us/training/modules/manage-application-configuration-data/2-rethink-application-configuration-data/-
+    - title: Explore separation of concerns
+      url: https://learn.microsoft.com/en-us/training/modules/manage-application-configuration-data/3-explore-separation-of-concerns/-
+    - title: Understand external configuration store patterns
+      url: https://learn.microsoft.com/en-us/training/modules/manage-application-configuration-data/4-understand-external-configuration-store-patterns/-
+    - title: Introduction to Azure App Configuration
+      url: https://learn.microsoft.com/en-us/training/modules/manage-application-configuration-data/5-introduction-to-azure-app-configuration/-
+    - title: Examine Key-value pairs
+      url: https://learn.microsoft.com/en-us/training/modules/manage-application-configuration-data/6-examine-key-value-pairs/-
+    - title: Examine App configuration feature management
+      url: https://learn.microsoft.com/en-us/training/modules/manage-application-configuration-data/7-examine-app-configuration-feature-management/-
+    - title: Integrate Azure Key Vault with Azure Pipelines
+      url: https://learn.microsoft.com/en-us/training/modules/manage-application-configuration-data/8-integrate-azure-key-vault-azure-pipelines/-
+    - title: Manage secrets, tokens and certificates
+      url: https://learn.microsoft.com/en-us/training/modules/manage-application-configuration-data/9-manage-secrets-tokens-certificates/-
+    - title: Examine DevOps inner and outer loop
+      url: https://learn.microsoft.com/en-us/training/modules/manage-application-configuration-data/10-examine-devops-inner-outer-loop/-
+    - title: Integrate Azure Key Vault with Azure DevOps
+      url: https://learn.microsoft.com/en-us/training/modules/manage-application-configuration-data/11-integrate-azure-key-vault-with-azure-devops/-
+    - title: Enable Dynamic Configuration Feature Flags
+      url: https://learn.microsoft.com/en-us/training/modules/manage-application-configuration-data/12-enable-dynamic-configuration-feature-flags/-
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/manage-application-configuration-data/13-knowledge-check/-
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/manage-application-configuration-data/14-summary/-
 - title: Manage infrastructure as code using Azure and DSC
   url: https://learn.microsoft.com/en-us/training/paths/az-400-manage-infrastructure-as-code-using-azure/
   img: https://learn.microsoft.com/training/achievements/az-400-manage-infrastructure-as-code-using-azure.svg
+  description: |
+    This learning path explores the “Infrastructure as Code” (IaC) concept and
+    how to manage your operations environment the same way you do applications
+    or other code for general release.
+  mods:
+  - title: Explore infrastructure as code and configuration management
+    description: |
+      This module describes key concepts of infrastructure as code and environment deployment creation and configuration. Also, understand the imperative, declarative, and idempotent configuration and how it applies to your company.
+    url: https://learn.microsoft.com/en-us/training/modules/explore-infrastructure-code-configuration-management/
+    img: https://learn.microsoft.com/en-us/training/achievements/1-explore-infrastructure-as-code-and-configuration-management.svg
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/explore-infrastructure-code-configuration-management/1-introduction/
+    - title: Explore environment deployment
+      url: https://learn.microsoft.com/en-us/training/modules/explore-infrastructure-code-configuration-management/2-explore-environment-deployment/
+    - title: Examine environment configuration
+      url: https://learn.microsoft.com/en-us/training/modules/explore-infrastructure-code-configuration-management/3-examine-environment-configuration/
+    - title: Understand imperative versus declarative configuration
+      url: https://learn.microsoft.com/en-us/training/modules/explore-infrastructure-code-configuration-management/4-understand-imperative-versus-declarative-configuration/
+    - title: Understand idempotent configuration
+      url: https://learn.microsoft.com/en-us/training/modules/explore-infrastructure-code-configuration-management/5-understand-idempotent-configuration/
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/explore-infrastructure-code-configuration-management/6-knowledge-check/
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/explore-infrastructure-code-configuration-management/7-summary/
+  - title: Create Azure resources using Azure Resource Manager templates
+    description: |
+      This module explores Azure Resource Manager templates and their components and details dependencies and modularized templates with secrets.
+    url: https://learn.microsoft.com/en-us/training/modules/create-azure-resources-using-azure-resource-manager-templates/
+    img: https://learn.microsoft.com/en-us/training/achievements/2-create-azure-resources-using-arm-templates.svg
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/create-azure-resources-using-azure-resource-manager-templates/1-introduction/
+    - title: Why use Azure Resource Manager templates?
+      url: https://learn.microsoft.com/en-us/training/modules/create-azure-resources-using-azure-resource-manager-templates/2-why-use-azure-resource-manager-templates/
+    - title: Explore template components
+      url: https://learn.microsoft.com/en-us/training/modules/create-azure-resources-using-azure-resource-manager-templates/3-explore-template-components/
+    - title: Manage dependencies
+      url: https://learn.microsoft.com/en-us/training/modules/create-azure-resources-using-azure-resource-manager-templates/4-manage-dependencies/
+    - title: Modularize templates
+      url: https://learn.microsoft.com/en-us/training/modules/create-azure-resources-using-azure-resource-manager-templates/5-modularize-templates/
+    - title: Manage secrets in templates
+      url: https://learn.microsoft.com/en-us/training/modules/create-azure-resources-using-azure-resource-manager-templates/6-manage-secrets-templates/
+    - title: Azure deployments using Resource Manager templates
+      url: https://learn.microsoft.com/en-us/training/modules/create-azure-resources-using-azure-resource-manager-templates/7-azure-deployment-using-resource-manager-templates/
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/create-azure-resources-using-azure-resource-manager-templates/8-knowledge-check/
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/create-azure-resources-using-azure-resource-manager-templates/9-summary/
+  - title: Create Azure resources by using Azure CLI
+    description: |
+      This module explains Azure CLI to create Azure resources, run templates, and detail Azure CLI commands.
+    url: https://learn.microsoft.com/en-us/training/modules/create-azure-resources-by-using-azure-cli/
+    img: https://learn.microsoft.com/en-us/training/achievements/3-create-azure-resources-by-using-azure-cli.svg
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/create-azure-resources-by-using-azure-cli/1-introduction/
+    - title: What is Azure CLI?
+      url: https://learn.microsoft.com/en-us/training/modules/create-azure-resources-by-using-azure-cli/2-what-azure-cli/
+    - title: Work with Azure CLI
+      url: https://learn.microsoft.com/en-us/training/modules/create-azure-resources-by-using-azure-cli/3-work-azure-cli/
+    - title: Exercise - Run templates using Azure CLI
+      url: https://learn.microsoft.com/en-us/training/modules/create-azure-resources-by-using-azure-cli/4-exercise-run-templates-using-azure-cli/
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/create-azure-resources-by-using-azure-cli/5-knowledge-check/
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/create-azure-resources-by-using-azure-cli/6-summary/
+  - title: Explore Azure Automation with DevOps
+    description: |
+      This module describes Azure Automation with Azure DevOps, using runbooks, webhooks, and PowerShell workflows. You'll learn how to create and manage automation for your environment.
+    url: https://learn.microsoft.com/en-us/training/modules/explore-azure-automation-devops/
+    img: https://learn.microsoft.com/en-us/training/achievements/4-explore-azure-automation-with-devops.svg
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/explore-azure-automation-devops/1-introduction/
+    - title: Create automation accounts
+      url: https://learn.microsoft.com/en-us/training/modules/explore-azure-automation-devops/2-create-automation-accounts/
+    - title: What is a runbook?
+      url: https://learn.microsoft.com/en-us/training/modules/explore-azure-automation-devops/3-what-runbook/
+    - title: Understand automation shared resources
+      url: https://learn.microsoft.com/en-us/training/modules/explore-azure-automation-devops/4-understand-automation-shared-resources/
+    - title: Explore runbook gallery
+      url: https://learn.microsoft.com/en-us/training/modules/explore-azure-automation-devops/5-explore-runbook-gallery/
+    - title: Examine webhooks
+      url: https://learn.microsoft.com/en-us/training/modules/explore-azure-automation-devops/6-examine-webhooks/
+    - title: Explore source control integration
+      url: https://learn.microsoft.com/en-us/training/modules/explore-azure-automation-devops/7-explore-source-control-integration/
+    - title: Explore PowerShell workflows
+      url: https://learn.microsoft.com/en-us/training/modules/explore-azure-automation-devops/8-explore-powershell-workflows/
+    - title: Create a workflow
+      url: https://learn.microsoft.com/en-us/training/modules/explore-azure-automation-devops/9-create-workflow/
+    - title: Exercise - Create and run a workflow runbook
+      url: https://learn.microsoft.com/en-us/training/modules/explore-azure-automation-devops/10-exercise-create-run-workflow-runbook/
+    - title: Examine checkpoint and parallel processing
+      url: https://learn.microsoft.com/en-us/training/modules/explore-azure-automation-devops/11-examine-checkpoint-parallel-processing/
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/explore-azure-automation-devops/12-knowledge-check/
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/explore-azure-automation-devops/13-summary/
+  - title: Implement Desired State Configuration (DSC)
+    description: |
+      This module describes Desired State Configuration (DSC) and its components for implementation. You can exercise how to import, compile and automate your environment creation, and use DSC for Linux automation on Azure.
+    url: https://learn.microsoft.com/en-us/training/modules/implement-desired-state-configuration-dsc/
+    img: https://learn.microsoft.com/en-us/training/achievements/5-implement-desired-state-configuration-dsc.svg
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/implement-desired-state-configuration-dsc/1-introduction/
+    - title: Understand configuration drift
+      url: https://learn.microsoft.com/en-us/training/modules/implement-desired-state-configuration-dsc/2-understand-configuration-drift/
+    - title: Explore Desired State Configuration (DSC)
+      url: https://learn.microsoft.com/en-us/training/modules/implement-desired-state-configuration-dsc/3-explore-desired-state-configuration-dsc/
+    - title: Explore Azure Automation State configuration (DSC)
+      url: https://learn.microsoft.com/en-us/training/modules/implement-desired-state-configuration-dsc/4-explore-azure-automation/
+    - title: Examine DSC configuration file
+      url: https://learn.microsoft.com/en-us/training/modules/implement-desired-state-configuration-dsc/5-examine-dsc-configuration-file/
+    - title: Exercise - Import and compile
+      url: https://learn.microsoft.com/en-us/training/modules/implement-desired-state-configuration-dsc/6-exercise-import-compile/
+    - title: Exercise - Onboard machines for management
+      url: https://learn.microsoft.com/en-us/training/modules/implement-desired-state-configuration-dsc/7-exercise-onboard-machines-for-management/
+    - title: Explore hybrid management
+      url: https://learn.microsoft.com/en-us/training/modules/implement-desired-state-configuration-dsc/8-explore-hybrid-management/
+    - title: Implement DSC and Linux Automation on Azure
+      url: https://learn.microsoft.com/en-us/training/modules/implement-desired-state-configuration-dsc/9-implement-dsc-linux-automation-azure/
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/implement-desired-state-configuration-dsc/10-knowledge-check/
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/implement-desired-state-configuration-dsc/11-summary/
+  - title: Implement Bicep
+    description: |
+      This module explains Bicep and how it integrates with different tools such as Azure CLI and Visual Studio Code for environment deployment configuration.
+    url: https://learn.microsoft.com/en-us/training/modules/implement-bicep/
+    img: https://learn.microsoft.com/en-us/training/achievements/implement-bicep.svg
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/implement-bicep/1-introduction/
+    - title: What is Bicep?
+      url: https://learn.microsoft.com/en-us/training/modules/implement-bicep/2-what-bicep/
+    - title: Install Bicep
+      url: https://learn.microsoft.com/en-us/training/modules/implement-bicep/3-install-bicep/
+    - title: Exercise - Create Bicep templates
+      url: https://learn.microsoft.com/en-us/training/modules/implement-bicep/4-exercise-create-bicep-templates/
+    - title: Understand Bicep file structure and syntax
+      url: https://learn.microsoft.com/en-us/training/modules/implement-bicep/5-understand-bicep-file-structure-syntax/
+    - title: Exercise - Deploy a Bicep file from Azure Pipelines
+      url: https://learn.microsoft.com/en-us/training/modules/implement-bicep/6-exercise-deploy-bicep-file-azure-pipelines/
+    - title: Exercise - Deploy a Bicep file from GitHub workflows
+      url: https://learn.microsoft.com/en-us/training/modules/implement-bicep/7-exercise-deploy-bicep-file-github-workflows/
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/implement-bicep/8-knowledge-check/
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/implement-bicep/9-summary/
 - title: Design and implement a dependency management strategy
   url: https://learn.microsoft.com/en-us/training/paths/az-400-design-implement-dependency-management-strategy/
   img: https://learn.microsoft.com/training/achievements/az-400-design-and-implement-a-dependency-management-strategy.svg
+  description: |
+    This learning path examines dependency management in software development,
+    how to identify them in your codebase and how to package and manage
+    dependencies in package feeds.
+  mods:
+  - title: Explore package dependencies
+    description: |
+      This module explores dependency management concepts and helps to identify project dependencies. You will learn how to decompose your system, identify dependencies, and package componentization.
+    url: 
+    img: 
+    sec:
+    - title: Introduction
+      url: 
+    - title: What is dependency management?
+      url: 
+    - title: Describe elements of a dependency management strategy
+      url: 
+    - title: Identify dependencies
+      url: 
+    - title: Understand source and package componentization
+      url: 
+    - title: Decompose your system
+      url: 
+    - title: Scan your codebase for dependencies
+      url: 
+    - title: Knowledge check
+      url: 
+    - title: Summary
+      url: 
+  - title: Understand package management
+    description: |
+      This module describes package feeds, common public package sources, and how to create and publish packages.
+    url: 
+    img: 
+    sec:
+    - title: Introduction
+      url: 
+    - title: Explore packages
+      url: 
+    - title: Understand package feeds
+      url: 
+    - title: Explore package feed managers
+      url: 
+    - title: Explore common public package sources
+      url: 
+    - title: Explore self-hosted and SaaS based package sources
+      url: 
+    - title: Consume packages
+      url: 
+    - title: Introduction to Azure Artifacts
+      url: 
+    - title: Publish packages
+      url: 
+    - title: Package Management with Azure Artifacts
+      url: 
+    - title: Knowledge check
+      url: 
+    - title: Summary
+      url: 
+  - title: Migrate consolidating and secure artifacts
+    description: |
+      This module details package migration, consolidation, and configuration to secure access to package feeds and artifact repositories.
+    url: 
+    img: 
+    sec:
+    - title: Introduction
+      url: 
+    - title: Identify existing artifact repositories
+      url: 
+    - title: Migrate and integrating artifact repositories
+      url: 
+    - title: Secure access to package feeds
+      url: 
+    - title: Examine roles
+      url: 
+    - title: Examine permissions
+      url: 
+    - title: Examine authentication
+      url: 
+    - title: Knowledge check
+      url: 
+    - title: Summary
+      url: 
+  - title: Implement a versioning strategy
+    description: |
+      This module explains versioning strategies for packaging, best practices for versioning, and package promotion.
+    url: 
+    img: 
+    sec:
+    - title: Introduction
+      url: 
+    - title: Understand versioning of artifacts
+      url: 
+    - title: Explore semantic versioning
+      url: 
+    - title: Examine release views
+      url: 
+    - title: Promote packages
+      url: 
+    - title: Exercise - Promote a package
+      url: 
+    - title: Explore best practices for versioning
+      url: 
+    - title: Exercise - Push from the pipeline
+      url: 
+    - title: Knowledge check
+      url: 
+    - title: Summary
+      url: 
+  - title: Introduction to GitHub Packages
+    description: |
+      This module introduces you to GitHub Packages. It explores ways to control permissions and visibility, publish, install, delete and restore packages using GitHub.
+    url: 
+    img: 
+    sec:
+    - title: Introduction
+      url: 
+    - title: Publish packages
+      url: 
+    - title: Install a package
+      url: 
+    - title: Delete and restore a package
+      url: 
+    - title: Explore package access control and visibility
+      url: 
+    - title: Knowledge check
+      url: 
+    - title: Summary
+      url: 
 - title: Implement continuous feedback
   url: https://learn.microsoft.com/en-us/training/paths/az-400-implement-continuous-feedback/
   img: https://learn.microsoft.com/training/achievements/az-400-implement-continuous-feedback.svg
+  description: |
+    
+  mods:
+  - title: 
 - title: Implement security and validate code bases for compliance
   url: https://learn.microsoft.com/en-us/training/paths/az-400-implement-security-validate-code-bases-compliance/
   img: https://learn.microsoft.com/training/achievements/implement-security-and-validate-code-bases-for-compliance.svg
+  description: |
+    
+  mods:
+  - title: 
