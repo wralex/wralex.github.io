@@ -29,5 +29,10 @@ $(document).ready(function(){
             alert('Error in copying text: ', err);
         });
     });
-
+});
+$(function() {
+    $("a").on("click", function(event) {
+        event.preventDefault();
+        window.open(this.href);
+    });
 });

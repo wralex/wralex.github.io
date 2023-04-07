@@ -1050,139 +1050,422 @@
   mods:
   - title: Explore package dependencies
     description: |
-      This module explores dependency management concepts and helps to identify project dependencies. You will learn how to decompose your system, identify dependencies, and package componentization.
-    url: 
-    img: 
+      This module explores dependency management concepts and helps to identify
+      project dependencies. You will learn how to decompose your system,
+      identify dependencies, and package componentization.
+    url: https://learn.microsoft.com/en-us/training/modules/explore-package-dependencies/
+    img: https://learn.microsoft.com/en-us/training/achievements/1-explore-package-dependencies.svg
     sec:
     - title: Introduction
-      url: 
+      url: https://learn.microsoft.com/en-us/training/modules/explore-package-dependencies/1-introduction/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-design-implement-dependency-management-strategy
     - title: What is dependency management?
-      url: 
+      url: https://learn.microsoft.com/en-us/training/modules/explore-package-dependencies/2-what-dependency-management/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-design-implement-dependency-management-strategy
     - title: Describe elements of a dependency management strategy
-      url: 
+      url: https://learn.microsoft.com/en-us/training/modules/explore-package-dependencies/3-describe-elements-of-dependency-management-strategy/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-design-implement-dependency-management-strategy
     - title: Identify dependencies
-      url: 
+      url: https://learn.microsoft.com/en-us/training/modules/explore-package-dependencies/4-identify-dependencies/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-design-implement-dependency-management-strategy
     - title: Understand source and package componentization
-      url: 
+      url: https://learn.microsoft.com/en-us/training/modules/explore-package-dependencies/5-understand-source-package-componentization/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-design-implement-dependency-management-strategy
     - title: Decompose your system
-      url: 
+      url: https://learn.microsoft.com/en-us/training/modules/explore-package-dependencies/6-decompose-your-system/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-design-implement-dependency-management-strategy
     - title: Scan your codebase for dependencies
-      url: 
+      url: https://learn.microsoft.com/en-us/training/modules/explore-package-dependencies/7-scan-your-codebase-for-dependencies/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-design-implement-dependency-management-strategy
     - title: Knowledge check
-      url: 
+      url: https://learn.microsoft.com/en-us/training/modules/explore-package-dependencies/8-knowledge-check/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-design-implement-dependency-management-strategy
     - title: Summary
-      url: 
+      url: https://learn.microsoft.com/en-us/training/modules/explore-package-dependencies/9-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-design-implement-dependency-management-strategy
   - title: Understand package management
     description: |
       This module describes package feeds, common public package sources, and how to create and publish packages.
-    url: 
-    img: 
+    url: https://learn.microsoft.com/en-us/training/modules/understand-package-management/
+    img: https://learn.microsoft.com/en-us/training/achievements/2-understand-package-management.svg
     sec:
     - title: Introduction
-      url: 
+      url: https://learn.microsoft.com/en-us/training/modules/understand-package-management/1-introduction/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-design-implement-dependency-management-strategy
     - title: Explore packages
-      url: 
+      url: https://learn.microsoft.com/en-us/training/modules/understand-package-management/2-explore-packages/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-design-implement-dependency-management-strategy
     - title: Understand package feeds
-      url: 
+      url: https://learn.microsoft.com/en-us/training/modules/understand-package-management/3-understand-package-feeds/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-design-implement-dependency-management-strategy
     - title: Explore package feed managers
-      url: 
+      url: https://learn.microsoft.com/en-us/training/modules/understand-package-management/4-explore-package-feed-managers/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-design-implement-dependency-management-strategy
     - title: Explore common public package sources
-      url: 
+      url: https://learn.microsoft.com/en-us/training/modules/understand-package-management/5-explore-common-public-package-sources/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-design-implement-dependency-management-strategy
     - title: Explore self-hosted and SaaS based package sources
-      url: 
+      url: https://learn.microsoft.com/en-us/training/modules/understand-package-management/6-explore-self-hosted-saas-based-package-sources/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-design-implement-dependency-management-strategy
     - title: Consume packages
-      url: 
+      url: https://learn.microsoft.com/en-us/training/modules/understand-package-management/7-consume-packages/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-design-implement-dependency-management-strategy
     - title: Introduction to Azure Artifacts
-      url: 
+      url: https://learn.microsoft.com/en-us/training/modules/understand-package-management/8-introduction-to-azure-artifacts/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-design-implement-dependency-management-strategy
     - title: Publish packages
-      url: 
+      url: https://learn.microsoft.com/en-us/training/modules/understand-package-management/9-publish-packages/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-design-implement-dependency-management-strategy
     - title: Package Management with Azure Artifacts
-      url: 
+      url: https://learn.microsoft.com/en-us/training/modules/understand-package-management/10-package-management-azure-artifacts/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-design-implement-dependency-management-strategy
     - title: Knowledge check
-      url: 
+      url: https://learn.microsoft.com/en-us/training/modules/understand-package-management/11-knowledge-check/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-design-implement-dependency-management-strategy
     - title: Summary
-      url: 
+      url: https://learn.microsoft.com/en-us/training/modules/understand-package-management/12-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-design-implement-dependency-management-strategy
   - title: Migrate consolidating and secure artifacts
     description: |
       This module details package migration, consolidation, and configuration to secure access to package feeds and artifact repositories.
-    url: 
-    img: 
+    url: https://learn.microsoft.com/en-us/training/modules/migrate-consolidating-secure-artifacts/
+    img: https://learn.microsoft.com/en-us/training/achievements/3-migrate-consolidating-and-secure-artifacts.svg
     sec:
     - title: Introduction
-      url: 
+      url: https://learn.microsoft.com/en-us/training/modules/migrate-consolidating-secure-artifacts/1-introduction/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-design-implement-dependency-management-strategy
     - title: Identify existing artifact repositories
-      url: 
+      url: https://learn.microsoft.com/en-us/training/modules/migrate-consolidating-secure-artifacts/2-identify-existing-artifact-repositories/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-design-implement-dependency-management-strategy
     - title: Migrate and integrating artifact repositories
-      url: 
+      url: https://learn.microsoft.com/en-us/training/modules/migrate-consolidating-secure-artifacts/3-migrate-integrating-artifact-repositories/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-design-implement-dependency-management-strategy
     - title: Secure access to package feeds
-      url: 
+      url: https://learn.microsoft.com/en-us/training/modules/migrate-consolidating-secure-artifacts/4-secure-access-to-package-feeds/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-design-implement-dependency-management-strategy
     - title: Examine roles
-      url: 
+      url: https://learn.microsoft.com/en-us/training/modules/migrate-consolidating-secure-artifacts/5-examine-roles/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-design-implement-dependency-management-strategy
     - title: Examine permissions
-      url: 
+      url: https://learn.microsoft.com/en-us/training/modules/migrate-consolidating-secure-artifacts/6-examine-permissions/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-design-implement-dependency-management-strategy
     - title: Examine authentication
-      url: 
+      url: https://learn.microsoft.com/en-us/training/modules/migrate-consolidating-secure-artifacts/7-examine-authentication/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-design-implement-dependency-management-strategy
     - title: Knowledge check
-      url: 
+      url: https://learn.microsoft.com/en-us/training/modules/migrate-consolidating-secure-artifacts/8-knowledge-check/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-design-implement-dependency-management-strategy
     - title: Summary
-      url: 
+      url: https://learn.microsoft.com/en-us/training/modules/migrate-consolidating-secure-artifacts/9-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-design-implement-dependency-management-strategy
   - title: Implement a versioning strategy
     description: |
       This module explains versioning strategies for packaging, best practices for versioning, and package promotion.
-    url: 
-    img: 
+    url: https://learn.microsoft.com/en-us/training/modules/implement-versioning-strategy/
+    img: https://learn.microsoft.com/en-us/training/achievements/4-implement-a-versioning-strategy.svg
     sec:
     - title: Introduction
-      url: 
+      url: https://learn.microsoft.com/en-us/training/modules/implement-versioning-strategy/1-introduction/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-design-implement-dependency-management-strategy
     - title: Understand versioning of artifacts
-      url: 
+      url: https://learn.microsoft.com/en-us/training/modules/implement-versioning-strategy/2-understand-versioning-of-artifacts/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-design-implement-dependency-management-strategy
     - title: Explore semantic versioning
-      url: 
+      url: https://learn.microsoft.com/en-us/training/modules/implement-versioning-strategy/3-explore-semantic-versioning/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-design-implement-dependency-management-strategy
     - title: Examine release views
-      url: 
+      url: https://learn.microsoft.com/en-us/training/modules/implement-versioning-strategy/4-examine-release-views/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-design-implement-dependency-management-strategy
     - title: Promote packages
-      url: 
+      url: https://learn.microsoft.com/en-us/training/modules/implement-versioning-strategy/5-promote-packages/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-design-implement-dependency-management-strategy
     - title: Exercise - Promote a package
-      url: 
+      url: https://learn.microsoft.com/en-us/training/modules/implement-versioning-strategy/8-exercise-push-from-pipeline/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-design-implement-dependency-management-strategy
     - title: Explore best practices for versioning
-      url: 
+      url: https://learn.microsoft.com/en-us/training/modules/implement-versioning-strategy/7-explore-best-practices-for-versioning/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-design-implement-dependency-management-strategy
     - title: Exercise - Push from the pipeline
-      url: 
+      url: https://learn.microsoft.com/en-us/training/modules/implement-versioning-strategy/8-exercise-push-from-pipeline/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-design-implement-dependency-management-strategy
     - title: Knowledge check
-      url: 
+      url: https://learn.microsoft.com/en-us/training/modules/implement-versioning-strategy/9-knowledge-check/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-design-implement-dependency-management-strategy
     - title: Summary
-      url: 
+      url: https://learn.microsoft.com/en-us/training/modules/implement-versioning-strategy/10-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-design-implement-dependency-management-strategy
   - title: Introduction to GitHub Packages
     description: |
       This module introduces you to GitHub Packages. It explores ways to control permissions and visibility, publish, install, delete and restore packages using GitHub.
-    url: 
-    img: 
+    url: https://learn.microsoft.com/en-us/training/modules/introduction-github-packages/
+    img: https://learn.microsoft.com/en-us/training/achievements/introduction-github-packages.svg
     sec:
     - title: Introduction
-      url: 
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-github-packages/1-introduction/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-design-implement-dependency-management-strategy
     - title: Publish packages
-      url: 
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-github-packages/2-publish-packages/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-design-implement-dependency-management-strategy
     - title: Install a package
-      url: 
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-github-packages/3-install-package/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-design-implement-dependency-management-strategy
     - title: Delete and restore a package
-      url: 
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-github-packages/4-delete-restore-package/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-design-implement-dependency-management-strategy
     - title: Explore package access control and visibility
-      url: 
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-github-packages/5-explore-package-access-control-visibility/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-design-implement-dependency-management-strategy
     - title: Knowledge check
-      url: 
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-github-packages/6-knowledge-check/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-design-implement-dependency-management-strategy
     - title: Summary
-      url: 
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-github-packages/7-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-design-implement-dependency-management-strategy
 - title: Implement continuous feedback
   url: https://learn.microsoft.com/en-us/training/paths/az-400-implement-continuous-feedback/
   img: https://learn.microsoft.com/training/achievements/az-400-implement-continuous-feedback.svg
   description: |
-    
+    This learning path introduces the continuous feedback concept and describes
+    how to implement it in your DevOps cycle.
   mods:
-  - title: 
+  - title: Implement tools to track usage and flow
+    url: https://learn.microsoft.com/en-us/training/modules/implement-tools-track-usage-flow/
+    img: https://learn.microsoft.com/en-us/training/achievements/1-implement-tools-to-track-usage-and-flow.svg
+    description: |
+      This module introduces you to continuous feedback practices and tools to
+      track usage and flow, such as Azure Logs Analytics, Kusto Query Language
+      (KQL), and Application Insights.
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/implement-tools-track-usage-flow/1-introduction/
+    - title: Understand the inner loop
+      url: https://learn.microsoft.com/en-us/training/modules/implement-tools-track-usage-flow/2-understand-inner-loop/
+    - title: Introduction to continuous monitoring
+      url: https://learn.microsoft.com/en-us/training/modules/implement-tools-track-usage-flow/3-introduction-to-continuous-monitoring/
+    - title: Explore Azure Monitor and Log Analytics
+      url: https://learn.microsoft.com/en-us/training/modules/implement-tools-track-usage-flow/4-explore-azure-monitor-log-analytics/
+    - title: Examine Kusto Query Language (KQL)
+      url: https://learn.microsoft.com/en-us/training/modules/implement-tools-track-usage-flow/5-examine-kusto-query-language-kql/
+    - title: Explore Application Insights
+      url: https://learn.microsoft.com/en-us/training/modules/implement-tools-track-usage-flow/6-explore-application-insights/
+    - title: Implement Application Insights
+      url: https://learn.microsoft.com/en-us/training/modules/implement-tools-track-usage-flow/7-implement-application-insights/
+    - title: Exercise - Add Application Insights to an ASP.NET core application
+      url: https://learn.microsoft.com/en-us/training/modules/implement-tools-track-usage-flow/8-exercise-add-application-insights-asp-net-core-application/
+    - title: Monitor application performance with Application Insights
+      url: https://learn.microsoft.com/en-us/training/modules/implement-tools-track-usage-flow/9-monitor-application-performance-app-insights/
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/implement-tools-track-usage-flow/10-knowledge-check/
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/implement-tools-track-usage-flow/11-summary/
+  - title: Develop monitor and status dashboards
+    url: https://learn.microsoft.com/en-us/training/modules/develop-monitor-status-dashboards/
+    img: https://learn.microsoft.com/en-us/training/achievements/3-develop-monitoring-and-status-dashboards.svg
+    description: |
+      This module explains steps to develop monitoring with Azure Dashboards,
+      work with View Designer and Azure Monitor, and create Azure Monitor
+      Workbooks. Also, explore tools to supports monitoring with Power BI.
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/develop-monitor-status-dashboards/1-introduction/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-implement-continuous-feedback
+    - title: Explore Azure Dashboards
+      url: https://learn.microsoft.com/en-us/training/modules/develop-monitor-status-dashboards/2-explore-azure-dashboards/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-implement-continuous-feedback
+    - title: Examine view designer in Azure Monitor
+      url: https://learn.microsoft.com/en-us/training/modules/develop-monitor-status-dashboards/3-examine-view-designer-azure-monitor/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-implement-continuous-feedback
+    - title: Explore Azure Monitor workbooks
+      url: https://learn.microsoft.com/en-us/training/modules/develop-monitor-status-dashboards/4-explore-azure-monitor-workbooks/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-implement-continuous-feedback
+    - title: Explore Power BI
+      url: https://learn.microsoft.com/en-us/training/modules/develop-monitor-status-dashboards/5-explore-power-bi/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-implement-continuous-feedback
+    - title: Build your own custom application
+      url: https://learn.microsoft.com/en-us/training/modules/develop-monitor-status-dashboards/6-build-your-own-custom-application/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-implement-continuous-feedback
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/develop-monitor-status-dashboards/7-knowledge-check/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-implement-continuous-feedback
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/develop-monitor-status-dashboards/8-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-implement-continuous-feedback
+  - title: Share knowledge within teams
+    url: https://learn.microsoft.com/en-us/training/modules/share-knowledge-within-teams/
+    img: https://learn.microsoft.com/en-us/training/achievements/4-share-knowledge-within-teams.svg
+    description: |
+      This module describes how to share knowledge within teams, Azure DevOps
+      Wikis, and integration with Azure Boards.
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/share-knowledge-within-teams/1-introduction/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-implement-continuous-feedback
+    - title: Share acquired knowledge within development teams
+      url: https://learn.microsoft.com/en-us/training/modules/share-knowledge-within-teams/2-share-acquired-development-teams/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-implement-continuous-feedback
+    - title: Introduction to Azure DevOps project wikis
+      url: https://learn.microsoft.com/en-us/training/modules/share-knowledge-within-teams/3-introduction-azure-devops-project-wikis/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-implement-continuous-feedback
+    - title: Integrate with Azure Boards
+      url: https://learn.microsoft.com/en-us/training/modules/share-knowledge-within-teams/4-integrate-azure-boards/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-implement-continuous-feedback
+    - title: Integrate Azure DevOps and Teams
+      url: https://learn.microsoft.com/en-us/training/modules/share-knowledge-within-teams/5-integrate-azure-devops-teams/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-implement-continuous-feedback
+    - title: Share team knowledge using Azure Project Wiki
+      url: https://learn.microsoft.com/en-us/training/modules/share-knowledge-within-teams/6-share-team-knowledge-azure-project-wiki/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-implement-continuous-feedback
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/share-knowledge-within-teams/7-knowledge-check/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-implement-continuous-feedback
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/share-knowledge-within-teams/8-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-implement-continuous-feedback
+  - title: Design processes to automate application analytics
+    url: https://learn.microsoft.com/en-us/training/modules/design-processes-automate-application-analytics/
+    img: https://learn.microsoft.com/en-us/training/achievements/7-design-processes-to-automate-application-analytics.svg
+    description: |
+      This module helps designing process to Application Insights, explores
+      telemetry and monitoring tools and technologies.
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/design-processes-automate-application-analytics/1-introduction/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-implement-continuous-feedback
+    - title: Explore rapid responses and augmented search
+      url: https://learn.microsoft.com/en-us/training/modules/design-processes-automate-application-analytics/2-explore-rapid-responses-augmented-search/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-implement-continuous-feedback
+    - title: Integrate telemetry
+      url: https://learn.microsoft.com/en-us/training/modules/design-processes-automate-application-analytics/3-integrate-telemetry/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-implement-continuous-feedback
+    - title: Examine monitoring tools and technologies
+      url: https://learn.microsoft.com/en-us/training/modules/design-processes-automate-application-analytics/4-examine-monitoring-tools-technologies/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-implement-continuous-feedback
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/design-processes-automate-application-analytics/5-knowledge-check/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-implement-continuous-feedback
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/design-processes-automate-application-analytics/6-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-implement-continuous-feedback
+  - title: Manage alerts, blameless retrospectives and a just culture
+    url: https://learn.microsoft.com/en-us/training/modules/manage-alerts-blameless-retrospectives-just-culture/
+    img: https://learn.microsoft.com/en-us/training/achievements/8-manage-alerts-blameless-retrospectives-and-a-just-culture.svg
+    description: |
+      This module examines alerts, blameless retrospectives and creates a just
+      culture. It helps improving application performance, reducing meaningless
+      and non-actionable alerts, and explains server response-time degradation.
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/manage-alerts-blameless-retrospectives-just-culture/1-introduction/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-implement-continuous-feedback
+    - title: Examine when get a notification
+      url: https://learn.microsoft.com/en-us/training/modules/manage-alerts-blameless-retrospectives-just-culture/2-examine-when-get-notification/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-implement-continuous-feedback
+    - title: Explore how to fix it
+      url: https://learn.microsoft.com/en-us/training/modules/manage-alerts-blameless-retrospectives-just-culture/3-explore-how-to-fix-it/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-implement-continuous-feedback
+    - title: Explore smart detection notifications
+      url: https://learn.microsoft.com/en-us/training/modules/manage-alerts-blameless-retrospectives-just-culture/4-explore-smart-detection-notifications/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-implement-continuous-feedback
+    - title: Improve performance
+      url: https://learn.microsoft.com/en-us/training/modules/manage-alerts-blameless-retrospectives-just-culture/5-improve-performance/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-implement-continuous-feedback
+    - title: Understand server response time degradation
+      url: https://learn.microsoft.com/en-us/training/modules/manage-alerts-blameless-retrospectives-just-culture/6-understand-server-response-time-degradation/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-implement-continuous-feedback
+    - title: Reduce meaningless and non-actionable alerts
+      url: https://learn.microsoft.com/en-us/training/modules/manage-alerts-blameless-retrospectives-just-culture/7-reduce-meaningless-non-actionable-alerts/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-implement-continuous-feedback
+    - title: Examine blameless retrospective
+      url: https://learn.microsoft.com/en-us/training/modules/manage-alerts-blameless-retrospectives-just-culture/8-examine-blameless-retrospective/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-implement-continuous-feedback
+    - title: Develop a just culture
+      url: https://learn.microsoft.com/en-us/training/modules/manage-alerts-blameless-retrospectives-just-culture/9-develop-just-culture/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-implement-continuous-feedback
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/manage-alerts-blameless-retrospectives-just-culture/10-knowledge-check/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-implement-continuous-feedback
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/manage-alerts-blameless-retrospectives-just-culture/11-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-400-implement-continuous-feedback
 - title: Implement security and validate code bases for compliance
   url: https://learn.microsoft.com/en-us/training/paths/az-400-implement-security-validate-code-bases-compliance/
   img: https://learn.microsoft.com/training/achievements/implement-security-and-validate-code-bases-for-compliance.svg
   description: |
-    
+    This learning path explores an infrastructure and configuration strategy and
+    appropriate toolset for a release pipeline and application infrastructure.
+    It explains compliance and security implementation in your application
+    infrastructure.
   mods:
-  - title: 
+  - title: Introduction to Secure DevOps
+    url: https://learn.microsoft.com/en-us/training/modules/introduction-to-secure-devops/
+    img: https://learn.microsoft.com/en-us/training/achievements/1-understand-security-in-the-pipeline.svg
+    description: |
+      This module introduces DevSecOps concepts, SQL injection attacks, threat
+      modeling, and security for continuous integration.
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-to-secure-devops/1-introduction/
+    - title: Describe SQL injection attack
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-to-secure-devops/2-describe-sql-injection-attack/
+    - title: Understand DevSecOps
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-to-secure-devops/3-understand-devsecops/
+    - title: Explore Secure DevOps Pipeline
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-to-secure-devops/4-explore-secure-devops-pipeline/
+    - title: Explore key validation points
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-to-secure-devops/5-explore-key-validation-points/
+    - title: Explore continuous security validation
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-to-secure-devops/6-explore-continuous-security-validation/
+    - title: Understand threat modeling
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-to-secure-devops/7-understand-threat-modeling/
+    - title: Exercise threat modeling
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-to-secure-devops/8-exercise-threat-modeling/
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-to-secure-devops/9-knowledge-check/
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/introduction-to-secure-devops/10-summary/
+  - title: Implement open-source software
+    url: https://learn.microsoft.com/en-us/training/modules/implement-open-source-software-azure/
+    img: https://learn.microsoft.com/en-us/training/achievements/2-implement-open-source-software.svg
+    description: |
+      This module explores open-source software and corporate concerns with
+      software components. Also, it explains common open-source licenses,
+      license implications, and ratings.
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/implement-open-source-software-azure/1-introduction/
+    - title: Explore how software is built
+      url: https://learn.microsoft.com/en-us/training/modules/implement-open-source-software-azure/2-explore-how-software-built/
+    - title: What is open-source software
+      url: https://learn.microsoft.com/en-us/training/modules/implement-open-source-software-azure/3-what-open-source-software/
+    - title: Explore corporate concerns with open-source software components
+      url: https://learn.microsoft.com/en-us/training/modules/implement-open-source-software-azure/4-explore-corporate-concerns-components/
+    - title: Introduction to open-source licenses
+      url: https://learn.microsoft.com/en-us/training/modules/implement-open-source-software-azure/5-introduction-to-licenses/
+    - title: Explore common open-source licenses
+      url: https://learn.microsoft.com/en-us/training/modules/implement-open-source-software-azure/6-explore-common-licenses/
+    - title: Examine license implications and ratings
+      url: https://learn.microsoft.com/en-us/training/modules/implement-open-source-software-azure/7-examine-license-implications-ratings/
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/implement-open-source-software-azure/8-knowledge-check/
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/implement-open-source-software-azure/9-summary/
+  - title: Software Composition Analysis
+    url: https://learn.microsoft.com/en-us/training/modules/software-composition-analysis/
+    img: https://learn.microsoft.com/en-us/training/achievements/5-integrate-license-and-vulnerability-scans.svg
+    description: |
+      This module explains Composition Analysis, how to inspect and validate
+      code bases for compliance, integration with security tools, and
+      integration with Azure Pipelines.
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/software-composition-analysis/1-introduction/
+    - title: Inspect and validate code bases for compliance
+      url: https://learn.microsoft.com/en-us/training/modules/software-composition-analysis/2-inspect-validate-code-bases-for-compliance/
+    - title: Explore software composition analysis
+      url: https://learn.microsoft.com/en-us/training/modules/software-composition-analysis/3-explore-software-composition-analysis/
+    - title: Integrate WhiteSource with Azure DevOps pipeline
+      url: https://learn.microsoft.com/en-us/training/modules/software-composition-analysis/4-integrate-whitesource-azure-devops-pipeline/
+    - title: Implement GitHub Dependabot alerts and security updates
+      url: https://learn.microsoft.com/en-us/training/modules/software-composition-analysis/5-implement-github-dependabot-alerts-security-updates/
+    - title: Integrate software composition analysis checks into pipelines
+      url: https://learn.microsoft.com/en-us/training/modules/software-composition-analysis/6-integrate-software-composition-analysis-checks-into-pipelines/
+    - title: Examine tools for assess package security and license rate
+      url: https://learn.microsoft.com/en-us/training/modules/software-composition-analysis/7-examine-tools-for-assess-package-security-license-rate/
+    - title: Interpret alerts from scanner tools
+      url: https://learn.microsoft.com/en-us/training/modules/software-composition-analysis/8-interpret-alerts-from-scanner-tools/
+    - title: Implement Security and Compliance in an Azure Pipeline
+      url: https://learn.microsoft.com/en-us/training/modules/software-composition-analysis/9-implement-security-compliance-azure-pipeline/
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/software-composition-analysis/10-knowledge-check/
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/software-composition-analysis/11-summary/
+  - title: Static analyzers
+    url: https://learn.microsoft.com/en-us/training/modules/static-analyzers/
+    img: https://learn.microsoft.com/en-us/training/achievements/static-analyzer-introduction.svg
+    description: |
+      This module introduces the static analyzers SonarCloud and CodeQL in
+      GitHub.
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/static-analyzers/1-introduction/
+    - title: Explore SonarCloud
+      url: https://learn.microsoft.com/en-us/training/modules/static-analyzers/2-explore-sonarcloud/
+    - title: Explore CodeQL in GitHub
+      url: https://learn.microsoft.com/en-us/training/modules/static-analyzers/3-explore-codeql-github/
+    - title: Manage technical debt with SonarCloud and Azure DevOps
+      url: https://learn.microsoft.com/en-us/training/modules/static-analyzers/4-manage-technical-debt-sonarcloud-azure-devops/
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/static-analyzers/5-knowledge-check/
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/static-analyzers/6-summary/
+  - title: OWASP and Dynamic Analyzers
+    url: https://learn.microsoft.com/en-us/training/modules/owasp-and-dynamic-analyzers/
+    img: https://learn.microsoft.com/en-us/training/achievements/owasp-dynamic-analyzer.svg
+    description: |
+      This module explores OWASP and Dynamic Analyzers for penetration testing,
+      results, and bugs.
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/owasp-and-dynamic-analyzers/1-introduction/
+    - title: Plan Implement OWASP Secure Coding Practices
+      url: https://learn.microsoft.com/en-us/training/modules/owasp-and-dynamic-analyzers/2-plan-implement-owasp-secure-coding-practices/
+    - title: Explore OWASP ZAP penetration test
+      url: https://learn.microsoft.com/en-us/training/modules/owasp-and-dynamic-analyzers/3-explore-owasp-zap-penetration-test/
+    - title: Explore OWASP ZAP results and bugs
+      url: https://learn.microsoft.com/en-us/training/modules/owasp-and-dynamic-analyzers/4-explore-owasp-zap-results-bugs/
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/owasp-and-dynamic-analyzers/5-knowledge-check/
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/owasp-and-dynamic-analyzers/6-summary/
+  - title: Security Monitoring and Governance
+    url: https://learn.microsoft.com/en-us/training/modules/security-monitoring-and-governance/
+    img: https://learn.microsoft.com/en-us/training/achievements/azure-security-center-introduction.svg
+    description: |
+      This module describes security monitoring and governance with Microsoft
+      Defender for Cloud and its usage scenarios, Azure Policies, Microsoft
+      Defender for Identity, and security practices related to the tools.
+    sec:
+    - title: Introduction
+      url: https://learn.microsoft.com/en-us/training/modules/security-monitoring-and-governance/1-introduction/
+    - title: Implement pipeline security
+      url: https://learn.microsoft.com/en-us/training/modules/security-monitoring-and-governance/2-implement-pipeline-security/
+    - title: Explore Microsoft Defender for Cloud
+      url: https://learn.microsoft.com/en-us/training/modules/security-monitoring-and-governance/3-explore-microsoft-defender-cloud/
+    - title: Examine Microsoft Defender for Cloud usage scenarios
+      url: https://learn.microsoft.com/en-us/training/modules/security-monitoring-and-governance/4-examine-microsoft-defender-cloud-usage-scenarios/
+    - title: Explore Azure Policy
+      url: https://learn.microsoft.com/en-us/training/modules/security-monitoring-and-governance/5-explore-azure-policy/
+    - title: Understand policies
+      url: https://learn.microsoft.com/en-us/training/modules/security-monitoring-and-governance/6-understand-policies/
+    - title: Explore initiatives
+      url: https://learn.microsoft.com/en-us/training/modules/security-monitoring-and-governance/7-explore-initiatives/
+    - title: Explore resource locks
+      url: https://learn.microsoft.com/en-us/training/modules/security-monitoring-and-governance/8-explore-resource-locks/
+    - title: Explore Azure Blueprints
+      url: https://learn.microsoft.com/en-us/training/modules/security-monitoring-and-governance/9-explore-azure-blueprints/
+    - title: Understand Microsoft Defender for Identity
+      url: https://learn.microsoft.com/en-us/training/modules/security-monitoring-and-governance/10-understand-microsoft-defender-identity/
+    - title: Knowledge check
+      url: https://learn.microsoft.com/en-us/training/modules/security-monitoring-and-governance/11-knowledge-check/
+    - title: Summary
+      url: https://learn.microsoft.com/en-us/training/modules/security-monitoring-and-governance/12-summary/
