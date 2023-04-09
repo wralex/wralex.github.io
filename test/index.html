@@ -3,6 +3,13 @@ permalink: /test
 layout: default
 ---
 
-<ul id="testlist" />
+<input type="hidden" id="data" />
+<script>
+    $(document).ready(function(){
+        var json = $.getJSON("./data.json", function(){
+            
+        });
 
-<script src="/assets/scripts/test.js" />
+        console.log(json);
+    });
+</script>
