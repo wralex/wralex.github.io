@@ -294,3 +294,13 @@
   optionC: From the Microsoft Teams admin center, configure external access
   optionD: From Microsoft Teams, add a channel
   correctOption: optionA
+- question: |
+    You have an Azure virtual machine that is monitored by using Azure Monitor.
+    The virtual machine has the Azure Log Analytics agent installed.
+    You plan to deploy the Service Map solution from the Azure Marketplace.  
+    What should you deploy to the virtual machine to support the Service Map solution?
+  optionA: the Dependency agent
+  optionB: the Telegraf agent
+  optionC: the Windows Azure diagnostics extension (WAD)
+  optionD: the Azure monitor agent
+  correctOption: optionA
