@@ -106,7 +106,7 @@
     Which of the following is the release strategy you should use?
   optionA: Red/Black deployment
   optionB: Rolling deployment
-  optionC: \"Big Bang\" deployment
+  optionC: '"Big Bang" deployment'
   optionD: Canary deployment
   correctOption: optionA
 - question: |
@@ -175,3 +175,89 @@
   optionC: Azure Log Analytics
   optionD: Azure Advisor
   correctOption: optionB
+- question: |
+    You are configuring project metrics for dashboards in Azure DevOps.
+    You need to configure a chart widget that measures the elapsed time to complete work items once they become active.  
+    Which of the following is the widget you should use?
+  optionA: Cumulative Flow Diagram
+  optionB: Burnup
+  optionC: Cycle time
+  optionD: Burndown
+  correctOption: optionC
+- question: |
+    You need to consider the underlined segment to establish whether it is accurate.
+    The _Burnup_ widget measures the elapsed time from creation of work items to their completion.  
+    Select `No adjustment required` if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option.
+  optionA: No adjustment required.
+  optionB: Lead time
+  optionC: Test results trend
+  optionD: Burndown
+  correctOption: optionB
+- question: |
+    You are making use of Azure DevOps manage build pipelines, and also deploy pipelines.
+    The development team is quite large, and is regularly added to.
+    You have been informed that the management of users and licenses must be automated when it can be.  
+    Which of the following is a task that can't be automated?
+  optionA: Group membership changes
+  optionB: License assignment
+  optionC: Assigning entitlements
+  optionD: License procurement
+  correctOption: optionD
+- question: |
+    You have been tasked with strengthening the security of your team's development process.
+    You need to suggest a security tool type for the Continuous Integration (CI) phase of the development process.  
+    Which of the following is the option you would suggest?
+  optionA: Penetration testing
+  optionB: Static code analysis
+  optionC: Threat modeling
+  optionD: Dynamic code analysis
+  correctOption: optionB
+- question: |
+    Your company is currently making use of Team Foundation Server 2013 (TFS 2013), but intend to migrate to Azure DevOps.
+    You have been tasked with supplying a migration approach that allows for the preservation of Team Foundation Version Control changesets dates, as well as the changes dates of work items revisions. The approach should also allow for the migration of all TFS artifacts, while keeping migration effort to a minimum.
+    You have suggested upgrading TFS to the most recent RTW release.  
+    Which of the following should also be suggested?
+  optionA: Installing the TFS kava SDK
+  optionB: Using the TFS Database Import Service to perform the upgrade.
+  optionC: Upgrading PowerShell Core to the latest version.
+  optionD: Using the TFS Integration Platform to perform the upgrade.
+  correctOption: optionB
+- question: |
+    Your company has an Azure DevOps environment that can only be accessed by Azure Active Directory users.
+    You are instructed to make sure that the Azure DevOps environment can only be accessed from devices connected to the company's on-premises network.  
+    Which of the following actions should you take?
+  optionA: Assign the devices to a security group.
+  optionB: Create a GPO.
+  optionC: Configure Security in Project Settings from Azure DevOps.
+  optionD: Configure conditional access in Azure Active Directory.
+  correctOption: optionD
+- question: |
+    Your company hosts a web application in Azure, and makes use of Azure Pipelines for managing the build and release of the application.
+    When stakeholders report that system performance has been adversely affected by the most recent releases, you configure alerts in Azure Monitor.
+    You are informed that new releases must satisfy specified performance baseline conditions in the staging environment before they can be deployed to production.
+    You need to make sure that releases not satisfying the performance baseline are prevented from being deployed.  
+    Which of the following actions should you take?
+  optionA: You should make use of a branch control check.
+  optionB: You should make use of an alert trigger.
+  optionC: You should make use of a gate.
+  optionD: You should make use of an approval check.
+  correctOption: optionC
+- question: |
+    You need to consider the underlined segment to establish whether it is accurate.
+    To deploy an application to a number of Azure virtual machines, you should create a _universal_ group.  
+    Select `No adjustment required` if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option.
+  optionA: No adjustment required
+  optionB: security
+  optionC: deployment
+  optionD: resource
+  correctOption: optionC
+- question: |
+    You intend to make use of Azure Artifacts to share packages that you wrote, tested, validated, and deployed.
+    You want to use a solitary feed to release several builds of each package.
+    You have to make sure that the release of packages that are in development is restricted.  
+    Which of the following actions should you take?
+  optionA: You should make use of static code analysis
+  optionB: You should make use of views
+  optionC: You should make use of dynamic code analysis
+  optionD: You should make use of upstream sources
+  correctOption: optionD

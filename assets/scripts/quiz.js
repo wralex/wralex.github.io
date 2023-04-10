@@ -1,4 +1,5 @@
 var shuffledQuestions = []
+var _amount = 0
 var _json = []
 
 let questionNumber = 1
@@ -7,13 +8,16 @@ let wrongAttempt = 0
 let indexNumber = 0
 
 // function for displaying next question in the array to dom
-function NextQuestion(index, json) {
+function NextQuestion(index, json, amount) {
     _json = json;
-    while (shuffledQuestions.length <= 9) {
+    _amount = amount;
+
+    while (shuffledQuestions.length < _amount) {
         random = _json[Math.floor(Math.random() * _json.length)];
         if (!shuffledQuestions.includes(random))
             shuffledQuestions.push(random);
     }
+
     var currentQuestion = shuffledQuestions[index];
 
     document.getElementById("question-number").innerHTML = questionNumber
@@ -75,8 +79,8 @@ function handleNextQuestion() {
     unCheckRadioButtons()
     //delays next question displaying for a second
     setTimeout(() => {
-        if (indexNumber <= 9) {
-            NextQuestion(indexNumber, _json)
+        if (indexNumber < _amount) {
+            NextQuestion(indexNumber, _json, _amount)
         }
         else {
             handleEndGame()
@@ -106,20 +110,21 @@ function handleEndGame() {
     let remark = null
     let remarkColor = null
 
+    var playerGrade = (playerScore / _amount) * 100
+
     // condition check for player remark and remark color
-    if (playerScore <= 3) {
+    if (playerGrade <= 30.0) {
         remark = "Bad Grades, Keep Practicing."
         remarkColor = "red"
     }
-    else if (playerScore >= 4 && playerScore < 7) {
+    else if (playerGrade > 30.0 && playerGrade < 70.0) {
         remark = "Average Grades, You can do better."
         remarkColor = "orange"
     }
-    else if (playerScore >= 7) {
+    else if (playerGrade > 70.0) {
         remark = "Excellent, Keep the good work going."
         remarkColor = "green"
     }
-    const playerGrade = (playerScore / 10) * 100
 
     //data to display to score board
     document.getElementById('remarks').innerHTML = remark
@@ -128,7 +133,6 @@ function handleEndGame() {
     document.getElementById('wrong-answers').innerHTML = wrongAttempt
     document.getElementById('right-answers').innerHTML = playerScore
     document.getElementById('score-modal').style.display = "flex"
-
 }
 
 //closes score modal and resets game
@@ -138,7 +142,7 @@ function closeScoreModal() {
     wrongAttempt = 0
     indexNumber = 0
     shuffledQuestions = []
-    NextQuestion(indexNumber, _json)
+    NextQuestion(indexNumber, _json, _amount)
     document.getElementById('score-modal').style.display = "none"
 }
 
