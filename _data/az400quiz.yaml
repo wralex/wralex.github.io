@@ -3,7 +3,7 @@
     You need to suggest a security tool type for the Continuous Integration (CI) phase of the development process.  
     Which of the following is the option you would suggest?
   optionA: Penetration testing
-  optionB:  Static code analysis
+  optionB: Static code analysis
   optionC: Threat modeling
   optionD: Dynamic code analysis
   correctOption: optionB
@@ -26,15 +26,6 @@
   optionC: Cycle time
   optionD: Burndown
   correctOption: optionC
-- question: |
-    You need to consider the underlined segment to establish whether it is accurate.
-    The Burnup widget measures the elapsed time from creation of work items to their completion.  
-    Select `No adjustment required` if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option.
-  optionA: No adjustment required.
-  optionB: Lead time
-  optionC: Test results trend
-  optionD: Burndown
-  correctOption: optionB
 - question: |
     Your company is currently making use of Team Foundation Server 2013 (TFS 2013), but intend to migrate to Azure DevOps.
     You have been tasked with supplying a migration approach that allows for the preservation of Team Foundation Version Control changesets dates, as well as the changes dates of work items revisions. The approach should also allow for the migration of all TFS artifacts, while keeping migration effort to a minimum.
@@ -176,15 +167,6 @@
   optionD: Azure Advisor
   correctOption: optionB
 - question: |
-    You are configuring project metrics for dashboards in Azure DevOps.
-    You need to configure a chart widget that measures the elapsed time to complete work items once they become active.  
-    Which of the following is the widget you should use?
-  optionA: Cumulative Flow Diagram
-  optionB: Burnup
-  optionC: Cycle time
-  optionD: Burndown
-  correctOption: optionC
-- question: |
     You need to consider the underlined segment to establish whether it is accurate.
     The _Burnup_ widget measures the elapsed time from creation of work items to their completion.  
     Select `No adjustment required` if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option.
@@ -193,55 +175,6 @@
   optionC: Test results trend
   optionD: Burndown
   correctOption: optionB
-- question: |
-    You are making use of Azure DevOps manage build pipelines, and also deploy pipelines.
-    The development team is quite large, and is regularly added to.
-    You have been informed that the management of users and licenses must be automated when it can be.  
-    Which of the following is a task that can't be automated?
-  optionA: Group membership changes
-  optionB: License assignment
-  optionC: Assigning entitlements
-  optionD: License procurement
-  correctOption: optionD
-- question: |
-    You have been tasked with strengthening the security of your team's development process.
-    You need to suggest a security tool type for the Continuous Integration (CI) phase of the development process.  
-    Which of the following is the option you would suggest?
-  optionA: Penetration testing
-  optionB: Static code analysis
-  optionC: Threat modeling
-  optionD: Dynamic code analysis
-  correctOption: optionB
-- question: |
-    Your company is currently making use of Team Foundation Server 2013 (TFS 2013), but intend to migrate to Azure DevOps.
-    You have been tasked with supplying a migration approach that allows for the preservation of Team Foundation Version Control changesets dates, as well as the changes dates of work items revisions. The approach should also allow for the migration of all TFS artifacts, while keeping migration effort to a minimum.
-    You have suggested upgrading TFS to the most recent RTW release.  
-    Which of the following should also be suggested?
-  optionA: Installing the TFS kava SDK
-  optionB: Using the TFS Database Import Service to perform the upgrade.
-  optionC: Upgrading PowerShell Core to the latest version.
-  optionD: Using the TFS Integration Platform to perform the upgrade.
-  correctOption: optionB
-- question: |
-    Your company has an Azure DevOps environment that can only be accessed by Azure Active Directory users.
-    You are instructed to make sure that the Azure DevOps environment can only be accessed from devices connected to the company's on-premises network.  
-    Which of the following actions should you take?
-  optionA: Assign the devices to a security group.
-  optionB: Create a GPO.
-  optionC: Configure Security in Project Settings from Azure DevOps.
-  optionD: Configure conditional access in Azure Active Directory.
-  correctOption: optionD
-- question: |
-    Your company hosts a web application in Azure, and makes use of Azure Pipelines for managing the build and release of the application.
-    When stakeholders report that system performance has been adversely affected by the most recent releases, you configure alerts in Azure Monitor.
-    You are informed that new releases must satisfy specified performance baseline conditions in the staging environment before they can be deployed to production.
-    You need to make sure that releases not satisfying the performance baseline are prevented from being deployed.  
-    Which of the following actions should you take?
-  optionA: You should make use of a branch control check.
-  optionB: You should make use of an alert trigger.
-  optionC: You should make use of a gate.
-  optionD: You should make use of an approval check.
-  correctOption: optionC
 - question: |
     You need to consider the underlined segment to establish whether it is accurate.
     To deploy an application to a number of Azure virtual machines, you should create a _universal_ group.  
@@ -261,3 +194,103 @@
   optionC: You should make use of dynamic code analysis
   optionD: You should make use of upstream sources
   correctOption: optionD
+- question: |
+    You are in the process of building a mobile app aimed at Android and iOS devices.
+    All work items and release cycles are managed via Azure DevOps.
+    You want to make sure that crash reports for issue analysis is collected, and that beta releases are distributed to your testers. Also, you want to ensure that user feedback on the functionality of new apps is received.  
+    Which of the following must be part of your solution?
+  optionA: The Microsoft Test & Feedback extension.
+  optionB: OWASP ZAP
+  optionC: TFS Integration Platform
+  optionD: Code Style
+  correctOption: optionA
+- question: |
+    You have a Microsoft ASP.NET Core web app in Azure that is accessed worldwide.
+    You need to run a URL ping test once every five minutes and create an alert when the web app is unavailable from specific Azure regions.
+    The solution must minimize development time.  
+    What should you do?
+  optionA: Create an Azure Monitor Availability metric and alert.
+  optionB: Create an Azure Application Insights availability test and alert.
+  optionC: Write an Azure function and deploy the function to the specific regions.
+  optionD: Create an Azure Service Health alert for the specific regions.
+  correctOption: optionB
+- question: |
+    You have a multi-tier application. The front end of the application is hosted in Azure App Service.
+    You need to identify the average load times of the application pages.  
+    What should you use?
+  optionA: Azure Application Insights
+  optionB: the activity log of the App Service
+  optionC: the diagnostics logs of the App Service
+  optionD: Azure Advisor
+  correctOption: optionA
+- question: |
+    Your company uses ServiceNow for incident management.
+    You develop an application that runs on Azure.
+    The company needs to generate a ticket in ServiceNow when the application fails to authenticate.  
+    Which Azure Log Analytics solution should you use?
+  optionA: Application Insights Connector
+  optionB: Automation & Control
+  optionC: IT Service Management Connector (ITSM)
+  optionD: Insight & Analytics
+  correctOption: optionC
+- question: |
+    You use Azure SQL Database Intelligent Insights and Azure Application Insights for monitoring.
+    You need to write ad-hoc queries against the monitoring data.  
+    Which query language should you use?
+  optionA: Kusto Query Language (KQL)
+  optionB: PL/pgSQL
+  optionC: PL/SQL
+  optionD: Transact-SQL
+  correctOption: optionA
+- question: |
+    Your company is building a mobile app that targets Android and iOS devices.
+    Your team uses Azure DevOps to manage all work items and release cycles.
+    You need to recommend a solution to perform the following tasks:  
+    ✑ Collect crash reports for issue analysis.  
+    ✑ Distribute beta releases to your testers.  
+    ✑ Get user feedback on the functionality of new apps.  
+    What should you include in the recommendation?
+  optionA: the Microsoft Test & Feedback extension
+  optionB: Microsoft Visual Studio App Center integration
+  optionC: Azure Application Insights widgets
+  optionD: Jenkins integration
+  correctOption: optionA
+- question: |
+    You are monitoring the health and performance of an Azure web app by using Azure Application Insights.
+    You need to ensure that an alert is sent when the web app has a sudden rise in performance issues and failures.  
+    What should you use?
+  optionA: custom events
+  optionB: Application Insights Profiler
+  optionC: usage analysis
+  optionD: Smart Detection Most
+  correctOption: optionD
+- question: |
+    You have a private GitHub repository.
+    You need to display the commit status of the repository on Azure Boards.  
+    What should you do first?
+  optionA: Configure multi-factor authentication (MFA) for your GitHub account.
+  optionB: Add the Azure Pipelines app to the GitHub repository.
+  optionC: Add the Azure Boards app to the repository.
+  optionD: Create a GitHub action in GitHub.
+  correctOption: optionC
+- question: |
+    You are integrating Azure Pipelines and Microsoft Teams.
+    You install the Azure Pipelines app in Microsoft Teams.
+    You have an Azure DevOps organization named Contoso that contains a project name Project1.
+    You subscribe to Project1 in Microsoft Teams.
+    You need to ensure that you only receive events about failed builds in Microsoft Teams.  
+    What should you do first?
+  optionA: From Microsoft Teams, run @azure pipelines subscribe https://dev.azure.com/Contoso/Project1.
+  optionB: From Azure Pipelines, add a Publish Build Artifacts task to Project1.
+  optionC: From Microsoft Teams, run @azure pipelines subscriptions.
+  optionD: From Azure Pipelines, enable continuous integration for Project1.
+  correctOption: optionA
+- question: |
+    You have an Azure DevOps organization named Contoso.
+    You need to receive Microsoft Teams notifications when work items are updated.  
+    What should you do?
+  optionA: From Azure DevOps, configure a service hook subscription
+  optionB: From Microsoft Teams, configure a connector Most Voted
+  optionC: From the Microsoft Teams admin center, configure external access
+  optionD: From Microsoft Teams, add a channel
+  correctOption: optionA
