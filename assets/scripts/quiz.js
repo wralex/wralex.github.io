@@ -1,31 +1,20 @@
-
-
-
-const shuffledQuestions = []
+var shuffledQuestions = []
+var _json = []
 
 let questionNumber = 1
 let playerScore = 0  
 let wrongAttempt = 0 
 let indexNumber = 0
 
-function postData(url) {
-    $.getJSON(url, function(data) {
-        return data;
-    }).done();
-}
-
 // function for displaying next question in the array to dom
-function NextQuestion(index) {
-    var currentQuestion = null;
-    
-    var json = postData('./quiz.json');
-    console.log(json);
-
+function NextQuestion(index, json) {
+    _json = json;
     while (shuffledQuestions.length <= 9) {
-        random = json[Math.floor(Math.random() * json.length)];
+        random = _json[Math.floor(Math.random() * _json.length)];
         if (!shuffledQuestions.includes(random))
             shuffledQuestions.push(random);
     }
+    var currentQuestion = shuffledQuestions[index];
 
     document.getElementById("question-number").innerHTML = questionNumber
     document.getElementById("player-score").innerHTML = playerScore
@@ -87,7 +76,7 @@ function handleNextQuestion() {
     //delays next question displaying for a second
     setTimeout(() => {
         if (indexNumber <= 9) {
-            NextQuestion(indexNumber)
+            NextQuestion(indexNumber, _json)
         }
         else {
             handleEndGame()
@@ -149,7 +138,7 @@ function closeScoreModal() {
     wrongAttempt = 0
     indexNumber = 0
     shuffledQuestions = []
-    NextQuestion(indexNumber)
+    NextQuestion(indexNumber, _json)
     document.getElementById('score-modal').style.display = "none"
 }
 
