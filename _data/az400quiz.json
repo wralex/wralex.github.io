@@ -736,5 +736,41 @@
     "optionC": "Epics and Features",
     "optionD": "Stories and Tasks",
     "correctOption": "optionA"
+  },
+  {
+    "id": 83,
+    "question": "Your company creates a new Azure DevOps team.\\nYou plan to use Azure DevOps for sprint planning.\\nYou need to visualize the flow of your work by using an agile methodology.\\nWhich Azure DevOps component should you use?",
+    "optionA": "Kanban boards",
+    "optionB": "sprint planning",
+    "optionC": "delivery plans",
+    "optionD": "portfolio backlogs",
+    "correctOption": "optionA"
+  },
+  {
+    "id": 84,
+    "question": "Your team uses an agile development approach.\\nYou need to recommend a branching strategy for the team's Git repository. The strategy must meet the following requirements.\\n✑ Provide the ability to work on multiple independent tasks in parallel.\\n✑ Ensure that checked-in code remains in a releasable state always.\\n✑ Ensure that new features can be abandoned at any time.\\n✑ Encourage experimentation.\\nWhat should you recommend?",
+    "optionA": "a single long-running branch without forking",
+    "optionB": "multiple long-running branches",
+    "optionC": "a single fork per team member",
+    "optionD": "a single long-running branch with multiple short-lived feature branches",
+    "correctOption": "optionD"
+  },
+  {
+    "id": 85,
+    "question": "You have a project in Azure DevOps that has a release pipeline.\\nYou need to integrate work item tracking and an Agile project management system to meet the following requirements:\\n✑ Ensure that developers can track whether their commits are deployed to production.\\n✑ Report the deployment status.\\n✑ Minimize integration effort.\\nWhich system should you use?",
+    "optionA": "Asana",
+    "optionB": "Basecamp",
+    "optionC": "Trello",
+    "optionD": "Jira",
+    "correctOption": "optionD"
+  },
+  {
+    "id": 86,
+    "question": "You plan to onboard 10 new developers.\\nYou need to recommend a development environment that meets the following requirements:\\n✑ Integrates with GitHub\\n✑ Provides integrated debugging tools\\n✑ Supports remote workers and hot-desking environments\\n✑ Supports developers who use browsers, tablets, and Chromebooks\\nWhat should you recommend?",
+    "optionA": "VS Code",
+    "optionB": "Xamarin Studio",
+    "optionC": "MonoDevelop",
+    "optionD": "Github Codespaces",
+    "correctOption": "optionD"
   }
 ]
