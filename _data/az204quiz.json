@@ -1,0 +1,334 @@
+[
+    {
+        "correctOption": "optionC",
+        "id": 1,
+        "optionA": "From the Update management blade, click Enable.",
+        "optionB": "From the Overview blade, move VM1 to a different subscription.",
+        "optionC": "From the Redeploy blade, click Redeploy.",
+        "optionD": "From the Profile blade, modify the usage location.",
+        "question": "You have two Hyper-V hosts named Host1 and Host2. Host1 has an Azure virtual machine named VM1 that was deployed by using a custom Azure Resource\\nManager template.\\nYou need to move VM1 to Host2.\\nWhat should you do?"
+    },
+    {
+        "correctOption": "optionB",
+        "id": 2,
+        "optionA": "Logic Apps",
+        "optionB": "WebJobs",
+        "optionC": "Flow",
+        "optionD": "Functions",
+        "question": "Your company has a web app named WebApp1.\\nYou use the WebJobs SDK to design a triggered App Service background task that automatically invokes a function in the code every time new data is received in a queue.\\nYou are preparing to configure the service processes a queue data item.\\nWhich of the following is the service you should use?"
+    },
+    {
+        "correctOption": "optionD",
+        "id": 3,
+        "optionA": "10",
+        "optionB": "30",
+        "optionC": "Min Value",
+        "optionD": "Max Value",
+        "question": "Your company has an Azure subscription.\\nYou need to deploy a number of Azure virtual machines to the subscription by using Azure Resource Manager (ARM) templates. The virtual machines will be included in a single availability set.\\nYou need to ensure that the ARM template allows for as many virtual machines as possible to remain accessible in the event of fabric failure or maintenance.\\nWhich of the following is the value that you should configure for the platformFaultDomainCount property?"
+    },
+    {
+        "correctOption": "optionD",
+        "id": 4,
+        "optionA": "10",
+        "optionB": "20",
+        "optionC": "30",
+        "optionD": "40",
+        "question": "Your company has an Azure subscription.\\nYou need to deploy a number of Azure virtual machines to the subscription by using Azure Resource Manager (ARM) templates. The virtual machines will be included in a single availability set.\\nYou need to ensure that the ARM template allows for as many virtual machines as possible to remain accessible in the event of fabric failure or maintenance.\\nWhich of the following is the value that you should configure for the platformUpdateDomainCount property?"
+    },
+    {
+        "correctOption": "optionB",
+        "id": 5,
+        "optionA": "No change required",
+        "optionB": "mongorestore",
+        "optionC": "Azure Storage Explorer",
+        "optionD": "AzCopy",
+        "question": "This question requires that you evaluate the underlined text to determine if it is correct.\\nYou company has an on-premises deployment of MongoDB, and an Azure Cosmos DB account that makes use of the MongoDB API.\\nYou need to devise a strategy to migrate MongoDB to the Azure Cosmos DB account.\\nYou include the Data Management Gateway tool in your migration strategy.\\nInstructions: Review the underlined text. If it makes the statement correct, select `No change required.` If the statement is incorrect, select the answer choice that makes the statement correct."
+    },
+    {
+        "correctOption": "optionC",
+        "id": 6,
+        "optionA": "Run the az keyvault secret command.",
+        "optionB": "Enable Azure AD Connect.",
+        "optionC": "Enable Managed Service Identity (MSI).",
+        "optionD": "Create an Azure AD service principal.",
+        "question": "You are developing an e-Commerce Web App.\\nYou want to use Azure Key Vault to ensure that sign-ins to the e-Commerce Web App are secured by using Azure App Service authentication and Azure Active\\nDirectory (AAD).\\nWhat should you do on the e-Commerce Web App?"
+    },
+    {
+        "correctOption": "optionA",
+        "id": 7,
+        "optionA": "No change required.",
+        "optionB": "a secret",
+        "optionC": "a login hint",
+        "optionD": "a client ID",
+        "question": "This question requires that you evaluate the underlined text to determine if it is correct.\\nYour Azure Active Directory Azure (Azure AD) tenant has an Azure subscription linked to it.\\nYour developer has created a mobile application that obtains Azure AD access tokens using the OAuth 2 implicit grant type.\\nThe mobile application must be registered in Azure AD.\\nYou require a redirect URI from the developer for registration purposes.\\nInstructions: Review the underlined text. If it makes the statement correct, select `No change is needed.` If the statement is incorrect, select the answer choice that makes the statement correct."
+    },
+    {
+        "correctOption": "optionC",
+        "id": 8,
+        "optionA": "Azure AD token.",
+        "optionB": "Azure Multi-Factor authentication.",
+        "optionC": "Active Directory integrated authentication.",
+        "optionD": "OATH software tokens.",
+        "question": "You manage an Azure SQL database that allows for Azure AD authentication.\\nYou need to make sure that database developers can connect to the SQL database via Microsoft SQL Server Management Studio (SSMS). You also need to make sure the developers use their on-premises Active Directory account for authentication. Your strategy should allow for authentication prompts to be kept to a minimum.\\nWhich of the following should you implement?"
+    },
+    {
+        "correctOption": "optionB",
+        "id": 9,
+        "optionA": "Run the Add-AzKeyVaultKey cmdlet.",
+        "optionB": "Run the az keyvault update --enable-soft-delete true --enable-purge-protection true CLI.",
+        "optionC": "Implement virtual network service endpoints for Azure Key Vault.",
+        "optionD": "Run the az keyvault update --enable-soft-delete false CLI.",
+        "question": "You are developing an application to transfer data between on-premises file servers and Azure Blob storage. The application stores keys, secrets, and certificates in Azure Key Vault and makes use of the Azure Key Vault APIs.\\nYou want to configure the application to allow recovery of an accidental deletion of the key vault or key vault objects for 90 days after deletion.\\nWhat should you do?"
+    },
+    {
+        "correctOption": "optionC",
+        "id": 10,
+        "optionA": "Enable autoscaling on the Web App.",
+        "optionB": "Switch to the Premium App Service tier plan.",
+        "optionC": "Switch to the Standard App Service tier plan.",
+        "optionD": "Switch to the Azure App Services consumption plan.",
+        "question": "You develop a Web App on a tier D1 app service plan.\\nYou notice that page load times increase during periods of peak traffic.\\nYou want to implement automatic scaling when CPU load is above 80 percent. Your solution must minimize costs.\\nWhat should you do first?"
+    },
+    {
+        "correctOption": "optionC",
+        "id": 11,
+        "optionA": "The Activity log signal type.",
+        "optionB": "The Application Log signal type.",
+        "optionC": "The Metric signal type.",
+        "optionD": "The Audit Log signal type.",
+        "question": "Your company's Azure subscription includes an Azure Log Analytics workspace.\\nYour company has a hundred on-premises servers that run either Windows Server 2012 R2 or Windows Server 2016, and is linked to the Azure Log Analytics workspace. The Azure Log Analytics workspace is set up to gather performance counters associated with security from these linked servers.\\nYou must configure alerts based on the information gathered by the Azure Log Analytics workspace.\\nYou have to make sure that alert rules allow for dimensions, and that alert creation time should be kept to a minimum. Furthermore, a single alert notification must be created when the alert is created and when the alert is resolved.\\nYou need to make use of the necessary signal type when creating the alert rules.\\nWhich of the following is the option you should use?"
+    },
+    {
+        "correctOption": "optionB",
+        "id": 12,
+        "optionA": "Configure the SearchMode property of the SearchParameters class.",
+        "optionB": "Configure the QueryType property of the SearchParameters class.",
+        "optionC": "Configure the Facets property of the SearchParameters class.",
+        "optionD": "Configure the Filter property of the SearchParameters class.",
+        "question": "You are developing a .NET Core MVC application that allows customers to research independent holiday accommodation providers.\\nYou want to implement Azure Search to allow the application to search the index by using various criteria to locate documents related to accommodation.\\nYou want the application to allow customers to search the index by using regular expressions.\\nWhat should you do?"
+    },
+    {
+        "correctOption": "optionB",
+        "id": 13,
+        "optionA": "the Enterprise Integration Pack (EIP)",
+        "optionB": "the Logic App Code View",
+        "optionC": "the API Connections",
+        "optionD": "the Logic Apps Designer",
+        "question": "You are a developer at your company.\\nYou need to update the definitions for an existing Logic App.\\nWhat should you use?"
+    },
+    {
+        "correctOption": "optionD",
+        "id": 14,
+        "optionA": "Configure the SearchMode property of the SearchParameters class.",
+        "optionB": "Configure the QueryType property of the SearchParameters class.",
+        "optionC": "Configure the Facets property of the SearchParameters class.",
+        "optionD": "Configure the Filter property of the SearchParameters class.",
+        "question": "You are developing a .NET Core MVC application that allows customers to research independent holiday accommodation providers.\\nYou want to implement Azure Search to allow the application to search the index by using various criteria to locate documents related to accommodation venues.\\nYou want the application to list holiday accommodation venues that fall within a specific price range and are within a specified distance to an airport.\\nWhat should you do?"
+    },
+    {
+        "correctOption": "optionA",
+        "id": 15,
+        "optionA": "the Enterprise Integration Pack (EIP)",
+        "optionB": "the Logic App Code View",
+        "optionC": "the API Connections",
+        "optionD": "the Logic Apps Designer",
+        "question": "You are a developer at your company.\\nYou need to edit the workflows for an existing Logic App.\\nWhat should you use?"
+    },
+    {
+        "correctOption": "optionD",
+        "id": 16,
+        "optionA": "Create a new Azure Event Grid subscription for all authentication events. Use the subscription to process sign-out events.",
+        "optionB": "Create a separate Azure Event Grid handler for sign-in and sign-out events.",
+        "optionC": "Create separate Azure Event Grid topics and subscriptions for sign-in and sign-out events.",
+        "optionD": "Add a subject prefix to sign-out events. Create an Azure Event Grid subscription. Configure the subscription to use the subjectBeginsWith filter.",
+        "question": "You are developing an application that applies a set of governance policies for internal and external services, as well as for applications.\\nYou develop a stateful ASP.NET Core 2.1 web application named PolicyApp and deploy it to an Azure App Service Web App. The PolicyApp reacts to events from\\nAzure Event Grid and performs policy actions based on those events.\\nYou have the following requirements:\\n✑ Authentication events must be used to monitor users when they sign in and sign out.\\n✑ All authentication events must be processed by PolicyApp.\\n✑ Sign outs must be processed as fast as possible.\\nWhat should you do?"
+    },
+    {
+        "correctOption": "optionD",
+        "id": 17,
+        "optionA": "Deploy the website to a virtual machine. Configure the virtual machine to automatically scale when the CPU load is high.",
+        "optionB": "Deploy the website to an App Service that uses the Shared service tier. Configure the App Service plan to automatically scale when the CPU load is high.",
+        "optionC": "Deploy the website to a virtual machine. Configure a Scale Set to increase the virtual machine instance count when the CPU load is high.",
+        "optionD": "Deploy the website to an App Service that uses the Standard service tier. Configure the App Service plan to automatically scale when the CPU load is high.",
+        "question": "You develop a website. You plan to host the website in Azure. You expect the website to experience high traffic volumes after it is published.\\nYou must ensure that the website remains available and responsive while minimizing cost.\\nYou need to deploy the website.\\nWhat should you do?"
+    },
+    {
+        "correctOption": "optionB",
+        "id": 18,
+        "optionA": "Process all Azure Blob storage events by using Azure Event Grid with a subscriber Azure Function app.",
+        "optionB": "Enable the change feed on the storage account and process all changes for available events.",
+        "optionC": "Process all Azure Storage Analytics logs for successful blob events.",
+        "optionD": "Use the Azure Monitor HTTP Data Collector API and scan the request body for successful blob events.",
+        "question": "You are developing an application that uses Azure Blob storage.\\nThe application must read the transaction logs of all the changes that occur to the blobs and the blob metadata in the storage account for auditing purposes. The changes must be in the order in which they occurred, include only create, update, delete, and copy operations and be retained for compliance reasons.\\nYou need to process the transaction logs asynchronously.\\nWhat should you do?"
+    },
+    {
+        "correctOption": "optionB",
+        "id": 19,
+        "optionA": "Use an App Service plan. Configure the Function App to use an Azure Blob Storage input trigger.",
+        "optionB": "Use a Consumption plan. Configure the Function App to use an Azure Blob Storage trigger.",
+        "optionC": "Use a Consumption plan. Configure the Function App to use a Timer trigger.",
+        "optionD": "Use an App Service plan. Configure the Function App to use an Azure Blob Storage trigger.",
+        "question": "You are developing an Azure Function App that processes images that are uploaded to an Azure Blob container.\\nImages must be processed as quickly as possible after they are uploaded, and the solution must minimize latency. You create code to process images when the\\nFunction App is triggered.\\nYou need to configure the Function App.\\nWhat should you do?"
+    },
+    {
+        "correctOption": "optionA",
+        "id": 20,
+        "optionA": "Add the customer ID for the signed in user to the CorrelationContext in the web application",
+        "optionB": "On the current SpanContext, set the TraceId to the customer ID for the signed in user",
+        "optionC": "Set the header Ocp-Apim-Trace to the customer ID for the signed in user",
+        "optionD": "Create a new SpanContext with the TraceFlags value set to the customer ID for the signed in user",
+        "question": "You are developing a web application that runs as an Azure Web App. The web application stores data in Azure SQL Database and stores files in an Azure\\nStorage account. The web application makes HTTP requests to external services as part of normal operations.\\nThe web application is instrumented with Application Insights. The external services are OpenTelemetry compliant.\\nYou need to ensure that the customer ID of the signed in user is associated with all operations throughout the overall system.\\nWhat should you do?"
+    },
+    {
+        "correctOption": "optionA",
+        "id": 21,
+        "optionA": "orchestrator",
+        "optionB": "client",
+        "optionC": "entity",
+        "optionD": "activity",
+        "question": "You develop Azure Durable Functions to manage vehicle loans.\\nThe loan process includes multiple actions that must be run in a specified order. One of the actions includes a customer credit check process, which may require multiple days to process.\\nYou need to implement Azure Durable Functions for the loan process.\\nWhich Azure Durable Functions type should you use?"
+    },
+    {
+        "correctOption": "optionB",
+        "id": 22,
+        "optionA": "at least two days",
+        "optionB": "between one and 15 hours",
+        "optionC": "at least one day",
+        "optionD": "between zero and 60 minutes",
+        "question": "You are building a website that uses Azure Blob storage for data storage. You configure Azure Blob storage lifecycle to move all blobs to the archive tier after 30 days.\\nCustomers have requested a service-level agreement (SLA) for viewing data older than 30 days.\\nYou need to document the minimum SLA for data recovery.\\nWhich SLA should you use?"
+    },
+    {
+        "correctOption": "optionD",
+        "id": 23,
+        "optionA": "QueueClient",
+        "optionB": "SubscriptionClient",
+        "optionC": "TopicClient",
+        "optionD": "CloudQueueClient",
+        "question": "You develop Azure solutions.\\nA .NET application needs to receive a message each time an Azure virtual machine finishes processing data. The messages must NOT persist after being processed by the receiving application.\\nYou need to implement the .NET object that will receive the messages.\\nWhich object should you use?"
+    },
+    {
+        "correctOption": "optionC",
+        "id": 25,
+        "optionA": "new Container(EndpointUri, PrimaryKey);",
+        "optionB": "new Database(EndpointUri, PrimaryKey);",
+        "optionC": "new CosmosClient(EndpointUri, PrimaryKey);",
+        "question": "You develop Azure solutions.\\nYou must connect to a No-SQL globally-distributed database by using the .NET API.\\nYou need to create an object to configure and execute requests in the database.\\nWhich code segment should you use?"
+    },
+    {
+        "correctOption": "optionA",
+        "id": 26,
+        "optionA": "AzCopy",
+        "optionB": "Azure Storage Explorer",
+        "optionC": "Azure portal",
+        "optionD": ".NET Storage Client Library",
+        "question": "You have an existing Azure storage account that stores large volumes of data across multiple containers.\\nYou need to copy all data from the existing storage account to a new storage account. The copy process must meet the following requirements:\\n✑ Automate data movement.\\n✑ Minimize user input required to perform the operation.\\n✑ Ensure that the data movement process is recoverable.\\nWhat should you use?"
+    },
+    {
+        "correctOption": "optionA",
+        "id": 27,
+        "optionA": "Export the Azure Storage account Azure Resource Manager template",
+        "optionB": "Initiate a storage account failover",
+        "optionC": "Configure object replication for all blobs",
+        "optionD": "Use the AzCopy command line tool",
+        "question": "You develop and deploy a web application to Azure App Service. The application accesses data stored in an Azure Storage account. The account contains several containers with several blobs with large amounts of data. You deploy all Azure resources to a single region.\\nYou need to move the Azure Storage account to the new region. You must copy all data to the new region.\\nWhat should you do first?"
+    },
+    {
+        "correctOption": "optionD",
+        "id": 28,
+        "optionA": "Set the indexing mode to Lazy.",
+        "optionB": "Set the value of the automatic property of the indexing policy to False.",
+        "optionC": "Set the value of the EnableScanInQuery option to True.",
+        "optionD": "Set the indexing mode to Consistent.",
+        "question": "An organization deploys Azure Cosmos DB.\\nYou need to ensure that the index is updated as items are created, updated, or deleted.\\nWhat should you do?"
+    },
+    {
+        "correctOption": "optionC",
+        "id": 29,
+        "optionA": "database_name = 'MyDatabase'\\ndatabase = client.create_database_if_not_exists(id=database_name)",
+        "optionB": "client = CosmosClient(endpoint, key)",
+        "optionC": "container_name = 'MyContainer'\\ncontainer = database.create_container_if_not_exists(\\nid=container_name, partition_key=PartitionKey(path='\/lastName'), offer_throughput=400)",
+        "optionD": "",
+        "question": "You develop Azure solutions.\\nYou must connect to a No-SQL globally-distributed database by using the .NET API.\\nYou need to create an object to configure and execute requests in the database.\\nWhich code segment should you use?"
+    },
+    {
+        "correctOption": "optionC",
+        "id": 30,
+        "optionA": "DocumentDB Accounts Contributor",
+        "optionB": "Cosmos Backup Operator",
+        "optionC": "Cosmos DB Operator",
+        "optionD": "Cosmos DB Account Reader",
+        "question": "You are developing a Java application that uses Cassandra to store key and value data. You plan to use a new Azure Cosmos DB resource and the Cassandra\\nAPI in the application. You create an Azure Active Directory (Azure AD) group named Cosmos DB Creators to enable provisioning of Azure Cosmos accounts, databases, and containers.\\nThe Azure AD group must not be able to access the keys that are required to access the data.\\nYou need to restrict access to the Azure AD group.\\nWhich role-based access control should you use?"
+    },
+    {
+        "correctOption": "optionC",
+        "id": 31,
+        "optionA": "Create a single user-assigned Managed Identity with permission to access Key Vault and configure each App Service to use that Managed Identity.",
+        "optionB": "Create a single Azure AD Service Principal with permission to access Key Vault and use a client secret from within the App Services to access Key Vault.",
+        "optionC": "Create a system assigned Managed Identity in each App Service with permission to access Key Vault.",
+        "optionD": "Create an Azure AD Service Principal with Permissions to access Key Vault for each App Service and use a certificate from within the App Services to access Key Vault.",
+        "question": "You have an application that includes an Azure Web app and several Azure Function apps. Application secrets including connection strings and certificates are stored in Azure Key Vault.\\nSecrets must not be stored in the application or application runtime environment. Changes to Azure Active Directory (Azure AD) must be minimized.\\nYou need to design the approach to loading application secrets.\\nWhat should you do?"
+    },
+    {
+        "correctOption": "optionC",
+        "id": 32,
+        "optionA": "Basic",
+        "optionB": "Anonymous",
+        "optionC": "Managed identity",
+        "optionD": "Client certificate",
+        "question": "Your company is developing an Azure API hosted in Azure.\\nYou need to implement authentication for the Azure API to access other Azure resources. You have the following requirements:\\n✑ All API calls must be authenticated.\\n✑ Callers to the API must not send credentials to the API.\\nWhich authentication mechanism should you use?"
+    },
+    {
+        "correctOption": "optionB",
+        "id": 33,
+        "optionA": "Copy blobs to Container2 by using the Put Blob operation of the Blob Service REST API",
+        "optionB": "Create an Event Grid topic that uses the Start-AzureStorageBlobCopy cmdlet",
+        "optionC": "Use AzCopy with the Snapshot switch to copy blobs to Container2",
+        "optionD": "Download the blob to a virtual machine and then upload the blob to Container2",
+        "question": "You develop an app that allows users to upload photos and videos to Azure storage. The app uses a storage REST API call to upload the media to a blob storage account named Account1. You have blob storage containers named Container1 and Container2.\\nUploading of videos occurs on an irregular basis.\\nYou need to copy specific blobs from Container1 to Container2 when a new video is uploaded.\\nWhat should you do?"
+    },
+    {
+        "correctOption": "optionA",
+        "id": 34,
+        "optionA": "single path",
+        "optionB": "wildcard",
+        "optionC": "root domain",
+        "optionD": "",
+        "question": "You are developing an ASP.NET Core website that uses Azure FrontDoor. The website is used to build custom weather data sets for researchers. Data sets are downloaded by users as Comma Separated Value (CSV) files. The data is refreshed every 10 hours.\\nSpecific files must be purged from the FrontDoor cache based upon Response Header values.\\nYou need to purge individual assets from the Front Door cache.\\nWhich type of cache purge should you use?"
+    },
+    {
+        "correctOption": "optionC",
+        "id": 35,
+        "optionA": "Basic",
+        "optionB": "Anonymous",
+        "optionC": "Managed identity",
+        "optionD": "Client certificate",
+        "question": "Your company is developing an Azure API.\\nYou need to implement authentication for the Azure API. You have the following requirements:\\nAll API calls must be secure.\\n✑ Callers to the API must not send credentials to the API.\\nWhich authentication mechanism should you use?"
+    },
+    {
+        "correctOption": "optionD",
+        "id": 36,
+        "optionA": "jsonp",
+        "optionB": "authentication-certificate",
+        "optionC": "check-header",
+        "optionD": "validate-jwt",
+        "question": "You are a developer for a SaaS company that offers many web services.\\nAll web services for the company must meet the following requirements:\\n✑ Use API Management to access the services\\n✑ Use OpenID Connect for authentication\\n✑ Prevent anonymous usage\\nA recent security audit found that several web services can be called without any authentication.\\nWhich API Management policy should you implement?"
+    },
+    {
+        "correctOption": "optionA",
+        "id": 37,
+        "optionA": "Create a user-assigned managed identity and assign role-based access controls.",
+        "optionB": "Create an Azure AD custom role and assign the role to the Azure Blob storage account.",
+        "optionC": "Create an Azure Key Vault and issue a client certificate.",
+        "optionD": "Create a system-assigned managed identity and issue a client certificate.",
+        "question": "You develop and deploy an Azure Logic app that calls an Azure Function app. The Azure Function app includes an OpenAPI (Swagger) definition and uses an\\nAzure Blob storage account. All resources are secured by using Azure Active Directory (Azure AD).\\nThe Azure Logic app must securely access the Azure Blob storage account. Azure AD resources must remain if the Azure Logic app is deleted.\\nYou need to secure the Azure Logic app.\\nWhat should you do?"
+    },
+    {
+        "correctOption": "optionA",
+        "id": 38,
+        "optionA": "ID token header",
+        "optionB": "ID token signature",
+        "optionC": "HTTP response code",
+        "optionD": "Tenant ID",
+        "question": "You deploy an Azure App Service web app. You create an app registration for the app in Azure Active Directory (Azure AD) and Twitter.\\nThe app must authenticate users and must use SSL for all communications. The app must use Twitter as the identity provider.\\nYou need to validate the Azure AD request in the app code.\\nWhat should you validate?"
+    }
+]

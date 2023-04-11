@@ -293,7 +293,7 @@
     "optionA": "Send to Log Analytics",
     "optionB": "Stream to an event hub",
     "optionC": "Archive to a storage account",
-    "optionD": null,
+    "optionD": "",
     "correctOption": "optionA"
   },
   {
@@ -482,7 +482,7 @@
     "optionA": "List only",
     "optionB": "Get only",
     "optionC": "Get and List",
-    "optionD": null,
+    "optionD": "",
     "correctOption": "optionB"
   },
   {
@@ -671,7 +671,7 @@
     "optionA": "Configure post-deployment approvals in the deployment pipeline.",
     "optionB": "Integrate Azure DevOps and SonarQube.",
     "optionC": "Integrate Azure DevOps and Azure DevTest Labs.",
-    "optionD": null,
+    "optionD": "",
     "correctOption": "optionB"
   },
   {
