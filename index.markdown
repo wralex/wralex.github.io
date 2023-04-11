@@ -14,15 +14,17 @@ In my journey of IT I have tried to create helpful tutorials, share labs, or
 even have discussions. Below is a list I'd like to share with you some of my
 experiences:
 
-1. [Editing with VS Code and Pandoc](/instructions/Editing-With-Pandoc) - This
-   is a tutorial I'm creating where I use VS Code & Pandoc along with an Azure
-   DevOps repo to convert a Word Document into Markdown and reversing the
-   process and creating other formats, such as a Web Page. I also use Azure
-   DevOps to store the files in a GIT repository to show how this may be used
-   to future modifications.
+1. [Editing with VS Code and Pandoc] - This is a tutorial I'm creating where I
+   use VS Code & Pandoc along with an Azure DevOps repo to convert a Word
+   Document into Markdown and reversing the process and creating other formats,
+   such as a Web Page. I also use Azure DevOps to store the files in a GIT
+   repository to show how this may be used to future modifications.
 
 ## Conclusion
 
-I do thank you for visiting and if you do have any feedback, please email me at <wralex@gmail.com>
+I do thank you for visiting and if you do have any feedback, please email me at
+<wralex@gmail.com>
 
-Thanks Again 😃❗
+Thanks Again😃❗
+
+[Editing with VS Code and Pandoc]: /instructions/Editing-With-Pandoc

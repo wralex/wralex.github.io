@@ -4,11 +4,7 @@ permalink: /courses/AZ400/quiz.html
 layout: default
 amount: 25
 ---
-<script>
-    var JSONdata = [{% for row in site.data.az400quiz %}
-    {% if forloop.first %} { {% else %},{ {% endif %}{% for pair in row %}"{{pair[0]}}": "{{pair[1]}}"{% if forloop.last %}{% else %},{% endif %}{% endfor %} } {% endfor %}
-    ]
-</script>
+<script>var JSONdata = [{% for row in site.data.az400quiz %}{% if forloop.first %} { {% else %},{ {% endif %}{% for pair in row %}"{{pair[0]}}": "{{pair[1]}}"{% if forloop.last %}{% else %},{% endif %}{% endfor %} } {% endfor %}]</script>
 <link rel="stylesheet" type="text/css" href="{{ "/assets/styles/quiz.css" | relative_url }}">
 <main>
     <!-- creating a modal for when quiz ends -->

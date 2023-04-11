@@ -2,11 +2,7 @@
 permalink: /test.html
 layout: default
 ---
-<script>
-var JSONdata = [{% for row in site.data.quiz %}
-{% if forloop.first %} { {% else %},{ {% endif %}{% for pair in row %}"{{pair[0]}}": "{{pair[1]}}"{% if forloop.last %}{% else %},{% endif %}{% endfor %} } {% endfor %}
-]
-</script>
+<script>var JSONdata = [{% for row in site.data.az400quiz %}{% if forloop.first %} { {% else %},{ {% endif %}{% for pair in row %}"{{pair[0]}}": "{{pair[1]}}"{% if forloop.last %}{% else %},{% endif %}{% endfor %} } {% endfor %}]</script>
 
 <link href="https://cdnjs.cloudflare.com/ajax/libs/tabulator-tables/5.4.4/css/tabulator.min.css" rel="stylesheet">
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tabulator-tables/5.4.4/js/tabulator.min.js"></script>
@@ -14,24 +10,30 @@ var JSONdata = [{% for row in site.data.quiz %}
 <div id="example-table"></div>
 
 <script>
-    var table = new Tabulator("#example-table",
-    {
-        height:600,
-        data:JSONdata,
-        layout:"fitColumns", //fit columns to width of table (optional)
-        columns:[ //Define Table Columns
-            {title:"Question", field:"question", formatter:"textarea"}
-        ],
-    });
-
-    //trigger an alert message when the row is clicked
-    table.on("rowClick", function(e, row){
-        alert("Question:\n" + row.getData().question
-        + "\nA) " + row.getData().optionA
-        + "\nB) " + row.getData().optionB
-        + "\nC) " + row.getData().optionC
-        + "\nD) " + row.getData().optionD
-        + "\n\nAnswer) " + row.getData().correctOption.replaceAll('option', '')
+    var table =
+        new Tabulator(
+            "#example-table",
+            {
+                height: 600,
+                data: JSONdata,
+                layout: "fitColumns",
+                columns: [
+                    {title:"Question", field:"question", formatter:"textarea"}
+                ]
+            }
         );
-    });
+    
+    table.on(
+        "rowClick", function(e, row)
+        {
+            alert(
+                "Question:\n" + row.getData().question +
+                "\nA) " + row.getData().optionA +
+                "\nB) " + row.getData().optionB +
+                "\nC) " + row.getData().optionC +
+                "\nD) " + row.getData().optionD +
+                "\n\nAnswer) " + row.getData().correctOption.replaceAll('option', '')
+            );
+        }
+    );
 </script>
