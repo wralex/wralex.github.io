@@ -74,7 +74,7 @@
   correctOption: optionA
 - question: |
     You need to consider the underlined segment to establish whether it is accurate.
-    When moving to Azure DevOps, JIRA must be replaced with the build pipelines Azure DevOps service.  
+    When moving to Azure DevOps, JIRA must be replaced with the _build pipelines_ Azure DevOps service.  
     Select `No adjustment required` if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option.
   optionA: No adjustment required.
   optionB: repos
