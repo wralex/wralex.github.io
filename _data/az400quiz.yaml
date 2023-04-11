@@ -1,3 +1,4 @@
+# Taken from https://www.examtopics.com/exams/microsoft/az-400
 - question: |
     You have been tasked with strengthening the security of your team's development process.
     You need to suggest a security tool type for the Continuous Integration (CI) phase of the development process.  
@@ -310,4 +311,310 @@
   optionB: the Telegraf agent
   optionC: the Windows Azure diagnostics extension (WAD)
   optionD: the Azure monitor agent
+  correctOption: optionA
+- question: |
+    You have a web app hosted on Azure App Service. The web app stores data in an Azure SQL database.
+    You need to generate an alert when there are 10,000 simultaneous connections to the database. The solution must minimize development effort.  
+    Which option should you select in the Diagnostics settings of the database?
+  optionA: Send to Log Analytics
+  optionB: Stream to an event hub
+  optionC: Archive to a storage account
+  correctOption: optionA
+- question: |
+    You build an iOS app.  
+    You receive crash reports from Crashlytics.  
+    You need to capture the following data:  
+    ✑ Crash-free users  
+    ✑ Custom events  
+    ✑ Breadcrumbs  
+    What should you do?
+  optionA: Configure the xcworkspace file in the project
+  optionB: Add the GoogleAnalytics pod to the app.
+  optionC: Configure the Crashlytics pod in the app.
+  optionD: Import the Firebase module to UIApplicationDelegate.
+  correctOption: optionD
+- question: |
+    You have multiple teams that work on multiple projects in Azure DevOps.
+    You need to plan and manage the consumers and producers for each project. The solution must provide an overview of all the projects.  
+    What should you do?
+  optionA: Add a Predecessor or Successor link to the feature or user story for the items of each project.
+  optionB: Add a Parent or Child link to the feature or user story for the items of each project.
+  optionC: Install the Dependency Tracker extension and create dependencies for each project.
+  optionD: Create a custom query to show the consumers and producers and add a widget to a dashboard.
+  correctOption: optionC
+- question: |
+    You have an Azure web app named webapp1 that uses the .NET Core runtime stack. You have an Azure Application Insights resource named AppInsights1. Webapp1 sends telemetry data to AppInsights1.
+    You need to ensure that webapp1 sends the telemetry data at a fixed sampling rate.  
+    What should you do?
+  optionA: From the code repository of webapp1, modify the ApplicationInsights.config file.
+  optionB: From the code repository of webapp1, modify the Startup.cs file.
+  optionC: From AppInsights1, modify the Usage and estimated costs settings.
+  optionD: From AppInsights1, configure the Continuous export settings.
+  correctOption: optionB
+- question: |
+    You configure an Azure Application Insights availability test.
+    You need to notify the customer services department at your company by email when availability is degraded.
+    You create an Azure logic app that will handle the email and follow up actions.
+    Which type of trigger should you use to invoke the logic app?
+  optionA: an HTTPWebhook trigger
+  optionB: an HTTP trigger
+  optionC: a Request trigger
+  optionD: an ApiConnection trigger
+  correctOption: optionA
+- question: |
+    You have an Azure DevOps organization named Contoso and an Azure subscription.
+    You use Azure DevOps to build a containerized app named App1 and deploy App1 to an Azure container instance named ACI1.
+    You need to restart ACI1 when App1 stops responding.  
+    What should you do?
+  optionA: Add a liveness probe to the YAML configuration of App1.
+  optionB: Add a readiness probe to the YAML configuration of App1.
+  optionC: Use Connection Monitor in Azure Network Watcher.
+  optionD: Use IP flow verify in Azure Network Watcher.
+  correctOption: optionB
+- question: |
+    You have a multi-tier application that has an Azure Web Apps front end and an Azure SQL Database back end.
+    You need to recommend a solution to capture and store telemetry data. The solution must meet the following requirements:  
+    ✑ Support using ad-hoc queries to identify baselines.  
+    ✑ Trigger alerts when metrics in the baseline are exceeded.  
+    ✑ Store application and database metrics in a central location.  
+    What should you include in the recommendation?
+  optionA: Azure Event Hubs
+  optionB: Azure SQL Database Intelligent Insights
+  optionC: Azure Application Insights
+  optionD: Azure Log Analytics
+  correctOption: optionD
+- question: |
+    You have an Azure DevOps organization named Contoso and an Azure subscription. The subscription contains an Azure virtual machine scale set named VMSS1 that is configured for autoscaling.
+    You use Azure DevOps to build a web app named App1 and deploy App1 to VMSS1. App1 is used heavily and has usage patterns that vary on a weekly basis.
+    You need to recommend a solution to detect an abnormal rise in the rate of failed requests to App1. The solution must minimize administrative effort.
+    What should you include in the recommendation?
+  optionA: the Smart Detection feature in Azure Application Insights
+  optionB: the Failures feature in Azure Application Insights
+  optionC: an Azure Service Health alert
+  optionD: an Azure Monitor alert that uses an Azure Log Analytics query
+  correctOption: optionA
+- question: |
+    You have an Azure subscription that contains resources in several resource groups.
+    You need to design a monitoring strategy that will provide a consolidated view. The solution must support the following requirements:  
+    ✑ Support role-based access control (RBAC) by using Azure Active Directory (Azure AD) identifies.  
+    ✑ Include visuals from Azure Monitor that are generated by using the Kusto query language.  
+    ✑ Support documentation written in markdown.  
+    ✑ Use the latest data available for each visual.  
+    What should you use to create the consolidated view?
+  optionA: Azure Monitor
+  optionB: Microsoft Power BI
+  optionC: Azure Data Explorer
+  optionD: Azure dashboards
+  correctOption: optionC
+- question: |
+    You are automating the testing process for your company.
+    You need to automate UI testing of a web application.  
+    Which framework should you use?
+  optionA: JaCoco
+  optionB: Selenium
+  optionC: Xamarin.UITest
+  optionD: Microsoft.CodeAnalysis
+  correctOption: optionB
+- question: |
+    You have an Azure DevOps organization named Contoso and an Azure subscription. The subscription contains an Azure virtual machine scale set named VMSS1 and an Azure Standard Load Balancer named LB1. LB1 distributes incoming requests across VMSS1 instances.
+    You use Azure DevOps to build a web app named App1 and deploy App1 to VMSS1. App1 is accessible via HTTPS only and configured to require mutual authentication by using a client certificate.
+    You need to recommend a solution for implementing a health check of App1. The solution must meet the following requirements:  
+    ✑ Identify whether individual instances of VMSS1 are eligible for an upgrade operation.  
+    ✑ Minimize administrative effort.  
+    What should you include in the recommendation?
+  optionA: an Azure Load Balancer health probe
+  optionB: Azure Monitor autoscale
+  optionC: the Custom Script Extension
+  optionD: the Application Health extension
+  correctOption: optionD
+- question: |
+    Your company hosts a web application in Azure. The company uses Azure Pipelines for the build and release management of the application.
+    Stakeholders report that the past few releases have negatively affected system performance.
+    You configure alerts in Azure Monitor.
+    You need to ensure that new releases are only deployed to production if the releases meet defined performance baseline criteria in the staging environment first.  
+    What should you use to prevent the deployment of releases that fall to meet the performance baseline?
+  optionA: an Azure Scheduler job
+  optionB: a trigger
+  optionC: a gate
+  optionD: an Azure function
+  correctOption: optionC
+- question: |
+    You use Azure Pipelines to manage build pipelines, GitHub to store source code, and Dependabot to manage dependencies.
+    You have an app named App1.
+    Dependabot detects a dependency in App1 that requires an update.
+    What should you do first to apply the update?
+  optionA: Create a pull request.
+  optionB: Approve the pull request.
+  optionC: Create a branch.
+  optionD: Perform a commit.
+  correctOption: optionB
+- question: |
+    You are designing a configuration management solution to support five apps hosted on Azure App Service. Each app is available in the following three environments: development, test, and production.
+    You need to recommend a configuration management solution that meets the following requirements:  
+    ✑ Supports feature flags  
+    ✑ Tracks configuration changes from the past 30 days  
+    ✑ Stores hierarchically structured configuration values  
+    ✑ Controls access to the configurations by using role-based access control (RBAC) permissions  
+    ✑ Stores shared values as key/value pairs that can be used by all the apps  
+    Which Azure service should you recommend as the configuration management solution?
+  optionA: Azure Cosmos DB
+  optionB: Azure App Service
+  optionC: Azure App Configuration
+  optionD: Azure Key Vault
+  correctOption: optionC
+- question: |
+    You have a containerized solution that runs in Azure Container Instances. The solution contains a frontend container named App1 and a backend container named DB1. DB1 loads a large amount of data during startup.
+    You need to verify that DB1 can handle incoming requests before users can submit requests to App1.  
+    What should you configure?
+  optionA: a liveness probe
+  optionB: a performance log
+  optionC: a readiness probe
+  optionD: an Azure Load Balancer health probe
+  correctOption: optionC
+- question: |
+    You have several Azure Active Directory (Azure AD) accounts.
+    You need to ensure that users use multi-factor authentication (MFA) to access Azure apps from untrusted networks.  
+    What should you configure in Azure AD?
+  optionA: access reviews
+  optionB: managed identities
+  optionC: entitlement management
+  optionD: conditional access
+  correctOption: optionD
+- question: |
+    You plan to provision a self-hosted Linux agent.
+    Which authentication mechanism should you use to register the self-hosted agent?
+  optionA: personal access token (PAT)
+  optionB: SSH key
+  optionC: Alternate credentials
+  optionD: certificate
+  correctOption: optionA
+- question: |
+    You are building a Microsoft ASP.NET application that requires authentication.
+    You need to authenticate users by using Azure Active Directory (Azure AD).  
+    What should you do first?
+  optionA: Assign an enterprise application to users and groups
+  optionB: Create an app registration in Azure AD
+  optionC: Configure the application to use a SAML endpoint
+  optionD: Create a new OAuth token from the application
+  correctOption: optionB
+- question: |
+    You have an Azure DevOps organization named Contoso.
+    You need to recommend an authentication mechanism that meets the following requirements:  
+    ✑ Supports authentication from Git  
+    ✑ Minimizes the need to provide credentials during authentication  
+    What should you recommend?
+  optionA: personal access tokens (PATs) in Azure DevOps
+  optionB: Alternate credentials in Azure DevOps
+  optionC: user accounts in Azure Active Directory (Azure AD)
+  optionD: managed identities in Azure Active Directory (Azure AD)
+  correctOption: optionA
+- question: |
+    You have an application that consists of several Azure App Service web apps and Azure functions.
+    You need to assess the security of the web apps and the functions.
+    Which Azure feature can you use to provide a recommendation for the security of the application?
+  optionA: Security & Compliance in Azure Log Analytics
+  optionB: Resource health in Azure Service Health
+  optionC: Smart Detection in Azure Application Insights
+  optionD: Compute & apps in Azure Security Center
+  correctOption: optionD
+- question: |
+    Your company has a project in Azure DevOps for a new web application.
+    The company identifies security as one of the highest priorities.
+    You need to recommend a solution to minimize the likelihood that infrastructure credentials will be leaked.  
+    What should you recommend?
+  optionA: Add a Run Inline Azure PowerShell task to the pipeline.
+  optionB: Add a PowerShell task to the pipeline and run Set-AzureKeyVaultSecret.
+  optionC: Add an Azure Key Vault task to the pipeline.
+  optionD: Add Azure Key Vault references to Azure Resource Manger templates.
+  correctOption: optionB
+- question: |
+    You create a Microsoft ASP.NET Core application.
+    You plan to use Azure Key Vault to provide secrets to the application as configuration data.
+    You need to create a Key Vault access policy to assign secret permissions to the application. The solution must use the principle of least privilege.  
+    Which secret permissions should you use?
+  optionA: List only
+  optionB: Get only
+  optionC: Get and List
+  correctOption: optionB
+- question: |
+    You have a branch policy in a project in Azure DevOps. The policy requires that code always builds successfully.
+    You need to ensure that a specific user can always merge changes to the master branch, even if the code fails to compile. The solution must use the principle of least privilege.  
+    What should you do?
+  optionA: Add the user to the Build Administrators group.
+  optionB: Add the user to the Project Administrators group.
+  optionC: From the Security settings of the repository, modify the access control for the user.
+  optionD: From the Security settings of the branch, modify the access control for the user.
+  correctOption: optionD
+- question: |
+    You have an Azure Resource Manager template that deploys a multi-tier application.
+    You need to prevent the user who performs the deployment from viewing the account credentials and connection strings used by the application.  
+    What should you use?
+  optionA: Azure Key Vault Most Voted
+  optionB: a Web.config file
+  optionC: an Appsettings.json file
+  optionD: an Azure Storage table
+  correctOption: optionA
+- question: |
+    You have an Azure DevOps organization named Contoso that contains a project named Project1.
+    You provision an Azure key vault named Keyvault1.
+    You need to reference Keyvault1 secrets in a build pipeline of Project1.  
+    What should you do first?
+  optionA: Add a secure file to Project1.
+  optionB: Create an XAML build service.
+  optionC: Create a variable group in Project1.
+  optionD: Configure the security policy of Contoso.
+  correctOption: optionD
+- question: |
+    Your company uses Azure DevOps.
+    Only users who have accounts in Azure Active Directory can access the Azure DevOps environment.
+    You need to ensure that only devices that are connected to the on-premises network can access the Azure DevOps environment.  
+    What should you do?
+  optionA: Assign the Stakeholder access level to all users.
+  optionB: In Azure Active Directory, configure risky sign-ins.
+  optionC: In Azure DevOps, configure Security in Project Settings.
+  optionD: In Azure Active Directory, configure conditional access.
+  correctOption: optionD
+- question: |
+    You have an Azure DevOps organization named Contoso, an Azure DevOps project named Project1, an Azure subscription named Sub1, and an Azure key vault named vault1.
+    You need to ensure that you can reference the values of the secrets stored in vault1 in all the pipelines of Project1. The solution must prevent the values from being stored in the pipelines.  
+    What should you do?
+  optionA: Create a variable group in Project1.
+  optionB: Add a secure file to Project1.
+  optionC: Modify the security settings of the pipelines.
+  optionD: Configure the security policy of Contoso.
+  correctOption: optionA
+- question: |
+    You need to configure GitHub to use Azure Active Directory (Azure AD) for authentication.  
+    What should you do first?
+  optionA: Create a conditional access policy in Azure AD.
+  optionB: Register GitHub in Azure AD.
+  optionC: Create an Azure Active Directory B2C (Azure AD B2C) tenant.
+  optionD: Modify the Security settings of the GitHub organization.
+  correctOption: optionB
+- question: |
+    You have an Azure DevOps project named Project1 and an Azure subscription named Sub1.
+    You need to prevent releases from being deployed unless the releases comply with the Azure Policy rules assigned to Sub1.  
+    What should you do in the release pipeline of Project1?
+  optionA: Add a deployment gate.
+  optionB: Modify the Deployment queue settings.
+  optionC: Configure a deployment trigger.
+  optionD: Create a pipeline variable.
+  correctOption: optionA
+- question: |
+    You have an Azure DevOps project that contains a build pipeline. The build pipeline uses approximately 50 open source libraries.
+    You need to ensure that all the open source libraries comply with your company's licensing standards.  
+    Which service should you use?
+  optionA: Ansible
+  optionB: Maven
+  optionC: WhiteSource Mend
+  optionD: Helm
+  correctOption: optionC
+- question: |
+    You are designing the security validation strategy for a project in Azure DevOps.
+    You need to identify package dependencies that have known security issues and can be resolved by an update.
+    What should you use?
+  optionA: Octopus Deploy
+  optionB: Jenkins
+  optionC: Gradle
+  optionD: SonarQube
   correctOption: optionA

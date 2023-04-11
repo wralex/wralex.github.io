@@ -4,7 +4,7 @@ permalink: /courses/AZ400/quiz.html
 layout: default
 amount: 25
 ---
-<!-- Taken from https://www.examtopics.com/exams/microsoft/az-400 -->
+<div id="jsonContent" hidden>{{ site.data.az400quiz }}</div>
 <link rel="stylesheet" type="text/css" href="{{ "/assets/styles/quiz.css" | relative_url }}">
 <main>
     <!-- creating a modal for when quiz ends -->
@@ -16,7 +16,7 @@ amount: 25
                 <p>Wrong Answers : <span id="wrong-answers"></span></p>
                 <p>Right Answers : <span id="right-answers"></span></p>
                 <p>Grade : <span id="grade-percentage"></span>%</p>
-                <p ><span id="remarks"></span></p>
+                <p><span id="remarks"></span></p>
             </div>
             <div class="modal-button-container">
                 <button onclick="closeScoreModal()">Continue</button>
@@ -57,7 +57,6 @@ amount: 25
         </div>
     </div>
 
-    <div id="jsonContent" hidden>{{ site.data.az400quiz }}</div>
     <script src="{{ "/assets/scripts/quiz.js" | relative_url }}"></script>
     <script>
         var json = JSON.parse("[" + $("#jsonContent")[0].innerText.replaceAll("=>", ":").replaceAll('"}{"', '"}, {"').replaceAll("\\n", "<br />") + "]");
