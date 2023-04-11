@@ -2,20 +2,22 @@
 permalink: /test.html
 layout: default
 ---
+<script>
+var JSONdata = [{% for row in site.data.quiz %}
+{% if forloop.first %} { {% else %},{ {% endif %}{% for pair in row %}"{{pair[0]}}": "{{pair[1]}}"{% if forloop.last %}{% else %},{% endif %}{% endfor %} } {% endfor %}
+]
+</script>
+
 <link href="https://cdnjs.cloudflare.com/ajax/libs/tabulator-tables/5.4.4/css/tabulator.min.css" rel="stylesheet">
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tabulator-tables/5.4.4/js/tabulator.min.js"></script>
-
-<div id="data" hidden>{{ site.data.az400quiz }}</div>
 
 <div id="example-table"></div>
 
 <script>
-    var json = JSON.parse('[' + $("#data")[0].innerText.replaceAll('=>', ':').replaceAll('"}{"', '"},{"') + ']');
-    
     var table = new Tabulator("#example-table",
     {
         height:600,
-        data:json,
+        data:JSONdata,
         layout:"fitColumns", //fit columns to width of table (optional)
         columns:[ //Define Table Columns
             {title:"Question", field:"question", formatter:"textarea"}

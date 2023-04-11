@@ -22,11 +22,11 @@ function NextQuestion(index, json, amount) {
 
     document.getElementById("question-number").innerHTML = questionNumber
     document.getElementById("player-score").innerHTML = playerScore
-    document.getElementById("display-question").innerHTML = currentQuestion.question;
-    document.getElementById("option-one-label").innerHTML = currentQuestion.optionA;
-    document.getElementById("option-two-label").innerHTML = currentQuestion.optionB;
-    document.getElementById("option-three-label").innerHTML = currentQuestion.optionC;
-    document.getElementById("option-four-label").innerHTML = currentQuestion.optionD;
+    document.getElementById("display-question").innerHTML = currentQuestion.question.replaceAll('\n', '<br />');
+    document.getElementById("option-one-label").innerHTML = currentQuestion.optionA.replaceAll('\n', '<br />');
+    document.getElementById("option-two-label").innerHTML = currentQuestion.optionB.replaceAll('\n', '<br />');
+    document.getElementById("option-three-label").innerHTML = currentQuestion.optionC.replaceAll('\n', '<br />');
+    document.getElementById("option-four-label").innerHTML = currentQuestion.optionD.replaceAll('\n', '<br />');
 }
 
 function checkForAnswer() {

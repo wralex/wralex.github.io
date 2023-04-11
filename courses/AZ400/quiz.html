@@ -4,7 +4,11 @@ permalink: /courses/AZ400/quiz.html
 layout: default
 amount: 25
 ---
-<div id="jsonContent" hidden>{{ site.data.az400quiz }}</div>
+<script>
+    var JSONdata = [{% for row in site.data.az400quiz %}
+    {% if forloop.first %} { {% else %},{ {% endif %}{% for pair in row %}"{{pair[0]}}": "{{pair[1]}}"{% if forloop.last %}{% else %},{% endif %}{% endfor %} } {% endfor %}
+    ]
+</script>
 <link rel="stylesheet" type="text/css" href="{{ "/assets/styles/quiz.css" | relative_url }}">
 <main>
     <!-- creating a modal for when quiz ends -->
@@ -56,10 +60,8 @@ amount: 25
             <button onclick="handleNextQuestion()">Next Question</button>
         </div>
     </div>
-
-    <script src="{{ "/assets/scripts/quiz.js" | relative_url }}"></script>
-    <script>
-        var json = JSON.parse("[" + $("#jsonContent")[0].innerText.replaceAll("=>", ":").replaceAll('"}{"', '"}, {"').replaceAll("\\n", "<br />") + "]");
-        NextQuestion(0, json, {{ page.amount }});
-    </script>
 </main>
+<script src="{{ "/assets/scripts/quiz.js" | relative_url }}"></script>
+<script>
+    NextQuestion(0, JSONdata, {{page.amount}});
+</script>
