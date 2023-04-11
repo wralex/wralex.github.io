@@ -43,7 +43,7 @@ description: |
   > - Review the [AZ-400 study guide
   >   ](https://aka.ms/AZ400-StudyGuide){:target='_blank'} to prepare for the
   >   exam
-  > - Try a [Sample Quiz](quiz)
+  > - Try a [Sample Quiz](quiz){:target='_blank'}
 ---
 **_[EXAM LINK]({{page.examurl}} '{{ page.title}}')_**
 
