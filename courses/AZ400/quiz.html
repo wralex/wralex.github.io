@@ -1,12 +1,11 @@
 ---
+title: 'AZ400: Designing and Implementing Microsoft DevOps Solutions - Sample Quiz'
 permalink: /courses/AZ400/quiz.html
 layout: default
 amount: 25
 ---
 <!-- Taken from https://www.examtopics.com/exams/microsoft/az-400 -->
-<div id="jsonContent" hidden>{{ site.data.az400quiz }}</div>
 <link rel="stylesheet" type="text/css" href="{{ "/assets/styles/quiz.css" | relative_url }}">
-<script src="{{ "/assets/scripts/quiz.js" | relative_url }}"></script>
 <main>
     <!-- creating a modal for when quiz ends -->
     <div class="modal-container" id="score-modal">
@@ -27,22 +26,15 @@ amount: 25
     <!-- end of modal of quiz details-->
 
     <div class="game-quiz-container">
+        <h3>{{ page.title }}</h3>
         <div class="game-details-container">
-            <h1>Score : <span id="player-score"></span> / {{ page.amount }} </h1>
-            <h1>Question : <span id="question-number"></span> / {{ page.amount }} </h1>
+            <span>Score : <span id="player-score"></span> / {{ page.amount }} </span>
+            <span>Question : <span id="question-number"></span> / {{ page.amount }} </span>
         </div>
         <div class="game-question-container">
-            <h1 id="display-question"></h1>
+            <span id="display-question"></span>
         </div>
         <div class="game-options-container">
-            <div class="modal-container" id="option-modal">
-                <div class="modal-content-container">
-                    <h1>Please Pick An Option</h1>
-                    <div class="modal-button-container">
-                        <button onclick="closeOptionModal()">Continue</button>
-                    </div>
-                </div>
-            </div>
             <span>
                 <input type="radio" id="option-one" name="option" class="radio" value="optionA" />
                 <label for="option-one" class="option" id="option-one-label"></label>
@@ -65,6 +57,8 @@ amount: 25
         </div>
     </div>
 
+    <div id="jsonContent" hidden>{{ site.data.az400quiz }}</div>
+    <script src="{{ "/assets/scripts/quiz.js" | relative_url }}"></script>
     <script>
         var json = JSON.parse("[" + $("#jsonContent")[0].innerText.replaceAll("=>", ":").replaceAll('"}{"', '"}, {"').replaceAll("\\n", "<br />") + "]");
         NextQuestion(0, json, {{ page.amount }});

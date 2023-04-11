@@ -47,6 +47,7 @@
   correctOption: optionD
 - question: |
     You need to consider the underlined segment to establish whether it is accurate.
+    
     To compile an Internet Information Services (IIS) web application that runs docker, you should use a Default build agent pool.  
     Select `No adjustment required` if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option.
   optionA: No adjustment required.
@@ -74,7 +75,8 @@
   correctOption: optionA
 - question: |
     You need to consider the underlined segment to establish whether it is accurate.
-    When moving to Azure DevOps, JIRA must be replaced with the _build pipelines_ Azure DevOps service.  
+    
+    When moving to Azure DevOps, JIRA must be replaced with the build pipelines Azure DevOps service.  
     Select `No adjustment required` if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option.
   optionA: No adjustment required.
   optionB: repos
@@ -122,7 +124,8 @@
   correctOption: optionD
 - question: |
     You need to consider the underlined segment to establish whether it is accurate.
-    To find when common open source libraries are added to the code base, you should add <u>Jenkins</u> to the build pipeline.  
+    
+    To find when common open source libraries are added to the code base, you should add Jenkins to the build pipeline.  
     Select `No adjustment required` if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option.
   optionA: No adjustment required.
   optionB: SourceGear Vault
@@ -139,8 +142,9 @@
   optionD: You should create a deployment task and use the Chef service.
   correctOption: optionA
 - question: |
-    You need to consider the underlined segment to establish whether it is accurate.  
-    <u>Black Duck</u> can be used to make sure that all the open source libraries conform to your company's licensing criteria.  
+    You need to consider the underlined segment to establish whether it is accurate.
+
+    _Black Duck_ can be used to make sure that all the open source libraries conform to your company's licensing criteria.  
     Select `No adjustment required` if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option.
   optionA: No adjustment required
   optionB: Maven
@@ -157,9 +161,10 @@
   optionD: Azure Security Center
   correctOption: optionD
 - question: |
-    You need to consider the underlined segment to establish whether it is accurate.  
+    You need to consider the underlined segment to establish whether it is accurate.
+    
     Your company has a multi-tier application that has its front end hosted in Azure App Service.
-    To pinpoint the average load times of the application pages, you should make use of <u>Azure Event Hubs</u>.  
+    To pinpoint the average load times of the application pages, you should make use of Azure Event Hubs.  
     Select `No adjustment required` if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option.
   optionA: No adjustment required.
   optionB: Azure Application Insights
@@ -168,7 +173,8 @@
   correctOption: optionB
 - question: |
     You need to consider the underlined segment to establish whether it is accurate.
-    The _Burnup_ widget measures the elapsed time from creation of work items to their completion.  
+    
+    The Burnup widget measures the elapsed time from creation of work items to their completion.  
     Select `No adjustment required` if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option.
   optionA: No adjustment required.
   optionB: Lead time
@@ -177,7 +183,8 @@
   correctOption: optionB
 - question: |
     You need to consider the underlined segment to establish whether it is accurate.
-    To deploy an application to a number of Azure virtual machines, you should create a _universal_ group.  
+    
+    To deploy an application to a number of Azure virtual machines, you should create a universal group.  
     Select `No adjustment required` if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option.
   optionA: No adjustment required
   optionB: security
