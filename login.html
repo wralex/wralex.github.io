@@ -1,0 +1,27 @@
+---
+title: My Application - Login
+permalink: /login.html
+layout: default
+---
+<link href="{{ "/assets/styles/login.css" | relative_url }}" rel="stylesheet">
+<main class="form-signin">
+    <form action="/" id="loginForm">
+        <img class="mb-4" src="./logo.png" alt="" height="300">
+        <h1 class="h3 mb-3 fw-normal"><b>My Application</b> - Login</h1>
+        
+        <div class="form-floating">
+            <input type="email" class="form-control" id="username" placeholder="name@example.com">
+            <label for="floatingInput">Email address</label>
+        </div>
+        <div class="form-floating">
+            <input type="password" class="form-control" id="password" placeholder="Password">
+            <label for="floatingPassword">Password</label>
+        </div>
+        
+        <button class="w-100 btn btn-lg btn-primary mt-3" type="submit">Login</button>
+        
+        <p class="mt-5 mb-3 text-muted"></p>
+    </form>
+</main>
+
+<script src="{{ "/assets/scripts/login.js" | relative_url }}"></script>
