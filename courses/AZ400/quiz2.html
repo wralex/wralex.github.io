@@ -42,13 +42,13 @@ amount: 25
         </div>
     </div>
     <div class="quiz-container">
-        <h3 class="mb-3 fw-normal">{{page.title}}</h3>
+        <h3 class="mb-3 fw-normal"><em>{{page.title}}</em></h3>
         <div class="container row">
             <div class="col d-flex justify-content-center">
-                <h5>Question 1/{{page.amount}}</h5>
+                <h5>Question <span id="question-count">1</span>/{{page.amount}}</h5>
             </div>
             <div class="col d-flex justify-content-center">
-                <h5>Correct 0/{{page.amount}}</h5>
+                <h5>Correct <span id="correct-responses">0</span>/{{page.amount}}</h5>
             </div>
         </div>
         <div class="container overflow-auto bg-dark text-white rounded-3" style="height:275px" id="question">
@@ -57,28 +57,28 @@ amount: 25
             <div class="row gy-3">
                 <div class="col-6">
                     <input type="radio" class="btn-check" id="optionA" name="options" autocomplete="off">
-                    <label id="textA" class="btn d-flex align-items-center overflow-auto btn-outline-secondary" style="height:70px;" for="optionA">Choice-A</label>
+                    <label id="textA"  class="btn d-flex align-items-center overflow-auto btn-outline-secondary" style="height:70px;" for="optionA">Choice-A</label>
+                    <input type="hidden" id="isRightA">
                 </div>
                 <div class="col-6">
                     <input type="radio" class="btn-check" id="optionB" name="options" autocomplete="off">
                     <label id="textB" class="btn d-flex align-items-center overflow-auto btn-outline-secondary" style="height:70px" for="optionB">Choice-B</label>
+                    <input type="hidden" id="isRightB">
                 </div>
                 <div class="col-6">
                     <input type="radio" class="btn-check" id="optionC" name="options" autocomplete="off">
                     <label id="textC" class="btn d-flex align-items-center overflow-auto btn-outline-secondary" style="height:70px" for="optionC">Choice-C</label>
+                    <input type="hidden" id="isRightC">
                 </div>
                 <div class="col-6">
                     <input type="radio" class="btn-check" id="optionD" name="options" autocomplete="off">
                     <label id="textD" class="btn d-flex align-items-center overflow-auto btn-outline-secondary" style="height:70px" for="optionD">Choice-D</label>
+                    <input type="hidden" id="isRightD">
                 </div>
             </div>
-            <button class="btn btn-lg btn-primary d-grid col-2 mx-auto mt-3" type="submit">Next</button>
+            <button class="btn btn-lg btn-primary d-grid col-2 mx-auto mt-3" type="button" onclick="handleNextQuestion()">Next</button>
         </form>
     </div>
-
-    <div id="show-data"></div>
 </main>
 <script src="{{ "/assets/scripts/quiz2.js" | relative_url }}"></script>
-<script>
-    BeginQuiz('az400quiz.json', {{page.amount}});
-</script>
+<script>BeginQuiz('az400quiz.json', Number('{{page.amount}}'));</script>
