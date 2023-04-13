@@ -5,14 +5,8 @@ let questionNumber = 1;
 let playerScore = 0;
 let wrongAttempt = 0;
 let indexNumber = 0;
-let arrGood = ["border", "text-success-emphasis","bg-success-subtle", "border-success-subtle"];
-let arrBad = ["border", "text-danger-emphasis","bg-danger-subtle", "border-danger-subtle"];
-let arrOptions = [
-  { option: $("#optionA")[0], isRight: $("#isRightA")[0], text: $("#textA")[0] },
-  { option: $("#optionB")[0], isRight: $("#isRightB")[0], text: $("#textB")[0] },
-  { option: $("#optionC")[0], isRight: $("#isRightC")[0], text: $("#textC")[0] },
-  { option: $("#optionD")[0], isRight: $("#isRightD")[0], text: $("#textD")[0] }
-];
+let arrGood = ["text-white", "border", "bg-success", "border-success"];
+let arrBad = ["text-white", "border", "bg-danger", "border-danger"];
 
 function BeginQuiz(datafile, amount) {
   _file = datafile;
@@ -30,9 +24,12 @@ function StartQuiz() {
   $.getJSON(_file, (data) =>
   {
     while (shuffledQuestions.length < _amount) {
-      var random = data[Math.floor(Math.random() * data.length)];
-      if (!shuffledQuestions.includes(random))
-      shuffledQuestions.push(random);
+      var indx = Math.floor(Math.random() * data.length);
+      var random = data[indx];
+      if (!shuffledQuestions.includes(random)){
+        shuffledQuestions.push(random);
+        data.splice(indx, 1);
+      }
     }
     
     SetQuestion(shuffledQuestions[indexNumber]);
@@ -43,6 +40,7 @@ function SetQuestion(item){
   questionNumber++;
 
   $("#question").html(item.question.replaceAll('\\n','</br />'));
+
   var orig = [
     {ans: item.optionA.replaceAll('\\n','</br />'), isRight: item.correctOption == 'optionA'},
     {ans: item.optionB.replaceAll('\\n','</br />'), isRight: item.correctOption == 'optionB'},
@@ -52,9 +50,10 @@ function SetQuestion(item){
   
   var shuffAns = [];
   while (shuffAns.length < 4) {
-    var random = orig[Math.floor(Math.random() * orig.length)];
-    if (!shuffAns.includes(random))
-      shuffAns.push(random);
+    var indx = Math.floor(Math.random() * orig.length);
+    var random = orig[indx];
+    shuffAns.push(random);
+    orig.splice(indx, 1);
   }
 
   $("#textA").html(shuffAns[0].ans);
@@ -65,18 +64,19 @@ function SetQuestion(item){
   $("#isRightC").val(shuffAns[2].isRight);
   $("#textD").html(shuffAns[3].ans);
   $("#isRightD").val(shuffAns[3].isRight);
+
 }
 
 function handleNextQuestion() {
-  checkForAnswer()
-  setTimeout(() => {
-    if (indexNumber < _amount) {
+  checkForAnswer();
+  if (indexNumber < _amount) {
+    setTimeout(function () {
+      unCheckRadioButtons()
       SetQuestion(shuffledQuestions[++indexNumber]);
-    }
-    else {
-        handleEndGame()
-    }
-  }, 1000);
+    }, 2000);    
+  } else {
+    handleEndGame();
+  }
 }
 
 function handleEndGame(){
@@ -84,28 +84,39 @@ function handleEndGame(){
 }
 
 function checkForAnswer() {
+  var arrOptions = [
+    { option: $("#optionA")[0], isRight: $("#isRightA")[0], text: $("#textA")[0] },
+    { option: $("#optionB")[0], isRight: $("#isRightB")[0], text: $("#textB")[0] },
+    { option: $("#optionC")[0], isRight: $("#isRightC")[0], text: $("#textC")[0] },
+    { option: $("#optionD")[0], isRight: $("#isRightD")[0], text: $("#textD")[0] }
+  ];
+  
   for (let i = 0; i < arrOptions.length; i++) {
-    if (arrOptions[i].option.checked) {
-      if(arrOptions[i].isRight.value == 'true') {
-        $('#'+arrOptions[i].text.id).toggleClass(arrGood, true);
+    var isright = arrOptions[i].isRight;
+    var text = arrOptions[i].text;  
+    var option = arrOptions[i].option;
+    
+    if (option.checked) {
+      if(isright.value == 'true') {
         playerScore++
       } else {
-        $('#'+arrOptions[i].text.id).toggleClass(arrBad, true);
         wrongAttempt++
+        $('#'+text.id).toggleClass(arrBad, true);
       }
     }
+
+    if(isright.value == 'true') {
+      $('#'+text.id).toggleClass(arrGood, true);
+    }
   }
-  setTimeout(() => {
-  }, 5000);
-  questionNumber++;
-  unCheckRadioButtons();
 }
 
 function unCheckRadioButtons() {
-  $("#textA").removeClass(arrGood.concat(arrBad));
-  $("#textB").removeClass(arrGood.concat(arrBad));
-  $("#textC").removeClass(arrGood.concat(arrBad));
-  $("#textD").removeClass(arrGood.concat(arrBad));
+  var arrAll = arrGood.concat(arrBad);
+  $("#textA").removeClass(arrAll);
+  $("#textB").removeClass(arrAll);
+  $("#textC").removeClass(arrAll);
+  $("#textD").removeClass(arrAll);
   
   const options = document.getElementsByName("options");
   for (let i = 0; i < options.length; i++) {
