@@ -5,6 +5,14 @@ let questionNumber = 1;
 let playerScore = 0;
 let wrongAttempt = 0;
 let indexNumber = 0;
+let arrGood = ["border", "text-success-emphasis","bg-success-subtle", "border-success-subtle"];
+let arrBad = ["border", "text-danger-emphasis","bg-danger-subtle", "border-danger-subtle"];
+let arrOptions = [
+  { option: $("#optionA")[0], isRight: $("#isRightA")[0], text: $("#textA")[0] },
+  { option: $("#optionB")[0], isRight: $("#isRightB")[0], text: $("#textB")[0] },
+  { option: $("#optionC")[0], isRight: $("#isRightC")[0], text: $("#textC")[0] },
+  { option: $("#optionD")[0], isRight: $("#isRightD")[0], text: $("#textD")[0] }
+];
 
 function BeginQuiz(datafile, amount) {
   _file = datafile;
@@ -76,39 +84,29 @@ function handleEndGame(){
 }
 
 function checkForAnswer() {
-  var arrGood = ["border", "text-success-emphasis","bg-success-subtle", "border-success-subtle"];
-  var arrBad = ["border", "text-danger-emphasis","bg-danger-subtle", "border-danger-subtle"];
-  
-  setTimeout(() => {
-    var arrOptions = [
-      { option: $("#optionA")[0], isRight: $("#isRightA")[0], text: $("#textA")[0] },
-      { option: $("#optionB")[0], isRight: $("#isRightB")[0], text: $("#textB")[0] },
-      { option: $("#optionC")[0], isRight: $("#isRightC")[0], text: $("#textC")[0] },
-      { option: $("#optionD")[0], isRight: $("#isRightD")[0], text: $("#textD")[0] }
-    ];
-    for (let i = 0; i < arrOptions.length; i++) {
-      if (arrOptions[i].option.checked) {
-        if(arrOptions[i].isRight.value == 'true') {
-          $('#'+arrOptions[i].text.id).toggleClass(arrGood, true);
-          playerScore++
-        } else {
-          $('#'+arrOptions[i].text.id).toggleClass(arrBad, true);
-          wrongAttempt++
-        }
+  for (let i = 0; i < arrOptions.length; i++) {
+    if (arrOptions[i].option.checked) {
+      if(arrOptions[i].isRight.value == 'true') {
+        $('#'+arrOptions[i].text.id).toggleClass(arrGood, true);
+        playerScore++
+      } else {
+        $('#'+arrOptions[i].text.id).toggleClass(arrBad, true);
+        wrongAttempt++
       }
     }
-    
-    questionNumber++;
-  }, 2000);
-
-  $("#textA").removeClass(arrGood.concat(arrBad));
-  $("#textB").removeClass(arrGood.concat(arrBad));
-  $("#textC").removeClass(arrGood.concat(arrBad));
-  $("#textD").removeClass(arrGood.concat(arrBad));
+  }
+  setTimeout(() => {
+  }, 5000);
+  questionNumber++;
   unCheckRadioButtons();
 }
 
 function unCheckRadioButtons() {
+  $("#textA").removeClass(arrGood.concat(arrBad));
+  $("#textB").removeClass(arrGood.concat(arrBad));
+  $("#textC").removeClass(arrGood.concat(arrBad));
+  $("#textD").removeClass(arrGood.concat(arrBad));
+  
   const options = document.getElementsByName("options");
   for (let i = 0; i < options.length; i++) {
       options[i].checked = false;
