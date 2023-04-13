@@ -5,11 +5,18 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "PowerShell: Launch Script",
+            "name": "PowerShell Interactive Session",
             "type": "PowerShell",
             "request": "launch",
-            "script": "${workspaceFolder}/Local.ps1",
-            "args": []
+            "cwd": "${cwd}",
+            "script": "bundle exec jekyll serve --livereload"
+        },
+        {
+            "name": "Launch Edge",
+            "request": "launch",
+            "type": "msedge",
+            "url": "http://localhost:4000",
+            "webRoot": "${workspaceFolder}"
         }
     ]
 }

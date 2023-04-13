@@ -6,7 +6,7 @@
     "optionB": "Static code analysis",
     "optionC": "Threat modeling",
     "optionD": "Dynamic code analysis",
-    "correctOption": "optionB"
+    "correctOption": ["B"]
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "optionB": "License assignment",
     "optionC": "Assigning entitlements",
     "optionD": "License procurement",
-    "correctOption": "optionD"
+    "correctOption": ["D"]
   },
   {
     "id": 3,
@@ -24,7 +24,7 @@
     "optionB": "Burnup",
     "optionC": "Cycle time",
     "optionD": "Burndown",
-    "correctOption": "optionC"
+    "correctOption": ["C"]
   },
   {
     "id": 4,
@@ -33,7 +33,7 @@
     "optionB": "Using the TFS Database Import Service to perform the upgrade.",
     "optionC": "Upgrading PowerShell Core to the latest version.",
     "optionD": "Using the TFS Integration Platform to perform the upgrade.",
-    "correctOption": "optionB"
+    "correctOption": ["B"]
   },
   {
     "id": 5,
@@ -42,7 +42,7 @@
     "optionB": "Agile",
     "optionC": "Scrum",
     "optionD": "CMMI",
-    "correctOption": "optionD"
+    "correctOption": ["D"]
   },
   {
     "id": 6,
@@ -51,7 +51,7 @@
     "optionB": "Hosted Windows Container",
     "optionC": "Hosted",
     "optionD": "Hosted macOS",
-    "correctOption": "optionC"
+    "correctOption": ["C"]
   },
   {
     "id": 7,
@@ -60,7 +60,7 @@
     "optionB": "Create a GPO.",
     "optionC": "Configure Security in Project Settings from Azure DevOps.",
     "optionD": "Configure conditional access in Azure Active Directory.",
-    "correctOption": "optionD"
+    "correctOption": ["D"]
   },
   {
     "id": 8,
@@ -69,7 +69,7 @@
     "optionB": "Bitbucket cloud",
     "optionC": "Github Professional",
     "optionD": "Git in Azure Repos",
-    "correctOption": "optionA"
+    "correctOption": ["A"]
   },
   {
     "id": 9,
@@ -78,7 +78,7 @@
     "optionB": "repos",
     "optionC": "release pipelines",
     "optionD": "boards",
-    "correctOption": "optionC"
+    "correctOption": ["C"]
   },
   {
     "id": 10,
@@ -87,7 +87,7 @@
     "optionB": "npm publish",
     "optionC": "npm install",
     "optionD": "npm update",
-    "correctOption": "optionC"
+    "correctOption": ["C"]
   },
   {
     "id": 11,
@@ -96,7 +96,7 @@
     "optionB": "Rolling deployment",
     "optionC": "'Big Bang' deployment",
     "optionD": "Canary deployment",
-    "correctOption": "optionA"
+    "correctOption": ["A"]
   },
   {
     "id": 12,
@@ -105,7 +105,7 @@
     "optionB": "You should make use of an alert trigger",
     "optionC": "You should make use of a gate",
     "optionD": "You should make use of an approval check",
-    "correctOption": "optionC"
+    "correctOption": ["C"]
   },
   {
     "id": 13,
@@ -114,7 +114,7 @@
     "optionB": "You should make use of views.",
     "optionC": "You should make use of dynamic code analysis.",
     "optionD": "You should make use of upstream sources.",
-    "correctOption": "optionD"
+    "correctOption": ["D"]
   },
   {
     "id": 14,
@@ -123,7 +123,7 @@
     "optionB": "SourceGear Vault",
     "optionC": "WhiteSource",
     "optionD": "OWASP ZAP",
-    "correctOption": "optionC"
+    "correctOption": ["C"]
   },
   {
     "id": 15,
@@ -132,7 +132,7 @@
     "optionB": "You should create a deployment task and use the WhiteSource Bolt service.",
     "optionC": "You should create a build task and use the Chef service.",
     "optionD": "You should create a deployment task and use the Chef service.",
-    "correctOption": "optionA"
+    "correctOption": ["A"]
   },
   {
     "id": 16,
@@ -141,7 +141,7 @@
     "optionB": "Maven",
     "optionC": "Bamboo",
     "optionD": "CMAKE",
-    "correctOption": "optionA"
+    "correctOption": ["A"]
   },
   {
     "id": 17,
@@ -150,7 +150,7 @@
     "optionB": "Azure Event Hubs",
     "optionC": "Azure Advisor",
     "optionD": "Azure Security Center",
-    "correctOption": "optionD"
+    "correctOption": ["D"]
   },
   {
     "id": 18,
@@ -159,7 +159,7 @@
     "optionB": "Azure Application Insights",
     "optionC": "Azure Log Analytics",
     "optionD": "Azure Advisor",
-    "correctOption": "optionB"
+    "correctOption": ["B"]
   },
   {
     "id": 19,
@@ -168,7 +168,7 @@
     "optionB": "Lead time",
     "optionC": "Test results trend",
     "optionD": "Burndown",
-    "correctOption": "optionB"
+    "correctOption": ["B"]
   },
   {
     "id": 20,
@@ -177,7 +177,7 @@
     "optionB": "security",
     "optionC": "deployment",
     "optionD": "resource",
-    "correctOption": "optionC"
+    "correctOption": ["C"]
   },
   {
     "id": 21,
@@ -186,7 +186,7 @@
     "optionB": "You should make use of views",
     "optionC": "You should make use of dynamic code analysis",
     "optionD": "You should make use of upstream sources",
-    "correctOption": "optionD"
+    "correctOption": ["D"]
   },
   {
     "id": 22,
@@ -195,7 +195,7 @@
     "optionB": "OWASP ZAP",
     "optionC": "TFS Integration Platform",
     "optionD": "Code Style",
-    "correctOption": "optionA"
+    "correctOption": ["A"]
   },
   {
     "id": 23,
@@ -204,7 +204,7 @@
     "optionB": "Create an Azure Application Insights availability test and alert.",
     "optionC": "Write an Azure function and deploy the function to the specific regions.",
     "optionD": "Create an Azure Service Health alert for the specific regions.",
-    "correctOption": "optionB"
+    "correctOption": ["B"]
   },
   {
     "id": 24,
@@ -213,7 +213,7 @@
     "optionB": "the activity log of the App Service",
     "optionC": "the diagnostics logs of the App Service",
     "optionD": "Azure Advisor",
-    "correctOption": "optionA"
+    "correctOption": ["A"]
   },
   {
     "id": 25,
@@ -222,7 +222,7 @@
     "optionB": "Automation & Control",
     "optionC": "IT Service Management Connector (ITSM)",
     "optionD": "Insight & Analytics",
-    "correctOption": "optionC"
+    "correctOption": ["C"]
   },
   {
     "id": 26,
@@ -231,7 +231,7 @@
     "optionB": "PL/pgSQL",
     "optionC": "PL/SQL",
     "optionD": "Transact-SQL",
-    "correctOption": "optionA"
+    "correctOption": ["A"]
   },
   {
     "id": 27,
@@ -240,7 +240,7 @@
     "optionB": "Microsoft Visual Studio App Center integration",
     "optionC": "Azure Application Insights widgets",
     "optionD": "Jenkins integration",
-    "correctOption": "optionA"
+    "correctOption": ["A"]
   },
   {
     "id": 28,
@@ -249,7 +249,7 @@
     "optionB": "Application Insights Profiler",
     "optionC": "usage analysis",
     "optionD": "Smart Detection Most",
-    "correctOption": "optionD"
+    "correctOption": ["D"]
   },
   {
     "id": 29,
@@ -258,7 +258,7 @@
     "optionB": "Add the Azure Pipelines app to the GitHub repository.",
     "optionC": "Add the Azure Boards app to the repository.",
     "optionD": "Create a GitHub action in GitHub.",
-    "correctOption": "optionC"
+    "correctOption": ["C"]
   },
   {
     "id": 30,
@@ -267,7 +267,7 @@
     "optionB": "From Azure Pipelines, add a Publish Build Artifacts task to Project1.",
     "optionC": "From Microsoft Teams, run @azure pipelines subscriptions.",
     "optionD": "From Azure Pipelines, enable continuous integration for Project1.",
-    "correctOption": "optionA"
+    "correctOption": ["A"]
   },
   {
     "id": 31,
@@ -276,7 +276,7 @@
     "optionB": "From Microsoft Teams, configure a connector Most Voted",
     "optionC": "From the Microsoft Teams admin center, configure external access",
     "optionD": "From Microsoft Teams, add a channel",
-    "correctOption": "optionA"
+    "correctOption": ["A"]
   },
   {
     "id": 32,
@@ -285,7 +285,7 @@
     "optionB": "the Telegraf agent",
     "optionC": "the Windows Azure diagnostics extension (WAD)",
     "optionD": "the Azure monitor agent",
-    "correctOption": "optionA"
+    "correctOption": ["A"]
   },
   {
     "id": 33,
@@ -294,7 +294,7 @@
     "optionB": "Stream to an event hub",
     "optionC": "Archive to a storage account",
     "optionD": "",
-    "correctOption": "optionA"
+    "correctOption": ["A"]
   },
   {
     "id": 34,
@@ -303,7 +303,7 @@
     "optionB": "Add the GoogleAnalytics pod to the app.",
     "optionC": "Configure the Crashlytics pod in the app.",
     "optionD": "Import the Firebase module to UIApplicationDelegate.",
-    "correctOption": "optionD"
+    "correctOption": ["D"]
   },
   {
     "id": 35,
@@ -312,7 +312,7 @@
     "optionB": "Add a Parent or Child link to the feature or user story for the items of each project.",
     "optionC": "Install the Dependency Tracker extension and create dependencies for each project.",
     "optionD": "Create a custom query to show the consumers and producers and add a widget to a dashboard.",
-    "correctOption": "optionC"
+    "correctOption": ["C"]
   },
   {
     "id": 36,
@@ -321,7 +321,7 @@
     "optionB": "From the code repository of webapp1, modify the Startup.cs file.",
     "optionC": "From AppInsights1, modify the Usage and estimated costs settings.",
     "optionD": "From AppInsights1, configure the Continuous export settings.",
-    "correctOption": "optionB"
+    "correctOption": ["B"]
   },
   {
     "id": 37,
@@ -330,7 +330,7 @@
     "optionB": "an HTTP trigger",
     "optionC": "a Request trigger",
     "optionD": "an ApiConnection trigger",
-    "correctOption": "optionA"
+    "correctOption": ["A"]
   },
   {
     "id": 38,
@@ -339,7 +339,7 @@
     "optionB": "Add a readiness probe to the YAML configuration of App1.",
     "optionC": "Use Connection Monitor in Azure Network Watcher.",
     "optionD": "Use IP flow verify in Azure Network Watcher.",
-    "correctOption": "optionB"
+    "correctOption": ["B"]
   },
   {
     "id": 39,
@@ -348,7 +348,7 @@
     "optionB": "Azure SQL Database Intelligent Insights",
     "optionC": "Azure Application Insights",
     "optionD": "Azure Log Analytics",
-    "correctOption": "optionD"
+    "correctOption": ["D"]
   },
   {
     "id": 40,
@@ -357,7 +357,7 @@
     "optionB": "the Failures feature in Azure Application Insights",
     "optionC": "an Azure Service Health alert",
     "optionD": "an Azure Monitor alert that uses an Azure Log Analytics query",
-    "correctOption": "optionA"
+    "correctOption": ["A"]
   },
   {
     "id": 41,
@@ -366,7 +366,7 @@
     "optionB": "Microsoft Power BI",
     "optionC": "Azure Data Explorer",
     "optionD": "Azure dashboards",
-    "correctOption": "optionC"
+    "correctOption": ["C"]
   },
   {
     "id": 42,
@@ -375,7 +375,7 @@
     "optionB": "Selenium",
     "optionC": "Xamarin.UITest",
     "optionD": "Microsoft.CodeAnalysis",
-    "correctOption": "optionB"
+    "correctOption": ["B"]
   },
   {
     "id": 43,
@@ -384,7 +384,7 @@
     "optionB": "Azure Monitor autoscale",
     "optionC": "the Custom Script Extension",
     "optionD": "the Application Health extension",
-    "correctOption": "optionD"
+    "correctOption": ["D"]
   },
   {
     "id": 44,
@@ -393,7 +393,7 @@
     "optionB": "a trigger",
     "optionC": "a gate",
     "optionD": "an Azure function",
-    "correctOption": "optionC"
+    "correctOption": ["C"]
   },
   {
     "id": 45,
@@ -402,7 +402,7 @@
     "optionB": "Approve the pull request.",
     "optionC": "Create a branch.",
     "optionD": "Perform a commit.",
-    "correctOption": "optionB"
+    "correctOption": ["B"]
   },
   {
     "id": 46,
@@ -411,7 +411,7 @@
     "optionB": "Azure App Service",
     "optionC": "Azure App Configuration",
     "optionD": "Azure Key Vault",
-    "correctOption": "optionC"
+    "correctOption": ["C"]
   },
   {
     "id": 47,
@@ -420,7 +420,7 @@
     "optionB": "a performance log",
     "optionC": "a readiness probe",
     "optionD": "an Azure Load Balancer health probe",
-    "correctOption": "optionC"
+    "correctOption": ["C"]
   },
   {
     "id": 48,
@@ -429,7 +429,7 @@
     "optionB": "managed identities",
     "optionC": "entitlement management",
     "optionD": "conditional access",
-    "correctOption": "optionD"
+    "correctOption": ["D"]
   },
   {
     "id": 49,
@@ -438,7 +438,7 @@
     "optionB": "SSH key",
     "optionC": "Alternate credentials",
     "optionD": "certificate",
-    "correctOption": "optionA"
+    "correctOption": ["A"]
   },
   {
     "id": 50,
@@ -447,7 +447,7 @@
     "optionB": "Create an app registration in Azure AD",
     "optionC": "Configure the application to use a SAML endpoint",
     "optionD": "Create a new OAuth token from the application",
-    "correctOption": "optionB"
+    "correctOption": ["B"]
   },
   {
     "id": 51,
@@ -456,7 +456,7 @@
     "optionB": "Alternate credentials in Azure DevOps",
     "optionC": "user accounts in Azure Active Directory (Azure AD)",
     "optionD": "managed identities in Azure Active Directory (Azure AD)",
-    "correctOption": "optionA"
+    "correctOption": ["A"]
   },
   {
     "id": 52,
@@ -465,7 +465,7 @@
     "optionB": "Resource health in Azure Service Health",
     "optionC": "Smart Detection in Azure Application Insights",
     "optionD": "Compute & apps in Azure Security Center",
-    "correctOption": "optionD"
+    "correctOption": ["D"]
   },
   {
     "id": 53,
@@ -474,7 +474,7 @@
     "optionB": "Add a PowerShell task to the pipeline and run Set-AzureKeyVaultSecret.",
     "optionC": "Add an Azure Key Vault task to the pipeline.",
     "optionD": "Add Azure Key Vault references to Azure Resource Manger templates.",
-    "correctOption": "optionB"
+    "correctOption": ["B"]
   },
   {
     "id": 54,
@@ -483,7 +483,7 @@
     "optionB": "Get only",
     "optionC": "Get and List",
     "optionD": "",
-    "correctOption": "optionB"
+    "correctOption": ["B"]
   },
   {
     "id": 55,
@@ -492,7 +492,7 @@
     "optionB": "Add the user to the Project Administrators group.",
     "optionC": "From the Security settings of the repository, modify the access control for the user.",
     "optionD": "From the Security settings of the branch, modify the access control for the user.",
-    "correctOption": "optionD"
+    "correctOption": ["D"]
   },
   {
     "id": 56,
@@ -501,7 +501,7 @@
     "optionB": "a Web.config file",
     "optionC": "an Appsettings.json file",
     "optionD": "an Azure Storage table",
-    "correctOption": "optionA"
+    "correctOption": ["A"]
   },
   {
     "id": 57,
@@ -510,7 +510,7 @@
     "optionB": "Create an XAML build service.",
     "optionC": "Create a variable group in Project1.",
     "optionD": "Configure the security policy of Contoso.",
-    "correctOption": "optionD"
+    "correctOption": ["D"]
   },
   {
     "id": 58,
@@ -519,7 +519,7 @@
     "optionB": "In Azure Active Directory, configure risky sign-ins.",
     "optionC": "In Azure DevOps, configure Security in Project Settings.",
     "optionD": "In Azure Active Directory, configure conditional access.",
-    "correctOption": "optionD"
+    "correctOption": ["D"]
   },
   {
     "id": 59,
@@ -528,7 +528,7 @@
     "optionB": "Add a secure file to Project1.",
     "optionC": "Modify the security settings of the pipelines.",
     "optionD": "Configure the security policy of Contoso.",
-    "correctOption": "optionA"
+    "correctOption": ["A"]
   },
   {
     "id": 60,
@@ -537,7 +537,7 @@
     "optionB": "Register GitHub in Azure AD.",
     "optionC": "Create an Azure Active Directory B2C (Azure AD B2C) tenant.",
     "optionD": "Modify the Security settings of the GitHub organization.",
-    "correctOption": "optionB"
+    "correctOption": ["B"]
   },
   {
     "id": 61,
@@ -546,7 +546,7 @@
     "optionB": "Modify the Deployment queue settings.",
     "optionC": "Configure a deployment trigger.",
     "optionD": "Create a pipeline variable.",
-    "correctOption": "optionA"
+    "correctOption": ["A"]
   },
   {
     "id": 62,
@@ -555,7 +555,7 @@
     "optionB": "Maven",
     "optionC": "WhiteSource Mend",
     "optionD": "Helm",
-    "correctOption": "optionC"
+    "correctOption": ["C"]
   },
   {
     "id": 63,
@@ -564,7 +564,7 @@
     "optionB": "Jenkins",
     "optionC": "Gradle",
     "optionD": "SonarQube",
-    "correctOption": "optionA"
+    "correctOption": ["A"]
   },
   {
     "id": 64,
@@ -573,7 +573,7 @@
     "optionB": "Code Style",
     "optionC": "Black Duck",
     "optionD": "Jenkins",
-    "correctOption": "optionC"
+    "correctOption": ["C"]
   },
   {
     "id": 65,
@@ -582,7 +582,7 @@
     "optionB": ".pfx",
     "optionC": ".p12",
     "optionD": ".pvk",
-    "correctOption": "optionC"
+    "correctOption": ["C"]
   },
   {
     "id": 66,
@@ -591,7 +591,7 @@
     "optionB": "an Azure Artifacts Credential Provider",
     "optionC": "an Azure Active Directory (Azure AD) account that has multi-factor authentication (MFA) enabled",
     "optionD": "an Azure Active Directory (Azure AD) service principal",
-    "correctOption": "optionB"
+    "correctOption": ["B"]
   },
   {
     "id": 67,
@@ -600,7 +600,7 @@
     "optionB": "Azure Active Directory Conditional Access Policy Validation",
     "optionC": "Alternate authentication credentials",
     "optionD": "SSH authentication",
-    "correctOption": "optionA"
+    "correctOption": ["A"]
   },
   {
     "id": 68,
@@ -609,7 +609,7 @@
     "optionB": "GitHub App",
     "optionC": "Azure Active Directory (Azure AD)",
     "optionD": "OAuth",
-    "correctOption": "optionB"
+    "correctOption": ["B"]
   },
   {
     "id": 69,
@@ -618,7 +618,7 @@
     "optionB": "Pass the secrets on the command line instead of in the pipeline variables.",
     "optionC": "Apply a prefix of secret to the name of the variables.",
     "optionD": "Echo the values of the secrets to the command line.",
-    "correctOption": "optionA"
+    "correctOption": ["A"]
   },
   {
     "id": 70,
@@ -627,7 +627,7 @@
     "optionB": "Configure alerts for the activation of privileged roles.",
     "optionC": "Enforce Azure Multi-Factor Authentication (MFA) for role activation.",
     "optionD": "Upgrade the license of the Azure Active Directory (Azure AD) tenant.",
-    "correctOption": "optionD"
+    "correctOption": ["D"]
   },
   {
     "id": 71,
@@ -636,7 +636,7 @@
     "optionB": "Store the secret in the repository-level GitHub secrets.",
     "optionC": "Encrypt the secret value and store the value in the repository. Store the decryption key in the repository-level GitHub secrets.",
     "optionD": "Encrypt the secret value and store the value in the repository. Store the decryption key in the organization-level GitHub secrets.",
-    "correctOption": "optionC"
+    "correctOption": ["C"]
   },
   {
     "id": 72,
@@ -645,7 +645,7 @@
     "optionB": "Purchase Premium Plus support.",
     "optionC": "Enforce multi-factor authentication (MFA).",
     "optionD": "Create an access policy for secrets.",
-    "correctOption": "optionA"
+    "correctOption": ["A"]
   },
   {
     "id": 73,
@@ -654,7 +654,7 @@
     "optionB": "Gradle wrapper scripts",
     "optionC": "SonarCloud analysis",
     "optionD": "the JavaScript task runner",
-    "correctOption": "optionC"
+    "correctOption": ["C"]
   },
   {
     "id": 74,
@@ -663,7 +663,7 @@
     "optionB": "CocoaPods",
     "optionC": "Grunt",
     "optionD": "Gulp",
-    "correctOption": "optionA"
+    "correctOption": ["A"]
   },
   {
     "id": 75,
@@ -672,7 +672,7 @@
     "optionB": "Integrate Azure DevOps and SonarQube.",
     "optionC": "Integrate Azure DevOps and Azure DevTest Labs.",
     "optionD": "",
-    "correctOption": "optionB"
+    "correctOption": ["B"]
   },
   {
     "id": 76,
@@ -681,7 +681,7 @@
     "optionB": "In a Maven build task, select Run PMD.",
     "optionC": "In a Xcode build task, select Use xcpretty from Advanced.",
     "optionD": "In a Gradle build task, select Run Checkstyle.",
-    "correctOption": "optionB"
+    "correctOption": ["B"]
   },
   {
     "id": 77,
@@ -690,7 +690,7 @@
     "optionB": "Create a webhook.",
     "optionC": "Create a service connection for GitHub.",
     "optionD": "From Import a Git repository, click Import.",
-    "correctOption": "optionD"
+    "correctOption": ["D"]
   },
   {
     "id": 78,
@@ -699,7 +699,7 @@
     "optionB": "In an Xcode build task, select Use xcpretty from Advanced.",
     "optionC": "In a Gulp build task, specify a custom condition expression.",
     "optionD": "In a Grunt build task, select Enabled from Control Options.",
-    "correctOption": "optionA"
+    "correctOption": ["A"]
   },
   {
     "id": 79,
@@ -708,7 +708,7 @@
     "optionB": "Create a new feed for the package",
     "optionC": "Promote the package to a release view.",
     "optionD": "Publish the package to a public NuGet repository.",
-    "correctOption": "optionB"
+    "correctOption": ["B"]
   },
   {
     "id": 80,
@@ -717,7 +717,7 @@
     "optionB": "the Connections settings for the Automation account",
     "optionC": "the Source control settings for the Automation account",
     "optionD": "the Service connections settings for Project1",
-    "correctOption": "optionC"
+    "correctOption": ["C"]
   },
   {
     "id": 81,
@@ -726,7 +726,7 @@
     "optionB": "the SHA-based hashes",
     "optionC": "the runner",
     "optionD": "the branch",
-    "correctOption": "optionD"
+    "correctOption": ["D"]
   },
   {
     "id": 82,
@@ -735,7 +735,7 @@
     "optionB": "Initiatives and Epics",
     "optionC": "Epics and Features",
     "optionD": "Stories and Tasks",
-    "correctOption": "optionA"
+    "correctOption": ["A"]
   },
   {
     "id": 83,
@@ -744,7 +744,7 @@
     "optionB": "sprint planning",
     "optionC": "delivery plans",
     "optionD": "portfolio backlogs",
-    "correctOption": "optionA"
+    "correctOption": ["A"]
   },
   {
     "id": 84,
@@ -753,7 +753,7 @@
     "optionB": "multiple long-running branches",
     "optionC": "a single fork per team member",
     "optionD": "a single long-running branch with multiple short-lived feature branches",
-    "correctOption": "optionD"
+    "correctOption": ["D"]
   },
   {
     "id": 85,
@@ -762,7 +762,7 @@
     "optionB": "Basecamp",
     "optionC": "Trello",
     "optionD": "Jira",
-    "correctOption": "optionD"
+    "correctOption": ["D"]
   },
   {
     "id": 86,
@@ -771,6 +771,6 @@
     "optionB": "Xamarin Studio",
     "optionC": "MonoDevelop",
     "optionD": "Github Codespaces",
-    "correctOption": "optionD"
+    "correctOption": ["D"]
   }
 ]
