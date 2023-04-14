@@ -1,0 +1,14 @@
+---
+permalink: /mdtest.html
+layout: default
+---
+<div id="sample"></div>
+<script src="https://unpkg.com/commonmark@0.29.3/dist/commonmark.js"></script>
+<script>
+var reader = new commonmark.Parser();
+var writer = new commonmark.HtmlRenderer();
+var parsed = reader.parse("Hello *world*  \n``` js\nvar foo = function (bar) {\n  return bar++;\n};\n\nconsole.log(foo(5));\n```"); // parsed is a 'Node' tree
+// transform parsed if you like...
+var result = writer.render(parsed);
+$('#sample').html(result);
+</script>
