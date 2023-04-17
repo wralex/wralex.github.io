@@ -52,8 +52,13 @@ function StartQuiz() {
 }
 
 function DisplayStats(){
-  $("#totalpoints").html(totalAttempt);
   $("#all-answers").html(totalAttempt);
+  $("#wrong-answers").html(wrongAttempt);
+  $("#right-answers").html(correctAttempt);
+  $("#grade-percentage").html(Math.floor(correctAttempt*100/totalAttempt));
+  $("#question-count").html((indexNumber));
+  $("#correct-responses").html(correctAttempt);
+  $("#totalpoints").html(totalAttempt);
 }
 
 function SetQuestion(item){

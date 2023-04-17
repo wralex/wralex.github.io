@@ -163,7 +163,7 @@
   },
   {
     "id": 19,
-    "question": "You need to consider the underlined segment to establish whether it is accurate.  \nThe Burnup widget measures the elapsed time from creation of work items to their completion.  \nSelect `No adjustment required` if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option.",
+    "question": "**_You need to consider the underlined segment to establish whether it is accurate._**  \nThe Burnup widget measures the elapsed time from creation of work items to their completion.  \nSelect `No adjustment required` if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option.",
     "optionA": "No adjustment required.",
     "optionB": "Lead time",
     "optionC": "Test results trend",
@@ -172,7 +172,7 @@
   },
   {
     "id": 20,
-    "question": "You need to consider the underlined segment to establish whether it is accurate.  \nTo deploy an application to a number of Azure virtual machines, you should create a universal group.  \nSelect `No adjustment required` if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option.",
+    "question": "**_You need to consider the underlined segment to establish whether it is accurate._**  \nTo deploy an application to a number of Azure virtual machines, you should create a <u>universal group</u>.  \nSelect `No adjustment required` if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option.",
     "optionA": "No adjustment required",
     "optionB": "security",
     "optionC": "deployment",
