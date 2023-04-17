@@ -15,6 +15,17 @@ function BeginQuiz(datafile, amount) {
   StartQuiz();
 }
 
+function MdToHtml(mdText){
+  if(mdText == undefined || mdText == null || mdText.trim() == "") {
+    return "";
+  }
+  var reader = new commonmark.Parser();
+  var writer = new commonmark.HtmlRenderer();
+  var parsed = reader.parse(mdText);
+  var result = writer.render(parsed)
+  return result;
+}
+
 function StartQuiz() {
   indexNumber = 0;
   totalAttempt = 0;
@@ -46,7 +57,7 @@ function DisplayStats(){
 }
 
 function SetQuestion(item){
-  $("#question").html(item.question.replaceAll("\\n","<br />"));
+  $("#question").html(MdToHtml(item.question));
 
   var options = [
     {text: item.optionA, letter: "A"},
@@ -64,8 +75,8 @@ function SetQuestion(item){
     if (textVal !== "") {
       orig.push(
         {
-          ans:      textVal.replaceAll("\\n","<br />"),
-          isRight:  item.correctOption.includes(options[i].letter) ?? false
+          ans: (textVal.indexOf("\n") >= 0) ? MdToHtml(textVal) : textVal,
+          isRight: item.correctOption.includes(options[i].letter) ?? false
         });
     }
   }
