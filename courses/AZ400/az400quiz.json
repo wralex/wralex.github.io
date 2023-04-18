@@ -1,776 +1,1882 @@
 [
-  {
-    "id": 1,
-    "question": "You have been tasked with strengthening the security of your team's development process.  \nYou need to suggest a security tool type for the Continuous Integration (CI) phase of the development process.  \nWhich of the following is the option you would suggest?",
-    "optionA": "Penetration testing",
-    "optionB": "Static code analysis",
-    "optionC": "Threat modeling",
-    "optionD": "Dynamic code analysis",
-    "correctOption": ["B"]
-  },
-  {
-    "id": 2,
-    "question": "You are making use of Azure DevOps manage build pipelines, and also deploy pipelines.  \nThe development team is quite large, and is regularly added to.  \nYou have been informed that the management of users and licenses must be automated when it can be.  \nWhich of the following is a task that can't be automated?",
-    "optionA": "Group membership changes",
-    "optionB": "License assignment",
-    "optionC": "Assigning entitlements",
-    "optionD": "License procurement",
-    "correctOption": ["D"]
-  },
-  {
-    "id": 3,
-    "question": "You are configuring project metrics for dashboards in Azure DevOps.  \nYou need to configure a chart widget that measures the elapsed time to complete work items once they become active.  \nWhich of the following is the widget you should use?",
-    "optionA": "Cumulative Flow Diagram",
-    "optionB": "Burnup",
-    "optionC": "Cycle time",
-    "optionD": "Burndown",
-    "correctOption": ["C"]
-  },
-  {
-    "id": 4,
-    "question": "Your company is currently making use of Team Foundation Server 2013 (TFS 2013), but intend to migrate to Azure DevOps.  \nYou have been tasked with supplying a migration approach that allows for the preservation of Team Foundation Version Control changesets dates, as well as the changes dates of work items revisions. The approach should also allow for the migration of all TFS artifacts, while keeping migration effort to a minimum.  \nYou have suggested upgrading TFS to the most recent RTW release.  \nWhich of the following should also be suggested?",
-    "optionA": "Installing the TFS kava SDK",
-    "optionB": "Using the TFS Database Import Service to perform the upgrade.",
-    "optionC": "Upgrading PowerShell Core to the latest version.",
-    "optionD": "Using the TFS Integration Platform to perform the upgrade.",
-    "correctOption": ["B"]
-  },
-  {
-    "id": 5,
-    "question": "You are currently developing a project for a client that will be managing work items via Azure DevOps.  \nYou want to make sure that the work item process you use for the client allows for requirements, change requests, risks, and reviews to be tracked.  \nWhich of the following is the option you would choose?",
-    "optionA": "Basic",
-    "optionB": "Agile",
-    "optionC": "Scrum",
-    "optionD": "CMMI",
-    "correctOption": ["D"]
-  },
-  {
-    "id": 6,
-    "question": "You need to consider the underlined segment to establish whether it is accurate.  \nTo compile an Internet Information Services (IIS) web application that runs docker, you should use a Default build agent pool.  \nSelect `No adjustment required` if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option.",
-    "optionA": "No adjustment required.",
-    "optionB": "Hosted Windows Container",
-    "optionC": "Hosted",
-    "optionD": "Hosted macOS",
-    "correctOption": ["C"]
-  },
-  {
-    "id": 7,
-    "question": "Your company has an Azure DevOps environment that can only be accessed by Azure Active Directory users.  \nYou are instructed to make sure that the Azure DevOps environment can only be accessed from devices connected to the company's on-premises network.  \nWhich of the following actions should you take?",
-    "optionA": "Assign the devices to a security group.",
-    "optionB": "Create a GPO.",
-    "optionC": "Configure Security in Project Settings from Azure DevOps.",
-    "optionD": "Configure conditional access in Azure Active Directory.",
-    "correctOption": ["D"]
-  },
-  {
-    "id": 8,
-    "question": "You are making use of Azure DevOps to configure Azure Pipelines for project, named PROJ-01.  \nYou are preparing to use a version control system that allows for source code to be stored on a managed Windows server located on the company network.  \nWhich of the following is the version control system you should use?",
-    "optionA": "Github Enterprise",
-    "optionB": "Bitbucket cloud",
-    "optionC": "Github Professional",
-    "optionD": "Git in Azure Repos",
-    "correctOption": ["A"]
-  },
-  {
-    "id": 9,
-    "question": "You need to consider the underlined segment to establish whether it is accurate.  \nWhen moving to Azure DevOps, JIRA must be replaced with the build pipelines Azure DevOps service.  \nSelect `No adjustment required` if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option.",
-    "optionA": "No adjustment required.",
-    "optionB": "repos",
-    "optionC": "release pipelines",
-    "optionD": "boards",
-    "correctOption": ["C"]
-  },
-  {
-    "id": 10,
-    "question": "You scan a Node.js application using WhiteSource Bolt.  \nThe scan finds numerous libraries with invalid licenses, but are only used during development.  \nYou have to make sure that only production dependencies are scanned by WhiteSource Bolt.  \nWhich of the following is a command you should run?",
-    "optionA": "npm edit",
-    "optionB": "npm publish",
-    "optionC": "npm install",
-    "optionD": "npm update",
-    "correctOption": ["C"]
-  },
-  {
-    "id": 11,
-    "question": "You are currently defining a release strategy for an app, named APP-01.  \nThe strategy should allow you to keep the time it takes to deploy new releases of the app to a minimum. The strategy should also allow you to roll back in the shortest time required.  \nWhich of the following is the release strategy you should use?",
-    "optionA": "Red/Black deployment",
-    "optionB": "Rolling deployment",
-    "optionC": "'Big Bang' deployment",
-    "optionD": "Canary deployment",
-    "correctOption": ["A"]
-  },
-  {
-    "id": 12,
-    "question": "Your company hosts a web application in Azure, and makes use of Azure Pipelines for managing the build and release of the application.  \nWhen stakeholders report that system performance has been adversely affected by the most recent releases, you configure alerts in Azure Monitor.  \nYou are informed that new releases must satisfy specified performance baseline conditions in the staging environment before they can be deployed to production.  \nYou need to make sure that releases not satisfying the performance baseline are prevented from being deployed.  \nWhich of the following actions should you take?",
-    "optionA": "You should make use of a branch control check",
-    "optionB": "You should make use of an alert trigger",
-    "optionC": "You should make use of a gate",
-    "optionD": "You should make use of an approval check",
-    "correctOption": ["C"]
-  },
-  {
-    "id": 13,
-    "question": "You intend to make use of Azure Artifacts to share packages that you wrote, tested, validated, and deployed.  \nYou want to use a solitary feed to release several builds of each package. You have to make sure that the release of packages that are in development is restricted.  \nWhich of the following actions should you take?",
-    "optionA": "You should make use of static code analysis.",
-    "optionB": "You should make use of views.",
-    "optionC": "You should make use of dynamic code analysis.",
-    "optionD": "You should make use of upstream sources.",
-    "correctOption": ["D"]
-  },
-  {
-    "id": 14,
-    "question": "You need to consider the underlined segment to establish whether it is accurate.  \nTo find when common open source libraries are added to the code base, you should add Jenkins to the build pipeline.  \nSelect `No adjustment required` if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option.",
-    "optionA": "No adjustment required.",
-    "optionB": "SourceGear Vault",
-    "optionC": "WhiteSource",
-    "optionD": "OWASP ZAP",
-    "correctOption": ["C"]
-  },
-  {
-    "id": 15,
-    "question": "Your company has an Azure DevOps project, which includes a build pipeline that makes use of roughly fifty open source libraries.  \nYou have been tasked with making sure that you are able to scan project for common security weaknesses in the open source libraries.  \nWhich of the following actions should you take?",
-    "optionA": "You should create a build task and use the WhiteSource Bolt service.",
-    "optionB": "You should create a deployment task and use the WhiteSource Bolt service.",
-    "optionC": "You should create a build task and use the Chef service.",
-    "optionD": "You should create a deployment task and use the Chef service.",
-    "correctOption": ["A"]
-  },
-  {
-    "id": 16,
-    "question": "You need to consider the underlined segment to establish whether it is accurate.  \n_Black Duck_ can be used to make sure that all the open source libraries conform to your company's licensing criteria.  \nSelect `No adjustment required` if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option.",
-    "optionA": "No adjustment required",
-    "optionB": "Maven",
-    "optionC": "Bamboo",
-    "optionD": "CMAKE",
-    "correctOption": ["A"]
-  },
-  {
-    "id": 17,
-    "question": "Your company has an application that contains a number of Azure App Service web apps and Azure functions.  \nYou would like to view recommendations with regards to the security of the web apps and functions. You plan to navigate to Compute and Apps to achieve your goal.  \nWhich of the following should you access to make use of Compute and Apps?",
-    "optionA": "Azure Log Analytics",
-    "optionB": "Azure Event Hubs",
-    "optionC": "Azure Advisor",
-    "optionD": "Azure Security Center",
-    "correctOption": ["D"]
-  },
-  {
-    "id": 18,
-    "question": "You need to consider the underlined segment to establish whether it is accurate.  \nYour company has a multi-tier application that has its front end hosted in Azure App Service.  \nTo pinpoint the average load times of the application pages, you should make use of Azure Event Hubs.  \nSelect `No adjustment required` if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option.",
-    "optionA": "No adjustment required.",
-    "optionB": "Azure Application Insights",
-    "optionC": "Azure Log Analytics",
-    "optionD": "Azure Advisor",
-    "correctOption": ["B"]
-  },
-  {
-    "id": 19,
-    "question": "**_You need to consider the underlined segment to establish whether it is accurate._**  \nThe Burnup widget measures the elapsed time from creation of work items to their completion.  \nSelect `No adjustment required` if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option.",
-    "optionA": "No adjustment required.",
-    "optionB": "Lead time",
-    "optionC": "Test results trend",
-    "optionD": "Burndown",
-    "correctOption": ["B"]
-  },
-  {
-    "id": 20,
-    "question": "**_You need to consider the underlined segment to establish whether it is accurate._**  \nTo deploy an application to a number of Azure virtual machines, you should create a <u>universal group</u>.  \nSelect `No adjustment required` if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option.",
-    "optionA": "No adjustment required",
-    "optionB": "security",
-    "optionC": "deployment",
-    "optionD": "resource",
-    "correctOption": ["C"]
-  },
-  {
-    "id": 21,
-    "question": "You intend to make use of Azure Artifacts to share packages that you wrote, tested, validated, and deployed.  \nYou want to use a solitary feed to release several builds of each package.  \nYou have to make sure that the release of packages that are in development is restricted.  \nWhich of the following actions should you take?",
-    "optionA": "You should make use of static code analysis",
-    "optionB": "You should make use of views",
-    "optionC": "You should make use of dynamic code analysis",
-    "optionD": "You should make use of upstream sources",
-    "correctOption": ["D"]
-  },
-  {
-    "id": 22,
-    "question": "You are in the process of building a mobile app aimed at Android and iOS devices.  \nAll work items and release cycles are managed via Azure DevOps.  \nYou want to make sure that crash reports for issue analysis is collected, and that beta releases are distributed to your testers. Also, you want to ensure that user feedback on the functionality of new apps is received.  \nWhich of the following must be part of your solution?",
-    "optionA": "The Microsoft Test & Feedback extension.",
-    "optionB": "OWASP ZAP",
-    "optionC": "TFS Integration Platform",
-    "optionD": "Code Style",
-    "correctOption": ["A"]
-  },
-  {
-    "id": 23,
-    "question": "You have a Microsoft ASP.NET Core web app in Azure that is accessed worldwide.  \nYou need to run a URL ping test once every five minutes and create an alert when the web app is unavailable from specific Azure regions.  \nThe solution must minimize development time.  \nWhat should you do?",
-    "optionA": "Create an Azure Monitor Availability metric and alert.",
-    "optionB": "Create an Azure Application Insights availability test and alert.",
-    "optionC": "Write an Azure function and deploy the function to the specific regions.",
-    "optionD": "Create an Azure Service Health alert for the specific regions.",
-    "correctOption": ["B"]
-  },
-  {
-    "id": 24,
-    "question": "You have a multi-tier application. The front end of the application is hosted in Azure App Service.  \nYou need to identify the average load times of the application pages.  \nWhat should you use?",
-    "optionA": "Azure Application Insights",
-    "optionB": "the activity log of the App Service",
-    "optionC": "the diagnostics logs of the App Service",
-    "optionD": "Azure Advisor",
-    "correctOption": ["A"]
-  },
-  {
-    "id": 25,
-    "question": "Your company uses ServiceNow for incident management.  \nYou develop an application that runs on Azure.  \nThe company needs to generate a ticket in ServiceNow when the application fails to authenticate.  \nWhich Azure Log Analytics solution should you use?",
-    "optionA": "Application Insights Connector",
-    "optionB": "Automation & Control",
-    "optionC": "IT Service Management Connector (ITSM)",
-    "optionD": "Insight & Analytics",
-    "correctOption": ["C"]
-  },
-  {
-    "id": 26,
-    "question": "You use Azure SQL Database Intelligent Insights and Azure Application Insights for monitoring.  \nYou need to write ad-hoc queries against the monitoring data.  \nWhich query language should you use?",
-    "optionA": "Kusto Query Language (KQL)",
-    "optionB": "PL/pgSQL",
-    "optionC": "PL/SQL",
-    "optionD": "Transact-SQL",
-    "correctOption": ["A"]
-  },
-  {
-    "id": 27,
-    "question": "Your company is building a mobile app that targets Android and iOS devices.  \nYour team uses Azure DevOps to manage all work items and release cycles.  \nYou need to recommend a solution to perform the following tasks  \n✑ Collect crash reports for issue analysis.  \n✑ Distribute beta releases to your testers.  \n✑ Get user feedback on the functionality of new apps.  \nWhat should you include in the recommendation?",
-    "optionA": "the Microsoft Test & Feedback extension",
-    "optionB": "Microsoft Visual Studio App Center integration",
-    "optionC": "Azure Application Insights widgets",
-    "optionD": "Jenkins integration",
-    "correctOption": ["A"]
-  },
-  {
-    "id": 28,
-    "question": "You are monitoring the health and performance of an Azure web app by using Azure Application Insights.  \nYou need to ensure that an alert is sent when the web app has a sudden rise in performance issues and failures.  \nWhat should you use?",
-    "optionA": "custom events",
-    "optionB": "Application Insights Profiler",
-    "optionC": "usage analysis",
-    "optionD": "Smart Detection Most",
-    "correctOption": ["D"]
-  },
-  {
-    "id": 29,
-    "question": "You have a private GitHub repository.  \nYou need to display the commit status of the repository on Azure Boards.  \nWhat should you do first?",
-    "optionA": "Configure multi-factor authentication (MFA) for your GitHub account.",
-    "optionB": "Add the Azure Pipelines app to the GitHub repository.",
-    "optionC": "Add the Azure Boards app to the repository.",
-    "optionD": "Create a GitHub action in GitHub.",
-    "correctOption": ["C"]
-  },
-  {
-    "id": 30,
-    "question": "You are integrating Azure Pipelines and Microsoft Teams.  \nYou install the Azure Pipelines app in Microsoft Teams.  \nYou have an Azure DevOps organization named Contoso that contains a project name Project1.  \nYou subscribe to Project1 in Microsoft Teams.  \nYou need to ensure that you only receive events about failed builds in Microsoft Teams.  \nWhat should you do first?",
-    "optionA": "From Microsoft Teams, run @azure pipelines subscribe https://dev.azure.com/Contoso/Project1.",
-    "optionB": "From Azure Pipelines, add a Publish Build Artifacts task to Project1.",
-    "optionC": "From Microsoft Teams, run @azure pipelines subscriptions.",
-    "optionD": "From Azure Pipelines, enable continuous integration for Project1.",
-    "correctOption": ["A"]
-  },
-  {
-    "id": 31,
-    "question": "You have an Azure DevOps organization named Contoso.  \nYou need to receive Microsoft Teams notifications when work items are updated.  \nWhat should you do?",
-    "optionA": "From Azure DevOps, configure a service hook subscription",
-    "optionB": "From Microsoft Teams, configure a connector Most Voted",
-    "optionC": "From the Microsoft Teams admin center, configure external access",
-    "optionD": "From Microsoft Teams, add a channel",
-    "correctOption": ["A"]
-  },
-  {
-    "id": 32,
-    "question": "You have an Azure virtual machine that is monitored by using Azure Monitor.  \nThe virtual machine has the Azure Log Analytics agent installed.  \nYou plan to deploy the Service Map solution from the Azure Marketplace.  \nWhat should you deploy to the virtual machine to support the Service Map solution?",
-    "optionA": "the Dependency agent",
-    "optionB": "the Telegraf agent",
-    "optionC": "the Windows Azure diagnostics extension (WAD)",
-    "optionD": "the Azure monitor agent",
-    "correctOption": ["A"]
-  },
-  {
-    "id": 33,
-    "question": "You have a web app hosted on Azure App Service. The web app stores data in an Azure SQL database.  \nYou need to generate an alert when there are 10,000 simultaneous connections to the database. The solution must minimize development effort.  \nWhich option should you select in the Diagnostics settings of the database?",
-    "optionA": "Send to Log Analytics",
-    "optionB": "Stream to an event hub",
-    "optionC": "Archive to a storage account",
-    "optionD": "",
-    "correctOption": ["A"]
-  },
-  {
-    "id": 34,
-    "question": "You build an iOS app.  \nYou receive crash reports from Crashlytics.  \nYou need to capture the following data  \n✑ Crash-free user  \n✑ Custom event  \n✑ Breadcrumb  \nWhat should you do?",
-    "optionA": "Configure the xcworkspace file in the project",
-    "optionB": "Add the GoogleAnalytics pod to the app.",
-    "optionC": "Configure the Crashlytics pod in the app.",
-    "optionD": "Import the Firebase module to UIApplicationDelegate.",
-    "correctOption": ["D"]
-  },
-  {
-    "id": 35,
-    "question": "You have multiple teams that work on multiple projects in Azure DevOps.  \nYou need to plan and manage the consumers and producers for each project. The solution must provide an overview of all the projects.  \nWhat should you do?",
-    "optionA": "Add a Predecessor or Successor link to the feature or user story for the items of each project.",
-    "optionB": "Add a Parent or Child link to the feature or user story for the items of each project.",
-    "optionC": "Install the Dependency Tracker extension and create dependencies for each project.",
-    "optionD": "Create a custom query to show the consumers and producers and add a widget to a dashboard.",
-    "correctOption": ["C"]
-  },
-  {
-    "id": 36,
-    "question": "You have an Azure web app named webapp1 that uses the .NET Core runtime stack. You have an Azure Application Insights resource named AppInsights1. Webapp1 sends telemetry data to AppInsights1.  \nYou need to ensure that webapp1 sends the telemetry data at a fixed sampling rate.  \nWhat should you do?",
-    "optionA": "From the code repository of webapp1, modify the ApplicationInsights.config file.",
-    "optionB": "From the code repository of webapp1, modify the Startup.cs file.",
-    "optionC": "From AppInsights1, modify the Usage and estimated costs settings.",
-    "optionD": "From AppInsights1, configure the Continuous export settings.",
-    "correctOption": ["B"]
-  },
-  {
-    "id": 37,
-    "question": "You configure an Azure Application Insights availability test.  \nYou need to notify the customer services department at your company by email when availability is degraded.  \nYou create an Azure logic app that will handle the email and follow up actions.  \nWhich type of trigger should you use to invoke the logic app?",
-    "optionA": "an HTTPWebhook trigger",
-    "optionB": "an HTTP trigger",
-    "optionC": "a Request trigger",
-    "optionD": "an ApiConnection trigger",
-    "correctOption": ["A"]
-  },
-  {
-    "id": 38,
-    "question": "You have an Azure DevOps organization named Contoso and an Azure subscription.  \nYou use Azure DevOps to build a containerized app named App1 and deploy App1 to an Azure container instance named ACI1.  \nYou need to restart ACI1 when App1 stops responding.  \nWhat should you do?",
-    "optionA": "Add a liveness probe to the YAML configuration of App1.",
-    "optionB": "Add a readiness probe to the YAML configuration of App1.",
-    "optionC": "Use Connection Monitor in Azure Network Watcher.",
-    "optionD": "Use IP flow verify in Azure Network Watcher.",
-    "correctOption": ["B"]
-  },
-  {
-    "id": 39,
-    "question": "You have a multi-tier application that has an Azure Web Apps front end and an Azure SQL Database back end.  \nYou need to recommend a solution to capture and store telemetry data. The solution must meet the following requirements  \n✑ Support using ad-hoc queries to identify baselines.  \n✑ Trigger alerts when metrics in the baseline are exceeded.  \n✑ Store application and database metrics in a central location.  \nWhat should you include in the recommendation?",
-    "optionA": "Azure Event Hubs",
-    "optionB": "Azure SQL Database Intelligent Insights",
-    "optionC": "Azure Application Insights",
-    "optionD": "Azure Log Analytics",
-    "correctOption": ["D"]
-  },
-  {
-    "id": 40,
-    "question": "You have an Azure DevOps organization named Contoso and an Azure subscription. The subscription contains an Azure virtual machine scale set named VMSS1 that is configured for autoscaling.  \nYou use Azure DevOps to build a web app named App1 and deploy App1 to VMSS1. App1 is used heavily and has usage patterns that vary on a weekly basis.  \nYou need to recommend a solution to detect an abnormal rise in the rate of failed requests to App1. The solution must minimize administrative effort.  \nWhat should you include in the recommendation?",
-    "optionA": "the Smart Detection feature in Azure Application Insights",
-    "optionB": "the Failures feature in Azure Application Insights",
-    "optionC": "an Azure Service Health alert",
-    "optionD": "an Azure Monitor alert that uses an Azure Log Analytics query",
-    "correctOption": ["A"]
-  },
-  {
-    "id": 41,
-    "question": "You have an Azure subscription that contains resources in several resource groups.  \nYou need to design a monitoring strategy that will provide a consolidated view. The solution must support the following requirements  \n✑ Support role-based access control (RBAC) by using Azure Active Directory (Azure AD) identifies.  \n✑ Include visuals from Azure Monitor that are generated by using the Kusto query language.  \n✑ Support documentation written in markdown.  \n✑ Use the latest data available for each visual.  \nWhat should you use to create the consolidated view?",
-    "optionA": "Azure Monitor",
-    "optionB": "Microsoft Power BI",
-    "optionC": "Azure Data Explorer",
-    "optionD": "Azure dashboards",
-    "correctOption": ["C"]
-  },
-  {
-    "id": 42,
-    "question": "You are automating the testing process for your company.  \nYou need to automate UI testing of a web application.  \nWhich framework should you use?",
-    "optionA": "JaCoco",
-    "optionB": "Selenium",
-    "optionC": "Xamarin.UITest",
-    "optionD": "Microsoft.CodeAnalysis",
-    "correctOption": ["B"]
-  },
-  {
-    "id": 43,
-    "question": "You have an Azure DevOps organization named Contoso and an Azure subscription. The subscription contains an Azure virtual machine scale set named VMSS1 and an Azure Standard Load Balancer named LB1. LB1 distributes incoming requests across VMSS1 instances.  \nYou use Azure DevOps to build a web app named App1 and deploy App1 to VMSS1. App1 is accessible via HTTPS only and configured to require mutual authentication by using a client certificate.  \nYou need to recommend a solution for implementing a health check of App1. The solution must meet the following requirements  \n✑ Identify whether individual instances of VMSS1 are eligible for an upgrade operation.  \n✑ Minimize administrative effort.  \nWhat should you include in the recommendation?",
-    "optionA": "an Azure Load Balancer health probe",
-    "optionB": "Azure Monitor autoscale",
-    "optionC": "the Custom Script Extension",
-    "optionD": "the Application Health extension",
-    "correctOption": ["D"]
-  },
-  {
-    "id": 44,
-    "question": "Your company hosts a web application in Azure. The company uses Azure Pipelines for the build and release management of the application.  \nStakeholders report that the past few releases have negatively affected system performance.  \nYou configure alerts in Azure Monitor.  \nYou need to ensure that new releases are only deployed to production if the releases meet defined performance baseline criteria in the staging environment first.  \nWhat should you use to prevent the deployment of releases that fall to meet the performance baseline?",
-    "optionA": "an Azure Scheduler job",
-    "optionB": "a trigger",
-    "optionC": "a gate",
-    "optionD": "an Azure function",
-    "correctOption": ["C"]
-  },
-  {
-    "id": 45,
-    "question": "You use Azure Pipelines to manage build pipelines, GitHub to store source code, and Dependabot to manage dependencies.  \nYou have an app named App1.  \nDependabot detects a dependency in App1 that requires an update.  \nWhat should you do first to apply the update?",
-    "optionA": "Create a pull request.",
-    "optionB": "Approve the pull request.",
-    "optionC": "Create a branch.",
-    "optionD": "Perform a commit.",
-    "correctOption": ["B"]
-  },
-  {
-    "id": 46,
-    "question": "You are designing a configuration management solution to support five apps hosted on Azure App Service. Each app is available in the following three environments: development, test, and production.  \nYou need to recommend a configuration management solution that meets the following requirements  \n✑ Supports feature flag  \n✑ Tracks configuration changes from the past 30 day  \n✑ Stores hierarchically structured configuration value  \n✑ Controls access to the configurations by using role-based access control (RBAC) permission  \n✑ Stores shared values as key/value pairs that can be used by all the app  \nWhich Azure service should you recommend as the configuration management solution?",
-    "optionA": "Azure Cosmos DB",
-    "optionB": "Azure App Service",
-    "optionC": "Azure App Configuration",
-    "optionD": "Azure Key Vault",
-    "correctOption": ["C"]
-  },
-  {
-    "id": 47,
-    "question": "You have a containerized solution that runs in Azure Container Instances. The solution contains a frontend container named App1 and a backend container named DB1. DB1 loads a large amount of data during startup.  \nYou need to verify that DB1 can handle incoming requests before users can submit requests to App1.  \nWhat should you configure?",
-    "optionA": "a liveness probe",
-    "optionB": "a performance log",
-    "optionC": "a readiness probe",
-    "optionD": "an Azure Load Balancer health probe",
-    "correctOption": ["C"]
-  },
-  {
-    "id": 48,
-    "question": "You have several Azure Active Directory (Azure AD) accounts.  \nYou need to ensure that users use multi-factor authentication (MFA) to access Azure apps from untrusted networks.  \nWhat should you configure in Azure AD?",
-    "optionA": "access reviews",
-    "optionB": "managed identities",
-    "optionC": "entitlement management",
-    "optionD": "conditional access",
-    "correctOption": ["D"]
-  },
-  {
-    "id": 49,
-    "question": "You plan to provision a self-hosted Linux agent.  \nWhich authentication mechanism should you use to register the self-hosted agent?",
-    "optionA": "personal access token (PAT)",
-    "optionB": "SSH key",
-    "optionC": "Alternate credentials",
-    "optionD": "certificate",
-    "correctOption": ["A"]
-  },
-  {
-    "id": 50,
-    "question": "You are building a Microsoft ASP.NET application that requires authentication.  \nYou need to authenticate users by using Azure Active Directory (Azure AD).  \nWhat should you do first?",
-    "optionA": "Assign an enterprise application to users and groups",
-    "optionB": "Create an app registration in Azure AD",
-    "optionC": "Configure the application to use a SAML endpoint",
-    "optionD": "Create a new OAuth token from the application",
-    "correctOption": ["B"]
-  },
-  {
-    "id": 51,
-    "question": "You have an Azure DevOps organization named Contoso.  \nYou need to recommend an authentication mechanism that meets the following requirements  \n✑ Supports authentication from Gi  \n✑ Minimizes the need to provide credentials during authenticatio  \nWhat should you recommend?",
-    "optionA": "personal access tokens (PATs) in Azure DevOps",
-    "optionB": "Alternate credentials in Azure DevOps",
-    "optionC": "user accounts in Azure Active Directory (Azure AD)",
-    "optionD": "managed identities in Azure Active Directory (Azure AD)",
-    "correctOption": ["A"]
-  },
-  {
-    "id": 52,
-    "question": "You have an application that consists of several Azure App Service web apps and Azure functions.  \nYou need to assess the security of the web apps and the functions.  \nWhich Azure feature can you use to provide a recommendation for the security of the application?",
-    "optionA": "Security & Compliance in Azure Log Analytics",
-    "optionB": "Resource health in Azure Service Health",
-    "optionC": "Smart Detection in Azure Application Insights",
-    "optionD": "Compute & apps in Azure Security Center",
-    "correctOption": ["D"]
-  },
-  {
-    "id": 53,
-    "question": "Your company has a project in Azure DevOps for a new web application.  \nThe company identifies security as one of the highest priorities.  \nYou need to recommend a solution to minimize the likelihood that infrastructure credentials will be leaked.  \nWhat should you recommend?",
-    "optionA": "Add a Run Inline Azure PowerShell task to the pipeline.",
-    "optionB": "Add a PowerShell task to the pipeline and run Set-AzureKeyVaultSecret.",
-    "optionC": "Add an Azure Key Vault task to the pipeline.",
-    "optionD": "Add Azure Key Vault references to Azure Resource Manger templates.",
-    "correctOption": ["B"]
-  },
-  {
-    "id": 54,
-    "question": "You create a Microsoft ASP.NET Core application.  \nYou plan to use Azure Key Vault to provide secrets to the application as configuration data.  \nYou need to create a Key Vault access policy to assign secret permissions to the application. The solution must use the principle of least privilege.  \nWhich secret permissions should you use?",
-    "optionA": "List only",
-    "optionB": "Get only",
-    "optionC": "Get and List",
-    "optionD": "",
-    "correctOption": ["B"]
-  },
-  {
-    "id": 55,
-    "question": "You have a branch policy in a project in Azure DevOps. The policy requires that code always builds successfully.  \nYou need to ensure that a specific user can always merge changes to the master branch, even if the code fails to compile. The solution must use the principle of least privilege.  \nWhat should you do?",
-    "optionA": "Add the user to the Build Administrators group.",
-    "optionB": "Add the user to the Project Administrators group.",
-    "optionC": "From the Security settings of the repository, modify the access control for the user.",
-    "optionD": "From the Security settings of the branch, modify the access control for the user.",
-    "correctOption": ["D"]
-  },
-  {
-    "id": 56,
-    "question": "You have an Azure Resource Manager template that deploys a multi-tier application.  \nYou need to prevent the user who performs the deployment from viewing the account credentials and connection strings used by the application.  \nWhat should you use?",
-    "optionA": "Azure Key Vault Most Voted",
-    "optionB": "a Web.config file",
-    "optionC": "an Appsettings.json file",
-    "optionD": "an Azure Storage table",
-    "correctOption": ["A"]
-  },
-  {
-    "id": 57,
-    "question": "You have an Azure DevOps organization named Contoso that contains a project named Project1.  \nYou provision an Azure key vault named Keyvault1.  \nYou need to reference Keyvault1 secrets in a build pipeline of Project1.  \nWhat should you do first?",
-    "optionA": "Add a secure file to Project1.",
-    "optionB": "Create an XAML build service.",
-    "optionC": "Create a variable group in Project1.",
-    "optionD": "Configure the security policy of Contoso.",
-    "correctOption": ["D"]
-  },
-  {
-    "id": 58,
-    "question": "Your company uses Azure DevOps.  \nOnly users who have accounts in Azure Active Directory can access the Azure DevOps environment.  \nYou need to ensure that only devices that are connected to the on-premises network can access the Azure DevOps environment.  \nWhat should you do?",
-    "optionA": "Assign the Stakeholder access level to all users.",
-    "optionB": "In Azure Active Directory, configure risky sign-ins.",
-    "optionC": "In Azure DevOps, configure Security in Project Settings.",
-    "optionD": "In Azure Active Directory, configure conditional access.",
-    "correctOption": ["D"]
-  },
-  {
-    "id": 59,
-    "question": "You have an Azure DevOps organization named Contoso, an Azure DevOps project named Project1, an Azure subscription named Sub1, and an Azure key vault named vault1.  \nYou need to ensure that you can reference the values of the secrets stored in vault1 in all the pipelines of Project1. The solution must prevent the values from being stored in the pipelines.  \nWhat should you do?",
-    "optionA": "Create a variable group in Project1.",
-    "optionB": "Add a secure file to Project1.",
-    "optionC": "Modify the security settings of the pipelines.",
-    "optionD": "Configure the security policy of Contoso.",
-    "correctOption": ["A"]
-  },
-  {
-    "id": 60,
-    "question": "You need to configure GitHub to use Azure Active Directory (Azure AD) for authentication.  \nWhat should you do first?",
-    "optionA": "Create a conditional access policy in Azure AD.",
-    "optionB": "Register GitHub in Azure AD.",
-    "optionC": "Create an Azure Active Directory B2C (Azure AD B2C) tenant.",
-    "optionD": "Modify the Security settings of the GitHub organization.",
-    "correctOption": ["B"]
-  },
-  {
-    "id": 61,
-    "question": "You have an Azure DevOps project named Project1 and an Azure subscription named Sub1.  \nYou need to prevent releases from being deployed unless the releases comply with the Azure Policy rules assigned to Sub1.  \nWhat should you do in the release pipeline of Project1?",
-    "optionA": "Add a deployment gate.",
-    "optionB": "Modify the Deployment queue settings.",
-    "optionC": "Configure a deployment trigger.",
-    "optionD": "Create a pipeline variable.",
-    "correctOption": ["A"]
-  },
-  {
-    "id": 62,
-    "question": "You have an Azure DevOps project that contains a build pipeline. The build pipeline uses approximately 50 open source libraries.  \nYou need to ensure that all the open source libraries comply with your company's licensing standards.  \nWhich service should you use?",
-    "optionA": "Ansible",
-    "optionB": "Maven",
-    "optionC": "WhiteSource Mend",
-    "optionD": "Helm",
-    "correctOption": ["C"]
-  },
-  {
-    "id": 63,
-    "question": "You are designing the security validation strategy for a project in Azure DevOps.  \nYou need to identify package dependencies that have known security issues and can be resolved by an update.  \nWhat should you use?",
-    "optionA": "Octopus Deploy",
-    "optionB": "Jenkins",
-    "optionC": "Gradle",
-    "optionD": "SonarQube",
-    "correctOption": ["A"]
-  },
-  {
-    "id": 64,
-    "question": "Your company is concerned that when developers introduce open source libraries, it creates licensing compliance issues.  \nYou need to add an automated process to the build pipeline to detect when common open source libraries are added to the code base.  \nWhat should you use?",
-    "optionA": "Microsoft Visual SourceSafe",
-    "optionB": "Code Style",
-    "optionC": "Black Duck",
-    "optionD": "Jenkins",
-    "correctOption": ["C"]
-  },
-  {
-    "id": 65,
-    "question": "Your company develops an app for iOS. All users of the app have devices that are members of a private distribution group in Microsoft Visual Studio App Center.  \nYou plan to distribute a new release of the app.  \nYou need to identify which certificate file you require to distribute the new release from App Center.  \nWhich file type should you upload to App Center?",
-    "optionA": ".cer",
-    "optionB": ".pfx",
-    "optionC": ".p12",
-    "optionD": ".pvk",
-    "correctOption": ["C"]
-  },
-  {
-    "id": 66,
-    "question": "You plan to use a NuGet package in a project in Azure DevOps. The NuGet package is in a feed that requires authentication.  \nYou need to ensure that the project can restore the NuGet package automatically.  \nWhat should the project use to automate the authentication?",
-    "optionA": "an Azure Automation account",
-    "optionB": "an Azure Artifacts Credential Provider",
-    "optionC": "an Azure Active Directory (Azure AD) account that has multi-factor authentication (MFA) enabled",
-    "optionD": "an Azure Active Directory (Azure AD) service principal",
-    "correctOption": ["B"]
-  },
-  {
-    "id": 67,
-    "question": "You use Azure Pipelines to manage project builds and deployments.  \nYou plan to use Azure Pipelines for Microsoft Teams to notify the legal team when a new build is ready for release.  \nYou need to configure the Organization Settings in Azure DevOps to support Azure Pipelines for Microsoft Teams.  \nWhat should you turn on?",
-    "optionA": "Third-party application access via OAuth",
-    "optionB": "Azure Active Directory Conditional Access Policy Validation",
-    "optionC": "Alternate authentication credentials",
-    "optionD": "SSH authentication",
-    "correctOption": ["A"]
-  },
-  {
-    "id": 68,
-    "question": "You have an existing project in Azure DevOps.  \nYou plan to integrate GitHub as the repository for the project.  \nYou need to ensure that Azure Pipelines runs under the Azure Pipelines identity.  \nWhich authentication mechanism should you use?",
-    "optionA": "personal access token (PAT)",
-    "optionB": "GitHub App",
-    "optionC": "Azure Active Directory (Azure AD)",
-    "optionD": "OAuth",
-    "correctOption": ["B"]
-  },
-  {
-    "id": 69,
-    "question": "You use release pipelines in Azure Pipelines to deploy an app. Secrets required be the pipeline are stored as pipeline variables. Logging of commands is enabled for the Azure Pipelines agent.  \nYou need to prevent the values of the secrets from being logged.  \nWhat should you do?",
-    "optionA": "Store the secrets in the environment variables instead of the pipeline variables.",
-    "optionB": "Pass the secrets on the command line instead of in the pipeline variables.",
-    "optionC": "Apply a prefix of secret to the name of the variables.",
-    "optionD": "Echo the values of the secrets to the command line.",
-    "correctOption": ["A"]
-  },
-  {
-    "id": 70,
-    "question": "You have an Azure subscription linked to an Azure Active Directory Premium Plan 1 tenant.  \nA security review indicates that too many users have privileged access to resources.  \nYou need to deploy a privileged access management solution that meets the following requirements:  \n• Enforces time limits on the use of privileged access  \n• Requires approval to activate privileged access  \n• Minimizes costs  \nWhat should you do first?",
-    "optionA": "Configure notifications when privileged roles are activated.",
-    "optionB": "Configure alerts for the activation of privileged roles.",
-    "optionC": "Enforce Azure Multi-Factor Authentication (MFA) for role activation.",
-    "optionD": "Upgrade the license of the Azure Active Directory (Azure AD) tenant.",
-    "correctOption": ["D"]
-  },
-  {
-    "id": 71,
-    "question": "You plan to create a GitHub workflow that will use GitHub Actions. The actions will require a 256-KB secret.  \nYou need to recommend a solution to store and encrypt the secret. The secret value must be accessible only to the workflow. The solution must minimize administrative effort  \nWhat should you recommend?",
-    "optionA": "Store the secret in the organization-level GitHub secrets.",
-    "optionB": "Store the secret in the repository-level GitHub secrets.",
-    "optionC": "Encrypt the secret value and store the value in the repository. Store the decryption key in the repository-level GitHub secrets.",
-    "optionD": "Encrypt the secret value and store the value in the repository. Store the decryption key in the organization-level GitHub secrets.",
-    "correctOption": ["C"]
-  },
-  {
-    "id": 72,
-    "question": "You have a GitHub Enterprise account.  \nYou need to enable push protection for secret scanning of the account repositories.  \nWhat should you do first?",
-    "optionA": "Purchase a GitHub Advanced Security license.",
-    "optionB": "Purchase Premium Plus support.",
-    "optionC": "Enforce multi-factor authentication (MFA).",
-    "optionD": "Create an access policy for secrets.",
-    "correctOption": ["A"]
-  },
-  {
-    "id": 73,
-    "question": "You are designing the development process for your company.  \nYou need to recommend a solution for continuous inspection of the company's code base to locate common code patterns that are known to be problematic.  \nWhat should you include in the recommendation?",
-    "optionA": "Microsoft Visual Studio test plans",
-    "optionB": "Gradle wrapper scripts",
-    "optionC": "SonarCloud analysis",
-    "optionD": "the JavaScript task runner",
-    "correctOption": ["C"]
-  },
-  {
-    "id": 74,
-    "question": "Your company is building a new solution in Java.  \nThe company currently uses a SonarQube server to analyze the code of .NET solutions.  \nYou need to analyze and monitor the code quality of the Java solution.  \nWhich task types should you add to the build pipeline?",
-    "optionA": "Gradle",
-    "optionB": "CocoaPods",
-    "optionC": "Grunt",
-    "optionD": "Gulp",
-    "correctOption": ["A"]
-  },
-  {
-    "id": 75,
-    "question": "Your company uses Azure DevOps for the build pipelines and deployment pipelines of Java-based projects.  \nYou need to recommend a strategy for managing technical debt.  \nWhich action should you include in the recommendation?",
-    "optionA": "Configure post-deployment approvals in the deployment pipeline.",
-    "optionB": "Integrate Azure DevOps and SonarQube.",
-    "optionC": "Integrate Azure DevOps and Azure DevTest Labs.",
-    "optionD": "",
-    "correctOption": ["B"]
-  },
-  {
-    "id": 76,
-    "question": "During a code review, you discover many quality issues. Many modules contain unused variables and empty catch blocks.  \nYou need to recommend a solution to improve the quality of the code.  \nWhat should you recommend?",
-    "optionA": "In a Grunt build task, select Enabled from Control Options.",
-    "optionB": "In a Maven build task, select Run PMD.",
-    "optionC": "In a Xcode build task, select Use xcpretty from Advanced.",
-    "optionD": "In a Gradle build task, select Run Checkstyle.",
-    "correctOption": ["B"]
-  },
-  {
-    "id": 77,
-    "question": "You have a GitHub repository.  \nYou create a new repository in Azure DevOps.  \nYou need to recommend a procedure to clone the repository from GitHub to Azure DevOps.  \nWhat should you recommend?",
-    "optionA": "Create a pull request.",
-    "optionB": "Create a webhook.",
-    "optionC": "Create a service connection for GitHub.",
-    "optionD": "From Import a Git repository, click Import.",
-    "correctOption": ["D"]
-  },
-  {
-    "id": 78,
-    "question": "During a code review, you discover quality issues in a Java application.  \nYou need to recommend a solution to detect quality issues including unused variables and empty catch blocks.  \nWhat should you recommend?",
-    "optionA": "In a Maven build task, select Run PMD.",
-    "optionB": "In an Xcode build task, select Use xcpretty from Advanced.",
-    "optionC": "In a Gulp build task, specify a custom condition expression.",
-    "optionD": "In a Grunt build task, select Enabled from Control Options.",
-    "correctOption": ["A"]
-  },
-  {
-    "id": 79,
-    "question": "You use Azure Artifacts to host NuGet packages that you create.  \nYou need to make one of the packages available to anonymous users outside your organization. The solution must minimize the number of publication points.  \nWhat should you do?",
-    "optionA": "Change the feed URL of the package",
-    "optionB": "Create a new feed for the package",
-    "optionC": "Promote the package to a release view.",
-    "optionD": "Publish the package to a public NuGet repository.",
-    "correctOption": ["B"]
-  },
-  {
-    "id": 80,
-    "question": "You have an Azure Automation account that contains a runbook. The runbook is used to configure the application infrastructure of an Azure subscription.  \nYou have a project in Azure DevOps named Project1. Project1 contains a repository that stores code for the runbook.  \nYou need to ensure that every committed change to the code will update automatically and publish the runbook to Azure Automation.  \nWhat should you configure?",
-    "optionA": "the Service hooks settings for Project1",
-    "optionB": "the Connections settings for the Automation account",
-    "optionC": "the Source control settings for the Automation account",
-    "optionD": "the Service connections settings for Project1",
-    "correctOption": ["C"]
-  },
-  {
-    "id": 81,
-    "question": "You have a GitHub repository that contains multiple versions of an Azure Pipelines template.  \nYou plan to deploy multiple pipelines that will use a template stored in the repository.  \nYou need to ensure that you use a fixed version of the template.  \nWhat should you use to reference which version of the template repository to use?",
-    "optionA": "the serial",
-    "optionB": "the SHA-based hashes",
-    "optionC": "the runner",
-    "optionD": "the branch",
-    "correctOption": ["D"]
-  },
-  {
-    "id": 82,
-    "question": "Your company has 60 developers who are assigned to four teams. Each team has 15 members.  \nThe company uses an agile development methodology.  \nYou need to structure the work of the development teams so that each team owns their respective work while working together to reach a common goal.  \nWhich parts of the taxonomy should you enable the team to perform autonomously?",
-    "optionA": "Features and Tasks",
-    "optionB": "Initiatives and Epics",
-    "optionC": "Epics and Features",
-    "optionD": "Stories and Tasks",
-    "correctOption": ["A"]
-  },
-  {
-    "id": 83,
-    "question": "Your company creates a new Azure DevOps team.  \nYou plan to use Azure DevOps for sprint planning.  \nYou need to visualize the flow of your work by using an agile methodology.  \nWhich Azure DevOps component should you use?",
-    "optionA": "Kanban boards",
-    "optionB": "sprint planning",
-    "optionC": "delivery plans",
-    "optionD": "portfolio backlogs",
-    "correctOption": ["A"]
-  },
-  {
-    "id": 84,
-    "question": "Your team uses an agile development approach.  \nYou need to recommend a branching strategy for the team's Git repository. The strategy must meet the following requirements.  \n✑ Provide the ability to work on multiple independent tasks in parallel.  \n✑ Ensure that checked-in code remains in a releasable state always.  \n✑ Ensure that new features can be abandoned at any time.  \n✑ Encourage experimentation.  \nWhat should you recommend?",
-    "optionA": "a single long-running branch without forking",
-    "optionB": "multiple long-running branches",
-    "optionC": "a single fork per team member",
-    "optionD": "a single long-running branch with multiple short-lived feature branches",
-    "correctOption": ["D"]
-  },
-  {
-    "id": 85,
-    "question": "You have a project in Azure DevOps that has a release pipeline.  \nYou need to integrate work item tracking and an Agile project management system to meet the following requirements:  \n✑ Ensure that developers can track whether their commits are deployed to production.  \n✑ Report the deployment status.  \n✑ Minimize integration effort.  \nWhich system should you use?",
-    "optionA": "Asana",
-    "optionB": "Basecamp",
-    "optionC": "Trello",
-    "optionD": "Jira",
-    "correctOption": ["D"]
-  },
-  {
-    "id": 86,
-    "question": "You plan to onboard 10 new developers.  \nYou need to recommend a development environment that meets the following requirements:  \n✑ Integrates with GitHub  \n✑ Provides integrated debugging tools  \n✑ Supports remote workers and hot-desking environments  \n✑ Supports developers who use browsers, tablets, and Chromebooks  \nWhat should you recommend?",
-    "optionA": "VS Code",
-    "optionB": "Xamarin Studio",
-    "optionC": "MonoDevelop",
-    "optionD": "Github Codespaces",
-    "correctOption": ["D"]
-  }
+	{
+		"id": 1,
+		"question": "You have been tasked with strengthening the security of your team's development process.  \r\nYou need to suggest a security tool type for the Continuous Integration (CI) phase of the development process.  \r\nWhich of the following is the option you would suggest?",
+		"answer": [
+			{
+				"answer": "Penetration testing",
+				"isCorrect": false
+			},
+			{
+				"answer": "Static code analysis",
+				"isCorrect": true
+			},
+			{
+				"answer": "Threat modeling",
+				"isCorrect": false
+			},
+			{
+				"answer": "Dynamic code analysis",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 2,
+		"question": "You are making use of Azure DevOps manage build pipelines, and also deploy pipelines.  \r\nThe development team is quite large, and is regularly added to.  \r\nYou have been informed that the management of users and licenses must be automated when it can be.  \r\nWhich of the following is a task that can't be automated?",
+		"answer": [
+			{
+				"answer": "License procurement",
+				"isCorrect": true
+			},
+			{
+				"answer": "Assigning entitlements",
+				"isCorrect": false
+			},
+			{
+				"answer": "License assignment",
+				"isCorrect": false
+			},
+			{
+				"answer": "Group membership changes",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 3,
+		"question": "You are configuring project metrics for dashboards in Azure DevOps.  \r\nYou need to configure a chart widget that measures the elapsed time to complete work items once they become active.  \r\nWhich of the following is the widget you should use?",
+		"answer": [
+			{
+				"answer": "Cumulative Flow Diagram",
+				"isCorrect": false
+			},
+			{
+				"answer": "Burnup",
+				"isCorrect": false
+			},
+			{
+				"answer": "Cycle time",
+				"isCorrect": true
+			},
+			{
+				"answer": "Burndown",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 4,
+		"question": "Your company is currently making use of Team Foundation Server 2013 (TFS 2013), but intend to migrate to Azure DevOps.  \r\nYou have been tasked with supplying a migration approach that allows for the preservation of Team Foundation Version Control changesets dates, as well as the changes dates of work items revisions. The approach should also allow for the migration of all TFS artifacts, while keeping migration effort to a minimum.  \r\nYou have suggested upgrading TFS to the most recent RTW release.  \r\nWhich of the following should also be suggested?",
+		"answer": [
+			{
+				"answer": "Installing the TFS kava SDK",
+				"isCorrect": false
+			},
+			{
+				"answer": "Using the TFS Database Import Service to perform the upgrade",
+				"isCorrect": true
+			},
+			{
+				"answer": "Upgrading PowerShell Core to the latest version",
+				"isCorrect": false
+			},
+			{
+				"answer": "Using the TFS Integration Platform to perform the upgrade",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 5,
+		"question": "You are currently developing a project for a client that will be managing work items via Azure DevOps.  \r\nYou want to make sure that the work item process you use for the client allows for requirements, change requests, risks, and reviews to be tracked.  \r\nWhich of the following is the option you would choose?",
+		"answer": [
+			{
+				"answer": "Basic",
+				"isCorrect": false
+			},
+			{
+				"answer": "Agile",
+				"isCorrect": false
+			},
+			{
+				"answer": "Scrum",
+				"isCorrect": false
+			},
+			{
+				"answer": "CMMI",
+				"isCorrect": true
+			}
+		]
+	},
+	{
+		"id": 6,
+		"question": "You need to consider the underlined segment to establish whether it is accurate.  \r\nTo compile an Internet Information Services (IIS) web application that runs docker, you should use a Default build agent pool.  \r\nSelect `No adjustment required` if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option.",
+		"answer": [
+			{
+				"answer": "No adjustment required",
+				"isCorrect": false
+			},
+			{
+				"answer": "Hosted Windows Container",
+				"isCorrect": false
+			},
+			{
+				"answer": "Hosted",
+				"isCorrect": true
+			},
+			{
+				"answer": "Hosted macOS",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 7,
+		"question": "Your company has an Azure DevOps environment that can only be accessed by Azure Active Directory users.  \r\nYou are instructed to make sure that the Azure DevOps environment can only be accessed from devices connected to the company's on-premises network.  \r\nWhich of the following actions should you take?",
+		"answer": [
+			{
+				"answer": "Assign the devices to a security group",
+				"isCorrect": false
+			},
+			{
+				"answer": "Create a GPO",
+				"isCorrect": false
+			},
+			{
+				"answer": "Configure Security in Project Settings from Azure DevOps",
+				"isCorrect": false
+			},
+			{
+				"answer": "Configure conditional access in Azure Active Directory",
+				"isCorrect": true
+			}
+		]
+	},
+	{
+		"id": 8,
+		"question": "You are making use of Azure DevOps to configure Azure Pipelines for project, named PROJ-01.  \r\nYou are preparing to use a version control system that allows for source code to be stored on a managed Windows server located on the company network.  \r\nWhich of the following is the version control system you should use?",
+		"answer": [
+			{
+				"answer": "Github Enterprise",
+				"isCorrect": true
+			},
+			{
+				"answer": "Bitbucket cloud",
+				"isCorrect": false
+			},
+			{
+				"answer": "Github Professional",
+				"isCorrect": false
+			},
+			{
+				"answer": "Git in Azure Repos",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 9,
+		"question": "You need to consider the underlined segment to establish whether it is accurate.  \r\nWhen moving to Azure DevOps, JIRA must be replaced with the build pipelines Azure DevOps service.  \r\nSelect `No adjustment required` if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option.",
+		"answer": [
+			{
+				"answer": "No adjustment required",
+				"isCorrect": false
+			},
+			{
+				"answer": "repos",
+				"isCorrect": false
+			},
+			{
+				"answer": "release pipelines",
+				"isCorrect": true
+			},
+			{
+				"answer": "boards",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 10,
+		"question": "You scan a Node.js application using WhiteSource Bolt.  \r\nThe scan finds numerous libraries with invalid licenses, but are only used during development.  \r\nYou have to make sure that only production dependencies are scanned by WhiteSource Bolt.  \r\nWhich of the following is a command you should run?",
+		"answer": [
+			{
+				"answer": "npm edit",
+				"isCorrect": false
+			},
+			{
+				"answer": "npm publish",
+				"isCorrect": false
+			},
+			{
+				"answer": "npm install",
+				"isCorrect": true
+			},
+			{
+				"answer": "npm update",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 11,
+		"question": "You are currently defining a release strategy for an app, named APP-01.  \r\nThe strategy should allow you to keep the time it takes to deploy new releases of the app to a minimum. The strategy should also allow you to roll back in the shortest time required.  \r\nWhich of the following is the release strategy you should use?",
+		"answer": [
+			{
+				"answer": "Red/Black deployment",
+				"isCorrect": true
+			},
+			{
+				"answer": "Rolling deployment",
+				"isCorrect": false
+			},
+			{
+				"answer": "\"Big Bang\" deployment",
+				"isCorrect": false
+			},
+			{
+				"answer": "Canary deployment",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 12,
+		"question": "Your company hosts a web application in Azure, and makes use of Azure Pipelines for managing the build and release of the application.  \r\nWhen stakeholders report that system performance has been adversely affected by the most recent releases, you configure alerts in Azure Monitor.  \r\nYou are informed that new releases must satisfy specified performance baseline conditions in the staging environment before they can be deployed to production.  \r\nYou need to make sure that releases not satisfying the performance baseline are prevented from being deployed.  \r\nWhich of the following actions should you take?",
+		"answer": [
+			{
+				"answer": "You should make use of a branch control check",
+				"isCorrect": false
+			},
+			{
+				"answer": "You should make use of an alert trigger",
+				"isCorrect": false
+			},
+			{
+				"answer": "You should make use of a gate",
+				"isCorrect": true
+			},
+			{
+				"answer": "You should make use of an approval check",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 13,
+		"question": "You intend to make use of Azure Artifacts to share packages that you wrote, tested, validated, and deployed.  \r\nYou want to use a solitary feed to release several builds of each package. You have to make sure that the release of packages that are in development is restricted.  \r\nWhich of the following actions should you take?",
+		"answer": [
+			{
+				"answer": "You should make use of static code analysis",
+				"isCorrect": false
+			},
+			{
+				"answer": "You should make use of views",
+				"isCorrect": false
+			},
+			{
+				"answer": "You should make use of dynamic code analysis",
+				"isCorrect": false
+			},
+			{
+				"answer": "You should make use of upstream sources",
+				"isCorrect": true
+			}
+		]
+	},
+	{
+		"id": 14,
+		"question": "You need to consider the underlined segment to establish whether it is accurate.  \r\nTo find when common open source libraries are added to the code base, you should add Jenkins to the build pipeline.  \r\nSelect `No adjustment required` if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option.",
+		"answer": [
+			{
+				"answer": "No adjustment required",
+				"isCorrect": false
+			},
+			{
+				"answer": "SourceGear Vault",
+				"isCorrect": false
+			},
+			{
+				"answer": "WhiteSource",
+				"isCorrect": true
+			},
+			{
+				"answer": "OWASP ZAP",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 15,
+		"question": "Your company has an Azure DevOps project, which includes a build pipeline that makes use of roughly fifty open source libraries.  \r\nYou have been tasked with making sure that you are able to scan project for common security weaknesses in the open source libraries.  \r\nWhich of the following actions should you take?",
+		"answer": [
+			{
+				"answer": "You should create a build task and use the WhiteSource Mend service",
+				"isCorrect": true
+			},
+			{
+				"answer": "You should create a deployment task and use the WhiteSource Mend service",
+				"isCorrect": false
+			},
+			{
+				"answer": "You should create a build task and use the Chef service",
+				"isCorrect": false
+			},
+			{
+				"answer": "You should create a deployment task and use the Chef service",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 16,
+		"question": "You need to consider the underlined segment to establish whether it is accurate.  \r\n_Black Duck_ can be used to make sure that all the open source libraries conform to your company's licensing criteria.  \r\nSelect `No adjustment required` if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option.",
+		"answer": [
+			{
+				"answer": "No adjustment required",
+				"isCorrect": true
+			},
+			{
+				"answer": "Maven",
+				"isCorrect": false
+			},
+			{
+				"answer": "Bamboo",
+				"isCorrect": false
+			},
+			{
+				"answer": "CMAKE",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 17,
+		"question": "Your company has an application that contains a number of Azure App Service web apps and Azure functions.  \r\nYou would like to view recommendations with regards to the security of the web apps and functions. You plan to navigate to Compute and Apps to achieve your goal.  \r\nWhich of the following should you access to make use of Compute and Apps?",
+		"answer": [
+			{
+				"answer": "Azure Log Analytics",
+				"isCorrect": false
+			},
+			{
+				"answer": "Azure Event Hubs",
+				"isCorrect": false
+			},
+			{
+				"answer": "Azure Advisor",
+				"isCorrect": false
+			},
+			{
+				"answer": "Azure Security Center",
+				"isCorrect": true
+			}
+		]
+	},
+	{
+		"id": 18,
+		"question": "You need to consider the underlined segment to establish whether it is accurate.  \r\nYour company has a multi-tier application that has its front end hosted in Azure App Service.  \r\nTo pinpoint the average load times of the application pages, you should make use of Azure Event Hubs.  \r\nSelect `No adjustment required` if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option.",
+		"answer": [
+			{
+				"answer": "No adjustment required",
+				"isCorrect": false
+			},
+			{
+				"answer": "Azure Application Insights",
+				"isCorrect": true
+			},
+			{
+				"answer": "Azure Log Analytics",
+				"isCorrect": false
+			},
+			{
+				"answer": "Azure Advisor",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 19,
+		"question": "**_You need to consider the underlined segment to establish whether it is accurate._**  \r\nThe Burnup widget measures the elapsed time from creation of work items to their completion.  \r\nSelect `No adjustment required` if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option.",
+		"answer": [
+			{
+				"answer": "No adjustment required",
+				"isCorrect": false
+			},
+			{
+				"answer": "Lead time",
+				"isCorrect": true
+			},
+			{
+				"answer": "Test results trend",
+				"isCorrect": false
+			},
+			{
+				"answer": "Burndown",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 20,
+		"question": "**_You need to consider the underlined segment to establish whether it is accurate._**  \r\nTo deploy an application to a number of Azure virtual machines, you should create a <u>universal group</u>.  \r\nSelect `No adjustment required` if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option.",
+		"answer": [
+			{
+				"answer": "No adjustment required",
+				"isCorrect": false
+			},
+			{
+				"answer": "security",
+				"isCorrect": false
+			},
+			{
+				"answer": "deployment",
+				"isCorrect": true
+			},
+			{
+				"answer": "resource",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 21,
+		"question": "You intend to make use of Azure Artifacts to share packages that you wrote, tested, validated, and deployed.  \r\nYou want to use a solitary feed to release several builds of each package.  \r\nYou have to make sure that the release of packages that are in development is restricted.  \r\nWhich of the following actions should you take?",
+		"answer": [
+			{
+				"answer": "You should make use of static code analysis",
+				"isCorrect": false
+			},
+			{
+				"answer": "You should make use of views",
+				"isCorrect": false
+			},
+			{
+				"answer": "You should make use of dynamic code analysis",
+				"isCorrect": false
+			},
+			{
+				"answer": "You should make use of upstream sources",
+				"isCorrect": true
+			}
+		]
+	},
+	{
+		"id": 22,
+		"question": "You are in the process of building a mobile app aimed at Android and iOS devices.  \r\nAll work items and release cycles are managed via Azure DevOps.  \r\nYou want to make sure that crash reports for issue analysis is collected, and that beta releases are distributed to your testers. Also, you want to ensure that user feedback on the functionality of new apps is received.  \r\nWhich of the following must be part of your solution?",
+		"answer": [
+			{
+				"answer": "The Microsoft Test & Feedback extension",
+				"isCorrect": true
+			},
+			{
+				"answer": "OWASP ZAP",
+				"isCorrect": false
+			},
+			{
+				"answer": "TFS Integration Platform",
+				"isCorrect": false
+			},
+			{
+				"answer": "Code Style",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 23,
+		"question": "You have a Microsoft ASP.NET Core web app in Azure that is accessed worldwide.  \r\nYou need to run a URL ping test once every five minutes and create an alert when the web app is unavailable from specific Azure regions.  \r\nThe solution must minimize development time.  \r\nWhat should you do?",
+		"answer": [
+			{
+				"answer": "Create an Azure Monitor Availability metric and alert",
+				"isCorrect": false
+			},
+			{
+				"answer": "Create an Azure Application Insights availability test and alert",
+				"isCorrect": true
+			},
+			{
+				"answer": "Write an Azure function and deploy the function to the specific regions",
+				"isCorrect": false
+			},
+			{
+				"answer": "Create an Azure Service Health alert for the specific regions",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 24,
+		"question": "You have a multi-tier application. The front end of the application is hosted in Azure App Service.  \r\nYou need to identify the average load times of the application pages.  \r\nWhat should you use?",
+		"answer": [
+			{
+				"answer": "Azure Application Insights",
+				"isCorrect": true
+			},
+			{
+				"answer": "the activity log of the App Service",
+				"isCorrect": false
+			},
+			{
+				"answer": "the diagnostics logs of the App Service",
+				"isCorrect": false
+			},
+			{
+				"answer": "Azure Advisor",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 25,
+		"question": "Your company uses ServiceNow for incident management.  \r\nYou develop an application that runs on Azure.  \r\nThe company needs to generate a ticket in ServiceNow when the application fails to authenticate.  \r\nWhich Azure Log Analytics solution should you use?",
+		"answer": [
+			{
+				"answer": "Application Insights Connector",
+				"isCorrect": false
+			},
+			{
+				"answer": "Automation & Control",
+				"isCorrect": false
+			},
+			{
+				"answer": "IT Service Management Connector (ITSM)",
+				"isCorrect": true
+			},
+			{
+				"answer": "Insight & Analytics",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 26,
+		"question": "You use Azure SQL Database Intelligent Insights and Azure Application Insights for monitoring.  \r\nYou need to write ad-hoc queries against the monitoring data.  \r\nWhich query language should you use?",
+		"answer": [
+			{
+				"answer": "Kusto Query Language (KQL)",
+				"isCorrect": true
+			},
+			{
+				"answer": "PL/pgSQL",
+				"isCorrect": false
+			},
+			{
+				"answer": "PL/SQL",
+				"isCorrect": false
+			},
+			{
+				"answer": "Transact-SQL",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 27,
+		"question": "Your company is building a mobile app that targets Android and iOS devices.  \r\nYour team uses Azure DevOps to manage all work items and release cycles.  \r\nYou need to recommend a solution to perform the following tasks  \r\n✑ Collect crash reports for issue analysis.  \r\n✑ Distribute beta releases to your testers.  \r\n✑ Get user feedback on the functionality of new apps.  \r\nWhat should you include in the recommendation?",
+		"answer": [
+			{
+				"answer": "the Microsoft Test & Feedback extension",
+				"isCorrect": true
+			},
+			{
+				"answer": "Microsoft Visual Studio App Center integration",
+				"isCorrect": false
+			},
+			{
+				"answer": "Azure Application Insights widgets",
+				"isCorrect": false
+			},
+			{
+				"answer": "Jenkins integration",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 28,
+		"question": "You are monitoring the health and performance of an Azure web app by using Azure Application Insights.  \r\nYou need to ensure that an alert is sent when the web app has a sudden rise in performance issues and failures.  \r\nWhat should you use?",
+		"answer": [
+			{
+				"answer": "custom events",
+				"isCorrect": false
+			},
+			{
+				"answer": "Application Insights Profiler",
+				"isCorrect": false
+			},
+			{
+				"answer": "usage analysis",
+				"isCorrect": false
+			},
+			{
+				"answer": "Smart Detection Most",
+				"isCorrect": true
+			}
+		]
+	},
+	{
+		"id": 29,
+		"question": "You have a private GitHub repository.  \r\nYou need to display the commit status of the repository on Azure Boards.  \r\nWhat should you do first?",
+		"answer": [
+			{
+				"answer": "Configure multi-factor authentication (MFA) for your GitHub account",
+				"isCorrect": false
+			},
+			{
+				"answer": "Add the Azure Pipelines app to the GitHub repository",
+				"isCorrect": false
+			},
+			{
+				"answer": "Add the Azure Boards app to the repository",
+				"isCorrect": true
+			},
+			{
+				"answer": "Create a GitHub action in GitHub",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 30,
+		"question": "You are integrating Azure Pipelines and Microsoft Teams.  \r\nYou install the Azure Pipelines app in Microsoft Teams.  \r\nYou have an Azure DevOps organization named Contoso that contains a project name Project1.  \r\nYou subscribe to Project1 in Microsoft Teams.  \r\nYou need to ensure that you only receive events about failed builds in Microsoft Teams.  \r\nWhat should you do first?",
+		"answer": [
+			{
+				"answer": "From Microsoft Teams, run @azure pipelines subscribe  \r\n<https://dev.azure.com/Contoso/Project1>",
+				"isCorrect": true
+			},
+			{
+				"answer": "From Azure Pipelines, add a Publish Build Artifacts task to Project1",
+				"isCorrect": false
+			},
+			{
+				"answer": "From Microsoft Teams, run @azure pipelines subscriptions",
+				"isCorrect": false
+			},
+			{
+				"answer": "From Azure Pipelines, enable continuous integration for Project1",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 31,
+		"question": "You have an Azure DevOps organization named Contoso.  \r\nYou need to receive Microsoft Teams notifications when work items are updated.  \r\nWhat should you do?",
+		"answer": [
+			{
+				"answer": "From Azure DevOps, configure a service hook subscription",
+				"isCorrect": true
+			},
+			{
+				"answer": "From Microsoft Teams, configure a connector Most Voted",
+				"isCorrect": false
+			},
+			{
+				"answer": "From the Microsoft Teams admin center, configure external access",
+				"isCorrect": false
+			},
+			{
+				"answer": "From Microsoft Teams, add a channel",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 32,
+		"question": "You have an Azure virtual machine that is monitored by using Azure Monitor.  \r\nThe virtual machine has the Azure Log Analytics agent installed.  \r\nYou plan to deploy the Service Map solution from the Azure Marketplace.  \r\nWhat should you deploy to the virtual machine to support the Service Map solution?",
+		"answer": [
+			{
+				"answer": "the Dependency agent",
+				"isCorrect": true
+			},
+			{
+				"answer": "the Telegraf agent",
+				"isCorrect": false
+			},
+			{
+				"answer": "the Windows Azure diagnostics extension (WAD)",
+				"isCorrect": false
+			},
+			{
+				"answer": "the Azure monitor agent",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 33,
+		"question": "You have a web app hosted on Azure App Service. The web app stores data in an Azure SQL database.  \r\nYou need to generate an alert when there are 10,000 simultaneous connections to the database. The solution must minimize development effort.  \r\nWhich option should you select in the Diagnostics settings of the database?",
+		"answer": [
+			{
+				"answer": "Send to Log Analytics",
+				"isCorrect": true
+			},
+			{
+				"answer": "Stream to an event hub",
+				"isCorrect": false
+			},
+			{
+				"answer": "Archive to a storage account",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 34,
+		"question": "You build an iOS app.  \r\nYou receive crash reports from Crashlytics.  \r\nYou need to capture the following data  \r\n✑ Crash-free user  \r\n✑ Custom event  \r\n✑ Breadcrumb  \r\nWhat should you do?",
+		"answer": [
+			{
+				"answer": "Configure the xcworkspace file in the project",
+				"isCorrect": false
+			},
+			{
+				"answer": "Add the GoogleAnalytics pod to the app",
+				"isCorrect": false
+			},
+			{
+				"answer": "Configure the Crashlytics pod in the app",
+				"isCorrect": false
+			},
+			{
+				"answer": "Import the Firebase module to UIApplicationDelegate",
+				"isCorrect": true
+			}
+		]
+	},
+	{
+		"id": 35,
+		"question": "You have multiple teams that work on multiple projects in Azure DevOps.  \r\nYou need to plan and manage the consumers and producers for each project. The solution must provide an overview of all the projects.  \r\nWhat should you do?",
+		"answer": [
+			{
+				"answer": "Add a Predecessor or Successor link to the feature or user story for the items of each project",
+				"isCorrect": false
+			},
+			{
+				"answer": "Add a Parent or Child link to the feature or user story for the items of each project",
+				"isCorrect": false
+			},
+			{
+				"answer": "Install the Dependency Tracker extension and create dependencies for each project",
+				"isCorrect": true
+			},
+			{
+				"answer": "Create a custom query to show the consumers and producers and add a widget to a dashboard",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 36,
+		"question": "You have an Azure web app named webapp1 that uses the .NET Core runtime stack. You have an Azure Application Insights resource named AppInsights1. Webapp1 sends telemetry data to AppInsights1.  \r\nYou need to ensure that webapp1 sends the telemetry data at a fixed sampling rate.  \r\nWhat should you do?",
+		"answer": [
+			{
+				"answer": "From the code repository of webapp1, modify the ApplicationInsights.config file",
+				"isCorrect": false
+			},
+			{
+				"answer": "From the code repository of webapp1, modify the Startup.cs file",
+				"isCorrect": true
+			},
+			{
+				"answer": "From AppInsights1, modify the Usage and estimated costs settings",
+				"isCorrect": false
+			},
+			{
+				"answer": "From AppInsights1, configure the Continuous export settings",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 37,
+		"question": "You configure an Azure Application Insights availability test.  \r\nYou need to notify the customer services department at your company by email when availability is degraded.  \r\nYou create an Azure logic app that will handle the email and follow up actions.  \r\nWhich type of trigger should you use to invoke the logic app?",
+		"answer": [
+			{
+				"answer": "an HTTPWebhook trigger",
+				"isCorrect": true
+			},
+			{
+				"answer": "an HTTP trigger",
+				"isCorrect": false
+			},
+			{
+				"answer": "a Request trigger",
+				"isCorrect": false
+			},
+			{
+				"answer": "an ApiConnection trigger",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 38,
+		"question": "You have an Azure DevOps organization named Contoso and an Azure subscription.  \r\nYou use Azure DevOps to build a containerized app named App1 and deploy App1 to an Azure container instance named ACI1.  \r\nYou need to restart ACI1 when App1 stops responding.  \r\nWhat should you do?",
+		"answer": [
+			{
+				"answer": "Add a liveness probe to the YAML configuration of App1.",
+				"isCorrect": false
+			},
+			{
+				"answer": "Add a readiness probe to the YAML configuration of App1.",
+				"isCorrect": true
+			},
+			{
+				"answer": "Use Connection Monitor in Azure Network Watcher",
+				"isCorrect": false
+			},
+			{
+				"answer": "Use IP flow verify in Azure Network Watcher",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 39,
+		"question": "You have a multi-tier application that has an Azure Web Apps front end and an Azure SQL Database back end.  \r\nYou need to recommend a solution to capture and store telemetry data. The solution must meet the following requirements  \r\n✑ Support using ad-hoc queries to identify baselines.  \r\n✑ Trigger alerts when metrics in the baseline are exceeded.  \r\n✑ Store application and database metrics in a central location.  \r\nWhat should you include in the recommendation?",
+		"answer": [
+			{
+				"answer": "Azure Event Hubs",
+				"isCorrect": false
+			},
+			{
+				"answer": "Azure SQL Database Intelligent Insights",
+				"isCorrect": false
+			},
+			{
+				"answer": "Azure Application Insights",
+				"isCorrect": false
+			},
+			{
+				"answer": "Azure Log Analytics",
+				"isCorrect": true
+			}
+		]
+	},
+	{
+		"id": 40,
+		"question": "You have an Azure DevOps organization named Contoso and an Azure subscription. The subscription contains an Azure virtual machine scale set named VMSS1 that is configured for autoscaling.  \r\nYou use Azure DevOps to build a web app named App1 and deploy App1 to VMSS1. App1 is used heavily and has usage patterns that vary on a weekly basis.  \r\nYou need to recommend a solution to detect an abnormal rise in the rate of failed requests to App1. The solution must minimize administrative effort.  \r\nWhat should you include in the recommendation?",
+		"answer": [
+			{
+				"answer": "the Smart Detection feature in Azure Application Insights",
+				"isCorrect": true
+			},
+			{
+				"answer": "the Failures feature in Azure Application Insights",
+				"isCorrect": false
+			},
+			{
+				"answer": "an Azure Service Health alert",
+				"isCorrect": false
+			},
+			{
+				"answer": "an Azure Monitor alert that uses an Azure Log Analytics query",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 41,
+		"question": "You have an Azure subscription that contains resources in several resource groups.  \r\nYou need to design a monitoring strategy that will provide a consolidated view. The solution must support the following requirements  \r\n✑ Support role-based access control (RBAC) by using Azure Active Directory (Azure AD) identifies.  \r\n✑ Include visuals from Azure Monitor that are generated by using the Kusto query language.  \r\n✑ Support documentation written in markdown.  \r\n✑ Use the latest data available for each visual.  \r\nWhat should you use to create the consolidated view?",
+		"answer": [
+			{
+				"answer": "Azure Monitor",
+				"isCorrect": false
+			},
+			{
+				"answer": "Microsoft Power BI",
+				"isCorrect": false
+			},
+			{
+				"answer": "Azure Data Explorer",
+				"isCorrect": true
+			},
+			{
+				"answer": "Azure dashboards",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 42,
+		"question": "You are automating the testing process for your company.  \r\nYou need to automate UI testing of a web application.  \r\nWhich framework should you use?",
+		"answer": [
+			{
+				"answer": "JaCoco",
+				"isCorrect": false
+			},
+			{
+				"answer": "Selenium",
+				"isCorrect": true
+			},
+			{
+				"answer": "Xamarin.UITest",
+				"isCorrect": false
+			},
+			{
+				"answer": "Microsoft.CodeAnalysis",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 43,
+		"question": "You have an Azure DevOps organization named Contoso and an Azure subscription. The subscription contains an Azure virtual machine scale set named VMSS1 and an Azure Standard Load Balancer named LB1. LB1 distributes incoming requests across VMSS1 instances.  \r\nYou use Azure DevOps to build a web app named App1 and deploy App1 to VMSS1. App1 is accessible via HTTPS only and configured to require mutual authentication by using a client certificate.  \r\nYou need to recommend a solution for implementing a health check of App1. The solution must meet the following requirements  \r\n✑ Identify whether individual instances of VMSS1 are eligible for an upgrade operation.  \r\n✑ Minimize administrative effort.  \r\nWhat should you include in the recommendation?",
+		"answer": [
+			{
+				"answer": "an Azure Load Balancer health probe",
+				"isCorrect": false
+			},
+			{
+				"answer": "Azure Monitor autoscale",
+				"isCorrect": false
+			},
+			{
+				"answer": "the Custom Script Extension",
+				"isCorrect": false
+			},
+			{
+				"answer": "the Application Health extension",
+				"isCorrect": true
+			}
+		]
+	},
+	{
+		"id": 44,
+		"question": "Your company hosts a web application in Azure. The company uses Azure Pipelines for the build and release management of the application.  \r\nStakeholders report that the past few releases have negatively affected system performance.  \r\nYou configure alerts in Azure Monitor.  \r\nYou need to ensure that new releases are only deployed to production if the releases meet defined performance baseline criteria in the staging environment first.  \r\nWhat should you use to prevent the deployment of releases that fall to meet the performance baseline?",
+		"answer": [
+			{
+				"answer": "an Azure Scheduler job",
+				"isCorrect": false
+			},
+			{
+				"answer": "a trigger",
+				"isCorrect": false
+			},
+			{
+				"answer": "a gate",
+				"isCorrect": true
+			},
+			{
+				"answer": "an Azure function",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 45,
+		"question": "You use Azure Pipelines to manage build pipelines, GitHub to store source code, and Dependabot to manage dependencies.  \r\nYou have an app named App1.  \r\nDependabot detects a dependency in App1 that requires an update.  \r\nWhat should you do first to apply the update?",
+		"answer": [
+			{
+				"answer": "Create a pull request",
+				"isCorrect": false
+			},
+			{
+				"answer": "Approve the pull request",
+				"isCorrect": true
+			},
+			{
+				"answer": "Create a branch",
+				"isCorrect": false
+			},
+			{
+				"answer": "Perform a commit",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 46,
+		"question": "You are designing a configuration management solution to support five apps hosted on Azure App Service. Each app is available in the following three environments: development, test, and production.  \r\nYou need to recommend a configuration management solution that meets the following requirements  \r\n✑ Supports feature flag  \r\n✑ Tracks configuration changes from the past 30 day  \r\n✑ Stores hierarchically structured configuration value  \r\n✑ Controls access to the configurations by using role-based access control (RBAC) permission  \r\n✑ Stores shared values as key/value pairs that can be used by all the app  \r\nWhich Azure service should you recommend as the configuration management solution?",
+		"answer": [
+			{
+				"answer": "Azure Cosmos DB",
+				"isCorrect": false
+			},
+			{
+				"answer": "Azure App Service",
+				"isCorrect": false
+			},
+			{
+				"answer": "Azure App Configuration",
+				"isCorrect": true
+			},
+			{
+				"answer": "Azure Key Vault",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 47,
+		"question": "You have a containerized solution that runs in Azure Container Instances. The solution contains a frontend container named App1 and a backend container named DB1. DB1 loads a large amount of data during startup.  \r\nYou need to verify that DB1 can handle incoming requests before users can submit requests to App1.  \r\nWhat should you configure?",
+		"answer": [
+			{
+				"answer": "a liveness probe",
+				"isCorrect": false
+			},
+			{
+				"answer": "a performance log",
+				"isCorrect": false
+			},
+			{
+				"answer": "a readiness probe",
+				"isCorrect": true
+			},
+			{
+				"answer": "an Azure Load Balancer health probe",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 48,
+		"question": "You have several Azure Active Directory (Azure AD) accounts.  \r\nYou need to ensure that users use multi-factor authentication (MFA) to access Azure apps from untrusted networks.  \r\nWhat should you configure in Azure AD?",
+		"answer": [
+			{
+				"answer": "access reviews",
+				"isCorrect": false
+			},
+			{
+				"answer": "managed identities",
+				"isCorrect": false
+			},
+			{
+				"answer": "entitlement management",
+				"isCorrect": false
+			},
+			{
+				"answer": "conditional access",
+				"isCorrect": true
+			}
+		]
+	},
+	{
+		"id": 49,
+		"question": "You plan to provision a self-hosted Linux agent.  \r\nWhich authentication mechanism should you use to register the self-hosted agent?",
+		"answer": [
+			{
+				"answer": "personal access token (PAT)",
+				"isCorrect": true
+			},
+			{
+				"answer": "SSH key",
+				"isCorrect": false
+			},
+			{
+				"answer": "Alternate credentials",
+				"isCorrect": false
+			},
+			{
+				"answer": "certificate",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 50,
+		"question": "You are building a Microsoft ASP.NET application that requires authentication.  \r\nYou need to authenticate users by using Azure Active Directory (Azure AD).  \r\nWhat should you do first?",
+		"answer": [
+			{
+				"answer": "Assign an enterprise application to users and groups",
+				"isCorrect": false
+			},
+			{
+				"answer": "Create an app registration in Azure AD",
+				"isCorrect": true
+			},
+			{
+				"answer": "Configure the application to use a SAML endpoint",
+				"isCorrect": false
+			},
+			{
+				"answer": "Create a new OAuth token from the application",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 51,
+		"question": "You have an Azure DevOps organization named Contoso.  \r\nYou need to recommend an authentication mechanism that meets the following requirements  \r\n✑ Supports authentication from Gi  \r\n✑ Minimizes the need to provide credentials during authenticatio  \r\nWhat should you recommend?",
+		"answer": [
+			{
+				"answer": "personal access tokens (PATs) in Azure DevOps",
+				"isCorrect": true
+			},
+			{
+				"answer": "Alternate credentials in Azure DevOps",
+				"isCorrect": false
+			},
+			{
+				"answer": "user accounts in Azure Active Directory (Azure AD)",
+				"isCorrect": false
+			},
+			{
+				"answer": "managed identities in Azure Active Directory (Azure AD)",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 52,
+		"question": "You have an application that consists of several Azure App Service web apps and Azure functions.  \r\nYou need to assess the security of the web apps and the functions.  \r\nWhich Azure feature can you use to provide a recommendation for the security of the application?",
+		"answer": [
+			{
+				"answer": "Security & Compliance in Azure Log Analytics",
+				"isCorrect": false
+			},
+			{
+				"answer": "Resource health in Azure Service Health",
+				"isCorrect": false
+			},
+			{
+				"answer": "Smart Detection in Azure Application Insights",
+				"isCorrect": false
+			},
+			{
+				"answer": "Compute & apps in Azure Security Center",
+				"isCorrect": true
+			}
+		]
+	},
+	{
+		"id": 53,
+		"question": "Your company has a project in Azure DevOps for a new web application.  \r\nThe company identifies security as one of the highest priorities.  \r\nYou need to recommend a solution to minimize the likelihood that infrastructure credentials will be leaked.  \r\nWhat should you recommend?",
+		"answer": [
+			{
+				"answer": "Add a Run Inline Azure PowerShell task to the pipeline.",
+				"isCorrect": false
+			},
+			{
+				"answer": "Add a PowerShell task to the pipeline and run Set-AzureKeyVaultSecret.",
+				"isCorrect": true
+			},
+			{
+				"answer": "Add an Azure Key Vault task to the pipeline.",
+				"isCorrect": false
+			},
+			{
+				"answer": "Add Azure Key Vault references to Azure Resource Manger templates.",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 54,
+		"question": "You create a Microsoft ASP.NET Core application.  \r\nYou plan to use Azure Key Vault to provide secrets to the application as configuration data.  \r\nYou need to create a Key Vault access policy to assign secret permissions to the application. The solution must use the principle of least privilege.  \r\nWhich secret permissions should you use?",
+		"answer": [
+			{
+				"answer": "List only",
+				"isCorrect": false
+			},
+			{
+				"answer": "Get only",
+				"isCorrect": true
+			},
+			{
+				"answer": "Get and List",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 55,
+		"question": "You have a branch policy in a project in Azure DevOps. The policy requires that code always builds successfully.  \r\nYou need to ensure that a specific user can always merge changes to the master branch, even if the code fails to compile. The solution must use the principle of least privilege.  \r\nWhat should you do?",
+		"answer": [
+			{
+				"answer": "Add the user to the Build Administrators group.",
+				"isCorrect": false
+			},
+			{
+				"answer": "Add the user to the Project Administrators group.",
+				"isCorrect": false
+			},
+			{
+				"answer": "From the Security settings of the repository, modify the access control for the user.",
+				"isCorrect": false
+			},
+			{
+				"answer": "From the Security settings of the branch, modify the access control for the user.",
+				"isCorrect": true
+			}
+		]
+	},
+	{
+		"id": 56,
+		"question": "You have an Azure Resource Manager template that deploys a multi-tier application.  \r\nYou need to prevent the user who performs the deployment from viewing the account credentials and connection strings used by the application.  \r\nWhat should you use?",
+		"answer": [
+			{
+				"answer": "Azure Key Vault Most Voted",
+				"isCorrect": true
+			},
+			{
+				"answer": "a Web.config file",
+				"isCorrect": false
+			},
+			{
+				"answer": "an Appsettings.json file",
+				"isCorrect": false
+			},
+			{
+				"answer": "an Azure Storage table",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 57,
+		"question": "You have an Azure DevOps organization named Contoso that contains a project named Project1.  \r\nYou provision an Azure key vault named Keyvault1.  \r\nYou need to reference Keyvault1 secrets in a build pipeline of Project1.  \r\nWhat should you do first?",
+		"answer": [
+			{
+				"answer": "Add a secure file to Project1.",
+				"isCorrect": false
+			},
+			{
+				"answer": "Create an XAML build service.",
+				"isCorrect": false
+			},
+			{
+				"answer": "Create a variable group in Project1.",
+				"isCorrect": false
+			},
+			{
+				"answer": "Configure the security policy of Contoso.",
+				"isCorrect": true
+			}
+		]
+	},
+	{
+		"id": 58,
+		"question": "Your company uses Azure DevOps.  \r\nOnly users who have accounts in Azure Active Directory can access the Azure DevOps environment.  \r\nYou need to ensure that only devices that are connected to the on-premises network can access the Azure DevOps environment.  \r\nWhat should you do?",
+		"answer": [
+			{
+				"answer": "Assign the Stakeholder access level to all users.",
+				"isCorrect": false
+			},
+			{
+				"answer": "In Azure Active Directory, configure risky sign-ins.",
+				"isCorrect": false
+			},
+			{
+				"answer": "In Azure DevOps, configure Security in Project Settings.",
+				"isCorrect": false
+			},
+			{
+				"answer": "In Azure Active Directory, configure conditional access.",
+				"isCorrect": true
+			}
+		]
+	},
+	{
+		"id": 59,
+		"question": "You have an Azure DevOps organization named Contoso, an Azure DevOps project named Project1, an Azure subscription named Sub1, and an Azure key vault named vault1.  \r\nYou need to ensure that you can reference the values of the secrets stored in vault1 in all the pipelines of Project1. The solution must prevent the values from being stored in the pipelines.  \r\nWhat should you do?",
+		"answer": [
+			{
+				"answer": "Create a variable group in Project1.",
+				"isCorrect": true
+			},
+			{
+				"answer": "Add a secure file to Project1.",
+				"isCorrect": false
+			},
+			{
+				"answer": "Modify the security settings of the pipelines.",
+				"isCorrect": false
+			},
+			{
+				"answer": "Configure the security policy of Contoso.",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 60,
+		"question": "You need to configure GitHub to use Azure Active Directory (Azure AD) for authentication.  \r\nWhat should you do first?",
+		"answer": [
+			{
+				"answer": "Create a conditional access policy in Azure AD.",
+				"isCorrect": false
+			},
+			{
+				"answer": "Register GitHub in Azure AD.",
+				"isCorrect": true
+			},
+			{
+				"answer": "Create an Azure Active Directory B2C (Azure AD B2C) tenant.",
+				"isCorrect": false
+			},
+			{
+				"answer": "Modify the Security settings of the GitHub organization.",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 61,
+		"question": "You have an Azure DevOps project named Project1 and an Azure subscription named Sub1.  \r\nYou need to prevent releases from being deployed unless the releases comply with the Azure Policy rules assigned to Sub1.  \r\nWhat should you do in the release pipeline of Project1?",
+		"answer": [
+			{
+				"answer": "Add a deployment gate.",
+				"isCorrect": true
+			},
+			{
+				"answer": "Modify the Deployment queue settings.",
+				"isCorrect": false
+			},
+			{
+				"answer": "Configure a deployment trigger.",
+				"isCorrect": false
+			},
+			{
+				"answer": "Create a pipeline variable.",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 62,
+		"question": "You have an Azure DevOps project that contains a build pipeline. The build pipeline uses approximately 50 open source libraries.  \r\nYou need to ensure that all the open source libraries comply with your company's licensing standards.  \r\nWhich service should you use?",
+		"answer": [
+			{
+				"answer": "Ansible",
+				"isCorrect": false
+			},
+			{
+				"answer": "Maven",
+				"isCorrect": false
+			},
+			{
+				"answer": "WhiteSource Mend",
+				"isCorrect": true
+			},
+			{
+				"answer": "Helm",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 63,
+		"question": "You are designing the security validation strategy for a project in Azure DevOps.  \r\nYou need to identify package dependencies that have known security issues and can be resolved by an update.  \r\nWhat should you use?",
+		"answer": [
+			{
+				"answer": "Octopus Deploy",
+				"isCorrect": true
+			},
+			{
+				"answer": "Jenkins",
+				"isCorrect": false
+			},
+			{
+				"answer": "Gradle",
+				"isCorrect": false
+			},
+			{
+				"answer": "SonarQube",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 64,
+		"question": "Your company is concerned that when developers introduce open source libraries, it creates licensing compliance issues.  \r\nYou need to add an automated process to the build pipeline to detect when common open source libraries are added to the code base.  \r\nWhat should you use?",
+		"answer": [
+			{
+				"answer": "Microsoft Visual SourceSafe",
+				"isCorrect": false
+			},
+			{
+				"answer": "Code Style",
+				"isCorrect": false
+			},
+			{
+				"answer": "Black Duck",
+				"isCorrect": true
+			},
+			{
+				"answer": "Jenkins",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 65,
+		"question": "Your company develops an app for iOS. All users of the app have devices that are members of a private distribution group in Microsoft Visual Studio App Center.  \r\nYou plan to distribute a new release of the app.  \r\nYou need to identify which certificate file you require to distribute the new release from App Center.  \r\nWhich file type should you upload to App Center?",
+		"answer": [
+			{
+				"answer": ".cer",
+				"isCorrect": false
+			},
+			{
+				"answer": ".pfx",
+				"isCorrect": false
+			},
+			{
+				"answer": ".p12",
+				"isCorrect": true
+			},
+			{
+				"answer": ".pvk",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 66,
+		"question": "You plan to use a NuGet package in a project in Azure DevOps. The NuGet package is in a feed that requires authentication.  \r\nYou need to ensure that the project can restore the NuGet package automatically.  \r\nWhat should the project use to automate the authentication?",
+		"answer": [
+			{
+				"answer": "an Azure Automation account",
+				"isCorrect": false
+			},
+			{
+				"answer": "an Azure Artifacts Credential Provider",
+				"isCorrect": true
+			},
+			{
+				"answer": "an Azure Active Directory (Azure AD) account that has multi-factor authentication (MFA) enabled",
+				"isCorrect": false
+			},
+			{
+				"answer": "an Azure Active Directory (Azure AD) service principal",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 67,
+		"question": "You use Azure Pipelines to manage project builds and deployments.  \r\nYou plan to use Azure Pipelines for Microsoft Teams to notify the legal team when a new build is ready for release.  \r\nYou need to configure the Organization Settings in Azure DevOps to support Azure Pipelines for Microsoft Teams.  \r\nWhat should you turn on?",
+		"answer": [
+			{
+				"answer": "Third-party application access via OAuth",
+				"isCorrect": false
+			},
+			{
+				"answer": "Azure Active Directory Conditional Access Policy Validation",
+				"isCorrect": false
+			},
+			{
+				"answer": "Alternate authentication credentials",
+				"isCorrect": false
+			},
+			{
+				"answer": "SSH authentication",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 68,
+		"question": "You have an existing project in Azure DevOps.  \r\nYou plan to integrate GitHub as the repository for the project.  \r\nYou need to ensure that Azure Pipelines runs under the Azure Pipelines identity.  \r\nWhich authentication mechanism should you use?",
+		"answer": [
+			{
+				"answer": "personal access token (PAT)",
+				"isCorrect": false
+			},
+			{
+				"answer": "GitHub App",
+				"isCorrect": true
+			},
+			{
+				"answer": "Azure Active Directory (Azure AD)",
+				"isCorrect": false
+			},
+			{
+				"answer": "OAuth",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 69,
+		"question": "You use release pipelines in Azure Pipelines to deploy an app. Secrets required be the pipeline are stored as pipeline variables. Logging of commands is enabled for the Azure Pipelines agent.  \r\nYou need to prevent the values of the secrets from being logged.  \r\nWhat should you do?",
+		"answer": [
+			{
+				"answer": "Store the secrets in the environment variables instead of the pipeline variables.",
+				"isCorrect": true
+			},
+			{
+				"answer": "Pass the secrets on the command line instead of in the pipeline variables.",
+				"isCorrect": false
+			},
+			{
+				"answer": "Apply a prefix of secret to the name of the variables.",
+				"isCorrect": false
+			},
+			{
+				"answer": "Echo the values of the secrets to the command line.",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 70,
+		"question": "You have an Azure subscription linked to an Azure Active Directory Premium Plan 1 tenant.  \r\nA security review indicates that too many users have privileged access to resources.  \r\nYou need to deploy a privileged access management solution that meets the following requirements:  \r\n• Enforces time limits on the use of privileged access  \r\n• Requires approval to activate privileged access  \r\n• Minimizes costs  \r\nWhat should you do first?",
+		"answer": [
+			{
+				"answer": "Configure notifications when privileged roles are activated.",
+				"isCorrect": false
+			},
+			{
+				"answer": "Configure alerts for the activation of privileged roles.",
+				"isCorrect": false
+			},
+			{
+				"answer": "Enforce Azure Multi-Factor Authentication (MFA) for role activation.",
+				"isCorrect": false
+			},
+			{
+				"answer": "Upgrade the license of the Azure Active Directory (Azure AD) tenant.",
+				"isCorrect": true
+			}
+		]
+	},
+	{
+		"id": 71,
+		"question": "You plan to create a GitHub workflow that will use GitHub Actions. The actions will require a 256-KB secret.  \r\nYou need to recommend a solution to store and encrypt the secret. The secret value must be accessible only to the workflow. The solution must minimize administrative effort  \r\nWhat should you recommend?",
+		"answer": [
+			{
+				"answer": "Store the secret in the organization-level GitHub secrets.",
+				"isCorrect": false
+			},
+			{
+				"answer": "Store the secret in the repository-level GitHub secrets.",
+				"isCorrect": false
+			},
+			{
+				"answer": "Encrypt the secret value and store the value in the repository.  \r\nStore the decryption key in the repository-level GitHub secrets.",
+				"isCorrect": true
+			},
+			{
+				"answer": "Encrypt the secret value and store the value in the repository.  \r\nStore the decryption key in the organization-level GitHub secrets.",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 72,
+		"question": "You have a GitHub Enterprise account.  \r\nYou need to enable push protection for secret scanning of the account repositories.  \r\nWhat should you do first?",
+		"answer": [
+			{
+				"answer": "Purchase a GitHub Advanced Security license.",
+				"isCorrect": true
+			},
+			{
+				"answer": "Purchase Premium Plus support.",
+				"isCorrect": false
+			},
+			{
+				"answer": "Enforce multi-factor authentication (MFA).",
+				"isCorrect": false
+			},
+			{
+				"answer": "Create an access policy for secrets.",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 73,
+		"question": "You are designing the development process for your company.  \r\nYou need to recommend a solution for continuous inspection of the company's code base to locate common code patterns that are known to be problematic.  \r\nWhat should you include in the recommendation?",
+		"answer": [
+			{
+				"answer": "Microsoft Visual Studio test plans",
+				"isCorrect": false
+			},
+			{
+				"answer": "Gradle wrapper scripts",
+				"isCorrect": false
+			},
+			{
+				"answer": "SonarCloud analysis",
+				"isCorrect": true
+			},
+			{
+				"answer": "the JavaScript task runner",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 74,
+		"question": "Your company is building a new solution in Java.  \r\nThe company currently uses a SonarQube server to analyze the code of .NET solutions.  \r\nYou need to analyze and monitor the code quality of the Java solution.  \r\nWhich task types should you add to the build pipeline?",
+		"answer": [
+			{
+				"answer": "Gradle",
+				"isCorrect": true
+			},
+			{
+				"answer": "CocoaPods",
+				"isCorrect": false
+			},
+			{
+				"answer": "Grunt",
+				"isCorrect": false
+			},
+			{
+				"answer": "Gulp",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 75,
+		"question": "Your company uses Azure DevOps for the build pipelines and deployment pipelines of Java-based projects.  \r\nYou need to recommend a strategy for managing technical debt.  \r\nWhich action should you include in the recommendation?",
+		"answer": [
+			{
+				"answer": "Configure post-deployment approvals in the deployment pipeline.",
+				"isCorrect": false
+			},
+			{
+				"answer": "Integrate Azure DevOps and SonarQube.",
+				"isCorrect": true
+			},
+			{
+				"answer": "Integrate Azure DevOps and Azure DevTest Labs.",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 76,
+		"question": "During a code review, you discover many quality issues. Many modules contain unused variables and empty catch blocks.  \r\nYou need to recommend a solution to improve the quality of the code.  \r\nWhat should you recommend?",
+		"answer": [
+			{
+				"answer": "In a Grunt build task, select Enabled from Control Options.",
+				"isCorrect": false
+			},
+			{
+				"answer": "In a Maven build task, select Run PMD.",
+				"isCorrect": true
+			},
+			{
+				"answer": "In a Xcode build task, select Use xcpretty from Advanced.",
+				"isCorrect": false
+			},
+			{
+				"answer": "In a Gradle build task, select Run Checkstyle.",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 77,
+		"question": "You have a GitHub repository.  \r\nYou create a new repository in Azure DevOps.  \r\nYou need to recommend a procedure to clone the repository from GitHub to Azure DevOps.  \r\nWhat should you recommend?",
+		"answer": [
+			{
+				"answer": "Create a pull request.",
+				"isCorrect": false
+			},
+			{
+				"answer": "Create a webhook.",
+				"isCorrect": false
+			},
+			{
+				"answer": "Create a service connection for GitHub.",
+				"isCorrect": false
+			},
+			{
+				"answer": "From Import a Git repository, click Import.",
+				"isCorrect": true
+			}
+		]
+	},
+	{
+		"id": 78,
+		"question": "During a code review, you discover quality issues in a Java application.  \r\nYou need to recommend a solution to detect quality issues including unused variables and empty catch blocks.  \r\nWhat should you recommend?",
+		"answer": [
+			{
+				"answer": "In a Maven build task, select Run PMD.",
+				"isCorrect": true
+			},
+			{
+				"answer": "In an Xcode build task, select Use xcpretty from Advanced.",
+				"isCorrect": false
+			},
+			{
+				"answer": "In a Gulp build task, specify a custom condition expression.",
+				"isCorrect": false
+			},
+			{
+				"answer": "In a Grunt build task, select Enabled from Control Options.",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 79,
+		"question": "You use Azure Artifacts to host NuGet packages that you create.  \r\nYou need to make one of the packages available to anonymous users outside your organization. The solution must minimize the number of publication points.  \r\nWhat should you do?",
+		"answer": [
+			{
+				"answer": "Change the feed URL of the package",
+				"isCorrect": false
+			},
+			{
+				"answer": "Create a new feed for the package",
+				"isCorrect": true
+			},
+			{
+				"answer": "Promote the package to a release view.",
+				"isCorrect": false
+			},
+			{
+				"answer": "Publish the package to a public NuGet repository.",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 80,
+		"question": "You have an Azure Automation account that contains a runbook. The runbook is used to configure the application infrastructure of an Azure subscription.  \r\nYou have a project in Azure DevOps named Project1. Project1 contains a repository that stores code for the runbook.  \r\nYou need to ensure that every committed change to the code will update automatically and publish the runbook to Azure Automation.  \r\nWhat should you configure?",
+		"answer": [
+			{
+				"answer": "the Service hooks settings for Project1",
+				"isCorrect": false
+			},
+			{
+				"answer": "the Connections settings for the Automation account",
+				"isCorrect": false
+			},
+			{
+				"answer": "the Source control settings for the Automation account",
+				"isCorrect": true
+			},
+			{
+				"answer": "the Service connections settings for Project1",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 81,
+		"question": "You have a GitHub repository that contains multiple versions of an Azure Pipelines template.  \r\nYou plan to deploy multiple pipelines that will use a template stored in the repository.  \r\nYou need to ensure that you use a fixed version of the template.  \r\nWhat should you use to reference which version of the template repository to use?",
+		"answer": [
+			{
+				"answer": "the serial",
+				"isCorrect": false
+			},
+			{
+				"answer": "the SHA-based hashes",
+				"isCorrect": false
+			},
+			{
+				"answer": "the runner",
+				"isCorrect": false
+			},
+			{
+				"answer": "the branch",
+				"isCorrect": true
+			}
+		]
+	},
+	{
+		"id": 82,
+		"question": "Your company has 60 developers who are assigned to four teams. Each team has 15 members.  \r\nThe company uses an agile development methodology.  \r\nYou need to structure the work of the development teams so that each team owns their respective work while working together to reach a common goal.  \r\nWhich parts of the taxonomy should you enable the team to perform autonomously?",
+		"answer": [
+			{
+				"answer": "Features and Tasks",
+				"isCorrect": true
+			},
+			{
+				"answer": "Initiatives and Epics",
+				"isCorrect": false
+			},
+			{
+				"answer": "Epics and Features",
+				"isCorrect": false
+			},
+			{
+				"answer": "Stories and Tasks",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 83,
+		"question": "Your company creates a new Azure DevOps team.  \r\nYou plan to use Azure DevOps for sprint planning.  \r\nYou need to visualize the flow of your work by using an agile methodology.  \r\nWhich Azure DevOps component should you use?",
+		"answer": [
+			{
+				"answer": "Kanban boards",
+				"isCorrect": true
+			},
+			{
+				"answer": "sprint planning",
+				"isCorrect": false
+			},
+			{
+				"answer": "delivery plans",
+				"isCorrect": false
+			},
+			{
+				"answer": "portfolio backlogs",
+				"isCorrect": false
+			}
+		]
+	},
+	{
+		"id": 84,
+		"question": "Your team uses an agile development approach.  \r\nYou need to recommend a branching strategy for the team's Git repository. The strategy must meet the following requirements.  \r\n✑ Provide the ability to work on multiple independent tasks in parallel.  \r\n✑ Ensure that checked-in code remains in a releasable state always.  \r\n✑ Ensure that new features can be abandoned at any time.  \r\n✑ Encourage experimentation.  \r\nWhat should you recommend?",
+		"answer": [
+			{
+				"answer": "a single long-running branch without forking",
+				"isCorrect": false
+			},
+			{
+				"answer": "multiple long-running branches",
+				"isCorrect": false
+			},
+			{
+				"answer": "a single fork per team member",
+				"isCorrect": false
+			},
+			{
+				"answer": "a single long-running branch with multiple short-lived feature branches",
+				"isCorrect": true
+			}
+		]
+	},
+	{
+		"id": 85,
+		"question": "You have a project in Azure DevOps that has a release pipeline.  \r\nYou need to integrate work item tracking and an Agile project management system to meet the following requirements:  \r\n✑ Ensure that developers can track whether their commits are deployed to production.  \r\n✑ Report the deployment status.  \r\n✑ Minimize integration effort.  \r\nWhich system should you use?",
+		"answer": [
+			{
+				"answer": "Asana",
+				"isCorrect": false
+			},
+			{
+				"answer": "Basecamp",
+				"isCorrect": false
+			},
+			{
+				"answer": "Trello",
+				"isCorrect": false
+			},
+			{
+				"answer": "Jira",
+				"isCorrect": true
+			}
+		]
+	},
+	{
+		"id": 86,
+		"question": "You plan to onboard 10 new developers.  \r\nYou need to recommend a development environment that meets the following requirements:  \r\n✑ Integrates with GitHub  \r\n✑ Provides integrated debugging tools  \r\n✑ Supports remote workers and hot-desking environments  \r\n✑ Supports developers who use browsers, tablets, and Chromebooks  \r\nWhat should you recommend?",
+		"answer": [
+			{
+				"answer": "VS Code",
+				"isCorrect": false
+			},
+			{
+				"answer": "Xamarin Studio",
+				"isCorrect": false
+			},
+			{
+				"answer": "MonoDevelop",
+				"isCorrect": false
+			},
+			{
+				"answer": "Github Codespaces",
+				"isCorrect": true
+			}
+		]
+	}
 ]

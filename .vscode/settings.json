@@ -11,5 +11,14 @@
         ".jekyll-cache": true,
         "_site": true
     },
-    "explorerExclude.backup": null
+    "explorerExclude.backup": null,
+    "sqltools.useNodeRuntime": true,
+    "sqltools.connections": [
+        {
+            "previewLimit": 100,
+            "driver": "SQLite",
+            "name": "Test",
+            "database": "${workspaceFolder:wralex.github.io}/assets/data/test.db"
+        }
+    ]
 }
