@@ -35,17 +35,20 @@ function StartQuiz() {
   
   $.getJSON(_file, (data) =>
   {
+
     while (shuffledQuestions.length < _amount) {
       var indx = Math.floor(Math.random() * data.length);
       var random = data[indx];
       shuffledQuestions.push(random);
       data.splice(indx, 1);
     }
-    for (var i = 0; i < shuffledQuestions.length; i++){
-      for (var j = 0; j < shuffledQuestions[i].correctOption.length; j++){
-        totalAttempt++;
+
+    for (var i = 0; i < shuffledQuestions.length; i++) {
+      for (var j = 0; j < shuffledQuestions[i].answers.length; j++) {
+        if(shuffledQuestions[i].answers[j].isCorrect == true){totalAttempt++;}        
       }
     }
+
     SetQuestion(shuffledQuestions[indexNumber++]);
     DisplayStats();
   });
@@ -64,62 +67,54 @@ function DisplayStats(){
 function SetQuestion(item){
   $("#question").html(MdToHtml(item.question));
 
-  var options = [
-    {text: item.optionA, letter: "A"},
-    {text: item.optionB, letter: "B"},
-    {text: item.optionC, letter: "C"},
-    {text: item.optionD, letter: "D"},
-    {text: item.optionE, letter: "E"},
-    {text: item.optionF, letter: "F"}
-  ];
+  var letters = ["A", "B", "C", "D", "E", "F"];
 
-  var orig = [];
-
-  for (var i = 0; i < options.length; i++) {
-    var textVal = options[i].text ?? "";
-    if (textVal !== "") {
-      orig.push(
-        {
-          ans: (textVal.indexOf("\n") >= 0) ? MdToHtml(textVal) : textVal,
-          isRight: item.correctOption.includes(options[i].letter) ?? false
-        });
-    }
+  var options = [];
+  for (var i = 0; i < item.answers.length; i++) {
+    options.push({
+      text: MdToHtml(item.answers[i].answer),
+      isCorrect: item.answers[i].isCorrect
+    });
   }
-  
-  var finalLen = orig.length;
+  console.log(options);
+  var finalLen = options.length;
+
   var shuffAnswers = [];
   while (shuffAnswers.length < finalLen) {
-    var i = Math.floor(Math.random() * orig.length);
-    var random = orig[i];
+    var i = Math.floor(Math.random() * options.length);
+    var random = options[i];
     shuffAnswers.push(random);
-    orig.splice(i, 1);
+    options.splice(i, 1);
   }
 
-  for (var i=0; i<options.length; i++) {
-    var answer = shuffAnswers[i]?.ans ?? "";
-    var isCorrect = shuffAnswers[i]?.isRight ?? false;
-
-    $("#option" + options[i].letter +"-text").html(answer);
-    $("#option" + options[i].letter +"-isRight").val(isCorrect);
-
-    if (answer == ""){
-      $("#option" + options[i].letter +"-div").hide();
+  for (var i = 0; i < letters.length; i++) {
+    if (shuffAnswers.length > i) {
+      $("#option" + letters[i] +"-text").html(shuffAnswers[i].text);
+      $("#option" + letters[i] +"-isRight").val(shuffAnswers[i].isCorrect);
+      $("#option" + letters[i] +"-div").show();
     } else {
-      $("#option" + options[i].letter +"-div").show();
+      $("#option" + letters[i] +"-text").html("");
+      $("#option" + letters[i] +"-isRight").val(false);
+      $("#option" + letters[i] +"-div").hide();
     }
   }
 }
 
 function handleNextQuestion() {
+
   $("#next-button").attr('disabled', 'disabled');
+  
   checkForAnswer();
+  
   if (indexNumber < _amount) {
-    setTimeout(function () {
-      unCheckRadioButtons()
-      DisplayStats();
-      SetQuestion(shuffledQuestions[indexNumber++]);
-      $("#next-button").removeAttr('disabled');
-    }, 2000);
+    setTimeout(
+      function () {
+        unCheckRadioButtons();
+        DisplayStats();
+        SetQuestion(shuffledQuestions[indexNumber++]);
+        $("#next-button").removeAttr('disabled');
+      }, 2000
+    );
   } else {
     handleEndGame();
   }
@@ -130,7 +125,7 @@ function handleEndGame(){
 
 function checkForAnswer() {
   var options = $('[name="options"]');
-  for(var i = 0; i < options.length;i++){
+  for(var i = 0; i < options.length;i++) {
     var elemId = "#" + options[i].id;
     var option = $(elemId)[0];
     var isright = $(elemId + "-isRight")[0];
@@ -154,7 +149,7 @@ function checkForAnswer() {
 function unCheckRadioButtons() {
   var arrAll = arrGood.concat(arrBad);
   var options = $('[name="options"]');
-  for(var i = 0; i < options.length;i++){
+  for(var i = 0; i < options.length; i++) {
     var elemId = "#" + options[i].id;
     $(elemId + "-text").removeClass(arrAll);
     options[i].checked = false;
