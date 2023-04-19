@@ -15,10 +15,10 @@
     "sqltools.useNodeRuntime": true,
     "sqltools.connections": [
         {
-            "previewLimit": 100,
+            "previewLimit": 500,
             "driver": "SQLite",
-            "name": "Test",
-            "database": "${workspaceFolder:wralex.github.io}/assets/data/test.db"
+            "name": "Quiz",
+            "database": "${workspaceFolder:wralex.github.io}/assets/data/quiz.db"
         }
     ]
 }
