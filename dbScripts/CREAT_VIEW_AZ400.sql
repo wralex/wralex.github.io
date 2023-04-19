@@ -1,7 +1,7 @@
 DROP VIEW IF EXISTS AZ400;
 
 CREATE VIEW AZ400 AS
-SELECT json_group_array(json(replace(replace(questions, '\\r', '\r'), '\\n', '\n'))) as 'AZ400JSON'
+SELECT json_group_array(json(replace(replace(replace(replace(questions, '\\r', '\r'), '\\n', '\n'), ':"true"', ':true'), ':"false"', ':false'))) as 'AZ400JSON'
 FROM
     (
         SELECT
@@ -14,7 +14,7 @@ FROM
                     json_group_array(
                         json_object(
                             'answer', a.Answer,
-                            'isCorrect', a.IsCorrect
+                            'isCorrect', iif(a.IsCorrect = 1, 'true', 'false')
                         )
                     )
             ) as questions
