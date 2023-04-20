@@ -1,7 +1,13 @@
 DROP VIEW IF EXISTS AZ400;
 
 CREATE VIEW AZ400 AS
-SELECT json_group_array(json(replace(replace(replace(replace(questions, '\\r', '\r'), '\\n', '\n'), ':"true"', ':true'), ':"false"', ':false'))) as 'AZ400JSON'
+SELECT json_group_array(json(
+    replace(replace(replace(replace(questions,
+    '\\r', '\r'),
+    '\\n', '\n'),
+    ':"true"', ':true'),
+    ':"false"', ':false')
+    )) AS 'JSON_Array'
 FROM
     (
         SELECT

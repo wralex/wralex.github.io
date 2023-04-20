@@ -107,11 +107,12 @@ function handleNextQuestion() {
   checkForAnswer();
   
   if (indexNumber < _amount) {
+    indexNumber++;
     setTimeout(
       function () {
         unCheckRadioButtons();
         DisplayStats();
-        SetQuestion(shuffledQuestions[indexNumber++]);
+        SetQuestion(shuffledQuestions[indexNumber]);
         $("#next-button").removeAttr('disabled');
       }, 2000
     );
@@ -121,6 +122,7 @@ function handleNextQuestion() {
 }
 
 function handleEndGame(){
+  $("#staticBackdrop").show();
 }
 
 function checkForAnswer() {
