@@ -1,9 +1,7 @@
 ---
 title: Working with Pull Requests in Visual Studio Code and Azure DevOps
 layout: page
-sidebar: vsts
-permalink: /labs/azuredevops/pullrequests/
-folder: /labs/azuredevops/pullrequests/
+permalink: /labs/azure/devops/pullrequests/
 version: Lab version - 1.31.1
 updated: Last updated - 2/27/2019
 ---

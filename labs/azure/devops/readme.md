@@ -1,9 +1,8 @@
 ---
 title: Azure DevOps- Hands-on-Labs
-layout: homepage
+layout: page
 sidebar: vsts
-permalink: /labs/azuredevops/
-folder: /labs/azuredevops/
+permalink: /labs/azure/devops/
 description: Learn how you can plan better, code together and ship faster with Azure DevOps
 ---
 <div class="vstsMain">
@@ -48,30 +47,30 @@ description: Learn how you can plan better, code together and ship faster with A
       <div class="col-sm-4 col-xs-12">
          <div class="bg-color-grey equal-height-column mar-left-40">
             <ul>
-               <li><a href="/labs/azuredevops/agile/" class="barleft">Agile Planning and Portfolio Management with Azure Boards </a></li>
-               <li><a href="/labs/azuredevops/git/" class="barleft">Version Controlling with Azure Repos  </a></li>
-               <li><a href="/labs/azuredevops/packagemanagement/" class="barleft">Package Management with Azure Artifacts</a></li>
-               <li><a href="/labs/azuredevops/continuousintegration/" class="barleft">Enabling Continuous Integration with Azure Pipelines</a></li>
+               <li><a href="/labs/azure/devops/agile/" class="barleft">Agile Planning and Portfolio Management with Azure Boards </a></li>
+               <li><a href="/labs/azure/devops/git/" class="barleft">Version Controlling with Azure Repos  </a></li>
+               <li><a href="/labs/azure/devops/packagemanagement/" class="barleft">Package Management with Azure Artifacts</a></li>
+               <li><a href="/labs/azure/devops/continuousintegration/" class="barleft">Enabling Continuous Integration with Azure Pipelines</a></li>
             </ul>
          </div>
       </div>
       <div class="col-sm-4 col-xs-12">
          <div class="bg-color-grey equal-height-column mar-left-40">
             <ul>
-               <li><a href="/labs/azuredevops/continuousdeployment/" class="barleft">Embracing Continuous Delivery with Azure Pipelines</a></li>
-               <li><a href="/labs/azuredevops/testmanagement/" class="barleft">Test Planning and Management with Azure Test Plans</a></li>
-               <li><a href="/labs/azuredevops/exploratorytesting/" class="barleft">Exploratory Testing with Azure Test Plans</a></li>
-               <li><a href="/labs/azuredevops/load/" class="barleft">Web Application Load and Performance Testing</a></li>
+               <li><a href="/labs/azure/devops/continuousdeployment/" class="barleft">Embracing Continuous Delivery with Azure Pipelines</a></li>
+               <li><a href="/labs/azure/devops/testmanagement/" class="barleft">Test Planning and Management with Azure Test Plans</a></li>
+               <li><a href="/labs/azure/devops/exploratorytesting/" class="barleft">Exploratory Testing with Azure Test Plans</a></li>
+               <li><a href="/labs/azure/devops/load/" class="barleft">Web Application Load and Performance Testing</a></li>
             </ul>
          </div>
       </div>
       <div class="col-sm-4 col-xs-12">
          <div class="bg-color-grey equal-height-column mar-left-40">
             <ul>
-               <li><a href="/labs/azuredevops/deliveryplans/" class="barleft">Managing Project Schedules across teams with Delivery Plans</a></li>
-               <li><a href="/labs/azuredevops/sonarcloud/" class="barleft">Managing Technical Debt with Azure DevOps and SonarCloud</a></li>
-               <li><a href="/labs/azuredevops/wiki/" class="barleft">Collaborating with Azure DevOps Wiki</a></li>
-               <li><a href="/labs/azuredevops/yaml/" class="barleft">Configuring Build as Code with YAML in Azure DevOps</a></li>
+               <li><a href="/labs/azure/devops/deliveryplans/" class="barleft">Managing Project Schedules across teams with Delivery Plans</a></li>
+               <li><a href="/labs/azure/devops/sonarcloud/" class="barleft">Managing Technical Debt with Azure DevOps and SonarCloud</a></li>
+               <li><a href="/labs/azure/devops/wiki/" class="barleft">Collaborating with Azure DevOps Wiki</a></li>
+               <li><a href="/labs/azure/devops/yaml/" class="barleft">Configuring Build as Code with YAML in Azure DevOps</a></li>
             </ul>
          </div>
       </div>

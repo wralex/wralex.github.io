@@ -1,12 +1,9 @@
 ---
 title: Embracing Continuous Delivery with Azure Pipelines
 layout: page
-sidebar: vsts
-permalink: /labs/azuredevops/continuousdeployment/
-folder: /labs/azuredevops/continuousdeployment/
+permalink: /labs/azure/devops/continuousdeployment/
 version: Lab version - 1.39.0
 updated: Last updated - 21/01/2022
-redirect_from: "/labs/vsts/continuousdeployment/index.htm"
 ---
 <div class="rw-ui-container"></div>
 <a name="Overview"></a>

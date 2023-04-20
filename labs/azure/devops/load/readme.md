@@ -1,12 +1,9 @@
 ---
 title: Web Application Load and Performance Testing
 layout: page
-sidebar: vsts
-permalink: /labs/azuredevops/load/
-folder: /labs/azuredevops/load/
+permalink: /labs/azure/devops/load/
 version: Lab version - 1.38.0
 updated: Last updated - 03/26/2021
-redirect_from: "/labs/vsts/load/index.htm"
 ---
 <div class="rw-ui-container"></div>
 <a name="Overview"></a>

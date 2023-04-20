@@ -1,12 +1,9 @@
 ---
 title: Exploratory Testing with Azure Test Plans
 layout: page
-sidebar: vsts
-permalink: /labs/azuredevops/exploratorytesting/
-folder: /labs/azuredevops/exploratorytesting/
+permalink: /labs/azure/devops/exploratorytesting/
 version: Lab version - 1.38.0
 updated: Last updated - 9/11/2019
-redirect_from: "/labs/vsts/exploratorytesting/index.htm"
 ---
 <div class="rw-ui-container"></div>
 <a name="Overview"></a>

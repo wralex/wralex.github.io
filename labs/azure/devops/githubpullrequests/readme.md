@@ -1,9 +1,7 @@
 ---
 title: Working with Pull Requests in Visual Studio Code and GitHub
 layout: page
-sidebar: vsts
-permalink: /labs/azuredevops/githubpullrequests/
-folder: /labs/azuredevops/githubpullrequests/
+permalink: /labs/azure/devops/githubpullrequests/
 version: Lab version - 1.38.0
 updated: Last updated - 9/9/2019
 ---

@@ -1,9 +1,7 @@
 ---
 title: Create a CI/CD pipeline for Java with the Azure DevOps Project
 layout: page
-sidebar: vsts2
-permalink: /labs/azuredevops/devopsprojectforjava/
-folder: /labs/azuredevops/devopsprojectforjava/
+permalink: /labs/azure/devops/devopsprojectforjava/
 ---
 <div class="rw-ui-container"></div>
 
