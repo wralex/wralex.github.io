@@ -8,6 +8,7 @@ let totalAttempt = 0;
 let correctAttempt = 0;
 let wrongAttempt = 0;
 let shuffledQuestions = [];
+let review = [];
 
 function BeginQuiz(datafile, amount) {
   _file = datafile;
@@ -32,6 +33,7 @@ function StartQuiz() {
   correctAttempt = 0;
   wrongAttempt = 0;
   shuffledQuestions = [];
+  review = [];
   
   $.getJSON(_file, (data) =>
   {
@@ -65,18 +67,17 @@ function DisplayStats(){
 }
 
 function SetQuestion(item){
-  $("#question").html(MdToHtml(item.question));
+  $("#question").html(MdToHtml(item.question).replaceAll('\n', ''));
 
   var letters = ["A", "B", "C", "D", "E", "F"];
 
   var options = [];
   for (var i = 0; i < item.answers.length; i++) {
     options.push({
-      text: MdToHtml(item.answers[i].answer),
+      text: MdToHtml(item.answers[i].answer).replaceAll('\n', ''),
       isCorrect: item.answers[i].isCorrect
     });
   }
-  console.log(options);
   var finalLen = options.length;
 
   var shuffAnswers = [];
@@ -127,6 +128,10 @@ function handleEndGame(){
 
 function checkForAnswer() {
   var options = $('[name="options"]');
+  var item = {question: $("#question").html()};
+  var validAns = [];
+  var corrAns = [];
+  var incAns = [];
   for(var i = 0; i < options.length;i++) {
     var elemId = "#" + options[i].id;
     var option = $(elemId)[0];
@@ -135,17 +140,28 @@ function checkForAnswer() {
     if(text !== undefined && text !== null && text.innerText != "") {
       if(isright.value == 'true') {
         $('#'+text.id).toggleClass(arrGood, true);
+        validAns.push(text.innerHTML);
       }
       if (option.checked) {
         if(isright.value == 'true') {
-          correctAttempt++
+          corrAns.push(text.innerHTML)
+          correctAttempt++;
         } else {
-          wrongAttempt++
           $('#'+text.id).toggleClass(arrBad, true);
+          incAns.push(text.innerHTML)
+          wrongAttempt++;
         }
-      }  
+      }
     }
   }
+  item['isCorrect'] = (incAns.length == 0);
+  item['validAnswers'] = validAns;
+  item['correctAnswers'] = corrAns;
+  item['invalidAnswers'] = incAns;
+
+  console.log(item);
+  review.push(item);
+  console.log(review);
 }
 
 function unCheckRadioButtons() {
