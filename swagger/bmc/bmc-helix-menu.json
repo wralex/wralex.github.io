@@ -1,0 +1,430 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0",
+    "title": "BMC Helix - Menu",
+    "description": "BMC Helix Menu REST APIs",
+    "contact": {
+      "url": "https://www.bmc.com",
+      "name": "BMC"
+    }
+  },
+  "basePath": "/api",
+  "consumes": [
+    "application/json",
+    "multipart/form-data"
+  ],
+  "produces": [
+    "application/json",
+    "text/plain"
+  ],
+  "schemes": [
+    "https"
+  ],
+  "host": "cmaconsulting-qa-restapi.onbmc.com",
+  "securityDefinitions": {
+    "API_Key": {
+      "type": "apiKey",
+      "name": "Authorization",
+      "in": "header"
+    }
+  },
+  "security": [],
+  "tags": [
+    {
+      "name": "Menu"
+    }
+  ],
+  "paths": {
+    "/arsys/v1/menu/expand": {
+      "post": {
+        "summary": "Expand a menu",
+        "description": "Expand a menu",
+        "operationId": "Expand_a_menu",
+        "tags": [
+          "Menu"
+        ],
+        "security": [
+          {
+            "API_Key": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "body",
+            "x-ms-summary": "Data",
+            "in": "body",
+            "schema": {
+              "title": "Menu",
+              "type": "object",
+              "properties": {
+                "qualification_substitute_info": {
+                  "title": "Field",
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "title": "Name",
+                      "type": "string"
+                    },
+                    "field_values": {
+                      "title": "Value",
+                      "type": "object"
+                    },
+                    "keyword_values": {
+                      "title": "Keyword",
+                      "type": "object"
+                    }
+                  }
+                },
+                "max_entries": {
+                  "title": "Max",
+                  "type": "integer"
+                },
+                "total_count": {
+                  "title": "Has Count",
+                  "type": "boolean"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "schema": {
+              "title": "Menu List",
+              "type": "array",
+              "items": {
+                "title": "Menu",
+                "type": "object",
+                "properties": {
+                  "label": {
+                    "title": "Label",
+                    "type": "string"
+                  },
+                  "value": {
+                    "title": "Value",
+                    "type": "string"
+                  },
+                  "content": {
+                    "title": "Content",
+                    "type": "array",
+                    "items": {
+                      "title": "Items",
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "successful operation returning Menu Items",
+            "x-ms-summary": "Menu Items"
+          },
+          "400": {
+            "description": "Request body is incorrect",
+            "x-ms-summary": "Incorrect",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "x-ms-summary": "Forbidden",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Form does not exist",
+            "x-ms-summary": "Doesn't Exist",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error",
+            "x-ms-summary": "Error",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/arsys/v1/menu/{name}": {
+      "get": {
+        "tags": [
+          "Menu"
+        ],
+        "summary": "Returns details of field on the form",
+        "description": "Returns details of field on the form",
+        "operationId": "Return_form_field_details",
+        "security": [
+          {
+            "API_Key": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "name",
+            "x-ms-summary": "Name",
+            "in": "path",
+            "type": "string",
+            "required": true,
+            "description": "Name of the menu"
+          },
+          {
+            "name": "menu_criteria",
+            "x-ms-summary": "Criteria",
+            "in": "query",
+            "type": "string",
+            "description": "Comma separate criteria list"
+          }
+        ],
+        "responses": {
+          "200": {
+            "schema": {
+              "title": "Menu List",
+              "type": "array",
+              "items": {
+                "title": "Menu",
+                "type": "object",
+                "properties": {
+                  "label": {
+                    "title": "Label",
+                    "type": "string"
+                  },
+                  "value": {
+                    "title": "Value",
+                    "type": "string"
+                  },
+                  "content": {
+                    "title": "Content",
+                    "type": "array",
+                    "items": {
+                      "title": "Items",
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            },
+            "description": "successful operation returning Menu Items",
+            "x-ms-summary": "Menu Items"
+          },
+          "400": {
+            "description": "Request body is incorrect",
+            "x-ms-summary": "Incorrect",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "x-ms-summary": "Forbidden",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Form does not exist",
+            "x-ms-summary": "Doesn't Exist",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error",
+            "x-ms-summary": "Error",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

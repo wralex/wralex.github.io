@@ -1,0 +1,3039 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0",
+    "title": "BMC Helix - Entry",
+    "description": "BMC Helix Entry REST APIs",
+    "contact": {
+      "url": "https://www.bmc.com",
+      "name": "BMC"
+    }
+  },
+  "basePath": "/api",
+  "consumes": [
+    "application/json",
+    "multipart/form-data"
+  ],
+  "produces": [
+    "application/json",
+    "text/plain"
+  ],
+  "schemes": [
+    "https"
+  ],
+  "host": "cmaconsulting-qa-restapi.onbmc.com",
+  "securityDefinitions": {
+    "API_Key": {
+      "type": "apiKey",
+      "name": "Authorization",
+      "in": "header"
+    }
+  },
+  "security": [],
+  "tags": [
+    {
+      "name": "Merge entry"
+    },
+    {
+      "name": "Entry"
+    }
+  ],
+  "paths": {
+    "/arsys/v1/mergeEntry/{formName}": {
+      "post": {
+        "tags": [
+          "Merge entry"
+        ],
+        "operationId": "Merge_Entry",
+        "summary": "Merges Entry",
+        "description": "Merges an entry into a form with attachment",
+        "security": [
+          {
+            "API_Key": []
+          }
+        ],
+        "parameters": [
+          {
+            "x-ms-summary": "Form name",
+            "name": "formName",
+            "in": "path",
+            "type": "string",
+            "description": "The form for which an entry is to be read.",
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "schema": {
+              "type": "object"
+            },
+            "description": "Object Response"
+          },
+          "400": {
+            "description": "Request body is incorrect",
+            "x-ms-summary": "Incorrect",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "x-ms-summary": "Forbidden",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Form does not exist",
+            "x-ms-summary": "Doesn't Exist",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error",
+            "x-ms-summary": "Error",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/arsys/v1/entry": {
+      "get": {
+        "tags": [
+          "Entry"
+        ],
+        "operationId": "Get_Status",
+        "summary": "Get Status",
+        "description": "Get Status",
+        "security": [
+          {
+            "API_Key": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "schema": {
+              "type": "string"
+            },
+            "description": "successful operation (String)",
+            "x-ms-summary": "String Response"
+          },
+          "400": {
+            "description": "Request body is incorrect",
+            "x-ms-summary": "Incorrect",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "x-ms-summary": "Forbidden",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Form does not exist",
+            "x-ms-summary": "Doesn't Exist",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error",
+            "x-ms-summary": "Error",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/arsys/v1/entry/{formName}": {
+      "get": {
+        "tags": [
+          "Entry"
+        ],
+        "operationId": "Get_multiple_entries",
+        "summary": "Get multiple entries",
+        "description": "Returns the details of all the entries on a form.The default behavior is to internally call Get List Entry With Fields, which does not initiate Get Entry workflow.",
+        "security": [
+          {
+            "API_Key": []
+          }
+        ],
+        "parameters": [
+          {
+            "x-ms-summary": "Form name",
+            "name": "formName",
+            "in": "path",
+            "type": "string",
+            "description": "The form for which an entry is to be read.",
+            "required": true
+          },
+          {
+            "name": "fields",
+            "in": "query",
+            "type": "string",
+            "x-ms-summary": "Fields",
+            "description": "Selects what parts of the JSON document to return (for example: ?fields=entryId1,entryId2)."
+          },
+          {
+            "name": "sort",
+            "x-ms-summary": "Sort",
+            "in": "query",
+            "type": "string",
+            "description": "Order in which sorts the results (for example, ?sort=submitDate.desc)"
+          },
+          {
+            "name": "q",
+            "x-ms-summary": "Qualifaction",
+            "in": "query",
+            "type": "string",
+            "description": "Search qualification"
+          },
+          {
+            "name": "offset",
+            "x-ms-summary": "Offset",
+            "in": "query",
+            "type": "integer",
+            "description": "Offset for the entry return"
+          },
+          {
+            "name": "limit",
+            "x-ms-summary": "Limit",
+            "in": "query",
+            "type": "integer",
+            "description": "Number of instances in which limit the result"
+          },
+          {
+            "name": "expand",
+            "x-ms-summary": "Expand",
+            "in": "query",
+            "type": "string",
+            "description": "Expands the related entries (associations)."
+          },
+          {
+            "name": "runfilters",
+            "x-ms-summary": "Expand related",
+            "in": "query",
+            "type": "string",
+            "description": "Expands related entries (associations)."
+          }
+        ],
+        "responses": {
+          "200": {
+            "schema": {
+              "title": "Entry List",
+              "type": "object",
+              "properties": {
+                "entries": {
+                  "title": "Entries",
+                  "type": "array",
+                  "items": {
+                    "title": "Entry",
+                    "type": "object",
+                    "properties": {
+                      "values": {
+                        "title": "Values",
+                        "type": "object"
+                      },
+                      "_links": {
+                        "title": "Links",
+                        "type": "object"
+                      },
+                      "_embedded": {
+                        "title": "Embedded",
+                        "type": "object"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "description": "successful operation returning Entries"
+          },
+          "400": {
+            "description": "Request body is incorrect",
+            "x-ms-summary": "Incorrect",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "x-ms-summary": "Forbidden",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Form does not exist",
+            "x-ms-summary": "Doesn't Exist",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error",
+            "x-ms-summary": "Error",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Entry"
+        ],
+        "operationId": "Create_an_entry",
+        "summary": "Create an entry with attachments",
+        "description": "Display-only forms and Join forms do not generate an entry ID when they are created, and the status code 204 is returned. If an entry ID is generated, such as on a regular form, status code 201 with the Location header is returned.",
+        "security": [
+          {
+            "API_Key": []
+          }
+        ],
+        "parameters": [
+          {
+            "x-ms-summary": "Form name",
+            "name": "formName",
+            "in": "path",
+            "type": "string",
+            "description": "The form for which an entry is to be read.",
+            "required": true
+          },
+          {
+            "name": "body",
+            "in": "body",
+            "required": false,
+            "x-ms-summary": "Entry Body",
+            "description": "Expects a Entry. Also, expects one or more attachments. The\nactual binary values are passed as attach-fieldname bodyparts\n",
+            "schema": {
+              "title": "Form Data Parts",
+              "type": "object",
+              "properties": {
+                "type": {
+                  "title": "Type",
+                  "type": "string"
+                },
+                "contentDisposition": {
+                  "title": "Content",
+                  "type": "object",
+                  "properties": {
+                    "parameters": {
+                      "title": "Parameters",
+                      "type": "object"
+                    },
+                    "fileName": {
+                      "title": "File Name",
+                      "type": "string"
+                    },
+                    "creationDate": {
+                      "title": "Created",
+                      "type": "string",
+                      "format": "date-time"
+                    },
+                    "modificationDate": {
+                      "title": "Modified",
+                      "type": "string",
+                      "format": "date-time"
+                    },
+                    "readDate": {
+                      "title": "Read",
+                      "type": "string",
+                      "format": "date-time"
+                    },
+                    "size": {
+                      "title": "Size",
+                      "type": "integer"
+                    }
+                  }
+                },
+                "entity": {
+                  "title": "Entity",
+                  "type": "object"
+                },
+                "headers": {
+                  "title": "Headers",
+                  "type": "object"
+                },
+                "mediaType": {
+                  "title": "Media",
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "title": "Type",
+                      "type": "string"
+                    },
+                    "subtype": {
+                      "title": "Sub-Type",
+                      "type": "string"
+                    },
+                    "parameters": {
+                      "title": "Parameters",
+                      "type": "object"
+                    },
+                    "wildcardSubtype": {
+                      "title": "* for Sub-Type",
+                      "type": "boolean"
+                    },
+                    "wildcardType": {
+                      "title": "* for Type",
+                      "type": "boolean"
+                    }
+                  }
+                },
+                "messageBodyWorkers": {
+                  "title": "Message Body Workers",
+                  "type": "object"
+                },
+                "parent": {
+                  "title": "Multi Part",
+                  "type": "object",
+                  "properties": {
+                    "contentDisposition": {
+                      "title": "Content",
+                      "type": "object",
+                      "properties": {
+                        "parameters": {
+                          "title": "Parameters",
+                          "type": "object"
+                        },
+                        "fileName": {
+                          "title": "File Name",
+                          "type": "string"
+                        },
+                        "creationDate": {
+                          "title": "Created",
+                          "type": "string",
+                          "format": "date-time"
+                        },
+                        "modificationDate": {
+                          "title": "Modified",
+                          "type": "string",
+                          "format": "date-time"
+                        },
+                        "readDate": {
+                          "title": "Read",
+                          "type": "string",
+                          "format": "date-time"
+                        },
+                        "size": {
+                          "title": "Size",
+                          "type": "integer"
+                        }
+                      }
+                    },
+                    "entity": {
+                      "title": "Entity",
+                      "type": "object"
+                    },
+                    "headers": {
+                      "title": "Headers",
+                      "type": "object"
+                    },
+                    "mediaType": {
+                      "title": "Media",
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "title": "Type",
+                          "type": "string"
+                        },
+                        "subtype": {
+                          "title": "Sub-Type",
+                          "type": "string"
+                        },
+                        "parameters": {
+                          "title": "Parameters",
+                          "type": "object"
+                        },
+                        "wildcardSubtype": {
+                          "title": "* for Sub-Type",
+                          "type": "boolean"
+                        },
+                        "wildcardType": {
+                          "title": "* for Type",
+                          "type": "boolean"
+                        }
+                      }
+                    },
+                    "messageBodyWorkers": {
+                      "title": "Message Body Workers",
+                      "type": "object"
+                    },
+                    "parent": {
+                      "title": "Parent",
+                      "type": "string"
+                    },
+                    "providers": {
+                      "title": "Providers",
+                      "type": "object"
+                    },
+                    "bodyParts": {
+                      "title": "Body Parts",
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    },
+                    "parameterizedHeaders": {
+                      "title": "Param Headers",
+                      "type": "object"
+                    }
+                  }
+                },
+                "providers": {
+                  "title": "Providers",
+                  "type": "object"
+                },
+                "bodyParts": {
+                  "title": "Body Parts",
+                  "type": "array",
+                  "items": {
+                    "title": "Body Part",
+                    "type": "object",
+                    "properties": {
+                      "contentDisposition": {
+                        "title": "Content",
+                        "type": "object",
+                        "properties": {
+                          "parameters": {
+                            "title": "Parameters",
+                            "type": "object"
+                          },
+                          "fileName": {
+                            "title": "File Name",
+                            "type": "string"
+                          },
+                          "creationDate": {
+                            "title": "Created",
+                            "type": "string",
+                            "format": "date-time"
+                          },
+                          "modificationDate": {
+                            "title": "Modified",
+                            "type": "string",
+                            "format": "date-time"
+                          },
+                          "readDate": {
+                            "title": "Read",
+                            "type": "string",
+                            "format": "date-time"
+                          },
+                          "size": {
+                            "title": "Size",
+                            "type": "integer"
+                          }
+                        }
+                      },
+                      "entity": {
+                        "title": "Entity",
+                        "type": "object"
+                      },
+                      "headers": {
+                        "title": "Headers",
+                        "type": "object"
+                      },
+                      "mediaType": {
+                        "title": "Media",
+                        "type": "object",
+                        "properties": {
+                          "type": {
+                            "title": "Type",
+                            "type": "string"
+                          },
+                          "subtype": {
+                            "title": "Sub-Type",
+                            "type": "string"
+                          },
+                          "parameters": {
+                            "title": "Parameters",
+                            "type": "object"
+                          },
+                          "wildcardSubtype": {
+                            "title": "* for Sub-Type",
+                            "type": "boolean"
+                          },
+                          "wildcardType": {
+                            "title": "* for Type",
+                            "type": "boolean"
+                          }
+                        }
+                      },
+                      "messageBodyWorkers": {
+                        "title": "Message Body Workers",
+                        "type": "object"
+                      },
+                      "parent": {
+                        "title": "Multi Part",
+                        "type": "object",
+                        "properties": {
+                          "contentDisposition": {
+                            "title": "Content",
+                            "type": "object",
+                            "properties": {
+                              "parameters": {
+                                "title": "Parameters",
+                                "type": "object"
+                              },
+                              "fileName": {
+                                "title": "File Name",
+                                "type": "string"
+                              },
+                              "creationDate": {
+                                "title": "Created",
+                                "type": "string",
+                                "format": "date-time"
+                              },
+                              "modificationDate": {
+                                "title": "Modified",
+                                "type": "string",
+                                "format": "date-time"
+                              },
+                              "readDate": {
+                                "title": "Read",
+                                "type": "string",
+                                "format": "date-time"
+                              },
+                              "size": {
+                                "title": "Size",
+                                "type": "integer"
+                              }
+                            }
+                          },
+                          "entity": {
+                            "title": "Entity",
+                            "type": "object"
+                          },
+                          "headers": {
+                            "title": "Headers",
+                            "type": "object"
+                          },
+                          "mediaType": {
+                            "title": "Media",
+                            "type": "object",
+                            "properties": {
+                              "type": {
+                                "title": "Type",
+                                "type": "string"
+                              },
+                              "subtype": {
+                                "title": "Sub-Type",
+                                "type": "string"
+                              },
+                              "parameters": {
+                                "title": "Parameters",
+                                "type": "object"
+                              },
+                              "wildcardSubtype": {
+                                "title": "* for Sub-Type",
+                                "type": "boolean"
+                              },
+                              "wildcardType": {
+                                "title": "* for Type",
+                                "type": "boolean"
+                              }
+                            }
+                          },
+                          "messageBodyWorkers": {
+                            "title": "Message Body Workers",
+                            "type": "object"
+                          },
+                          "parent": {
+                            "title": "Parent",
+                            "type": "string"
+                          },
+                          "providers": {
+                            "title": "Providers",
+                            "type": "object"
+                          },
+                          "bodyParts": {
+                            "title": "Body Parts",
+                            "type": "array",
+                            "items": {
+                              "type": "string"
+                            }
+                          },
+                          "parameterizedHeaders": {
+                            "title": "Param Headers",
+                            "type": "object"
+                          }
+                        }
+                      },
+                      "providers": {
+                        "title": "Providers",
+                        "type": "object"
+                      },
+                      "parameterizedHeaders": {
+                        "title": "Param Headers",
+                        "type": "object"
+                      }
+                    }
+                  }
+                },
+                "fields": {
+                  "title": "Fields",
+                  "type": "object"
+                },
+                "parameterizedHeaders": {
+                  "title": "Parameterized Headers",
+                  "type": "object"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "schema": {
+              "title": "Entry",
+              "type": "object",
+              "properties": {
+                "values": {
+                  "title": "Values",
+                  "type": "object"
+                },
+                "_links": {
+                  "title": "Links",
+                  "type": "object"
+                },
+                "_embedded": {
+                  "title": "Embedded",
+                  "type": "object"
+                }
+              }
+            },
+            "description": "successful operation returning Entry"
+          },
+          "400": {
+            "description": "Request body is incorrect",
+            "x-ms-summary": "Incorrect",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "x-ms-summary": "Forbidden",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Form does not exist",
+            "x-ms-summary": "Doesn't Exist",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error",
+            "x-ms-summary": "Error",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          }
+        }
+      },
+      "options": {
+        "tags": [
+          "Entry"
+        ],
+        "operationId": "Retrieves_form_schema_information",
+        "description": "Retrieves the information of the form schema.",
+        "summary": "Retrieves form schema information",
+        "security": [
+          {
+            "API_Key": []
+          }
+        ],
+        "parameters": [
+          {
+            "x-ms-summary": "Form name",
+            "name": "formName",
+            "in": "path",
+            "type": "string",
+            "description": "The form for which an entry is to be read.",
+            "required": true
+          },
+          {
+            "name": "fields",
+            "in": "query",
+            "type": "string",
+            "x-ms-summary": "Fields",
+            "description": "Selects what parts of the JSON document to return (for example: ?fields=entryId1,entryId2)."
+          },
+          {
+            "name": "expand",
+            "x-ms-summary": "Expand",
+            "in": "query",
+            "type": "string",
+            "description": "Expands the related entries (associations)."
+          }
+        ],
+        "responses": {
+          "200": {
+            "schema": {
+              "type": "object"
+            },
+            "description": "Object Response"
+          },
+          "400": {
+            "description": "Request body is incorrect",
+            "x-ms-summary": "Incorrect",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "x-ms-summary": "Forbidden",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Form does not exist",
+            "x-ms-summary": "Doesn't Exist",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error",
+            "x-ms-summary": "Error",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/arsys/v1/entry/{formName}/{entryId}": {
+      "get": {
+        "tags": [
+          "Entry"
+        ],
+        "operationId": "Get_an_entry",
+        "summary": "Get an entry",
+        "description": "Returns the details of an entry on a form. The entry object will contain field values for all data fields to which the user has permission.",
+        "security": [
+          {
+            "API_Key": []
+          }
+        ],
+        "parameters": [
+          {
+            "x-ms-summary": "Form name",
+            "name": "formName",
+            "in": "path",
+            "type": "string",
+            "description": "The form for which an entry is to be read.",
+            "required": true
+          },
+          {
+            "name": "entryId",
+            "x-ms-summary": "Entry ID",
+            "in": "path",
+            "type": "string",
+            "required": true,
+            "description": "The entry ID"
+          },
+          {
+            "name": "fields",
+            "in": "query",
+            "type": "string",
+            "x-ms-summary": "Fields",
+            "description": "Selects what parts of the JSON document to return (for example: ?fields=entryId1,entryId2)."
+          },
+          {
+            "name": "expand",
+            "x-ms-summary": "Expand",
+            "in": "query",
+            "type": "string",
+            "description": "Expands the related entries (associations)."
+          },
+          {
+            "name": "X-AR-Client-Type",
+            "in": "header",
+            "type": "string",
+            "required": false,
+            "description": "Client Type ID",
+            "x-ms-summary": "Client Type"
+          },
+          {
+            "name": "X-AR-RPC-Queue",
+            "in": "header",
+            "type": "string",
+            "required": false,
+            "description": "RPC queue to which the client calls are routed",
+            "x-ms-summary": "RPC Queue"
+          },
+          {
+            "name": "X-AR-Timeout",
+            "in": "header",
+            "required": false,
+            "default": 120,
+            "type": "integer",
+            "description": "Timeout (in seconds) for REST request",
+            "x-ms-summary": "Timeout (seconds)"
+          },
+          {
+            "name": "X-AR-TR-Core-Id",
+            "in": "header",
+            "type": "string",
+            "description": "The core ID in a trace ID",
+            "x-ms-summary": "Trace Core ID"
+          },
+          {
+            "name": "X-AR-TR-Counter",
+            "in": "header",
+            "type": "string",
+            "description": "The counter in a trace ID",
+            "x-ms-summary": "Trace Counter"
+          },
+          {
+            "name": "X-AR-Trace-Id",
+            "in": "header",
+            "type": "string",
+            "description": "The complete trace ID",
+            "x-ms-summary": "Trace ID"
+          },
+          {
+            "name": "X-AR-TR-Is-Counter-Locked",
+            "in": "header",
+            "type": "string",
+            "description": "The lock counter",
+            "x-ms-summary": "Lock Counter"
+          }
+        ],
+        "responses": {
+          "200": {
+            "schema": {
+              "title": "Entry",
+              "type": "object",
+              "properties": {
+                "values": {
+                  "title": "Values",
+                  "type": "object"
+                },
+                "_links": {
+                  "title": "Links",
+                  "type": "object"
+                },
+                "_embedded": {
+                  "title": "Embedded",
+                  "type": "object"
+                }
+              }
+            },
+            "description": "successful operation returning Entry"
+          },
+          "400": {
+            "description": "Request body is incorrect",
+            "x-ms-summary": "Incorrect",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "x-ms-summary": "Forbidden",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Form does not exist",
+            "x-ms-summary": "Doesn't Exist",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error",
+            "x-ms-summary": "Error",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Entry"
+        ],
+        "operationId": "Delete_an_entry",
+        "summary": "Delete an entry",
+        "description": "Delete an entry from a particular form. You can also use the option FORCE to force delete all the list of entries, for example, ?options=FORCE",
+        "security": [
+          {
+            "API_Key": []
+          }
+        ],
+        "parameters": [
+          {
+            "x-ms-summary": "Form name",
+            "name": "formName",
+            "in": "path",
+            "type": "string",
+            "description": "The form for which an entry is to be read.",
+            "required": true
+          },
+          {
+            "name": "entryId",
+            "x-ms-summary": "Entry ID",
+            "in": "path",
+            "type": "string",
+            "required": true,
+            "description": "The entry ID"
+          },
+          {
+            "name": "option",
+            "x-ms-summary": "Option",
+            "in": "query",
+            "type": "array",
+            "description": "Options that are to be used in the query. Values can be one or more of -\n**NONE**, **FORCE**, and/or **NOCASCADE**\n",
+            "items": {
+              "type": "string",
+              "enum": [
+                "NONE",
+                "FORCE",
+                "NOCASCADE"
+              ]
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "schema": {
+              "type": "string"
+            },
+            "description": "successful operation (String)",
+            "x-ms-summary": "String Response"
+          },
+          "400": {
+            "description": "Request body is incorrect",
+            "x-ms-summary": "Incorrect",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "x-ms-summary": "Forbidden",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Form does not exist",
+            "x-ms-summary": "Doesn't Exist",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error",
+            "x-ms-summary": "Error",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Entry"
+        ],
+        "operationId": "Updates_an_entry",
+        "summary": "Updates an entry",
+        "description": "This operation updates an entry or entry attachment on a form.\n\n**Entry Updates**  \nThere is one part named as entry with Content-Type as application/json and the value is a JSON entry. \n\n**For Attachments**  \nEach part of a multipart entity has a name, a Content-Type and the value.\n\nThere are 0 or more parts with names like attach-{fieldName} with any Content-Type and any value. The name is a prefix indicating that it is an attachment binary data, the part after the hyphen is the name of the attachment field. This updates an entry with attachment data.\n\n**RE: IF-Unmodified-Since**  \nIf the client sends If-Unmodified-Since and the entry is modified since that time, then the entry is not updated and status code 412 is returned.\n",
+        "security": [
+          {
+            "API_Key": []
+          }
+        ],
+        "parameters": [
+          {
+            "x-ms-summary": "Form name",
+            "name": "formName",
+            "in": "path",
+            "type": "string",
+            "description": "The form for which an entry is to be read.",
+            "required": true
+          },
+          {
+            "name": "entryId",
+            "x-ms-summary": "Entry ID",
+            "in": "path",
+            "type": "string",
+            "required": true,
+            "description": "The entry ID"
+          },
+          {
+            "name": "body",
+            "in": "body",
+            "required": false,
+            "x-ms-summary": "Entry Body",
+            "description": "Expects a Entry. Also, expects one or more attachments. The\nactual binary values are passed as attach-fieldname bodyparts\n",
+            "schema": {
+              "title": "Form Data Parts",
+              "type": "object",
+              "properties": {
+                "type": {
+                  "title": "Type",
+                  "type": "string"
+                },
+                "contentDisposition": {
+                  "title": "Content",
+                  "type": "object",
+                  "properties": {
+                    "parameters": {
+                      "title": "Parameters",
+                      "type": "object"
+                    },
+                    "fileName": {
+                      "title": "File Name",
+                      "type": "string"
+                    },
+                    "creationDate": {
+                      "title": "Created",
+                      "type": "string",
+                      "format": "date-time"
+                    },
+                    "modificationDate": {
+                      "title": "Modified",
+                      "type": "string",
+                      "format": "date-time"
+                    },
+                    "readDate": {
+                      "title": "Read",
+                      "type": "string",
+                      "format": "date-time"
+                    },
+                    "size": {
+                      "title": "Size",
+                      "type": "integer"
+                    }
+                  }
+                },
+                "entity": {
+                  "title": "Entity",
+                  "type": "object"
+                },
+                "headers": {
+                  "title": "Headers",
+                  "type": "object"
+                },
+                "mediaType": {
+                  "title": "Media",
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "title": "Type",
+                      "type": "string"
+                    },
+                    "subtype": {
+                      "title": "Sub-Type",
+                      "type": "string"
+                    },
+                    "parameters": {
+                      "title": "Parameters",
+                      "type": "object"
+                    },
+                    "wildcardSubtype": {
+                      "title": "* for Sub-Type",
+                      "type": "boolean"
+                    },
+                    "wildcardType": {
+                      "title": "* for Type",
+                      "type": "boolean"
+                    }
+                  }
+                },
+                "messageBodyWorkers": {
+                  "title": "Message Body Workers",
+                  "type": "object"
+                },
+                "parent": {
+                  "title": "Multi Part",
+                  "type": "object",
+                  "properties": {
+                    "contentDisposition": {
+                      "title": "Content",
+                      "type": "object",
+                      "properties": {
+                        "parameters": {
+                          "title": "Parameters",
+                          "type": "object"
+                        },
+                        "fileName": {
+                          "title": "File Name",
+                          "type": "string"
+                        },
+                        "creationDate": {
+                          "title": "Created",
+                          "type": "string",
+                          "format": "date-time"
+                        },
+                        "modificationDate": {
+                          "title": "Modified",
+                          "type": "string",
+                          "format": "date-time"
+                        },
+                        "readDate": {
+                          "title": "Read",
+                          "type": "string",
+                          "format": "date-time"
+                        },
+                        "size": {
+                          "title": "Size",
+                          "type": "integer"
+                        }
+                      }
+                    },
+                    "entity": {
+                      "title": "Entity",
+                      "type": "object"
+                    },
+                    "headers": {
+                      "title": "Headers",
+                      "type": "object"
+                    },
+                    "mediaType": {
+                      "title": "Media",
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "title": "Type",
+                          "type": "string"
+                        },
+                        "subtype": {
+                          "title": "Sub-Type",
+                          "type": "string"
+                        },
+                        "parameters": {
+                          "title": "Parameters",
+                          "type": "object"
+                        },
+                        "wildcardSubtype": {
+                          "title": "* for Sub-Type",
+                          "type": "boolean"
+                        },
+                        "wildcardType": {
+                          "title": "* for Type",
+                          "type": "boolean"
+                        }
+                      }
+                    },
+                    "messageBodyWorkers": {
+                      "title": "Message Body Workers",
+                      "type": "object"
+                    },
+                    "parent": {
+                      "title": "Parent",
+                      "type": "string"
+                    },
+                    "providers": {
+                      "title": "Providers",
+                      "type": "object"
+                    },
+                    "bodyParts": {
+                      "title": "Body Parts",
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    },
+                    "parameterizedHeaders": {
+                      "title": "Param Headers",
+                      "type": "object"
+                    }
+                  }
+                },
+                "providers": {
+                  "title": "Providers",
+                  "type": "object"
+                },
+                "bodyParts": {
+                  "title": "Body Parts",
+                  "type": "array",
+                  "items": {
+                    "title": "Body Part",
+                    "type": "object",
+                    "properties": {
+                      "contentDisposition": {
+                        "title": "Content",
+                        "type": "object",
+                        "properties": {
+                          "parameters": {
+                            "title": "Parameters",
+                            "type": "object"
+                          },
+                          "fileName": {
+                            "title": "File Name",
+                            "type": "string"
+                          },
+                          "creationDate": {
+                            "title": "Created",
+                            "type": "string",
+                            "format": "date-time"
+                          },
+                          "modificationDate": {
+                            "title": "Modified",
+                            "type": "string",
+                            "format": "date-time"
+                          },
+                          "readDate": {
+                            "title": "Read",
+                            "type": "string",
+                            "format": "date-time"
+                          },
+                          "size": {
+                            "title": "Size",
+                            "type": "integer"
+                          }
+                        }
+                      },
+                      "entity": {
+                        "title": "Entity",
+                        "type": "object"
+                      },
+                      "headers": {
+                        "title": "Headers",
+                        "type": "object"
+                      },
+                      "mediaType": {
+                        "title": "Media",
+                        "type": "object",
+                        "properties": {
+                          "type": {
+                            "title": "Type",
+                            "type": "string"
+                          },
+                          "subtype": {
+                            "title": "Sub-Type",
+                            "type": "string"
+                          },
+                          "parameters": {
+                            "title": "Parameters",
+                            "type": "object"
+                          },
+                          "wildcardSubtype": {
+                            "title": "* for Sub-Type",
+                            "type": "boolean"
+                          },
+                          "wildcardType": {
+                            "title": "* for Type",
+                            "type": "boolean"
+                          }
+                        }
+                      },
+                      "messageBodyWorkers": {
+                        "title": "Message Body Workers",
+                        "type": "object"
+                      },
+                      "parent": {
+                        "title": "Multi Part",
+                        "type": "object",
+                        "properties": {
+                          "contentDisposition": {
+                            "title": "Content",
+                            "type": "object",
+                            "properties": {
+                              "parameters": {
+                                "title": "Parameters",
+                                "type": "object"
+                              },
+                              "fileName": {
+                                "title": "File Name",
+                                "type": "string"
+                              },
+                              "creationDate": {
+                                "title": "Created",
+                                "type": "string",
+                                "format": "date-time"
+                              },
+                              "modificationDate": {
+                                "title": "Modified",
+                                "type": "string",
+                                "format": "date-time"
+                              },
+                              "readDate": {
+                                "title": "Read",
+                                "type": "string",
+                                "format": "date-time"
+                              },
+                              "size": {
+                                "title": "Size",
+                                "type": "integer"
+                              }
+                            }
+                          },
+                          "entity": {
+                            "title": "Entity",
+                            "type": "object"
+                          },
+                          "headers": {
+                            "title": "Headers",
+                            "type": "object"
+                          },
+                          "mediaType": {
+                            "title": "Media",
+                            "type": "object",
+                            "properties": {
+                              "type": {
+                                "title": "Type",
+                                "type": "string"
+                              },
+                              "subtype": {
+                                "title": "Sub-Type",
+                                "type": "string"
+                              },
+                              "parameters": {
+                                "title": "Parameters",
+                                "type": "object"
+                              },
+                              "wildcardSubtype": {
+                                "title": "* for Sub-Type",
+                                "type": "boolean"
+                              },
+                              "wildcardType": {
+                                "title": "* for Type",
+                                "type": "boolean"
+                              }
+                            }
+                          },
+                          "messageBodyWorkers": {
+                            "title": "Message Body Workers",
+                            "type": "object"
+                          },
+                          "parent": {
+                            "title": "Parent",
+                            "type": "string"
+                          },
+                          "providers": {
+                            "title": "Providers",
+                            "type": "object"
+                          },
+                          "bodyParts": {
+                            "title": "Body Parts",
+                            "type": "array",
+                            "items": {
+                              "type": "string"
+                            }
+                          },
+                          "parameterizedHeaders": {
+                            "title": "Param Headers",
+                            "type": "object"
+                          }
+                        }
+                      },
+                      "providers": {
+                        "title": "Providers",
+                        "type": "object"
+                      },
+                      "parameterizedHeaders": {
+                        "title": "Param Headers",
+                        "type": "object"
+                      }
+                    }
+                  }
+                },
+                "fields": {
+                  "title": "Fields",
+                  "type": "object"
+                },
+                "parameterizedHeaders": {
+                  "title": "Parameterized Headers",
+                  "type": "object"
+                }
+              }
+            }
+          },
+          {
+            "name": "If-Unmodified-Since",
+            "in": "header",
+            "type": "string",
+            "format": "date-time",
+            "description": "If-Unmodified-Since HTTP Date",
+            "x-ms-summary": "Unmodified Since"
+          },
+          {
+            "name": "X-AR-Client-Type",
+            "in": "header",
+            "type": "string",
+            "required": false,
+            "description": "Client Type ID",
+            "x-ms-summary": "Client Type"
+          },
+          {
+            "name": "X-AR-RPC-Queue",
+            "in": "header",
+            "type": "string",
+            "required": false,
+            "description": "RPC queue to which the client calls are routed",
+            "x-ms-summary": "RPC Queue"
+          },
+          {
+            "name": "X-AR-Timeout",
+            "in": "header",
+            "required": false,
+            "default": 120,
+            "type": "integer",
+            "description": "Timeout (in seconds) for REST request",
+            "x-ms-summary": "Timeout (seconds)"
+          },
+          {
+            "name": "X-AR-TR-Core-Id",
+            "in": "header",
+            "type": "string",
+            "description": "The core ID in a trace ID",
+            "x-ms-summary": "Trace Core ID"
+          },
+          {
+            "name": "X-AR-TR-Counter",
+            "in": "header",
+            "type": "string",
+            "description": "The counter in a trace ID",
+            "x-ms-summary": "Trace Counter"
+          },
+          {
+            "name": "X-AR-Trace-Id",
+            "in": "header",
+            "type": "string",
+            "description": "The complete trace ID",
+            "x-ms-summary": "Trace ID"
+          },
+          {
+            "name": "X-AR-TR-Is-Counter-Locked",
+            "in": "header",
+            "type": "string",
+            "description": "The lock counter",
+            "x-ms-summary": "Lock Counter"
+          }
+        ],
+        "responses": {
+          "204": {
+            "schema": {
+              "type": "object"
+            },
+            "description": "Object Response"
+          },
+          "400": {
+            "description": "Request body is incorrect",
+            "x-ms-summary": "Incorrect",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "x-ms-summary": "Forbidden",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Form does not exist",
+            "x-ms-summary": "Doesn't Exist",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          },
+          "412": {
+            "description": "Update wasn't completed",
+            "x-ms-summary": "Update wasn't completed",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error",
+            "x-ms-summary": "Error",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          }
+        }
+      },
+      "options": {
+        "tags": [
+          "Entry"
+        ],
+        "operationId": "Get_form_options",
+        "summary": "Get form options",
+        "description": "Retrieves the information of the form schema.",
+        "security": [
+          {
+            "API_Key": []
+          }
+        ],
+        "parameters": [
+          {
+            "x-ms-summary": "Form name",
+            "name": "formName",
+            "in": "path",
+            "type": "string",
+            "description": "The form for which an entry is to be read.",
+            "required": true
+          },
+          {
+            "name": "entryId",
+            "x-ms-summary": "Entry ID",
+            "in": "path",
+            "type": "string",
+            "required": true,
+            "description": "The entry ID"
+          },
+          {
+            "name": "fields",
+            "in": "query",
+            "type": "string",
+            "x-ms-summary": "Fields",
+            "description": "Selects what parts of the JSON document to return (for example: ?fields=entryId1,entryId2)."
+          },
+          {
+            "name": "expand",
+            "x-ms-summary": "Expand",
+            "in": "query",
+            "type": "string",
+            "description": "Expands the related entries (associations)."
+          }
+        ],
+        "responses": {
+          "200": {
+            "schema": {
+              "type": "object"
+            },
+            "description": "Object Response"
+          },
+          "400": {
+            "description": "Request body is incorrect",
+            "x-ms-summary": "Incorrect",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "x-ms-summary": "Forbidden",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Form does not exist",
+            "x-ms-summary": "Doesn't Exist",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error",
+            "x-ms-summary": "Error",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/arsys/v1/entry/{formName}/{entryId}/assoc/{associationName}": {
+      "get": {
+        "tags": [
+          "Entry"
+        ],
+        "operationId": "Get_an_association",
+        "summary": "Get an association",
+        "description": "Returns the list of associated entries for a particular entry",
+        "security": [
+          {
+            "API_Key": []
+          }
+        ],
+        "parameters": [
+          {
+            "x-ms-summary": "Form name",
+            "name": "formName",
+            "in": "path",
+            "type": "string",
+            "description": "The form for which an entry is to be read.",
+            "required": true
+          },
+          {
+            "name": "entryId",
+            "x-ms-summary": "Entry ID",
+            "in": "path",
+            "type": "string",
+            "required": true,
+            "description": "The entry ID"
+          },
+          {
+            "name": "associationName",
+            "x-ms-summary": "Assoc. Name",
+            "type": "string",
+            "in": "path",
+            "required": true,
+            "description": "The form for which an entries are to be read."
+          }
+        ],
+        "responses": {
+          "200": {
+            "schema": {
+              "title": "Entry List",
+              "type": "object",
+              "properties": {
+                "entries": {
+                  "title": "Entries",
+                  "type": "array",
+                  "items": {
+                    "title": "Entry",
+                    "type": "object",
+                    "properties": {
+                      "values": {
+                        "title": "Values",
+                        "type": "object"
+                      },
+                      "_links": {
+                        "title": "Links",
+                        "type": "object"
+                      },
+                      "_embedded": {
+                        "title": "Embedded",
+                        "type": "object"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "description": "successful operation returning Entries"
+          },
+          "400": {
+            "description": "Request body is incorrect",
+            "x-ms-summary": "Incorrect",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "x-ms-summary": "Forbidden",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Form does not exist",
+            "x-ms-summary": "Doesn't Exist",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error",
+            "x-ms-summary": "Error",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          }
+        }
+      },
+      "options": {
+        "tags": [
+          "Entry"
+        ],
+        "operationId": "Get_association_form_option",
+        "summary": "Get association form option",
+        "description": "Retrieves the information of the form schema.",
+        "security": [
+          {
+            "API_Key": []
+          }
+        ],
+        "parameters": [
+          {
+            "x-ms-summary": "Form name",
+            "name": "formName",
+            "in": "path",
+            "type": "string",
+            "description": "The form for which an entry is to be read.",
+            "required": true
+          },
+          {
+            "name": "entryId",
+            "x-ms-summary": "Entry ID",
+            "in": "path",
+            "type": "string",
+            "required": true,
+            "description": "The entry ID"
+          },
+          {
+            "name": "associationName",
+            "x-ms-summary": "Assoc. Name",
+            "type": "string",
+            "in": "path",
+            "required": true,
+            "description": "The form for which an entries are to be read."
+          },
+          {
+            "name": "fields",
+            "in": "query",
+            "type": "string",
+            "x-ms-summary": "Fields",
+            "description": "Selects what parts of the JSON document to return (for example: ?fields=entryId1,entryId2)."
+          }
+        ],
+        "responses": {
+          "200": {
+            "schema": {
+              "type": "object"
+            },
+            "description": "Object Response"
+          },
+          "400": {
+            "description": "Request body is incorrect",
+            "x-ms-summary": "Incorrect",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "x-ms-summary": "Forbidden",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Form does not exist",
+            "x-ms-summary": "Doesn't Exist",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error",
+            "x-ms-summary": "Error",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/arsys/v1/entry/{formName}/{entryId}/attach/{fieldName}": {
+      "get": {
+        "tags": [
+          "Entry"
+        ],
+        "operationId": "Get_an_attachment",
+        "summary": "Get an attachment",
+        "description": "Returns an attachment for a particular entry or for the list of entries.",
+        "security": [
+          {
+            "API_Key": []
+          }
+        ],
+        "parameters": [
+          {
+            "x-ms-summary": "Form name",
+            "name": "formName",
+            "in": "path",
+            "type": "string",
+            "description": "The form for which an entry is to be read.",
+            "required": true
+          },
+          {
+            "name": "entryId",
+            "x-ms-summary": "Entry ID",
+            "in": "path",
+            "type": "string",
+            "required": true,
+            "description": "The entry ID"
+          },
+          {
+            "name": "fieldName",
+            "x-ms-summary": "Field Name",
+            "in": "path",
+            "required": true,
+            "type": "string",
+            "description": "The name of an attachment field."
+          }
+        ],
+        "responses": {
+          "200": {
+            "schema": {
+              "type": "string"
+            },
+            "description": "successful operation (String)",
+            "x-ms-summary": "String Response"
+          },
+          "400": {
+            "description": "Request body is incorrect",
+            "x-ms-summary": "Incorrect",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "x-ms-summary": "Forbidden",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Form does not exist",
+            "x-ms-summary": "Doesn't Exist",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error",
+            "x-ms-summary": "Error",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

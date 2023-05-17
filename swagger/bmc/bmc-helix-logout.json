@@ -1,0 +1,249 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0",
+    "title": "BMC Helix - Logout",
+    "description": "BMC Helix Logout REST APIs",
+    "contact": {
+      "url": "https://www.bmc.com",
+      "name": "BMC"
+    }
+  },
+  "basePath": "/api",
+  "consumes": [
+    "application/json",
+    "application/x-www-form-urlencoded",
+    "multipart/form-data"
+  ],
+  "produces": [
+    "application/json",
+    "text/plain"
+  ],
+  "schemes": [
+    "https"
+  ],
+  "host": "cmaconsulting-qa-restapi.onbmc.com",
+  "securityDefinitions": {
+    "API_Key": {
+      "type": "apiKey",
+      "name": "Authorization",
+      "in": "header"
+    }
+  },
+  "security": [],
+  "tags": [
+    {
+      "name": "Logout"
+    }
+  ],
+  "paths": {
+    "/jwt/logout": {
+      "post": {
+        "tags": [
+          "Logout"
+        ],
+        "summary": "Releases the token",
+        "operationId": "Logout",
+        "description": "Releases the JSON web token",
+        "security": [
+          {
+            "API_Key": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "X-AR-Client-Type",
+            "in": "header",
+            "type": "string",
+            "required": false,
+            "description": "Client Type ID",
+            "x-ms-summary": "Client Type"
+          },
+          {
+            "name": "X-AR-RPC-Queue",
+            "in": "header",
+            "type": "string",
+            "required": false,
+            "description": "RPC queue to which the client calls are routed",
+            "x-ms-summary": "RPC Queue"
+          },
+          {
+            "name": "X-AR-Timeout",
+            "in": "header",
+            "required": false,
+            "default": 120,
+            "type": "integer",
+            "description": "Timeout (in seconds) for REST request",
+            "x-ms-summary": "Timeout (seconds)"
+          },
+          {
+            "name": "X-AR-TR-Core-Id",
+            "in": "header",
+            "type": "string",
+            "description": "The core ID in a trace ID",
+            "x-ms-summary": "Trace Core ID"
+          },
+          {
+            "name": "X-AR-TR-Counter",
+            "in": "header",
+            "type": "string",
+            "description": "The counter in a trace ID",
+            "x-ms-summary": "Trace Counter"
+          },
+          {
+            "name": "X-AR-Trace-Id",
+            "in": "header",
+            "type": "string",
+            "description": "The complete trace ID",
+            "x-ms-summary": "Trace ID"
+          },
+          {
+            "name": "X-AR-TR-Is-Counter-Locked",
+            "in": "header",
+            "type": "string",
+            "description": "The lock counter",
+            "x-ms-summary": "Lock Counter"
+          },
+          {
+            "name": "X-AR-Impersonated-User",
+            "in": "header",
+            "type": "string",
+            "required": false,
+            "format": "byte",
+            "description": "Name of the impersonated User",
+            "x-ms-summary": "Impersonated User"
+          }
+        ],
+        "responses": {
+          "200": {
+            "schema": {
+              "type": "string"
+            },
+            "description": "successful operation (String)",
+            "x-ms-summary": "String Response"
+          },
+          "400": {
+            "description": "Request body is incorrect",
+            "x-ms-summary": "Incorrect",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "x-ms-summary": "Forbidden",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Form does not exist",
+            "x-ms-summary": "Doesn't Exist",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error",
+            "x-ms-summary": "Error",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0",
+    "title": "BMC Helix - Login",
+    "description": "BMC Helix Login REST APIs",
+    "contact": {
+      "url": "https://www.bmc.com",
+      "name": "BMC"
+    }
+  },
+  "basePath": "/api",
+  "consumes": [
+    "application/x-www-form-urlencoded"
+  ],
+  "produces": [
+    "text/plain"
+  ],
+  "schemes": [
+    "https"
+  ],
+  "host": "cmaconsulting-qa-restapi.onbmc.com",
+  "securityDefinitions": {},
+  "security": [],
+  "tags": [
+    {
+      "name": "Login"
+    }
+  ],
+  "paths": {
+    "/jwt/login": {
+      "post": {
+        "tags": [
+          "Login"
+        ],
+        "summary": "Login to create JWT Token",
+        "operationId": "Login",
+        "security": [],
+        "consumes": [
+          "application/x-www-form-urlencoded"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json"
+        ],
+        "description": "# Login\nThe AR System server performs the normal authentication mechanisms to\nvalidate the credentials. If the credentials are valid, the AR System\nserver generates a JSON Web Token (JWT). You can attempt a REST API call\nif you have a token. A single JWT token is valid for an hour. You can\nuse a single token across multiple AR System server that are in the same\nserver group.\n",
+        "parameters": [
+          {
+            "name": "username",
+            "in": "formData",
+            "type": "string",
+            "required": true,
+            "x-ms-summary": "Account",
+            "description": "Account"
+          },
+          {
+            "name": "password",
+            "in": "formData",
+            "type": "string",
+            "format": "password",
+            "required": true,
+            "description": "Password",
+            "x-ms-summary": "Password"
+          },
+          {
+            "name": "authString",
+            "in": "formData",
+            "type": "string",
+            "required": false,
+            "x-ms-summary": "Auth. String",
+            "description": "Authorization String that can be used as a name for the token."
+          }
+        ],
+        "responses": {
+          "200": {
+            "schema": {
+              "type": "string"
+            },
+            "description": "successful operation (String)",
+            "x-ms-summary": "String Response"
+          },
+          "400": {
+            "description": "Request body is incorrect",
+            "x-ms-summary": "Incorrect",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "x-ms-summary": "Forbidden",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Form does not exist",
+            "x-ms-summary": "Doesn't Exist",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error",
+            "x-ms-summary": "Error",
+            "schema": {
+              "title": "Error",
+              "type": "object",
+              "properties": {
+                "messageType": {
+                  "title": "Type",
+                  "type": "string",
+                  "description": "Type of message returned. For example, **OK**, **ERROR**, **WARNING**, **FATAL**, **BAD STATUS**."
+                },
+                "messageText": {
+                  "title": "Text",
+                  "type": "string",
+                  "description": "The actual text of the error message."
+                },
+                "messageAppendedText": {
+                  "title": "Appended Text",
+                  "type": "string",
+                  "description": "The text that augments the error message."
+                },
+                "messageNumber": {
+                  "title": "Number",
+                  "type": "integer",
+                  "description": "The AR System error number associated with the error message.\n"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
