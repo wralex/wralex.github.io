@@ -8,5 +8,5 @@ categories: Bill Alexander Web Site
 # Videos
 
 {% for p in site.data.az400vids %}1. <input type="checkbox" /> [{{p.title}}]({{p.url}}){:target="_blank"}
-{% for c in p.children %}   1. <input type="checkbox" /> [{{c.title}}](c.url){:target="_blank"}
+{% for c in p.children %}   1. <input type="checkbox" /> [{{c.title}}]({{c.url}}){:target="_blank"}
 {% endfor %}{% endfor %}
