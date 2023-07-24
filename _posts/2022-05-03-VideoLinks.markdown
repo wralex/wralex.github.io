@@ -2,6 +2,8 @@
 layout: post
 title:  'AZ400 Videos'
 name: 'AZ400_Vids'
+date:   2022-05-03 18:41:04 -0400
+categories: Bill Alexander Web Site
 ---
 
 # Videos
