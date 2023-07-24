@@ -23,6 +23,5 @@ Thanks Again😃❗
 [Editing with VS Code and Pandoc]: /instructions/Editing-With-Pandoc
 [Visual Studio Code]: https://code.visualstudio.com/
 [Pandoc]: https://pandoc.org/
-[Azure DevOps]: https://dev.azure.com
 [Word]: https://word.office.com
 [Markdown]: https://www.markdownguide.org/
