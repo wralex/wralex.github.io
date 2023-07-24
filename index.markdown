@@ -8,7 +8,7 @@ tutorials and posts that you may find useful.
 
 ## Tutorials
 
-1. **<u>[Editing with VS Code and Pandoc]</u>** - Using [Visual Studio Code] & [Pandoc] to
+1. <u>**[Editing with VS Code and Pandoc]**</u> - Using [Visual Studio Code] & [Pandoc] to
    converts a [Word] document into [Markdown] and then how to reverse the process
    to generate it back into other formats, such as an HTML page, a Word document,
    and more.
