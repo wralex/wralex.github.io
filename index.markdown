@@ -3,22 +3,15 @@ title: Introduction
 layout: home
 ---
 I would like to welcome you to my GitHub Pages site. I will post items of
-interest and try to assist visitors to some of my knowledge, even if it's not
-💯% correct. Not only that, but I can share with you some IT skills and even
-attempt to create tutorials that I hope you will find useful. Furthermore, I am
-always taking feedback from others and would like to hear from you.
+interest and share my experiences with you. Some content will be
+tutorials and posts that you may find useful.
 
 ## Tutorials
 
-In my journey of IT I have tried to create helpful tutorials, share labs, or
-even have discussions. Below is a list I'd like to share with you some of my
-experiences:
-
-1. [Editing with VS Code and Pandoc] - This is a tutorial I'm creating where I
-   use VS Code & Pandoc along with an Azure DevOps repo to convert a Word
-   Document into Markdown and reversing the process and creating other formats,
-   such as a Web Page. I also use Azure DevOps to store the files in a GIT
-   repository to show how this may be used to future modifications.
+1. [Editing with VS Code and Pandoc] - This is a tutorial I've created
+   using [Visual Studio Code] & [Pandoc] with an [Azure DevOps] repository that
+   converts a [Word] document into [Markdown] and then reversing the process
+   to generate it back into other formats, such as a Web, PDF, Word, etc.
 
 ## Conclusion
 
@@ -28,3 +21,8 @@ I do thank you for visiting and if you do have any feedback, please email me at
 Thanks Again😃❗
 
 [Editing with VS Code and Pandoc]: /instructions/Editing-With-Pandoc
+[Visual Studio Code]: https://code.visualstudio.com/
+[Pandoc]: https://pandoc.org/
+[Azure DevOps]: https://dev.azure.com
+[Word]: https://word.office.com
+[Markdown]: https://www.markdownguide.org/
