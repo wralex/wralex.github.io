@@ -11,7 +11,8 @@ tutorials and posts that you may find useful.
 1. [Editing with VS Code and Pandoc] - This is a tutorial I've created
    using [Visual Studio Code] & [Pandoc] with an [Azure DevOps] repository that
    converts a [Word] document into [Markdown] and then reversing the process
-   to generate it back into other formats, such as a Web, PDF, Word, etc.
+   to generate it back into other formats, such as a HTML page, PDF document,
+   Word document, and more.
 
 ## Conclusion
 
