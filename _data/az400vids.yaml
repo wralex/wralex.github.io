@@ -1,8 +1,8 @@
 - title: Designing and Implementing an Agile Work Management Approach
-  url: https://web.microsoftstream.com/embed/video/414405c1-ef4d-4b75-8fc5-19bea4e9e226?st=0
+  url: https://web.microsoftstream.com/embed/video/414405c1-ef4d-4b75-8fc5-19bea4e9e226
   children:
   - title: Course Introduction
-    url: https://web.microsoftstream.com/embed/video/414405c1-ef4d-4b75-8fc5-19bea4e9e226?st=0
+    url: https://web.microsoftstream.com/embed/video/414405c1-ef4d-4b75-8fc5-19bea4e9e226
   - title: Project Metrics and KPIs
     url: https://web.microsoftstream.com/embed/video/414405c1-ef4d-4b75-8fc5-19bea4e9e226?st=142
   - title: Mentoring Team Members on Agile Practices
@@ -16,10 +16,10 @@
   - title: Course Conclusion
     url: https://web.microsoftstream.com/embed/video/414405c1-ef4d-4b75-8fc5-19bea4e9e226?st=1209
 - title: Designing for Quality and Security With Azure DevOps
-  url: https://web.microsoftstream.com/embed/video/2f08db01-a87d-4ac2-bc92-f88d8b09a2cd?st=0
+  url: https://web.microsoftstream.com/embed/video/2f08db01-a87d-4ac2-bc92-f88d8b09a2cd
   children:
   - title: Introduction
-    url: https://web.microsoftstream.com/embed/video/2f08db01-a87d-4ac2-bc92-f88d8b09a2cd?st=0
+    url: https://web.microsoftstream.com/embed/video/2f08db01-a87d-4ac2-bc92-f88d8b09a2cd
   - title: Identifying & Recommending Quality Metrics
     url: https://web.microsoftstream.com/embed/video/2f08db01-a87d-4ac2-bc92-f88d8b09a2cd?st=133
   - title: Feature Flags
@@ -41,10 +41,10 @@
   - title: Conclusion
     url: https://web.microsoftstream.com/embed/video/2f08db01-a87d-4ac2-bc92-f88d8b09a2cd?st=1802
 - title: Implementing Version Control on Azure Repos
-  url: https://web.microsoftstream.com/embed/video/7cf8a9d2-3a76-4a73-a473-e38895380fa4?st=0
+  url: https://web.microsoftstream.com/embed/video/7cf8a9d2-3a76-4a73-a473-e38895380fa4
   children:
   - title: Course Introduction
-    url: https://web.microsoftstream.com/embed/video/7cf8a9d2-3a76-4a73-a473-e38895380fa4?st=0
+    url: https://web.microsoftstream.com/embed/video/7cf8a9d2-3a76-4a73-a473-e38895380fa4
   - title: What is Version Control?
     url: https://web.microsoftstream.com/embed/video/7cf8a9d2-3a76-4a73-a473-e38895380fa4?st=98
   - title: Let's Git to the Point
@@ -72,10 +72,10 @@
   - title: Summary
     url: https://web.microsoftstream.com/embed/video/7cf8a9d2-3a76-4a73-a473-e38895380fa4?st=2219
 - title: Implementing and Managing Azure Build Infrastructure
-  url: https://web.microsoftstream.com/embed/video/b306f8ba-0ad8-42c4-9d58-b8810c20ec99?st=0
+  url: https://web.microsoftstream.com/embed/video/b306f8ba-0ad8-42c4-9d58-b8810c20ec99
   children:
   - title: Course Introduction
-    url: https://web.microsoftstream.com/embed/video/b306f8ba-0ad8-42c4-9d58-b8810c20ec99?st=0
+    url: https://web.microsoftstream.com/embed/video/b306f8ba-0ad8-42c4-9d58-b8810c20ec99
   - title: Azure Pipelines
     url: https://web.microsoftstream.com/embed/video/b306f8ba-0ad8-42c4-9d58-b8810c20ec99?st=157
   - title: Azure Pipelines Demo
@@ -95,10 +95,10 @@
   - title: Course Summary
     url: https://web.microsoftstream.com/embed/video/b306f8ba-0ad8-42c4-9d58-b8810c20ec99?st=3359
 - title: Adding Mobile Devices to Your Azure DevOps Strategy
-  url: https://web.microsoftstream.com/embed/video/95fd6640-2c52-4577-9085-6701da7ace58?st=0
+  url: https://web.microsoftstream.com/embed/video/95fd6640-2c52-4577-9085-6701da7ace58
   children:
   - title: Course Introduction
-    url: https://web.microsoftstream.com/embed/video/95fd6640-2c52-4577-9085-6701da7ace58?st=0
+    url: https://web.microsoftstream.com/embed/video/95fd6640-2c52-4577-9085-6701da7ace58
   - title: Mobile Build Services
     url: https://web.microsoftstream.com/embed/video/95fd6640-2c52-4577-9085-6701da7ace58?st=308
   - title: 'DEMO: App Center Build Services'
@@ -120,10 +120,10 @@
   - title: Course Conclusion
     url: https://web.microsoftstream.com/embed/video/95fd6640-2c52-4577-9085-6701da7ace58?st=3794
 - title: Managing Application Configuration and Secrets in Azure
-  url: https://web.microsoftstream.com/embed/video/6353b777-65a1-4909-bf32-b9ae084220eb?st=0
+  url: https://web.microsoftstream.com/embed/video/6353b777-65a1-4909-bf32-b9ae084220eb
   children:
   - title: Course Introduction
-    url: https://web.microsoftstream.com/embed/video/6353b777-65a1-4909-bf32-b9ae084220eb?st=0
+    url: https://web.microsoftstream.com/embed/video/6353b777-65a1-4909-bf32-b9ae084220eb
   - title: Azure App Configuration Overview
     url: https://web.microsoftstream.com/embed/video/6353b777-65a1-4909-bf32-b9ae084220eb?st=93
   - title: 'DEMO: Basic App Configuration'
@@ -171,10 +171,10 @@
   - title: Course Summary
     url: https://web.microsoftstream.com/embed/video/6353b777-65a1-4909-bf32-b9ae084220eb?st=4441
 - title: Building Containers with Azure DevOps
-  url: https://web.microsoftstream.com/embed/video/39eafb65-c33c-4276-b88d-e436581b01b4?st=0
+  url: https://web.microsoftstream.com/embed/video/39eafb65-c33c-4276-b88d-e436581b01b4
   children:
   - title: Introduction
-    url: https://web.microsoftstream.com/embed/video/39eafb65-c33c-4276-b88d-e436581b01b4?st=0
+    url: https://web.microsoftstream.com/embed/video/39eafb65-c33c-4276-b88d-e436581b01b4
   - title: The Power of Docker Containers
     url: https://web.microsoftstream.com/embed/video/39eafb65-c33c-4276-b88d-e436581b01b4?st=132
   - title: Microservices and Containers
@@ -194,9 +194,10 @@
   - title: Conclusion
     url: https://web.microsoftstream.com/embed/video/39eafb65-c33c-4276-b88d-e436581b01b4?st=1784
 - title: Designing an Infrastructure and Configuration Management Strategy
-  url: https://web.microsoftstream.com/embed/video/5cd58988-8e1f-471e-aed8-0a2527101709?st=0
+  url: https://web.microsoftstream.com/embed/video/5cd58988-8e1f-471e-aed8-0a2527101709
   children:
-  - title: https://web.microsoftstream.com/embed/video/5cd58988-8e1f-471e-aed8-0a2527101709?st=0
+  - title: Introduction 
+    url: https://web.microsoftstream.com/embed/video/5cd58988-8e1f-471e-aed8-0a2527101709
   - title: Hosting Infrastructure
     url: https://web.microsoftstream.com/embed/video/5cd58988-8e1f-471e-aed8-0a2527101709?st=124
   - title: An Intro to Infrastructure as Code
@@ -212,9 +213,10 @@
   - title: Conclusion
     url: https://web.microsoftstream.com/embed/video/5cd58988-8e1f-471e-aed8-0a2527101709?st=1995
 - title: Implementing a Build Strategy for Continuous Integration With Azure DevOps
-  url: https://web.microsoftstream.com/embed/video/467d6cce-e9b2-464c-8275-feb4310c3d75?st=0
+  url: https://web.microsoftstream.com/embed/video/467d6cce-e9b2-464c-8275-feb4310c3d75
   children:
-  - title: https://web.microsoftstream.com/embed/video/467d6cce-e9b2-464c-8275-feb4310c3d75?st=0
+  - title: Introduction 
+    url: https://web.microsoftstream.com/embed/video/467d6cce-e9b2-464c-8275-feb4310c3d75
   - title: Build Tools
     url: https://web.microsoftstream.com/embed/video/467d6cce-e9b2-464c-8275-feb4310c3d75?st=112
   - title: Build Triggers
@@ -226,9 +228,10 @@
   - title: Conclusion
     url: https://web.microsoftstream.com/embed/video/467d6cce-e9b2-464c-8275-feb4310c3d75?st=1830
 - title: Implementing Continuous Delivery on Azure
-  url: https://web.microsoftstream.com/embed/video/a03d177a-edfe-49e9-b131-794c72906ff3?st=0
+  url: https://web.microsoftstream.com/embed/video/a03d177a-edfe-49e9-b131-794c72906ff3
   children:
-  - title: https://web.microsoftstream.com/embed/video/a03d177a-edfe-49e9-b131-794c72906ff3?st=0
+  - title: Introduction 
+    url: https://web.microsoftstream.com/embed/video/a03d177a-edfe-49e9-b131-794c72906ff3
   - title: What is Continuous Delivery?
     url: https://web.microsoftstream.com/embed/video/a03d177a-edfe-49e9-b131-794c72906ff3?st=80
   - title: Designing a Release Strategy
@@ -254,9 +257,10 @@
   - title: Conclusion
     url: https://web.microsoftstream.com/embed/video/a03d177a-edfe-49e9-b131-794c72906ff3?st=3872
 - title: Managing Code Quality and Security Policies with Azure DevOps
-  url: https://web.microsoftstream.com/embed/video/bc0a7cec-d30d-4d0a-9f21-bb095536aebe?st=0
+  url: https://web.microsoftstream.com/embed/video/bc0a7cec-d30d-4d0a-9f21-bb095536aebe
   children:
-  - title: https://web.microsoftstream.com/embed/video/bc0a7cec-d30d-4d0a-9f21-bb095536aebe?st=0
+  - title: Introduction 
+    url: https://web.microsoftstream.com/embed/video/bc0a7cec-d30d-4d0a-9f21-bb095536aebe
   - title: Code Quality Defined
     url: https://web.microsoftstream.com/embed/video/bc0a7cec-d30d-4d0a-9f21-bb095536aebe?st=131
   - title: Monitoring Code Quality
@@ -272,9 +276,10 @@
   - title: Course Summary
     url: https://web.microsoftstream.com/embed/video/bc0a7cec-d30d-4d0a-9f21-bb095536aebe?st=1994
 - title: Implementing Dependency Management With Azure DevOps
-  url: https://web.microsoftstream.com/embed/video/3d2b4c8c-6850-44f2-8d1e-60dd6d093683?st=0
+  url: https://web.microsoftstream.com/embed/video/3d2b4c8c-6850-44f2-8d1e-60dd6d093683
   children:
-  - title: https://web.microsoftstream.com/embed/video/3d2b4c8c-6850-44f2-8d1e-60dd6d093683?st=0
+  - title: Introduction 
+    url: https://web.microsoftstream.com/embed/video/3d2b4c8c-6850-44f2-8d1e-60dd6d093683
   - title: What is Dependency Management?
     url: https://web.microsoftstream.com/embed/video/3d2b4c8c-6850-44f2-8d1e-60dd6d093683?st=81
   - title: 'Demo: Building a Package'
@@ -290,9 +295,10 @@
   - title: Conclusion
     url: https://web.microsoftstream.com/embed/video/3d2b4c8c-6850-44f2-8d1e-60dd6d093683?st=2279
 - title: Introduction to Azure Resource Manager
-  url: https://web.microsoftstream.com/embed/video/29e3796a-9ff4-494c-8561-4f7ff0b2a10a?st=0
+  url: https://web.microsoftstream.com/embed/video/29e3796a-9ff4-494c-8561-4f7ff0b2a10a
   children:
-  - title: https://web.microsoftstream.com/embed/video/29e3796a-9ff4-494c-8561-4f7ff0b2a10a?st=0
+  - title: Introduction 
+    url: https://web.microsoftstream.com/embed/video/29e3796a-9ff4-494c-8561-4f7ff0b2a10a
   - title: Azure ARM Intro Overview
     url: https://web.microsoftstream.com/embed/video/29e3796a-9ff4-494c-8561-4f7ff0b2a10a?st=95
   - title: 'DEMO: Modifying Existing Templates'
@@ -314,9 +320,10 @@
   - title: Course Summary
     url: https://web.microsoftstream.com/embed/video/29e3796a-9ff4-494c-8561-4f7ff0b2a10a?st=3029
 - title: Implementing Azure Infrastructure Compliance and Security
-  url: https://web.microsoftstream.com/embed/video/4ffa5008-0e63-487a-ba0b-7d6ed6356512?st=0
+  url: https://web.microsoftstream.com/embed/video/4ffa5008-0e63-487a-ba0b-7d6ed6356512
   children:
-  - title: https://web.microsoftstream.com/embed/video/4ffa5008-0e63-487a-ba0b-7d6ed6356512?st=0
+  - title: Introduction 
+    url: https://web.microsoftstream.com/embed/video/4ffa5008-0e63-487a-ba0b-7d6ed6356512
   - title: Compliance & Security Scanning
     url: https://web.microsoftstream.com/embed/video/4ffa5008-0e63-487a-ba0b-7d6ed6356512?st=167
   - title: Security Center Demo
@@ -342,9 +349,10 @@
   - title: Course Summary
     url: https://web.microsoftstream.com/embed/video/4ffa5008-0e63-487a-ba0b-7d6ed6356512?st=4889
 - title: Implementing Continuous Feedback with Azure DevOps
-  url: https://web.microsoftstream.com/embed/video/abf3be0b-0791-4b1f-b488-5cfa476cb64e?st=0
+  url: https://web.microsoftstream.com/embed/video/abf3be0b-0791-4b1f-b488-5cfa476cb64e
   children:
-  - title: https://web.microsoftstream.com/embed/video/abf3be0b-0791-4b1f-b488-5cfa476cb64e?st=0
+  - title: Introduction 
+    url: https://web.microsoftstream.com/embed/video/abf3be0b-0791-4b1f-b488-5cfa476cb64e
   - title: What is Feedback?
     url: https://web.microsoftstream.com/embed/video/abf3be0b-0791-4b1f-b488-5cfa476cb64e?st=88
   - title: Error Feedback
@@ -374,9 +382,10 @@
   - title: Summary
     url: https://web.microsoftstream.com/embed/video/abf3be0b-0791-4b1f-b488-5cfa476cb64e?st=2930
 - title: Implementing Azure Active Directory Privileged Identity Management
-  url: https://web.microsoftstream.com/embed/video/71ff0d98-0d09-44fe-b1a6-04f001e1b42c?st=0
+  url: https://web.microsoftstream.com/embed/video/71ff0d98-0d09-44fe-b1a6-04f001e1b42c
   children:
-  - title: https://web.microsoftstream.com/embed/video/71ff0d98-0d09-44fe-b1a6-04f001e1b42c?st=0
+  - title: Introduction 
+    url: https://web.microsoftstream.com/embed/video/71ff0d98-0d09-44fe-b1a6-04f001e1b42c
   - title: PIM Overview
     url: https://web.microsoftstream.com/embed/video/71ff0d98-0d09-44fe-b1a6-04f001e1b42c?st=151
   - title: Getting Started
