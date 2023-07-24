@@ -2,8 +2,13 @@
     "version": "2.0.0",
     "tasks": [
       {
-        "label": "jekyll",
+        "label": "Jekyll",
         "command": "bundle exec jekyll serve",
+        "type": "shell"
+      },
+      {
+        "label": "Jekyll-Reload",
+        "command": "bundle exec jekyll serve --livereload",
         "type": "shell"
       }
     ]

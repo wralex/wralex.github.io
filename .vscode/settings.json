@@ -1,15 +1,14 @@
 {
     "files.exclude": {
-        "**/.git": true,
-        "**/.svn": true,
-        "**/.hg": true,
-        "**/CVS": true,
-        "**/.DS_Store": true,
-        "**/Thumbs.db": true,
+        "_site": true,
         ".history": true,
-        ".vscode": true,
         ".jekyll-cache": true,
-        "_site": true
+        "**/.DS_Store": true,
+        "**/.git": true,
+        "**/.hg": true,
+        "**/.svn": true,
+        "**/CVS": true,
+        "**/Thumbs.db": true
     },
     "explorerExclude.backup": null,
     "sqltools.useNodeRuntime": true,
