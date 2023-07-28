@@ -245,8 +245,7 @@ the tutorial.
    ➡️
    </div>
 
-   <a href="../samples/public.docx" download>
-   <b>public.docx</b></a>⬅️
+   <a href="../samples/public.docx" download><b>public.docx</b></a>⬅️
 
    <div style="clear:left;"></div>
 
