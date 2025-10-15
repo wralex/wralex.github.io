@@ -1,4 +1,5 @@
 ---
+layout: page
 lab:
     title: 'Lab 06: Implement Network Traffic Management'
     module: 'Administer Network Traffic Management'

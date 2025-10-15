@@ -1,4 +1,5 @@
 ---
+layout: page
 lab:
     title: 'Lab 01: Manage Microsoft Entra ID Identities'
     module: 'Administer Identity'

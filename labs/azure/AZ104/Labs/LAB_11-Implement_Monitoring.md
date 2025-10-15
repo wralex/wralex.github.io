@@ -1,4 +1,5 @@
 ---
+layout: page
 lab:
     title: 'Lab 11: Implement Monitoring'
     module: 'Administer Monitoring'

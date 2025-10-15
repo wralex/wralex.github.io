@@ -1,4 +1,5 @@
 ---
+layout: page
 lab:
     title: 'Lab 09c: Implement Azure Container Apps'
     module: 'Administer PaaS Compute Options'

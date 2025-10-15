@@ -1,4 +1,5 @@
 ---
+layout: page
 lab:
     title: 'Lab 07: Manage Azure storage'
     module: 'Administer Azure Storage'

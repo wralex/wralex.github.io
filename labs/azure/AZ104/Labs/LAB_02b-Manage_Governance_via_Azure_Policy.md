@@ -1,4 +1,5 @@
 ---
+layout: page
 lab:
     title: 'Lab 02b: Manage Governance via Azure Policy'
     module: 'Administer Governance and Compliance'

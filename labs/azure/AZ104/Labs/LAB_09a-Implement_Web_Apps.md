@@ -1,4 +1,5 @@
 ---
+layout: page
 lab:
     title: 'Lab 09a: Implement Web Apps'
     module: 'Administer PaaS Compute Options'

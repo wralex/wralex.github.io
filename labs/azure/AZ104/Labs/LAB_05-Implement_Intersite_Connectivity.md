@@ -1,4 +1,5 @@
 ---
+layout: page
 lab:
     title: 'Lab 05: Implement Intersite Connectivity'
     module: 'Administer Intersite Connectivity'

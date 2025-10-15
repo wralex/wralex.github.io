@@ -1,4 +1,5 @@
 ---
+layout: page
 lab:
     title: 'Lab 02a: Manage Subscriptions and RBAC'
     module: 'Administer Governance and Compliance'

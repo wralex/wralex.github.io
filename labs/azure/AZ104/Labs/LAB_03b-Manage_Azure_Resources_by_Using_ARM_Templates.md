@@ -1,4 +1,5 @@
 ---
+layout: page
 lab:
     title: 'Lab 03: Manage Azure resources by using Azure Resource Manager Templates'
     module: 'Administer Azure Resources'

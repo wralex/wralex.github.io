@@ -1,4 +1,5 @@
 ---
+layout: page
 lab:
     title: 'Lab 08: Manage Virtual Machines'
     module: 'Administer Virtual Machines'

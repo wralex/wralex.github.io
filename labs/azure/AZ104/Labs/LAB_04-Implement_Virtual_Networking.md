@@ -1,4 +1,5 @@
 ---
+layout: page
 lab:
     title: 'Lab 04: Implement Virtual Networking'
     module: 'Implement Virtual Networking'
