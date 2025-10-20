@@ -20,7 +20,7 @@ This module explains the basic infrastructure components of Microsoft Azure. You
 <!-- {% assign counter = counter | plus: 1 %}{% assign result = page.preIds | append: "-" | append: counter %} -->
 - <span>{% include checks.html id=result %} [Get started with Azure accounts](https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/3-get-started-azure-accounts)</span>
 <!-- {% assign counter = counter | plus: 1 %}{% assign result = page.preIds | append: "-" | append: counter %} -->
-- <span>{% include checks.html id=result %} [Exercise - Explore interacting with Azure](https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/4-exercise-explore-learn-sandbox)</span>
+- <span>{% include checks.html id=result %} [Exercise - Explore interacting with Azure](./labs/4-exercise-explore-learn-sandbox)</span>
 <!-- {% assign counter = counter | plus: 1 %}{% assign result = page.preIds | append: "-" | append: counter %} -->
 - <span>{% include checks.html id=result %} [Describe Azure physical infrastructure](https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/5-describe-azure-physical-infrastructure)</span>
 <!-- {% assign counter = counter | plus: 1 %}{% assign result = page.preIds | append: "-" | append: counter %} -->
