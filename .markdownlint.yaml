@@ -2,3 +2,5 @@ no-inline-html: false
 table-pipe-style: false
 table-column-count: false
 line-length: false
+heading-start-left: false
+ul-indent: false
