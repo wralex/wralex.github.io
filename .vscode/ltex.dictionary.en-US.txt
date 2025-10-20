@@ -1,3 +1,0 @@
-📓NOTE
-📓Please
-pandoc

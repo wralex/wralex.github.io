@@ -1,23 +1,5 @@
 {
     "files.exclude": {
-        "_site": true,
-        ".history": true,
-        ".jekyll-cache": true,
-        "**/.DS_Store": true,
-        "**/.git": true,
-        "**/.hg": true,
-        "**/.svn": true,
-        "**/CVS": true,
-        "**/Thumbs.db": true
-    },
-    "explorerExclude.backup": null,
-    "sqltools.useNodeRuntime": true,
-    "sqltools.connections": [
-        {
-            "previewLimit": 500,
-            "driver": "SQLite",
-            "name": "Quiz",
-            "database": "${workspaceFolder:wralex.github.io}/assets/data/quiz.db"
-        }
-    ]
+        "**/_site": true
+    }
 }

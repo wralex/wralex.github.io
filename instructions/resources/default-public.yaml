@@ -1,6 +1,0 @@
-input-files:
-  - public.md
-from: markdown+raw_html+table_captions+grid_tables+link_attributes+footnotes+emoji
-toc: true
-metadata:
-  toc-title: 'Table Of Contents'
