@@ -4,159 +4,157 @@
   level: Fundamental
   code: AZ-900
   description: Introductory certification for Azure services and cloud concepts.
-  examCost: 99
+  examCost: '99.00'
 - name: Azure Administrator Associate
   msUrl: https://learn.microsoft.com/en-us/credentials/certifications/azure-administrator
   level: Associate
   code: AZ-104
   description: Focuses on managing Azure resources, identities, and security.
-  examCost: 165
+  examCost: '165.00'
   courseLink: https://vshow.on24.com/vshow/FY24_AZDepth/#curriculum/7332
 - name: Azure Developer Associate
   msUrl: https://learn.microsoft.com/en-us/credentials/certifications/azure-developer/
   level: Associate
   code: AZ-204
   description: Focuses on developing cloud applications on Azure.
-  examCost: 165
+  examCost: '165.00'
   courseLink: https://vshow.on24.com/vshow/FY24_AZDepth/#curriculum/7332
 - name: DevOps Engineer Expert
   msUrl: https://learn.microsoft.com/en-us/credentials/certifications/devops-engineer/
   level: Expert
   code: AZ-400
   description: Focuses on combining development and operations practices.
-  examCost: 165
+  examCost: '165.00'
   courseLink: https://skillupwithlevelup.com/course-detail/1775593
 - name: Azure Solutions Architect Expert
   msUrl: https://learn.microsoft.com/en-us/credentials/certifications/azure-solutions-architect/
   level: Expert
   code: AZ-305
   description: Advanced certification for designing Azure cloud solutions.
-  examCost: 165
+  examCost: '165.00'
   courseLink: https://skillupwithlevelup.com/course-detail/1776169
 - name: Azure AI Fundamentals
   msUrl: https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/
   level: Fundamental
   code: AI-900
   description: Covers Azure AI services, machine learning, and AI workloads.
-  examCost: 99
+  examCost: '99.00'
   courseLink: https://skillupwithlevelup.com/course-detail/1774141
 - name: Azure AI Engineer Associate
   msUrl: https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/
   level: Associate
   code: AI-102
   description: Specializes in using Azure AI services for solutions.
-  examCost: 165
+  examCost: '165.00'
   courseLink: https://skilling-hub.com/en-US/listing/o::7329
 - name: Azure Data Engineer Associate
   msUrl: https://learn.microsoft.com/en-us/certifications/azure-data-engineer/
   level: Associate
   code: DP-203
   description: Focuses on designing and implementing data solutions on Azure.
-  examCost: 165
+  examCost: '165.00'
   courseLink: https://skillupwithlevelup.com/course-detail/1776168
 - name: Azure Data Fundamentals
   msUrl: https://learn.microsoft.com/en-us/credentials/certifications/azure-data-fundamentals/
   level: Fundamental
   code: DP-900
   description: Intro to Azure data services, including databases and analytics.
-  examCost: 99
+  examCost: '99.00'
 - name: Power Platform Fundamentals
   msUrl: https://learn.microsoft.com/en-us/credentials/certifications/power-platform-fundamentals/
   level: Fundamental
   code: PL-900
   description: Understand how Microsoft Power Platform technologies can be used
-  examCost: 99
+  examCost: '99.00'
 - name: Power Platform Developer Associate
   msUrl: https://learn.microsoft.com/en-us/credentials/certifications/power-platform-developer-associate/
   level: Associate
   code: PL-400
   description: Development experience that includes Microsoft Power Platform services
-  examCost: 165
+  examCost: '165.00'
 - name: Power Automate RPA Developer Associate
   msUrl: https://learn.microsoft.com/en-us/credentials/certifications/power-automate-rpa-developer-associate/
   level: Associate
   code: PL-500
   description: Automate Windows-based, browser-based, and terminal-based applications
-  examCost: 165
+  examCost: '165.00'
 - name: Power BI Data Analyst Associate
   msUrl: https://learn.microsoft.com/en-us/credentials/certifications/data-analyst-associate/
   level: Associate
   code: PL-300
   description: Deliver actionable insights by working with Power BI
-  examCost: 165
+  examCost: '165.00'
   courseLink: https://skillupwithlevelup.com/course-detail/1776172
 - name: Power Platform Solution Architect Expert
   msUrl: https://learn.microsoft.com/en-us/credentials/certifications/power-platform-solution-architect-expert/
   level: Expert
   code: PL-600
   description: Architect and ensure the successful implementation of Power Platform Framework
-  examCost: 165
+  examCost: '165.00'
 - name: Security Operations Analyst Associate
   msUrl: https://learn.microsoft.com/en-us/credentials/certifications/security-operations-analyst/
   level: Associate
   code: SC-200
   description: Focuses on identifying and mitigating threats using Azure security tools.
-  examCost: 165
+  examCost: '165.00'
   courseLink: https://skillupwithlevelup.com/course-detail/1776187
 - name: Azure for SAP Workloads Specialty
   msUrl: https://learn.microsoft.com/en-us/credentials/certifications/azure-for-sap-workloads-specialty/
   level: Specialty
   code: AZ-120
   description: Focuses on deploying and managing SAP workloads on Azure.
-  examCost: 165
+  examCost: '165.00'
 - name: Azure Virtual Desktop Specialty
   msUrl: https://learn.microsoft.com/en-us/credentials/certifications/azure-virtual-desktop-specialty/
   level: Specialty
   code: AZ-140
   description: Specializes in implementing and managing virtual desktop solutions.
-  examCost: 165
+  examCost: '165.00'
   courseLink: https://vshow.on24.com/vshow/FY24_AZDepth/#curriculum/7335
 - name: Azure Security Engineer Associate
   msUrl: https://learn.microsoft.com/en-us/credentials/certifications/azure-security-engineer/
   level: Associate
   code: AZ-500
   description: Focuses on securing Azure environments and services.
-  examCost: 165
+  examCost: '165.00'
   courseLink: https://skillupwithlevelup.com/course-detail/1776167
 - name: Azure Network Engineer Associate
   msUrl: https://learn.microsoft.com/en-us/credentials/certifications/azure-network-engineer-associate/
   level: Associate
   code: AZ-700
   description: Focuses on networking principles and services in Azure.
-  examCost: 165
+  examCost: '165.00'
   courseLink: https://vshow.on24.com/vshow/FY24_AZDepth/#curriculum/7352
 - name: Azure Data Scientist Associate
   msUrl: https://learn.microsoft.com/en-us/credentials/certifications/azure-data-scientist/
   level: Associate
   code: DP-100
   description: Specializes in machine learning and data science on Azure.
-  examCost: 165
+  examCost: '165.00'
   courseLink: https://skillupwithlevelup.com/course-detail/1776170
 - name: Azure Database Administrator Associate
   msUrl: https://learn.microsoft.com/en-us/credentials/certifications/azure-database-administrator-associate/
   level: Associate
   code: DP-300
   description: Subject matter expertise in building SQL database solutions
-  examCost: 165
+  examCost: '165.00'
   courseLink: https://vshow.on24.com/vshow/FY24_AZDepth/#curriculum/7355
 - name: Azure Cosmos DB Developer Specialty
   msUrl: https://learn.microsoft.com/en-us/credentials/certifications/azure-cosmos-db-developer-specialty/
   level: Specialty
   code: DP-420
   description: Focuses on developing solutions using Azure Cosmos DB.
-  examCost: 165
-  courseLink: ""
+  examCost: '165.00'
 - name: Azure Data Fundamentals
   msUrl: https://learn.microsoft.com/en-us/credentials/certifications/azure-data-fundamentals/
   level: Fundamental
   code: DP-900
   description: Intro to Azure data services, including databases and analytics.
-  examCost: 99
-  courseLink: ""
+  examCost: '99.00'
 - name: Security Operations Analyst Associate
   msUrl: https://learn.microsoft.com/en-us/credentials/certifications/security-operations-analyst/
   level: Associate
   code: SC-200
   description: Focuses on identifying and mitigating threats using Azure security tools.
-  examCost: 165
+  examCost: '165.00'
   courseLink: https://skillupwithlevelup.com/course-detail/1776187
