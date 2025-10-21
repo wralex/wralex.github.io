@@ -5,6 +5,7 @@ lab:
     title: 'Exercise - Estimate workload costs by using the Pricing calculator'
     module: 'Module 04 - Describe cost management in Azure'
 ---
+[_Back_]
 
 In this exercise, you use the Pricing calculator to estimate the cost of running a basic web application on Azure.
 
@@ -137,3 +138,8 @@ At this point, you have a few options:
 You now have a cost estimate that you can share with your team. You can make adjustments as you discover any changes to your requirements.
 
 Experiment with some of the options you worked with here, or create a purchase plan for a workload you want to run on Azure.
+
+[_Continue_]
+
+[_Back_]: ../../describe-azure-management-and-governance
+[_Continue_]: ../../describe-azure-management-and-governance

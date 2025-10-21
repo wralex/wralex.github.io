@@ -5,7 +5,7 @@ lab:
     title: 'Exercise - Create an Azure resource'
     module: 'Module 01 - Describe the core architectural components of Azure'
 ---
-[_Back_](../../describe-azure-architecture-and-services)
+[_Back_]
 
 In this exercise, you’ll use the Azure portal to create a resource. The focus of the exercise is observing how Azure resource groups populate with created resources.
 
@@ -75,4 +75,7 @@ The sandbox automatically cleans up your resources when you're finished with thi
 
 When you're working in your own subscription, it's a good idea at the end of a project to identify whether you still need the resources you created. Resources that you leave running can cost you money. You can delete resources individually or delete the resource group to delete the entire set of resources.
 
-[_Continue_](../../describe-azure-architecture-and-services
+[_Continue_]
+
+[_Back_]: ../../describe-azure-architecture-and-services
+[_Continue_]: ../../describe-azure-architecture-and-services

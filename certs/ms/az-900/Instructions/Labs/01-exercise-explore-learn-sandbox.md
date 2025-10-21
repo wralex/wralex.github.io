@@ -120,5 +120,5 @@ You're all set for now. We'll come back to this sandbox later in this module and
 
 [_Continue_]
 
-[_Back_]: ../../describe-cloud-concepts
-[_Continue_]: ../../describe-cloud-concepts
+[_Back_]: ../../describe-azure-architecture-and-services
+[_Continue_]: ../../describe-azure-architecture-and-services

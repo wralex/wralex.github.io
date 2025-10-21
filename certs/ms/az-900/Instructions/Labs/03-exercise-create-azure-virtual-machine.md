@@ -59,5 +59,5 @@ That's all for this exercise. The sandbox will keep running, and you'll come bac
 
 [_Continue_]
 
-[_Back_]: ../../describe-cloud-concepts
-[_Continue_]: ../../describe-cloud-concepts
+[_Back_]: ../../describe-azure-architecture-and-services
+[_Continue_]: ../../describe-azure-architecture-and-services

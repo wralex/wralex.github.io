@@ -6,6 +6,8 @@ lab:
     module: 'Module 05 - Describe features and tools in Azure for governance and compliance'
 ---
 
+[_Back_]
+
 In this exercise, you’ll create a resource and configure a resource lock. Storage accounts are one of the easiest types of resource locks to quickly see the impact, so you’ll use a storage account for this exercise.
 
 This exercise is a Bring your own subscription exercise, meaning you’ll need to provide your own Azure subscription to complete the exercise. Don’t worry though, the entire exercise can be completed for free with the 12 month free services when you sign up for an Azure account.
@@ -161,3 +163,9 @@ In the final task, you remove the resource lock and delete the storage account f
 Congratulations! You've completed configuring, updating, and removing a resource lock on an Azure resource.
 
 {% include important.html text = "Make sure you complete Task 6, the removal of the storage account. You are solely responsible for the resources in your Azure account. Make sure you clean up your account after completing this exercise." %}
+
+
+[_Continue_]
+
+[_Back_]: ../../describe-azure-management-and-governance
+[_Continue_]: ../../describe-azure-management-and-governance

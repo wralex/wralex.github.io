@@ -25,7 +25,7 @@ The other learning paths in the series are
     <!-- {% assign counter = counter | plus: 1 %}{% assign result = page.preIds | append: "-" | append: counter %} -->
     <span class="form-check">{% include checks.html id=result %} [Get started with Azure accounts](https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/3-get-started-azure-accounts)</span>
     <!-- {% assign counter = counter | plus: 1 %}{% assign result = page.preIds | append: "-" | append: counter %} -->
-    <span class="form-check">{% include checks.html id=result %} [Exercise - Explore interacting with Azure](./labs/4-exercise-explore-learn-sandbox)</span>
+    <span class="form-check">{% include checks.html id=result %} [Exercise - Explore interacting with Azure](Instructions/Labs/01-exercise-explore-learn-sandbox)</span>
     <!-- {% assign counter = counter | plus: 1 %}{% assign result = page.preIds | append: "-" | append: counter %} -->
     <span class="form-check">{% include checks.html id=result %} [Describe Azure physical infrastructure](https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/5-describe-azure-physical-infrastructure)</span>
     <!-- {% assign counter = counter | plus: 1 %}{% assign result = page.preIds | append: "-" | append: counter %} -->
@@ -45,7 +45,7 @@ The other learning paths in the series are
     <!-- {% assign counter = counter | plus: 1 %}{% assign result = page.preIds | append: "-" | append: counter %} -->
     <span class="form-check">{% include checks.html id=result %} [Describe Azure virtual machines](https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/2-virtual-machines)</span>
     <!-- {% assign counter = counter | plus: 1 %}{% assign result = page.preIds | append: "-" | append: counter %} -->
-    <span class="form-check">{% include checks.html id=result %} [Exercise - Create an Azure virtual machine](https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/3-exercise-create-azure-virtual-machine)</span>
+    <span class="form-check">{% include checks.html id=result %} [Exercise - Create an Azure virtual machine](Instructions/Labs/03-exercise-create-azure-virtual-machine)</span>
     <!-- {% assign counter = counter | plus: 1 %}{% assign result = page.preIds | append: "-" | append: counter %} -->
     <span class="form-check">{% include checks.html id=result %} [Describe Azure virtual desktop](https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/4-virtual-desktop)</span>
     <!-- {% assign counter = counter | plus: 1 %}{% assign result = page.preIds | append: "-" | append: counter %} -->
@@ -57,7 +57,7 @@ The other learning paths in the series are
     <!-- {% assign counter = counter | plus: 1 %}{% assign result = page.preIds | append: "-" | append: counter %} -->
     <span class="form-check">{% include checks.html id=result %} [Describe Azure virtual networking](https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/8-virtual-network)</span>
     <!-- {% assign counter = counter | plus: 1 %}{% assign result = page.preIds | append: "-" | append: counter %} -->
-    <span class="form-check">{% include checks.html id=result %} [Exercise - Configure network access](https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/9-exercise-configure-network-access)</span>
+    <span class="form-check">{% include checks.html id=result %} [Exercise - Configure network access](Instructions/Labs/04-exercise-configure-network-access)</span>
     <!-- {% assign counter = counter | plus: 1 %}{% assign result = page.preIds | append: "-" | append: counter %} -->
     <span class="form-check">{% include checks.html id=result %} [Describe Azure virtual private networks](https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/10-virtual-private-networks)</span>
     <!-- {% assign counter = counter | plus: 1 %}{% assign result = page.preIds | append: "-" | append: counter %} -->
@@ -81,7 +81,7 @@ The other learning paths in the series are
     <!-- {% assign counter = counter | plus: 1 %}{% assign result = page.preIds | append: "-" | append: counter %} -->
     <span class="form-check">{% include checks.html id=result %} [Describe Azure storage services](https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/4-describe-azure-storage-services)</span>
     <!-- {% assign counter = counter | plus: 1 %}{% assign result = page.preIds | append: "-" | append: counter %} -->
-    <span class="form-check">{% include checks.html id=result %} [Exercise - Create a storage blob](https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/5-exercise-create-storage-blob)</span>
+    <span class="form-check">{% include checks.html id=result %} [Exercise - Create a storage blob](Instructions/Labs/05-exercise-create-storage-blob)</span>
     <!-- {% assign counter = counter | plus: 1 %}{% assign result = page.preIds | append: "-" | append: counter %} -->
     <span class="form-check">{% include checks.html id=result %} [Identify Azure data migration options](https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/6-identify-azure-data-migration-options)</span>
     <!-- {% assign counter = counter | plus: 1 %}{% assign result = page.preIds | append: "-" | append: counter %} -->

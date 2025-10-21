@@ -25,7 +25,7 @@ The other learning paths in the series are
     <!-- {% assign counter = counter | plus: 1 %}{% assign result = page.preIds | append: "-" | append: counter %} -->
     <span class="form-check">{% include checks.html id=result %} [Explore the pricing calculator](https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/3-compare-pricing-total-cost-of-ownership-calculators)</span>
     <!-- {% assign counter = counter | plus: 1 %}{% assign result = page.preIds | append: "-" | append: counter %} -->
-    <span class="form-check">{% include checks.html id=result %} [Exercise - Estimate workload costs by using the Pricing calculator](https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/4-exercise-estimate-workload-costs-use-pricing-calculator)</span>
+    <span class="form-check">{% include checks.html id=result %} [Exercise - Estimate workload costs by using the Pricing calculator](Instructions/Labs/06-exercise-estimate-workload-costs-use-pricing-calculator)</span>
     <!-- {% assign counter = counter | plus: 1 %}{% assign result = page.preIds | append: "-" | append: counter %} -->
     <span class="form-check">{% include checks.html id=result %} [Describe the Microsoft Cost Management tool](https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/6-describe-azure-tool)</span>
     <!-- {% assign counter = counter | plus: 1 %}{% assign result = page.preIds | append: "-" | append: counter %} -->
@@ -47,7 +47,7 @@ The other learning paths in the series are
     <!-- {% assign counter = counter | plus: 1 %}{% assign result = page.preIds | append: "-" | append: counter %} -->
     <span class="form-check">{% include checks.html id=result %} [Describe the purpose of resource locks](https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/4-describe-purpose-resource-locks)</span>
     <!-- {% assign counter = counter | plus: 1 %}{% assign result = page.preIds | append: "-" | append: counter %} -->
-    <span class="form-check">{% include checks.html id=result %} [Exercise - Configure a resource lock](https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/5-exercise-configure-resource-lock)</span>
+    <span class="form-check">{% include checks.html id=result %} [Exercise - Configure a resource lock](Instructions/Labs/08-exercise-configure-resource-lock)</span>
     <!-- {% assign counter = counter | plus: 1 %}{% assign result = page.preIds | append: "-" | append: counter %} -->
     <span class="form-check">{% include checks.html id=result %} [Describe the purpose of the Service Trust portal](https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/6-describe-purpose-service-trust-portal)</span>
     <!-- {% assign counter = counter | plus: 1 %}{% assign result = page.preIds | append: "-" | append: counter %} -->

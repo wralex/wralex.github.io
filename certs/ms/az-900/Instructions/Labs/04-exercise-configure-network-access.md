@@ -217,5 +217,5 @@ Nice work. In practice, you can create a standalone network security group that 
 
 [_Continue_]
 
-[_Back_]: ../../describe-azure-management-and-governance
-[_Continue_]: ../../describe-azure-management-and-governance
+[_Back_]: ../../describe-azure-architecture-and-services
+[_Continue_]: ../../describe-azure-architecture-and-services

@@ -5,6 +5,7 @@ lab:
     title: 'Exercise - Compare workload costs using the TCO calculator'
     module: 'Module 04 - Describe cost management in Azure'
 ---
+[_Back_]
 
 In this exercise, you use the Total Cost of Ownership (TCO) Calculator to compare the cost of running a sample workload in your datacenter versus on Azure.
 
@@ -118,3 +119,8 @@ Scroll to the summary at the bottom. You see a comparison of running your worklo
 Select **Download** to download or print a copy of the report in PDF format.
 
 Great work. You now have the information that you can share with your Chief Financial Officer. If you need to make adjustments, you can revisit the TCO Calculator to generate a fresh report.
+
+[_Continue_]
+
+[_Back_]: ../../describe-azure-management-and-governance
+[_Continue_]: ../../describe-azure-management-and-governance
