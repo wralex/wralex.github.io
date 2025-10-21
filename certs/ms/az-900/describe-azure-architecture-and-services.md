@@ -31,7 +31,7 @@ The other learning paths in the series are
     <!-- {% assign counter = counter | plus: 1 %}{% assign result = page.preIds | append: "-" | append: counter %} -->
     <span class="form-check">{% include checks.html id=result %} [Describe Azure management infrastructure](https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/6-describe-azure-management-infrastructure)</span>
     <!-- {% assign counter = counter | plus: 1 %}{% assign result = page.preIds | append: "-" | append: counter %} -->
-    <span class="form-check">{% include checks.html id=result %} [Exercise - Create an Azure resource](https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/7-exercise-create-azure-resource)</span>
+    <span class="form-check">{% include checks.html id=result %} [Exercise - Create an Azure resource](Instructions/Labs/02-exercise-create-azure-resource)</span>
     <!-- {% assign counter = counter | plus: 1 %}{% assign result = page.preIds | append: "-" | append: counter %} -->
     <span class="form-check">{% include checks.html id=result %} [Module assessment](https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/8-knowledge-check)</span>
     <!-- {% assign counter = counter | plus: 1 %}{% assign result = page.preIds | append: "-" | append: counter %} -->

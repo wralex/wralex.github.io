@@ -4,4 +4,20 @@
 <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.11.1/build/highlight.min.js"></script>
 
 <script src="{{ "/assets/js/main.js" | relative_url }}"></script>
-<script>hljs.highlightAll();</script>
+<script>
+hljs.registerLanguage('azurecli', function(hljs) {
+  return {
+    keywords: {
+      keyword: 'az group create delete list show update vm start stop restart',
+      literal: 'true false',
+    },
+    contains: [
+      hljs.HASH_COMMENT_MODE, // For comments
+      hljs.QUOTE_STRING_MODE, // For strings
+      hljs.NUMBER_MODE        // For numbers
+    ]
+  };
+});
+
+hljs.highlightAll();
+</script>
