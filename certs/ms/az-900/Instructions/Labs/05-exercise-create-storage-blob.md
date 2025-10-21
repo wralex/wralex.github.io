@@ -22,14 +22,14 @@ In this task, you'll create a new storage account.
     <!-- {% assign counter = counter | plus: 1 %}{% assign result = page.preIds | append: "-" | append: counter %} -->
 5.  <span class="form-check">{% include checks.html id=result %} On the **Basics** tab of the Create a storage account blade, fill in the following information. Leave the defaults for everything else.</span>
     
-    | **Setting**          | **Value**                                            |
-    | -------------------- | ---------------------------------------------------- |
-    | Subscription         | Concierge Subscription                               |
-    | Resource group       | Select the resource group that starts with **learn** |
-    | Storage account name | Create a unique storage account name                 |
-    | Region               | Leave default                                        |
-    | Performance          | Standard                                             |
-    | Redundancy           | Locally redundant storage (LRS)                      |
+    | **Setting**          | **Value**                                                      |
+    | -------------------- | -------------------------------------------------------------- |
+    | Subscription         | Select the subscription you want to use for the exercise.      |
+    | Resource group       | Select Create new and enter **`IntroAzureRG`** and select OK   |
+    | Storage account name | Create a unique storage account name                           |
+    | Region               | Leave default                                                  |
+    | Performance          | Standard                                                       |
+    | Redundancy           | Locally redundant storage (LRS)                                |
     {: .table table-sm .table-bordered .table-striped .table-hover .w-75}
 
     <!-- {% assign counter = counter | plus: 1 %}{% assign result = page.preIds | append: "-" | append: counter %} -->
