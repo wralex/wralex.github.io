@@ -21,13 +21,13 @@ Once you’ve created your free account, follow the steps below. If you don’t 
 In order to apply a resource lock, you have to have a resource created in Azure. The first task focuses on creating a resource that you can then lock in subsequent tasks.
 
 <!-- {% assign counter = 1 %} {% assign result = page.preIds | append: "-" | append: counter %} -->
-1.  <span class="form-check">{% include checks.html id=result %} Sign in to the Azure portal at https://portal.azure.com</span>
+1.  <span class="form-check">{% include checks.html id=result %} Sign in to the [**Azure portal**](https://portal.azure.com)</span>
     <!-- {% assign counter = counter | plus: 1 %}{% assign result = page.preIds | append: "-" | append: counter %} -->
-2.  <span class="form-check">{% include checks.html id=result %} Select Create a resource.</span>
+2.  <span class="form-check">{% include checks.html id=result %} Select **Create a resource**.</span>
     <!-- {% assign counter = counter | plus: 1 %}{% assign result = page.preIds | append: "-" | append: counter %} -->
-3.  <span class="form-check">{% include checks.html id=result %} Under Categories, select Storage.</span>
+3.  <span class="form-check">{% include checks.html id=result %} Under Categories, select **`Storage`**.</span>
     <!-- {% assign counter = counter | plus: 1 %}{% assign result = page.preIds | append: "-" | append: counter %} -->
-4.  <span class="form-check">{% include checks.html id=result %} Under Storage Account, select Create.</span>
+4.  <span class="form-check">{% include checks.html id=result %} Under Storage Account, select **Create**.</span>
     <!-- {% assign counter = counter | plus: 1 %}{% assign result = page.preIds | append: "-" | append: counter %} -->
 5.  <span class="form-check">{% include checks.html id=result %} On the Basics tab of the Create storage account blade, fill in the following information. Leave the defaults for everything else.</span>
     
