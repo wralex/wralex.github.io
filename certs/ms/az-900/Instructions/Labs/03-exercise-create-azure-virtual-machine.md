@@ -13,20 +13,34 @@ You could use the Azure portal, the Azure CLI, Azure PowerShell, or an Azure Res
 
 In this instance, you're going to use the Azure CLI.
 
-## Task 1: Create a Linux virtual machine and install Nginx
+## Task 1: Create a resource group
+
+<!-- {% assign counter = 1 %} {% assign result = page.preIds | append: "-" | append: counter %} -->
+1. <span class="form-check">{% include checks.html id=result %} Log into the [Azure portal](https://portal.azure.com).</span>
+    <!-- {% assign counter = counter | plus: 1 %}{% assign result = page.preIds | append: "-" | append: counter %} -->
+1. <span class="form-check">{% include checks.html id=result %} Select the **Azure Cloud Shell** icon to bring up Cloud Shell.</span>
+    <!-- {% assign counter = counter | plus: 1 %}{% assign result = page.preIds | append: "-" | append: counter %} -->
+1. <span class="form-check">{% include checks.html id=result %} From the Azure CLI, create a resource group named **`IntroAzureRG`**.</span>
+
+    ```bash
+    az group create --name "IntroAzureRG" --location "eastus"
+
+    ```
+
+## Task 2: Create a Linux virtual machine and install Nginx
 
 Use the following Azure CLI commands to create a Linux VM and install Nginx. After your VM is created, you'll use the Custom Script Extension to install Nginx. The Custom Script Extension is an easy way to download and run scripts on your Azure VMs. It's just one of the many ways you can configure the system after your VM is up and running.
 
-<!-- {% assign counter = 1 %} {% assign result = page.preIds | append: "-" | append: counter %} -->
+<!-- {% assign counter = counter | plus: 1 %}{% assign result = page.preIds | append: "-" | append: counter %} -->
 1.  <span class="form-check">{% include checks.html id=result %} From Cloud Shell, run the following `az vm create` command to create a Linux VM:</span>
     
     ```bash
     az vm create \
-      --resource-group <rgn>[sandbox resource group name]</rgn> \
-      --name my-vm \
-      --public-ip-sku Standard \
-      --image Ubuntu2204 \
-      --admin-username azureuser \
+      --resource-group "IntroAzureRG" \
+      --name "my-vm" \
+      --public-ip-sku "Standard" \
+      --image "Ubuntu2204" \
+      --admin-username "azureuser" \
       --generate-ssh-keys
     
     ```
@@ -38,11 +52,11 @@ Use the following Azure CLI commands to create a Linux VM and install Nginx. Aft
     
     ```bash
     az vm extension set \
-      --resource-group <rgn>[sandbox resource group name]</rgn> \
-      --vm-name my-vm \
-      --name customScript \
-      --publisher Microsoft.Azure.Extensions \
-      --version 2.1 \
+      --resource-group "IntroAzureRG" \
+      --vm-name "my-vm" \
+      --name "customScript" \
+      --publisher "Microsoft.Azure.Extensions" \
+      --version "2.1" \
       --settings '{"fileUris":["https://raw.githubusercontent.com/MicrosoftDocs/mslearn-welcome-to-azure/master/configure-nginx.sh"]}' \
       --protected-settings '{"commandToExecute": "./configure-nginx.sh"}'
     
