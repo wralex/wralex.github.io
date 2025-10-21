@@ -6,13 +6,15 @@
   description: Introductory certification for Azure services and cloud concepts.
   examCost: '99.00'
 - name: Azure Administrator Associate
+  url: ./az-104
   msUrl: https://learn.microsoft.com/en-us/credentials/certifications/azure-administrator
   level: Associate
   code: AZ-104
   description: Focuses on managing Azure resources, identities, and security.
   examCost: '165.00'
-  courseLink: https://vshow.on24.com/vshow/FY24_AZDepth/#curriculum/7332
+  courseLink: https://learn.mslevelup.com/learner_course/show/1774652
 - name: Azure Developer Associate
+  url: ./az-204
   msUrl: https://learn.microsoft.com/en-us/credentials/certifications/azure-developer/
   level: Associate
   code: AZ-204

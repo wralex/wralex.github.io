@@ -6,3 +6,4 @@ heading-start-left: false
 ul-indent: false
 list-marker-space: false
 no-trailing-spaces: false
+no-bare-urls: false
