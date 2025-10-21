@@ -7,3 +7,4 @@ ul-indent: false
 list-marker-space: false
 no-trailing-spaces: false
 no-bare-urls: false
+blanks-around-lists: false

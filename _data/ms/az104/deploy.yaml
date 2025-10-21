@@ -1,0 +1,130 @@
+title: 'AZ-104: Deploy and manage Azure compute resources'
+description: |
+  Learn how to deploy and configure virtual machines, containers, and Web Apps in Azure.
+  Here are the learning paths in the AZ-104 Azure Administrator series:
+modules:
+- title: Introduction to Azure virtual machines
+  link: https://learn.microsoft.com/en-us/training/modules/intro-to-azure-virtual-machines/
+  description: |
+    Learn about the decisions you make before creating a virtual machine, the options to
+    create and manage the VM, and the extensions and services you use to manage your VM.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/intro-to-azure-virtual-machines/1-introduction/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.az-104-manage-compute-resources
+  - title: Compile a checklist for creating an Azure Virtual Machine
+    link: https://learn.microsoft.com/en-us/training/modules/intro-to-azure-virtual-machines/2-compile-a-checklist-for-creating-a-vm/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.az-104-manage-compute-resources
+  - title: Exercise - Create a VM using the Azure portal
+    link: https://learn.microsoft.com/en-us/training/modules/intro-to-azure-virtual-machines/3-create-a-vm/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.az-104-manage-compute-resources
+  - title: Describe the options available to create and manage an Azure Virtual Machine
+    link: https://learn.microsoft.com/en-us/training/modules/intro-to-azure-virtual-machines/4-describe-other-create-vm-options/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.az-104-manage-compute-resources
+  - title: Manage the availability of your Azure VMs
+    link: https://learn.microsoft.com/en-us/training/modules/intro-to-azure-virtual-machines/5-high-availability/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.az-104-manage-compute-resources
+  - title: Back up your virtual machines
+    link:   https://learn.microsoft.com/en-us/training/modules/intro-to-azure-virtual-machines/6-backup-services/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.az-104-manage-compute-resources
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/intro-to-azure-virtual-machines/7-knowledge-check/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.az-104-manage-compute-resources
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/intro-to-azure-virtual-machines/8-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.az-104-manage-compute-resources
+
+- title: Configure virtual machine availability
+  link: https://learn.microsoft.com/en-us/training/modules/configure-virtual-machine-availability/
+  description: |
+    Learn how to configure virtual machine availability including vertical and
+    horizontal scaling.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/configure-virtual-machine-availability/1-introduction/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.az-104-manage-compute-resources
+  - title: Plan for maintenance and downtime
+    link: https://learn.microsoft.com/en-us/training/modules/configure-virtual-machine-availability/2-plan-for-maintenance-downtime/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.az-104-manage-compute-resources
+  - title: Create availability sets
+    link: https://learn.microsoft.com/en-us/training/modules/configure-virtual-machine-availability/3-setup-availability-sets/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.az-104-manage-compute-resources
+  - title: Review update domains and fault domains
+    link: https://learn.microsoft.com/en-us/training/modules/configure-virtual-machine-availability/4-review-update-fault-domains/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.az-104-manage-compute-resources
+  - title: Review availability zones
+    link: https://learn.microsoft.com/en-us/training/modules/configure-virtual-machine-availability/5-review-availability-zones/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.az-104-manage-compute-resources
+  - title: Compare vertical and horizontal scaling
+    link: https://learn.microsoft.com/en-us/training/modules/configure-virtual-machine-availability/6-compare-vertical-horizontal-scaling/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.az-104-manage-compute-resources
+  - title: Implement Azure Virtual Machine Scale Sets
+    link: https://learn.microsoft.com/en-us/training/modules/configure-virtual-machine-availability/7-implement-scale-sets/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.az-104-manage-compute-resources
+  - title: Create Virtual Machine Scale Sets
+    link: https://learn.microsoft.com/en-us/training/modules/configure-virtual-machine-availability/8-create-scale-sets/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.az-104-manage-compute-resources
+  - title: Implement autoscale
+    link: https://learn.microsoft.com/en-us/training/modules/configure-virtual-machine-availability/10-configure-autoscale/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.az-104-manage-compute-resources
+  - title: Configure autoscale
+    link: https://learn.microsoft.com/en-us/training/modules/configure-virtual-machine-availability/10-configure-autoscale/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.az-104-manage-compute-resources
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/configure-virtual-machine-availability/11-knowledge-check/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.az-104-manage-compute-resources
+  - title: Summary and resources
+    link: https://learn.microsoft.com/en-us/training/modules/configure-virtual-machine-availability/12-summary-resources/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.az-104-manage-compute-resources
+
+- title: Configure Azure App Service plans
+  link: https://learn.microsoft.com/en-us/training/modules/configure-app-service-plans/
+  description: |
+    Learn how to configure an Azure App Service plan, including pricing and scaling.
+  submodules:
+  - title: Introduction
+    link: 
+  - title: Implement Azure App Service plans
+    link: 
+  - title: Determine Azure App Service plan pricing
+    link: 
+  - title: Scale up and scale out Azure App Service
+    link: 
+  - title: Configure Azure App Service autoscale
+    link: 
+  - title: Module assessment
+    link: 
+  - title: Summary and resources
+    link: 
+- title: Configure Azure App Service
+  link:
+  description: |
+    Learn how to configure and monitor Azure App Service instances, including deployment slots.
+  submodules:
+  - title: Introduction
+    link: 
+  - title: Implement Azure App Service
+    link: 
+  - title: Create an app with App Service
+    link: 
+  - title: Explore continuous integration and deployment
+    link: 
+  - title: Create deployment slots
+    link: 
+  - title: Add deployment slots
+    link: 
+  - title: Secure your App Service app
+    link: 
+  - title: Create custom domain names
+    link: 
+  - title: Back up and restore your App Service app
+    link: 
+  - title: Use Azure Application Insights
+    link: 
+  - title: 'Exercise: Implement Web Apps'
+    link: 
+  - title: Module assessment
+    link: 
+  - title: Summary and resources
+    link: 
+- title: Configure Azure Container Instances
+  link:
+  description: |
+    Learn how to configure Azure Container Instances including container groups.
+  submodules:
+  - title: Introduction
+    link: 
+  - title: Compare containers to virtual machines
+    link: 
+  - title: Review Azure Container Instances
+    link: 
+  - title: Implement container groups
+    link: 
+  - title: Review Azure Container Apps
+    link: 
+  - title: 'Exercise: Implement Container Instances'
+    link: 
+  - title: Module assessment
+    link: 
+  - title: Summary and resources
+    link: 

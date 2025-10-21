@@ -1,0 +1,158 @@
+title: 'AZ-104: Configure and manage virtual networks for Azure administrators'
+description: |
+  Learn how to configure and manage Azure network capabilities like connectivity services,
+  application protection, application delivery, and network monitoring services.
+  Here are the learning paths in the AZ-104 Azure Administrator series:
+modules:
+- title: Configure virtual networks
+  link: https://learn.microsoft.com/en-us/training/modules/configure-virtual-networks/
+  description: Learn to configure virtual networks and subnets, including IP addressing.
+  submodules:
+    - title: Introduction
+      link: https://learn.microsoft.com/en-us/training/modules/configure-virtual-networks/1-introduction    
+    - title: Plan virtual networks
+      link: https://learn.microsoft.com/en-us/training/modules/configure-virtual-networks/2-plan-virtual-networks
+    - title: Create subnets
+      link: https://learn.microsoft.com/en-us/training/modules/configure-virtual-networks/3-create-subnets
+    - title: Create virtual networks
+      link: https://learn.microsoft.com/en-us/training/modules/configure-virtual-networks/4-create-virtual-networks
+    - title: Plan IP addressing
+      link: https://learn.microsoft.com/en-us/training/modules/configure-virtual-networks/5-plan-addressing
+    - title: Create public IP addressing
+      link: https://learn.microsoft.com/en-us/training/modules/configure-virtual-networks/6-create-public-ip-addressing
+    - title: Associate public IP addresses
+      link: https://learn.microsoft.com/en-us/training/modules/configure-virtual-networks/7-associate-public-ip-addresses
+    - title: Allocate or assign private IP addresses
+      link: https://learn.microsoft.com/en-us/training/modules/configure-virtual-networks/8-associate-private-ip-addresses
+    - title: 'Exercise: Create and configure virtual networks'
+      link: https://learn.microsoft.com/en-us/training/modules/configure-virtual-networks/9-simulation-create-networks
+    - title: Module assessment
+      link: https://learn.microsoft.com/en-us/training/modules/configure-virtual-networks/10-knowledge-check
+    - title: Summary and resources
+      link: https://learn.microsoft.com/en-us/training/modules/configure-virtual-networks/11-summary-resources
+- title: Configure network security groups
+  link: https://learn.microsoft.com/en-us/training/modules/configure-network-security-groups
+  description: Learn how to implement network security groups, and ensure network security group rules are correctly applied.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/configure-network-security-groups/1-introduction
+  - title: Implement network security groups
+    link: https://learn.microsoft.com/en-us/training/modules/configure-network-security-groups/2-implement-network-security-groups
+  - title: Determine network security group rules
+    link: https://learn.microsoft.com/en-us/training/modules/configure-network-security-groups/3-determine-network-security-groups-rules
+  - title: Determine network security group effective rules
+    link: https://learn.microsoft.com/en-us/training/modules/configure-network-security-groups/4-determine-network-security-groups-effective-rules
+  - title: Create network security group rules
+    link: https://learn.microsoft.com/en-us/training/modules/configure-network-security-groups/5-create-network-security-groups-rules
+  - title: Implement application security groups
+    link: https://learn.microsoft.com/en-us/training/modules/configure-network-security-groups/6-implement-asgs
+  - title: Exercise - Implement virtual networking
+    link: https://learn.microsoft.com/en-us/training/modules/configure-network-security-groups/7-simulation-create-network-groups
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/configure-network-security-groups/8-knowledge-check
+  - title: Summary and resources
+    link: https://learn.microsoft.com/en-us/training/modules/configure-network-security-groups/9-summary-resources
+- title: Host your domain on Azure DNS
+  link: https://learn.microsoft.com/en-us/training/modules/host-domain-azure-dns
+  description: Create a DNS zone for your domain name. Create DNS records to map the domain to an IP address. Test that the domain name resolves to your web server.
+  submodules:
+    - title: Introduction
+      link: https://learn.microsoft.com/en-us/training/modules/host-domain-azure-dns/1-introduction
+    - title: What is Azure DNS?
+      link: https://learn.microsoft.com/en-us/training/modules/host-domain-azure-dns/2-what-is-azure-dns
+    - title: Configure Azure DNS to host your domain
+      link: https://learn.microsoft.com/en-us/training/modules/host-domain-azure-dns/3-configure-azure-dns-host-domain
+    - title: Exercise - Create a DNS zone and an A record by using Azure DNS
+      link: https://learn.microsoft.com/en-us/training/modules/host-domain-azure-dns/4-exercise-create-dns-zone-a-record
+    - title: Dynamically resolve resource name by using alias record
+      link: https://learn.microsoft.com/en-us/training/modules/host-domain-azure-dns/5-resolve-name-alias-record
+    - title: Exercise - Create alias records for Azure DNS
+      link: https://learn.microsoft.com/en-us/training/modules/host-domain-azure-dns/6-exercise-create-alias-records
+    - title: Summary
+      link: https://learn.microsoft.com/en-us/training/modules/host-domain-azure-dns/7-summary
+- title: Configure Azure Virtual Network peering
+  link: https://learn.microsoft.com/en-us/training/modules/configure-vnet-peering
+  description: Learn to configure an Azure Virtual Network peering connection and address transit and connectivity concerns.
+  submodules:
+    - title: Introduction
+      link: https://learn.microsoft.com/en-us/training/modules/configure-vnet-peering/1-introduction
+    - title: Determine Azure Virtual Network peering uses
+      link: https://learn.microsoft.com/en-us/training/modules/configure-vnet-peering/2-determine-uses
+    - title: Determine gateway transit and connectivity
+      link: https://learn.microsoft.com/en-us/training/modules/configure-vnet-peering/3-determine-gateway-transit-connectivity
+    - title: Create virtual network peering
+      link: https://learn.microsoft.com/en-us/training/modules/configure-vnet-peering/4-create
+    - title: Extend peering with user-defined routes and service chaining
+      link: https://learn.microsoft.com/en-us/training/modules/configure-vnet-peering/5-determine-service-chaining-uses
+    - title: Exercise - Implement Intersite Connectivity
+      link: https://learn.microsoft.com/en-us/training/modules/configure-vnet-peering/6-simulation-peering
+    - title: Module assessment
+      link: https://learn.microsoft.com/en-us/training/modules/configure-vnet-peering/7-knowledge-check
+    - title: Summary and resources
+      link: https://learn.microsoft.com/en-us/training/modules/configure-vnet-peering/8-summary-resources
+- title: Manage and control traffic flow in your Azure deployment with routes
+  link: https://learn.microsoft.com/en-us/training/modules/control-network-traffic-flow-with-routes
+  description: Learn how to control Azure virtual network traffic by implementing custom routes.
+  submodules:
+    - title: Introduction
+      link: https://learn.microsoft.com/en-us/training/modules/control-network-traffic-flow-with-routes/1-introduction
+    - title: Identify routing capabilities of an Azure virtual network
+      link: https://learn.microsoft.com/en-us/training/modules/control-network-traffic-flow-with-routes/2-azure-virtual-network-route
+    - title: Exercise - Create custom routes
+      link: https://learn.microsoft.com/en-us/training/modules/control-network-traffic-flow-with-routes/3-exercise-create-custom-routes
+    - title: What is an NVA?
+      link: https://learn.microsoft.com/en-us/training/modules/control-network-traffic-flow-with-routes/4-network-virtual-appliances
+    - title: Exercise - Create an NVA and virtual machines
+      link: https://learn.microsoft.com/en-us/training/modules/control-network-traffic-flow-with-routes/5-exercise-create-nva-vm
+    - title: Exercise - Route traffic through the NVA
+      link: https://learn.microsoft.com/en-us/training/modules/control-network-traffic-flow-with-routes/6-exercise-route-traffic-through-nva
+    - title: Summary
+      link: https://learn.microsoft.com/en-us/training/modules/control-network-traffic-flow-with-routes/7-summary
+- title: Introduction to Azure Load Balancer
+  link: https://learn.microsoft.com/en-us/training/modules/intro-to-azure-load-balancer
+  description: This module explains what Azure Load Balancer does, how it works, and when you should choose to use Load Balancer as a solution to meet your organizations needs.
+  submodules:
+    - title: Introduction
+      link: https://learn.microsoft.com/en-us/training/modules/intro-to-azure-load-balancer/1-introduction
+    - title: What is Azure Load Balancer?
+      link: https://learn.microsoft.com/en-us/training/modules/intro-to-azure-load-balancer/2-what-is-azure-load-balancer
+    - title: How Azure Load Balancer works
+      link: https://learn.microsoft.com/en-us/training/modules/intro-to-azure-load-balancer/3-how-azure-load-balancer-works
+    - title: When to use Azure Load Balancer
+      link: https://learn.microsoft.com/en-us/training/modules/intro-to-azure-load-balancer/4-when-to-use-azure-load-balancer
+    - title: Module assessment
+      link: https://learn.microsoft.com/en-us/training/modules/intro-to-azure-load-balancer/5-knowledge-check
+    - title: Summary
+      link: https://learn.microsoft.com/en-us/training/modules/intro-to-azure-load-balancer/6-summary
+- title: Introduction to Azure Application Gateway
+  link: https://learn.microsoft.com/en-us/training/modules/intro-to-azure-application-gateway
+  description: This module explains what Azure Application Gateway does, how it works, and when you should choose to use Application Gateway as a solution to meet your organizations needs.
+  submodules:
+    - title: Introduction
+      link: https://learn.microsoft.com/en-us/training/modules/intro-to-azure-application-gateway/1-introduction
+    - title: What is Azure Application Gateway?
+      link: https://learn.microsoft.com/en-us/training/modules/intro-to-azure-application-gateway/2-what-is-azure-application-gateway
+    - title: How Azure Application Gateway works
+      link: https://learn.microsoft.com/en-us/training/modules/intro-to-azure-application-gateway/3-how-azure-application-gateway-works
+    - title: When to use Azure Application Gateway
+      link: https://learn.microsoft.com/en-us/training/modules/intro-to-azure-application-gateway/4-when-to-use-azure-application-gateway
+    - title: Module assessment
+      link: https://learn.microsoft.com/en-us/training/modules/intro-to-azure-application-gateway/5-knowledge-check
+    - title: Summary
+      link: https://learn.microsoft.com/en-us/training/modules/intro-to-azure-application-gateway/6-summary
+- title: Introduction to Azure Network Watcher
+  link: https://learn.microsoft.com/en-us/training/modules/intro-to-azure-network-watcher
+  description: Azure Network Watcher allows your organization to detect and monitor issues related to the network performance of infrastructure as a service (IaaS) resources in Microsoft Azure. This module explains what Network Watcher does, how it works, and when you should choose to use Network Watcher as a solution to meet your organizations needs.
+  submodules:
+    - title: Introduction
+      link: https://learn.microsoft.com/en-us/training/modules/intro-to-azure-network-watcher/1-introduction
+    - title: What is Azure Network Watcher?
+      link: https://learn.microsoft.com/en-us/training/modules/intro-to-azure-network-watcher/2-what-is-azure-network-watcher
+    - title: How Azure Network Watcher works
+      link: https://learn.microsoft.com/en-us/training/modules/intro-to-azure-network-watcher/3-how-azure-network-watcher-works
+    - title: When to use Azure Network Watcher
+      link: https://learn.microsoft.com/en-us/training/modules/intro-to-azure-network-watcher/4-when-to-use-azure-network-watcher
+    - title: Module assessment
+      link: https://learn.microsoft.com/en-us/training/modules/intro-to-azure-network-watcher/5-knowledge-check
+    - title: Summary
+      link: https://learn.microsoft.com/en-us/training/modules/intro-to-azure-network-watcher/6-summary
