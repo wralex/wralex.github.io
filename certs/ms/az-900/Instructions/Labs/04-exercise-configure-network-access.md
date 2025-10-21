@@ -215,6 +215,19 @@ Now that you've configured network access to port 80, let's try to access the we
 
 Nice work. In practice, you can create a standalone network security group that includes the inbound and outbound network access rules you need. If you have multiple VMs that serve the same purpose, you can assign that NSG to each VM at the time you create it. This technique enables you to control network access to multiple VMs under a single, central set of rules.
 
+You've completed this exercise and all of the exercises for this module. To clean up your Azure environment and avoid leaving VMs running when not in use, delete the **IntroAzureRG** resource group.
+
+## Clean up
+
+<!-- {% assign counter = counter | plus: 1 %}{% assign result = page.preIds | append: "-" | append: counter %} -->
+1. <span class="form-check">{% include checks.html id=result %} From the Azure home page, under Azure services, select **Resource groups**.</span>
+    <!-- {% assign counter = counter | plus: 1 %}{% assign result = page.preIds | append: "-" | append: counter %} -->
+1. <span class="form-check">{% include checks.html id=result %} Select the **IntroAzureRG** resource group.</span>
+    <!-- {% assign counter = counter | plus: 1 %}{% assign result = page.preIds | append: "-" | append: counter %} -->
+1. <span class="form-check">{% include checks.html id=result %} Select **Delete resource group**.</span>
+    <!-- {% assign counter = counter | plus: 1 %}{% assign result = page.preIds | append: "-" | append: counter %} -->
+1. <span class="form-check">{% include checks.html id=result %} Enter **`IntroAzureRG`** to confirm deletion of the resource group and select delete.</span>
+
 [_Continue_]
 
 [_Back_]: ../../describe-azure-architecture-and-services
