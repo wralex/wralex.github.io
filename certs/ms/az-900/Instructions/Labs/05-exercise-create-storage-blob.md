@@ -112,6 +112,19 @@ In this section, you'll create a Blob container and upload a picture.
 
 Congratulations - you've completed this exercise. You created a storage account, added a container to the storage account, and then uploaded blobs (files) to your container. Then you changed the access level so you could access your file from the internet.
 
+## Clean up
+
+To clean up the assets created in this exercise and avoid unnecessary costs, delete the resource group _(and all associated resources)_.
+
+<!-- {% assign counter = counter | plus: 1 %}{% assign result = page.preIds | append: "-" | append: counter %} -->
+1. <span class="form-check">{% include checks.html id=result %} From the Azure home page, under Azure services, select Resource groups.</span>
+    <!-- {% assign counter = counter | plus: 1 %}{% assign result = page.preIds | append: "-" | append: counter %} -->
+1. <span class="form-check">{% include checks.html id=result %} Select the IntroAzureRG resource group.</span>
+    <!-- {% assign counter = counter | plus: 1 %}{% assign result = page.preIds | append: "-" | append: counter %} -->
+1. <span class="form-check">{% include checks.html id=result %} Select Delete resource group.</span>
+    <!-- {% assign counter = counter | plus: 1 %}{% assign result = page.preIds | append: "-" | append: counter %} -->
+1. <span class="form-check">{% include checks.html id=result %} Enter **`IntroAzureRG`** to confirm deletion of the resource group and select delete.</span>
+
 [_Continue_]
 
 [_Back_]: ../../describe-azure-architecture-and-services
