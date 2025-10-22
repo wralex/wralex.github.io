@@ -4,32 +4,30 @@ $(() => {
         return;
     }
 
-    $('input[type="checkbox"]').each(function () {
-        let id = $(this).attr('id');
-        if (localStorage.getItem('checkbox_' + id) === 'true') {
-            $(this).prop('checked', true);
-        }
+    const preStorName = 'checkbox_';
+    $('input[type="checkbox"]').each((_, c) => {
+        const box = $(c);
+        let id = box.attr('id');
+        box.prop('checked', (localStorage.getItem(preStorName + id) === 'true'));
+        box.on('change', () => localStorage.setItem(preStorName + id, box.is(':checked')));
     });
 
-    $('input[type="checkbox"]').on('change', function () {
-        let id = $(this).attr('id');
-        localStorage.setItem('checkbox_' + id, $(this).is(':checked'));
-    });
+    $('pre').each((_, c) => {
+        const block = $(c);
 
-    $('pre').each((_, codeBlock) => {
-        $(codeBlock).addClass('position-relative');
+        block.addClass('position-relative');
 
-        const copyButton = $('<button>', {
+        const button =
+        $('<button>', {
             text: 'Copy',
             class: 'btn btn-sm btn-outline-info position-absolute top-0 end-0'
-        })
-        .on('click', () => {
-            $(this).css({"opacity": "0.5"})
-            const code = $(codeBlock).find('code').text().trim();
+        }).on('click', () => {
+            const code = block.find('code').text().trim();
             window.navigator.clipboard.writeText(code);
             alert.call(this, 'Code copied to clipboard!');
         });
-        $(codeBlock).append(copyButton);
+
+        block.append(button);
     });
 });
 
