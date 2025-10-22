@@ -1,0 +1,115 @@
+title: 'AZ-104: Implement and manage storage in Azure'
+link: https://learn.microsoft.com/en-us/training/paths/az-104-manage-storage/
+level: Beginner
+role: Administrator
+subject: Storage
+description: |
+  Learn how to manage storage accounts, data in Azure Storage, and Azure File and Blob storage.
+prerequisites:
+- title: 'Microsoft Azure Fundamentals: Describe cloud concepts'
+  link: https://learn.microsoft.com/en-us/training/paths/microsoft-azure-fundamentals-describe-cloud-concepts/
+- title: 'Azure Fundamentals: Describe Azure architecture and services'
+  link: https://learn.microsoft.com/en-us/training/paths/azure-fundamentals-describe-azure-architecture-services/
+- title: 'Azure Fundamentals: Describe Azure management and governance'
+  link: https://learn.microsoft.com/en-us/training/paths/describe-azure-management-governance/
+- title: 'AZ-104: Prerequisites for Azure administrators'
+  link: https://learn.microsoft.com/en-us/training/paths/az-104-administrator-prerequisites/
+modules:
+- title: Configure storage accounts
+  link: https://learn.microsoft.com/en-us/training/modules/configure-storage-accounts/
+  description: |
+    Learn how to configure storage accounts, including replication and endpoints.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/configure-storage-accounts/1-introduction/
+  - title: Implement Azure Storage
+    link: https://learn.microsoft.com/en-us/training/modules/configure-storage-accounts/2-implement-azure-storage/
+  - title: Explore Azure Storage services
+    link: https://learn.microsoft.com/en-us/training/modules/configure-storage-accounts/3-explore-azure-storage-services/
+  - title: Determine storage account types
+    link: https://learn.microsoft.com/en-us/training/modules/configure-storage-accounts/4-determine-storage-account-kinds/
+  - title: Determine replication strategies
+    link: https://learn.microsoft.com/en-us/training/modules/configure-storage-accounts/5-determine-replication-strategies/
+  - title: Access storage
+    link: https://learn.microsoft.com/en-us/training/modules/configure-storage-accounts/6-access-storage/
+  - title: Secure storage endpoints
+    link: https://learn.microsoft.com/en-us/training/modules/configure-storage-accounts/7-secure-storage-endpoints/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/configure-storage-accounts/8-knowledge-check/
+  - title: Summary and resources
+    link: https://learn.microsoft.com/en-us/training/modules/configure-storage-accounts/9-summary-resources/
+- title: Configure Azure Blob Storage
+  link: https://learn.microsoft.com/en-us/training/modules/configure-blob-storage/
+  description: |
+    Learn how to configure Configure Azure Blob Storage, including tiers and object replication.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/configure-blob-storage/1-introduction/
+  - title: Implement Azure Blob Storage
+    link: https://learn.microsoft.com/en-us/training/modules/configure-blob-storage/2-implement/
+  - title: Create blob containers
+    link: https://learn.microsoft.com/en-us/training/modules/configure-blob-storage/3-create-blob-containers/
+  - title: Assign blob access tiers
+    link: https://learn.microsoft.com/en-us/training/modules/configure-blob-storage/4-create-blob-access-tiers/
+  - title: Add blob lifecycle management rules
+    link: https://learn.microsoft.com/en-us/training/modules/configure-blob-storage/5-add-blob-lifecycle-management-rules/
+  - title: Determine blob object replication
+    link: https://learn.microsoft.com/en-us/training/modules/configure-blob-storage/6-determine-blob-object-replication/
+  - title: Manage blobs
+    link: https://learn.microsoft.com/en-us/training/modules/configure-blob-storage/7-upload-blobs/
+  - title: Determine Blob Storage pricing
+    link: https://learn.microsoft.com/en-us/training/modules/configure-blob-storage/6-determine-blob-object-replication/
+  - title: Exercise - Provide storage for the public website
+    link: https://learn.microsoft.com/en-us/training/modules/configure-blob-storage/9-simulation-blobs/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/configure-blob-storage/10-knowledge-check/
+  - title: Summary and resources
+    link: https://learn.microsoft.com/en-us/training/modules/configure-blob-storage/11-summary-resources/  
+- title: Configure Azure Storage security
+  link: https://learn.microsoft.com/en-us/training/modules/configure-storage-security/
+  description: |
+    Learn how to configure common Azure Storage security features like storage access signatures.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/configure-storage-security/1-introduction/
+  - title: Review Azure Storage security strategies
+    link: https://learn.microsoft.com/en-us/training/modules/configure-storage-security/2-review-strategies/
+  - title: Create shared access signatures
+    link: https://learn.microsoft.com/en-us/training/modules/configure-storage-security/3-create-shared-access-signatures/
+  - title: Identify URI and SAS parameters
+    link: https://learn.microsoft.com/en-us/training/modules/configure-storage-security/4-identify-uri-sas-parameters/
+  - title: Determine Azure Storage encryption
+    link: https://learn.microsoft.com/en-us/training/modules/configure-storage-security/5-determine-storage-service-encryption/
+  - title: Create customer-managed keys
+    link: https://learn.microsoft.com/en-us/training/modules/configure-storage-security/6-create-customer-managed-keys/
+  - title: Apply Azure Storage security best practices
+    link: https://learn.microsoft.com/en-us/training/modules/configure-storage-security/7-apply-best-practices/
+  - title: 'Exercise: Manage Azure Storage'
+    link: https://learn.microsoft.com/en-us/training/modules/configure-storage-security/8-simulation-storage/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/configure-storage-security/9-knowledge-check/
+  - title: Summary and resources
+    link: https://learn.microsoft.com/en-us/training/modules/configure-storage-security/10-summary-resources/
+- title: Configure Azure Files
+  link: https://learn.microsoft.com/en-us/training/modules/configure-azure-files-file-sync/
+  description: |
+    Learn how to configure Azure Files and Azure File Sync.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/configure-azure-files-file-sync/1-introduction/
+  - title: Compare storage for file shares and blob data
+    link: https://learn.microsoft.com/en-us/training/modules/configure-azure-files-file-sync/2-compare-files-to-blobs/
+  - title: Manage Azure file shares
+    link: https://learn.microsoft.com/en-us/training/modules/configure-azure-files-file-sync/3-manage-file-shares/
+  - title: Create file share snapshots
+    link: https://learn.microsoft.com/en-us/training/modules/configure-azure-files-file-sync/4-create-file-share-snapshots/
+  - title: Implement soft delete for Azure Files
+    link: https://learn.microsoft.com/en-us/training/modules/configure-azure-files-file-sync/5-implement-file-sync/
+  - title: Use Azure Storage Explorer
+    link: https://learn.microsoft.com/en-us/training/modules/configure-azure-files-file-sync/6-identify-components/
+  - title: Consider Azure File Sync
+    link: https://learn.microsoft.com/en-us/training/modules/configure-azure-files-file-sync/7-deploy-azure-file-sync/
+  - title: Knowledge check
+    link: https://learn.microsoft.com/en-us/training/modules/configure-azure-files-file-sync/8-knowledge-check/
+  - title: Summary and resources
+    link: https://learn.microsoft.com/en-us/training/modules/configure-azure-files-file-sync/9-summary-resources/

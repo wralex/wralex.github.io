@@ -1,0 +1,52 @@
+title: 'AZ-104: Monitor and back up Azure resources'
+link: https://learn.microsoft.com/en-us/training/paths/az-104-monitor-backup-resources/
+level: Beginner
+skill: Monitor and back up resources in Azure
+role: Administrator
+subject: Cloud computing
+description: |
+  Learn how to monitor resources by using Azure Monitor and implement backup and recover in Azure. Here are the learning paths in the AZ-104 Azure Administrator series:
+prerequisites:
+- title: 'Microsoft Azure Fundamentals: Describe cloud concepts'
+  link: https://learn.microsoft.com/en-us/training/paths/microsoft-azure-fundamentals-describe-cloud-concepts/
+- title: 'Azure Fundamentals: Describe Azure architecture and services'
+  link: https://learn.microsoft.com/en-us/training/paths/azure-fundamentals-describe-azure-architecture-services/
+- title: 'Azure Fundamentals: Describe Azure management and governance'
+  link: https://learn.microsoft.com/en-us/training/paths/describe-azure-management-governance/
+- title: 'AZ-104: Prerequisites for Azure administrators'
+  link: https://learn.microsoft.com/en-us/training/paths/az-104-administrator-prerequisites/
+modules:
+- title: Introduction to Azure Backup
+  link: https://learn.microsoft.com/en-us/training/modules/intro-to-azure-backup/
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/intro-to-azure-backup/1-introduction/
+  - title: What is Azure Backup?
+    link: https://learn.microsoft.com/en-us/training/modules/intro-to-azure-backup/2-what-is-azure-backup/
+  - title: How Azure Backup works
+    link: https://learn.microsoft.com/en-us/training/modules/intro-to-azure-backup/3-how-azure-backup-works/
+  - title: When to use Azure Backup
+    link: https://learn.microsoft.com/en-us/training/modules/intro-to-azure-backup/4-when-to-use-azure-backup/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/intro-to-azure-backup/5-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/intro-to-azure-backup/6-summary/
+- title: Protect your virtual machines by using Azure Backup
+  link: https://learn.microsoft.com/en-us/training/modules/protect-virtual-machines-with-azure-backup/
+  description: |
+    Use Azure Backup to help protect on-premises servers, virtual machines, SQL Server, Azure file shares, and other workloads.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/protect-virtual-machines-with-azure-backup/1-introduction/
+  - title: Azure Backup features and scenarios
+    link: https://learn.microsoft.com/en-us/training/modules/protect-virtual-machines-with-azure-backup/2-azure-backup-features-scenarios/
+  - title: Back up an Azure virtual machine by using Azure Backup
+    link: https://learn.microsoft.com/en-us/training/modules/protect-virtual-machines-with-azure-backup/3-back-up-azure-virtual-machine/
+  - title: Exercise - Back up an Azure virtual machine
+    link: https://learn.microsoft.com/en-us/training/modules/protect-virtual-machines-with-azure-backup/4-exercise-back-up-azure-virtual-machine/
+  - title: Restore virtual machine data
+    link: https://learn.microsoft.com/en-us/training/modules/protect-virtual-machines-with-azure-backup/5-restore-virtual-machine-data/
+  - title: Exercise - Restore Azure virtual machine data
+    link: https://learn.microsoft.com/en-us/training/modules/protect-virtual-machines-with-azure-backup/6-exercise-restore-virtual-machine-data/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/protect-virtual-machines-with-azure-backup/7-summary/

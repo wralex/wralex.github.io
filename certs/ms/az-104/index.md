@@ -24,27 +24,17 @@ This course is for Azure Administrators. The Azure Administrator implements, man
 - Configure virtual networks with Azure
 - Monitor and back up resources in Azure
 
-{% include checkLine.html
-    title='Prerequisites for Azure administrators'
-    link='prerequisites'
-    id='az104-prerequisites' %}{: .fs-4 }
-{% include checkLine.html
-    title='Manage identities and governance in Azure'
-    link='manage'
-    id='az104-manage' %}{: .fs-4 }
-{% include checkLine.html
-    title='Configure and manage virtual networks for Azure administrators'
-    link='configure'
-    id='az104-configure' %}{: .fs-4 }
-{% include checkLine.html
-    title='Implement and manage storage in Azure'
-    link='implement'
-    id='az104-implement' %}{: .fs-4 }
-{% include checkLine.html
-    title='Deploy and manage Azure compute resources'
-    link='deploy'
-    id='az104-deploy' %}{: .fs-4 }
-{% include checkLine.html
-    title='Monitor and back up Azure resources'
-    link='monitor'
-    id='az104-monitor' %}{: .fs-4 }
+Here are the learning paths in the AZ-104 Azure Administrator series:
+
+<span class="form-check fs-5">{% include checks.html id="az104-prerequisites" %}
+[![Prerequisites for Azure administrators](https://learn.microsoft.com/en-us/training/achievements/az-104-administrator-prerequisites.svg){: .ms-1 style="max-height: 40px" } Prerequisites for Azure administrators](./prerequisites)</span>
+<span class="form-check fs-5">{% include checks.html id="az104-prerequisites" %}
+[![Manage identities and governance in Azure](https://learn.microsoft.com/en-us/training/achievements/az-104-manage-identities-governance.svg){: .ms-1 style="max-height: 40px" } Manage identities and governance in Azure](./prerequisites)</span>
+<span class="form-check fs-5">{% include checks.html id="az104-prerequisites" %}
+[![Implement and manage storage in Azure](https://learn.microsoft.com/en-us/training/achievements/az-104-manage-storage.svg){: .ms-1 style="max-height: 40px" } Implement and manage storage in Azure](./implement)</span>
+<span class="form-check fs-5">{% include checks.html id="az104-prerequisites" %}
+[![Deploy and manage Azure compute resources](https://learn.microsoft.com/en-us/training/achievements/az-104-manage-compute-resources.svg){: .ms-1 style="max-height: 40px" } Deploy and manage Azure compute resources](./deploy)</span>
+<span class="form-check fs-5">{% include checks.html id="az104-prerequisites" %}
+[![Configure and manage virtual networks for Azure administrators](https://learn.microsoft.com/en-us/training/achievements/az-104-manage-virtual-networks.svg){: .ms-1 style="max-height: 40px" } Configure and manage virtual networks for Azure administrators](./configure)</span>
+<span class="form-check fs-5">{% include checks.html id="az104-prerequisites" %}
+[![Monitor and back up Azure resources](https://learn.microsoft.com/en-us/training/achievements/az-104-monitor-backup-resources.svg){: .ms-1 style="max-height: 40px" } Monitor and back up Azure resources](./monitor)</span>
