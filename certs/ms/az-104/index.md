@@ -26,25 +26,25 @@ This course is for Azure Administrators. The Azure Administrator implements, man
 
 {% include checkLine.html
     title='Prerequisites for Azure administrators'
-    link='prerequisites-for-azure-administrators'
-    id='az104-prerequisites-for-azure-administrators' %}{: .fs-4 }
+    link='prerequisites'
+    id='az104-prerequisites' %}{: .fs-4 }
 {% include checkLine.html
     title='Manage identities and governance in Azure'
-    link='manage-identities-and-governance-in-azure'
-    id='az104-manage-identities-and-governance-in-azure' %}{: .fs-4 }
+    link='manage'
+    id='az104-manage' %}{: .fs-4 }
 {% include checkLine.html
     title='Configure and manage virtual networks for Azure administrators'
-    link='configure-and-manage-virtual-networks-for-azure-administrators'
-    id='az104-configure-and-manage-virtual-networks-for-azure-administrators' %}{: .fs-4 }
+    link='configure'
+    id='az104-configure' %}{: .fs-4 }
 {% include checkLine.html
     title='Implement and manage storage in Azure'
-    link='implement-and-manage-storage-in-azure'
-    id='az104-implement-and-manage-storage-in-azure' %}{: .fs-4 }
+    link='implement'
+    id='az104-implement' %}{: .fs-4 }
 {% include checkLine.html
     title='Deploy and manage Azure compute resources'
-    link='deploy-and-manage-azure-compute-resources'
-    id='az104-deploy-and-manage-azure-compute-resources' %}{: .fs-4 }
+    link='deploy'
+    id='az104-deploy' %}{: .fs-4 }
 {% include checkLine.html
     title='Monitor and back up Azure resources'
-    link='monitor-and-back-up-azure-resources'
-    id='az104-monitor-and-back-up-azure-resources' %}{: .fs-4 }
+    link='monitor'
+    id='az104-monitor' %}{: .fs-4 }
