@@ -1,0 +1,151 @@
+title: 'AZ-104: Manage identities and governance in Azure'
+link: https://learn.microsoft.com/training/paths/az-104-manage-identities-governance/
+level: Beginner
+skill: Manage identities and governance in Azure
+role: Administrator
+description: |
+  Learn how to manage Azure Active Directory objects, role-based access control (RBAC), subscriptions, and governance in Azure. Here are the learning paths in the AZ-104 Azure Administrator series:
+prerequisites:
+- 'Microsoft Azure Fundamentals: Describe cloud concepts'
+- 'Azure Fundamentals: Describe Azure architecture and services'
+- 'Azure Fundamentals: Describe Azure management and governance'
+- 'AZ-104: Prerequisites for Azure administrators'
+- 'Get started with Azure'
+
+modules:
+- title: Understand Microsoft Entra ID
+  link: https://learn.microsoft.com/en-us/training/modules/understand-azure-active-directory/
+  description: |
+    This module explains Microsoft Entra ID. You'll compare Microsoft Entra ID to Active Directory DS, learn about Microsoft Entra ID P1 and P2, and explore Microsoft Entra Domain Services for managing domain-joined devices and apps in the cloud.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/understand-azure-active-directory/1-introduction/
+  - title: Examine Microsoft Entra ID
+    link: https://learn.microsoft.com/en-us/training/modules/understand-azure-active-directory/2-examine-azure-active-directory/
+  - title: Compare Microsoft Entra ID and Active Directory Domain Services
+    link: https://learn.microsoft.com/en-us/training/modules/understand-azure-active-directory/3-compare-azure-active-directory-domain-services/
+  - title: Examine Microsoft Entra ID as a directory service for cloud apps
+    link: https://learn.microsoft.com/en-us/training/modules/understand-azure-active-directory/4-examine-azure-directory-service-cloud-apps/
+  - title: Compare Microsoft Entra ID P1 and P2 plans
+    link: https://learn.microsoft.com/en-us/training/modules/understand-azure-active-directory/5-compare-azure-premium-p1-p2-plans/
+  - title: Examine Microsoft Entra Domain Services
+    link: https://learn.microsoft.com/en-us/training/modules/understand-azure-active-directory/6-examine-azure-domain-services/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/understand-azure-active-directory/7-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/understand-azure-active-directory/8-summary/
+- title: Create, configure, and manage identities
+  link: https://learn.microsoft.com/en-us/training/modules/create-configure-manage-identities/
+  description: |
+    Access to cloud-based workloads needs to be controlled centrally by providing a definitive identity for each user and resource. You can ensure employees and vendors have just-enough access to do their job.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/create-configure-manage-identities/1-introduction/
+  - title: Create, configure, and manage users
+    link: https://learn.microsoft.com/en-us/training/modules/create-configure-manage-identities/2-users/
+  - title: Exercise - assign licenses to users
+    link: https://learn.microsoft.com/en-us/training/modules/create-configure-manage-identities/3-exercise-assign-licenses-users/
+  - title: Exercise - restore or remove deleted users
+    link: https://learn.microsoft.com/en-us/training/modules/create-configure-manage-identities/4-exercise-restore-remove-deleted-users/
+  - title: Create, configure, and manage groups
+    link: https://learn.microsoft.com/en-us/training/modules/create-configure-manage-identities/5-groups/
+  - title: Exercise - add groups in Microsoft Entra ID
+    link: https://learn.microsoft.com/en-us/training/modules/create-configure-manage-identities/6-exercise-add-groups-azure-active-directory/
+  - title: Configure and manage device registration
+    link: https://learn.microsoft.com/en-us/training/modules/create-configure-manage-identities/7-configure-manage-device-registration/
+  - title: Manage licenses
+    link: https://learn.microsoft.com/en-us/training/modules/create-configure-manage-identities/8-manage-licenses/
+  - title: Exercise - change group license assignments
+    link: https://learn.microsoft.com/en-us/training/modules/create-configure-manage-identities/9-exercise-change-group-license-assignments/
+  - title: Exercise - change user license assignments
+    link: https://learn.microsoft.com/en-us/training/modules/create-configure-manage-identities/10-exercise-change-user-license-assignments/
+  - title: Create custom security attributes
+    link: https://learn.microsoft.com/en-us/training/modules/create-configure-manage-identities/11-create-custom-security-attributes/
+  - title: Explore automatic user creation
+    link: https://learn.microsoft.com/en-us/training/modules/create-configure-manage-identities/12-explore-automatic-user-creation/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/create-configure-manage-identities/13-knowledge-check/
+  - title: Summary and resources
+    link: https://learn.microsoft.com/en-us/training/modules/create-configure-manage-identities/14-summary-resources/
+- title: Describe the core architectural components of Azure
+  link: https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/
+  description: |
+    This module explains the basic infrastructure components of Microsoft Azure. You'll learn about the physical infrastructure, how resources are managed, and have a chance to create an Azure resource.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/1-introduction/
+  - title: What is Microsoft Azure
+    link: https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/2-what-microsoft-azure/
+  - title: Get started with Azure accounts
+    link: https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/3-get-started-azure-accounts/
+  - title: Exercise - Explore interacting with Azure
+    link: https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/4-exercise-explore-learn-sandbox/
+  - title: Describe Azure physical infrastructure
+    link: https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/5-describe-azure-physical-infrastructure/
+  - title: Describe Azure management infrastructure
+    link: https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/6-describe-azure-management-infrastructure/
+  - title: Exercise - Create an Azure resource
+    link: https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/7-exercise-create-azure-resource/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/8-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/9-summary/
+- title: Azure Policy initiatives
+  link: https://learn.microsoft.com/en-us/training/modules/sovereignty-policy-initiatives/
+  description: |
+    In this module, you learn how Azure Policy initiatives can be used to enforce organizational standards, assess compliance at scale, and manage Azure resources effectively.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/sovereignty-policy-initiatives/overview/
+  - title: Cloud Adoption Framework for Azure
+    link: https://learn.microsoft.com/en-us/training/modules/sovereignty-policy-initiatives/cloud-adoption-framework/
+  - title: Azure Policy design principles
+    link: https://learn.microsoft.com/en-us/training/modules/sovereignty-policy-initiatives/azure-policy-design-principles/
+  - title: Azure Policy resources
+    link: https://learn.microsoft.com/en-us/training/modules/sovereignty-policy-initiatives/azure-policy-resources/
+  - title: Azure Policy definitions
+    link: https://learn.microsoft.com/en-us/training/modules/sovereignty-policy-initiatives/azure-policy-definitions/
+  - title: Evaluation of resources through Azure Policy
+    link: https://learn.microsoft.com/en-us/training/modules/sovereignty-policy-initiatives/azure-policies-evaluation-resources/
+  - title: Check your knowledge
+    link: https://learn.microsoft.com/en-us/training/modules/sovereignty-policy-initiatives/check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/sovereignty-policy-initiatives/summary/
+- title: Secure your Azure resources with Azure role-based access control (Azure RBAC)
+  link: https://learn.microsoft.com/en-us/training/modules/secure-azure-resources-with-rbac/
+  description: |
+    Learn how to use Azure RBAC to manage access to resources in Azure.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/secure-azure-resources-with-rbac/1-introduction/
+  - title: What is Azure RBAC?
+    link: https://learn.microsoft.com/en-us/training/modules/secure-azure-resources-with-rbac/2-rbac-overview/
+  - title: Knowledge check - What is Azure RBAC?
+    link: https://learn.microsoft.com/en-us/training/modules/secure-azure-resources-with-rbac/3-knowledge-check-rbac-overview/
+  - title: Exercise - List access using Azure RBAC and the Azure portal
+    link: https://learn.microsoft.com/en-us/training/modules/secure-azure-resources-with-rbac/4-list-access/
+  - title: Exercise - Grant access using Azure RBAC and the Azure portal
+    link: https://learn.microsoft.com/en-us/training/modules/secure-azure-resources-with-rbac/5-grant-access/
+  - title: Exercise - View activity logs for Azure RBAC changes
+    link: https://learn.microsoft.com/en-us/training/modules/secure-azure-resources-with-rbac/6-view-activity-logs/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/secure-azure-resources-with-rbac/7-knowledge-check-rbac/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/secure-azure-resources-with-rbac/8-summary/
+- title: Allow users to reset their password with Microsoft Entra self-service password reset
+  link: https://learn.microsoft.com/en-us/training/modules/allow-users-reset-their-password/
+  description: |
+    Evaluate self-service password reset to allow users in your organization to reset their passwords or unlock their accounts. Set up, configure, and test self-service password reset.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/allow-users-reset-their-password/1-introduction/
+  - title: What is self-service password reset in Microsoft Entra ID?
+    link: https://learn.microsoft.com/en-us/training/modules/allow-users-reset-their-password/2-self-service-password-reset/
+  - title: Implement Microsoft Entra self-service password reset
+    link: https://learn.microsoft.com/en-us/training/modules/allow-users-reset-their-password/3-implement-azure-ad-self-service-password-reset/
+  - title: Exercise - Set up self-service password reset
+    link: https://learn.microsoft.com/en-us/training/modules/allow-users-reset-their-password/4-exercise-set-up-self-service-password-reset/
+  - title: Exercise - Customize directory branding
+    link: https://learn.microsoft.com/en-us/training/modules/allow-users-reset-their-password/5-exercise-customize-directory-branding/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/allow-users-reset-their-password/6-summary/

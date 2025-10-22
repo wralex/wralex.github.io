@@ -17,75 +17,75 @@ modules:
   description: Describe Microsoft Azure Cloud Shell, learn how it works, and explore basic steps for its usage.
   submodules:
   - title: Introduction
-    link: https://learn.microsoft.com/en-us/training/modules/intro-to-azure-cloud-shell/1-introduction/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.az104-admin-prerequisites
+    link: https://learn.microsoft.com/en-us/training/modules/intro-to-azure-cloud-shell/1-introduction/
   - title: What is Azure Cloud Shell?
-    link: https://learn.microsoft.com/en-us/training/modules/intro-to-azure-cloud-shell/2-what-is-azure-cloud-shell/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.az104-admin-prerequisites
+    link: https://learn.microsoft.com/en-us/training/modules/intro-to-azure-cloud-shell/2-what-is-azure-cloud-shell/
   - title: How does Azure Cloud Shell work?
-    link: https://learn.microsoft.com/en-us/training/modules/intro-to-azure-cloud-shell/3-how-azure-cloud-shell-works/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.az104-admin-prerequisites
+    link: https://learn.microsoft.com/en-us/training/modules/intro-to-azure-cloud-shell/3-how-azure-cloud-shell-works/
   - title: When should you use Azure Cloud Shell?
-    link: https://learn.microsoft.com/en-us/training/modules/intro-to-azure-cloud-shell/4-when-to-use-azure-cloud-shell/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.az104-admin-prerequisites
+    link: https://learn.microsoft.com/en-us/training/modules/intro-to-azure-cloud-shell/4-when-to-use-azure-cloud-shell/
   - title: Module assessment
-    link: https://learn.microsoft.com/en-us/training/modules/intro-to-azure-cloud-shell/5-knowledge-check/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.az104-admin-prerequisites
+    link: https://learn.microsoft.com/en-us/training/modules/intro-to-azure-cloud-shell/5-knowledge-check/
   - title: Summary
-    link: https://learn.microsoft.com/en-us/training/modules/intro-to-azure-cloud-shell/6-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.az104-admin-prerequisites
+    link: https://learn.microsoft.com/en-us/training/modules/intro-to-azure-cloud-shell/6-summary/
 - title: Introduction to Bash
   link: https://learn.microsoft.com/en-us/training/modules/bash-introduction/
   description: |
     Use Bash to manage IT infrastructure.
   submodules:
   - title: Introduction
-    link: https://learn.microsoft.com/en-us/training/modules/bash-introduction/0-introduction/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.az104-admin-prerequisites
+    link: https://learn.microsoft.com/en-us/training/modules/bash-introduction/0-introduction/
   - title: What is Bash?
-    link: https://learn.microsoft.com/en-us/training/modules/bash-introduction/1-what-is-bash/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.az104-admin-prerequisites
+    link: https://learn.microsoft.com/en-us/training/modules/bash-introduction/1-what-is-bash/
   - title: Bash fundamentals
-    link: https://learn.microsoft.com/en-us/training/modules/bash-introduction/2-bash-fundamentals/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.az104-admin-prerequisites
+    link: https://learn.microsoft.com/en-us/training/modules/bash-introduction/2-bash-fundamentals/
   - title: Bash commands and operators
-    link: https://learn.microsoft.com/en-us/training/modules/bash-introduction/3-bash-commands/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.az104-admin-prerequisites
+    link: https://learn.microsoft.com/en-us/training/modules/bash-introduction/3-bash-commands/
   - title: Exercise - Try Bash
-    link: https://learn.microsoft.com/en-us/training/modules/bash-introduction/4-exercise-try-bash/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.az104-admin-prerequisites
+    link: https://learn.microsoft.com/en-us/training/modules/bash-introduction/4-exercise-try-bash/
   - title: Exercise - Terminate a misbehaving process
-    link: https://learn.microsoft.com/en-us/training/modules/bash-introduction/5-exercise-terminate-process/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.az104-admin-prerequisites
+    link: https://learn.microsoft.com/en-us/training/modules/bash-introduction/5-exercise-terminate-process/
   - title: Exercise - Use Bash and grep to filter CLI output
-    link: https://learn.microsoft.com/en-us/training/modules/bash-introduction/6-exercise-filter-cli-output/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.az104-admin-prerequisites
+    link: https://learn.microsoft.com/en-us/training/modules/bash-introduction/6-exercise-filter-cli-output/
   - title: Module assessment
-    link: https://learn.microsoft.com/en-us/training/modules/bash-introduction/7-knowledge-check/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.az104-admin-prerequisites
+    link: https://learn.microsoft.com/en-us/training/modules/bash-introduction/7-knowledge-check/
   - title: Summary
-    link: https://learn.microsoft.com/en-us/training/modules/bash-introduction/8-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.az104-admin-prerequisites
+    link: https://learn.microsoft.com/en-us/training/modules/bash-introduction/8-summary/
 - title: Introduction to PowerShell
   link: https://learn.microsoft.com/en-us/training/modules/introduction-to-powershell/
   description: |
     Learn about the basics of PowerShell, a cross-platform command-line shell and scripting language that's built for task automation and configuration management. Learn what PowerShell is, what it's used for, and how to use it.
   submodules:
   - title: Introduction
-    link: https://learn.microsoft.com/en-us/training/modules/introduction-to-powershell/1-introduction/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.az104-admin-prerequisites
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-to-powershell/1-introduction/
   - title: What is PowerShell?
-    link: https://learn.microsoft.com/en-us/training/modules/introduction-to-powershell/2-what-is-powershell/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.az104-admin-prerequisites
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-to-powershell/2-what-is-powershell/
   - title: Exercise - Run your first PowerShell commands
-    link: https://learn.microsoft.com/en-us/training/modules/introduction-to-powershell/3-exercise-powershell/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.az104-admin-prerequisites
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-to-powershell/3-exercise-powershell/
   - title: Locate commands
-    link: https://learn.microsoft.com/en-us/training/modules/introduction-to-powershell/4-cmdlets/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.az104-admin-prerequisites
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-to-powershell/4-cmdlets/
   - title: Exercise - Locate commands
-    link: https://learn.microsoft.com/en-us/training/modules/introduction-to-powershell/5-exercise-cmdlets/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.az104-admin-prerequisites
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-to-powershell/5-exercise-cmdlets/
   - title: Module assessment
-    link: https://learn.microsoft.com/en-us/training/modules/introduction-to-powershell/6-knowledge-check/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.az104-admin-prerequisites
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-to-powershell/6-knowledge-check/
   - title: Summary
-    link: https://learn.microsoft.com/en-us/training/modules/introduction-to-powershell/7-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.az104-admin-prerequisites
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-to-powershell/7-summary/
 - title: Deploy Azure infrastructure by using JSON ARM templates
   link: https://learn.microsoft.com/en-us/training/modules/create-azure-resource-manager-template-vs-code/
   description: |
     Write JSON Azure Resource Manager templates (ARM templates) by using Visual Studio Code to deploy your infrastructure to Azure consistently and reliably.
   submodules:
   - title: Introduction
-    link: https://learn.microsoft.com/en-us/training/modules/create-azure-resource-manager-template-vs-code/1-introduction/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.az104-admin-prerequisites
+    link: https://learn.microsoft.com/en-us/training/modules/create-azure-resource-manager-template-vs-code/1-introduction/
   - title: Explore Azure Resource Manager template structure
-    link: https://learn.microsoft.com/en-us/training/modules/create-azure-resource-manager-template-vs-code/2-explore-template-structure/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.az104-admin-prerequisites
+    link: https://learn.microsoft.com/en-us/training/modules/create-azure-resource-manager-template-vs-code/2-explore-template-structure/
   - title: Exercise - Create and deploy an Azure Resource Manager template
-    link: https://learn.microsoft.com/en-us/training/modules/create-azure-resource-manager-template-vs-code/3-exercise-create-and-deploy-template/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.az104-admin-prerequisites
+    link: https://learn.microsoft.com/en-us/training/modules/create-azure-resource-manager-template-vs-code/3-exercise-create-and-deploy-template/
   - title: Add flexibility to your Azure Resource Manager template by using parameters and outputs
-    link: https://learn.microsoft.com/en-us/training/modules/create-azure-resource-manager-template-vs-code/4-add-flexibility-arm-template/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.az104-admin-prerequisites
+    link: https://learn.microsoft.com/en-us/training/modules/create-azure-resource-manager-template-vs-code/4-add-flexibility-arm-template/
   - title: Exercise - Add parameters and outputs to your Azure Resource Manager template
-    link: https://learn.microsoft.com/en-us/training/modules/create-azure-resource-manager-template-vs-code/5-exercise-parameters-output/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.az104-admin-prerequisites
+    link: https://learn.microsoft.com/en-us/training/modules/create-azure-resource-manager-template-vs-code/5-exercise-parameters-output/
   - title: Module assessment
-    link: https://learn.microsoft.com/en-us/training/modules/create-azure-resource-manager-template-vs-code/6-knowledge-check/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.az104-admin-prerequisites
+    link: https://learn.microsoft.com/en-us/training/modules/create-azure-resource-manager-template-vs-code/6-knowledge-check/
   - title: Summary
-    link: https://learn.microsoft.com/en-us/training/modules/create-azure-resource-manager-template-vs-code/7-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.az104-admin-prerequisites
+    link: https://learn.microsoft.com/en-us/training/modules/create-azure-resource-manager-template-vs-code/7-summary/
