@@ -11,7 +11,7 @@ description: |
   [Part 3: Describe Azure management and governance](describe-azure-management-and-governance).
 modules:
 - title: Describe cloud computing
-  links: https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/
+  link: https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/
   description: |
     This module introduces you to cloud computing. It covers things such as cloud concepts, deployment models, and understanding shared responsibility in the cloud.
   submodules:
