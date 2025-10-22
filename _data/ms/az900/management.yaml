@@ -1,0 +1,88 @@
+title: 'Introduction to Microsoft Azure: Describe Azure management and governance'
+description: |
+  New to the cloud? Introduction to Microsoft Azure is a three-part series that teaches you basic cloud concepts,
+  provides a streamlined overview of many Azure services, and guides you with hands-on exercises to deploy your very
+  first services for free.
+  Complete all of the learning paths in the series if you are preparing for
+  [Exam AZ-900: Microsoft Azure Fundamentals](https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals).  
+  This is the second learning path in the series, Introduction to Microsoft Azure: Describe Azure architecture and services.
+  The other learning paths in the series are
+  [Part 1: Describe cloud concepts](describe-cloud-concepts) and
+  [Part 2: Describe Azure architecture and services](describe-azure-architecture-and-services).
+modules:
+- title: Describe cost management in Azure
+  link: htps://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/
+  description: |
+    This module explores methods to estimate, track, and manage costs in Azure.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/1-introduction
+  - title: Describe factors that can affect costs in Azure
+    link: https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/2-describe-factors-affect-costs-azure
+  - title: Explore the pricing calculator
+    link: https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/3-compare-pricing-total-cost-of-ownership-calculators
+  - title: Exercise - Estimate workload costs by using the Pricing calculator
+    link: Instructions/Labs/06-exercise-estimate-workload-costs-use-pricing-calculator
+  - title: Describe the Microsoft Cost Management tool
+    link: https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/6-describe-azure-tool
+  - title: Describe the purpose of tags
+    link: https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/7-describe-purpose-of-tags
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/8-knowledge-check
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/describe-cost-management-azure/9-summary
+- title: Describe features and tools in Azure for governance and compliance
+  link: https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/
+  description: |
+    This module introduces you to tools that can help with governance and compliance within Azure.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/1-introduction
+  - title: Describe the purpose of Microsoft Purview
+    link: https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/2-describe-purpose-microsoft-purview
+  - title: Describe the purpose of Azure Policy
+    link: https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/3-describe-purpose-azure-policy
+  - title: Describe the purpose of resource locks
+    link: https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/4-describe-purpose-resource-locks
+  - title: Exercise - Configure a resource lock
+    link: Instructions/Labs/08-exercise-configure-resource-lock
+  - title: Describe the purpose of the Service Trust portal
+    link: https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/6-describe-purpose-service-trust-portal
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/7-knowledge-check
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/describe-features-tools-azure-for-governance-compliance/8-summary
+- title: Describe features and tools for managing and deploying Azure resources
+  link: https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/)
+  description: |
+    This module covers tools that help you manage your Azure and on-premises resources.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/1-introduction
+  - title: Describe tools for interacting with Azure
+    link: https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/2-describe-interacting-azure
+  - title: Describe the purpose of Azure Arc
+    link: https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/3-describe-purpose-of-azure-arc
+  - title: Describe Azure Resource Manager and Azure ARM templates
+    link: https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/4-describe-azure-resource-manager-azure-arm-templates
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/5-knowledge-check
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/describe-features-tools-manage-deploy-azure-resources/6-summary
+- title: Describe monitoring tools in Azure
+  link: https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/
+  description: |
+    This module covers tools that you can use to monitor your Azure environment.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/1-introduction
+  - title: Describe the purpose of Azure Advisor
+    link: https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/2-describe-purpose-of-azure-advisor
+  - title: Describe Azure Service Health
+    link: https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/3-describe-azure-service-health
+  - title: Describe Azure Monitor
+    link: https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/4-describe-azure-monitor
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/5-knowledge-check
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/describe-monitoring-tools-azure/6-summary

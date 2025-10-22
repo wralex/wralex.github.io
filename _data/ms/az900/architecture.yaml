@@ -1,0 +1,120 @@
+title: 'Introduction to Microsoft Azure: Describe Azure architecture and services'
+description: |
+  New to the cloud? Introduction to Microsoft Azure is a three-part series that teaches you basic cloud concepts,
+  provides a streamlined overview of many Azure services, and guides you with hands-on exercises to deploy your very
+  first services for free.
+  Complete all of the learning paths in the series if you are preparing for
+  [Exam AZ-900: Microsoft Azure Fundamentals](https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals).  
+  This is the second learning path in the series, Introduction to Microsoft Azure: Describe Azure architecture and services.
+  The other learning paths in the series are
+  [Part 1: Describe cloud concepts](describe-cloud-concepts) and
+  [Part 3: Describe Azure management and governance](describe-azure-management-and-governance).
+modules:
+- title: Describe the core architectural components of Azure
+  link: https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure
+  description: |
+    This module explains the basic infrastructure components of Microsoft Azure. You'll learn about the physical infrastructure,
+    how resources are managed, and have a chance to create an Azure resource.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/1-introduction
+  - title: What is Microsoft Azure
+    link: https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/2-what-microsoft-azure
+  - title: Get started with Azure accounts
+    link: https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/3-get-started-azure-accounts
+  - title: Exercise - Explore interacting with Azure
+    link: Instructions/Labs/01-exercise-explore-learn-sandbox
+  - title: Describe Azure physical infrastructure
+    link: https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/5-describe-azure-physical-infrastructure
+  - title: Describe Azure management infrastructure
+    link: https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/6-describe-azure-management-infrastructure
+  - title: Exercise - Create an Azure resource
+    link: Instructions/Labs/02-exercise-create-azure-resource
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/8-knowledge-check
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/9-summary
+- title: Describe Azure compute and networking services
+  link: https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services
+  description: |
+    This module focuses on some of the computer services and networking services available within Azure.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/1-introduction
+  - title: Describe Azure virtual machines
+    link: https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/2-virtual-machines
+  - title: Exercise - Create an Azure virtual machine
+    link: Instructions/Labs/03-exercise-create-azure-virtual-machine
+  - title: Describe Azure virtual desktop
+    link: https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/4-virtual-desktop
+  - title: Describe Azure containers
+    link: https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/5-containers
+  - title: Describe Azure functions
+    link: https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/6-functions
+  - title: Describe application hosting options
+    link: https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/7-describe-application-hosting-options
+  - title: Describe Azure virtual networking
+    link: https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/8-virtual-network
+  - title: Exercise - Configure network access
+    link: Instructions/Labs/04-exercise-configure-network-access
+  - title: Describe Azure virtual private networks
+    link: https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/10-virtual-private-networks
+  - title: Describe Azure ExpressRoute
+    link: https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/11-expressroute
+  - title: Describe Azure DNS
+    link: https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/12-domain-name-system
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/13-knowledge-check
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/14-summary
+- title: Describe Azure storage services
+  link: https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services
+  description: |
+    This module introduces you to storage in Azure, including things such as different types of storage and
+    how a distributed infrastructure can make your data more resilient.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/1-introduction
+  - title: Describe Azure storage accounts
+    link: https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/2-accounts
+  - title: Describe Azure storage redundancy
+    link: https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/3-redundancy
+  - title: Describe Azure storage services
+    link: https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/4-describe-azure-storage-services
+  - title: Exercise - Create a storage blob
+    link: Instructions/Labs/05-exercise-create-storage-blob
+  - title: Identify Azure data migration options
+    link: https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/6-identify-azure-data-migration-options
+  - title: Identify Azure file movement options
+    link: https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/7-identify-azure-file-movement-options
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/8-knowledge-check
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/describe-azure-storage-services/9-summary
+- title: Describe Azure identity, access, and security
+  link: https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/
+  description: |
+    This module covers some of the authorization and authentication methods available with Azure.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/1-introduction
+  - title: Describe Azure directory services
+    link: https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/2-directory-services
+  - title: Describe Azure authentication methods
+    link: https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/3-authentication-methods
+  - title: Describe Azure external identities
+    link: https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/4-external-identities
+  - title: Describe Azure conditional access
+    link: https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/5-conditional-access
+  - title: Describe Azure role-based access control
+    link: https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/6-role-based-access-control
+  - title: Describe Zero Trust model
+    link: https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/7-describe-zero-trust-model
+  - title: Describe defense-in-depth
+    link: https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/8-describe-defense-depth
+  - title: Describe Microsoft Defender for Cloud
+    link: https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/9-describe-microsoft-defender-for-cloud
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/10-knowledge-check
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/describe-azure-identity-access-security/11-summary

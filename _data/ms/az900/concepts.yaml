@@ -1,0 +1,68 @@
+title: 'Introduction to Microsoft Azure: Describe cloud concepts'
+description: |
+  New to the cloud? Introduction to Microsoft Azure is a three-part series that teaches you basic cloud concepts,
+  provides a streamlined overview of many Azure services, and guides you with hands-on exercises to deploy your very
+  first services for free.
+  Complete all of the learning paths in the series if you are preparing for
+  [Exam AZ-900: Microsoft Azure Fundamentals](https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals).  
+  This is the second learning path in the series, Introduction to Microsoft Azure: Describe Azure architecture and services.
+  The other learning paths in the series are
+  [Part 2: Describe Azure architecture and services](describe-azure-architecture-and-services) and
+  [Part 3: Describe Azure management and governance](describe-azure-management-and-governance).
+modules:
+- title: Describe cloud computing](https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute
+  description: |
+    This module introduces you to cloud computing. It covers things such as cloud concepts, deployment models, and understanding shared responsibility in the cloud.
+  submodules:
+  - title: Introduction to Microsoft Azure Fundamentals
+    link: https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/1-introduction-microsoft-azure-fundamentals
+  - title: Introduction to cloud computing
+    link: https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/2-introduction-cloud-compute
+  - title: What is cloud computing
+    link: https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/3-what-cloud-compute
+  - title: Describe the shared responsibility model
+    link: https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/4-describe-shared-responsibility-model
+  - title: Define cloud models
+    link: https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/5-define-cloud-models
+  - title: Describe the consumption-based model
+    link: https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/6-describe-consumption-based-model
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/7-knowledge-check
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/8-summary
+- title: Describe the benefits of using cloud services
+  link: https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/
+  description: |
+    This module introduces you to the benefits cloud computing can offer you or your organization.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/1-introduction
+  - title: Describe the benefits of high availability and scalability in the cloud
+    link: https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/2-high-availability-scalability-cloud
+  - title: Describe the benefits of reliability and predictability in the cloud
+    link: https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/3-reliability-predictability-cloud
+  - title: Describe the benefits of security and governance in the cloud
+    link: https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/4-security-governance-cloud
+  - title: Describe the benefits of manageability in the cloud
+    link: https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/5-manageability-cloud
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/6-knowledge-check
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/describe-benefits-use-cloud-services/7-summary
+- title: Describe cloud service types
+  link: https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/
+  description: |
+    This module covers the different cloud service types and shares some of the use cases and benefits aligned with each service type.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/1-introduction
+  - title: Describe Infrastructure as a Service
+    link: https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/2-describe-infrastructure-service
+  - title: Describe Platform as a Service
+    link: https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/3-describe-platform-service
+  - title: Describe Software as a Service
+    link: https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/4-describe-software-service
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/5-knowledge-check
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/6-summary
