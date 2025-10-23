@@ -3,11 +3,15 @@
   "routes": [
     {
       "route": "/profile*",
-      "allowedRoles": ["authenticated"]
+      "allowedRoles": [
+        "authenticated"
+      ]
     },
     {
       "route": "/admin/index.html",
-      "allowedRoles": ["administrator"]
+      "allowedRoles": [
+        "administrator"
+      ]
     },
     {
       "route": "/images/*",
@@ -17,21 +21,37 @@
     },
     {
       "route": "/api/*",
-      "methods": ["GET"],
-      "allowedRoles": ["registeredusers"]
+      "methods": [
+        "GET"
+      ],
+      "allowedRoles": [
+        "registeredusers"
+      ]
     },
     {
       "route": "/api/*",
-      "methods": ["PUT", "POST", "PATCH", "DELETE"],
-      "allowedRoles": ["administrator"]
+      "methods": [
+        "PUT",
+        "POST",
+        "PATCH",
+        "DELETE"
+      ],
+      "allowedRoles": [
+        "administrator"
+      ]
     },
     {
       "route": "/api/*",
-      "allowedRoles": ["authenticated"]
+      "allowedRoles": [
+        "authenticated"
+      ]
     },
     {
       "route": "/customers/contoso*",
-      "allowedRoles": ["administrator", "customers_contoso"]
+      "allowedRoles": [
+        "administrator",
+        "customers_contoso"
+      ]
     },
     {
       "route": "/login",
@@ -57,7 +77,10 @@
   ],
   "navigationFallback": {
     "rewrite": "index.html",
-    "exclude": ["/images/*.{png,jpg,gif}", "/css/*"]
+    "exclude": [
+      "/images/*.{png,jpg,gif}",
+      "/css/*"
+    ]
   },
   "responseOverrides": {
     "400": {
@@ -73,9 +96,6 @@
     "404": {
       "rewrite": "/404.html"
     }
-  },
-  "globalHeaders": {
-    "content-security-policy": "default-src https: 'unsafe-eval' 'unsafe-inline'; object-src 'none'"
   },
   "mimeTypes": {
     ".json": "text/json"
