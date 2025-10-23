@@ -1,12 +1,12 @@
 - name: Azure Fundamentals
-  url: ./az-900/
+  url: /certs/ms/az-900/
   msUrl: https://learn.microsoft.com/en-us/certifications/azure-fundamentals/
   level: Fundamental
   code: AZ-900
   description: Introductory certification for Azure services and cloud concepts.
   examCost: '99.00'
 - name: Azure Administrator Associate
-  url: ./az-104/
+  url: /certs/ms/az-104/
   msUrl: https://learn.microsoft.com/en-us/credentials/certifications/azure-administrator/
   level: Associate
   code: AZ-104

@@ -1,0 +1,2 @@
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Q{% foreach cert in site.data.ms.certificates %}\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Q{% endfor %}\\E$"}
