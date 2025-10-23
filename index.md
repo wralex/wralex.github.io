@@ -1,6 +1,4 @@
 ---
-layout: home
-title: "WRALEX Site"
+layout: default
+title: "Welcome to WRAJ"
 ---
-
-[Microsoft Certificates](./certs/ms/)

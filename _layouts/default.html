@@ -1,17 +1,43 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
-    <title>{{ page.title }} - {{ site.title }}</title>
-    {% include headStyles.html %}
-    {% include headScripts.html %}
-  </head>
-  <body class="container-fluid">
-    <h1 class="border-bottom mb-3">{% if page.link > '' %}<a href='{{ page.link }}'>{{ page.title }}</a>{% else %}{{ page.title }}{% endif %}</h1>
+<html lang="{{ site.lang | default: " en-US" }}">
 
-    {{ content }}
-    
-    {% include footScripts.html %}
-  </body>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>{{ page.title }} - {{ site.title }}</title>
+  {% include headStyles.html %}
+  {% include headScripts.html %}
+</head>
+
+<body class="container-fluid">
+  <header>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+          <ul class="navbar-nav flex-grow-1">
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="/certs/ms/">Microsoft Certificates</a>
+            </li>
+          </ul>
+          <p class="nav navbar-text"><span id="userName"></span></p>
+          <a class="btn btn-sm btn-success text-light" id="loginButton" href="/login">Login</a>
+          <a id="logoutButton" class="btn btn-sm btn-danger text-light" style="display:none;" href="/logout">Logout</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <h1 class="border-bottom mb-3">{% if page.link > '' %}<a href='{{ page.link }}'>{{ page.title }}</a>{% else %}{{
+    page.title }}{% endif %}</h1>
+
+  {{ content }}
+
+  {% include footScripts.html %}
+</body>
+
 </html>

@@ -30,8 +30,18 @@ $(() => {
         block.append(button);
     });
     (async () => {
+        const userInfo = await getUserInfo();
+        if (userInfo) {
+            $('#userName').text(`Hello, ${userInfo.userDetails}! `);
+            $('#loginButton').hide();
+            $('#logoutButton').show();
+        }else {
+            $('#userName').text('');
+            $('#loginButton').show();
+            $('#logoutButton').hide();
+        }
         console.log(await getUserInfo());
-    })();   
+    })();
 });
 
 function storageAvailable(type) {
