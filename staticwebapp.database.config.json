@@ -1,0 +1,42 @@
+{
+  "$schema": "https://github.com/Azure/data-api-builder/releases/latest/download/dab.draft.schema.json",
+  "data-source": {
+    "database-type": "mssql",
+    "options": {
+      "set-session-context": false 
+    },
+    "connection-string": "@env('DATABASE_CONNECTION_STRING')"
+  },
+  "runtime": {
+    "rest": {
+      "enabled": true,
+      "path": "/rest"
+    },
+    "graphql": {
+      "allow-introspection": true,
+      "enabled": true,
+      "path": "/graphql"
+    },
+    "host": {
+      "mode": "production",
+      "cors": {
+        "origins": ["https://gray-island-0ecb5780f.3.azurestaticapps.net"],
+        "allow-credentials": true
+      },
+      "authentication": {
+        "provider": "StaticWebApps"
+      }
+    }
+  },
+  "entities": {
+    "Person": {
+      "source": "dbo.People",
+      "permissions": [
+        {
+          "actions": ["create", "read", "update", "delete"],
+          "role": "authenticated"
+        }
+      ]
+    }
+  }
+}
