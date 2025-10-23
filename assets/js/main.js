@@ -18,28 +18,38 @@ $(() => {
         block.addClass('position-relative');
 
         const button =
-        $('<button>', {
-            text: 'Copy',
-            class: 'btn btn-sm btn-outline-info position-absolute top-0 end-0'
-        }).on('click', () => {
-            const code = block.find('code').text().trim();
-            window.navigator.clipboard.writeText(code);
-            alert.call(this, 'Code copied to clipboard!');
-        });
+            $('<button>', {
+                text: 'Copy',
+                class: 'btn btn-sm btn-outline-info position-absolute top-0 end-0'
+            }).on('click', () => {
+                const code = block.find('code').text().trim();
+                window.navigator.clipboard.writeText(code);
+                alert.call(this, 'Code copied to clipboard!');
+            });
 
         block.append(button);
     });
+    (async () => {
+        console.log(await getUserInfo());
+    })();   
 });
 
 function storageAvailable(type) {
     try {
         let storage = window[type]
-        , testKey = '__storage_test__';
-        
+            , testKey = '__storage_test__';
+
         storage.setItem(testKey, testKey);
         storage.removeItem(testKey);
         return true;
-    } catch (e) {
+    } catch {
         return false;
     }
+}
+
+async function getUserInfo() {
+    const response = await fetch('/.auth/me');
+    const payload = await response.json();
+    const { clientPrincipal } = payload;
+    return clientPrincipal;
 }
