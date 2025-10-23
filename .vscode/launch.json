@@ -8,7 +8,7 @@
             "name": "PowerShell Launch Script",
             "type": "PowerShell",
             "request": "launch",
-            "script": "bundle exec jekyll serve --livereload",
+            "script": "bundle exec jekyll serve",
             "cwd": "${cwd}"
         }
     ]

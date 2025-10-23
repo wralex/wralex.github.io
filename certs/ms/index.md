@@ -2,10 +2,10 @@
 layout: default
 title: Microsoft Certifications
 ---
-| **Certification**                                                                                             | **Level**         | **Exam No.**      | **Description**           | **Exam Cost**             |  **Links**                                                                |
-|---------------------------------------------------------------------------------------------------------------|:-----------------:|:-----------------:|---------------------------|--------------------------:|:-------------------------------------------------------------------------:|{% for cert in site.data.ms.certificates %}
-| [<i class="bi bi-windows"></i>]({{ cert.msUrl }}){: .ps-1 }{% if cert.url > '' %}**[{{ cert.name }}]({{ cert.url }})**{% else %}**{{ cert.name }}**{% endif %}{: .ps-2} | {{ cert.level }}  | {{ cert.code }}   | {{ cert.description }}    | $ {{ cert.examCost }} | {% if cert.courseLink > '' %} [Course]({{ cert.courseLink }}) {% endif %} |{% endfor %}
-{: .table .table-sm .table-striped .table-hover .table-bordered .w-75 }
+| **Certification**{: .text-nowrap } | **Level**{: .text-nowrap } | **Exam No.**{: .text-nowrap } | **Description**{: .text-nowrap } | **Exam Cost**{: .text-nowrap } | **Links**{: .text-nowrap } |
+|-------------------|:---------:|:------------:|-----------------|--------------:|:---------:|{% for cert in site.data.ms.certificates %}
+| <span class="text-nowrap">[<i class="bi bi-windows"></i>]({{ cert.msUrl }}){: .ps-1 }<span class="ps-2">{% if cert.url > '' %}**[{{ cert.name }}]({{ cert.url }})**{% else %}**{{ cert.name }}**{% endif %}</span></span>  | <span class="text-nowrap">{{ cert.level }}</span>  | <span class="text-nowrap">{{ cert.code }}</span> | <span class="text-nowrap">{{ cert.description }}</span>{: .overflow-x-hidden }   | <span class="text-nowrap">$ {{ cert.examCost }}</span> | {% if cert.courseLink > '' %} [Course]({{ cert.courseLink }}) {% endif %} |{% endfor %}
+{: .table .table-sm .table-striped .table-hover .table-bordered }
 
 <div class="container row row-cols-2 w-75">
     <div class="col-3 fw-bold border-bottom border-5 border-dark">
