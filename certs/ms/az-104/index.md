@@ -29,7 +29,7 @@ Here are the learning paths in the AZ-104 Azure Administrator series:
 <span class="form-check fs-5">{% include checks.html id="az104-prerequisites" %}
 [![Prerequisites for Azure administrators](https://learn.microsoft.com/en-us/training/achievements/az-104-administrator-prerequisites.svg){: .ms-1 style="max-height: 40px" } Prerequisites for Azure administrators](./prerequisites)</span>
 <span class="form-check fs-5">{% include checks.html id="az104-manage" %}
-[![Manage identities and governance in Azure](https://learn.microsoft.com/en-us/training/achievements/az-104-manage-identities-governance.svg){: .ms-1 style="max-height: 40px" } Manage identities and governance in Azure](./prerequisites)</span>
+[![Manage identities and governance in Azure](https://learn.microsoft.com/en-us/training/achievements/az-104-manage-identities-governance.svg){: .ms-1 style="max-height: 40px" } Manage identities and governance in Azure](./manage)</span>
 <span class="form-check fs-5">{% include checks.html id="az104-implement" %}
 [![Implement and manage storage in Azure](https://learn.microsoft.com/en-us/training/achievements/az-104-manage-storage.svg){: .ms-1 style="max-height: 40px" } Implement and manage storage in Azure](./implement)</span>
 <span class="form-check fs-5">{% include checks.html id="az104-deploy" %}
