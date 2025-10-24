@@ -1,4 +1,5 @@
 $(() => {
+    console.log(getSiteURL());
     if (!storageAvailable('localStorage')) {
         console.warn("localStorage is not supported in this browser.");
         return;
@@ -29,19 +30,25 @@ $(() => {
 
         block.append(button);
     });
-    (async () => {
-        const userInfo = await getUserInfo();
-        if (userInfo) {
-            $('#userName').text(`Hello, ${userInfo.userDetails}! `);
-            $('#loginButton').hide();
-            $('#logoutButton').show();
-        }else {
-            $('#userName').text('');
-            $('#loginButton').show();
-            $('#logoutButton').hide();
-        }
-        console.log(await getUserInfo());
-    })();
+
+    if (getSiteURL() === 'https://gray-island-0ecb5780f.3.azurestaticapps.net') {
+        (async () => {
+            const userInfo = await getUserInfo();
+            if (userInfo) {
+                $('#userName').text(`Hello, ${userInfo.userDetails}! `);
+                $('#loginButton').hide();
+                $('#logoutButton').show();
+            } else {
+                $('#userName').text('');
+                $('#loginButton').show();
+                $('#logoutButton').hide();
+            }
+            console.log(await getUserInfo());
+        })();
+
+    } else {
+        $('#loginButton').hide();
+    }
 });
 
 function storageAvailable(type) {
@@ -62,4 +69,17 @@ async function getUserInfo() {
     const payload = await response.json();
     const { clientPrincipal } = payload;
     return clientPrincipal;
+}
+
+function getSiteURL() {
+    try {
+        if (window.location.origin) {
+            return window.location.origin;
+        } else {
+            return `${window.location.protocol}//${window.location.hostname}${window.location.port ? ":" + window.location.port : ""}`;
+        }
+    } catch (error) {
+        console.error("Unable to get site URL:", error);
+        return null;
+    }
 }

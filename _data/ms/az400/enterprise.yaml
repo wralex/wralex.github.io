@@ -1,0 +1,211 @@
+title: 'AZ-400: Development for enterprise DevOps'
+link: https://learn.microsoft.com/en-us/training/paths/az-400-work-git-for-enterprise-devops/
+level: Advanced
+subject: DevOps
+prerequisites: None
+description: |
+  This learning path examines the key Git features that organizations must plan for when designing their enterprise DevOps.
+This learning path helps prepare you for Exam AZ-400: Designing and Implementing Microsoft DevOps Solutions.
+modules:
+- title: Introduction to DevOps
+  link: https://learn.microsoft.com/en-us/training/modules/introduction-to-devops/
+  description: |
+    This module explores the key areas that organizations must apply to start
+    their DevOps transformation Journey, change the team's mindset, and define
+    timelines and goals.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-to-devops/1-introduction/
+  - title: What is DevOps?
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-to-devops/2-what-is-devops/
+  - title: Explore the DevOps journey
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-to-devops/3-explore-devops-journey/
+  - title: Identify transformation teams
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-to-devops/4-identify-transformation-teams/
+  - title: Define organization structure for agile practices
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-to-devops/5-define-organization-structure-agile-practices/
+  - title: Explore shared goals and define timelines
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-to-devops/6-explore-shared-goals-define-timelines/
+  - title: What is Azure DevOps?
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-to-devops/7-what-is-azure-devops/
+  - title: What is GitHub?
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-to-devops/8-what-is-github/
+  - title: Design a license management strategy
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-to-devops/9-design-license-management-strategy/
+  - title: What is source control?
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-to-devops/10-what-source-control/
+  - title: Describe working with Git locally
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-to-devops/11-describe-working-git-locally/
+  - title: Introduction to Azure Repos
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-to-devops/12-introduction-azure-repos/
+  - title: Introduction to GitHub
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-to-devops/13-introduction-to-github/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-to-devops/14-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-to-devops/15-summary/
+- title: Plan Agile with GitHub Projects and Azure Boards
+  link: https://learn.microsoft.com/en-us/training/modules/plan-agile-github-projects-azure-boards/
+  description: |
+    This module introduces you to GitHub Projects, GitHub Project Boards and Azure Boards. It explores ways to link Azure Boards and GitHub, configure GitHub Projects and Project views, and manage work with GitHub Projects.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/plan-agile-github-projects-azure-boards/1-introduction/
+  - title: Introduction to GitHub Projects and Project boards
+    link: https://learn.microsoft.com/en-us/training/modules/plan-agile-github-projects-azure-boards/2-introduction-to-project-boards/
+  - title: Introduction to Azure Boards
+    link: https://learn.microsoft.com/en-us/training/modules/plan-agile-github-projects-azure-boards/3-introduction-to-azure-boards/
+  - title: Configure projects and teams in Azure DevOps
+    link: https://learn.microsoft.com/en-us/training/modules/plan-agile-github-projects-azure-boards/4-configure-projects-teams-azure-devops/
+  - title: Link GitHub to Azure Boards
+    link: https://learn.microsoft.com/en-us/training/modules/plan-agile-github-projects-azure-boards/5-link-github-to-azure-boards/
+  - title: Configure GitHub Projects
+    link: https://learn.microsoft.com/en-us/training/modules/plan-agile-github-projects-azure-boards/6-configure/
+  - title: Manage work with GitHub Project boards
+    link: https://learn.microsoft.com/en-us/training/modules/plan-agile-github-projects-azure-boards/7-manage-work-github-project-boards/
+  - title: Customize Project views
+    link: https://learn.microsoft.com/en-us/training/modules/plan-agile-github-projects-azure-boards/8-customize-project-views/
+  - title: Collaborate using team discussions
+    link: https://learn.microsoft.com/en-us/training/modules/plan-agile-github-projects-azure-boards/9-collaborate-using-team-discussions/
+  - title: Design and implement a strategy for feedback cycles
+    link: https://learn.microsoft.com/en-us/training/modules/plan-agile-github-projects-azure-boards/10-design-implement-strategy-feedback-cycles/
+  - title: Design and implement source, bug, and quality traceability
+    link: https://learn.microsoft.com/en-us/training/modules/plan-agile-github-projects-azure-boards/11-design-implement-source-bug-quality-traceability/
+  - title: Agile Plan and Portfolio Management with Azure Boards
+    link: https://learn.microsoft.com/en-us/training/modules/plan-agile-github-projects-azure-boards/12-agile-plan-portfolio-management-azure-boards/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/plan-agile-github-projects-azure-boards/13-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/plan-agile-github-projects-azure-boards/14-summary/
+- title: Design and implement branch strategies and workflows
+  link: https://learn.microsoft.com/en-us/training/modules/manage-git-branches-workflows/
+  description: |
+    This module explores Git branching types, concepts, and models for the continuous delivery process. It helps companies defining their branching strategy and organization.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/manage-git-branches-workflows/1-introduction/
+  - title: Explore branch workflow types
+    link: https://learn.microsoft.com/en-us/training/modules/manage-git-branches-workflows/2-explore-branch-workflow-types/
+  - title: Explore feature branch workflow
+    link: https://learn.microsoft.com/en-us/training/modules/manage-git-branches-workflows/3-explore-feature-branch-workflow/
+  - title: Explore Git branch model for continuous delivery
+    link: https://learn.microsoft.com/en-us/training/modules/manage-git-branches-workflows/4-explore-git-branch-model-for-continuous-delivery/
+  - title: Explore GitHub flow
+    link: https://learn.microsoft.com/en-us/training/modules/manage-git-branches-workflows/5-explore-github-flow/
+  - title: Explore fork workflow
+    link: https://learn.microsoft.com/en-us/training/modules/manage-git-branches-workflows/6-explore-fork-workflow/
+  - title: Implement branch merging restrictions
+    link: https://learn.microsoft.com/en-us/training/modules/manage-git-branches-workflows/7-implement-branch-merging-restrictions/
+  - title: Version Control with Git in Azure Repos
+    link: https://learn.microsoft.com/en-us/training/modules/manage-git-branches-workflows/8-version-control-git-azure-repos/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/manage-git-branches-workflows/9-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/manage-git-branches-workflows/10-summary/
+- title: Collaborate with pull requests in Azure Repos
+  link: https://learn.microsoft.com/en-us/training/modules/collaborate-pull-requests-azure-repos/
+  description: |
+    This module covers strategic code review practices, automated policy enforcement, and scalable team collaboration frameworks essential for modern DevOps implementations.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/collaborate-pull-requests-azure-repos/1-introduction/
+  - title: Collaborate with pull requests
+    link: https://learn.microsoft.com/en-us/training/modules/collaborate-pull-requests-azure-repos/2-collaborate-pull-requests/
+  - title: Exercise Azure Repos collaborating with pull requests
+    link: https://learn.microsoft.com/en-us/training/modules/collaborate-pull-requests-azure-repos/3-exercise-collaborate-pull-requests/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/collaborate-pull-requests-azure-repos/4-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/collaborate-pull-requests-azure-repos/5-summary/
+- title: Explore Git hooks
+  link: https://learn.microsoft.com/en-us/training/modules/explore-git-hooks/
+  description: |
+    This module describes Git hooks and their usage during the development process, implementation, and behavior.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/explore-git-hooks/1-introduction/
+  - title: Introduction to Git hooks
+    link: https://learn.microsoft.com/en-us/training/modules/explore-git-hooks/2-introduction-to/
+  - title: Implement Git hooks
+    link: https://learn.microsoft.com/en-us/training/modules/explore-git-hooks/3-implement/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/explore-git-hooks/4-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/explore-git-hooks/5-summary/
+- title: Plan foster inner source
+  link: https://learn.microsoft.com/en-us/training/modules/plan-fostering-inner-source/
+  description: |
+    This module explains how to use Git to foster inner sources across the organization, implement Fork and its workflows.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/plan-fostering-inner-source/1-introduction/
+  - title: Explore foster inner source
+    link: https://learn.microsoft.com/en-us/training/modules/plan-fostering-inner-source/2-explore-foster-inner-source/
+  - title: Implement the fork workflow
+    link: https://learn.microsoft.com/en-us/training/modules/plan-fostering-inner-source/3-implement-fork-workflow/
+  - title: Describe inner source with forks
+    link: https://learn.microsoft.com/en-us/training/modules/plan-fostering-inner-source/4-describe-forks/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/plan-fostering-inner-source/5-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/plan-fostering-inner-source/6-summary/
+- title: Manage and configure repositories
+  link: https://learn.microsoft.com/en-us/training/modules/manage-git-repositories/
+  description: |
+    This module explores how to work with large repositories, purge repository data and manage and automate release notes using GitHub.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/manage-git-repositories/1-introduction/
+  - title: Work with large repositories
+    link: https://learn.microsoft.com/en-us/training/modules/manage-git-repositories/2-work-large-repositories/
+  - title: Explore monorepo versus multiple repos
+    link: https://learn.microsoft.com/en-us/training/modules/manage-git-repositories/3-explore-monorepo-versus-multiple-repos/
+  - title: Implement a change log
+    link: https://learn.microsoft.com/en-us/training/modules/manage-git-repositories/4-implement-change-log/
+  - title: Implement Scalar and cross repo when cross repo sharing
+    link: https://learn.microsoft.com/en-us/training/modules/manage-git-repositories/5-implement-scalar-cross-repo/
+  - title: Recover specific data by using Git commands
+    link: https://learn.microsoft.com/en-us/training/modules/manage-git-repositories/6-recover-specific-data-git-commands/
+  - title: Purge repository data
+    link: https://learn.microsoft.com/en-us/training/modules/manage-git-repositories/7-purge-repository-data/
+  - title: Manage releases with GitHub Repos
+    link: https://learn.microsoft.com/en-us/training/modules/manage-git-repositories/8-manage-releases-github-repos/
+  - title: Automate release notes with GitHub
+    link: https://learn.microsoft.com/en-us/training/modules/manage-git-repositories/9-automate-release-notes-github/
+  - title: Create API documentation
+    link: https://learn.microsoft.com/en-us/training/modules/manage-git-repositories/10-create-api-documentation/
+  - title: Implement automation of Git history documentation
+    link: https://learn.microsoft.com/en-us/training/modules/manage-git-repositories/11-implement-automation-git-history-documentation/
+  - title: Configure source control repository permissions using GitHub
+    link: https://learn.microsoft.com/en-us/training/modules/manage-git-repositories/12-configure-source-control-repository-permissions-use-github/
+  - title: Configure GitHub tags to organize repositories
+    link: https://learn.microsoft.com/en-us/training/modules/manage-git-repositories/13-configure-github-tags-organize-repositories/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/manage-git-repositories/14-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/manage-git-repositories/15-summary/
+- title: Identify technical debt
+  link: https://learn.microsoft.com/en-us/training/modules/identify-technical-debt/
+  description: |
+    This module examines technical debt, complexity, quality metrics, and plans for effective code reviews and code quality validation.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/identify-technical-debt/1-introduction/
+  - title: Examine code quality
+    link: https://learn.microsoft.com/en-us/training/modules/identify-technical-debt/2-examine-code-quality/
+  - title: Examine complexity and quality metrics
+    link: https://learn.microsoft.com/en-us/training/modules/identify-technical-debt/3-examine-complexity-quality-metrics/
+  - title: Introduction to technical debt
+    link: https://learn.microsoft.com/en-us/training/modules/identify-technical-debt/4-introduction-technical-debt/
+  - title: Measure and manage technical debt
+    link: https://learn.microsoft.com/en-us/training/modules/identify-technical-debt/5-measure-manage-technical-debt/
+  - title: Introduction to GitHub Advanced Security
+    link: https://learn.microsoft.com/en-us/training/modules/identify-technical-debt/6-introduction-to-github-advanced-security/
+  - title: Integrate other code quality tools
+    link: https://learn.microsoft.com/en-us/training/modules/identify-technical-debt/7-integrate-other-code-quality-tools/
+  - title: Plan effective code reviews
+    link: https://learn.microsoft.com/en-us/training/modules/identify-technical-debt/8-plan-effective-code-reviews/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/identify-technical-debt/9-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/identify-technical-debt/10-summary/
