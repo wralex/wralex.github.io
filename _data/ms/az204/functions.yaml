@@ -1,0 +1,54 @@
+title: Implement Azure Functions
+link: https://learn.microsoft.com/en-us/training/paths/implement-azure-functions/
+level: Intermediate
+product: Azure Functions
+role: Developer
+subject: Serverless computing
+description: |
+  Learn how to create and deploy Azure Functions. Explore hosting options, bindings, and triggers.
+prerequisites:
+- title: |
+    At least one year of experience developing scalable solutions through all phases of software development.
+- title: |
+    Have a base understanding of Azure and cloud concepts, services, and the Azure portal.
+- title: |
+    If you're new to Azure or cloud computing it's recommended you complete the AZ-900: Azure Fundamentals course.
+modules:
+- title: Explore Azure Functions
+  link: https://learn.microsoft.com/en-us/training/modules/explore-azure-functions/
+  description: |
+    Learn how Azure Functions can be a great solution for data processing, systems integration, and building
+    simple APIs and microservices.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/explore-azure-functions/1-introduction/
+  - title: Discover Azure Functions
+    link: https://learn.microsoft.com/en-us/training/modules/explore-azure-functions/2-azure-functions-overview/
+  - title: Compare Azure Functions hosting options
+    link: https://learn.microsoft.com/en-us/training/modules/explore-azure-functions/3-compare-azure-functions-hosting-options/
+  - title: Scale Azure Functions
+    link: https://learn.microsoft.com/en-us/training/modules/explore-azure-functions/4-scale-azure-functions/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/explore-azure-functions/5-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/explore-azure-functions/6-summary/
+
+- title: Develop Azure Functions
+  link: https://learn.microsoft.com/en-us/training/modules/develop-azure-functions/
+  description: |
+    Learn how to create and deploy Azure Functions.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/develop-azure-functions/1-introduction/
+  - title: Explore Azure Functions development
+    link: https://learn.microsoft.com/en-us/training/modules/develop-azure-functions/2-azure-function-development-overview/
+  - title: Create triggers and bindings
+    link: https://learn.microsoft.com/en-us/training/modules/develop-azure-functions/3-create-triggers-bindings/
+  - title: Connect functions to Azure services
+    link: https://learn.microsoft.com/en-us/training/modules/develop-azure-functions/4-connect-azure-services/
+  - title: Exercise - Create an Azure Function by using Visual Studio Code
+    link: https://learn.microsoft.com/en-us/training/modules/develop-azure-functions/5-create-function-visual-studio-code/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/develop-azure-functions/6-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/develop-azure-functions/7-summary/
