@@ -2,6 +2,7 @@
 <script src="{{ "/assets/libs/jquery-ui/dist/jquery-ui.min.js" | relative_url }}"></script>
 <script src="{{ "/assets/libs/highlight/highlight.min.js" | relative_url }}"></script>
 <script src="{{ "/assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js" | relative_url }}"></script>
+<script src="{{ "/assets/libs/DataTables/datatables.min.js" | relative_url }}"></script>
 <script src="{{ "/assets/js/main.js" | relative_url }}"></script>
 
 <script>
@@ -19,4 +20,6 @@ hljs.registerLanguage('azurecli', function(hljs) {
   };
 });
 hljs.highlightAll();
+
+$('table.display').DataTable()
 </script>
