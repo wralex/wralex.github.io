@@ -1,0 +1,209 @@
+title: Implement CI with Azure Pipelines and GitHub Actions'
+link: https://learn.microsoft.com/en-us/training/paths/az-400-implement-ci-azure-pipelines-github-actions/
+level: Advanced
+product: Azure DevOps
+role: DeveloperDevOps Engineer
+description: |
+  This learning path introduces the continuous integration concept using Azure Pipelines and GitHub Actions and provides instruction on configuring those services and building applications.
+prerequisites: None
+modules:
+- title: Introduction toExplore Azure Pipelines
+  link: https://learn.microsoft.com/en-us/training/modules/explore-azure-pipelines/
+  description: |
+    This module introduces Azure Pipelines concepts and explains key terms and components of the tool, helping you decide your pipeline strategy and responsibilities.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/explore-azure-pipelines/1-introduction/
+  - title: Explore the concept of pipelines in DevOps
+    link: https://learn.microsoft.com/en-us/training/modules/explore-azure-pipelines/2-explore-concept-of-pipelines-devops/
+  - title: Describe Azure Pipelines
+    link: https://learn.microsoft.com/en-us/training/modules/explore-azure-pipelines/3-describe-azure-pipelines/
+  - title: Understand Azure Pipelines key terms
+    link: https://learn.microsoft.com/en-us/training/modules/explore-azure-pipelines/4-understand-key-terms/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/explore-azure-pipelines/5-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/explore-azure-pipelines/6-summary/
+- title: Manage Azure Pipeline agents and pools
+  link: https://learn.microsoft.com/en-us/training/modules/manage-azure-pipeline-agents-pools/
+  description: |
+    This module explores the differences between Microsoft-hosted and self-hosted agents, details job types, and configures agent pools. Understand typical situations to use agent pools and how to manage their security.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/manage-azure-pipeline-agents-pools/1-introduction/
+  - title: Choose between Microsoft-hosted versus self-hosted agents
+    link: https://learn.microsoft.com/en-us/training/modules/manage-azure-pipeline-agents-pools/2-choose-between-microsoft-hosted-versus-self-hosted-agents/
+  - title: Explore job types
+    link: https://learn.microsoft.com/en-us/training/modules/manage-azure-pipeline-agents-pools/3-explore-job-types/
+  - title: Introduction to agent pools
+    link: https://learn.microsoft.com/en-us/training/modules/manage-azure-pipeline-agents-pools/4-introduction-to-agent-pools/
+  - title: Explore predefined agent pool
+    link: https://learn.microsoft.com/en-us/training/modules/manage-azure-pipeline-agents-pools/5-explore-predefined-agent-pool/
+  - title: Understand typical situations for agent pools
+    link: https://learn.microsoft.com/en-us/training/modules/manage-azure-pipeline-agents-pools/6-understand-typical-situations-for-agent-pools/
+  - title: Communicate with Azure Pipelines
+    link: https://learn.microsoft.com/en-us/training/modules/manage-azure-pipeline-agents-pools/7-communicate-with-azure-pipelines/
+  - title: Communicate to deploy to target servers
+    link: https://learn.microsoft.com/en-us/training/modules/manage-azure-pipeline-agents-pools/8-communicate-to-deploy-to-target-servers/
+  - title: Examine other considerations
+    link: https://learn.microsoft.com/en-us/training/modules/manage-azure-pipeline-agents-pools/9-examine-other-considerations/
+  - title: Describe security of agent pools
+    link: https://learn.microsoft.com/en-us/training/modules/manage-azure-pipeline-agents-pools/10-describe-security-of-agent-pools/
+  - title: Configure agent pools and understand pipeline styles
+    link: https://learn.microsoft.com/en-us/training/modules/manage-azure-pipeline-agents-pools/11-configure-agent-pools-understand-pipeline-styles/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/manage-azure-pipeline-agents-pools/12-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/manage-azure-pipeline-agents-pools/13-summary/
+- title: Describe pipelines and concurrency
+  link: https://learn.microsoft.com/en-us/training/modules/describe-pipelines-concurrency/
+  description: |
+    This module describes parallel jobs and how to estimate their usage. Also, it presents Azure Pipelines for open-source projects, explores Visual Designer and YAML pipelines.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/describe-pipelines-concurrency/1-introduction/
+  - title: Understand parallel jobs
+    link: https://learn.microsoft.com/en-us/training/modules/describe-pipelines-concurrency/2-understand-parallel-jobs/
+  - title: Estimate parallel jobs
+    link: https://learn.microsoft.com/en-us/training/modules/describe-pipelines-concurrency/3-estimate-parallel-jobs/
+  - title: Describe Azure Pipelines and open-source projects
+    link: https://learn.microsoft.com/en-us/training/modules/describe-pipelines-concurrency/4-describe-azure-pipelines-open-source-projects/
+  - title: Explore Azure Pipelines and Visual Designer
+    link: https://learn.microsoft.com/en-us/training/modules/describe-pipelines-concurrency/5-explore-azure-pipelines-visual-designer/
+  - title: Describe Azure Pipelines and YAML
+    link: https://learn.microsoft.com/en-us/training/modules/describe-pipelines-concurrency/6-describe-azure-pipelines-yaml/
+  - title: Enable Continuous Integration with Azure Pipelines
+    link: https://learn.microsoft.com/en-us/training/modules/describe-pipelines-concurrency/7-enable-continuous-integration-azure-pipelines/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/describe-pipelines-concurrency/8-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/describe-pipelines-concurrency/9-summary/
+- title: Design and implement a pipeline strategy
+  link: https://learn.microsoft.com/en-us/training/modules/implement-pipeline-strategy/
+  description: |
+    This module describes pipeline strategies, configuring them, implementing multi-agent builds, and what source controls Azure Pipelines supports.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/implement-pipeline-strategy/1-introduction/
+  - title: Configure agent demands
+    link: https://learn.microsoft.com/en-us/training/modules/implement-pipeline-strategy/2-configure-agent-demands/
+  - title: Explore multi-configuration and multi-agent
+    link: https://learn.microsoft.com/en-us/training/modules/implement-pipeline-strategy/3-explore-multi-configuration-multi-agent/
+  - title: Integrate GitHub repos and Azure Pipelines
+    link: https://learn.microsoft.com/en-us/training/modules/implement-pipeline-strategy/4-integrate-github-repos-azure-pipelines/
+  - title: Design and implement a comprehensive testing strategy
+    link: https://learn.microsoft.com/en-us/training/modules/implement-pipeline-strategy/5-design-implement-comprehensive-test-strategy/
+  - title: Implement code coverage and show in the pipeline
+    link: https://learn.microsoft.com/en-us/training/modules/implement-pipeline-strategy/6-implement-code-coverage-show-pipeline/
+  - title: Implement multi-job builds
+    link: https://learn.microsoft.com/en-us/training/modules/implement-pipeline-strategy/7-implement-multi-job-builds/
+  - title: Explore source control types supported by Azure Pipelines
+    link: https://learn.microsoft.com/en-us/training/modules/implement-pipeline-strategy/8-explore-source-control-types-supported-by-azure-pipelines/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/implement-pipeline-strategy/9-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/implement-pipeline-strategy/10-summary/
+- title: Integrate with Azure Pipelines
+  link: https://learn.microsoft.com/en-us/training/modules/integrate-azure-pipelines/
+  description: |
+    This module details Azure Pipelines anatomy and structure, templates, YAML resources, and how to use multiple repositories in your pipeline.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/integrate-azure-pipelines/1-introduction/
+  - title: Describe the anatomy of a pipeline
+    link: https://learn.microsoft.com/en-us/training/modules/integrate-azure-pipelines/2-describe-anatomy-of-pipeline/
+  - title: Understand the pipeline structure
+    link: https://learn.microsoft.com/en-us/training/modules/integrate-azure-pipelines/3-understand-pipeline-structure/
+  - title: Detail templates
+    link: https://learn.microsoft.com/en-us/training/modules/integrate-azure-pipelines/4-detail-templates/
+  - title: Explore YAML resources
+    link: https://learn.microsoft.com/en-us/training/modules/integrate-azure-pipelines/5-explore-yaml-resources/
+  - title: Use multiple repositories in your pipeline
+    link: https://learn.microsoft.com/en-us/training/modules/integrate-azure-pipelines/6-use-multiple-repositories-your-pipeline/
+  - title: Migrate a pipeline from classic to YAML in Azure Pipelines
+    link: https://learn.microsoft.com/en-us/training/modules/integrate-azure-pipelines/7-migrate-pipeline-classic-yaml-azure-pipelines/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/integrate-azure-pipelines/8-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/integrate-azure-pipelines/9-summary/
+- title: Introduction to GitHub Actions
+  link: https://learn.microsoft.com/en-us/training/modules/introduction-to-github-actions/
+  description: |
+    In this module, you learn what GitHub Actions, action flow, and its elements are. Understand what events are, explore jobs and runners, and how to read console output from actions.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-to-github-actions/1-introduction/
+  - title: What are actions?
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-to-github-actions/2-what-are-actions/
+  - title: Explore Actions flow
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-to-github-actions/3-explore-actions-flow/
+  - title: Understand Workflows
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-to-github-actions/4-understand-workflows/
+  - title: Describe standard workflow syntax elements
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-to-github-actions/5-describe-standard-workflow-syntax-elements/
+  - title: Explore Events
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-to-github-actions/6-explore-events/
+  - title: Explore Jobs
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-to-github-actions/7-explore-jobs/
+  - title: Explore Runners
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-to-github-actions/8-explore-runners/
+  - title: Examine release and test an action
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-to-github-actions/9-examine-release-test-action/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-to-github-actions/10-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-to-github-actions/11-summary/
+- title: Learn continuous integration with GitHub Actions
+  link: https://learn.microsoft.com/en-us/training/modules/learn-continuous-integration-github-actions/
+  description: |
+    This module details continuous integration using GitHub Actions and describes environment variables, artifacts, best practices, and how to secure your pipeline using encrypted variables and secrets.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/learn-continuous-integration-github-actions/1-introduction/
+  - title: Describe continuous integration with actions
+    link: https://learn.microsoft.com/en-us/training/modules/learn-continuous-integration-github-actions/2-describe-continuous-integration-with-actions/
+  - title: Examine environment variables
+    link: https://learn.microsoft.com/en-us/training/modules/learn-continuous-integration-github-actions/3-examine-environment-variables/
+  - title: Share artifacts between jobs
+    link: https://learn.microsoft.com/en-us/training/modules/learn-continuous-integration-github-actions/4-share-artifacts-between-jobs/
+  - title: Examine Workflow badges
+    link: https://learn.microsoft.com/en-us/training/modules/learn-continuous-integration-github-actions/5-examine-workflow-badges/
+  - title: Describe best practices for creating actions
+    link: https://learn.microsoft.com/en-us/training/modules/learn-continuous-integration-github-actions/6-describe-best-practices-for-creating-actions/
+  - title: Mark releases with Git tags
+    link: https://learn.microsoft.com/en-us/training/modules/learn-continuous-integration-github-actions/7-mark-releases-git-tags/
+  - title: Create encrypted secrets
+    link: https://learn.microsoft.com/en-us/training/modules/learn-continuous-integration-github-actions/8-create-encrypted-secrets/
+  - title: Use secrets in a workflow
+    link: https://learn.microsoft.com/en-us/training/modules/learn-continuous-integration-github-actions/9-use-secrets-workflow/
+  - title: Implement GitHub Actions for CI/CD
+    link: https://learn.microsoft.com/en-us/training/modules/learn-continuous-integration-github-actions/10-implement-github-actions-for-ci-cd/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/learn-continuous-integration-github-actions/11-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/learn-continuous-integration-github-actions/12-summary/
+- title: Design a container build strategy
+  link: https://learn.microsoft.com/en-us/training/modules/design-container-build-strategy/
+  description: |
+    This module helps you plan a container build strategy, explains containers and their structure, introduces Docker, microservices, Azure Container Registry, and related services.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/design-container-build-strategy/1-introduction/
+  - title: Examine structure of containers
+    link: https://learn.microsoft.com/en-us/training/modules/design-container-build-strategy/2-examine-structure-of-containers/
+  - title: Work with Docker containers
+    link: https://learn.microsoft.com/en-us/training/modules/design-container-build-strategy/3-work-docker-containers/
+  - title: Understand Dockerfile core concepts
+    link: https://learn.microsoft.com/en-us/training/modules/design-container-build-strategy/4-understand-dockerfile-core-concepts/
+  - title: Examine multi-stage dockerfiles
+    link: https://learn.microsoft.com/en-us/training/modules/design-container-build-strategy/5-examine-multi-stage-dockerfiles/
+  - title: Examine considerations for multiple stage builds
+    link: https://learn.microsoft.com/en-us/training/modules/design-container-build-strategy/6-examine-considerations-multiple-stage-builds/
+  - title: Explore Azure container-related services
+    link: https://learn.microsoft.com/en-us/training/modules/design-container-build-strategy/7-explore-azure-container-related-services/
+  - title: Deploy Docker containers to Azure App Service web apps
+    link: https://learn.microsoft.com/en-us/training/modules/design-container-build-strategy/8-deploy-docker-containers-to-azure-app-service-web-apps/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/design-container-build-strategy/9-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/design-container-build-strategy/10-summary/

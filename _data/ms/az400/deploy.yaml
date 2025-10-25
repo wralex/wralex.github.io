@@ -1,0 +1,129 @@
+title: 'AZ-400: Implement a secure continuous deployment using Azure Pipelines'
+link: https://learn.microsoft.com/en-us/training/paths/az-400-implement-secure-continuous-deployment/
+description: |
+  This learning path helps prepare you for Exam AZ-400: Designing and Implementing Microsoft DevOps Solutions.
+modules:
+- title: Introduction to deployment patterns
+  link: https://learn.microsoft.com/en-us/training/modules/introduction-to-deployment-patterns/
+  description: |
+    This module introduces deployment patterns and explains microservices architecture to help improve the deployment cycle and examine classical and modern deployment patterns.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-to-deployment-patterns/1-introduction/
+  - title: Explore microservices architecture
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-to-deployment-patterns/2-explore-microservices-architecture/
+  - title: Examine classical deployment patterns
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-to-deployment-patterns/3-examine-classical-deployment-patterns/
+  - title: Understand modern deployment patterns
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-to-deployment-patterns/4-understand-modern-deployment-patterns/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-to-deployment-patterns/5-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-to-deployment-patterns/6-summary/
+- title: Implement blue-green deployment and feature toggles
+  link: https://learn.microsoft.com/en-us/training/modules/implement-blue-green-deployment-feature-toggles/
+  description: |
+    This module describes the blue-green deployment process and introduces feature toggle techniques to implement in the development process.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/implement-blue-green-deployment-feature-toggles/1-introduction/
+  - title: What is blue-green deployment?
+    link: https://learn.microsoft.com/en-us/training/modules/implement-blue-green-deployment-feature-toggles/2-what-blue-green-deployment/
+  - title: Explore deployment slots
+    link: https://learn.microsoft.com/en-us/training/modules/implement-blue-green-deployment-feature-toggles/3-explore-deployment-slots/
+  - title: Introduction to feature toggles
+    link: https://learn.microsoft.com/en-us/training/modules/implement-blue-green-deployment-feature-toggles/4-introduction-feature-toggles/
+  - title: Describe feature toggle maintenance
+    link: https://learn.microsoft.com/en-us/training/modules/implement-blue-green-deployment-feature-toggles/5-describe-feature-toggle-maintenance/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/implement-blue-green-deployment-feature-toggles/6-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/implement-blue-green-deployment-feature-toggles/7-summary/
+- title: Implement canary releases and dark launching
+  link: https://learn.microsoft.com/en-us/training/modules/implement-canary-releases-dark-launching/
+  description: |
+    This module describes deployment strategies around canary releases and dark launching and examines traffic managers.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/implement-canary-releases-dark-launching/1-introduction/
+  - title: Explore canary releases
+    link: https://learn.microsoft.com/en-us/training/modules/implement-canary-releases-dark-launching/2-explore-canary-releases/
+  - title: Examine traffic manager
+    link: https://learn.microsoft.com/en-us/training/modules/implement-canary-releases-dark-launching/3-examine-traffic-manager/
+  - title: Understand dark launching
+    link: https://learn.microsoft.com/en-us/training/modules/implement-canary-releases-dark-launching/4-understand-dark-launching/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/implement-canary-releases-dark-launching/5-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/implement-canary-releases-dark-launching/6-summary/
+- title: Implement A/B testing and progressive exposure deployment
+  link: https://learn.microsoft.com/en-us/training/modules/implement-test-progressive-exposure-deployment/
+  description: |
+    This module introduces A/B test and progressive exposure deployment concepts and explores CI/CD with deployment rings--ring-based deployment.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/implement-test-progressive-exposure-deployment/1-introduction/
+  - title: What is A/B testing?
+    link: https://learn.microsoft.com/en-us/training/modules/implement-test-progressive-exposure-deployment/2-what-ab-testing/
+  - title: Explore CI-CD with deployment rings
+    link: https://learn.microsoft.com/en-us/training/modules/implement-test-progressive-exposure-deployment/3-explore-ci-cd-deployment-rings/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/implement-test-progressive-exposure-deployment/4-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/implement-test-progressive-exposure-deployment/5-summary/
+- title: Integrate with identity management systems
+  link: https://learn.microsoft.com/en-us/training/modules/integrate-identity-management-systems/
+  description: |
+    This module describes the integration with GitHub and single sign-on (SSO) for authentication, service principals, and managed service identities.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/integrate-identity-management-systems/1-introduction/
+  - title: Integrate GitHub with single sign-on (SSO)
+    link: https://learn.microsoft.com/en-us/training/modules/integrate-identity-management-systems/2-integrate-github-single-sign-sso/
+  - title: Design and implement permissions and roles in GitHub
+    link: https://learn.microsoft.com/en-us/training/modules/integrate-identity-management-systems/3-design-implement-permissions-roles-github/
+  - title: Design and implement permissions and security groups in Azure DevOps
+    link: https://learn.microsoft.com/en-us/training/modules/integrate-identity-management-systems/4-design-implement-permissions-security-groups/
+  - title: Explore workload identities
+    link: https://learn.microsoft.com/en-us/training/modules/integrate-identity-management-systems/5-explore-service-principals/
+  - title: Implement managed identities
+    link: https://learn.microsoft.com/en-us/training/modules/integrate-identity-management-systems/6-explore-managed-identity/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/integrate-identity-management-systems/7-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/integrate-identity-management-systems/8-summary/
+- title: Manage application configuration data
+  link: https://learn.microsoft.com/en-us/training/modules/manage-application-configuration-data/
+  description: |
+    This module explores ways to rethink application configuration data and the separation of concerns method. Explore Azure App Configuration, details Key-value pairs, App Configuration feature management, and integrate Azure Key Vault with Azure Pipelines.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/manage-application-configuration-data/1-introduction/
+  - title: Rethink application configuration data
+    link: https://learn.microsoft.com/en-us/training/modules/manage-application-configuration-data/2-rethink-application-configuration-data/
+  - title: Explore separation of concerns
+    link: https://learn.microsoft.com/en-us/training/modules/manage-application-configuration-data/3-explore-separation-of-concerns/
+  - title: Understand external configuration store patterns
+    link: https://learn.microsoft.com/en-us/training/modules/manage-application-configuration-data/4-understand-external-configuration-store-patterns/
+  - title: Implement Azure DevOps secure files
+    link: https://learn.microsoft.com/en-us/training/modules/manage-application-configuration-data/5-implement-azure-devops-secure-files/
+  - title: Introduction to Azure App Configuration
+    link: https://learn.microsoft.com/en-us/training/modules/manage-application-configuration-data/6-introduction-to-azure-app-configuration/
+  - title: Examine Key-value pairs
+    link: https://learn.microsoft.com/en-us/training/modules/manage-application-configuration-data/7-examine-key-value-pairs/
+  - title: Examine App configuration feature management
+    link: https://learn.microsoft.com/en-us/training/modules/manage-application-configuration-data/8-examine-app-configuration-feature-management/
+  - title: Integrate Azure Key Vault with Azure Pipelines
+    link: https://learn.microsoft.com/en-us/training/modules/manage-application-configuration-data/9-integrate-azure-key-vault-azure-pipelines/
+  - title: Manage secrets, tokens and certificates
+    link: https://learn.microsoft.com/en-us/training/modules/manage-application-configuration-data/10-manage-secrets-tokens-certificates/
+  - title: Examine DevOps inner and outer loop
+    link: https://learn.microsoft.com/en-us/training/modules/manage-application-configuration-data/11-examine-devops-inner-outer-loop/
+  - title: Integrate Azure Key Vault with Azure DevOps
+    link: https://learn.microsoft.com/en-us/training/modules/manage-application-configuration-data/12-integrate-azure-key-vault-with-azure-devops/
+  - title: Enable Dynamic Configuration and Feature Flags
+    link: https://learn.microsoft.com/en-us/training/modules/manage-application-configuration-data/13-enable-dynamic-configuration-feature-flags/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/manage-application-configuration-data/14-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/manage-application-configuration-data/15-summary/

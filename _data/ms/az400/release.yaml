@@ -1,0 +1,135 @@
+title: 'AZ-400: Design and implement a release strategy'
+link: https://learn.microsoft.com/en-us/training/paths/az-400-design-implement-release-strategy/
+level: Advanced
+subject: Change management
+description: |
+  This learning path explains the concepts of continuous delivery and releases strategy considerations for setting up deployment stages and your delivery and deployment cadence, and lastly, setting up your release approvals.
+modules:
+- title: Create a release pipeline
+  link: https://learn.microsoft.com/en-us/training/modules/create-release-pipeline-devops/
+  description: |
+    This module describes Azure Pipelines capabilities, build, and release tasks.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/create-release-pipeline-devops/1-introduction/
+  - title: Describe Azure DevOps release pipeline capabilities
+    link: https://learn.microsoft.com/en-us/training/modules/create-release-pipeline-devops/2-describe-azure-devops-capabilities/
+  - title: Explore release pipelines
+    link: https://learn.microsoft.com/en-us/training/modules/create-release-pipeline-devops/3-explore-release-pipelines/
+  - title: Explore artifact sources
+    link: https://learn.microsoft.com/en-us/training/modules/create-release-pipeline-devops/4-explore-artifact-sources/
+  - title: Choose the appropriate artifact source
+    link: https://learn.microsoft.com/en-us/training/modules/create-release-pipeline-devops/5-choose-appropriate-artifact-source/
+  - title: Examine considerations for deployment to stages
+    link: https://learn.microsoft.com/en-us/training/modules/create-release-pipeline-devops/6-examine-considerations-for-deployment-to-stages/
+  - title: Explore build and release tasks
+    link: https://learn.microsoft.com/en-us/training/modules/create-release-pipeline-devops/7-explore-build-release-tasks/
+  - title: Explore custom build and release tasks
+    link: https://learn.microsoft.com/en-us/training/modules/create-release-pipeline-devops/8-explore-custom-build-release-tasks/
+  - title: Explore release jobs
+    link: https://learn.microsoft.com/en-us/training/modules/create-release-pipeline-devops/9-explore-release-jobs/
+  - title: Understand database deployment task
+    link: https://learn.microsoft.com/en-us/training/modules/create-release-pipeline-devops/10-understand-database-deployment-task/
+  - title: Configure Pipelines as Code with YAML
+    link: https://learn.microsoft.com/en-us/training/modules/create-release-pipeline-devops/11-configure-pipelines-code-with-yaml/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/create-release-pipeline-devops/12-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/create-release-pipeline-devops/13-summary/
+
+- title: Explore release recommendations
+  link: https://learn.microsoft.com/en-us/training/modules/explore-release-strategy-recommendations/
+  description: |
+    This module explores the critical release strategy recommendations that organizations must consider when designing automated deployments and explains how to define components of a release pipeline and artifact sources, create approves, and configure release gates.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/explore-release-strategy-recommendations/1-introduction/
+  - title: Understand the delivery cadence and three types of triggers
+    link: https://learn.microsoft.com/en-us/training/modules/explore-release-strategy-recommendations/2-understand-delivery-cadence-three-types-of-triggers/
+  - title: Explore release approvals
+    link: https://learn.microsoft.com/en-us/training/modules/explore-release-strategy-recommendations/3-explore-release-approvals/
+  - title: Explore release gates
+    link: https://learn.microsoft.com/en-us/training/modules/explore-release-strategy-recommendations/4-explore-release-gates/
+  - title: Use release gates to protect quality
+    link: https://learn.microsoft.com/en-us/training/modules/explore-release-strategy-recommendations/5-use-release-gates-to-protect-quality/
+  - title: Explore GitOps release strategy and recommendations
+    link: https://learn.microsoft.com/en-us/training/modules/explore-release-strategy-recommendations/6-explore-gitops-release-strategy-recommendations/
+  - title: Control Deployments using Release Gates
+    link: https://learn.microsoft.com/en-us/training/modules/explore-release-strategy-recommendations/7-control-deployments-using-release-gates/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/explore-release-strategy-recommendations/8-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/explore-release-strategy-recommendations/9-summary/
+
+- title: Provision and test environments
+  link: https://learn.microsoft.com/en-us/training/modules/configure-provision-environments/
+  description: |
+    This module details target environment provisioning, service connections creation process, and test infrastructure setup. Learn how to configure functional test automation and run availability tests.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/configure-provision-environments/1-introduction/
+  - title: Provision and configure target environments
+    link: https://learn.microsoft.com/en-us/training/modules/configure-provision-environments/2-provision-configure-target-environments/
+  - title: Exercise - set up service connections
+    link: https://learn.microsoft.com/en-us/training/modules/configure-provision-environments/3-exercise-set-up-service-connections/
+  - title: Configure automated integration and functional test automation
+    link: https://learn.microsoft.com/en-us/training/modules/configure-provision-environments/4-configure-automated-integration-functional-test-automation/
+  - title: Understand Shift-left
+    link: https://learn.microsoft.com/en-us/training/modules/configure-provision-environments/5-understand-shift-left/
+  - title: Set up and run availability tests
+    link: https://learn.microsoft.com/en-us/training/modules/configure-provision-environments/6-set-up-run-availability-tests/
+  - title: Explore Azure Load Testing
+    link: https://learn.microsoft.com/en-us/training/modules/configure-provision-environments/7-explore-azure-load-testing/
+  - title: Set up and run functional tests
+    link: https://learn.microsoft.com/en-us/training/modules/configure-provision-environments/8-set-up-run-functional-tests/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/configure-provision-environments/9-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/configure-provision-environments/10-summary/
+
+- title: Manage and modularize tasks and templates
+  link: https://learn.microsoft.com/en-us/training/modules/manage-modularize-tasks-templates/
+  description: |
+    This module describes the creation of task and variable groups and using release variables and stage variables in your pipeline.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/manage-modularize-tasks-templates/1-introduction/
+  - title: Examine task groups
+    link: https://learn.microsoft.com/en-us/training/modules/manage-modularize-tasks-templates/2-examine-task-groups/
+  - title: Explore variables in release pipelines
+    link: https://learn.microsoft.com/en-us/training/modules/manage-modularize-tasks-templates/3-explore-variables-release-pipelines/
+  - title: Exercise - create and manage variable groups
+    link: https://learn.microsoft.com/en-us/training/modules/manage-modularize-tasks-templates/4-exercise-create-manage-variable-groups/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/manage-modularize-tasks-templates/5-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/manage-modularize-tasks-templates/6-summary/
+- title: Automate inspection of health
+  link: https://learn.microsoft.com/en-us/training/modules/automate-inspection-health/
+  description: |
+    This module describes how to automate the inspection of health events, configure notifications in Azure DevOps and GitHub, set up service hooks to monitor pipelines, measure the quality of your release process, and detail release gates for quality purposes. You examine release management tools and details about them.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/automate-inspection-health/1-introduction/
+  - title: Automate inspection of health
+    link: https://learn.microsoft.com/en-us/training/modules/automate-inspection-health/2-automate-inspection-health/
+  - title: Explore events and notifications
+    link: https://learn.microsoft.com/en-us/training/modules/automate-inspection-health/3-explore-events-notifications/
+  - title: Explore service hooks
+    link: https://learn.microsoft.com/en-us/training/modules/automate-inspection-health/4-explore-service-hooks/
+  - title: Configure Azure DevOps notifications
+    link: https://learn.microsoft.com/en-us/training/modules/automate-inspection-health/5-configure-azure-devops-notifications/
+  - title: Configure GitHub notifications
+    link: https://learn.microsoft.com/en-us/training/modules/automate-inspection-health/6-configure-github-notifications/
+  - title: Explore how to measure quality of your release process
+    link: https://learn.microsoft.com/en-us/training/modules/automate-inspection-health/7-explore-how-to-measure-quality-of-your-release-process/
+  - title: Examine release notes and documentation
+    link: https://learn.microsoft.com/en-us/training/modules/automate-inspection-health/8-examine-release-notes-documentation/
+  - title: Examine considerations for choosing release management tools
+    link: https://learn.microsoft.com/en-us/training/modules/automate-inspection-health/9-examine-considerations-for-choosing-release-management-tools/
+  - title: Explore common release management tools
+    link: https://learn.microsoft.com/en-us/training/modules/automate-inspection-health/10-explore-common-release-management-tools/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/automate-inspection-health/11-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/automate-inspection-health/12-summary/
