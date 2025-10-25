@@ -1,7 +1,7 @@
 ---
 title: Manage infrastructure as code using Azure and DSC
 link: https://learn.microsoft.com/en-us/training/paths/az-400-manage-infrastructure-as-code-using-azure/
-layout: default
+layout: container
 preIds: az-400-iac
 ---
 [_Back_](.)

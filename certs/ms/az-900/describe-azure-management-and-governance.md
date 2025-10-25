@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: container
 title: 'Introduction to Microsoft Azure: Describe Azure management and governance'
 preIds: az900-management-and-governance
 ---

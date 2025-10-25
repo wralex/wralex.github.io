@@ -1,7 +1,7 @@
 ---
 title: Development for enterprise DevOps
 link: https://learn.microsoft.com/en-us/training/paths/az-400-work-git-for-enterprise-devops/
-layout: default
+layout: container
 preIds: az-400-enterprise
 ---
 [_Back_](.)

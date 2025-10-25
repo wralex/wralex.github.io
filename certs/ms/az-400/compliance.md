@@ -1,7 +1,7 @@
 ---
 title: Implement security and validate code bases for compliance
 link: https://learn.microsoft.com/en-us/training/paths/az-400-implement-security-validate-code-bases-compliance/
-layout: default
+layout: container
 preIds: az-400-compliance
 ---
 [_Back_](.)

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: container
 title: 'Introduction to Microsoft Azure: Describe cloud concepts'
 preIds: az900-describe-cloud-concepts
 ---

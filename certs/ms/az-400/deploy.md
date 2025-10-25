@@ -1,7 +1,7 @@
 ---
 title: Implement a secure continuous deployment using Azure Pipelines
 link: https://learn.microsoft.com/en-us/training/paths/az-400-implement-secure-continuous-deployment/
-layout: default
+layout: container
 preIds: az-400-deploy
 ---
 [_Back_](.)

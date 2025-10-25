@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: container
 title: 'Develop solutions that use Blob storage'
 link: 'https://learn.microsoft.com/training/paths/develop-solutions-that-use-blob-storage/'
 preId: 'az204-blob'

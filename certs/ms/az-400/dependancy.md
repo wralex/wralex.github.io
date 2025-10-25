@@ -1,7 +1,7 @@
 ---
 title: Design and implement a dependency management strategy
 link: https://learn.microsoft.com/en-us/training/paths/az-400-design-implement-dependency-management-strategy/
-layout: default
+layout: container
 preIds: az-400-dependancy
 ---
 [_Back_](.)

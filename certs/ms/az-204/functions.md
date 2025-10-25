@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: container
 title: 'Implement Azure Functions'
 link: 'https://learn.microsoft.com/training/paths/implement-azure-functions/'
 preId: 'az204-functions'
