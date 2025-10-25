@@ -44,6 +44,7 @@ $(() => {
                 $('#logoutButton').hide();
             }
             console.log(await getUserInfo());
+            
         })();
 
     } else {

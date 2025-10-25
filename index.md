@@ -22,8 +22,21 @@ title: "Welcome to WRAJ"
   I suggest using MS Edge's features like **[Split screen]** that will help view and work with the lessons linked within the lessons linked.  
   In addition, you should create a **[Profile]** within Edge configured to your [Microsoft Azure subscription] mentioned above. This way you will not have to switch your login when you are working these lessons.
 
+<blockquote>
+    Open the console in the browser developer tools to see the API responses.
+</blockquote>
+<div>
+    <button class="btn btn-sm btn-primary" id="list" onclick="listUser()">List</button>
+    <button class="btn btn-sm btn-warning" id="get" onclick="getUser(1)">Get</button>
+    <button class="btn btn-sm btn-secondary" id="update" onclick="updateUser()">Update</button>
+    <button class="btn btn-sm btn-danger" id="create" onclick="createUser()">Create</button>
+    <button class="btn btn-sm btn-dark" id="delete" onclick="delUser()">Delete</button>
+</div>
+
 [Microsoft Azure subscription]: https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account
 [Microsoft Edge]: https://www.microsoft.com/en-us/edge
 [Split screen]: https://www.microsoft.com/en-us/edge/features/split-screen?form=MA13FJ
 [Profile]: https://www.microsoft.com/en-us/edge/features/profiles?form=MA13FJ
 [Visual Studio Code]: https://code.visualstudio.com
+
+<script src="{{ "/assets/js/dataUsers.js" | relative_url }}"></script>

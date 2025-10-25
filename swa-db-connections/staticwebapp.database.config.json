@@ -30,7 +30,7 @@
   },
   "entities": {
     "Person": {
-      "source": "dbo.People",
+      "source": "dbo.Users",
       "permissions": [
         {
           "actions": ["create", "read", "update", "delete"],
