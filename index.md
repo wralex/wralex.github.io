@@ -25,7 +25,7 @@ title: "Welcome to WRAJ"
 <blockquote>
     Open the console in the browser developer tools to see the API responses.
 </blockquote>
-<div>
+<div id="userOptions">
     <button class="btn btn-sm btn-primary" id="list" onclick="listUsers()">List</button>
     <button class="btn btn-sm btn-warning" id="get" onclick="getUser(1)">Get</button>
     <button class="btn btn-sm btn-secondary" id="update" onclick="updateUser()">Update</button>

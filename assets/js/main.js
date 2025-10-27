@@ -49,6 +49,7 @@ $(() => {
 
     } else {
         $('#loginButton').hide();
+        $("#userOptions").hide();
     }
 });
 
