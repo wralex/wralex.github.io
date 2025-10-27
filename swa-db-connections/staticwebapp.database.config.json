@@ -33,8 +33,8 @@
       "source": "dbo.Users",
       "permissions": [
         {
-          "actions": ["create", "read", "update", "delete"],
-          "role": "authenticated"
+          "actions": ["*"],
+          "role": "anonymous"
         }
       ]
     }
