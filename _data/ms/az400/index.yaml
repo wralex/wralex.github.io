@@ -1,32 +1,40 @@
 - title: Development for enterprise DevOps
+  learnLink: 
   link: enterprise
   id: az-400-enterprise
   image: https://learn.microsoft.com/training/achievements/az-400-work-with-git-for-enterprise-devops.svg
 - title: Implement CI with Azure Pipelines and GitHub Actions
+  learnLink: 
   link: implement
   id: az-400-implement
   image: https://learn.microsoft.com/learn/achievements/az-400-implement-ci-with-azure-pipelines-and-github-actions.svg
 - title: Design and implement a release strategy
+  learnLink: 
   link: release
   id: az-400-release
   image: https://learn.microsoft.com/learn/achievements/az-400-design-and-implement-a-release-strategy.svg
 - title: Implement a secure continuous deployment using Azure Pipelines
+  learnLink: 
   link: deploy
   id: az-400-deploy
   image: https://learn.microsoft.com/learn/achievements/az-400-implement-a-secure-continuous-deployment-using-azure-pipelines.svg
 - title: Manage infrastructure as code using Azure and DSC
+  learnLink: 
   link: iac
   id: az-400-iac
   image: https://learn.microsoft.com/learn/achievements/az-400-manage-infrastructure-as-code-using-azure.svg
 - title: Design and implement a dependency management strategy
+  learnLink: 
   link: dependancy
   id: az-400-dependancy
   image: https://learn.microsoft.com/learn/achievements/az-400-design-and-implement-a-dependency-management-strategy.svg
 - title: Implement continuous feedback
+  learnLink: 
   link: feedback
   id: az-400-feedback
   image: https://learn.microsoft.com/learn/achievements/az-400-implement-continuous-feedback.svg
 - title: Implement security and validate code bases for compliance
+  learnLink: 
   link: compliance
   id: az-400-compliance
   image: https://learn.microsoft.com/learn/achievements/implement-security-and-validate-code-bases-for-compliance.svg
