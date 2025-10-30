@@ -1,0 +1,152 @@
+title: 'AZ-400: Manage infrastructure as code using Azure and DSC'
+link: https://learn.microsoft.com/en-us/training/paths/az-400-manage-infrastructure-as-code-using-azure/
+level: Advanced
+subject: ArchitectureCloud computing
+description: |
+  This learning path explores the “Infrastructure as Code” (IaC) concept and how to manage your operations environment
+  the same way you do applications or other code for general release.
+prerequisites: None
+modules:
+- title: Explore infrastructure as code and configuration management
+  link: https://learn.microsoft.com/en-us/training/modules/explore-infrastructure-code-configuration-management/
+  description: |
+    This module describes key concepts of infrastructure as code and environment deployment creation and configuration. Also, understand the imperative, declarative, and idempotent configuration and how it applies to your company.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/explore-infrastructure-code-configuration-management/1-introduction/
+  - title: Explore environment deployment
+    link: https://learn.microsoft.com/en-us/training/modules/explore-infrastructure-code-configuration-management/2-explore-environment-deployment/
+  - title: Examine environment configuration
+    link: https://learn.microsoft.com/en-us/training/modules/explore-infrastructure-code-configuration-management/3-examine-environment-configuration/
+  - title: Understand imperative versus declarative configuration
+    link: https://learn.microsoft.com/en-us/training/modules/explore-infrastructure-code-configuration-management/4-understand-imperative-versus-declarative-configuration/
+  - title: Understand idempotent configuration
+    link: https://learn.microsoft.com/en-us/training/modules/explore-infrastructure-code-configuration-management/5-understand-idempotent-configuration/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/explore-infrastructure-code-configuration-management/6-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/explore-infrastructure-code-configuration-management/7-summary/
+
+- title: Create Azure resources using Azure Resource Manager templates
+  link: https://learn.microsoft.com/en-us/training/modules/create-azure-resources-using-azure-resource-manager-templates/
+  description: |
+    This module explores Azure Resource Manager templates and their components and details dependencies and modularized templates with secrets.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/create-azure-resources-using-azure-resource-manager-templates/1-introduction/
+  - title: Why use Azure Resource Manager templates?
+    link: https://learn.microsoft.com/en-us/training/modules/create-azure-resources-using-azure-resource-manager-templates/2-why-use-azure-resource-manager-templates/
+  - title: Explore template components
+    link: https://learn.microsoft.com/en-us/training/modules/create-azure-resources-using-azure-resource-manager-templates/3-explore-template-components/
+  - title: Manage dependencies
+    link: https://learn.microsoft.com/en-us/training/modules/create-azure-resources-using-azure-resource-manager-templates/4-manage-dependencies/
+  - title: Modularize templates
+    link: https://learn.microsoft.com/en-us/training/modules/create-azure-resources-using-azure-resource-manager-templates/5-modularize-templates/
+  - title: Manage secrets in templates
+    link: https://learn.microsoft.com/en-us/training/modules/create-azure-resources-using-azure-resource-manager-templates/6-manage-secrets-templates/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/create-azure-resources-using-azure-resource-manager-templates/7-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/create-azure-resources-using-azure-resource-manager-templates/8-summary/
+
+- title: Create Azure resources using Azure CLI
+  link: https://learn.microsoft.com/en-us/training/modules/create-azure-resources-by-using-azure-cli/
+  description: |
+    This module explains how to use the Azure CLI to create Azure resources interactively, or by using a Bash script. Learn to install the Azure CLI and use common reference commands to log in, manage resource groups, and create storage accounts.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/create-azure-resources-by-using-azure-cli/1-introduction/
+  - title: What is Azure CLI?
+    link: https://learn.microsoft.com/en-us/training/modules/create-azure-resources-by-using-azure-cli/2-what-is-azure-cli/
+  - title: Install Azure CLI
+    link: https://learn.microsoft.com/en-us/training/modules/create-azure-resources-by-using-azure-cli/3-install-azure-cli/
+  - title: Execute Azure CLI commands interactively
+    link: https://learn.microsoft.com/en-us/training/modules/create-azure-resources-by-using-azure-cli/4-execute-azure-cli-interactively/
+  - title: Create an Azure CLI script for Bash
+    link: https://learn.microsoft.com/en-us/training/modules/create-azure-resources-by-using-azure-cli/5-create-an-azure-cli-script/
+  - title: Tips to use the Azure CLI successfully
+    link: https://learn.microsoft.com/en-us/training/modules/create-azure-resources-by-using-azure-cli/6-use-azure-cli-successfully/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/create-azure-resources-by-using-azure-cli/7-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/create-azure-resources-by-using-azure-cli/8-summary/
+
+- title: Explore Azure Automation with DevOps
+  link: https://learn.microsoft.com/en-us/training/modules/explore-azure-automation-devops/
+  description: |
+    This module describes Azure Automation with Azure DevOps, using runbooks, webhooks, and PowerShell workflows. You learn how to create and manage automation for your environment.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/explore-azure-automation-devops/1-introduction/
+  - title: Create automation accounts
+    link: https://learn.microsoft.com/en-us/training/modules/explore-azure-automation-devops/2-create-automation-accounts/
+  - title: What is a runbook?
+    link: https://learn.microsoft.com/en-us/training/modules/explore-azure-automation-devops/3-what-runbook/
+  - title: Understand automation shared resources
+    link: https://learn.microsoft.com/en-us/training/modules/explore-azure-automation-devops/4-understand-automation-shared-resources/
+  - title: Explore runbook gallery
+    link: https://learn.microsoft.com/en-us/training/modules/explore-azure-automation-devops/5-explore-runbook-gallery/
+  - title: Examine webhooks
+    link: https://learn.microsoft.com/en-us/training/modules/explore-azure-automation-devops/6-examine-webhooks/
+  - title: Explore source control integration
+    link: https://learn.microsoft.com/en-us/training/modules/explore-azure-automation-devops/7-explore-source-control-integration/
+  - title: Explore PowerShell workflows
+    link: https://learn.microsoft.com/en-us/training/modules/explore-azure-automation-devops/8-explore-powershell-workflows/
+  - title: Create a workflow
+    link: https://learn.microsoft.com/en-us/training/modules/explore-azure-automation-devops/9-create-workflow/
+  - title: Explore hybrid management
+    link: https://learn.microsoft.com/en-us/training/modules/explore-azure-automation-devops/10-explore-hybrid-management/
+  - title: Examine checkpoint and parallel processing
+    link: https://learn.microsoft.com/en-us/training/modules/explore-azure-automation-devops/11-examine-checkpoint-parallel-processing/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/explore-azure-automation-devops/12-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/explore-azure-automation-devops/13-summary/
+
+- title: Implement Desired State Configuration (DSC)
+  link: https://learn.microsoft.com/en-us/training/modules/implement-desired-state-configuration-dsc/
+  description: |
+    This module describes Desired State Configuration (DSC) and its components for implementation. You can exercise how to import, compile and automate your environment creation, and use DSC for Linux automation on Azure.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/implement-desired-state-configuration-dsc/1-introduction/
+  - title: Understand configuration drift
+    link: https://learn.microsoft.com/en-us/training/modules/implement-desired-state-configuration-dsc/2-understand-configuration-drift/
+  - title: Explore Desired State Configuration (DSC)
+    link: https://learn.microsoft.com/en-us/training/modules/implement-desired-state-configuration-dsc/3-explore-desired-state-configuration-dsc/
+  - title: Explore Azure Automation State configuration (DSC)
+    link: https://learn.microsoft.com/en-us/training/modules/implement-desired-state-configuration-dsc/4-explore-azure-automation/
+  - title: Examine DSC configuration file
+    link: https://learn.microsoft.com/en-us/training/modules/implement-desired-state-configuration-dsc/5-examine-dsc-configuration-file/
+  - title: Implement DSC and Linux Automation on Azure
+    link: https://learn.microsoft.com/en-us/training/modules/implement-desired-state-configuration-dsc/6-implement-dsc-linux-automation-azure/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/implement-desired-state-configuration-dsc/7-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/implement-desired-state-configuration-dsc/8-summary/
+
+- title: Implement Bicep
+  link: https://learn.microsoft.com/en-us/training/modules/implement-bicep/
+  description: |
+    This module explains Bicep and how it integrates with different tools such as Azure CLI and Visual Studio Code for environment deployment configuration.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/implement-bicep/1-introduction/
+  - title: What is Bicep?
+    link: https://learn.microsoft.com/en-us/training/modules/implement-bicep/2-what-bicep/
+  - title: Install Bicep
+    link: https://learn.microsoft.com/en-us/training/modules/implement-bicep/3-install-bicep/
+  - title: Exercise - Create Bicep templates
+    link: https://learn.microsoft.com/en-us/training/modules/implement-bicep/4-exercise-create-bicep-templates/
+  - title: Understand Bicep file structure and syntax
+    link: https://learn.microsoft.com/en-us/training/modules/implement-bicep/5-understand-bicep-file-structure-syntax/
+  - title: Exercise - Deploy a Bicep file from Azure Pipelines
+    link: https://learn.microsoft.com/en-us/training/modules/implement-bicep/6-exercise-deploy-bicep-file-azure-pipelines/
+  - title: Exercise - Deploy a Bicep file from GitHub workflows
+    link: https://learn.microsoft.com/en-us/training/modules/implement-bicep/7-exercise-deploy-bicep-file-github-workflows/
+  - title: Deployments using Azure Bicep templates
+    link: https://learn.microsoft.com/en-us/training/modules/implement-bicep/8-azure-deployment-use-resource-manager-templates/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/implement-bicep/9-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/implement-bicep/10-summary/

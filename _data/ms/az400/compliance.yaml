@@ -1,0 +1,117 @@
+title: 'AZ-400: Implement security and validate code bases for compliance'
+link: https://learn.microsoft.com/en-us/training/paths/az-400-implement-security-validate-code-bases-compliance/
+level: Advanced
+subject: Compliance
+description: |
+  This learning path explores an infrastructure and configuration strategy and appropriate toolset
+  for a release pipeline and application infrastructure. It explains compliance and security implementation
+  in your application infrastructure.
+prerequisites: None
+modules:
+- title: Introduction to Secure DevOps
+  link: https://learn.microsoft.com/en-us/training/modules/introduction-to-secure-devops/
+  description: |
+    This module introduces DevSecOps concepts, SQL injection attacks, threat modeling, and security for continuous integration.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-to-secure-devops/1-introduction/
+  - title: Describe SQL injection attack
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-to-secure-devops/2-describe-sql-injection-attack/
+  - title: Understand DevSecOps
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-to-secure-devops/3-understand-devsecops/
+  - title: Explore Secure DevOps Pipeline
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-to-secure-devops/4-explore-secure-devops-pipeline/
+  - title: Explore key validation points
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-to-secure-devops/5-explore-key-validation-points/
+  - title: Explore continuous security validation
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-to-secure-devops/6-explore-continuous-security-validation/
+  - title: Understand threat modeling
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-to-secure-devops/7-understand-threat-modeling/
+  - title: Explore CodeQL in GitHub
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-to-secure-devops/8-explore-codeql-github/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-to-secure-devops/9-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-to-secure-devops/10-summary/
+
+- title: Implement open-source software
+  link: https://learn.microsoft.com/en-us/training/modules/implement-open-source-software-azure/
+  description: |
+    This module explores open-source software and corporate concerns with software components. Also, it explains common open-source licenses, license implications, and ratings.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/implement-open-source-software-azure/1-introduction/
+  - title: Explore how software is built
+    link: https://learn.microsoft.com/en-us/training/modules/implement-open-source-software-azure/2-explore-how-software-built/
+  - title: What is open-source software?
+    link: https://learn.microsoft.com/en-us/training/modules/implement-open-source-software-azure/3-what-open-source-software/
+  - title: Explore corporate concerns with open-source software components
+    link: https://learn.microsoft.com/en-us/training/modules/implement-open-source-software-azure/4-explore-corporate-concerns-components/
+  - title: Introduction to open-source licenses
+    link: https://learn.microsoft.com/en-us/training/modules/implement-open-source-software-azure/5-introduction-to-licenses/
+  - title: Explore common open-source licenses
+    link: https://learn.microsoft.com/en-us/training/modules/implement-open-source-software-azure/6-explore-common-licenses/
+  - title: Examine license implications and ratings
+    link: https://learn.microsoft.com/en-us/training/modules/implement-open-source-software-azure/7-examine-license-implications-ratings/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/implement-open-source-software-azure/8-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/implement-open-source-software-azure/9-summary/
+
+- title: Software Composition Analysis
+  link: https://learn.microsoft.com/en-us/training/modules/software-composition-analysis/
+  description: |
+    This module explains Composition Analysis, how to inspect and validate code bases for compliance, integration with security tools, and integration with Azure Pipelines.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/software-composition-analysis/1-introduction/
+  - title: Inspect and validate code bases for compliance
+    link: https://learn.microsoft.com/en-us/training/modules/software-composition-analysis/2-inspect-validate-code-bases-for-compliance/
+  - title: Explore software composition analysis (SCA)
+    link: https://learn.microsoft.com/en-us/training/modules/software-composition-analysis/3-explore-software-composition-analysis/
+  - title: Implement GitHub Dependabot alerts and security updates
+    link: https://learn.microsoft.com/en-us/training/modules/software-composition-analysis/4-implement-github-dependabot-alerts-security-updates/
+  - title: Integrate software composition analysis checks into pipelines
+    link: https://learn.microsoft.com/en-us/training/modules/software-composition-analysis/5-integrate-software-composition-analysis-checks-into-pipelines/
+  - title: Examine tools for assess package security and license rate
+    link: https://learn.microsoft.com/en-us/training/modules/software-composition-analysis/6-examine-tools-for-assess-package-security-license-rate/
+  - title: Automate container scanning, including container images
+    link: https://learn.microsoft.com/en-us/training/modules/software-composition-analysis/7-automate-container-images/
+  - title: Interpret alerts from scanner tools
+    link: https://learn.microsoft.com/en-us/training/modules/software-composition-analysis/8-interpret-alerts-from-scanner-tools/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/software-composition-analysis/9-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/software-composition-analysis/10-summary/
+
+- title: Security Monitoring and Governance
+  link: https://learn.microsoft.com/en-us/training/modules/security-monitoring-and-governance/
+  description: |
+    This module describes security monitoring and governance with Microsoft Defender for Cloud and its usage scenarios, Azure Policies, Microsoft Defender for Identity, and security practices related to the tools.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/security-monitoring-and-governance/1-introduction/
+  - title: Implement pipeline security
+    link: https://learn.microsoft.com/en-us/training/modules/security-monitoring-and-governance/2-implement-pipeline-security/
+  - title: Explore Microsoft Defender for Cloud
+    link: https://learn.microsoft.com/en-us/training/modules/security-monitoring-and-governance/3-explore-microsoft-defender-cloud/
+  - title: Examine Microsoft Defender for Cloud usage scenarios
+    link: https://learn.microsoft.com/en-us/training/modules/security-monitoring-and-governance/4-examine-microsoft-defender-cloud-usage-scenarios/
+  - title: Explore Azure Policy
+    link: https://learn.microsoft.com/en-us/training/modules/security-monitoring-and-governance/5-explore-azure-policy/
+  - title: Understand policies
+    link: https://learn.microsoft.com/en-us/training/modules/security-monitoring-and-governance/6-understand-policies/
+  - title: Explore initiatives
+    link: https://learn.microsoft.com/en-us/training/modules/security-monitoring-and-governance/7-explore-initiatives/
+  - title: Explore resource locks
+    link: https://learn.microsoft.com/en-us/training/modules/security-monitoring-and-governance/8-explore-resource-locks/
+  - title: Understand Microsoft Defender for Identity
+    link: https://learn.microsoft.com/en-us/training/modules/security-monitoring-and-governance/9-understand-microsoft-defender-identity/
+  - title: Integrate GitHub Advanced Security with Microsoft Defender for Cloud
+    link: https://learn.microsoft.com/en-us/training/modules/security-monitoring-and-governance/10-integrate-github-advanced-security-microsoft-defender/
+  - title: Configure GitHub Advanced Security for GitHub and Azure DevOps
+    link: https://learn.microsoft.com/en-us/training/modules/security-monitoring-and-governance/11-configure-github-advanced-security-github/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/security-monitoring-and-governance/12-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/security-monitoring-and-governance/13-summary/

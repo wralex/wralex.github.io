@@ -1,0 +1,125 @@
+title: 'AZ-400: Design and implement a dependency management strategy'
+link: https://learn.microsoft.com/en-us/training/paths/az-400-design-implement-dependency-management-strategy/
+level: Advanced
+subject: Change managementDevOps
+description: |
+  This learning path examines dependency management in software development, how to identify them
+  in your codebase and how to package and manage dependencies in package feeds.
+prerequisites: None
+modules:
+- title: Explore package dependencies
+  link: https://learn.microsoft.com/en-us/training/modules/explore-package-dependencies/
+  description: |
+    This module explores dependency management concepts and helps to identify project dependencies.
+    You learn how to decompose your system, identify dependencies, and package componentization.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/explore-package-dependencies/1-introduction/
+  - title: What is dependency management?
+    link: https://learn.microsoft.com/en-us/training/modules/explore-package-dependencies/2-what-is-dependency-management/
+  - title: Describe elements of a dependency management strategy
+    link: https://learn.microsoft.com/en-us/training/modules/explore-package-dependencies/3-describe-elements-of-dependency-management-strategy/
+  - title: Identify dependencies
+    link: https://learn.microsoft.com/en-us/training/modules/explore-package-dependencies/4-identify-dependencies/
+  - title: Understand source and package componentization
+    link: https://learn.microsoft.com/en-us/training/modules/explore-package-dependencies/5-understand-source-package-componentization/
+  - title: Decompose your system
+    link: https://learn.microsoft.com/en-us/training/modules/explore-package-dependencies/6-decompose-your-system/
+  - title: Scan your codebase for dependencies
+    link: https://learn.microsoft.com/en-us/training/modules/explore-package-dependencies/7-scan-your-codebase-for-dependencies/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/explore-package-dependencies/8-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/explore-package-dependencies/9-summary/
+- title: Understand package management
+  link: https://learn.microsoft.com/en-us/training/modules/understand-package-management/
+  description: |
+    This module describes package feeds, common public package sources, and how to create and publish packages.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/understand-package-management/1-introduction/
+  - title: Explore packages
+    link: https://learn.microsoft.com/en-us/training/modules/understand-package-management/2-explore-packages/
+  - title: Understand package feeds
+    link: https://learn.microsoft.com/en-us/training/modules/understand-package-management/3-understand-package-feeds/
+  - title: Explore package feed managers
+    link: https://learn.microsoft.com/en-us/training/modules/understand-package-management/4-explore-package-feed-managers/
+  - title: Explore common public package sources
+    link: https://learn.microsoft.com/en-us/training/modules/understand-package-management/5-explore-common-public-package-sources/
+  - title: Explore self-hosted and SaaS based package sources
+    link: https://learn.microsoft.com/en-us/training/modules/understand-package-management/6-explore-self-hosted-saas-based-package-sources/
+  - title: Consume packages
+    link: https://learn.microsoft.com/en-us/training/modules/understand-package-management/7-consume-packages/
+  - title: Introduction to Azure Artifacts
+    link: https://learn.microsoft.com/en-us/training/modules/understand-package-management/8-introduction-to-azure-artifacts/
+  - title: Publish packages
+    link: https://learn.microsoft.com/en-us/training/modules/understand-package-management/9-publish-packages/
+  - title: Package management with Azure Artifacts
+    link: https://learn.microsoft.com/en-us/training/modules/understand-package-management/10-package-management-azure-artifacts/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/understand-package-management/11-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/understand-package-management/12-summary/
+- title: Migrate consolidate and secure artifacts
+  link: https://learn.microsoft.com/en-us/training/modules/migrate-consolidating-secure-artifacts/
+  description: |
+    This module details package migration, consolidation, and configuration to secure access to package feeds and artifact repositories.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/migrate-consolidating-secure-artifacts/1-introduction/
+  - title: Identify existing artifact repositories
+    link: https://learn.microsoft.com/en-us/training/modules/migrate-consolidating-secure-artifacts/2-identify-existing-artifact-repositories/
+  - title: Migrate and integrating artifact repositories
+    link: https://learn.microsoft.com/en-us/training/modules/migrate-consolidating-secure-artifacts/3-migrate-integrating-artifact-repositories/
+  - title: Secure access to package feeds
+    link: https://learn.microsoft.com/en-us/training/modules/migrate-consolidating-secure-artifacts/4-secure-access-to-package-feeds/
+  - title: Examine roles
+    link: https://learn.microsoft.com/en-us/training/modules/migrate-consolidating-secure-artifacts/5-examine-roles/
+  - title: Examine permissions
+    link: https://learn.microsoft.com/en-us/training/modules/migrate-consolidating-secure-artifacts/6-examine-permissions/
+  - title: Examine authentication
+    link: https://learn.microsoft.com/en-us/training/modules/migrate-consolidating-secure-artifacts/7-examine-authentication/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/migrate-consolidating-secure-artifacts/8-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/migrate-consolidating-secure-artifacts/9-summary/
+- title: Implement a versioning strategy
+  link: https://learn.microsoft.com/en-us/training/modules/implement-versioning-strategy/
+  description: |
+    This module explains versioning strategies for packaging, best practices for versioning, and package promotion.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/implement-versioning-strategy/1-introduction/
+  - title: Understand versioning of artifacts
+    link: https://learn.microsoft.com/en-us/training/modules/implement-versioning-strategy/2-understand-versioning-of-artifacts/
+  - title: Explore semantic versioning
+    link: https://learn.microsoft.com/en-us/training/modules/implement-versioning-strategy/3-explore-semantic-versioning/
+  - title: Examine release views
+    link: https://learn.microsoft.com/en-us/training/modules/implement-versioning-strategy/4-examine-release-views/
+  - title: Promote packages
+    link: https://learn.microsoft.com/en-us/training/modules/implement-versioning-strategy/5-promote-packages/
+  - title: Explore best practices for versioning
+    link: https://learn.microsoft.com/en-us/training/modules/implement-versioning-strategy/6-explore-best-practices-for-versioning/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/implement-versioning-strategy/7-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/implement-versioning-strategy/8-summary/
+- title: Introduction to GitHub Packages
+  link: https://learn.microsoft.com/en-us/training/modules/introduction-github-packages/
+  description: |
+    This module introduces you to GitHub Packages. It explores ways to control permissions and visibility, publish, install, delete and restore packages using GitHub.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-github-packages/1-introduction/
+  - title: Publish packages
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-github-packages/2-publish-packages/
+  - title: Install a package
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-github-packages/3-install-package/
+  - title: Delete and restore a package
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-github-packages/4-delete-restore-package/
+  - title: Explore package access control and visibility
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-github-packages/5-explore-package-access-control-visibility/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-github-packages/6-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-github-packages/7-summary/

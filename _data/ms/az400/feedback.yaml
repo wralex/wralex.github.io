@@ -1,0 +1,131 @@
+title: 'AZ-400: Implement continuous feedback'
+link: https://learn.microsoft.com/en-us/training/modules/implement-tools-track-usage-flow/
+level: Advanced
+subject: Change managementDevOps
+description: |
+  This learning path introduces the continuous feedback concept and describes how to implement it in your DevOps cycle.
+prerequisites: None
+modules:
+- title: Implement tools to track usage and flow
+  link: 
+  description: |
+    This module introduces you to continuous feedback practices and tools to track usage and flow, such as Azure Logs Analytics, Kusto Query Language (KQL), and Application Insights.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/implement-tools-track-usage-flow/1-introduction/
+  - title: Understand the inner loop
+    link: https://learn.microsoft.com/en-us/training/modules/implement-tools-track-usage-flow/2-understand-inner-loop/
+  - title: Introduction to continuous monitoring
+    link: https://learn.microsoft.com/en-us/training/modules/implement-tools-track-usage-flow/3-introduction-to-continuous-monitoring/
+  - title: Explore Azure Monitor and Log Analytics
+    link: https://learn.microsoft.com/en-us/training/modules/implement-tools-track-usage-flow/4-explore-azure-monitor-log-analytics/
+  - title: Examine Kusto Query Language (KQL)
+    link: https://learn.microsoft.com/en-us/training/modules/implement-tools-track-usage-flow/5-examine-kusto-query-language-kql/
+  - title: Explore Application Insights
+    link: https://learn.microsoft.com/en-us/training/modules/implement-tools-track-usage-flow/6-explore-application-insights/
+  - title: Implement Application Insights
+    link: https://learn.microsoft.com/en-us/training/modules/implement-tools-track-usage-flow/7-implement-application-insights/
+  - title: Design and implement metrics and queries
+    link: https://learn.microsoft.com/en-us/training/modules/implement-tools-track-usage-flow/8-design-implement-metrics-queries/
+  - title: Monitor Application Performance with Azure Load Testing
+    link: https://learn.microsoft.com/en-us/training/modules/implement-tools-track-usage-flow/9-monitor-application-performance-app-insights/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/implement-tools-track-usage-flow/10-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/implement-tools-track-usage-flow/11-summary/
+
+- title: Develop monitor and status dashboards
+  link: https://learn.microsoft.com/en-us/training/modules/develop-monitor-status-dashboards/
+  description: |
+    This module explains steps to develop monitoring with Azure Dashboards, work with View Designer and Azure Monitor, and create Azure Monitor Workbooks. Also, explore tools to supports monitoring with Power BI.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/develop-monitor-status-dashboards/1-introduction/
+  - title: Configure monitoring in GitHub
+    link: https://learn.microsoft.com/en-us/training/modules/develop-monitor-status-dashboards/2-configure-monitoring-github/
+  - title: Explore Azure Dashboards
+    link: https://learn.microsoft.com/en-us/training/modules/develop-monitor-status-dashboards/3-explore-azure-dashboards/
+  - title: Explore Azure Monitor workbooks
+    link: https://learn.microsoft.com/en-us/training/modules/develop-monitor-status-dashboards/4-explore-azure-monitor-workbooks/
+  - title: Explore Power BI
+    link: https://learn.microsoft.com/en-us/training/modules/develop-monitor-status-dashboards/5-explore-power-bi/
+  - title: Build your own custom application
+    link: https://learn.microsoft.com/en-us/training/modules/develop-monitor-status-dashboards/6-build-your-own-custom-application/
+  - title: Monitor pipeline health, including failure rate, duration, and flaky tests
+    link: https://learn.microsoft.com/en-us/training/modules/develop-monitor-status-dashboards/7-monitor-pipeline-health-include-failure-rate-duration/
+  - title: Optimize a pipeline for cost, time, performance, and reliability
+    link: https://learn.microsoft.com/en-us/training/modules/develop-monitor-status-dashboards/8-optimize-pipeline-cost-time-performance-reliability/
+  - title: Optimize pipeline concurrency for performance and cost
+    link: https://learn.microsoft.com/en-us/training/modules/develop-monitor-status-dashboards/9-optimize-pipeline-concurrency-performance/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/develop-monitor-status-dashboards/10-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/develop-monitor-status-dashboards/11-summary/
+
+- title: Share knowledge within teams
+  link: https://learn.microsoft.com/en-us/training/modules/share-knowledge-within-teams/
+  description: |
+    This module describes how to share knowledge within teams, Azure DevOps Wikis, and integration with Azure Boards.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/share-knowledge-within-teams/1-introduction/
+  - title: Share acquired knowledge within development teams
+    link: https://learn.microsoft.com/en-us/training/modules/share-knowledge-within-teams/2-share-acquired-development-teams/
+  - title: Introduction to Azure DevOps project wikis
+    link: https://learn.microsoft.com/en-us/training/modules/share-knowledge-within-teams/3-introduction-azure-devops-project-wikis/
+  - title: Integrate GitHub and Azure DevOps with Microsoft Teams
+    link: https://learn.microsoft.com/en-us/training/modules/share-knowledge-within-teams/4-integrate-github-azure-devops-microsoft-teams/
+  - title: Share team knowledge using Azure Project Wiki
+    link: https://learn.microsoft.com/en-us/training/modules/share-knowledge-within-teams/5-share-team-knowledge-azure-project-wiki/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/share-knowledge-within-teams/6-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/share-knowledge-within-teams/7-summary/
+
+- title: Design processes to automate application analytics
+  link: https://learn.microsoft.com/en-us/training/modules/design-processes-automate-application-analytics/
+  description: |
+    This module helps designing process to Application Insights, explores telemetry and monitoring tools and technologies.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/design-processes-automate-application-analytics/1-introduction/
+  - title: Explore rapid responses and augmented search
+    link: https://learn.microsoft.com/en-us/training/modules/design-processes-automate-application-analytics/2-explore-rapid-responses-augmented-search/
+  - title: Integrate telemetry
+    link: https://learn.microsoft.com/en-us/training/modules/design-processes-automate-application-analytics/3-integrate-telemetry/
+  - title: Examine monitoring tools and technologies
+    link: https://learn.microsoft.com/en-us/training/modules/design-processes-automate-application-analytics/4-examine-monitoring-tools-technologies/
+  - title: Explore IT Service Management Connector
+    link: https://learn.microsoft.com/en-us/training/modules/design-processes-automate-application-analytics/5-explore-it-service-management-connector/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/design-processes-automate-application-analytics/6-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/design-processes-automate-application-analytics/7-summary/
+
+- title: Manage alerts, blameless retrospectives and a just culture
+  link: https://learn.microsoft.com/en-us/training/modules/manage-alerts-blameless-retrospectives-just-culture/
+  description: |
+    This module examines alerts, blameless retrospectives and creates a just culture. It helps improving application performance, reducing meaningless and nonactionable alerts, and explains server response-time degradation.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/manage-alerts-blameless-retrospectives-just-culture/1-introduction/
+  - title: Examine when to get a notification
+    link: https://learn.microsoft.com/en-us/training/modules/manage-alerts-blameless-retrospectives-just-culture/2-examine-when-get-notification/
+  - title: Explore how to fix it
+    link: https://learn.microsoft.com/en-us/training/modules/manage-alerts-blameless-retrospectives-just-culture/3-explore-how-to-fix-it/
+  - title: Explore smart detection notifications
+    link: https://learn.microsoft.com/en-us/training/modules/manage-alerts-blameless-retrospectives-just-culture/4-explore-smart-detection-notifications/
+  - title: Improve performance
+    link: https://learn.microsoft.com/en-us/training/modules/manage-alerts-blameless-retrospectives-just-culture/5-improve-performance/
+  - title: Understand server response time degradation
+    link: https://learn.microsoft.com/en-us/training/modules/manage-alerts-blameless-retrospectives-just-culture/6-understand-server-response-time-degradation/
+  - title: Reduce meaningless and non-actionable alerts
+    link: https://learn.microsoft.com/en-us/training/modules/manage-alerts-blameless-retrospectives-just-culture/7-reduce-meaningless-non-actionable-alerts/
+  - title: Examine blameless retrospective
+    link: https://learn.microsoft.com/en-us/training/modules/manage-alerts-blameless-retrospectives-just-culture/8-examine-blameless-retrospective/
+  - title: Develop a just culture
+    link: https://learn.microsoft.com/en-us/training/modules/manage-alerts-blameless-retrospectives-just-culture/9-develop-just-culture/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/manage-alerts-blameless-retrospectives-just-culture/10-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/manage-alerts-blameless-retrospectives-just-culture/10-knowledge-check/
