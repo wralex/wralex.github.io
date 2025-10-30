@@ -90,7 +90,7 @@
   description: Automate Windows-based, browser-based, and terminal-based applications
   examCost: '165.00'
 - name: Power BI Data Analyst Associate
-  url: #/certs/ms/pl-300/
+  url: /certs/ms/pl-300/
   msUrl: https://learn.microsoft.com/en-us/credentials/certifications/data-analyst-associate/
   level: Associate
   code: PL-300

@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Microsoft Certifications
-datatable: true
 ---
 
 | **ID** | **Certification**{: .text-nowrap } | **Level**{: .text-nowrap } | **Exam No.**{: .text-nowrap } | **Description**{: .text-nowrap } | **Exam Cost**{: .text-nowrap } | **Links**{: .text-nowrap } |
