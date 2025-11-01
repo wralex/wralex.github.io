@@ -1,0 +1,50 @@
+title: 'Microsoft Certified: Power BI Data Analyst Associate'
+code: PL-300
+course: 
+link: https://learn.microsoft.com/en-us/credentials/certifications/data-analyst-associate/
+description: |
+  Demonstrate methods and best practices that align with business and technical
+  requirements for modeling, visualizing, and analyzing data with Microsoft
+  Power BI.
+level: Intermediate
+role: Data Analyst
+renewalFrequency: 12 months
+product: Power BI
+subject: Data Analytics
+jumpTos:
+- title: Prepare for the exam
+  link: https://learn.microsoft.com/en-us/credentials/certifications/data-analyst-associate/?practice-assessment-type=certification#certification-prepare-for-the-exam
+- title: Practice for the exam
+  link: https://learn.microsoft.com/en-us/credentials/certifications/data-analyst-associate/?practice-assessment-type=certification#certification-practice-for-the-exam
+- title: Take the exam
+  link: https://learn.microsoft.com/en-us/credentials/certifications/data-analyst-associate/?practice-assessment-type=certification#certification-take-the-exam
+- title: Renew your certification
+  link: https://learn.microsoft.com/en-us/credentials/certifications/data-analyst-associate/?practice-assessment-type=certification#certification-renew-your-certification
+- title: Certification resources
+  link: https://learn.microsoft.com/en-us/credentials/certifications/data-analyst-associate/?practice-assessment-type=certification#:~:text=Renew%20your%20certification-,Certification%20resources,-Show%20less
+
+modules:
+- title: Design and manage analytics solutions using Power BI
+  id: pl300-ms-data-analytics
+  link: https://learn.microsoft.com/en-us/training/courses/pl-300t00/
+  image: https://learn.microsoft.com/media/learn/credential/badges/course.svg
+- title: Get started with Microsoft data analytics
+  id: pl300-get-started
+  link: https://learn.microsoft.com/training/paths/data-analytics-microsoft/
+  image: https://learn.microsoft.com/training/achievements/overview-data-analysis-power-bi.svg
+- title: Prepare data for analysis with Power BI
+  id: pl300-prepare-data
+  link: https://learn.microsoft.com/training/paths/prepare-data-power-bi/
+  image: https://learn.microsoft.com/training/achievements/data-preparation-in-power-bi.svg
+- title: Model data with Power BI
+  id: pl300-data-models
+  link: https://learn.microsoft.com/training/paths/model-data-power-bi/
+  image: https://learn.microsoft.com/en-us/training/achievements/model-data-power-bi.svg
+- title: Design effective reports in Power BI
+  id: pl300-effective-reports
+  link: https://learn.microsoft.com/training/paths/power-bi-effective/
+  image: https://learn.microsoft.com/training/achievements/power-bi-effective.svg
+- title: Manage and secure Power BI
+  id: pl300-manage-and-secure
+  link: https://learn.microsoft.com/training/paths/manage-secure-power-bi/
+  image: https://learn.microsoft.com/training/achievements/deploy-and-maintain-data-in-power-bi.svg
