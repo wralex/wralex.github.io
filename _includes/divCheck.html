@@ -1,0 +1,11 @@
+<div class="d-flex gap-3 {{ include.divClass }}" title="{{ include.title }}">
+    {% include checks.html id=include.id style=include.chkStyle class="flex-shrink-0" %}
+    {% if include.image %}
+    <img class="img-fluid" src="{{ include.image }}" alt="{{ include.alt }}" style="{{ include.imgStyle }}" />
+    {% endif %}
+    {% if include.link %}
+    <a href="{{ include.link }}" class="pt-1 form-checked-content">{{ include.title }}</a>
+    {% else %}
+    <span class="pt-1 form-checked-content">{{ include.title }}</span>
+    {% endif %}
+</div>

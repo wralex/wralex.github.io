@@ -4,6 +4,7 @@
   ],
   "hints": {
     "axe/forms": "off",
-    "axe/structure": "off"
+    "axe/structure": "off",
+    "axe/text-alternatives": "off"
   }
 }

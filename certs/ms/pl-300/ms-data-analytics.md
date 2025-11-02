@@ -8,6 +8,8 @@ _[Back](.)_
 
 {{ site.data.ms.pl300.ms-data-analytics.description }}
 
+## Course Syllabus
+
 {% for l in site.data.ms.pl300.ms-data-analytics.learningPaths %}
 
 {% endfor %}

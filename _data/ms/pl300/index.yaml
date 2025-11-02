@@ -1,6 +1,5 @@
 title: 'Microsoft Certified: Power BI Data Analyst Associate'
 code: PL-300
-course: 
 link: https://learn.microsoft.com/en-us/credentials/certifications/data-analyst-associate/
 description: |
   Demonstrate methods and best practices that align with business and technical
@@ -12,6 +11,8 @@ renewalFrequency: 12 months
 product: Power BI
 subject: Data Analytics
 jumpTos:
+- title: '![](https://skillupwithlevelup.com/levelup-fy26/images/levelup-icon.svg) LevelUp Course'
+  link: https://skillupwithlevelup.com/course-detail/1776172
 - title: Prepare for the exam
   link: https://learn.microsoft.com/en-us/credentials/certifications/data-analyst-associate/?practice-assessment-type=certification#certification-prepare-for-the-exam
 - title: Practice for the exam

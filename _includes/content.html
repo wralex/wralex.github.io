@@ -1,5 +1,4 @@
-  <h1 class="border-bottom mb-3">{% if page.link > '' %}<a href='{{ page.link }}'>{{ page.title }}</a>{% else %}{{
-    page.title }}{% endif %}</h1>
+  <h1 class="border-bottom mb-3">{% if page.link %}<a href='{{ page.link }}'>{{ page.title }}{% if page.code %}&nbsp;<em>({{ page.code }})</em>{% endif %}</a>{% else %}{{ page.title }}{% if page.code %}&nbsp;<em>({{ page.code }})</em>{% endif %}{% endif %}</h1>
 
   {{ content }}
 
