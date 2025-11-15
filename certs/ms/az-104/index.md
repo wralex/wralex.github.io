@@ -1,40 +1,53 @@
 ---
-layout: default
-title: 'Microsoft Azure Administrator <em>(AZ-104)</em>'
-course: AZ-104T00-A
+layout: container
+title: 'Microsoft Certified: Power BI Data Analyst Associate'
+code: AZ-104
 ---
-[_Microsoft Certifications_](..)
+_[Microsoft Certifications](..)_
 
-## Overview
+{% assign data = site.data.ms.az104.index %}{{ data.description }}
 
-This course teaches IT Professionals how to manage their Azure subscriptions, secure identities, administer the infrastructure, configure virtual networking, connect Azure and on-premises sites, manage network traffic, implement storage solutions, create and scale virtual machines, implement web apps and containers, back up and share data, and monitor your solution.
+<div class="row mb-3">
+  <div class="col-6 col-md-4 col-lg-3">
+    <h3>Jump to</h3>
+    <div class="list-group list-group-flush">{% for j in data.jumpTos %}
+      <a href='{{j.link}}' markdown="1" class="list-group-item btn btn-outline-secondary btn-sm text-start ps-2 rounded">{{j.title}}</a>{% endfor %}
+    </div>
+  </div>
+  <div class="col-6 col-md-8 col-lg-9">
+    <h3>At a glance</h3>
+    <div class="row row-cols-1 row-cols-md-2 bg-warning-subtle rounded m-1">
+      {% if data.level %}<div class="col pb-3">
+        <dt>Level</dt>
+        <dd class="ps-2">{{ data.level }}</dd>
+      </div>{% endif %}
+      {% if data.product %}<div class="col pb-3">
+        <dt>Product</dt>
+        <dd class="ps-2">{{ data.product }}</dd>
+      </div>{% endif %}
+      {% if data.role %}<div class="col pb-3">
+        <dt>Role</dt>
+        <dd class="ps-2">{{ data.role }}</dd>
+      </div>{% endif %}
+      {% if data.subject %}<div class="col pb-3">
+        <dt>Subject</dt>
+        <dd class="ps-2">{{ data.subject }}</dd>
+      </div>{% endif %}
+      {% if data.renewalFrequency %}<div class="col pb-3">
+        <dt>Renewal Frequency</dt>
+        <dd class="ps-2">{{ data.renewalFrequency }}</dd>
+      </div>{% endif %}
+      {% if data.link %}<div class="col pb-3">
+        <dt>MS Link</dt>
+        <dd class="ps-2"><a href="{{ data.link }}">{{ data.title }}</a></dd>
+      </div>{% endif %}
+    </div>
+  </div>
+</div>
 
-## Audience Profile
+### Modules
 
-This course is for Azure Administrators. The Azure Administrator implements, manages, and monitors identity, governance, storage, compute, and virtual networks in a cloud environment. The Azure Administrator will provision, size, monitor, and adjust resources as appropriate. Successful Azure Administrators start this role with experience in virtualization, networking, identity, and storage.
-
-- Understanding of on-premises virtualization technologies, including: VMs, virtual networking, and virtual hard disks.
-- Understanding of network configurations, including TCP/IP, Domain Name System (DNS), virtual private networks (VPNs), firewalls, and encryption technologies.
-- Understanding of Active Directory concepts, including users, groups, and role-based access control.
-- Understanding of resilience and disaster recovery, including backup and restore operations.
-
-## Skills earned upon completion
-
-- Manage identities and govenance in Azure
-- Configure virtual networks with Azure
-- Monitor and back up resources in Azure
-
-Here are the learning paths in the AZ-104 Azure Administrator series:
-
-<span class="form-check fs-5">{% include checks.html id="az104-prerequisites" %}
-[![Prerequisites for Azure administrators](https://learn.microsoft.com/en-us/training/achievements/az-104-administrator-prerequisites.svg){: .ms-1 style="max-height: 40px" } Prerequisites for Azure administrators](./prerequisites)</span>
-<span class="form-check fs-5">{% include checks.html id="az104-manage" %}
-[![Manage identities and governance in Azure](https://learn.microsoft.com/en-us/training/achievements/az-104-manage-identities-governance.svg){: .ms-1 style="max-height: 40px" } Manage identities and governance in Azure](./manage)</span>
-<span class="form-check fs-5">{% include checks.html id="az104-implement" %}
-[![Implement and manage storage in Azure](https://learn.microsoft.com/en-us/training/achievements/az-104-manage-storage.svg){: .ms-1 style="max-height: 40px" } Implement and manage storage in Azure](./implement)</span>
-<span class="form-check fs-5">{% include checks.html id="az104-deploy" %}
-[![Deploy and manage Azure compute resources](https://learn.microsoft.com/en-us/training/achievements/az-104-manage-compute-resources.svg){: .ms-1 style="max-height: 40px" } Deploy and manage Azure compute resources](./deploy)</span>
-<span class="form-check fs-5">{% include checks.html id="az104-configure" %}
-[![Configure and manage virtual networks for Azure administrators](https://learn.microsoft.com/en-us/training/achievements/az-104-manage-virtual-networks.svg){: .ms-1 style="max-height: 40px" } Configure and manage virtual networks for Azure administrators](./configure)</span>
-<span class="form-check fs-5">{% include checks.html id="az104-monitor" %}
-[![Monitor and back up Azure resources](https://learn.microsoft.com/en-us/training/achievements/az-104-monitor-backup-resources.svg){: .ms-1 style="max-height: 40px" } Monitor and back up Azure resources](./monitor)</span>
+<div class="pb-3">{% for m in data.modules %}
+  {% include divCheck.html id=m.id title=m.title image=m.image link=m.link
+  chkStyle="font-size: 1.375em;" divClass="fs-4 fw-bolder" imgStyle="width:40px; height: auto;" %}
+{% endfor %}</div>

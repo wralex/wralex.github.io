@@ -1,0 +1,43 @@
+title: 'Microsoft Certified: Azure Fundamentals'
+code: AZ-900
+link: https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals
+description: |
+  ## Overview
+
+  As a candidate for this certification, you’re a technology professional who wants to demonstrate foundational
+  knowledge of cloud concepts in general and Microsoft Azure in particular. This certification is a common starting
+  point in a journey towards a career in Azure.
+
+  You can describe Azure architectural components and Azure services, such as: Compute, Networking, & Storage
+  
+  You can also describe features and tools to secure, govern, and administer Azure.
+level: Beginner
+role: Administrator
+product: Azure
+subject: Demonstrate foundational knowledge of cloud concepts, core Azure services, plus Azure management and governance features and tools.
+jumpTos:
+- title: Prepare for the exam
+  link: https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/?practice-assessment-type=certification#certification-prepare-for-the-exam
+- title: Practice for the exam
+  link: https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/?practice-assessment-type=certification#certification-practice-for-the-exam
+- title: Take the exam
+  link: https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/?practice-assessment-type=certification#certification-take-the-exam
+- title: Certification resources
+  link: https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/?practice-assessment-type=certification#certification-resources
+modules:
+- title: Introduction to Cloud Infrastructure
+  id: az900-introduction
+  link: https://learn.microsoft.com/en-us/training/courses/az-900t00/
+  image: https://learn.microsoft.com/media/learn/credential/badges/course.svg
+- title: Describe cloud concepts
+  id: az900-concepts
+  link: ./concepts
+  image: https://learn.microsoft.com/training/achievements/microsoft-azure-fundamentals-describe-cloud-concepts.svg
+- title: Describe Azure architecture and services
+  id: az900-architecture
+  link: ./architecture
+  image: https://learn.microsoft.com/training/achievements/azure-fundamentals-describe-azure-architecture-services.svg
+- title: Describe Azure management and governance
+  id: az900-management
+  link: ./management
+  image: https://learn.microsoft.com/training/achievements/describe-azure-management-governance.svg

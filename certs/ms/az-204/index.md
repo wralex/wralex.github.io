@@ -1,103 +1,53 @@
 ---
-layout: default
-title: 'Azure Developer Associate <em>(AZ-204)</em>'
-link: https://learn.microsoft.com/en-us/credentials/certifications/azure-developer
-course: AZ-20400
+layout: container
+title: 'Microsoft Certified: Azure Developer Associate'
+code: AZ-204
 ---
-[_Microsoft Certifications_](..)
+_[Microsoft Certifications](..)_
 
-Build end-to-end solutions in Microsoft Azure to create Azure Functions, implement and manage web apps, develop solutions utilizing Azure storage, and more.
+{% assign data = site.data.ms.az204.index %}{{ data.description }}
 
-Here are the learning paths in the AZ-104 Azure Administrator series:
+<div class="row mb-3">
+  <div class="col-6 col-md-4 col-lg-3">
+    <h3>Jump to</h3>
+    <div class="list-group list-group-flush">{% for j in data.jumpTos %}
+      <a href='{{j.link}}' markdown="1" class="list-group-item btn btn-outline-secondary btn-sm text-start ps-2 rounded">{{j.title}}</a>{% endfor %}
+    </div>
+  </div>
+  <div class="col-6 col-md-8 col-lg-9">
+    <h3>At a glance</h3>
+    <div class="row row-cols-1 row-cols-md-2 bg-warning-subtle rounded m-1">
+      {% if data.level %}<div class="col pb-3">
+        <dt>Level</dt>
+        <dd class="ps-2">{{ data.level }}</dd>
+      </div>{% endif %}
+      {% if data.product %}<div class="col pb-3">
+        <dt>Product</dt>
+        <dd class="ps-2">{{ data.product }}</dd>
+      </div>{% endif %}
+      {% if data.role %}<div class="col pb-3">
+        <dt>Role</dt>
+        <dd class="ps-2">{{ data.role }}</dd>
+      </div>{% endif %}
+      {% if data.subject %}<div class="col pb-3">
+        <dt>Subject</dt>
+        <dd class="ps-2">{{ data.subject }}</dd>
+      </div>{% endif %}
+      {% if data.renewalFrequency %}<div class="col pb-3">
+        <dt>Renewal Frequency</dt>
+        <dd class="ps-2">{{ data.renewalFrequency }}</dd>
+      </div>{% endif %}
+      {% if data.link %}<div class="col pb-3">
+        <dt>MS Link</dt>
+        <dd class="ps-2"><a href="{{ data.link }}">{{ data.title }}</a></dd>
+      </div>{% endif %}
+    </div>
+  </div>
+</div>
 
-### {% include checkLine.html
-    title='Develop Solutions for Microsoft Azure'
-    link='https://learn.microsoft.com/en-us/training/courses/az-204t00/'
-    id='az-204t00' %}{: .ms-2 }
+### Modules
 
-#### {% include checkLine.html
-    title='Implement Azure App Service web apps'
-    link='webapps'
-    id='az204-webapps' %}{: .ms-4 }
-
-#### {% include checkLine.html
-    title='Implement Azure Functions'
-    link='functions'
-    id='az204-functions' %}{: .ms-4 }
-
-#### {% include checkLine.html
-    title='Develop solutions that use Blob storage'
-    link='blob'
-    id='az204-blob' %}{: .ms-4 }
-
-#### {% include checkLine.html
-    title='Develop solutions that use Azure Cosmos DB'
-    link='cosmos'
-    id='az204-cosmos' %}{: .ms-4 }
-
-#### {% include checkLine.html
-    title='Implement containerized solutions'
-    link='iaas'
-    id='az204-iaas' %}{: .ms-4 }
-
-#### {% include checkLine.html
-    title='Implement user authentication and authorization'
-    link='auth'
-    id='az204-auth' %}{: .ms-4 }
-
-#### {% include checkLine.html
-    title='Implement secure Azure solutions'
-    link='secure'
-    id='az204-secure' %}{: .ms-4 }
-
-#### {% include checkLine.html
-    title='Implement API Management'
-    link='api'
-    id='az204-api' %}{: .ms-4 }
-
-#### {% include checkLine.html
-    title='Develop event-based solutions'
-    link='event'
-    id='az204-event' %}{: .ms-4 }
-
-#### {% include checkLine.html
-    title='Develop message-based solutions'
-    link='message'
-    id='az204-message' %}{: .ms-4 }
-
-#### {% include checkLine.html
-    title='Troubleshoot solutions by using Application Insights'
-    link='monitoring'
-    id='az204-monitoring' %}{: .ms-4 }
-
-## Overview
-
-As a candidate for this certification, you’re responsible for participating in all phases of development, including requirements gathering, design, development, deployment, security, maintenance, performance tuning, and monitoring.
-
-You should be proficient in Azure:
-
-- SDK
-- Data storage options
-- Data connections
-- APIs
-- App authentication and authorization
-- Compute and container deployment
-- Debugging
-- To implement solutions, you partner with:
-
-Cloud solution architects
-
-- DBAs
-- DevOps
-- Infrastructure admins
-- Other stakeholders
-
-You should have:
-
-- At least two years of programming experience.
-- Proficiency in programming with Azure SDKs.
-- Proficiency using Azure CLI, Azure PowerShell, and other tools.
-
-## Skills earned upon completion
-
-- Implement user authentication and authorization in Azure
+<div class="pb-3">{% for m in data.modules %}
+  {% include divCheck.html id=m.id title=m.title image=m.image link=m.link
+  chkStyle="font-size: 1.375em;" divClass="fs-4 fw-bolder" imgStyle="width:40px; height: auto;" %}
+{% endfor %}</div>

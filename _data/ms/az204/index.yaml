@@ -1,103 +1,77 @@
----
-layout: default
-title: 'Azure Developer Associate <em>(AZ-204)</em>'
-link: https://learn.microsoft.com/en-us/credentials/certifications/azure-developer
-course: AZ-20400
----
-[_Microsoft Certifications_](..)
+title: 'Microsoft Certified: Azure Developer Associate'
+code: AZ-204
+link: https://learn.microsoft.com/en-us/credentials/certifications/azure-developer/
+description: |
+  ## Overview
 
-Build end-to-end solutions in Microsoft Azure to create Azure Functions, implement and manage web apps, develop solutions utilizing Azure storage, and more.
-
-## Overview
-
-As a candidate for this certification, you’re responsible for participating in all phases of development, including requirements gathering, design, development, deployment, security, maintenance, performance tuning, and monitoring.
-
-You should be proficient in Azure:
-
-- SDK
-- Data storage options
-- Data connections
-- APIs
-- App authentication and authorization
-- Compute and container deployment
-- Debugging
-- To implement solutions, you partner with:
-
-Cloud solution architects
-
-- DBAs
-- DevOps
-- Infrastructure admins
-- Other stakeholders
-
-You should have:
-
-- At least two years of programming experience.
-- Proficiency in programming with Azure SDKs.
-- Proficiency using Azure CLI, Azure PowerShell, and other tools.
-
-## Skills earned upon completion
-
-- Implement user authentication and authorization in Azure
-
-Here are the learning paths in the AZ-104 Azure Administrator series:
-
-### {% include checkLine.html
-    title='Develop Solutions for Microsoft Azure'
-    link='https://learn.microsoft.com/en-us/training/courses/az-204t00/'
-    id='az-204t00' %}{: .ms-2 }
-
-#### {% include checkLine.html
-    title='Implement Azure App Service web apps'
-    link='https://learn.microsoft.com/training/paths/create-azure-app-service-web-apps/'
-    id='az204-webapps' %}{: .ms-4 }
-
-#### {% include checkLine.html
-    title='Implement Azure Functions'
-    link='https://learn.microsoft.com/training/paths/implement-azure-functions/'
-    id='az204-functions' %}{: .ms-4 }
-
-#### {% include checkLine.html
-    title='Develop solutions that use Blob storage'
-    link='https://learn.microsoft.com/training/paths/develop-solutions-that-use-blob-storage/'
-    id='az204-blob' %}{: .ms-4 }
-
-#### {% include checkLine.html
-    title='Develop solutions that use Azure Cosmos DB'
-    link='https://learn.microsoft.com/training/paths/az-204-develop-solutions-that-use-azure-cosmos-db/'
-    id='az204-cosmos' %}{: .ms-4 }
-
-#### {% include checkLine.html
-    title='Implement containerized solutions'
-    link='https://learn.microsoft.com/training/paths/az-204-implement-iaas-solutions/'
-    id='az204-iaas' %}{: .ms-4 }
-
-#### {% include checkLine.html
-    title='Implement user authentication and authorization'
-    link='https://learn.microsoft.com/training/paths/az-204-implement-authentication-authorization/'
-    id='az204-auth' %}{: .ms-4 }
-
-#### {% include checkLine.html
-    title='Implement secure Azure solutions'
-    link='https://learn.microsoft.com/training/paths/az-204-implement-secure-cloud-solutions/'
-    id='az204-secure' %}{: .ms-4 }
-
-#### {% include checkLine.html
-    title='Implement API Management'
-    link='https://learn.microsoft.com/training/paths/az-204-implement-api-management/'
-    id='az204-api' %}{: .ms-4 }
-
-#### {% include checkLine.html
-    title='Develop event-based solutions'
-    link='https://learn.microsoft.com/training/paths/az-204-develop-event-based-solutions/'
-    id='az204-event' %}{: .ms-4 }
-
-#### {% include checkLine.html
-    title='Develop message-based solutions'
-    link='https://learn.microsoft.com/training/paths/az-204-develop-message-based-solutions/'
-    id='az204-message' %}{: .ms-4 }
-
-#### {% include checkLine.html
-    title='Troubleshoot solutions by using Application Insights'
-    link='https://learn.microsoft.com/training/paths/az-204-instrument-solutions-support-monitoring-logging/'
-    id='az204-monitoring' %}{: .ms-4 }
+  As a candidate for this certification, you're responsible for participating in all phases of development, including
+  requirements gathering, design, development, deployment, security, maintenance, performance tuning, and monitoring.
+  
+  You should be proficient in Azure: SDK, Data storage options, Data connections, APIs, App authentication and
+  authorization, Compute and container deployment, & Debugging
+  
+  To implement solutions, you partner with: Cloud solution architects, DBAs, DevOps, Infrastructure admins, Other
+  stakeholders
+level: Intermediate
+role: Developer
+renewalFrequency: 12 months
+product: Azure
+subject: Application development
+jumpTos:
+- title: '![Level Up](https://skillupwithlevelup.com/levelup-fy26/images/levelup-icon.svg) LevelUp Course'
+  link: https://vshow.on24.com/vshow/FY24_AZDepth/#curriculum/7332
+- title: Prepare for the exam
+  link: https://learn.microsoft.com/en-us/credentials/certifications/azure-developer/?practice-assessment-type=certification#certification-prepare-for-the-exam
+- title: Practice for the exam
+  link: https://learn.microsoft.com/en-us/credentials/certifications/azure-developer/?practice-assessment-type=certification#certification-practice-for-the-exam
+- title: Take the exam
+  link: https://learn.microsoft.com/en-us/credentials/certifications/azure-developer/?practice-assessment-type=certification#certification-take-the-exam
+- title: Renew your certification
+  link: https://learn.microsoft.com/en-us/credentials/certifications/azure-developer/?practice-assessment-type=certification#certification-renew-your-certification
+- title: Certification resources
+  link: https://learn.microsoft.com/en-us/credentials/certifications/azure-developer/?practice-assessment-type=certification#certification-resources
+modules:
+- title: Implement Azure App Service web apps
+  id: az204-webapps
+  link: ./webapps
+  image: https://learn.microsoft.com/training/achievements/azure-app-service-create-web-apps.svg
+- title: Implement Azure Functions
+  id: az204-functions
+  link: ./functions
+  image: https://learn.microsoft.com/training/paths/implement-azure-functions/
+- title: Develop solutions that use Blob storage
+  id: az204-blob
+  link: ./blob
+  image: https://learn.microsoft.com/training/achievements/develop-solutions-that-use-blob-storage.svg
+- title: Develop solutions that use Azure Cosmos DB
+  id: az204-cosmos
+  link: ./cosmos
+  image: https://learn.microsoft.com/training/achievements/az-204-develop-solutions-that-use-azure-cosmos-db.svg
+- title: Implement containerized solutions
+  id: az204-
+  link: ./iaas
+  image: https://learn.microsoft.com/training/achievements/iaas-implement-solutions.svg
+- title: Implement user authentication and authorization
+  id: az204-auth
+  link: ./auth
+  image: https://learn.microsoft.com/training/achievements/authentication-authorization.svg
+- title: Implement secure Azure solutions
+  id: az204-
+  link: ./secure
+  image: https://learn.microsoft.com/training/achievements/cloud-solutions-implement.svg
+- title: Implement API Management
+  id: az204-api
+  link: ./api
+  image: https://learn.microsoft.com/training/achievements/az-204-implement-api-management.svg
+- title: Develop event-based solutions
+  id: az204-event
+  link: ./event
+  image: https://learn.microsoft.com/training/achievements/az-204-develop-event-based-solutions.svg
+- title: Develop message-based solutions
+  id: az204-message
+  link: ./message
+  image: https://learn.microsoft.com/training/achievements/message-develop-solutions.svg
+- title: Troubleshoot solutions by using Application Insights
+  id: az204-
+  link: ./monitoring
+  image: https://learn.microsoft.com/training/achievements/monitoring-instrument-solutions.svg

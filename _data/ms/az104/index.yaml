@@ -1,0 +1,55 @@
+title: 'Microsoft Certified: Azure Administrator Associate'
+code: AZ-104
+link: 
+description: |
+  ## Overview
+
+  As a candidate for this certification, you should have subject matter expertise in implementing, managing, and
+  monitoring an organization’s Azure environment, including: Virtual networks, Storage, Compute, Identity, Security, & Governance
+
+  As an Azure administrator, you often serve as part of a larger team dedicated to implementing an organization's cloud
+  infrastructure. You also coordinate with other roles to deliver Azure networking, security, database, application
+  development, and DevOps solutions.
+level: Intermediate
+role: Administrator
+renewalFrequency: 12 months
+product: Azure
+subject: Demonstrate key skills to configure, manage, secure, and administer key professional functions in Microsoft Azure.
+jumpTos:
+- title: '![Level Up](https://skillupwithlevelup.com/levelup-fy26/images/levelup-icon.svg) LevelUp Course'
+  link: https://learn.mslevelup.com/learner_course/show/1774652
+- title: Prepare for the exam
+  link: https://learn.microsoft.com/en-us/credentials/certifications/azure-administrator/?practice-assessment-type=certification#certification-prepare-for-the-exam
+- title: Practice for the exam
+  link: https://learn.microsoft.com/en-us/credentials/certifications/azure-administrator/?practice-assessment-type=certification#certification-practice-for-the-exam
+- title: Take the exam
+  link: https://learn.microsoft.com/en-us/credentials/certifications/azure-administrator/?practice-assessment-type=certification#certification-take-the-exam
+- title: Renew your certification
+  link: https://learn.microsoft.com/en-us/credentials/certifications/azure-administrator/?practice-assessment-type=certification#certification-renew-your-certification
+- title: Certification resources
+  link: https://learn.microsoft.com/en-us/credentials/certifications/azure-administrator/?practice-assessment-type=certification#certification-resources
+modules:
+- title: Prerequisites for Azure administrators
+  id: az104-prerequisites
+  link: ./prerequisites
+  image: https://learn.microsoft.com/training/achievements/az-104-administrator-prerequisites.svg
+- title: Manage identities and governance in Azure
+  id: az104-manage
+  link: ./manage
+  image: https://learn.microsoft.com/training/achievements/az-104-manage-identities-governance.svg
+- title: Configure and manage virtual networks for Azure administrators
+  id: az104-configure
+  link: ./configure
+  image: https://learn.microsoft.com/training/achievements/az-104-manage-virtual-networks.svg
+- title: Implement and manage storage in Azure
+  id: az104-implement
+  link: ./implement
+  image: https://learn.microsoft.com/training/achievements/az-104-manage-storage.svg
+- title: Deploy and manage Azure compute resources
+  id: az104-deploy
+  link: ./deploy
+  image: https://learn.microsoft.com/training/achievements/az-104-manage-compute-resources.svg
+- title: Monitor and back up Azure resources
+  id: az104-monitor
+  link: ./monitor
+  image: https://learn.microsoft.com/training/achievements/az-104-monitor-backup-resources.svg

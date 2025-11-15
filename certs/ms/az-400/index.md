@@ -1,37 +1,53 @@
 ---
 layout: container
-title: 'DevOps Engineer Expert <em>(AZ-400)</em>'
-link: https://learn.microsoft.com/en-us/credentials/certifications/devops-engineer/
-course: AZ-400
+title: 'Microsoft Certified: DevOps Engineer Expert'
+code: AZ-400
 ---
-[_Microsoft Certifications_](..)
+_[Microsoft Certifications](..)_
 
-As a DevOps engineer, you’re a developer or infrastructure administrator who also has subject matter expertise in working with people, processes, and products to enable continuous delivery of value in organizations.
+{% assign data = site.data.ms.az400.index %}{{ data.description }}
 
-## Assessed on this exam
+<div class="row mb-3">
+  <div class="col-6 col-md-4 col-lg-3">
+    <h3>Jump to</h3>
+    <div class="list-group list-group-flush">{% for j in data.jumpTos %}
+      <a href='{{j.link}}' markdown="1" class="list-group-item btn btn-outline-secondary btn-sm text-start ps-2 rounded">{{j.title}}</a>{% endfor %}
+    </div>
+  </div>
+  <div class="col-6 col-md-8 col-lg-9">
+    <h3>At a glance</h3>
+    <div class="row row-cols-1 row-cols-md-2 bg-warning-subtle rounded m-1">
+      {% if data.level %}<div class="col pb-3">
+        <dt>Level</dt>
+        <dd class="ps-2">{{ data.level }}</dd>
+      </div>{% endif %}
+      {% if data.product %}<div class="col pb-3">
+        <dt>Product</dt>
+        <dd class="ps-2">{{ data.product }}</dd>
+      </div>{% endif %}
+      {% if data.role %}<div class="col pb-3">
+        <dt>Role</dt>
+        <dd class="ps-2">{{ data.role }}</dd>
+      </div>{% endif %}
+      {% if data.subject %}<div class="col pb-3">
+        <dt>Subject</dt>
+        <dd class="ps-2">{{ data.subject }}</dd>
+      </div>{% endif %}
+      {% if data.renewalFrequency %}<div class="col pb-3">
+        <dt>Renewal Frequency</dt>
+        <dd class="ps-2">{{ data.renewalFrequency }}</dd>
+      </div>{% endif %}
+      {% if data.link %}<div class="col pb-3">
+        <dt>MS Link</dt>
+        <dd class="ps-2"><a href="{{ data.link }}">{{ data.title }}</a></dd>
+      </div>{% endif %}
+    </div>
+  </div>
+</div>
 
-| Section | Est. Percentages |
-|--------|------------|
-| Design and implement processes and communications | 10–15% |
-| Design and implement a source control strategy | 10–15% |
-| Design and implement build and release pipelines | 50-55% |
-| Develop a security and compliance plan | 10–15% |
-| Implement an instrumentation strategy | 5–10% |
-{: .table .table-sm .table-striped .w-50}
+### Modules
 
-## Learning Path
-
-{% for item in site.data.ms.az400.index %}
-<span class="form-check fs-4"><input class="form-check-input me-2" type="checkbox" id="{{ item.id }}" /><img style="height: 45px;" class="img-thumbnail me-2" src="{{item.image }}">[{{ item.title }}]({{ item.link }})</span>
-{% endfor %}
-
-Your responsibilities for this role include delivering Microsoft DevOps solutions that provide continuous security, integration, testing, delivery, deployment, monitoring, and feedback. You design and implement flow of work, collaboration, communication, source control, and automation.
-
-As a DevOps engineer, you work on cross-functional teams that include:
-
-- Developers
-- Site reliability engineers
-- Azure administrators
-- Security engineers
-
-You must have experience both administering and developing in Azure, with strong skills in at least one of these areas. You should also have experience implementing both GitHub and Azure DevOps solutions.
+<div class="pb-3">{% for m in data.modules %}
+  {% include divCheck.html id=m.id title=m.title image=m.image link=m.link
+  chkStyle="font-size: 1.375em;" divClass="fs-4 fw-bolder" imgStyle="width:40px; height: auto;" %}
+{% endfor %}</div>

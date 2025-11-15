@@ -1,40 +1,60 @@
+title: 'Microsoft Certified: DevOps Engineer Expert'
+code: AZ-400
+link: https://learn.microsoft.com/en-us/credentials/certifications/devops-engineer/
+description: |
+  ## Certification details
+
+  As a DevOps engineer, you're a developer or infrastructure administrator who also has subject matter expertise in working with people, processes, and products to enable continuous delivery of value in organizations.
+
+  Your responsibilities for this role include delivering Microsoft DevOps solutions that provide continuous security, integration, testing, delivery, deployment, monitoring, and feedback. You design and implement flow of work, collaboration, communication, source control, and automation.
+
+  As a DevOps engineer, you work on cross-functional teams that include: Developers, Site reliability engineers,
+  Azure administrators, Security engineers
+
+  You must have experience both administering and developing in Azure, with strong skills in at least one of these areas. You should also have experience implementing both GitHub and Azure DevOps solutions.
+level: Advanced
+role: DevOps Engineer
+product: Azure
+subject: 
+jumpTos:
+- title: '![Level Up](https://skillupwithlevelup.com/levelup-fy26/images/levelup-icon.svg) LevelUp Course'
+  link: https://skillupwithlevelup.com/course-detail/1775593
+- title: Practice for the exam
+  link: https://learn.microsoft.com/credentials/certifications/exams/az-400/practice/assessment?assessment-type=practice&assessmentId=56
+- title: Take the exam
+  link: https://learn.microsoft.com/en-us/credentials/certifications/schedule-through-pearson-vue?examUid=exam.AZ-400&examUrl=https://learn.microsoft.com/credentials/certifications
+- title: Renew your certification
+  link: https://learn.microsoft.com/en-us/credentials/certifications/devops-engineer/renew/
+modules:
 - title: Development for enterprise DevOps
-  learnLink: 
-  link: enterprise
+  link: ./enterprise
   id: az-400-enterprise
   image: https://learn.microsoft.com/training/achievements/az-400-work-with-git-for-enterprise-devops.svg
 - title: Implement CI with Azure Pipelines and GitHub Actions
-  learnLink: 
-  link: implement
+  link: ./implement
   id: az-400-implement
   image: https://learn.microsoft.com/learn/achievements/az-400-implement-ci-with-azure-pipelines-and-github-actions.svg
 - title: Design and implement a release strategy
-  learnLink: 
-  link: release
+  link: ./release
   id: az-400-release
   image: https://learn.microsoft.com/learn/achievements/az-400-design-and-implement-a-release-strategy.svg
 - title: Implement a secure continuous deployment using Azure Pipelines
-  learnLink: 
-  link: deploy
+  link: ./deploy
   id: az-400-deploy
   image: https://learn.microsoft.com/learn/achievements/az-400-implement-a-secure-continuous-deployment-using-azure-pipelines.svg
 - title: Manage infrastructure as code using Azure and DSC
-  learnLink: 
   link: iac
   id: az-400-iac
   image: https://learn.microsoft.com/learn/achievements/az-400-manage-infrastructure-as-code-using-azure.svg
 - title: Design and implement a dependency management strategy
-  learnLink: 
-  link: dependancy
+  link: ./dependancy
   id: az-400-dependancy
   image: https://learn.microsoft.com/learn/achievements/az-400-design-and-implement-a-dependency-management-strategy.svg
 - title: Implement continuous feedback
-  learnLink: 
-  link: feedback
+  link: ./feedback
   id: az-400-feedback
   image: https://learn.microsoft.com/learn/achievements/az-400-implement-continuous-feedback.svg
 - title: Implement security and validate code bases for compliance
-  learnLink: 
-  link: compliance
+  link: ./compliance
   id: az-400-compliance
   image: https://learn.microsoft.com/learn/achievements/implement-security-and-validate-code-bases-for-compliance.svg
