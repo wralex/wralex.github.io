@@ -1,0 +1,77 @@
+title: 'Microsoft Certified: Azure Solutions Architect Expert'
+code: AZ-305
+link: https://learn.microsoft.com/en-us/credentials/certifications/azure-solutions-architect/
+description: |
+  ## Certification details
+
+  As a Microsoft Azure solutions architect, you have subject matter expertise in designing cloud and hybrid solutions
+  that run on Azure, including: Compute, Network, Storage, Monitoring, & Security
+
+  Your responsibilities for this role include advising stakeholders and translating business requirements into designs
+  for Azure solutions that align with the Azure Well-Architected Framework and Cloud Adoption Framework for Azure.
+  In this role, you implement solutions on Azure by partnering with various other job roles, including: Developers,
+  Administrators, Security engineers, & Data engineers
+
+level: Advanced
+role: Solution Architect
+renewalFrequency: 
+product: Azure
+subject: 
+
+jumpTos:
+- title: '![Level Up](https://skillupwithlevelup.com/levelup-fy26/images/levelup-icon.svg) LevelUp Course'
+  link: https://skillupwithlevelup.com/course-detail/1776169
+- title: Prepare for the exam
+  link: https://aka.ms/AZ305-StudyGuide
+- title: Practice for the exam
+  link: https://learn.microsoft.com/credentials/certifications/exams/az-305/practice/assessment?assessment-type=practice&assessmentId=15
+- title: Take the exam
+  link: https://learn.microsoft.com/en-us/credentials/certifications/schedule-through-pearson-vue?examUid=exam.AZ-305&examUrl=https://learn.microsoft.com/credentials/certifications
+- title: Demo the exam experience
+  link: https://go.microsoft.com/fwlink/?linkid=2226877
+- title: Watch Exam Prep
+  link: https://learn.microsoft.com/en-us/shows/exam-readiness-zone/preparing-for-az-305-design-identity-governance-and-monitoring-solutions-1-of-4
+
+assessments:
+- topic: Design identity, governance, and monitoring solutions
+  percentages:
+    min: 25
+    max: 30
+- topic: Design data storage solutions
+  percentages:
+    min: 20
+    max: 25
+- topic: Design business continuity solutions
+  percentages:
+    min: 15
+    max: 20
+- topic: Design infrastructure solutions
+  percentages:
+    min: 30
+    max: 35
+
+modules:
+- title: Prerequisites
+  id: az305-prerequisites
+  link: https://learn.microsoft.com/en-us/training/paths/microsoft-azure-architect-design-prerequisites/
+  image: https://learn.microsoft.com/training/achievements/microsoft-azure-architect-design-prerequisites.svg
+- title: Design identity, governance, and monitor solutions
+  id: az305-identity
+  link: https://learn.microsoft.com/en-us/training/paths/design-identity-governance-monitor-solutions/
+  image: https://learn.microsoft.com/training/achievements/design-identity-governance-solution.svg
+- title: Design business continuity solutions
+  id: az305-business
+  link: https://learn.microsoft.com/en-us/training/paths/design-business-continuity-solutions/
+  image: https://learn.microsoft.com/training/achievements/design-business-continuity-solutions.svg
+- title: Design data storage solutions
+  id: az305-storage
+  link: https://learn.microsoft.com/en-us/training/paths/design-data-storage-solutions/
+  image: https://learn.microsoft.com/training/achievements/design-storage-solution.svg
+- title: Design infrastructure solutions
+  id: az305-infrastructure
+  link: https://learn.microsoft.com/en-us/training/paths/design-infranstructure-solutions/
+  image: https://learn.microsoft.com/training/achievements/design-infrastructure-solutions.svg
+- title: Build great solutions with the Microsoft Azure Well-Architected Framework
+  id: az305-framework
+  link: https://learn.microsoft.com/en-us/training/paths/azure-well-architected-framework/
+  image: https://learn.microsoft.com/training/achievements/azure-well-architected-framework.svg

@@ -1,0 +1,69 @@
+<a href=".."><em>Microsoft Certifications</em></a>
+{{ include.data.description }}
+<div class="row mb-3">
+    <div class="col-6 col-md-4 col-lg-3">
+        <h3>Jump to</h3>
+        <div class="list-group list-group-flush">{% for j in include.data.jumpTos %}
+            <a href='{{j.link}}' markdown="1"
+                class="list-group-item btn btn-outline-secondary btn-sm text-start ps-2 rounded">{{j.title}}</a>{%
+            endfor %}
+        </div>
+    </div>
+    <div class="col-6 col-md-8 col-lg-9">
+        <h3>At a glance</h3>
+        <div class="row row-cols-1 row-cols-md-2 bg-warning-subtle rounded m-1">
+            {% if include.data.level %}<div class="col pb-3">
+                <dt>Level</dt>
+                <dd class="ps-2">{{ include.data.level }}</dd>
+            </div>{% endif %}
+            {% if include.data.product %}<div class="col pb-3">
+                <dt>Product</dt>
+                <dd class="ps-2">{{ include.data.product }}</dd>
+            </div>{% endif %}
+            {% if include.data.role %}<div class="col pb-3">
+                <dt>Role</dt>
+                <dd class="ps-2">{{ include.data.role }}</dd>
+            </div>{% endif %}
+            {% if include.data.subject %}<div class="col pb-3">
+                <dt>Subject</dt>
+                <dd class="ps-2">{{ include.data.subject }}</dd>
+            </div>{% endif %}
+            {% if include.data.renewalFrequency %}<div class="col pb-3">
+                <dt>Renewal Frequency</dt>
+                <dd class="ps-2">{{ include.data.renewalFrequency }}</dd>
+            </div>{% endif %}
+            {% if include.data.link %}<div class="col pb-3">
+                <dt>MS Link</dt>
+                <dd class="ps-2"><a href="{{ include.data.link }}">{{ include.data.title }}</a></dd>
+            </div>{% endif %}
+        </div>
+        {% if include.data.assessments %}
+        <h3>Assessed on this exam</h3>
+        <table class="table table-striped table-bordered w-75">
+            <thead>
+                <tr>
+                    <th>Topic</th>
+                    <th>% of Exam</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for a in include.data.assessments %}
+                <tr>
+                    <td>{{ a.topic }}</td>
+                    <td>{% if a.percentages %}
+                        {{ a.percentages.min }} - {{ a.percentages.max }}%
+                    {% endif %}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        {% endif %}
+    </div>
+</div>
+
+<h3>Modules</h3>
+
+<div class="pb-3">{% for m in include.data.modules %}
+    {% include divCheck.html id=m.id title=m.title image=m.image link=m.link
+    chkStyle="font-size: 1.375em;" divClass="fs-4 fw-bolder" imgStyle="width:40px; height: auto;" %}
+    {% endfor %}</div>

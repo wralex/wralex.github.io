@@ -1,0 +1,44 @@
+title: 'Microsoft Certified: Azure AI Fundamentals'
+code: AI-900
+link: https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/
+description: |
+  ## Overview
+
+  This certification is an opportunity for you to demonstrate knowledge of machine learning and AI concepts and related
+  Microsoft Azure services. As a candidate for this certification, you should have familiarity with the self-paced or
+  instructor-led learning material.
+
+  This certification is intended for you if you have both technical and non-technical backgrounds. Data science and
+  software engineering experience are not required. However, you would benefit from having awareness of:
+  Basic cloud concepts & Client-server applications
+
+level: Beginner
+role: AI Engineer
+renewalFrequency: 
+product: Azure
+subject: Artificial intelligence
+
+jumpTos:
+- title: '![Level Up](https://skillupwithlevelup.com/levelup-fy26/images/levelup-icon.svg) LevelUp Course'
+  link: https://skillupwithlevelup.com/course-detail/1774141
+- title: Prepare for the exam
+  link: https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/?practice-assessment-type=certification#certification-prepare-for-the-exam
+- title: Practice for the exam
+  link: https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/?practice-assessment-type=certification#certification-practice-for-the-exam
+- title: Take the exam
+  link: https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/?practice-assessment-type=certification#certification-take-the-exam
+- title: Certification resources
+  link: https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/?practice-assessment-type=certification#certification-resources
+
+assessments:
+- topic: Describe Artificial Intelligence workloads and considerations
+- topic: Describe fundamental principles of machine learning on Azure
+- topic: Describe features of computer vision workloads on Azure
+- topic: Describe features of Natural Language Processing (NLP) workloads on Azure
+- topic: Describe features of generative AI workloads on Azure
+
+modules:
+- title: Introduction to AI in Azure
+  id: ai900-intro
+  link: https://learn.microsoft.com/training/paths/introduction-to-ai-on-azure/
+  image: https://learn.microsoft.com/training/achievements/document-intelligence-knowledge-mining.svg

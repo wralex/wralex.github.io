@@ -1,0 +1,74 @@
+title: 'Microsoft Certified: Azure AI Engineer Associate'
+code: AI-102
+link: https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/
+description: |
+  ## Overview
+
+  As a Microsoft Azure AI engineer, you build, manage, and deploy AI solutions that leverage Azure AI.
+
+  Your responsibilities include participating in all phases of AI solutions development, including:
+  Requirements definition and design, Development, Deployment, Integration, Maintenance, Performance tuning, & Monitoring
+
+  You work with solution architects to translate their vision. You also work with data scientists, data engineers,
+  Internet of Things (IoT) specialists, infrastructure administrators, and other software developers to:
+  Build complete and secure end-to-end AI solutions, integrate AI capabilities in other applications and solutions,
+  and as an Azure AI engineer, you have experience developing solutions that use languages such as: Python & C#
+
+  You should be able to use Representational State Transfer (REST) APIs and SDKs to build secure image processing, video
+  processing, natural language processing, knowledge mining, and generative AI solutions on Azure. You should: Understand
+  the components that make up the Azure AI portfolio and the available data storage options and be able to apply
+  responsible AI principles.
+
+level: Intermediate
+role: AI Engineer
+renewalFrequency: 12 months
+product: Azure
+subject: Artificial intelligence
+
+jumpTos:
+- title: '![Level Up](https://skillupwithlevelup.com/levelup-fy26/images/levelup-icon.svg) LevelUp Course'
+  link: https://skilling-hub.com/en-US/listing/o::7329
+- title: Prepare for the exam
+  link: https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/?practice-assessment-type=certification#certification-prepare-for-the-exam
+- title: Practice for the exam
+  link: https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/?practice-assessment-type=certification#certification-practice-for-the-exam
+- title: Take the exam
+  link: https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/?practice-assessment-type=certification#certification-take-the-exam
+- title: Renew your certification
+  link: https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/?practice-assessment-type=certification#certification-renew-your-certification
+- title: Certification resources
+  link: https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/?practice-assessment-type=certification#certification-resources
+
+assessments:
+- topic: Plan and manage an Azure AI solution
+- topic: Implement generative AI solutions
+- topic: Implement an agentic solution
+- topic: Implement computer vision solutions
+- topic: Implement natural language processing solutions
+- topic: Implement knowledge mining and information extraction solutions
+
+modules:
+- title: Develop AI solutions in Azure
+  id: ai102-course
+  link: https://learn.microsoft.com/en-us/training/courses/ai-102t00/
+  image: https://learn.microsoft.com/media/learn/credential/badges/course.svg
+- title: Develop generative AI apps in Azure
+  id: ai102-copilot
+  link: https://learn.microsoft.com/training/paths/create-custom-copilots-ai-studio/
+  image: https://learn.microsoft.com/training/achievements/generic-badge.svg
+- title: Develop AI agents on Azure
+  id: ai102-agents
+  link: https://learn.microsoft.com/training/paths/develop-ai-agents-on-azure/
+  image: https://learn.microsoft.com/training/achievements/generic-badge.svg
+- title: Develop natural language solutions in Azure
+  id: ai102-language
+  link: https://learn.microsoft.com/training/paths/develop-language-solutions-azure-ai/
+  image: https://learn.microsoft.com/training/achievements/create-language-solution-azure-cognitive-services.svg
+- title: Develop computer vision solutions in Azure
+  id: ai102-vision
+  link: https://learn.microsoft.com/training/paths/create-computer-vision-solutions-azure-ai/
+  image: https://learn.microsoft.com/training/achievements/cognitive-services-computer-vision.svg
+- title: Develop AI information extraction solutions in Azure
+  id: ai102-extract
+  link: https://learn.microsoft.com/training/paths/ai-extract-information/
+  image: https://learn.microsoft.com/training/achievements/generic-badge.svg
