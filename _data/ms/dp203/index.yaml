@@ -1,0 +1,72 @@
+title: 'Microsoft Certified: Azure Data Engineer Associate'
+code: DP-203
+link: https://learn.microsoft.com/en-us/credentials/certifications/azure-data-engineer/
+description: |
+  ## Overview
+
+  As a candidate for this certification, you should have subject matter expertise in integrating, transforming, and
+  consolidating data from various structured, unstructured, and streaming data systems into a suitable schema for
+  building analytics solutions.
+
+  As an Azure data engineer, you help stakeholders understand the data through exploration, and build and maintain
+  secure and compliant data processing pipelines by using different tools and techniques. You use various Azure data
+  services and frameworks to store and produce cleansed and enhanced datasets for analysis. This data store can be
+  designed with different architecture patterns based on business requirements, including: Modern data warehouse (MDW),
+  Big data, Lakehouse architecture
+  
+  As an Azure data engineer, you also help to ensure that the operationalization of data pipelines and data stores are
+  high-performing, efficient, organized, and reliable, given a set of business requirements and constraints. You help to
+  identify and troubleshoot operational and data quality issues. You also design, implement, monitor, and optimize data
+  platforms to meet the data pipelines.
+
+  As a candidate for this certification, you must have solid knowledge of data processing languages, including: SQL,
+  Python, Scala
+level: Intermediate 
+role: Data Engineer
+renewalFrequency: 
+product: Azure
+subject: Data engineering
+jumpTos:
+- title: '![Level Up](https://skillupwithlevelup.com/levelup-fy26/images/levelup-icon.svg) LevelUp Course'
+  link: https://skillupwithlevelup.com/course-detail/1776168
+modules:
+- title: Data Engineering on Microsoft Azure
+  id: dp203-course
+  link: https://learn.microsoft.com/en-us/training/courses/dp-203t00/
+  image: https://learn.microsoft.com/media/learn/credential/badges/course.svg
+- title: Get started with data engineering on Azure
+  id: dp203-started
+  link: https://learn.microsoft.com/training/paths/get-started-data-engineering/
+  image: https://learn.microsoft.com/learn/achievements/data-ai/get-started-data-engineering-trophy.svg
+- title: Build data analytics solutions using Azure Synapse serverless SQL pools
+  id: dp203-solutions
+  link: https://learn.microsoft.com/training/paths/build-data-analytics-solutions-using-azure-synapse-serverless-sql-pools/
+  image: https://learn.microsoft.com/training/achievements/build-data-analytics-solutions.svg
+- title: Perform data engineering with Azure Synapse Apache Spark Pools
+  id: dp203-apache
+  link: https://learn.microsoft.com/training/paths/perform-data-engineering-with-azure-synapse-apache-spark-pools/
+  image: https://learn.microsoft.com/learn/achievements/perform-data-engineering-with-azure-synapse-apache-spark-pools.svg
+- title: Transfer and transform data with Azure Synapse Analytics pipelines
+  id: dp203-pipelines
+  link: https://learn.microsoft.com/training/paths/transfer-transform-data-azure-synapse-analytics-pipelines/
+  image: https://learn.microsoft.com/training/achievements/transfer-and-transform-data-with-azure-synapse-analytics-pipelines.svg
+- title: Implement a Data Analytics Solution with Azure Synapse Analytics
+  id: dp203-analytics
+  link: https://learn.microsoft.com/training/paths/implement-data-analytics-azure-synapse-analytics/
+  image: https://learn.microsoft.com/training/achievements/generic-trophy.svg
+- title: Work with Data Warehouses using Azure Synapse Analytics
+  id: dp203-warehouse
+  link: https://learn.microsoft.com/training/paths/work-with-data-warehouses-using-azure-synapse-analytics/
+  image: https://learn.microsoft.com/training/achievements/work-with-data-warehouses-using-azure-synapse-analytics.svg
+- title: Work with Hybrid Transactional and Analytical Processing Solutions using Azure Synapse Analytics
+  id: dp203-hybrid
+  link: https://learn.microsoft.com/training/paths/work-with-hybrid-transactional-analytical-processing-solutions/
+  image: https://learn.microsoft.com/learn/achievements/work-hybrid-transactional-analytical-processing-solutions.svg
+- title: Implement a Data Streaming Solution with Azure Stream Analytics
+  id: dp203-stream
+  link: https://learn.microsoft.com/training/paths/implement-data-streaming-with-asa/
+  image: https://learn.microsoft.com/training/achievements/data-ai/implement-data-streaming-with-asa-trophy.svg
+- title: Implement a Data Analytics Solution with Azure Databricks
+  id: dp203-databricks
+  link: https://learn.microsoft.com/training/paths/data-engineer-azure-databricks/
+  image: https://learn.microsoft.com/training/achievements/data-engineer-azure-databricks.svg
