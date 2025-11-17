@@ -54,7 +54,7 @@
   examCost: '165.00'
   courseLink: https://skilling-hub.com/en-US/listing/o::7329
 - name: Azure Data Engineer Associate
-  url: /certs/ms/dp203/
+  url: /certs/ms/dp-203/
   msUrl: https://learn.microsoft.com/en-us/certifications/azure-data-engineer/
   level: Associate
   code: DP-203
