@@ -56,74 +56,75 @@ modules:
     link: https://learn.microsoft.com/en-us/training/modules/configure-virtual-machine-availability/11-knowledge-check
   - title: Summary and resources
     link: https://learn.microsoft.com/en-us/training/modules/configure-virtual-machine-availability/12-summary-resources
+
 - title: Configure Azure App Service plans
   link: https://learn.microsoft.com/en-us/training/modules/configure-app-service-plans/
   description: |
     Learn how to configure an Azure App Service plan, including pricing and scaling.
   submodules:
   - title: Introduction
-    link: 
+    link: https://learn.microsoft.com/en-us/training/modules/configure-app-service-plans/1-introduction/
   - title: Implement Azure App Service plans
-    link: 
+    link: https://learn.microsoft.com/en-us/training/modules/configure-app-service-plans/2-implement-azure/
   - title: Determine Azure App Service plan pricing
-    link: 
+    link: https://learn.microsoft.com/en-us/training/modules/configure-app-service-plans/3-determine-plan-pricing/
   - title: Scale up and scale out Azure App Service
-    link: 
+    link: https://learn.microsoft.com/en-us/training/modules/configure-app-service-plans/4-scale-up-scale-out/
   - title: Configure Azure App Service autoscale
-    link: 
+    link: https://learn.microsoft.com/en-us/training/modules/configure-app-service-plans/5-plan-scaling/
   - title: Module assessment
-    link: 
+    link: https://learn.microsoft.com/en-us/training/modules/configure-app-service-plans/6-knowledge-check/
   - title: Summary and resources
-    link: 
+    link: https://learn.microsoft.com/en-us/training/modules/configure-app-service-plans/7-summary-resources/
 - title: Configure Azure App Service
-  link:
+  link: https://learn.microsoft.com/en-us/training/modules/configure-azure-app-services/
   description: |
     Learn how to configure and monitor Azure App Service instances, including deployment slots.
   submodules:
   - title: Introduction
-    link: 
+    link: https://learn.microsoft.com/en-us/training/modules/configure-azure-app-services/1-introduction/
   - title: Implement Azure App Service
-    link: 
+    link: https://learn.microsoft.com/en-us/training/modules/configure-azure-app-services/2-implement/
   - title: Create an app with App Service
-    link: 
+    link: https://learn.microsoft.com/en-us/training/modules/configure-azure-app-services/3-create-app-service/
   - title: Explore continuous integration and deployment
-    link: 
+    link: https://learn.microsoft.com/en-us/training/modules/configure-azure-app-services/4-explore-continuous-integration-deployment/
   - title: Create deployment slots
-    link: 
+    link: https://learn.microsoft.com/en-us/training/modules/configure-azure-app-services/5-create-deployment-slots/
   - title: Add deployment slots
-    link: 
+    link: https://learn.microsoft.com/en-us/training/modules/configure-azure-app-services/6-add-deployment-slots/
   - title: Secure your App Service app
-    link: 
+    link: https://learn.microsoft.com/en-us/training/modules/configure-azure-app-services/7-secure-app-service/
   - title: Create custom domain names
-    link: 
+    link: https://learn.microsoft.com/en-us/training/modules/configure-azure-app-services/8-create-custom-domain-names/
   - title: Back up and restore your App Service app
-    link: 
+    link: https://learn.microsoft.com/en-us/training/modules/configure-azure-app-services/9-backup-app-service/
   - title: Use Azure Application Insights
-    link: 
+    link: https://learn.microsoft.com/en-us/training/modules/configure-azure-app-services/10-use-application-insights/
   - title: 'Exercise: Implement Web Apps'
-    link: 
+    link: https://learn.microsoft.com/en-us/training/modules/configure-azure-app-services/11-simulation-web-apps/
   - title: Module assessment
-    link: 
+    link: https://learn.microsoft.com/en-us/training/modules/configure-azure-app-services/12-knowledge-check/
   - title: Summary and resources
-    link: 
+    link: https://learn.microsoft.com/en-us/training/modules/configure-azure-app-services/13-summary-resources/
 - title: Configure Azure Container Instances
-  link:
+  link: https://learn.microsoft.com/en-us/training/modules/configure-azure-container-instances/
   description: |
     Learn how to configure Azure Container Instances including container groups.
   submodules:
   - title: Introduction
-    link: 
+    link: https://learn.microsoft.com/en-us/training/modules/configure-azure-container-instances/1-introduction/
   - title: Compare containers to virtual machines
-    link: 
+    link: https://learn.microsoft.com/en-us/training/modules/configure-azure-container-instances/2-compare-containers-to-virtual-machines/
   - title: Review Azure Container Instances
-    link: 
+    link: https://learn.microsoft.com/en-us/training/modules/configure-azure-container-instances/3-review/
   - title: Implement container groups
-    link: 
+    link: https://learn.microsoft.com/en-us/training/modules/configure-azure-container-instances/4-implement-container-groups/
   - title: Review Azure Container Apps
-    link: 
+    link: https://learn.microsoft.com/en-us/training/modules/configure-azure-container-instances/5-review-docker-platform/
   - title: 'Exercise: Implement Container Instances'
-    link: 
+    link: https://learn.microsoft.com/en-us/training/modules/configure-azure-container-instances/6-simulation-containers/
   - title: Module assessment
-    link: 
+    link: https://learn.microsoft.com/en-us/training/modules/configure-azure-container-instances/7-knowledge-check/
   - title: Summary and resources
-    link: 
+    link: https://learn.microsoft.com/en-us/training/modules/configure-azure-container-instances/8-summary-resources/
