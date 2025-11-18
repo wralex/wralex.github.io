@@ -1,0 +1,27 @@
+title: Troubleshoot solutions by using Application Insights
+level: Intermediate
+product: Azure Monitor
+role: Developer
+modules:
+- title: Monitor app performance
+  link: https://learn.microsoft.com/en-us/training/modules/monitor-app-performance/
+  description: Learn how to use the tools offered in Application Insights to enhance the performance and stability of your applications.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/monitor-app-performance/1-introduction/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-204-instrument-solutions-to-support-monitoring-logging
+  - title: Explore Application Insights
+    link: https://learn.microsoft.com/en-us/training/modules/monitor-app-performance/2-application-insights-overview/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-204-instrument-solutions-to-support-monitoring-logging
+  - title: Discover log-based metrics
+    link: https://learn.microsoft.com/en-us/training/modules/monitor-app-performance/3-logs-based-metrics/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-204-instrument-solutions-to-support-monitoring-logging
+  - title: Instrument an app for monitoring
+    link: https://learn.microsoft.com/en-us/training/modules/monitor-app-performance/4-app-instrumentation/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-204-instrument-solutions-to-support-monitoring-logging
+  - title: Select an availability test
+    link: https://learn.microsoft.com/en-us/training/modules/monitor-app-performance/5-availability-tests/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-204-instrument-solutions-to-support-monitoring-logging
+  - title: Troubleshoot app performance by using Application Map
+    link: https://learn.microsoft.com/en-us/training/modules/monitor-app-performance/6-application-map/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-204-instrument-solutions-to-support-monitoring-logging
+  - title: Exercise - Monitor an application with autoinstrumentation
+    link: https://learn.microsoft.com/en-us/training/modules/monitor-app-performance/6a-monitor-application-instrumentation/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-204-instrument-solutions-to-support-monitoring-logging
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/monitor-app-performance/7-knowledge-check/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-204-instrument-solutions-to-support-monitoring-logging
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/monitor-app-performance/8-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-204-instrument-solutions-to-support-monitoring-logging

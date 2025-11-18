@@ -1,0 +1,11 @@
+<a href='.'><em>Parent</em></a>
+<div>
+{{ include.data.description }}
+</div>
+<div><!-- {% assign counter = 0 %} {% assign result = include.preIds | append: "-" | append: counter %} -->{% for mod in include.data.modules %}<!-- {% assign counter = counter | plus: 1 %}{% assign result = include.preIds | append: "-" | append: counter %} -->
+    {% include checkLine.html id=result title=mod.title link=mod.link classes="fs-3"%}
+    <span class="ms-4">{{ mod.description }}</span>
+    {% for sub in mod.submodules %}<!-- {% assign counter = counter | plus: 1 %}{% assign result = page.preIds | append: "-" | append: counter %} -->
+        {% include checkLine.html id=result title=sub.title link=sub.link classes="ms-4" %}
+    {% endfor %}
+{% endfor %}</div>
