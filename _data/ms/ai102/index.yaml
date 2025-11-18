@@ -52,22 +52,27 @@ modules:
   id: ai102-course
   link: https://learn.microsoft.com/en-us/training/courses/ai-102t00/
   image: https://learn.microsoft.com/media/learn/credential/badges/course.svg
+
 - title: Develop generative AI apps in Azure
   id: ai102-copilot
-  link: https://learn.microsoft.com/training/paths/create-custom-copilots-ai-studio/
+  link: ./copilot
   image: https://learn.microsoft.com/training/achievements/generic-badge.svg
+
 - title: Develop AI agents on Azure
   id: ai102-agents
-  link: https://learn.microsoft.com/training/paths/develop-ai-agents-on-azure/
+  link: ./agents
   image: https://learn.microsoft.com/training/achievements/generic-badge.svg
+
 - title: Develop natural language solutions in Azure
   id: ai102-language
   link: https://learn.microsoft.com/training/paths/develop-language-solutions-azure-ai/
   image: https://learn.microsoft.com/training/achievements/create-language-solution-azure-cognitive-services.svg
+
 - title: Develop computer vision solutions in Azure
   id: ai102-vision
   link: https://learn.microsoft.com/training/paths/create-computer-vision-solutions-azure-ai/
   image: https://learn.microsoft.com/training/achievements/cognitive-services-computer-vision.svg
+
 - title: Develop AI information extraction solutions in Azure
   id: ai102-extract
   link: https://learn.microsoft.com/training/paths/ai-extract-information/

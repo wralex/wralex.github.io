@@ -1,0 +1,183 @@
+title: Develop generative AI apps in Azure
+link: https://learn.microsoft.com/en-us/training/paths/create-custom-copilots-ai-studio/
+level: Intermediate
+skill: Develop generative AI apps in Azure AI Foundry portal
+product: Azure AI servicesAzure AI FoundryAzure AI Foundry SDK
+role: Data ScientistAI Engineer
+subject: Artificial intelligence
+description: |
+  Generative Artificial Intelligence (AI) is becoming more accessible through comprehensive development platforms like Azure AI Foundry. Learn how to build generative AI applications that use language models to chat with your users.
+
+modules:
+
+- title: Plan and prepare to develop AI solutions on Azure
+  link: https://learn.microsoft.com/en-us/training/modules/prepare-azure-ai-development/
+  description: |
+    Microsoft Azure offers multiple services that enable developers to build amazing AI-powered solutions. Proper planning and preparation involves identifying the services you'll use and creating an optimal working environment for your development team.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/prepare-azure-ai-development/1-introduction/
+  - title: What is AI?
+    link: https://learn.microsoft.com/en-us/training/modules/prepare-azure-ai-development/2-what-is-ai/
+  - title: Azure AI services
+    link: https://learn.microsoft.com/en-us/training/modules/prepare-azure-ai-development/3-azure-ai-services/
+  - title: Azure AI Foundry
+    link: https://learn.microsoft.com/en-us/training/modules/prepare-azure-ai-development/4-azure-ai-foundry/
+  - title: Developer tools and SDKs
+    link: https://learn.microsoft.com/en-us/training/modules/prepare-azure-ai-development/5-tools-and-sdks/
+  - title: Responsible AI
+    link: https://learn.microsoft.com/en-us/training/modules/prepare-azure-ai-development/6-responsible-ai/
+  - title: Exercise - Prepare for an AI development project
+    link: https://learn.microsoft.com/en-us/training/modules/prepare-azure-ai-development/7-exercise-explore-ai-foundry/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/prepare-azure-ai-development/8-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/prepare-azure-ai-development/9-summary/
+
+- title: Choose and deploy models from the model catalog in Azure AI Foundry portal
+  link: https://learn.microsoft.com/en-us/training/modules/explore-models-azure-ai-studio/
+  description: |
+    Choose the various language models that are available through the Azure AI Foundry's model catalog. Understand how to select, deploy, and test a model, and to improve its performance.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/explore-models-azure-ai-studio/1-introduction/
+  - title: Explore the model catalog
+    link: https://learn.microsoft.com/en-us/training/modules/explore-models-azure-ai-studio/2-select-model/
+  - title: Deploy a model to an endpoint
+    link: https://learn.microsoft.com/en-us/training/modules/explore-models-azure-ai-studio/3-deploy-model/
+  - title: Optimize model performance
+    link: https://learn.microsoft.com/en-us/training/modules/explore-models-azure-ai-studio/4-improve-model/
+  - title: Exercise - Explore, deploy, and chat with language models
+    link: https://learn.microsoft.com/en-us/training/modules/explore-models-azure-ai-studio/5-exercise/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/explore-models-azure-ai-studio/6-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/explore-models-azure-ai-studio/7-summary/
+
+- title: Develop an AI app with the Azure AI Foundry SDK
+  link: https://learn.microsoft.com/en-us/training/modules/ai-foundry-sdk/
+  description: |
+    Use the Azure AI Foundry SDK to develop AI applications with Azure AI Foundry projects.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/ai-foundry-sdk/01-introduction/
+  - title: What is the Azure AI Foundry SDK?
+    link: https://learn.microsoft.com/en-us/training/modules/ai-foundry-sdk/02-azure-ai-foundry-sdk/
+  - title: Work with project connections
+    link: https://learn.microsoft.com/en-us/training/modules/ai-foundry-sdk/03-connections/
+  - title: Create a chat client
+    link: https://learn.microsoft.com/en-us/training/modules/ai-foundry-sdk/04-chat-client/
+  - title: Exercise - Create a generative AI chat app
+    link: https://learn.microsoft.com/en-us/training/modules/ai-foundry-sdk/05-exercise/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/ai-foundry-sdk/06-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/ai-foundry-sdk/07-summary/
+
+- title: Get started with prompt flow to develop language model apps in the Azure AI Foundry
+  link: https://learn.microsoft.com/en-us/training/modules/get-started-prompt-flow-ai-studio/
+  description: |
+    Learn about how to use prompt flow to develop applications that leverage language models in the Azure AI Foundry.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/get-started-prompt-flow-ai-studio/1-introduction/
+  - title: Understand the development lifecycle of a large language model (LLM) app
+    link: https://learn.microsoft.com/en-us/training/modules/get-started-prompt-flow-ai-studio/2-understand-lifecycle/
+  - title: Understand core components and explore flow types
+    link: https://learn.microsoft.com/en-us/training/modules/get-started-prompt-flow-ai-studio/3-understand-flows/
+  - title: Explore connections and runtimes
+    link: https://learn.microsoft.com/en-us/training/modules/get-started-prompt-flow-ai-studio/4-connections-runtimes/
+  - title: Explore variants and monitoring options
+    link: https://learn.microsoft.com/en-us/training/modules/get-started-prompt-flow-ai-studio/5-variants-monitor/
+  - title: Exercise - Get started with prompt flow
+    link: https://learn.microsoft.com/en-us/training/modules/get-started-prompt-flow-ai-studio/6-exercise/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/get-started-prompt-flow-ai-studio/7-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/get-started-prompt-flow-ai-studio/8-summary/
+
+- title: Develop a RAG-based solution with your own data using Azure AI Foundry
+  link: https://learn.microsoft.com/en-us/training/modules/build-copilot-ai-studio/
+  description: |
+    Retrieval Augmented Generation (RAG) is a common pattern used in generative AI solutions to ground prompts with your data. Azure AI Foundry provides support for adding data, creating indexes, and integrating them with generative AI models to help you build RAG-based solutions.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/build-copilot-ai-studio/1-introduction/
+  - title: Understand how to ground your language model
+    link: https://learn.microsoft.com/en-us/training/modules/build-copilot-ai-studio/2-ground-language-model/
+  - title: Make your data searchable
+    link: https://learn.microsoft.com/en-us/training/modules/build-copilot-ai-studio/3-search-data/
+  - title: Create a RAG-based client application
+    link: https://learn.microsoft.com/en-us/training/modules/build-copilot-ai-studio/3b-openai-client/
+  - title: Implement RAG in a prompt flow
+    link: https://learn.microsoft.com/en-us/training/modules/build-copilot-ai-studio/4-build-copilot/
+  - title: Exercise - Create a generative AI app that uses your own data
+    link: https://learn.microsoft.com/en-us/training/modules/build-copilot-ai-studio/5-exercise/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/build-copilot-ai-studio/6-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/build-copilot-ai-studio/7-summary/
+
+- title: Fine-tune a language model with Azure AI Foundry
+  link: https://learn.microsoft.com/en-us/training/modules/finetune-model-copilot-ai-studio/
+  description: |
+    Train a base language model on a chat-completion task. The model catalog in Azure AI Foundry offers many open-source models that can be fine-tuned for your specific model behavior needs.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/finetune-model-copilot-ai-studio/1-introduction/
+  - title: Understand when to fine-tune a language model
+    link: https://learn.microsoft.com/en-us/training/modules/finetune-model-copilot-ai-studio/2-understand-finetune/
+  - title: Prepare your data to fine-tune a chat completion model
+    link: https://learn.microsoft.com/en-us/training/modules/finetune-model-copilot-ai-studio/3-prepare-data/
+  - title: Explore fine-tuning language models in Azure AI Foundry portal
+    link: https://learn.microsoft.com/en-us/training/modules/finetune-model-copilot-ai-studio/4-finetune-model/
+  - title: Exercise - Fine-tune a language model
+    link: https://learn.microsoft.com/en-us/training/modules/finetune-model-copilot-ai-studio/5-exercise/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/finetune-model-copilot-ai-studio/6-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/finetune-model-copilot-ai-studio/7-summary/
+
+- title: Implement a responsible generative AI solution in Azure AI Foundry
+  link: https://learn.microsoft.com/en-us/training/modules/responsible-ai-studio/
+  description: |
+    Generative AI enables amazing creative solutions, but must be implemented responsibly to minimize the risk of harmful content generation.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/responsible-ai-studio/1-introduction/
+  - title: Plan a responsible generative AI solution
+    link: https://learn.microsoft.com/en-us/training/modules/responsible-ai-studio/2-plan-responsible-ai/
+  - title: Map potential harms
+    link: https://learn.microsoft.com/en-us/training/modules/responsible-ai-studio/3-identify-harms/
+  - title: Measure potential harms
+    link: https://learn.microsoft.com/en-us/training/modules/responsible-ai-studio/4-measure-harms/
+  - title: Mitigate potential harms
+    link: https://learn.microsoft.com/en-us/training/modules/responsible-ai-studio/5-mitigate-harms/
+  - title: Manage a responsible generative AI solution
+    link: https://learn.microsoft.com/en-us/training/modules/responsible-ai-studio/6-operate-responsibly/
+  - title: Exercise - Apply content filters to prevent the output of harmful content
+    link: https://learn.microsoft.com/en-us/training/modules/responsible-ai-studio/7-exercise-content-filters/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/responsible-ai-studio/8-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/responsible-ai-studio/9-summary/
+
+- title: Evaluate generative AI performance in Azure AI Foundry portal
+  link: https://learn.microsoft.com/en-us/training/modules/evaluate-models-azure-ai-studio/
+  description: |
+    Evaluating copilots is essential to ensure your generative AI applications meet user needs, provide accurate responses, and continuously improve over time. Discover how to assess and optimize the performance of your generative AI applications using the tools and features available in the Azure AI Studio.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/evaluate-models-azure-ai-studio/1-introduction/
+  - title: Assess the model performance
+    link: https://learn.microsoft.com/en-us/training/modules/evaluate-models-azure-ai-studio/2-assess-models/
+  - title: Manually evaluate the performance of a model
+    link: https://learn.microsoft.com/en-us/training/modules/evaluate-models-azure-ai-studio/3-manual-evaluations/
+  - title: Automated evaluations
+    link: https://learn.microsoft.com/en-us/training/modules/evaluate-models-azure-ai-studio/3b-automated-evaluations/
+  - title: Exercise - Evaluate generative AI model performance
+    link: https://learn.microsoft.com/en-us/training/modules/evaluate-models-azure-ai-studio/5-exercise/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/evaluate-models-azure-ai-studio/6-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/evaluate-models-azure-ai-studio/7-summary/

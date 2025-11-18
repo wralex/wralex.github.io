@@ -1,0 +1,197 @@
+title: Develop AI agents on Azure
+link: https://learn.microsoft.com/en-us/training/paths/develop-ai-agents-on-azure/
+level: Intermediate
+product: Azure AI services, Azure AI Foundry, Azure AI Foundry Agent Service, Azure AI Foundry SDK
+role: AI Engineer
+subject: Artificial intelligence, Machine learning, Natural language processing
+description: |
+  Generative Artificial Intelligence (AI) is becoming more functional and accessible, and AI agents are a key component of this evolution. This learning path will help you understand the AI agents, including when to use them and how to build them, using Azure AI Foundry Agent Service and Microsoft Agent Framework. By the end of this learning path, you will have the skills needed to develop AI agents on Azure.
+
+modules:
+- title: Get started with AI agent development on Azure
+  link: https://learn.microsoft.com/en-us/training/modules/ai-agent-fundamentals/
+  description: |
+    AI agents represent the next generation of intelligent applications. Learn how they can be developed and used on Microsoft Azure.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/ai-agent-fundamentals/1-introduction/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+  - title: What are AI agents?
+    link: https://learn.microsoft.com/en-us/training/modules/ai-agent-fundamentals/2-what-are-agents/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+  - title: Options for agent development
+    link: https://learn.microsoft.com/en-us/training/modules/ai-agent-fundamentals/3-agent-development/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+  - title: Azure AI Foundry Agent Service
+    link: https://learn.microsoft.com/en-us/training/modules/ai-agent-fundamentals/4-azure-ai-agent-service/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+  - title: Exercise - Explore AI Agent development
+    link: https://learn.microsoft.com/en-us/training/modules/ai-agent-fundamentals/5-exercise/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/ai-agent-fundamentals/6-knowledge-check/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/ai-agent-fundamentals/7-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+
+- title: Develop an AI agent with Azure AI Foundry Agent Service
+  link: https://learn.microsoft.com/en-us/training/modules/develop-ai-agent-azure/
+  description: |
+    This module provides engineers with the skills to begin building agents with Azure AI Foundry Agent Service.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/develop-ai-agent-azure/1-introduction/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+  - title: What is an AI agent
+    link: https://learn.microsoft.com/en-us/training/modules/develop-ai-agent-azure/2-what-is-ai-agent/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+  - title: How to use Azure AI Foundry Agent Service
+    link: https://learn.microsoft.com/en-us/training/modules/develop-ai-agent-azure/3-how-use-agent-service/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+  - title: Develop agents with the Azure AI Foundry Agent Service
+    link: https://learn.microsoft.com/en-us/training/modules/develop-ai-agent-azure/4-when-use-agent-service/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+  - title: Exercise - Build an AI agent
+    link: https://learn.microsoft.com/en-us/training/modules/develop-ai-agent-azure/5-exercise/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/develop-ai-agent-azure/6-knowledge-check/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/develop-ai-agent-azure/7-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+
+- title: Develop AI agents with the Azure AI Foundry extension in Visual Studio Code
+  link: https://learn.microsoft.com/en-us/training/modules/develop-ai-agents-vs-code/
+  description: |
+    Learn how to build, test, and deploy AI agents using the Azure AI Foundry extension in Visual Studio Code.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/develop-ai-agents-vs-code/1-introduction/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+  - title: Get started with the Azure AI Foundry extension
+    link: https://learn.microsoft.com/en-us/training/modules/develop-ai-agents-vs-code/2-get-started-with-extension/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+  - title: Develop AI agents in Visual Studio Code
+    link: https://learn.microsoft.com/en-us/training/modules/develop-ai-agents-vs-code/3-agent-development/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+  - title: Extend AI agent capabilities with tools
+    link: https://learn.microsoft.com/en-us/training/modules/develop-ai-agents-vs-code/4-extend-agent-capabilities/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+  - title: Exercise - Build an AI agent using the Azure AI Foundry extension
+    link: https://learn.microsoft.com/en-us/training/modules/develop-ai-agents-vs-code/5-exercise/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/develop-ai-agents-vs-code/6-knowledge-check/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/develop-ai-agents-vs-code/7-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+
+- title: Integrate custom tools into your agent
+  link: https://learn.microsoft.com/en-us/training/modules/build-agent-with-custom-tools/
+  description: |
+    Built-in tools are useful, but they may not meet all your needs. In this module, learn how to extend the capabilities of your agent by integrating custom tools for your agent to use.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/build-agent-with-custom-tools/1-introduction/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+  - title: Why use custom tools
+    link: https://learn.microsoft.com/en-us/training/modules/build-agent-with-custom-tools/2-why-use-custom-tools/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+  - title: Options for implementing custom tools
+    link: https://learn.microsoft.com/en-us/training/modules/build-agent-with-custom-tools/3-custom-tool-options/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+  - title: How to integrate custom tools
+    link: https://learn.microsoft.com/en-us/training/modules/build-agent-with-custom-tools/4-how-use-custom-tools/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+  - title: Exercise - Build an agent with custom tools
+    link: https://learn.microsoft.com/en-us/training/modules/build-agent-with-custom-tools/5-exercise/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/build-agent-with-custom-tools/6-knowledge-check/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/build-agent-with-custom-tools/7-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+
+- title: Develop a multi-agent solution with Azure AI Foundry Agent Service
+  link: https://learn.microsoft.com/en-us/training/modules/develop-multi-agent-azure-ai-foundry/
+  description: |
+    Break down complex tasks with intelligent collaboration. Learn how to design multi-agent solutions using connected agents.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/develop-multi-agent-azure-ai-foundry/1-introduction/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+  - title: Understand connected agents
+    link: https://learn.microsoft.com/en-us/training/modules/develop-multi-agent-azure-ai-foundry/2-understand-connected-agents/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+  - title: Design a multi-agent solution with connected agents
+    link: https://learn.microsoft.com/en-us/training/modules/develop-multi-agent-azure-ai-foundry/3-design-multi-agent-solution/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+  - title: Exercise - Develop a multi-agent app with Azure AI Foundry
+    link: https://learn.microsoft.com/en-us/training/modules/develop-multi-agent-azure-ai-foundry/4-exercise/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/develop-multi-agent-azure-ai-foundry/5-knowledge-check/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/develop-multi-agent-azure-ai-foundry/6-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+
+- title: Integrate MCP Tools with Azure AI Agents
+  link: https://learn.microsoft.com/en-us/training/modules/connect-agent-to-mcp-tools/
+  description: |
+    Enable dynamic tool access for your Azure AI agents. Learn how to connect MCP-hosted tools and integrate them seamlessly into agent workflows.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/connect-agent-to-mcp-tools/1-introduction/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+  - title: Understand MCP tool discovery
+    link: https://learn.microsoft.com/en-us/training/modules/connect-agent-to-mcp-tools/2-understand-mcp-tool-discovery/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+  - title: Integrate agent tools using an MCP server and client
+    link: https://learn.microsoft.com/en-us/training/modules/connect-agent-to-mcp-tools/3-mcp-client-server-setup/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+  - title: Use Azure AI agents with MCP servers
+    link: https://learn.microsoft.com/en-us/training/modules/connect-agent-to-mcp-tools/4-use-azure-ai-agents-with-mcp/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+  - title: Exercise - Connect MCP tools to Azure AI Agents
+    link: https://learn.microsoft.com/en-us/training/modules/connect-agent-to-mcp-tools/5-exercise/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/connect-agent-to-mcp-tools/6-knowledge-check/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/connect-agent-to-mcp-tools/7-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+
+- title: Develop an AI agent with Microsoft Agent Framework
+  link: https://learn.microsoft.com/en-us/training/modules/develop-ai-agent-with-semantic-kernel/
+  description: |
+    This module provides engineers with the skills to begin building Azure AI Foundry Agent Service agents with Microsoft Agent Framework.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/develop-ai-agent-with-semantic-kernel/1-introduction/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+  - title: Understand Microsoft Agent Framework AI agents
+    link: https://learn.microsoft.com/en-us/training/modules/develop-ai-agent-with-semantic-kernel/2-understand-semantic-kernel-agents/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+  - title: Create an Azure AI agent with Microsoft Agent Framework
+    link: https://learn.microsoft.com/en-us/training/modules/develop-ai-agent-with-semantic-kernel/3-create-azure-ai-agent/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+  - title: Add tools to Azure AI agent
+    link: https://learn.microsoft.com/en-us/training/modules/develop-ai-agent-with-semantic-kernel/4-add-plugins-to-agent/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+  - title: Exercise - Develop an Azure AI agent with the Microsoft Agent Framework SDK
+    link: https://learn.microsoft.com/en-us/training/modules/develop-ai-agent-with-semantic-kernel/5-exercise/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+  - title: Knowledge check
+    link: https://learn.microsoft.com/en-us/training/modules/develop-ai-agent-with-semantic-kernel/6-knowledge-check/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/develop-ai-agent-with-semantic-kernel/7-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+
+- title: Orchestrate a multi-agent solution using the Microsoft Agent Framework
+  link: https://learn.microsoft.com/en-us/training/modules/orchestrate-semantic-kernel-multi-agent-solution/
+  description: |
+    Learn how to use the Microsoft Agent Framework SDK to develop your own AI agents that can collaborate for a multi-agent solution.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/orchestrate-semantic-kernel-multi-agent-solution/1-introduction/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+  - title: Understand the Microsoft Agent Framework
+    link: https://learn.microsoft.com/en-us/training/modules/orchestrate-semantic-kernel-multi-agent-solution/2-understand-agent-framework/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+  - title: Understand agent orchestration
+    link: https://learn.microsoft.com/en-us/training/modules/orchestrate-semantic-kernel-multi-agent-solution/3-understand-agent-orchestration/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+  - title: Use concurrent orchestration
+    link: https://learn.microsoft.com/en-us/training/modules/orchestrate-semantic-kernel-multi-agent-solution/4-use-concurrent-orchestration/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+  - title: Use sequential orchestration
+    link: https://learn.microsoft.com/en-us/training/modules/orchestrate-semantic-kernel-multi-agent-solution/5-use-sequential-orchestration/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+  - title: Use group chat orchestration
+    link: https://learn.microsoft.com/en-us/training/modules/orchestrate-semantic-kernel-multi-agent-solution/6-use-group-chat-orchestration/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+  - title: Use handoff orchestration
+    link: https://learn.microsoft.com/en-us/training/modules/orchestrate-semantic-kernel-multi-agent-solution/7-use-handoff-orchestration/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+  - title: Use Magentic orchestration
+    link: https://learn.microsoft.com/en-us/training/modules/orchestrate-semantic-kernel-multi-agent-solution/8-use-magentic-orchestration/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+  - title: Exercise - Develop a multi-agent solution
+    link: https://learn.microsoft.com/en-us/training/modules/orchestrate-semantic-kernel-multi-agent-solution/9-exercise/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+  - title: Knowledge check
+    link: https://learn.microsoft.com/en-us/training/modules/orchestrate-semantic-kernel-multi-agent-solution/10-knowledge-check/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/orchestrate-semantic-kernel-multi-agent-solution/11-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+
+- title: Discover Azure AI Agents with A2A
+  link: https://learn.microsoft.com/en-us/training/modules/discover-agents-with-a2a/
+  description: |
+    Learn how to implement the A2A protocol to enable agent discovery, direct communication, and coordinated task execution across remote agents.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/discover-agents-with-a2a/1-introduction/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+  - title: Define an A2A agent
+    link: https://learn.microsoft.com/en-us/training/modules/discover-agents-with-a2a/2-define-a2a-agent/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+  - title: Implement an agent executor
+    link: https://learn.microsoft.com/en-us/training/modules/discover-agents-with-a2a/3-implement-agent-executor/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+  - title: Host an A2A server
+    link: https://learn.microsoft.com/en-us/training/modules/discover-agents-with-a2a/4-host-a2a-agent-server/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+  - title: Connect to your A2A agent
+    link: https://learn.microsoft.com/en-us/training/modules/discover-agents-with-a2a/5-connect-to-a2a-agent/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+  - title: Exercise - Connect to remote Azure AI Agents with the A2A protocol
+    link: https://learn.microsoft.com/en-us/training/modules/discover-agents-with-a2a/6-exercise/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/discover-agents-with-a2a/7-knowledge-check/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/discover-agents-with-a2a/8-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.develop-ai-agent-on-azure
