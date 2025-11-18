@@ -25,146 +25,26 @@ jumpTos:
   link: https://learn.microsoft.com/en-us/credentials/certifications/data-analyst-associate/?practice-assessment-type=certification#:~:text=Renew%20your%20certification-,Certification%20resources,-Show%20less
 modules:
 - title: Design and manage analytics solutions using Power BI
-  id: pl300-ms-data-analytics
+  id: pl300-analytics
   link: https://learn.microsoft.com/en-us/training/courses/pl-300t00/
   image: https://learn.microsoft.com/media/learn/credential/badges/course.svg
-  description: |
-    This course covers the various methods and best practices that are in line
-    with business and technical requirements for modeling, visualizing, and
-    analyzing data with Power BI. The course will show how to access and process
-    data from a range of data sources including both relational and
-    non-relational sources. Finally, this course will also discuss how to manage
-    and deploy reports and dashboards for sharing and content distribution.
-  learningPaths:
-  - title: Get started with Microsoft data analytics
-    id: pl300-ms-data-analytics-01
-    link: https://learn.microsoft.com/en-us/training/paths/data-analytics-microsoft/
-    modules:
-    - title: Discover data analysis
-      id: pl300-ms-data-analytics-01-01
-      link: https://learn.microsoft.com/en-us/training/modules/data-analytics-microsoft/
-      description: |
-        Would you like to explore the journey of a data analyst and learn how a data analyst tells a story with data? In this module, you explore the different roles in data and learn the different tasks of a data analyst.
-      submodules:
-      - title: Introduction
-        id: pl300-ms-data-analytics-01-01-01
-        links: https://learn.microsoft.com/en-us/training/modules/data-analytics-microsoft/1-introduction/
-      - title: Overview of data analysis
-        id: pl300-ms-data-analytics-01-01-02
-        links: https://learn.microsoft.com/en-us/training/modules/data-analytics-microsoft/2-data-analysis/
-      - title: Roles in data
-        id: pl300-ms-data-analytics-01-01-03
-        links: https://learn.microsoft.com/en-us/training/modules/data-analytics-microsoft/3-roles/
-      - title: Tasks of a data analyst
-        id: pl300-ms-data-analytics-01-01-04
-        links: https://learn.microsoft.com/en-us/training/modules/data-analytics-microsoft/4-tasks/
-      - title: Check your knowledge
-        id: pl300-ms-data-analytics-01-01-05
-        links: https://learn.microsoft.com/en-us/training/modules/data-analytics-microsoft/5-check/
-      - title: Summary
-        id: pl300-ms-data-analytics-01-01-06
-        links: https://learn.microsoft.com/en-us/training/modules/data-analytics-microsoft/6-summary/
-    - title: Get started building with Power BI
-      id: pl300-ms-data-analytics-01-02
-      link: https://learn.microsoft.com/en-us/training/modules/get-started-with-power-bi/
-      description: |
-        Learn about Power BI, the building blocks and flow of Power BI, and how to create compelling, interactive reports.
-      submodules:
-      - title: Introduction
-        id: pl300-ms-data-analytics-01-02-01
-        links: https://learn.microsoft.com/en-us/training/modules/get-started-with-power-bi/1-introduction/
-      - title: Use Power BI
-        id: pl300-ms-data-analytics-01-02-02
-        links: https://learn.microsoft.com/en-us/training/modules/get-started-with-power-bi/2-using-power-bi/
-      - title: Building blocks of Power BI
-        id: pl300-ms-data-analytics-01-02-03
-        links: https://learn.microsoft.com/en-us/training/modules/get-started-with-power-bi/3-building-blocks-of-power-bi/
-      - title: Tour and use the Power BI service
-        id: pl300-ms-data-analytics-01-02-04
-        links: https://learn.microsoft.com/en-us/training/modules/get-started-with-power-bi/4-exercise-touring-and-using-power-bi/
-      - title: Knowledge check
-        id: pl300-ms-data-analytics-01-02-05
-        links: https://learn.microsoft.com/en-us/training/modules/get-started-with-power-bi/6-get-started-with-power-bi-quiz/
-      - title: Summary
-        id: pl300-ms-data-analytics-01-02-06
-        links: https://learn.microsoft.com/en-us/training/modules/get-started-with-power-bi/5-summary-cleanup/
-    - title: Introduction to end-to-end analytics using Microsoft Fabric
-      id: pl300-ms-data-analytics-01-03
-      link: https://learn.microsoft.com/en-us/training/modules/introduction-end-analytics-use-microsoft-fabric/
-      description: |
-        Discover how Microsoft Fabric can meet your enterprise's analytics needs in one platform. Learn about Microsoft Fabric, how it works, and identify how you can use it for your analytics needs.
-      submodules:
-      - title: Introduction
-        id: pl300-ms-data-analytics-01-03-01
-        links: https://learn.microsoft.com/en-us/training/modules/introduction-end-analytics-use-microsoft-fabric/1-introduction/
-      - title: Explore end-to-end analytics with Microsoft Fabric
-        id: pl300-ms-data-analytics-01-03-02
-        links: https://learn.microsoft.com/en-us/training/modules/introduction-end-analytics-use-microsoft-fabric/2-explore-analytics-fabric/
-      - title: Explore data teams and Microsoft Fabric
-        id: pl300-ms-data-analytics-01-03-03
-        links: https://learn.microsoft.com/en-us/training/modules/introduction-end-analytics-use-microsoft-fabric/3-data-team/
-      - title: Enable and use Microsoft Fabric
-        id: pl300-ms-data-analytics-01-03-04
-        links: https://learn.microsoft.com/en-us/training/modules/introduction-end-analytics-use-microsoft-fabric/4-use-fabric/
-      - title: Module assessment
-        id: pl300-ms-data-analytics-01-03-05
-        links: https://learn.microsoft.com/en-us/training/modules/introduction-end-analytics-use-microsoft-fabric/5-knowledge-check/
-      - title: Summary
-        id: pl300-ms-data-analytics-01-03-06
-        links: https://learn.microsoft.com/en-us/training/modules/introduction-end-analytics-use-microsoft-fabric/6-summary/
-    - title: Get started with Copilot in Power BI
-      id: pl300-ms-data-analytics-01-04
-      link: https://learn.microsoft.com/en-us/training/modules/power-bi-copilot/
-      description: |
-        Copilot in Power BI increases productivity when developing semantic models and reports using Power BI. Copilot also allows you to interact with your data using natural language to gain insights.
-      submodules:
-      - title: Introduction
-        id: pl300-ms-data-analytics-01-04-01
-        links: https://learn.microsoft.com/en-us/training/modules/power-bi-copilot/1-introduction/
-      - title: Use Copilot in Power BI to prepare and model data
-        id: pl300-ms-data-analytics-01-04-02
-        links: https://learn.microsoft.com/en-us/training/modules/power-bi-copilot/2-prepare-data-copilot/
-      - title: Create reports with Copilot in Power BI
-        id: pl300-ms-data-analytics-01-04-03
-        links: https://learn.microsoft.com/en-us/training/modules/power-bi-copilot/3-create-reports-copilot/
-      - title: Get your data ready for AI usage in Power BI
-        id: pl300-ms-data-analytics-01-04-04
-        links: https://learn.microsoft.com/en-us/training/modules/power-bi-copilot/4-prep-data-for-ai/
-      - title: Module assessment
-        id: pl300-ms-data-analytics-01-04-05
-        links: https://learn.microsoft.com/en-us/training/modules/power-bi-copilot/6-knowledge-check/
-      - title: Summary
-        id: pl300-ms-data-analytics-01-04-06
-        links: https://learn.microsoft.com/en-us/training/modules/power-bi-copilot/7-summary/
-  - title: Prepare data for analysis with Power BI
-    id: pl300-ms-data-analytics-02
-    link: https://learn.microsoft.com/en-us/training/paths/prepare-data-power-bi/
-  - title: Model data with Power BI
-    id: pl300-ms-data-analytics-03
-    link: https://learn.microsoft.com/en-us/training/paths/model-data-power-bi/
-  - title: Design effective reports in Power BI
-    id: pl300-ms-data-analytics-04
-    link: https://learn.microsoft.com/en-us/training/paths/power-bi-effective/
-  - title: Manage and secure Power BI
-    id: pl300-ms-data-analytics-05
-    link: https://learn.microsoft.com/en-us/training/paths/manage-secure-power-bi/
 - title: Get started with Microsoft data analytics
-  id: pl300-get-started
+  id: pl300-getstarted
   link: https://learn.microsoft.com/training/paths/data-analytics-microsoft/
   image: https://learn.microsoft.com/training/achievements/overview-data-analysis-power-bi.svg
 - title: Prepare data for analysis with Power BI
-  id: pl300-prepare-data
+  id: pl300-prepare
   link: https://learn.microsoft.com/training/paths/prepare-data-power-bi/
   image: https://learn.microsoft.com/training/achievements/data-preparation-in-power-bi.svg
 - title: Model data with Power BI
-  id: pl300-data-models
+  id: pl300-models
   link: https://learn.microsoft.com/training/paths/model-data-power-bi/
   image: https://learn.microsoft.com/en-us/training/achievements/model-data-power-bi.svg
 - title: Design effective reports in Power BI
-  id: pl300-effective-reports
+  id: pl300-reports
   link: https://learn.microsoft.com/training/paths/power-bi-effective/
   image: https://learn.microsoft.com/training/achievements/power-bi-effective.svg
 - title: Manage and secure Power BI
-  id: pl300-manage-and-secure
+  id: pl300-manage
   link: https://learn.microsoft.com/training/paths/manage-secure-power-bi/
   image: https://learn.microsoft.com/training/achievements/deploy-and-maintain-data-in-power-bi.svg

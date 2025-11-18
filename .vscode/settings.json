@@ -7,5 +7,7 @@
         "/assets/libs/bootstrap/dist/css/bootstrap.min.css",
         "/assets/libs/bootstrap-icons/dist/bootstrap-icons.min.css",
         "/assets/libs/jquery-ui\\dist/jquery-ui.min.css"
-    ]
+    ],
+    "codeQL.githubDatabase.download": "never",
+    "sarif-viewer.connectToGithubCodeScanning": "off"
 }
