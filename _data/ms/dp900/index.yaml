@@ -1,0 +1,50 @@
+title: 'Microsoft Certified: Azure Data Fundamentals'
+link: https://learn.microsoft.com/en-us/credentials/certifications/azure-data-fundamentals/
+level: Beginner
+product: Azure
+role: Data Engineer
+subject: Databases
+
+jumpTos:
+- title: Prepare for the exam
+  link: https://learn.microsoft.com/en-us/credentials/certifications/azure-data-fundamentals/?practice-assessment-type=certification#certification-prepare-for-the-exam
+- title: Practice for the exam
+  link: https://learn.microsoft.com/en-us/credentials/certifications/azure-data-fundamentals/?practice-assessment-type=certification#certification-practice-for-the-exam
+- title: Take the exam
+  link: https://learn.microsoft.com/en-us/credentials/certifications/azure-data-fundamentals/?practice-assessment-type=certification#certification-take-the-exam
+- title: Certification resources
+  link: https://learn.microsoft.com/en-us/credentials/certifications/azure-data-fundamentals/?practice-assessment-type=certification#certification-resources
+
+description: |
+  ## Overview
+
+  This certification is an opportunity to demonstrate your knowledge of core data concepts and related Microsoft Azure
+  data services. As a candidate for this exam, you should have familiarity with Exam DP-900’s self-paced or
+  instructor-led learning material.
+
+  This certification is intended for you, if you're a candidate beginning to work with data in the cloud.
+
+  You should be familiar with: The concepts of relational and non-relational data and different types of data workloads
+  such as transactional or analytical.
+
+modules:
+- title: Introduction to Microsoft Azure Data
+  link: https://learn.microsoft.com/en-us/training/courses/dp-900t00/
+  id: dp900-course
+  image: https://learn.microsoft.com/media/learn/credential/badges/course.svg
+- title: Introduction to Microsoft Azure Data core data concepts
+  link: https://learn.microsoft.com/training/paths/azure-data-fundamentals-explore-core-data-concepts/
+  id: dp900-core
+  image: https://learn.microsoft.com/training/achievements/azure-data-fundamentals-explore-core-data-concepts.svg
+- title: Introduction to Microsoft Azure Data relational data in Azure
+  link: https://learn.microsoft.com/training/paths/azure-data-fundamentals-explore-relational-data/
+  id: dp900-relational
+  image: https://learn.microsoft.com/training/achievements/azure-data-fundamentals-explore-relational-data.svg
+- title: Introduction to Microsoft Azure Data non-relational data in Azure
+  link: https://learn.microsoft.com/training/paths/azure-data-fundamentals-explore-non-relational-data/
+  id: dp900-nonrelational
+  image: https://learn.microsoft.com/training/achievements/azure-data-fundamentals-explore-non-relational-data.svg
+- title: Introduction to Microsoft Azure Data analytics in Azure
+  link:  https://learn.microsoft.com/training/paths/azure-data-fundamentals-explore-data-warehouse-analytics/
+  id: dp900-analytics
+  image: https://learn.microsoft.com/training/achievements/azure-data-fundamentals-explore-data-warehouse-analytics.svg
