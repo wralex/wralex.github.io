@@ -1,0 +1,219 @@
+title: Develop natural language solutions in Azure
+link: https://learn.microsoft.com/en-us/training/paths/develop-language-solutions-azure-ai/
+level: Intermediate
+product: Azure AI services, Azure AI Foundry
+role: AI Engineer, Developer
+subject: Natural language processing
+description: |
+  Natural language solutions use language models to interpret the semantic meaning of written or spoken language, and in some cases respond based on that meaning. You can use the Language service to build language models for your applications, and explore Microsoft Foundry to use generative models for speech.
+modules:
+- title: Analyze text with Azure Language
+  link: https://learn.microsoft.com/en-us/training/modules/analyze-text-ai-language/
+  description: |
+    The Azure Language service enables you to create intelligent apps and services that extract semantic information from text.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/analyze-text-ai-language/1-introduction/
+  - title: Provision an Azure Language resource
+    link: https://learn.microsoft.com/en-us/training/modules/analyze-text-ai-language/2-provision-resource/
+  - title: Detect language
+    link: https://learn.microsoft.com/en-us/training/modules/analyze-text-ai-language/3-detect-language/
+  - title: Extract key phrases
+    link: https://learn.microsoft.com/en-us/training/modules/analyze-text-ai-language/4-extract-key-phrases/
+  - title: Analyze sentiment
+    link: https://learn.microsoft.com/en-us/training/modules/analyze-text-ai-language/5-analyze-sentiment/
+  - title: Extract entities
+    link: https://learn.microsoft.com/en-us/training/modules/analyze-text-ai-language/6-extract-entities/
+  - title: Extract linked entities
+    link: https://learn.microsoft.com/en-us/training/modules/analyze-text-ai-language/7-extract-linked-entities/
+  - title: Exercise - Analyze text
+    link: https://learn.microsoft.com/en-us/training/modules/analyze-text-ai-language/8-exercise-analyze-text/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/analyze-text-ai-language/9-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/analyze-text-ai-language/10-summary/
+- title: Create question answering solutions with Azure Language
+  link: https://learn.microsoft.com/en-us/training/modules/create-question-answer-solution-ai-language/
+  description: |
+    The question answering capability of the Azure Language service makes it easy to build applications in which users ask questions using natural language and receive appropriate answers.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/create-question-answer-solution-ai-language/1-introduction/
+  - title: Understand question answering
+    link: https://learn.microsoft.com/en-us/training/modules/create-question-answer-solution-ai-language/2-understand-question-answer-capability/
+  - title: Compare question answering to Azure Language understanding
+    link: https://learn.microsoft.com/en-us/training/modules/create-question-answer-solution-ai-language/3-compare-to-language-understanding/
+  - title: Create a knowledge base
+    link: https://learn.microsoft.com/en-us/training/modules/create-question-answer-solution-ai-language/4-create-knowledge-base/
+  - title: Implement multi-turn conversation
+    link: https://learn.microsoft.com/en-us/training/modules/create-question-answer-solution-ai-language/5-implement-multi-turn-conversation/
+  - title: Test and publish a knowledge base
+    link: https://learn.microsoft.com/en-us/training/modules/create-question-answer-solution-ai-language/6-test-publish-knowledge-base/
+  - title: Use a knowledge base
+    link: https://learn.microsoft.com/en-us/training/modules/create-question-answer-solution-ai-language/7-consume-client-interfaces/
+  - title: Improve question answering performance
+    link: https://learn.microsoft.com/en-us/training/modules/create-question-answer-solution-ai-language/8-implement-active-learning/
+  - title: Exercise - Create a question answering solution
+    link: https://learn.microsoft.com/en-us/training/modules/create-question-answer-solution-ai-language/10-exercise-create/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/create-question-answer-solution-ai-language/11-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/create-question-answer-solution-ai-language/12-summary/
+- title: Build a conversational language understanding model
+  link: https://learn.microsoft.com/en-us/training/modules/build-language-understanding-model/
+  description: |
+    The Azure Language conversational language understanding service (CLU) enables you to train a model that apps can use to extract meaning from natural language.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/build-language-understanding-model/1-introduction/
+  - title: Understand prebuilt capabilities of the Azure Language service
+    link: https://learn.microsoft.com/en-us/training/modules/build-language-understanding-model/2a-understand-prebuilt-capabilities/
+  - title: Understand resources for building a conversational language understanding model
+    link: https://learn.microsoft.com/en-us/training/modules/build-language-understanding-model/2-understand-resources-for-building/
+  - title: Define intents, utterances, and entities
+    link: https://learn.microsoft.com/en-us/training/modules/build-language-understanding-model/3-define-intents-utterances-entities/
+  - title: Use patterns to differentiate similar utterances
+    link: https://learn.microsoft.com/en-us/training/modules/build-language-understanding-model/4-use-patterns-differentiate-similar-utterances/
+  - title: Use pre-built entity components
+    link: https://learn.microsoft.com/en-us/training/modules/build-language-understanding-model/5-use-pre-built-entity-components/
+  - title: Train, test, publish, and review a conversational language understanding model
+    link: https://learn.microsoft.com/en-us/training/modules/build-language-understanding-model/6-train-test-publish-review/
+  - title: Exercise - Build a conversational language understanding model
+    link: https://learn.microsoft.com/en-us/training/modules/build-language-understanding-model/7-exercise/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/build-language-understanding-model/8-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/build-language-understanding-model/9-summary/
+- title: Create custom text classification solutions
+  link: https://learn.microsoft.com/en-us/training/modules/custom-text-classification/
+  description: |
+    The Azure Language service enables processing of natural language to use in your own app. Learn how to build a custom text classification project.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/custom-text-classification/1-introduction/
+  - title: Understand types of classification projects
+    link: https://learn.microsoft.com/en-us/training/modules/custom-text-classification/2-understand-types-of-classification-projects/
+  - title: Understand how to build text classification projects
+    link: https://learn.microsoft.com/en-us/training/modules/custom-text-classification/3-understand-how-to-build-projects/
+  - title: Exercise - Classify text
+    link: https://learn.microsoft.com/en-us/training/modules/custom-text-classification/4-exercise-classify-text/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/custom-text-classification/5-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/custom-text-classification/6-summary/
+- title: Custom named entity recognition
+  link: https://learn.microsoft.com/en-us/training/modules/custom-name-entity-recognition/
+  description: |
+    Build a custom entity recognition solution to extract entities from unstructured documents
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/custom-name-entity-recognition/1-introduction/
+  - title: Understand custom named entity recognition
+    link: https://learn.microsoft.com/en-us/training/modules/custom-name-entity-recognition/2-understand-custom-named/
+  - title: Label your data
+    link: https://learn.microsoft.com/en-us/training/modules/custom-name-entity-recognition/3-tag-your-data/
+  - title: Train and evaluate your model
+    link: https://learn.microsoft.com/en-us/training/modules/custom-name-entity-recognition/4-train-evaluate-your-model/
+  - title: Exercise - Extract custom entities
+    link: https://learn.microsoft.com/en-us/training/modules/custom-name-entity-recognition/5-exercise-extract-custom-entities/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/custom-name-entity-recognition/6-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/custom-name-entity-recognition/7-summary/
+- title: Translate text with Azure Translator service
+  link: https://learn.microsoft.com/en-us/training/modules/translate-text-with-translator-service/
+  description: |
+    The Translator service enables you to create intelligent apps and services that can translate text between languages.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/translate-text-with-translator-service/1-introduction/
+  - title: Provision an Azure Translator resource
+    link: https://learn.microsoft.com/en-us/training/modules/translate-text-with-translator-service/2-provision-translator-resource/
+  - title: Understand language detection, translation, and transliteration
+    link: https://learn.microsoft.com/en-us/training/modules/translate-text-with-translator-service/3-understand-language-detection-translation-transliteration/
+  - title: Specify translation options
+    link: https://learn.microsoft.com/en-us/training/modules/translate-text-with-translator-service/4-specify-translation-options/
+  - title: Define custom translations
+    link: https://learn.microsoft.com/en-us/training/modules/translate-text-with-translator-service/5-define-custom-translations/
+  - title: Exercise - Translate text with the Azure Translator service
+    link: https://learn.microsoft.com/en-us/training/modules/translate-text-with-translator-service/6-exercise-translate-text/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/translate-text-with-translator-service/7-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/translate-text-with-translator-service/8-summary/
+- title: Create speech-enabled apps with Microsoft Foundry
+  link: https://learn.microsoft.com/en-us/training/modules/create-speech-enabled-apps/
+  description: |
+    The Azure Speech service enables you to build speech-enabled applications. This module focuses on using the speech-to-text and text to speech APIs, which enable you to create apps that are capable of speech recognition and speech synthesis.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/create-speech-enabled-apps/1-introduction/
+  - title: Provision an Azure resource for speech
+    link: https://learn.microsoft.com/en-us/training/modules/create-speech-enabled-apps/2-create-speech-service/
+  - title: Use the Azure Speech to Text API
+    link: https://learn.microsoft.com/en-us/training/modules/create-speech-enabled-apps/3-speech-to-text/
+  - title: Use the text to speech API
+    link: https://learn.microsoft.com/en-us/training/modules/create-speech-enabled-apps/4-text-to-speech/
+  - title: Configure audio format and voices
+    link: https://learn.microsoft.com/en-us/training/modules/create-speech-enabled-apps/5-audio-format-voices/
+  - title: Use Speech Synthesis Markup Language
+    link: https://learn.microsoft.com/en-us/training/modules/create-speech-enabled-apps/6-speech-synthesis-markup/
+  - title: Exercise - Create a speech-enabled app
+    link: https://learn.microsoft.com/en-us/training/modules/create-speech-enabled-apps/7-exercise-speech-app/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/create-speech-enabled-apps/8-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/create-speech-enabled-apps/9-summary/
+- title: Translate speech with the Azure Speech service
+  link: https://learn.microsoft.com/en-us/training/modules/translate-speech-speech-service/
+  description: |
+    Translation of speech builds on speech recognition by recognizing and transcribing spoken input in a specified language, and returning translations of the transcription in one or more other languages.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/translate-speech-speech-service/1-introduction/
+  - title: Provision an Azure resource for speech translation
+    link: https://learn.microsoft.com/en-us/training/modules/translate-speech-speech-service/2-speech-service/
+  - title: Translate speech to text
+    link: https://learn.microsoft.com/en-us/training/modules/translate-speech-speech-service/3-translate-speech-text/
+  - title: Synthesize translations
+    link: https://learn.microsoft.com/en-us/training/modules/translate-speech-speech-service/4-synthesize-translation/
+  - title: Exercise - Translate speech
+    link: https://learn.microsoft.com/en-us/training/modules/translate-speech-speech-service/5-exercise-translate-speech/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/translate-speech-speech-service/6-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/translate-speech-speech-service/7-summary/
+- title: Develop an audio-enabled generative AI application
+  link: https://learn.microsoft.com/en-us/training/modules/develop-generative-ai-audio-apps/
+  description: |
+    A voice carries meaning beyond words, and audio-enabled generative AI models can interpret spoken input to understand tone, intent, and language. Learn how to build audio-enabled chat apps that listen and respond to audio.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/develop-generative-ai-audio-apps/1-introduction/
+  - title: Deploy a multimodal model
+    link: https://learn.microsoft.com/en-us/training/modules/develop-generative-ai-audio-apps/2-deploy-multimodal-model/
+  - title: Develop an audio-based chat app
+    link: https://learn.microsoft.com/en-us/training/modules/develop-generative-ai-audio-apps/3-develop-audio-chat-app/
+  - title: Exercise - Develop an audio-enabled chat app
+    link: https://learn.microsoft.com/en-us/training/modules/develop-generative-ai-audio-apps/4-exercise/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/develop-generative-ai-audio-apps/5-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/develop-generative-ai-audio-apps/6-summary/
+- title: Develop an Azure AI Voice Live agent
+  link: https://learn.microsoft.com/en-us/training/modules/develop-voice-live-agent/
+  description: |
+    Learn how to develop an Azure AI Voice Live agent using the Voice Live API and SDK. This module covers the fundamentals of the Voice Live platform, including API integration, SDK usage, and building conversational AI agents.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/develop-voice-live-agent/1-introduction/
+  - title: Explore the Azure Voice Live API
+    link: https://learn.microsoft.com/en-us/training/modules/develop-voice-live-agent/2-voice-live-api/
+  - title: Explore the AI Voice Live client library for Python
+    link: https://learn.microsoft.com/en-us/training/modules/develop-voice-live-agent/3-voice-live-sdk/
+  - title: Exercise - Develop an Azure AI Voice Live agent
+    link: https://learn.microsoft.com/en-us/training/modules/develop-voice-live-agent/4-exercise-develop-agent/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/develop-voice-live-agent/5-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/develop-voice-live-agent/6-summary/
