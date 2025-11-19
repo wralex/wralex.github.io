@@ -1,0 +1,35 @@
+title: Develop message-based solutions
+link: 
+level: Intermediate
+product: Azure Queue Storage, Azure Service Bus
+role: Developer
+description: |
+  Learn how to build applications with message-based architectures by integrating Azure Service Bus and Azure Queue Storage in to your solution.
+modules:
+- title: Discover Azure message queues
+  link: https://learn.microsoft.com/en-us/training/modules/discover-azure-message-queue/
+  description: |
+    Learn how to integrate Azure Service Bus and Azure Queue storage in to your solution, and how to send and receive message by using .NET.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/discover-azure-message-queue/1-introduction/
+  - title: Choose a message queue solution
+    link: https://learn.microsoft.com/en-us/training/modules/discover-azure-message-queue/2-choose-queue-solution/
+  - title: Explore Azure Service Bus
+    link: https://learn.microsoft.com/en-us/training/modules/discover-azure-message-queue/3-azure-service-bus-overview/
+  - title: Discover Service Bus queues, topics, and subscriptions
+    link: https://learn.microsoft.com/en-us/training/modules/discover-azure-message-queue/4-queues-topics-subscriptions/
+  - title: Explore Service Bus message payloads and serialization
+    link: https://learn.microsoft.com/en-us/training/modules/discover-azure-message-queue/5-messages-payloads-serialization/
+  - title: Exercise - Send and receive messages from Azure Service Bus
+    link: https://learn.microsoft.com/en-us/training/modules/discover-azure-message-queue/6-send-receive-messages-service-bus/
+  - title: Explore Azure Queue Storage
+    link: https://learn.microsoft.com/en-us/training/modules/discover-azure-message-queue/7-azure-queue-storage-overview/
+  - title: Create and manage Azure Queue Storage and messages by using .NET
+    link: https://learn.microsoft.com/en-us/training/modules/discover-azure-message-queue/8-queue-storage-code-examples/
+  - title: Exercise - Send and receive messages from Azure Queue storage
+    link: https://learn.microsoft.com/en-us/training/modules/discover-azure-message-queue/8a-send-receive-messages-queue-storage/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/discover-azure-message-queue/9-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/discover-azure-message-queue/10-summary/

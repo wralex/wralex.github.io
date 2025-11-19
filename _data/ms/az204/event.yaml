@@ -1,0 +1,57 @@
+title: Develop event-based solutions
+link: https://learn.microsoft.com/en-us/training/paths/az-204-develop-event-based-solutions/
+level: Intermediate
+product: Azure Event Grid, Azure Event Hubs
+role: Developer
+description: |
+  Learn how to build applications with event-based architectures by integrating Azure Event Grid and Azure Event Hubs in to your solution.
+modules:
+- title: Explore Azure Event Grid
+  link: https://learn.microsoft.com/en-us/training/modules/azure-event-grid/
+  description: |
+    Learn how to integrate Azure Event Grid in to your solution, implement access control to events, and how to route custom events to web endpoint by using Azure CLI.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/azure-event-grid/1-introduction/
+  - title: Explore Azure Event Grid
+    link: https://learn.microsoft.com/en-us/training/modules/azure-event-grid/2-event-grid-overview/
+  - title: Discover event schemas
+    link: https://learn.microsoft.com/en-us/training/modules/azure-event-grid/3-event-grid-schema/
+  - title: Explore event delivery durability
+    link: https://learn.microsoft.com/en-us/training/modules/azure-event-grid/4-event-grid-delivery-retry/
+  - title: Control access to events
+    link: https://learn.microsoft.com/en-us/training/modules/azure-event-grid/5-authorize-access-event-grid/
+  - title: Receive events by using webhooks
+    link: https://learn.microsoft.com/en-us/training/modules/azure-event-grid/6-webhook-event-delivery/
+  - title: Filter events
+    link: https://learn.microsoft.com/en-us/training/modules/azure-event-grid/7-event-grid-filtering/
+  - title: Exercise - Route events to a custom endpoint with Event Grid
+    link: https://learn.microsoft.com/en-us/training/modules/azure-event-grid/8-event-grid-custom-events/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/azure-event-grid/9-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/azure-event-grid/10-summary/
+
+- title: Explore Azure Event Hubs
+  link: https://learn.microsoft.com/en-us/training/modules/azure-event-hubs/
+  description: |
+    Learn how Azure Event Hubs captures events and how to scale your processing application.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/azure-event-hubs/1-introduction/
+  - title: Discover Azure Event Hubs
+    link: https://learn.microsoft.com/en-us/training/modules/azure-event-hubs/2-event-hubs-overview/
+  - title: Explore Event Hubs Capture
+    link: https://learn.microsoft.com/en-us/training/modules/azure-event-hubs/3-event-hubs-capture/
+  - title: Scale your processing application
+    link: https://learn.microsoft.com/en-us/training/modules/azure-event-hubs/4-event-processing/
+  - title: Control access to events
+    link: https://learn.microsoft.com/en-us/training/modules/azure-event-hubs/5-event-hubs-authentication-authorization/
+  - title: Perform common operations with the Event Hubs client library
+    link: https://learn.microsoft.com/en-us/training/modules/azure-event-hubs/6-event-hubs-programming-guide/
+  - title: Exercise - Send and retrieve events from Azure Event Hubs
+    link: https://learn.microsoft.com/en-us/training/modules/azure-event-hubs/6a-event-hubs-send-receive/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/azure-event-hubs/7-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/azure-event-hubs/8-summary/
