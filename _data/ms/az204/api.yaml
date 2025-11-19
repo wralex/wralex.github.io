@@ -1,0 +1,33 @@
+title: Implement API Management
+link: https://learn.microsoft.com/en-us/training/paths/az-204-implement-api-management/
+level: Intermediate
+product: Azure API Management
+role: Developer
+description: |
+  Learn how the API Management service functions, how to transform and secure APIs, and how to create a backend API.
+modules:
+- title: Explore API Management
+  link: https://learn.microsoft.com/en-us/training/modules/explore-api-management/
+  description: |
+    Learn how the API Management service functions, how to transform and secure APIs, and how to create a backend API.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/explore-api-management/1-introduction/
+  - title: Discover the API Management service
+    link: https://learn.microsoft.com/en-us/training/modules/explore-api-management/2-api-management-overview/
+  - title: Explore API gateways
+    link: https://learn.microsoft.com/en-us/training/modules/explore-api-management/3-api-gateways/
+  - title: Explore API Management policies
+    link: https://learn.microsoft.com/en-us/training/modules/explore-api-management/4-api-management-policies/
+  - title: Create advanced policies
+    link: https://learn.microsoft.com/en-us/training/modules/explore-api-management/5-create-advanced-policies/
+  - title: Secure APIs by using subscriptions
+    link: https://learn.microsoft.com/en-us/training/modules/explore-api-management/6-secure-access-api-subscriptions/
+  - title: Secure APIs by using certificates
+    link: https://learn.microsoft.com/en-us/training/modules/explore-api-management/7-secure-access-api-certificates/
+  - title: Exercise - Import and configure an API with Azure API Management
+    link: https://learn.microsoft.com/en-us/training/modules/explore-api-management/8-exercise-import-api/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/explore-api-management/9-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/explore-api-management/10-summary/
