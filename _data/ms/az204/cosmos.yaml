@@ -1,0 +1,52 @@
+title: Develop solutions that use Azure Cosmos DB
+link: https://learn.microsoft.com/en-us/training/paths/az-204-develop-solutions-that-use-azure-cosmos-db/
+level: Intermediate
+product: Azure, Azure Cosmos DB
+role: Developer
+subject: Databases
+description: |
+  Learn how to create Azure Cosmos DB resources with the appropriate consistency levels, and perform data operations by using the .NET SDK V3 for Azure Cosmos DB.
+modules:
+- title: Explore Azure Cosmos DB
+  link: https://learn.microsoft.com/en-us/training/modules/explore-azure-cosmos-db/
+  description: Learn the core features and functionality of Azure Cosmos DB.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/explore-azure-cosmos-db/1-introduction/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-204-develop-solutions-that-use-azure-cosmos-db
+  - title: Identify key benefits of Azure Cosmos DB
+    link: https://learn.microsoft.com/en-us/training/modules/explore-azure-cosmos-db/2-cosmos-db-benefits/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-204-develop-solutions-that-use-azure-cosmos-db
+  - title: Explore the resource hierarchy
+    link: https://learn.microsoft.com/en-us/training/modules/explore-azure-cosmos-db/3-cosmos-db-resource-hierarchy/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-204-develop-solutions-that-use-azure-cosmos-db
+  - title: Explore consistency levels
+    link: https://learn.microsoft.com/en-us/training/modules/explore-azure-cosmos-db/4-cosmos-db-consistency-levels-overview/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-204-develop-solutions-that-use-azure-cosmos-db
+  - title: Choose the right consistency level
+    link: https://learn.microsoft.com/en-us/training/modules/explore-azure-cosmos-db/5-choose-cosmos-db-consistency-level/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-204-develop-solutions-that-use-azure-cosmos-db
+  - title: Explore supported APIs
+    link: https://learn.microsoft.com/en-us/training/modules/explore-azure-cosmos-db/6-cosmos-db-supported-apis/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-204-develop-solutions-that-use-azure-cosmos-db
+  - title: Discover request units
+    link: https://learn.microsoft.com/en-us/training/modules/explore-azure-cosmos-db/7-cosmos-db-request-units/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-204-develop-solutions-that-use-azure-cosmos-db
+  - title: 'Exercise: Create Azure Cosmos DB resources by using the Azure portal'
+    link: https://learn.microsoft.com/en-us/training/modules/explore-azure-cosmos-db/8-create-cosmos-db-resources-portal/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-204-develop-solutions-that-use-azure-cosmos-db
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/explore-azure-cosmos-db/9-knowledge-check/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-204-develop-solutions-that-use-azure-cosmos-db
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/explore-azure-cosmos-db/10-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-204-develop-solutions-that-use-azure-cosmos-db
+- title: Work with Azure Cosmos DB
+  link: https://learn.microsoft.com/en-us/training/modules/work-with-cosmos-db/
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/work-with-cosmos-db/1-introduction/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-204-develop-solutions-that-use-azure-cosmos-db
+  - title: Explore Microsoft .NET SDK v3 for Azure Cosmos DB
+    link: https://learn.microsoft.com/en-us/training/modules/work-with-cosmos-db/2-cosmos-db-dotnet-overview/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-204-develop-solutions-that-use-azure-cosmos-db
+  - title: Exercise - Create resources in Azure Cosmos DB for NoSQL using .NET
+    link: https://learn.microsoft.com/en-us/training/modules/work-with-cosmos-db/3-exercise-work-cosmos-db-dotnet/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-204-develop-solutions-that-use-azure-cosmos-db
+  - title: Create stored procedures
+    link: https://learn.microsoft.com/en-us/training/modules/work-with-cosmos-db/4-cosmos-db-stored-procedures/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-204-develop-solutions-that-use-azure-cosmos-db
+  - title: Create triggers and user-defined functions
+    link: https://learn.microsoft.com/en-us/training/modules/work-with-cosmos-db/5-cosmos-db-triggers-user-defined-functions/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-204-develop-solutions-that-use-azure-cosmos-db
+  - title: Explore change feed in Azure Cosmos DB
+    link: https://learn.microsoft.com/en-us/training/modules/work-with-cosmos-db/6-cosmos-db-change-feed/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-204-develop-solutions-that-use-azure-cosmos-db
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/work-with-cosmos-db/7-knowledge-check/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-204-develop-solutions-that-use-azure-cosmos-db
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/work-with-cosmos-db/8-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.az-204-develop-solutions-that-use-azure-cosmos-db

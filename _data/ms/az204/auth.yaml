@@ -1,0 +1,87 @@
+title: Implement user authentication and authorization
+link: https://learn.microsoft.com/en-us/training/paths/az-204-implement-authentication-authorization/
+level: Intermediate
+skill: Implement user authentication and authorization in Azure
+product: Azure SDKs, Microsoft Identity Web Authentication Library
+role: Developer
+subject: Identity and access
+description: |
+  Learn how to implement authentication and authorization to resources by using the Microsoft identity platform, Microsoft Authentication Library, shared access signatures, and use Microsoft Graph.
+modules:
+- title: Explore the Microsoft identity platform
+  link: https://learn.microsoft.com/en-us/training/modules/explore-microsoft-identity-platform/
+  description: |
+    Learn the core features and functionality of the Microsoft identity platform including authentication, libraries, and app management tools.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/explore-microsoft-identity-platform/1-introduction/
+  - title: Explore the Microsoft identity platform
+    link: https://learn.microsoft.com/en-us/training/modules/explore-microsoft-identity-platform/2-microsoft-identity-platform-overview/
+  - title: Explore service principals
+    link: https://learn.microsoft.com/en-us/training/modules/explore-microsoft-identity-platform/3-app-service-principals/
+  - title: Discover permissions and consent
+    link: https://learn.microsoft.com/en-us/training/modules/explore-microsoft-identity-platform/4-permission-consent/
+  - title: Discover conditional access
+    link: https://learn.microsoft.com/en-us/training/modules/explore-microsoft-identity-platform/5-conditional-access/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/explore-microsoft-identity-platform/6-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/explore-microsoft-identity-platform/7-summary/
+
+- title: Implement authentication by using the Microsoft Authentication Library
+  link: https://learn.microsoft.com/en-us/training/modules/implement-authentication-by-using-microsoft-authentication-library/
+  description: |
+    Learn how to implement authentication by using the Microsoft Authentication Library.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/implement-authentication-by-using-microsoft-authentication-library/1-introduction/
+  - title: Explore the Microsoft Authentication Library
+    link: https://learn.microsoft.com/en-us/training/modules/implement-authentication-by-using-microsoft-authentication-library/2-microsoft-authentication-library-overview/
+  - title: Initialize client applications
+    link: https://learn.microsoft.com/en-us/training/modules/implement-authentication-by-using-microsoft-authentication-library/3-initialize-client-applications/
+  - title: Exercise - Implement interactive authentication with MSAL.NET
+    link: https://learn.microsoft.com/en-us/training/modules/implement-authentication-by-using-microsoft-authentication-library/4-interactive-authentication-msal/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/implement-authentication-by-using-microsoft-authentication-library/5-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/implement-authentication-by-using-microsoft-authentication-library/6-summary/
+
+- title: Implement shared access signatures
+  link: https://learn.microsoft.com/en-us/training/modules/implement-shared-access-signatures/
+  description: |
+    Learn how to use shared access signatures to authorize access to storage resources.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/implement-shared-access-signatures/1-introduction/
+  - title: Discover shared access signatures
+    link: https://learn.microsoft.com/en-us/training/modules/implement-shared-access-signatures/2-shared-access-signatures-overview/
+  - title: Choose when to use shared access signatures
+    link: https://learn.microsoft.com/en-us/training/modules/implement-shared-access-signatures/3-shared-access-signatures/
+  - title: Explore stored access policies
+    link: https://learn.microsoft.com/en-us/training/modules/implement-shared-access-signatures/4-stored-access-policies/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/implement-shared-access-signatures/5-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/implement-shared-access-signatures/6-summary/
+
+- title: Explore Microsoft Graph
+  link: https://learn.microsoft.com/en-us/training/modules/microsoft-graph/
+  description: |
+    Learn how Microsoft Graph facilitates the access and flow of data and how to form queries through REST and code.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/microsoft-graph/1-introduction/
+  - title: Discover Microsoft Graph
+    link: https://learn.microsoft.com/en-us/training/modules/microsoft-graph/2-microsoft-graph-overview/
+  - title: Query Microsoft Graph by using REST
+    link: https://learn.microsoft.com/en-us/training/modules/microsoft-graph/3-microsoft-graph-api/
+  - title: Query Microsoft Graph by using SDKs
+    link: https://learn.microsoft.com/en-us/training/modules/microsoft-graph/4-microsoft-graph-sdk/
+  - title: Apply best practices to Microsoft Graph
+    link: https://learn.microsoft.com/en-us/training/modules/microsoft-graph/5-microsoft-graph-best-practices/
+  - title: Exercise - Retrieve user profile information with the Microsoft Graph SDK
+    link: https://learn.microsoft.com/en-us/training/modules/microsoft-graph/5a-exercise-microsoft-graph-user-profile/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/microsoft-graph/6-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/microsoft-graph/7-summary/

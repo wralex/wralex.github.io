@@ -1,0 +1,313 @@
+title: Introduction to AI in Azure
+level: Beginner
+product: Azure AI Foundry
+role: AI Engineer, Developer, Solution Architect, Student
+subject: Artificial intelligence
+description: |
+  This course introduces core concepts related to artificial intelligence (AI), and the services in Microsoft Azure that can be used to create AI solutions.
+modules:
+- title: Introduction to AI concepts
+  link: https://learn.microsoft.com/en-us/training/modules/get-started-ai-fundamentals/
+  description: |
+    Curious about artificial intelligence? Want to understand what all the buzz is about? This module introduces you to the world of AI.
+  submodules:
+  - title: Introduction to AI
+    link: https://learn.microsoft.com/en-us/training/modules/get-started-ai-fundamentals/1-introduction/
+  - title: Generative AI
+    link: https://learn.microsoft.com/en-us/training/modules/get-started-ai-fundamentals/2-generative-ai/
+  - title: Computer vision
+    link: https://learn.microsoft.com/en-us/training/modules/get-started-ai-fundamentals/3-computer-vision/
+  - title: Speech
+    link: https://learn.microsoft.com/en-us/training/modules/get-started-ai-fundamentals/4-speech/
+  - title: Natural language processing
+    link: https://learn.microsoft.com/en-us/training/modules/get-started-ai-fundamentals/5-natural-language-processing/
+  - title: Extract data and insights
+    link: https://learn.microsoft.com/en-us/training/modules/get-started-ai-fundamentals/6-extract-insights/
+  - title: Responsible AI
+    link: https://learn.microsoft.com/en-us/training/modules/get-started-ai-fundamentals/7-responsible-ai/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/get-started-ai-fundamentals/8-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/get-started-ai-fundamentals/9-summary/
+
+- title: Introduction to machine learning concepts
+  link: https://learn.microsoft.com/en-us/training/modules/fundamentals-machine-learning/
+  description: |
+    Machine learning is the basis for most modern artificial intelligence solutions. A familiarity with the core concepts on which machine learning is based is an important foundation for understanding AI.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/fundamentals-machine-learning/1-introduction/
+  - title: Machine learning models
+    link: https://learn.microsoft.com/en-us/training/modules/fundamentals-machine-learning/2-what-is-machine-learning/
+  - title: Types of machine learning model
+    link: https://learn.microsoft.com/en-us/training/modules/fundamentals-machine-learning/3-types-of-machine-learning/
+  - title: Regression
+    link: https://learn.microsoft.com/en-us/training/modules/fundamentals-machine-learning/4-regression/
+  - title: Binary classification
+    link: https://learn.microsoft.com/en-us/training/modules/fundamentals-machine-learning/5-binary-classification/
+  - title: Multiclass classification
+    link: https://learn.microsoft.com/en-us/training/modules/fundamentals-machine-learning/6-multiclass-classification/
+  - title: Clustering
+    link: https://learn.microsoft.com/en-us/training/modules/fundamentals-machine-learning/7-clustering/
+  - title: Deep learning
+    link: https://learn.microsoft.com/en-us/training/modules/fundamentals-machine-learning/8-deep-learning/
+  - title: Exercise - Explore machine learning scenarios
+    link: https://learn.microsoft.com/en-us/training/modules/fundamentals-machine-learning/9-exercise/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/fundamentals-machine-learning/11-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/fundamentals-machine-learning/12-summary/
+
+- title: Get started with machine learning in Azure
+  link: https://learn.microsoft.com/en-us/training/modules/design-machine-learning-model-training-solution/
+  description: |
+    Learn how to design a model training solution for machine learning projects.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/design-machine-learning-model-training-solution/1-introduction/
+  - title: Define the problem
+    link: https://learn.microsoft.com/en-us/training/modules/design-machine-learning-model-training-solution/2-identify-tasks/
+  - title: Get and prepare data
+    link: https://learn.microsoft.com/en-us/training/modules/design-machine-learning-model-training-solution/2a-prepare-data/
+  - title: Train the model
+    link: https://learn.microsoft.com/en-us/training/modules/design-machine-learning-model-training-solution/3-choose-service-train/
+  - title: Use Azure Machine Learning studio
+    link: https://learn.microsoft.com/en-us/training/modules/design-machine-learning-model-training-solution/3b-use-automated-machine-learning/
+  - title: Integrate a model
+    link: https://learn.microsoft.com/en-us/training/modules/design-machine-learning-model-training-solution/4-decide-between-compute-options/
+  - title: Exercise - Explore Automated Machine Learning in Azure Machine Learning
+    link: https://learn.microsoft.com/en-us/training/modules/design-machine-learning-model-training-solution/5-exercise/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/design-machine-learning-model-training-solution/6-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/design-machine-learning-model-training-solution/7-summary/
+
+- title: Introduction to generative AI and agents
+  link: https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/
+  description: |
+    Generative AI powers applications that can create content, answer questions, and assist with tasks. In this module, you'll explore the fundamentals of generative AI, including large language models (LLMs), prompts, and AI agents.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/1-introduction/
+  - title: Large language models (LLMs)
+    link: https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/3-language-models/
+  - title: Prompts
+    link: https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/6-writing-prompts/
+  - title: AI agents
+    link: https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/7-agents/
+  - title: Exercise - Explore generative AI agent scenarios
+    link: https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/7a-exercise/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/8-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/9-summary/
+
+- title: Get started with generative AI in Azure
+  link: https://learn.microsoft.com/en-us/training/modules/get-started-generative-ai-azure/
+  description: |
+    Learn how you can build generative AI applications in Microsoft Foundry portal. Understand how to use Microsoft Foundry portal’s extensive model marketplace, playgrounds, and evolving features.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/get-started-generative-ai-azure/1-introduction/
+  - title: Understand generative AI applications
+    link: https://learn.microsoft.com/en-us/training/modules/get-started-generative-ai-azure/2-generative-ai/
+  - title: Understand tools to develop generative AI
+    link: https://learn.microsoft.com/en-us/training/modules/get-started-generative-ai-azure/3-tools-to-develop-solutions/
+  - title: Understand Microsoft Foundry's model catalog
+    link: https://learn.microsoft.com/en-us/training/modules/get-started-generative-ai-azure/4-model-catalog/
+  - title: Understand Microsoft Foundry capabilities
+    link: https://learn.microsoft.com/en-us/training/modules/get-started-generative-ai-azure/5-foundry-capabilities/
+  - title: Understand observability
+    link: https://learn.microsoft.com/en-us/training/modules/get-started-generative-ai-azure/6-observability/
+  - title: Exercise - Explore generative AI in Microsoft Foundry portal
+    link: https://learn.microsoft.com/en-us/training/modules/get-started-generative-ai-azure/7-exercise/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/get-started-generative-ai-azure/8-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/get-started-generative-ai-azure/9-summary/
+
+- title: Introduction to natural language processing concepts
+  link: https://learn.microsoft.com/en-us/training/modules/introduction-language/
+  description: |
+    Natural language processing (NLP) supports applications that can see, hear, speak with, and understand users. In this module you learn about the concepts that make NLP possible.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-language/1-introduction/
+  - title: Understand how language is processed
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-language/2-how-it-works/
+  - title: Understand statistical techniques for NLP
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-language/3-statistical-techniques/
+  - title: Understand semantic language models
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-language/4-semantic-models/
+  - title: Exercise - Explore a natural language processing scenario
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-language/4b-exercise/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-language/5-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-language/6-summary/
+
+- title: Get started with natural language processing in Azure
+  link: https://learn.microsoft.com/en-us/training/modules/get-started-language-azure/
+  description: |
+    Explore Azure Language's natural language processing (NLP) features, which include sentiment analysis, key phrase extraction, named entity recognition, and language detection.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/get-started-language-azure/1-introduction/
+  - title: Understand natural language processing on Azure
+    link: https://learn.microsoft.com/en-us/training/modules/get-started-language-azure/2-azure-language/
+  - title: Understand Azure Language's text analysis capabilities
+    link: https://learn.microsoft.com/en-us/training/modules/get-started-language-azure/3-azure-text-analysis/
+  - title: Azure Language's conversational AI capabilities
+    link: https://learn.microsoft.com/en-us/training/modules/get-started-language-azure/4-more-language-capabilities/
+  - title: Azure Translator capabilities
+    link: https://learn.microsoft.com/en-us/training/modules/get-started-language-azure/5-azure-translator/
+  - title: Get started in Microsoft Foundry
+    link: https://learn.microsoft.com/en-us/training/modules/get-started-language-azure/6-get-started-foundry/
+  - title: Exercise - Analyze text in Microsoft Foundry portal
+    link: https://learn.microsoft.com/en-us/training/modules/get-started-language-azure/7-exercise/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/get-started-language-azure/8-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/get-started-language-azure/9-summary/
+
+- title: Introduction to AI speech concepts
+  link: https://learn.microsoft.com/en-us/training/modules/introduction-ai-speech/
+  description: |
+    Imagine AI apps and agents that you can talk to. Explore the concepts behind AI speech, including speech recognition and synthesis.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-ai-speech/1-introduction/
+  - title: Speech-enabled solutions
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-ai-speech/2-speech-solutions/
+  - title: Speech recognition
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-ai-speech/3-speech-recognition/
+  - title: Speech synthesis
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-ai-speech/4-speech-synthesis/
+  - title: Exercise - Explore an AI speech scenario
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-ai-speech/5-exercise-speech/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-ai-speech/6-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-ai-speech/7-summary/
+
+- title: Get started with speech in Azure
+  link: https://learn.microsoft.com/en-us/training/modules/recognize-synthesize-speech/
+  description: |
+    Learn how to recognize and synthesize speech by using Azure Speech.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/recognize-synthesize-speech/1-introduction/
+  - title: Understand speech recognition and synthesis
+    link: https://learn.microsoft.com/en-us/training/modules/recognize-synthesize-speech/2-understand-speech/
+  - title: Get started with speech on Azure
+    link: https://learn.microsoft.com/en-us/training/modules/recognize-synthesize-speech/3-get-started-azure/
+  - title: Use Azure Speech
+    link: https://learn.microsoft.com/en-us/training/modules/recognize-synthesize-speech/3a-use-azure-speech/
+  - title: Exercise - Explore Speech in Microsoft Foundry portal
+    link: https://learn.microsoft.com/en-us/training/modules/recognize-synthesize-speech/4-exercise-transcribe-speech-use-azure/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/recognize-synthesize-speech/5-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/recognize-synthesize-speech/6-summary/
+
+- title: Introduction to computer vision concepts
+  link: https://learn.microsoft.com/en-us/training/modules/introduction-computer-vision/
+  description: |
+    Introduction to computer vision concepts
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-computer-vision/1-introduction/
+  - title: Computer vision tasks and techniques
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-computer-vision/2-overview/
+  - title: Images and image processing
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-computer-vision/3-understand-image-processing/
+  - title: Convolutional neural networks
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-computer-vision/4-computer-vision-models/
+  - title: Vision transformers and multimodal models
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-computer-vision/5-modern-vision-models/
+  - title: Image generation
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-computer-vision/5a-generate-images/
+  - title: Exercise - Explore a computer vision scenario
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-computer-vision/5b-exercise/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-computer-vision/6-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-computer-vision/7-summary/
+
+- title: Get started with computer vision in Azure
+  link: https://learn.microsoft.com/en-us/training/modules/get-started-computer-vision-azure/
+  description: |
+    Azure Vision service enables software engineers to create intelligent solutions that extract information from images; a common task in many artificial intelligence (AI) scenarios.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/get-started-computer-vision-azure/1-introduction/
+  - title: Understand Foundry Tools for computer vision
+    link: https://learn.microsoft.com/en-us/training/modules/get-started-computer-vision-azure/2-azure-ai-vision/
+  - title: Understand Azure Vision Image Analysis capabilities
+    link: https://learn.microsoft.com/en-us/training/modules/get-started-computer-vision-azure/3-image-service/
+  - title: Understand Azure Vision's Face service capabilities
+    link: https://learn.microsoft.com/en-us/training/modules/get-started-computer-vision-azure/4-face-service/
+  - title: Get started in Microsoft Foundry portal
+    link: https://learn.microsoft.com/en-us/training/modules/get-started-computer-vision-azure/5-azure-ai-foundry/
+  - title: Exercise - Analyze images in Microsoft Foundry portal
+    link: https://learn.microsoft.com/en-us/training/modules/get-started-computer-vision-azure/6-exercise/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/get-started-computer-vision-azure/7-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/get-started-computer-vision-azure/8-summary/
+
+
+
+
+
+
+
+
+- title: Introduction to AI-powered information extraction concepts
+  link: https://learn.microsoft.com/en-us/training/modules/introduction-information-extraction/
+  description: |
+    Introduction to AI-powered information extraction
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-information-extraction/1-introduction/
+  - title: Overview
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-information-extraction/2-overview/
+  - title: Understand the extraction of data from images
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-information-extraction/3-vision-extraction/
+  - title: Understand the extraction of data from forms
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-information-extraction/4-form-extraction/
+  - title: Understand multimodal data extraction
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-information-extraction/5-multimodal-extraction/
+  - title: Understand data extraction for knowledge mining
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-information-extraction/6-knowledge-mining/
+  - title: Exercise - Explore an AI information extraction scenario
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-information-extraction/6b-exercise/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-information-extraction/7-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/introduction-information-extraction/8-summary/
+
+
+- title: Get started with AI-powered information extraction in Azure
+  link: https://learn.microsoft.com/en-us/training/modules/ai-information-extraction/
+  description: |
+    AI gives you the power to unlock insights from your data. In this module, you'll learn how to use Azure AI services to extract information from content.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/ai-information-extraction/1-introduction/
+  - title: Azure AI services for information extraction
+    link: https://learn.microsoft.com/en-us/training/modules/ai-information-extraction/2-azure-ai-services/
+  - title: Extract information with Azure Vision
+    link: https://learn.microsoft.com/en-us/training/modules/ai-information-extraction/3-azure-ai-vision/
+  - title: Extract multimodal information with Azure Content Understanding
+    link: https://learn.microsoft.com/en-us/training/modules/ai-information-extraction/4-content-understanding/
+  - title: Extract information from forms with Azure Document Intelligence
+    link: https://learn.microsoft.com/en-us/training/modules/ai-information-extraction/5-document-intelligence/
+  - title: Create a knowledge mining solution with Azure AI Search
+    link: https://learn.microsoft.com/en-us/training/modules/ai-information-extraction/6-ai-search/
+  - title: Exercise - Extract information
+    link: https://learn.microsoft.com/en-us/training/modules/ai-information-extraction/7-exercise/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/ai-information-extraction/8-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/ai-information-extraction/9-summary/

@@ -1,0 +1,76 @@
+title: Implement containerized solutions
+link: https://learn.microsoft.com/en-us/training/paths/az-204-implement-iaas-solutions/
+level: Intermediate
+product: Azure, Azure Container Instances, Azure Container Registry
+role: Developer
+subject: Containers
+description: |
+  Learn how to create and deploy containerized solutions to Azure by using the Azure Container Registry, Azure Container Instances, and Azure Container Apps.
+modules:
+- title: Manage container images in Azure Container Registry
+  link: https://learn.microsoft.com/en-us/training/modules/publish-container-image-to-azure-container-registry/
+  description: |
+    Learn how to use Azure Container Registry to store your container images, and automate builds and deployments.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/publish-container-image-to-azure-container-registry/1-introduction/
+  - title: Discover the Azure Container Registry
+    link: https://learn.microsoft.com/en-us/training/modules/publish-container-image-to-azure-container-registry/2-azure-container-registry-overview/
+  - title: Explore storage capabilities
+    link: https://learn.microsoft.com/en-us/training/modules/publish-container-image-to-azure-container-registry/3-azure-container-registry-storage/
+  - title: Build and manage containers with tasks
+    link: https://learn.microsoft.com/en-us/training/modules/publish-container-image-to-azure-container-registry/4-azure-container-registry-tasks/
+  - title: Explore elements of a Dockerfile
+    link: https://learn.microsoft.com/en-us/training/modules/publish-container-image-to-azure-container-registry/5-dockerfile-components/
+  - title: Exercise - Build and run a container image with Azure Container Registry Tasks
+    link: https://learn.microsoft.com/en-us/training/modules/publish-container-image-to-azure-container-registry/6-build-run-image-azure-container-registry/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/publish-container-image-to-azure-container-registry/7-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/publish-container-image-to-azure-container-registry/8-summary/
+
+- title: Run container images in Azure Container Instances
+  link: https://learn.microsoft.com/en-us/training/modules/create-run-container-images-azure-container-instances/
+  description: |
+    Learn how Azure Container Instances can help you quickly deploy containers, how to set environment variables, and specify container restart policies.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/create-run-container-images-azure-container-instances/1-introduction/
+  - title: Explore Azure Container Instances
+    link: https://learn.microsoft.com/en-us/training/modules/create-run-container-images-azure-container-instances/2-azure-container-instances-overview/
+  - title: Exercise - Deploy a container to Azure Container Instances using Azure CLI commands
+    link: https://learn.microsoft.com/en-us/training/modules/create-run-container-images-azure-container-instances/3-run-azure-container-instances-cloud-shell/
+  - title: Run containerized tasks with restart policies
+    link: https://learn.microsoft.com/en-us/training/modules/create-run-container-images-azure-container-instances/4-run-containerized-tasks-restart-policies/
+  - title: Set environment variables in container instances
+    link: https://learn.microsoft.com/en-us/training/modules/create-run-container-images-azure-container-instances/5-set-environment-variables-azure-container-instances/
+  - title: Mount an Azure file share in Azure Container Instances
+    link: https://learn.microsoft.com/en-us/training/modules/create-run-container-images-azure-container-instances/6-mount-azure-file-share-azure-container-instances/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/create-run-container-images-azure-container-instances/7-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/create-run-container-images-azure-container-instances/8-summary/
+
+- title: Implement Azure Container Apps
+  link: https://learn.microsoft.com/en-us/training/modules/implement-azure-container-apps/
+  description: |
+    Learn how Azure Container Apps can help you deploy and manage microservices and containerized apps on a serverless platform that runs on top of Azure Kubernetes Service.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/implement-azure-container-apps/1-introduction/
+  - title: Explore Azure Container Apps
+    link: https://learn.microsoft.com/en-us/training/modules/implement-azure-container-apps/2-explore-azure-container-apps/
+  - title: Exercise - Deploy a container to Azure Container Apps with the Azure CLI
+    link: https://learn.microsoft.com/en-us/training/modules/implement-azure-container-apps/3-exercise-deploy-app/
+  - title: Explore containers in Azure Container Apps
+    link: https://learn.microsoft.com/en-us/training/modules/implement-azure-container-apps/4-container-apps-containers/
+  - title: Implement authentication and authorization in Azure Container Apps
+    link: https://learn.microsoft.com/en-us/training/modules/implement-azure-container-apps/5-container-apps-authentication/
+  - title: Manage revisions and secrets in Azure Container Apps
+    link: https://learn.microsoft.com/en-us/training/modules/implement-azure-container-apps/6-container-apps-revisions-secrets/
+  - title: Explore Dapr integration with Azure Container Apps
+    link: https://learn.microsoft.com/en-us/training/modules/implement-azure-container-apps/7-explore-distributed-application-runtime/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/implement-azure-container-apps/8-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/implement-azure-container-apps/9-summary/

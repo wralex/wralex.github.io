@@ -40,5 +40,5 @@ assessments:
 modules:
 - title: Introduction to AI in Azure
   id: ai900-intro
-  link: https://learn.microsoft.com/training/paths/introduction-to-ai-on-azure/
+  link: ./intro
   image: https://learn.microsoft.com/training/achievements/document-intelligence-knowledge-mining.svg

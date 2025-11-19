@@ -1,0 +1,70 @@
+title: Implement secure Azure solutions
+link: https://learn.microsoft.com/en-us/training/paths/az-204-implement-secure-cloud-solutions/
+level: Intermediate
+product: Azure, Azure App Configuration, Azure Key Vault, Azure Role-based access control
+role: Developer
+subject: Cloud security
+description: |
+  Learn how to more securely deploy apps in Azure by using Azure Key Vault, managed identities, and Azure App Configuration.
+modules:
+- title: Implement Azure Key Vault
+  link: https://learn.microsoft.com/en-us/training/modules/implement-azure-key-vault/
+  description: |
+    Learn how Azure Key Vault can help you keep your apps more secure, and how to set and retrieve secrets programmatically, and with Azure CLI.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/implement-azure-key-vault/1-introduction/
+  - title: Explore Azure Key Vault
+    link: https://learn.microsoft.com/en-us/training/modules/implement-azure-key-vault/2-key-vault-overview/
+  - title: Discover Azure Key Vault best practices
+    link: https://learn.microsoft.com/en-us/training/modules/implement-azure-key-vault/3-key-vault-concepts/
+  - title: Authenticate to Azure Key Vault
+    link: https://learn.microsoft.com/en-us/training/modules/implement-azure-key-vault/4-key-vault-authentication/
+  - title: Exercise - Create and retrieve secrets from Azure Key Vault
+    link: https://learn.microsoft.com/en-us/training/modules/implement-azure-key-vault/5-set-retrieve-secret-azure-key-vault/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/implement-azure-key-vault/6-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/implement-azure-key-vault/7-summary/
+
+- title: Implement managed identities
+  link: https://learn.microsoft.com/en-us/training/modules/implement-managed-identities/
+  description: |
+    Learn how managed identities can help you deploy secure solutions on Azure without the need to manage credentials.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/implement-managed-identities/1-introduction/
+  - title: Explore managed identities
+    link: https://learn.microsoft.com/en-us/training/modules/implement-managed-identities/2-managed-identities-overview/
+  - title: Discover the managed identities authentication flow
+    link: https://learn.microsoft.com/en-us/training/modules/implement-managed-identities/3-managed-identities-auzre-virtual-machines/
+  - title: Configure managed identities
+    link: https://learn.microsoft.com/en-us/training/modules/implement-managed-identities/4-configure-managed-identities/
+  - title: Acquire an access token
+    link: https://learn.microsoft.com/en-us/training/modules/implement-managed-identities/5-acquire-access-token/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/implement-managed-identities/6-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/implement-managed-identities/7-summary/
+
+- title: Implement Azure App Configuration
+  link: https://learn.microsoft.com/en-us/training/modules/implement-azure-app-configuration/
+  description: |
+    Learn how to use Azure App Configuration service to centrally manage and secure your configuration settings, and to manage app features.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/implement-azure-app-configuration/1-introduction/
+  - title: Explore the Azure App Configuration service
+    link: https://learn.microsoft.com/en-us/training/modules/implement-azure-app-configuration/2-app-configuration-overview/
+  - title: Create paired keys and values
+    link: https://learn.microsoft.com/en-us/training/modules/implement-azure-app-configuration/3-keys-values/
+  - title: Manage application features
+    link: https://learn.microsoft.com/en-us/training/modules/implement-azure-app-configuration/4-app-configuration-feature-management/
+  - title: Secure app configuration data
+    link: https://learn.microsoft.com/en-us/training/modules/implement-azure-app-configuration/5-secure-app-configuration-data/
+  - title: Exercise - Retrieve configuration settings from Azure App Configuration
+    link: https://learn.microsoft.com/en-us/training/modules/implement-azure-app-configuration/5a-retrieve-configuration-settings/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/implement-azure-app-configuration/6-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/implement-azure-app-configuration/7-summary/

@@ -65,15 +65,15 @@ modules:
 
 - title: Develop natural language solutions in Azure
   id: ai102-language
-  link: https://learn.microsoft.com/training/paths/develop-language-solutions-azure-ai/
+  link: ./language
   image: https://learn.microsoft.com/training/achievements/create-language-solution-azure-cognitive-services.svg
 
 - title: Develop computer vision solutions in Azure
   id: ai102-vision
-  link: https://learn.microsoft.com/training/paths/create-computer-vision-solutions-azure-ai/
+  link: ./vision
   image: https://learn.microsoft.com/training/achievements/cognitive-services-computer-vision.svg
 
 - title: Develop AI information extraction solutions in Azure
   id: ai102-extract
-  link: https://learn.microsoft.com/training/paths/ai-extract-information/
+  link: ./extract
   image: https://learn.microsoft.com/training/achievements/generic-badge.svg
