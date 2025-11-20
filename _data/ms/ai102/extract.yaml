@@ -1,0 +1,114 @@
+title: Develop AI information extraction solutions in Azure
+link: https://learn.microsoft.com/en-us/training/paths/ai-extract-information/
+level: Intermediate
+product: Azure AI services, Azure AI Foundry, Azure AI Search
+eole: AI Engineer, Developer
+subject: Artificial intelligence
+description: |
+  Use Azure AI to extract information from content to support scenarios like:
+modules:
+- title: Create a multimodal analysis solution with Azure Content Understanding
+  link: https://learn.microsoft.com/en-us/training/modules/analyze-content-ai/
+  description: |
+    Use Azure Content Understanding for multimodal content analysis and information extraction.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/analyze-content-ai/01-introduction/
+  - title: What is Azure Content Understanding?
+    link: https://learn.microsoft.com/en-us/training/modules/analyze-content-ai/02-content-understanding/
+  - title: Create a Content Understanding analyzer
+    link: https://learn.microsoft.com/en-us/training/modules/analyze-content-ai/03-create-analyzer/
+  - title: Use the Content Understanding REST API
+    link: https://learn.microsoft.com/en-us/training/modules/analyze-content-ai/04-use-api/
+  - title: Exercise - Extract information from multimodal content
+    link: https://learn.microsoft.com/en-us/training/modules/analyze-content-ai/05-exercise/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/analyze-content-ai/06-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/analyze-content-ai/07-summary/
+
+- title: Create an Azure Content Understanding client application
+  link: https://learn.microsoft.com/en-us/training/modules/analyze-content-ai-api/
+  description: |
+    Use the Azure Content Understanding REST API for multimodal content analysis and information extraction.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/analyze-content-ai-api/01-introduction/
+  - title: Prepare to use the AI Content Understanding REST API
+    link: https://learn.microsoft.com/en-us/training/modules/analyze-content-ai-api/02-prepare-content-understanding/
+  - title: Create a Content Understanding analyzer
+    link: https://learn.microsoft.com/en-us/training/modules/analyze-content-ai-api/03-create-analyzer/
+  - title: Analyze content
+    link: https://learn.microsoft.com/en-us/training/modules/analyze-content-ai-api/04-analyze/
+  - title: Exercise - Develop a Content Understanding client application
+    link: https://learn.microsoft.com/en-us/training/modules/analyze-content-ai-api/05-exercise/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/analyze-content-ai-api/06-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/analyze-content-ai-api/07-summary/
+- title: Use prebuilt Document intelligence models
+  link: https://learn.microsoft.com/en-us/training/modules/use-prebuilt-form-recognizer-models/
+  description: |
+    Learn what data you can analyze by choosing prebuilt Forms Analyzer models and how to deploy these models in a Document intelligence solution.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/use-prebuilt-form-recognizer-models/1-introduction/
+  - title: Understand prebuilt models
+    link: https://learn.microsoft.com/en-us/training/modules/use-prebuilt-form-recognizer-models/2-understand-prebuilt-models/
+  - title: Use the General Document, Read, and Layout models
+    link: https://learn.microsoft.com/en-us/training/modules/use-prebuilt-form-recognizer-models/3-use-general-document-read-layout-models/
+  - title: Use financial, ID, and tax models
+    link: https://learn.microsoft.com/en-us/training/modules/use-prebuilt-form-recognizer-models/4-use-financial-id-tax-models/
+  - title: Exercise - Analyze a document using Azure Document Intelligence
+    link: https://learn.microsoft.com/en-us/training/modules/use-prebuilt-form-recognizer-models/5-exercise-analyze-document-use-form-recognizer/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/use-prebuilt-form-recognizer-models/6-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/use-prebuilt-form-recognizer-models/7-summary/
+
+- title: Extract data from forms with Azure Document intelligence
+  link: https://learn.microsoft.com/en-us/training/modules/work-form-recognizer/
+  description: |
+    Document intelligence uses machine learning technology to identify and extract key-value pairs and table data from form documents with accuracy, at scale. This module teaches you how to use the Azure Document intelligence cognitive service.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/work-form-recognizer/1-introduction/
+  - title: What is Azure Document Intelligence?
+    link: https://learn.microsoft.com/en-us/training/modules/work-form-recognizer/2-what-form-recognizer/
+  - title: Get started with Azure Document Intelligence
+    link: https://learn.microsoft.com/en-us/training/modules/work-form-recognizer/3-get-started/
+  - title: Train custom models
+    link: https://learn.microsoft.com/en-us/training/modules/work-form-recognizer/6-train-custom-models/
+  - title: Use Azure Document Intelligence models
+    link: https://learn.microsoft.com/en-us/training/modules/work-form-recognizer/7-use-models/
+  - title: Use the Azure Document Intelligence Studio
+    link: https://learn.microsoft.com/en-us/training/modules/work-form-recognizer/9-form-recognizer-studio/
+  - title: Exercise - Extract data from custom forms
+    link: https://learn.microsoft.com/en-us/training/modules/work-form-recognizer/8-exercise-extract-data-from-custom-forms/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/work-form-recognizer/10-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/work-form-recognizer/11-summary/
+- title: Create a knowledge mining solution with Azure AI Search
+  link: https://learn.microsoft.com/en-us/training/modules/ai-knowldge-mining/
+  description: |
+    Unlock the hidden insights in your data with Azure AI Search. In this module, you'll learn how to implement a knowledge mining solution that extracts and enriches data, making it searchable and ready for deeper analysis.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/ai-knowldge-mining/1-introduction/
+  - title: What is Azure AI Search?
+    link: https://learn.microsoft.com/en-us/training/modules/ai-knowldge-mining/2-azure-ai-search/
+  - title: Extract data with an indexer
+    link: https://learn.microsoft.com/en-us/training/modules/ai-knowldge-mining/3-index/
+  - title: Enrich extracted data with AI skills
+    link: https://learn.microsoft.com/en-us/training/modules/ai-knowldge-mining/4-ai-skills/
+  - title: Search an index
+    link: https://learn.microsoft.com/en-us/training/modules/ai-knowldge-mining/5-search-index/
+  - title: Persist extracted information in a knowledge store
+    link: https://learn.microsoft.com/en-us/training/modules/ai-knowldge-mining/6-knowledge-store/
+  - title: Exercise - Create a knowledge mining solution
+    link: https://learn.microsoft.com/en-us/training/modules/ai-knowldge-mining/7-exercise/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/ai-knowldge-mining/8-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/ai-knowldge-mining/9-summary/

@@ -1,0 +1,153 @@
+title: Develop computer vision solutions in Azure
+link: https://learn.microsoft.com/en-us/training/paths/create-computer-vision-solutions-azure-ai/
+level: Intermediate
+Skill: Create computer vision solutions with Azure AI Vision
+product: Azure AI services, Azure Computer Vision, Azure Face, Azure AI Video Indexer, Azure AI Foundry
+role: AI Engineer, Developer
+subject: Artificial intelligence
+description: |
+  Computer vision is an area of artificial intelligence that deals with visual perception. Azure AI includes multiple
+  services that support common computer vision scenarios.
+
+modules:
+- title: Analyze images
+  link: https://learn.microsoft.com/en-us/training/modules/analyze-images/
+  descriptiopn: |
+    With the Azure Vision service, you can use pre-trained models to analyze images and extract insights and information
+    from them.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/analyze-images/1-introduction/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-computer-vision-solutions-azure-ai
+  - title: Provision an Azure Vision resource
+    link: https://learn.microsoft.com/en-us/training/modules/analyze-images/2-provision-computer-vision-resource/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-computer-vision-solutions-azure-ai
+  - title: Analyze an image
+    link: https://learn.microsoft.com/en-us/training/modules/analyze-images/3-analyze-image/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-computer-vision-solutions-azure-ai
+  - title: Exercise - Analyze images
+    link: https://learn.microsoft.com/en-us/training/modules/analyze-images/5-exercise-computer-vision/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-computer-vision-solutions-azure-ai
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/analyze-images/6-knowledge-check/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-computer-vision-solutions-azure-ai
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/analyze-images/7-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-computer-vision-solutions-azure-ai
+
+- title: Read text in images
+  link: https://learn.microsoft.com/en-us/training/modules/read-text-images-documents-with-computer-vision-service/
+  descriptiopn: |
+    The Azure Vision Image Analysis service uses algorithms to process images and return information. This module teaches you how to use the Image Analysis API for optical character recognition (OCR).
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/read-text-images-documents-with-computer-vision-service/1-introduction/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-computer-vision-solutions-azure-ai
+  - title: Explore Azure AI options for reading text
+    link: https://learn.microsoft.com/en-us/training/modules/read-text-images-documents-with-computer-vision-service/2-options-read-text/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-computer-vision-solutions-azure-ai
+  - title: Read text with Azure Vision Image Analysis
+    link: https://learn.microsoft.com/en-us/training/modules/read-text-images-documents-with-computer-vision-service/4-use-read-api/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-computer-vision-solutions-azure-ai
+  - title: Exercise - Read text in images
+    link: https://learn.microsoft.com/en-us/training/modules/read-text-images-documents-with-computer-vision-service/5-exercise/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-computer-vision-solutions-azure-ai
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/read-text-images-documents-with-computer-vision-service/6-knowledge-check/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-computer-vision-solutions-azure-ai
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/read-text-images-documents-with-computer-vision-service/7-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-computer-vision-solutions-azure-ai
+
+- title: Detect, analyze, and recognize faces
+  link: https://learn.microsoft.com/en-us/training/modules/detect-analyze-recognize-faces/
+  descriptiopn: |
+    The ability for applications to detect human faces, analyze facial features and emotions, and identify individuals is a key artificial intelligence capability.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/detect-analyze-recognize-faces/1-introduction/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-computer-vision-solutions-azure-ai
+  - title: Plan a face detection, analysis, or recognition solution
+    link: https://learn.microsoft.com/en-us/training/modules/detect-analyze-recognize-faces/2-understand-capabilities-of-face-service/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-computer-vision-solutions-azure-ai
+  - title: Detect and analyze faces
+    link: https://learn.microsoft.com/en-us/training/modules/detect-analyze-recognize-faces/3-detect-analyze-faces/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-computer-vision-solutions-azure-ai
+  - title: Verify and identify faces
+    link: https://learn.microsoft.com/en-us/training/modules/detect-analyze-recognize-faces/4-compare-match-detected-faces/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-computer-vision-solutions-azure-ai
+  - title: Responsible AI considerations for face-based solutions
+    link: https://learn.microsoft.com/en-us/training/modules/detect-analyze-recognize-faces/5-understand-considerations-for-face-analysis/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-computer-vision-solutions-azure-ai
+  - title: Exercise - Detect and analyze faces
+    link: https://learn.microsoft.com/en-us/training/modules/detect-analyze-recognize-faces/8-exercise-identify-faces/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-computer-vision-solutions-azure-ai
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/detect-analyze-recognize-faces/9-knowledge-check/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-computer-vision-solutions-azure-ai
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/detect-analyze-recognize-faces/10-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-computer-vision-solutions-azure-ai
+
+- title: Classify images
+  link: https://learn.microsoft.com/en-us/training/modules/classify-images/
+  descriptiopn: |
+    Image classification is used to determine the main subject of an image. You can use the Azure AI Custom Vision services to train a model that classifies images based on your own categorizations.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/classify-images/1-introduction/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-computer-vision-solutions-azure-ai
+  - title: Azure AI Custom Vision
+    link: https://learn.microsoft.com/en-us/training/modules/classify-images/2-provision-azure-resources-for-custom-vision/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-computer-vision-solutions-azure-ai
+  - title: Train an image classification model
+    link: https://learn.microsoft.com/en-us/training/modules/classify-images/3-understand-image-classification/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-computer-vision-solutions-azure-ai
+  - title: Create an image classification client application
+    link: https://learn.microsoft.com/en-us/training/modules/classify-images/4-use-trained-image-classifier/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-computer-vision-solutions-azure-ai
+  - title: Exercise - Classify images
+    link: https://learn.microsoft.com/en-us/training/modules/classify-images/5-exercise-custom-vision/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-computer-vision-solutions-azure-ai
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/classify-images/6-knowledge-check/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-computer-vision-solutions-azure-ai
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/classify-images/7-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-computer-vision-solutions-azure-ai
+
+- title: Detect objects in images
+  link: https://learn.microsoft.com/en-us/training/modules/detect-objects-images/
+  descriptiopn: |
+    Object detection is used to locate and identify objects in images. You can use Azure AI Custom Vision to train a model to detect specific classes of object in images.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/detect-objects-images/1-introduction/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-computer-vision-solutions-azure-ai
+  - title: Use Azure AI Custom Vision for object detection
+    link: https://learn.microsoft.com/en-us/training/modules/detect-objects-images/2-understand-object-detection/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-computer-vision-solutions-azure-ai
+  - title: Train an object detector
+    link: https://learn.microsoft.com/en-us/training/modules/detect-objects-images/3-train-object-detector/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-computer-vision-solutions-azure-ai
+  - title: Develop an object detection client application
+    link: https://learn.microsoft.com/en-us/training/modules/detect-objects-images/4-use-trained-detector/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-computer-vision-solutions-azure-ai
+  - title: Exercise - Detect objects in images
+    link: https://learn.microsoft.com/en-us/training/modules/detect-objects-images/5-exercise-custom-vision/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-computer-vision-solutions-azure-ai
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/detect-objects-images/6-knowledge-check/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-computer-vision-solutions-azure-ai
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/detect-objects-images/7-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-computer-vision-solutions-azure-ai
+
+- title: Analyze video
+  link: https://learn.microsoft.com/en-us/training/modules/analyze-video/
+  descriptiopn: |
+    Azure Video Indexer is a service to extract insights from video, including face identification, text recognition, object labels, scene segmentations, and more.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/analyze-video/1-introduction/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-computer-vision-solutions-azure-ai
+  - title: Understand Azure Video Indexer capabilities
+    link: https://learn.microsoft.com/en-us/training/modules/analyze-video/2-understand-video-indexer-capabilities/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-computer-vision-solutions-azure-ai
+  - title: Extract custom insights
+    link: https://learn.microsoft.com/en-us/training/modules/analyze-video/3-extract-custom-insights/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-computer-vision-solutions-azure-ai
+  - title: Use Video Analyzer widgets and APIs
+    link: https://learn.microsoft.com/en-us/training/modules/analyze-video/4-use-video-indexer-widgets-apis/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-computer-vision-solutions-azure-ai
+  - title: Exercise - Analyze video
+    link: https://learn.microsoft.com/en-us/training/modules/analyze-video/5-exercise-video-indexer/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-computer-vision-solutions-azure-ai
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/analyze-video/6-knowledge-check/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-computer-vision-solutions-azure-ai
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/analyze-video/7-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-computer-vision-solutions-azure-ai
+
+- title: Develop a vision-enabled generative AI application
+  descriptiopn: |
+    A picture says a thousand words, and multimodal generative AI models can interpret images to respond to visual prompts. Learn how to build vision-enabled chat apps.
+  submodules:
+  - title: Introduction
+  - title: Deploy a multimodal model
+  - title: Develop a vision-based chat app
+  - title: Exercise - Develop a vision-enabled chat app
+  - title: Module assessment
+  - title: Summary
+
+- title: Generate images with AI
+  descriptiopn: |
+    In Microsoft Foundry, you can use image generation models to create original images based on natural language prompts.
+  submodules:
+  - title: Introduction
+  - title: What are image-generation models?
+  - title: Explore image-generation models in Microsoft Foundry portal
+  - title: Create a client application that uses an image generation model
+  - title: Exercise - Generate images with AI
+  - title: Module assessment
+  - title: Summary
