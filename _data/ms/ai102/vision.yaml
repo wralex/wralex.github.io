@@ -130,24 +130,40 @@ modules:
     link: https://learn.microsoft.com/en-us/training/modules/analyze-video/7-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-computer-vision-solutions-azure-ai
 
 - title: Develop a vision-enabled generative AI application
+  link: https://learn.microsoft.com/en-us/training/modules/develop-generative-ai-vision-apps/
   descriptiopn: |
     A picture says a thousand words, and multimodal generative AI models can interpret images to respond to visual prompts. Learn how to build vision-enabled chat apps.
   submodules:
   - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/develop-generative-ai-vision-apps/1-introduction/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-computer-vision-solutions-azure-ai
   - title: Deploy a multimodal model
+    link: https://learn.microsoft.com/en-us/training/modules/develop-generative-ai-vision-apps/2-deploy-multimodal-model/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-computer-vision-solutions-azure-ai
   - title: Develop a vision-based chat app
+    link: https://learn.microsoft.com/en-us/training/modules/develop-generative-ai-vision-apps/3-develop-visual-chat-app/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-computer-vision-solutions-azure-ai
   - title: Exercise - Develop a vision-enabled chat app
+    link: https://learn.microsoft.com/en-us/training/modules/develop-generative-ai-vision-apps/4-exercise/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-computer-vision-solutions-azure-ai
   - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/develop-generative-ai-vision-apps/5-knowledge-check/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-computer-vision-solutions-azure-ai
   - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/develop-generative-ai-vision-apps/6-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-computer-vision-solutions-azure-ai
+
 
 - title: Generate images with AI
+  link: https://learn.microsoft.com/en-us/training/modules/generate-images-azure-openai/
   descriptiopn: |
     In Microsoft Foundry, you can use image generation models to create original images based on natural language prompts.
   submodules:
   - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/generate-images-azure-openai/1-introduction/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-computer-vision-solutions-azure-ai
   - title: What are image-generation models?
+    link: https://learn.microsoft.com/en-us/training/modules/generate-images-azure-openai/2-what-is-dall-e/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-computer-vision-solutions-azure-ai
   - title: Explore image-generation models in Microsoft Foundry portal
+    link: https://learn.microsoft.com/en-us/training/modules/generate-images-azure-openai/3-dall-e-in-openai-studio/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-computer-vision-solutions-azure-ai
   - title: Create a client application that uses an image generation model
+    link: https://learn.microsoft.com/en-us/training/modules/generate-images-azure-openai/4-dall-e-rest-api/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-computer-vision-solutions-azure-ai
   - title: Exercise - Generate images with AI
+    link: https://learn.microsoft.com/en-us/training/modules/generate-images-azure-openai/5-exercise-use-dall-e/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-computer-vision-solutions-azure-ai
   - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/generate-images-azure-openai/6-knowledge-check/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-computer-vision-solutions-azure-ai
   - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/generate-images-azure-openai/7-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.create-computer-vision-solutions-azure-ai
