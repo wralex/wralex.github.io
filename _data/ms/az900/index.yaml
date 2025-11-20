@@ -24,6 +24,19 @@ jumpTos:
   link: https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/?practice-assessment-type=certification#certification-take-the-exam
 - title: Certification resources
   link: https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/?practice-assessment-type=certification#certification-resources
+assessments:
+- topic: Describe cloud concepts
+  percentages:
+    min: 25
+    max: 30
+- topic: Describe Azure architecture and services
+  percentages:
+    min: 35
+    max: 40
+- topic: Describe Azure management and governance
+  percentages:
+    min: 30
+    max: 35
 modules:
 - title: Introduction to Cloud Infrastructure
   id: az900-introduction
