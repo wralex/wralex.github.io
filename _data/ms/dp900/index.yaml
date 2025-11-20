@@ -32,19 +32,23 @@ modules:
   link: https://learn.microsoft.com/en-us/training/courses/dp-900t00/
   id: dp900-course
   image: https://learn.microsoft.com/media/learn/credential/badges/course.svg
+
 - title: Introduction to Microsoft Azure Data core data concepts
-  link: https://learn.microsoft.com/training/paths/azure-data-fundamentals-explore-core-data-concepts/
+  link: ./core
   id: dp900-core
   image: https://learn.microsoft.com/training/achievements/azure-data-fundamentals-explore-core-data-concepts.svg
+
 - title: Introduction to Microsoft Azure Data relational data in Azure
-  link: https://learn.microsoft.com/training/paths/azure-data-fundamentals-explore-relational-data/
+  link: ./relational
   id: dp900-relational
   image: https://learn.microsoft.com/training/achievements/azure-data-fundamentals-explore-relational-data.svg
+
 - title: Introduction to Microsoft Azure Data non-relational data in Azure
-  link: https://learn.microsoft.com/training/paths/azure-data-fundamentals-explore-non-relational-data/
+  link: ./nonrelational
   id: dp900-nonrelational
   image: https://learn.microsoft.com/training/achievements/azure-data-fundamentals-explore-non-relational-data.svg
+
 - title: Introduction to Microsoft Azure Data analytics in Azure
-  link:  https://learn.microsoft.com/training/paths/azure-data-fundamentals-explore-data-warehouse-analytics/
+  link:  ./analytics
   id: dp900-analytics
   image: https://learn.microsoft.com/training/achievements/azure-data-fundamentals-explore-data-warehouse-analytics.svg

@@ -1,0 +1,66 @@
+title: Introduction to Microsoft Azure Data analytics in Azure
+link: https://learn.microsoft.com/en-us/training/paths/azure-data-fundamentals-explore-data-warehouse-analytics/
+modules:
+
+- title: Explore fundamentals of large-scale analytics
+  link: https://learn.microsoft.com/en-us/training/modules/examine-components-of-modern-data-warehouse/
+
+  description: |
+    Organizations use analytics platforms to build large scale data analytics solutions that generate insights and drive success. Microsoft provides multiple technologies that you can combine to build a large scale data analytics solution.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/examine-components-of-modern-data-warehouse/1-introduction/
+  - title: Describe data warehousing architecture
+    link: https://learn.microsoft.com/en-us/training/modules/examine-components-of-modern-data-warehouse/2-describe-warehousing/
+  - title: Explore data ingestion pipelines
+    link: https://learn.microsoft.com/en-us/training/modules/examine-components-of-modern-data-warehouse/3-data-ingestion-pipelines/
+  - title: Explore analytical data stores
+    link: https://learn.microsoft.com/en-us/training/modules/examine-components-of-modern-data-warehouse/4-analytical-data-stores/
+  - title: 'Exercise: Explore data analytics in Microsoft Fabric'
+    link: https://learn.microsoft.com/en-us/training/modules/examine-components-of-modern-data-warehouse/5-exercise-data-analytics-fabric/
+  - title: Knowledge check
+    link: https://learn.microsoft.com/en-us/training/modules/examine-components-of-modern-data-warehouse/6-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/examine-components-of-modern-data-warehouse/7-summary/
+
+- title: Explore fundamentals of real-time analytics
+  link: https://learn.microsoft.com/en-us/training/modules/explore-fundamentals-stream-processing/
+  description: |
+    Learn about the basics of stream processing, and the services in Microsoft Azure that you can use to implement real-time analytics solutions.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/explore-fundamentals-stream-processing/1-introduction/
+  - title: Understand batch and stream processing
+    link: https://learn.microsoft.com/en-us/training/modules/explore-fundamentals-stream-processing/2-batch-stream/
+  - title: Explore common elements of stream processing architecture
+    link: https://learn.microsoft.com/en-us/training/modules/explore-fundamentals-stream-processing/3-explore-common-elements/
+  - title: Explore Microsoft Fabric Real-Time Intelligence
+    link: https://learn.microsoft.com/en-us/training/modules/explore-fundamentals-stream-processing/4-fabric-real-time-intelligence/
+  - title: Explore Apache Spark structured streaming
+    link: https://learn.microsoft.com/en-us/training/modules/explore-fundamentals-stream-processing/5-spark-streaming/
+  - title: 'Exercise: Explore Microsoft Fabric Real-Time Intelligence'
+    link: https://learn.microsoft.com/en-us/training/modules/explore-fundamentals-stream-processing/6-exercise-real-time-intelligence/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/explore-fundamentals-stream-processing/7-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/explore-fundamentals-stream-processing/8-summary/
+
+- title: Explore fundamentals of data visualization
+  link: https://learn.microsoft.com/en-us/training/modules/explore-fundamentals-data-visualization/
+  description: |
+    Learn the fundamental principles of analytical data modeling and data visualization, using Microsoft Power BI as a platform to explore these principles in action.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/explore-fundamentals-data-visualization/1-introduction/
+  - title: Describe Power BI tools and workflow
+    link: https://learn.microsoft.com/en-us/training/modules/explore-fundamentals-data-visualization/2-power-bi/
+  - title: Describe core concepts of data modeling
+    link: https://learn.microsoft.com/en-us/training/modules/explore-fundamentals-data-visualization/3-data-modeling/
+  - title: Describe considerations for data visualization
+    link: https://learn.microsoft.com/en-us/training/modules/explore-fundamentals-data-visualization/4-data-visualizations/
+  - title: Exercise - Explore fundamentals of data visualization with Power BI
+    link: https://learn.microsoft.com/en-us/training/modules/explore-fundamentals-data-visualization/5-exercise-power-bi/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/explore-fundamentals-data-visualization/6-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/explore-fundamentals-data-visualization/7-summary/

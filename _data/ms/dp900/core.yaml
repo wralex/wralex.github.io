@@ -1,0 +1,46 @@
+title: Introduction to Microsoft Azure Data core data concepts
+link: https://learn.microsoft.com/en-us/training/paths/azure-data-fundamentals-explore-core-data-concepts/
+level: Beginner
+Product: Azure
+role: Data Analyst, Data Engineer, Database Administrator, Developer, Solution Architect, Student
+description: |
+  Data is the foundation on which all software is built. By learning about common data formats, workloads, roles, and services, you can prepare yourself for a career as a data professional. This learning path helps you prepare for the Azure Data Fundamentals certification.
+
+modules:
+- title: Explore core data concepts
+  link: https://learn.microsoft.com/en-us/training/modules/explore-core-data-concepts/
+  description: |
+    Data powers the digital transformation that is sweeping across organizations and society in general. But what is "data", and how is it represented and used?
+  submoidules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/explore-core-data-concepts/1-introduction/
+  - title: Identify data formats
+    link: https://learn.microsoft.com/en-us/training/modules/explore-core-data-concepts/2-data-formats/
+  - title: Explore file storage
+    link: https://learn.microsoft.com/en-us/training/modules/explore-core-data-concepts/3-file-storage/
+  - title: Explore databases
+    link: https://learn.microsoft.com/en-us/training/modules/explore-core-data-concepts/4-databases/
+  - title: Explore transactional data processing
+    link: https://learn.microsoft.com/en-us/training/modules/explore-core-data-concepts/5-transactional-data-processing/
+  - title: Explore analytical data processing
+    link: https://learn.microsoft.com/en-us/training/modules/explore-core-data-concepts/6-analytical-processing/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/explore-core-data-concepts/7-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/explore-core-data-concepts/8-summary/
+
+- title: Explore data roles and services
+  link: https://learn.microsoft.com/en-us/training/modules/explore-roles-responsibilities-world-of-data/
+  description: |
+    Data professionals perform distinct roles in building and managing software solutions, and work with multiple technologies and services to do so.
+  submoidules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/explore-roles-responsibilities-world-of-data/1-introduction/
+  - title: Explore job roles in the world of data
+    link: https://learn.microsoft.com/en-us/training/modules/explore-roles-responsibilities-world-of-data/2-explore-job-roles/
+  - title: Identify data services
+    link: https://learn.microsoft.com/en-us/training/modules/explore-roles-responsibilities-world-of-data/3-data-services/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/explore-roles-responsibilities-world-of-data/4-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/explore-roles-responsibilities-world-of-data/5-summary/

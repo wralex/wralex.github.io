@@ -1,0 +1,46 @@
+title: Introduction to Microsoft Azure Data relational data in Azure
+link: https://learn.microsoft.com/en-us/training/paths/azure-data-fundamentals-explore-relational-data/
+level: Beginner
+product: Azure
+role: Data Analyst, Data Engineer, Database Administrator, Developer, Solution Architect, Student
+subject: Data analytics
+description: |
+  Relational data is at the heart of most business applications, and is the foundation on which many enterprise data solutions are built. Microsoft Azure provides services for managing relational databases, enabling you to build new applications or migrate existing ones to the cloud. This learning path helps you prepare for the Azure Data Fundamentals certification.
+modules:
+- title: Explore fundamental relational data concepts
+  link: https://learn.microsoft.com/en-us/training/modules/explore-relational-data-offerings/
+  descrition: |
+    Relational database systems are a common way to store and manage transactional and analytical data in organizations of any size around the world.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/explore-relational-data-offerings/1-introduction/
+  - title: Understand relational data
+    link: https://learn.microsoft.com/en-us/training/modules/explore-relational-data-offerings/2-understand-relational-data/
+  - title: Understand normalization
+    link: https://learn.microsoft.com/en-us/training/modules/explore-relational-data-offerings/3-normalization/
+  - title: Explore SQL
+    link: https://learn.microsoft.com/en-us/training/modules/explore-relational-data-offerings/4-query-with-sql/
+  - title: Describe database objects
+    link: https://learn.microsoft.com/en-us/training/modules/explore-relational-data-offerings/5-database-objects/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/explore-relational-data-offerings/6-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/explore-relational-data-offerings/7-summary/
+
+- title: Explore relational database services in Azure
+  link: https://learn.microsoft.com/en-us/training/modules/explore-provision-deploy-relational-database-offerings-azure/
+  descrition: |
+    Microsoft Azure provides multiple services for relational databases. You can choose the relational database management system that's best for your needs, and host relational data in the cloud.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/explore-provision-deploy-relational-database-offerings-azure/1-introduction/
+  - title: Describe Azure SQL services and capabilities
+    link: https://learn.microsoft.com/en-us/training/modules/explore-provision-deploy-relational-database-offerings-azure/2-azure-sql/
+  - title: Describe Azure services for open-source databases
+    link: https://learn.microsoft.com/en-us/training/modules/explore-provision-deploy-relational-database-offerings-azure/3-azure-database-open-source/
+  - title: 'Exercise: Explore Azure relational database services'
+    link: https://learn.microsoft.com/en-us/training/modules/explore-provision-deploy-relational-database-offerings-azure/4-exercise-provision-relational-azure-data-services/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/explore-provision-deploy-relational-database-offerings-azure/5-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/explore-provision-deploy-relational-database-offerings-azure/6-summary/

@@ -1,0 +1,45 @@
+title: Introduction to Microsoft Azure Data non-relational data in Azure
+link: https://learn.microsoft.com/en-us/training/paths/azure-data-fundamentals-explore-non-relational-data/
+modules:
+- title: Explore Azure Storage for non-relational data
+  link: https://learn.microsoft.com/en-us/training/modules/explore-provision-deploy-non-relational-data-services-azure/
+  description: |
+    Azure Storage is a core service in Microsoft Azure that is commonly used to store non-relational data.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/explore-provision-deploy-non-relational-data-services-azure/1-introduction/
+  - title: Explore Azure blob storage
+    link: https://learn.microsoft.com/en-us/training/modules/explore-provision-deploy-non-relational-data-services-azure/2-azure-blob-storage/
+  - title: Explore Azure Data Lake Storage Gen2
+    link: https://learn.microsoft.com/en-us/training/modules/explore-provision-deploy-non-relational-data-services-azure/3-azure-data-lake-gen2/
+  - title: Explore Microsoft OneLake in Fabric
+    link: https://learn.microsoft.com/en-us/training/modules/explore-provision-deploy-non-relational-data-services-azure/3a-one-lake/
+  - title: Explore Azure Files
+    link: https://learn.microsoft.com/en-us/training/modules/explore-provision-deploy-non-relational-data-services-azure/4-azure-files/
+  - title: Explore Azure Tables
+    link: https://learn.microsoft.com/en-us/training/modules/explore-provision-deploy-non-relational-data-services-azure/5-azure-tables/
+  - title: 'Exercise: Explore Azure Storage'
+    link: https://learn.microsoft.com/en-us/training/modules/explore-provision-deploy-non-relational-data-services-azure/6-exercise-azure-storage/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/explore-provision-deploy-non-relational-data-services-azure/7-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/explore-provision-deploy-non-relational-data-services-azure/8-summary/
+
+
+- title: Explore fundamentals of Azure Cosmos DB
+  link: https://learn.microsoft.com/en-us/training/modules/explore-non-relational-data-stores-azure/
+  description: |
+    Azure Cosmos DB provides a highly scalable store for non-relational data.
+  submodules:
+  - title: Introduction
+    link: https://learn.microsoft.com/en-us/training/modules/explore-non-relational-data-stores-azure/1-introduction/
+  - title: Describe Azure Cosmos DB
+    link: https://learn.microsoft.com/en-us/training/modules/explore-non-relational-data-stores-azure/2-describe-azure-cosmos-db/
+  - title: Identify Azure Cosmos DB APIs
+    link: https://learn.microsoft.com/en-us/training/modules/explore-non-relational-data-stores-azure/3-cosmos-db-apis/
+  - title: 'Exercise: Explore Azure Cosmos DB'
+    link: https://learn.microsoft.com/en-us/training/modules/explore-non-relational-data-stores-azure/4-exercise-explore-cosmos-db/
+  - title: Module assessment
+    link: https://learn.microsoft.com/en-us/training/modules/explore-non-relational-data-stores-azure/5-knowledge-check/
+  - title: Summary
+    link: https://learn.microsoft.com/en-us/training/modules/explore-non-relational-data-stores-azure/6-summary/
