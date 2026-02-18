@@ -1,9 +1,10 @@
 ---
 ---
- 
-// -------------------------------------------- //
 
-// copied from view-source:https://github.com/orgs/community/discussions/16925
+@import "../lib/bootstrap/scss/functions";
+@import "../lib/bootstrap/scss/variables";
+
+
 
 .markdown-alert {
   margin-bottom: 16px;
@@ -36,11 +37,11 @@
 }
 
 .markdown-alert.markdown-alert-note {
-  border-left-color: #539bf5
+  border-left-color: $blue-800;
 }
 
 .markdown-alert.markdown-alert-note .markdown-alert-title {
-  color: #539bf5
+  color: $blue;
 }
 
 .markdown-alert.markdown-alert-important {
@@ -75,9 +76,6 @@
   color: #e5534b;
 }
 
-// octicon colors
-
-
 .octicon {
   color:  inherit;
   padding: 0.75em;
@@ -85,9 +83,6 @@
   overflow: visible
 
 }
-
-// generated with https://codepen.io/sosuke/pen/Pjoqqp
-// colors taken from https://github.com/orgs/community/discussions/16925
 
 .octicon-info {
   filter: invert(55%) sepia(55%) saturate(2060%) hue-rotate(191deg) brightness(99%) contrast(93%);
@@ -107,4 +102,200 @@
 
 .octicon-warning {
   filter: invert(78%) sepia(17%) saturate(5107%) hue-rotate(350deg) brightness(85%) contrast(78%);
+}
+
+@media all {
+  .page-break {
+    display: block;
+  }
+}
+
+@media print {
+  .hide-on-screen {
+    display: inline-block !important;
+  }
+
+  @page {
+    size: letter;
+    /* Top, Right, Bottom, Left */
+    margin: 0.4in 0.17in 0.4in 0.17in;
+
+    @bottom-left {
+      border-top: 1px solid #000;
+    }
+
+    @bottom-right {
+      content: "Page " counter(page) " of " counter(pages);
+      border-top: 1px solid #000;
+    }
+
+    @top-left {
+      border-bottom: 1px solid #000;
+    }
+
+    @top-right {
+      border-bottom: 1px solid #000;
+    }
+  }
+
+  @page :first {
+
+    padding: 2rem !important;
+    border: 5px double #016dda !important;
+    border-radius: 0.375rem !important;
+    box-sizing: border-box;
+    display: block;
+
+    @bottom-left {
+      color:  #fff;
+      border-color: #fff;
+    }
+
+    @bottom-right {
+      color:  #fff;
+      border-color: #fff;
+    }
+
+    @top-right {
+      color:  #fff;
+      border-color: #fff;
+    }
+
+    @top-left {
+      color:  #fff;
+      border-color: #fff;
+    }
+  }
+
+  .page-break {
+    page-break-after: always;
+    color: #fff;
+  }
+
+  .hide-on-screen {
+    display: block !important;
+  }
+
+  .no-print {
+    display: none !important;
+    /* Ensure it overrides other styles */
+  }
+}
+
+@media screen {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .content {
+    width: 960px;
+    margin: 0px auto;
+    padding: 0px;
+  }
+
+  .hide-on-screen {
+    display: none !important;
+  }
+
+}
+
+abbr,
+abbr[title] {
+  text-decoration: none !important;
+  /* Removes underline */
+  border-bottom: none !important;
+  /* Removes dotted border in some browsers */
+  cursor: default !important;
+  /* Optional: normal cursor instead of help cursor */
+}
+
+.keep-together {
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+
+.note-box,
+.tip-box,
+.caution-box,
+.important-box,
+.warning-box {
+  margin-top: 30px;
+  padding-top: 0.25rem !important;
+  padding-bottom: 0.25rem !important;
+  padding-right: 1rem !important;
+  padding-left: 1rem !important;
+  border-width: 5px !important;
+  box-shadow: var(--bs-box-shadow-sm) !important;
+  display: block;
+}
+
+.note-box::before,
+.tip-box::before,
+.caution-box::before,
+.important-box::before,
+.warning-box::before {
+  display: inline-block;
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.note-box {
+  border-left: solid $primary;
+}
+
+.note-box::before {
+  content: url("icons/note.svg") " Note:";
+  color: $primary !important;
+}
+
+.tip-box {
+  border-left: solid $success;
+}
+
+.tip-box::before {
+  content: url("icons/tip.svg") " Tip:";
+  color: $success !important;
+}
+
+.important-box {
+  border-left: solid $purple;
+}
+
+.important-box::before {
+  content: url("icons/important.svg") " Important:";
+  color: $purple !important;
+}
+
+.warning-box {
+  border-left: solid $warning;
+}
+
+.warning-box::before {
+  content: url("icons/warning.svg") " Warning:";
+  color: $warning !important;
+}
+
+.caution-box {
+  border-left: solid $danger;
+}
+
+.caution-box::before {
+  content: url("icons/caution.svg") " Caution:";
+  color: $danger !important;
+}
+
+.intense-box {
+  font-style: italic;
+  color: #1554b3;
+  padding: 5px 30px;
+  margin: 30px auto;
+  line-height: 1.6;
+
+  position: relative;
+  width: 90%;
+  border-top: #1554b3 solid 1px;
+  border-bottom: #1554b3 solid 1px;
 }
