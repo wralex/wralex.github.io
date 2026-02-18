@@ -18,6 +18,17 @@
                             {{ cert.name }} <i>({{ cert.code }})</i></a></li>{% endfor %}
                     </ul>
                 </li>
+                <li class="nav-item" id="myBooks">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        My Books
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/books/"><strong>Books</strong></a></li>{% for book in site.data.books %}
+                        <li>{% if book.url > '' %}<a class="ps-4 dropdown-item" href="{{ book.url }}">{% else %}<a class="ps-4 dropdown-item disabled" href="#">{% endif %}
+                            {{ book.name }}</a></li>{% endfor %}
+                    </ul>
+                </li>
             </ul>
             <p class="nav navbar-text"><span id="userName"></span></p>
             <a class="btn btn-sm btn-success text-light" id="loginButton" href="/login">Login</a>

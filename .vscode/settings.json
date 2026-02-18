@@ -8,6 +8,15 @@
         "/assets/libs/bootstrap-icons/dist/bootstrap-icons.min.css",
         "/assets/libs/jquery-ui\\dist/jquery-ui.min.css"
     ],
-    "codeQL.githubDatabase.download": "never",
-    "sarif-viewer.connectToGithubCodeScanning": "off"
+    "cSpell.words": [
+        "authadmin",
+        "WRAJ"
+    ],
+    "spellright.language": [
+        "en"
+    ],
+    "spellright.documentTypes": [
+        "latex",
+        "plaintext"
+    ]
 }

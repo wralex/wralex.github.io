@@ -44,12 +44,11 @@ $(() => {
                 $('#logoutButton').hide();
             }
             console.log(await getUserInfo());
-            
         })();
-
     } else {
         $('#loginButton').hide();
         $("#userOptions").hide();
+        $("#myBooks").hide();
     }
 });
 
