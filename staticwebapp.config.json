@@ -16,7 +16,7 @@
     {
       "route": "/books/*",
       "allowedRoles": [
-        "administrator"
+        "authenticated"
       ]
     },
     {
