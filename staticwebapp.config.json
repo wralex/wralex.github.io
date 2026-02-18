@@ -20,6 +20,12 @@
       ]
     },
     {
+      "route": "/.auth/*",
+      "allowedRoles": [
+        "*"
+      ]
+    },
+    {
       "route": "/images/*",
       "headers": {
         "cache-control": "must-revalidate, max-age=15770000"
