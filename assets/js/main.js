@@ -31,7 +31,10 @@ $(() => {
         block.append(button);
     });
 
-    if (getSiteURL() === 'https://gray-island-0ecb5780f.3.azurestaticapps.net') {
+    if (_.startsWith(getSiteURL(), 'https://gray-island-0ecb5780f.3.azurestaticapps.net') ||
+    _.startsWith(getSiteURL(), 'http://localhost') ||
+    _.startsWith(getSiteURL(), 'http://127.0.0.1')
+) {
         (async () => {
             const userInfo = await getUserInfo();
             if (userInfo) {

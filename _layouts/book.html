@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: " en-US" }}">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>{{ page.title }} - {{ site.title }}</title>
+  {% include headStyles.html %}
+  {% include headScripts.html %}
+</head>
+
+  <body class="container-fluid">
+    <header>
+      {% include navBar.html %}
+    </header>
+    <main>
+      <nav class="d-flex nav-pills gap-3">
+        <div class="me-auto p-2">
+          {% if page.module %}<div class="fs-4"><span class="badge text-bg-info" style="width: 200px;">Module: {{ page.module }}</span></div>{% endif %}
+          {% if page.lesson %}<div class="fs-5"><span class="badge text-bg-info" style="width: 200px;">Lesson: {{ page.lesson }}</span></div>{% endif %}
+        </div>
+        {% if page.previous %}<a class="nav-link border px-3 py-1 align-self-center" href="{{ page.previous }}">&lt; Previous</a>{% endif %}
+        {% if page.next %}<a class="nav-link border px-3 py-1 align-self-center active" href="{{ page.next }}">Next &gt;</a>{% endif %}
+      </nav>
+      {% include content.html %}
+      <nav class="d-flex nav-pills gap-3 justify-content-end">
+        {% if page.previous %}<a class="nav-link border px-3 py-1 align-self-center" href="{{ page.previous }}">&lt; Previous</a>{% endif %}
+        {% if page.next %}<a class="nav-link border px-3 py-1 align-self-center active" href="{{ page.next }}">Next &gt;</a>{% endif %}
+      </nav>
+    </main>
+    <script>
+        if (!(
+            _.startsWith(getSiteURL(), 'https://gray-island-0ecb5780f.3.azurestaticapps.net') ||
+            _.startsWith(getSiteURL(), 'http://localhost') ||
+            _.startsWith(getSiteURL(), 'http://127.0.0.1')
+        )) { window.location.replace("/") }
+    </script>
+  </body>
+</html>
