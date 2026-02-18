@@ -7,7 +7,7 @@ title: "Welcome to WRAJ"
 
 - **Use/Create a [Microsoft Azure subscription]**
 
-  All/Most excercises require a [Microsoft Azure subscription]. If you don't have one yet, you can sign up for a **[free](https://azure.microsoft.com/en-us/pricing/free-services/)** or **[pay-as-you-go](https://go.microsoft.com/fwlink/?linkid=2332614&clcid=0x409)** plan.
+  All/Most exercises require a [Microsoft Azure subscription]. If you don't have one yet, you can sign up for a **[free](https://azure.microsoft.com/en-us/pricing/free-services/)** or **[pay-as-you-go](https://go.microsoft.com/fwlink/?linkid=2332614&clcid=0x409)** plan.
 
 - **[Visual Studio Code]**
 

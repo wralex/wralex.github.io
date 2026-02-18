@@ -14,6 +14,12 @@
       ]
     },
     {
+      "route": "/books/*",
+      "allowedRoles": [
+        "administrator"
+      ]
+    },
+    {
       "route": "/images/*",
       "headers": {
         "cache-control": "must-revalidate, max-age=15770000"
