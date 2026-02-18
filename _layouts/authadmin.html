@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: " en-US" }}">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>{{ page.title }} - {{ site.title }}</title>
+  {% include headStyles.html %}
+  {% include headScripts.html %}
+</head>
+
+  <body class="container-fluid">
+    <header>
+      {% include navBar.html %}
+    </header>
+    <main>
+      {% include content.html %}
+    </main>
+    <script>
+        if (!_.startsWith(getSiteURL(), 'https://gray-island-0ecb5780f.3.azurestaticapps.net')) {
+            window.location.replace("/");
+        }
+    </script>
+  </body>
+</html>
