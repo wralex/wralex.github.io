@@ -24,7 +24,7 @@
                         My Books
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="/books/"><strong>Books</strong></a></li>{% for book in site.data.books %}
+                        <li><a class="dropdown-item" href="/books/"><strong>Books</strong></a></li>{% for book in site.data.books.list %}
                         <li>{% if book.url > '' %}<a class="ps-4 dropdown-item" href="{{ book.url }}">{% else %}<a class="ps-4 dropdown-item disabled" href="#">{% endif %}
                             {{ book.name }}</a></li>{% endfor %}
                     </ul>
