@@ -20,11 +20,13 @@
           {% if page.lesson %}<div class="fs-5"><span class="badge text-bg-info" style="width: 200px;">Lesson: {{ page.lesson }}</span></div>{% endif %}
         </div>
         {% if page.previous %}<a class="nav-link border px-3 py-1 align-self-center" href="{{ page.previous }}">&lt; Previous</a>{% endif %}
+        <a class="badge btn align-self-center px-3 py-2 text-bg-warning" role="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">TOC</a>
         {% if page.next %}<a class="nav-link border px-3 py-1 align-self-center active" href="{{ page.next }}">Next &gt;</a>{% endif %}
       </nav>
       {% include content.html %}
       <nav class="d-flex nav-pills gap-3 justify-content-end">
         {% if page.previous %}<a class="nav-link border px-3 py-1 align-self-center" href="{{ page.previous }}">&lt; Previous</a>{% endif %}
+        <a class="badge btn align-self-center px-3 py-2 text-bg-warning" role="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">TOC</a>
         {% if page.next %}<a class="nav-link border px-3 py-1 align-self-center active" href="{{ page.next }}">Next &gt;</a>{% endif %}
       </nav>
     </main>
